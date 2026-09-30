@@ -18,8 +18,27 @@ from PIL import Image, ImageFilter
 
 IMAGES_DIR = Path(__file__).resolve().parent / "images"
 PHOTO_TYPES = {".jpg", ".jpeg", ".png", ".webp"}
-MODEL = "u2net_human_seg"  # tuned for people, which is what fighter photos are
+# BiRefNet portrait: sharp edges on people, and it leaves out chairs, mics and
+# backdrop decor. Falls back to the smaller people model if it can't load.
+MODELS = ["birefnet-portrait", "u2net_human_seg"]
 FADE = 0.14  # share of the width/height used to fade a frame-chopped edge
+
+
+def keep_main_shape(a):
+    """Drop stray blobs of leftover background: keep only the biggest shape
+    (the fighter) plus anything large that touches it."""
+    import cv2
+
+    solid = (a > 0.3).astype(np.uint8)
+    count, labels, stats, _ = cv2.connectedComponentsWithStats(solid, connectivity=8)
+    if count <= 2:
+        return a
+    areas = stats[1:, cv2.CC_STAT_AREA]
+    biggest = 1 + int(areas.argmax())
+    keep = labels == biggest
+    # Grow the kept area a little so soft edges around it survive.
+    keep = cv2.dilate(keep.astype(np.uint8), np.ones((9, 9), np.uint8)) > 0
+    return a * keep
 
 
 def finish(cut):
@@ -35,6 +54,7 @@ def finish(cut):
     alpha = cut.getchannel("A").filter(ImageFilter.MinFilter(5))
     alpha = alpha.filter(ImageFilter.GaussianBlur(1.2))
     a = np.asarray(alpha, dtype=np.float32) / 255.0
+    a = keep_main_shape(a)
     h, w = a.shape
 
     def ramp(n):  # 0 at the border rising smoothly to 1
@@ -109,7 +129,16 @@ def main():
         return
     from rembg import new_session
 
-    session = new_session(MODEL)
+    session = None
+    for model in MODELS:
+        try:
+            session = new_session(model)
+            print(f"Using background-removal model: {model}")
+            break
+        except Exception as exc:
+            print(f"  could not load {model}: {exc}", file=sys.stderr)
+    if session is None:
+        sys.exit("No background-removal model could be loaded.")
     total = sum(cut_folder(f, session) for f in folders)
     print(f"Done: {total} new cutout(s).")
 

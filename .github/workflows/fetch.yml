@@ -50,7 +50,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.u2net
-          key: rembg-u2net-human-seg
+          key: rembg-birefnet-portrait-v1
 
       - name: Make fighter cutouts
         run: |
