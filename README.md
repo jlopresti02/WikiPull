@@ -41,3 +41,10 @@ These licenses let you reuse the photos, including commercially, but most
 require **credit to the photographer** (see `credits.md`), and CC BY-SA
 also asks that edited versions be shared under the same license. A small
 "Photo: Name / CC BY-SA 4.0" line on the post or in the caption covers it.
+
+## Cutouts
+
+Every run also removes the background from each photo and saves a
+transparent PNG in `images/<name>/cutouts/`, cropped to the fighter and
+ready for the post template. (Uses `rembg`; the first run downloads its
+model, later runs reuse a cached copy.)
