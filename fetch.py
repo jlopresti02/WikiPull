@@ -19,6 +19,7 @@ import json
 import re
 import sys
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -125,23 +126,47 @@ def usable(page):
     return bool(FREE_LICENSE.search(meta(info, "LicenseShortName")))
 
 
+def plain(text):
+    """Lowercase and drop accents, so 'José' matches 'Jose'."""
+    text = unicodedata.normalize("NFKD", text.lower())
+    return "".join(ch for ch in text if not unicodedata.combining(ch))
+
+
+def title_matches(page, query):
+    """True when every word of the search appears in the file name.
+
+    Commons search also matches descriptions, so a photo of a different
+    fighter that merely mentions this one would otherwise slip in.
+    """
+    title = plain(page["title"])
+    return all(word in title for word in re.findall(r"\w+", plain(query)))
+
+
 def fetch(query, count):
     print(f"Searching Wikimedia Commons for: {query}")
-    candidates = []
+    main_images = []
     try:
-        candidates += file_info(wikidata_main_image(query))
+        main_images = file_info(wikidata_main_image(query))
     except Exception as exc:
         print(f"  Wikidata lookup skipped: {exc}", file=sys.stderr)
-    candidates += commons_search(query)
+    search_results = commons_search(query)
+
+    # The Wikipedia main photo is trusted; other results must name the subject.
+    strict = main_images + [p for p in search_results if title_matches(p, query)]
+    loose = main_images + search_results
 
     picked, seen = [], set()
-    for page in candidates:
-        if page["title"] in seen or not usable(page):
-            continue
-        seen.add(page["title"])
-        picked.append(page)
-        if len(picked) == count:
-            break
+    for candidates in (strict, loose):
+        for page in candidates:
+            if page["title"] in seen or not usable(page):
+                continue
+            seen.add(page["title"])
+            picked.append(page)
+            if len(picked) == count:
+                break
+        if picked:
+            break  # only fall back to loose matches when strict found nothing
+        print("  No file names matched; falling back to looser results.")
 
     if not picked:
         print("  No openly licensed images found.")
@@ -149,6 +174,9 @@ def fetch(query, count):
 
     folder = IMAGES_DIR / slugify(query)
     folder.mkdir(parents=True, exist_ok=True)
+    for old in folder.iterdir():  # a rerun replaces the previous set
+        if old.is_file():
+            old.unlink()
     credits = []
     for n, page in enumerate(picked, 1):
         info = page["imageinfo"][0]
@@ -156,9 +184,8 @@ def fetch(query, count):
         ext = Path(urllib.parse.urlparse(url).path).suffix.lower() or ".jpg"
         name = f"{n:02d}-{slugify(page['title'].removeprefix('File:').rsplit('.', 1)[0])[:60]}{ext}"
         dest = folder / name
-        if not dest.exists():
-            download(url, dest)
-            time.sleep(0.5)  # be polite to Wikimedia's servers
+        download(url, dest)
+        time.sleep(0.5)  # be polite to Wikimedia's servers
         credits.append({
             "file": name,
             "title": page["title"],
