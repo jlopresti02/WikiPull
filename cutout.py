@@ -13,15 +13,66 @@ onto the MMA news post template. Needs: pip install "rembg[cpu]"
 import sys
 from pathlib import Path
 
-from PIL import Image
-from rembg import new_session, remove
+import numpy as np
+from PIL import Image, ImageFilter
 
 IMAGES_DIR = Path(__file__).resolve().parent / "images"
 PHOTO_TYPES = {".jpg", ".jpeg", ".png", ".webp"}
 MODEL = "u2net_human_seg"  # tuned for people, which is what fighter photos are
+FADE = 0.14  # share of the width/height used to fade a frame-chopped edge
+
+
+def finish(cut):
+    """Clean up a raw cutout so it sits naturally on a solid background.
+
+    1. Shrink the mask slightly and soften it, which removes the thin halo of
+       the old background (e.g. a blue fringe) around hair, ears and shoulders.
+    2. Where the fighter ran into the photo's left, right or top border, the
+       body ends in a hard straight line. Fade those edges out instead. The
+       bottom edge is left alone: it sits on the bottom of the post.
+    """
+    cut = cut.convert("RGBA")
+    alpha = cut.getchannel("A").filter(ImageFilter.MinFilter(5))
+    alpha = alpha.filter(ImageFilter.GaussianBlur(1.2))
+    a = np.asarray(alpha, dtype=np.float32) / 255.0
+    h, w = a.shape
+
+    def ramp(n):  # 0 at the border rising smoothly to 1
+        t = np.linspace(0.0, 1.0, n, dtype=np.float32)
+        return t * t * (3 - 2 * t)
+
+    for side in ("left", "right", "top"):
+        edge = {"left": a[:, 0], "right": a[:, -1], "top": a[0, :]}[side]
+        touching = np.where(edge > 0.5)[0]
+        if len(touching) < 8:
+            continue  # subject doesn't meaningfully touch this border
+        if side == "top":
+            n = max(8, int(h * FADE))
+            a[:n, :] *= ramp(n)[:, None]
+            continue
+        n = max(8, int(w * FADE))
+        # Only fade the rows near and below where the body hits the border,
+        # easing in over n rows so the fade doesn't start with a hard line.
+        mask_rows = np.zeros(h, dtype=np.float32)
+        start = touching.min()
+        mask_rows[start:] = 1.0
+        lead = min(n, start)
+        if lead:
+            mask_rows[start - lead:start] = ramp(lead)
+        cols = 1.0 - (1.0 - ramp(n))[None, :] * mask_rows[:, None]
+        if side == "left":
+            a[:, :n] *= cols
+        else:
+            a[:, -n:] *= cols[:, ::-1]
+
+    cut.putalpha(Image.fromarray((a * 255).clip(0, 255).astype(np.uint8)))
+    box = cut.getbbox()
+    return cut.crop(box) if box else cut
 
 
 def cut_folder(folder, session):
+    from rembg import remove
+
     out_dir = folder / "cutouts"
     photos = sorted(p for p in folder.iterdir() if p.suffix.lower() in PHOTO_TYPES)
     if not photos:
@@ -34,9 +85,7 @@ def cut_folder(folder, session):
             continue  # already cut, and the photo hasn't changed since
         with Image.open(photo) as im:
             result = remove(im.convert("RGB"), session=session, post_process_mask=True)
-        box = result.getbbox()  # crop away the empty transparent margin
-        if box:
-            result = result.crop(box)
+        result = finish(result)  # still photo-sized here, so real borders are detected
         result.save(dest)
         made += 1
         print(f"  cutout {dest.relative_to(IMAGES_DIR.parent)}")
@@ -58,6 +107,8 @@ def main():
     if not folders:
         print("No image folders to process.")
         return
+    from rembg import new_session
+
     session = new_session(MODEL)
     total = sum(cut_folder(f, session) for f in folders)
     print(f"Done: {total} new cutout(s).")

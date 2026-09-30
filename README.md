@@ -46,5 +46,5 @@ also asks that edited versions be shared under the same license. A small
 
 Every run also removes the background from each photo and saves a
 transparent PNG in `images/<name>/cutouts/`, cropped to the fighter and
-ready for the post template. (Uses `rembg`; the first run downloads its
+ready for the post template. (Uses `rembg`, then trims the old background's halo and fades any edge where the photo's frame cut the fighter off; the first run downloads its
 model, later runs reuse a cached copy.)
