@@ -35,7 +35,9 @@ jobs:
         run: pip install --quiet "rembg[cpu]" pillow numpy
 
       - name: Make posts
-        run: python make_posts.py
+        run: |
+          set -o pipefail
+          python make_posts.py 2>&1 | tee posts/make-posts-log.txt
 
       - name: Commit posts
         if: always()

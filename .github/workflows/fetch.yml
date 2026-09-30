@@ -55,15 +55,17 @@ jobs:
       - name: Make fighter cutouts
         run: |
           pip install --quiet "rembg[cpu]"
-          python cutout.py
+          set -o pipefail
+          python cutout.py 2>&1 | tee cutout-log.txt
 
       - name: Commit images
+        if: always()
         env:
           QUERY: ${{ inputs.query || 'queue' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add images queue.txt
+          git add images queue.txt cutout-log.txt
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
             exit 0

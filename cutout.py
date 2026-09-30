@@ -11,6 +11,7 @@ onto the MMA news post template. Needs: pip install "rembg[cpu]"
 """
 
 import sys
+import traceback
 from pathlib import Path
 
 import numpy as np
@@ -103,10 +104,16 @@ def cut_folder(folder, session):
         dest = out_dir / (photo.stem + ".png")
         if dest.exists() and dest.stat().st_mtime >= photo.stat().st_mtime:
             continue  # already cut, and the photo hasn't changed since
-        with Image.open(photo) as im:
-            result = remove(im.convert("RGB"), session=session, post_process_mask=True)
-        result = finish(result)  # still photo-sized here, so real borders are detected
-        result.save(dest)
+        try:
+            with Image.open(photo) as im:
+                result = remove(im.convert("RGB"), session=session, post_process_mask=True)
+            result = finish(result)  # still photo-sized here, so real borders are detected
+            result.save(dest)
+        except Exception:
+            # One bad photo shouldn't stop the rest; the log says what went wrong.
+            print(f"  FAILED {photo.name}:", file=sys.stderr)
+            traceback.print_exc()
+            continue
         made += 1
         print(f"  cutout {dest.relative_to(IMAGES_DIR.parent)}")
     # Drop cutouts whose source photo is gone (e.g. after a refetch).
