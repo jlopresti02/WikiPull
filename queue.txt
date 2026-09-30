@@ -1,0 +1,1 @@
+# One search per line. Lines are cleared after each run.

@@ -1,0 +1,62 @@
+name: Fetch images
+
+on:
+  # Run by hand from the Actions tab (works in the GitHub mobile app too)
+  workflow_dispatch:
+    inputs:
+      query:
+        description: "What to search for (e.g. a fighter's name)"
+        required: true
+      count:
+        description: "How many images"
+        required: false
+        default: "5"
+  # Or add names to queue.txt and push: each line gets fetched, then the queue is cleared
+  push:
+    paths:
+      - queue.txt
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-images
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch from manual run
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          QUERY: ${{ inputs.query }}
+          COUNT: ${{ inputs.count }}
+        run: python fetch.py "$QUERY" --count "${COUNT:-5}"
+
+      - name: Fetch from queue.txt
+        if: github.event_name == 'push'
+        run: |
+          python fetch.py --queue queue.txt
+          printf '# One search per line. Lines are cleared after each run.\n' > queue.txt
+
+      - name: Commit images
+        env:
+          QUERY: ${{ inputs.query || 'queue' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add images queue.txt
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Fetch images: $QUERY"
+          git pull --rebase
+          git push
