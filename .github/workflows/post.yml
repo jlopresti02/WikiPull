@@ -32,7 +32,7 @@ jobs:
           key: rembg-birefnet-portrait-v1
 
       - name: Install tools
-        run: pip install --quiet "rembg[cpu]" pillow numpy
+        run: pip install --quiet "rembg[cpu]" opencv-python-headless pillow numpy
 
       - name: Make posts
         run: |

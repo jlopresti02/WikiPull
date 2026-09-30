@@ -54,7 +54,7 @@ jobs:
 
       - name: Make fighter cutouts
         run: |
-          pip install --quiet "rembg[cpu]"
+          pip install --quiet "rembg[cpu]" opencv-python-headless
           set -o pipefail
           python cutout.py 2>&1 | tee cutout-log.txt
 
