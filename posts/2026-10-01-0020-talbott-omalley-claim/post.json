@@ -1,6 +1,6 @@
 {
   "story_id": "talbott-omalley-white-house-claim",
-  "headline": "Talbott's Claim",
+  "headline": "O'Malley Fight?",
   "visual": [
     {
       "type": "fighter",
@@ -36,5 +36,13 @@
     "MMA Mania"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png",
+    "credit": "Musicmakestheworldgoround / CC0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
