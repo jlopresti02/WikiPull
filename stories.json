@@ -25,7 +25,11 @@
    "posts": [
     {
      "post": "2026-10-01-0720-covington-wants-strickland",
-     "kind": "new"
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Colby Covington)",
+     "scheduled_for": "2026-10-01T07:42:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1060153238731246958"
     }
    ]
   },
