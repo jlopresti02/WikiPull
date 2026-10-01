@@ -25,5 +25,14 @@
     "MMA News"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "graphic",
+    "graphic": "mystery",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }
