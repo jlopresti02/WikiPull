@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01-sport-is-cool.mp3",
+    "title": "Sport Is cool",
+    "artist": "Marco Margna",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/1121439",
+    "provider": "jamendo",
+    "seconds": 179,
+    "best_start": 160.5
+  },
+  {
+    "file": "02-professional-sports-require-passionate-supporters.mp3",
+    "title": "Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件",
+    "artist": "Ambient Samurai - Ichiro NAKAGAWA",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://www.jamendo.com/track/653424",
+    "provider": "jamendo",
+    "seconds": 224,
+    "best_start": 164.75
+  },
+  {
+    "file": "03-blood-sport-war.mp3",
+    "title": "Blood Sport War",
+    "artist": "Nothing, I Know",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0/",
+    "source": "https://www.jamendo.com/track/420687",
+    "provider": "jamendo",
+    "seconds": 21,
+    "best_start": 8.5
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01-intro-a-new-song.mp3",
+    "title": "Intro - A new song",
+    "artist": "M Productions",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/322709",
+    "provider": "jamendo",
+    "seconds": 67,
+    "best_start": 22.25
+  },
+  {
+    "file": "02-a-new-dawn-intro.mp3",
+    "title": "A New Dawn (Intro)",
+    "artist": "Eden Prayer",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/755726",
+    "provider": "jamendo",
+    "seconds": 125,
+    "best_start": 108.75
+  },
+  {
+    "file": "03-channeling-power-into-a-new-dimension-intro.mp3",
+    "title": "Channeling Power Into A New Dimension (Intro)",
+    "artist": "Dark Light",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/1005820",
+    "provider": "jamendo",
+    "seconds": 239,
+    "best_start": 168.5
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "file": "01-crystals.mp3",
+    "title": "Crystals",
+    "artist": "Professor Kliq",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/925495",
+    "provider": "jamendo",
+    "seconds": 323,
+    "best_start": 164.0
+  },
+  {
+    "file": "02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+    "title": "Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!",
+    "artist": "Jet Peks",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/725206",
+    "provider": "jamendo",
+    "seconds": 317,
+    "best_start": 156.25
+  },
+  {
+    "file": "03-acrobat.mp3",
+    "title": "Acrobat",
+    "artist": "Howard M. Branson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://www.jamendo.com/track/541616",
+    "provider": "jamendo",
+    "seconds": 199,
+    "best_start": 158.75
+  }
+]
