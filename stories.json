@@ -2,6 +2,65 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "rogan-oblique-kick-ban",
+      "title": "Joe Rogan says oblique kicks to the knee should be banned (JRE MMA Show #186)",
+      "people": [
+        "Joe Rogan",
+        "Sean Sharaf",
+        "Andy Foster",
+        "Jon Jones"
+      ],
+      "event": "Oblique kick ban debate (related: sterling-vs-oblique-kick-ban)",
+      "first_reported": "2026-10-01",
+      "facts": [
+        "On JRE MMA Show #186 with Sean Sharaf, Rogan argued oblique/side kicks to the knee should be banned, comparing them to eye pokes (permanent damage, can't tap out)",
+        "Rogan cited Jon Jones vs. Thiago Santos and Rampage Jackson; Sharaf was more ambivalent, calling it realistic fighting",
+        "CSAC's Andy Foster raised a possible ban under the Unified Rules after UFC 331 (Sep 2026); Dana White said the UFC doesn't disagree"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/01/joe-rogan-provides-verdict-on-ufc-exploring-ban-for-controversial-oblique-kick/",
+        "https://finance.biggo.com/podcast/7d2b34d4db7e410d",
+        "https://mmasucka.com/news/dana-white-clears-ufcs-stance-on-csac-chiefs-motive-for-banning-oblique-kicks/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-01-1731-rogan-ban-oblique-kicks",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "hokit-pereira-witchcraft-claims",
+      "title": "Josh Hokit revives 'witchcraft' claims about Alex Pereira ahead of UFC 334",
+      "people": [
+        "Josh Hokit",
+        "Alex Pereira",
+        "Ciryl Gane",
+        "Jiri Prochazka"
+      ],
+      "event": "UFC 334: Gane vs. Hokit, November 14, 2026, Madison Square Garden, New York",
+      "first_reported": "2026-10-01",
+      "facts": [
+        "On the Believe Me You podcast (clip circulated Oct 1), Hokit claimed Pereira's 'Chama' chant is shaman witchcraft and insulted Pereira",
+        "Similar to Prochazka's claims before UFC 295/303; Pereira's camp says he doesn't practice witchcraft; 'Chama' roughly means 'let's go'",
+        "Hokit (10-0) faces Ciryl Gane for the heavyweight title at UFC 334; wants Pereira next",
+        "Pereira's next fight to be revealed by Dana White on the UFC 332 Kick stream (Oct 3)"
+      ],
+      "sources": [
+        "https://nyfights.com/featured/josh-hokit-alex-pereira-witchcraft-ufc-334/",
+        "https://bloodyelbow.com/2026/10/01/josh-hokit-shares-bizarre-theory-of-alex-pereira-which-was-brought-up-by-his-former-foe/",
+        "https://www.lowkickmma.com/josh-hokit-call-out-alex-pereira-witchcraft-jon-jones/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-01-1730-hokit-pereira-witchcraft",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "gordon-vs-costa-ufc-334",
       "title": "Jared Gordon vs. Melquizael Costa added to UFC 334 at lightweight (Nov 14, MSG)",
       "people": [
