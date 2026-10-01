@@ -1,0 +1,27 @@
+{
+  "headline": "Garden Night",
+  "visual": [
+    {
+      "type": "venue",
+      "name": "Madison Square Garden"
+    }
+  ],
+  "caption": "Test.",
+  "sources": [
+    "Test"
+  ],
+  "hashtags": [
+    "MMA"
+  ],
+  "music_pool": "espn",
+  "color": "#1f3fbf",
+  "subject": {
+    "kind": "card",
+    "image": "images/madison-square-garden/01-madison-square-garden-msg-full-48124330357.jpg",
+    "credit": "Ajay Suresh from New York, NY, USA / CC BY 2.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75,
+  "reel": true
+}

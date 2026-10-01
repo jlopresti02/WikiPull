@@ -1,1 +1,22 @@
-Queue is empty.
+Looking up the flag of: Qatar
+  saved images/flag-qatar/01-flag-of-qatar.png  [Public domain]
+Done: 1 image(s) saved.
+Searching Wikimedia Commons for: Madison Square Garden
+  saved images/madison-square-garden/01-madison-square-garden-msg-full-48124330357.jpg  [CC BY 2.0]
+  saved images/madison-square-garden/02-madison-square-garden-1941-postcard.jpg  [Public domain]
+  saved images/madison-square-garden/03-madison-square-garden-1890-2.jpg  [Public domain]
+Done: 3 image(s) saved.
+
+== zz-test-flag.json
+$ fetch.py Qatar --count 1 --flag
+Image: {'type': 'flag', 'country': 'Qatar'} -> card images/flag-qatar/01-flag-of-qatar.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/zz-test-flag/post.png (card)
+Rendered posts/zz-test-flag/reel.mp4
+
+== zz-test-venue.json
+$ fetch.py Madison Square Garden --count 3
+Image: {'type': 'venue', 'name': 'Madison Square Garden'} -> card images/madison-square-garden/01-madison-square-garden-msg-full-48124330357.jpg
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/zz-test-venue/post.png (card)
+Rendered posts/zz-test-venue/reel.mp4
