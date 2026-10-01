@@ -24,7 +24,11 @@
       "posts": [
         {
           "post": "2026-09-30-2207-mcghee-new-foe",
-          "kind": "new"
+          "kind": "new",
+          "format": "reel",
+          "image": "venue (Delta Center)",
+          "scheduled_for": "2026-09-30T22:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8767552402375425405"
         }
       ]
     },
