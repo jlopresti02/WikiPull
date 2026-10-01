@@ -25,7 +25,10 @@
         {
           "post": "2026-09-30-2320-sterling-one-hour",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Aljamain Sterling)",
+          "scheduled_for": "2026-09-30T23:35:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3643654017973112533"
         }
       ]
     },
