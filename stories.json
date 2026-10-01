@@ -2,18 +2,45 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "silva-dismisses-critics-wang-toughest-fight",
+   "title": "Nat\u00e1lia Silva shrugs off UFC 332 critics, calls Wang Cong her toughest fight",
+   "people": [
+    "Nat\u00e1lia Silva",
+    "Wang Cong"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Silva told MMA Junkie the criticism of UFC 332 doesn't matter to her; people have doubted her all her life",
+    "She says Wang Cong will be her toughest fight",
+    "Silva: 20-5-1, 8-0 UFC, 14-fight win streak incl. Alexa Grasso and Rose Namajunas",
+    "Wang: 10-1, 5-1 UFC; vacant flyweight title after Shevchenko vacated"
+   ],
+   "sources": [
+    "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/01/ufc-332-natalia-silva-dismisses-critics-toughest-fight-vs-wang-cong-women-mma-flyweight-title/92034920007/",
+    "https://sports.yahoo.com/articles/natalia-silva-unfazed-ufc-332-125017504.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1420-silva-toughest-fight",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
    "id": "wang-cong-no-need-to-beat-shevchenko",
    "title": "Wang Cong says she doesn't need to beat Valentina Shevchenko to be the real flyweight champion",
    "people": [
     "Wang Cong",
-    "Natália Silva",
+    "Nat\u00e1lia Silva",
     "Valentina Shevchenko"
    ],
    "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
    "first_reported": "2026-10-01",
    "facts": [
     "Wang told MMA Junkie she doesn't need to beat Shevchenko to feel like the real flyweight champion",
-    "Wang faces No. 1 contender Natália Silva for the vacant women's flyweight title in the UFC 332 main event",
+    "Wang faces No. 1 contender Nat\u00e1lia Silva for the vacant women's flyweight title in the UFC 332 main event",
     "Shevchenko vacated the title due to injury in September (ESPN)",
     "Wang: former kickboxer, 10-1, four-fight win streak"
    ],
@@ -27,7 +54,7 @@
      "post": "2026-10-01-1320-wang-cong-real-champ",
      "kind": "new",
      "format": "reel",
-     "image": "fighter photo (Natália Silva; no Wang Cong photo)",
+     "image": "fighter photo (Nat\u00e1lia Silva; no Wang Cong photo)",
      "scheduled_for": "2026-10-01T13:54:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4457383064935091241"
     }
