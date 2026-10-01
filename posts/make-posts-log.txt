@@ -1,23 +1,4 @@
-Searching Wikimedia Commons for: Colby Covington
-  saved images/colby-covington/01-colby-covington-2023.jpg  [CC BY-SA 2.0]
-  saved images/colby-covington/02-colby-covington-53064482687.jpg  [CC BY-SA 2.0]
-  saved images/colby-covington/03-colby-covington-with-attendees-53065443570.jpg  [CC BY-SA 2.0]
-  saved images/colby-covington/04-colby-covington-53065234294.jpg  [CC BY-SA 2.0]
-  saved images/colby-covington/05-colbycovingtonmarinecorpsmartialartsinstructors2019.jpg  [CC0]
-Done: 5 image(s) saved.
-[0;93m2026-10-01 11:20:27.637360953 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/colby-covington/cutouts/01-colby-covington-2023.png
-  cutout images/colby-covington/cutouts/02-colby-covington-53064482687.png
-  cutout images/colby-covington/cutouts/03-colby-covington-with-attendees-53065443570.png
-  cutout images/colby-covington/cutouts/04-colby-covington-53065234294.png
-  cutout images/colby-covington/cutouts/05-colbycovingtonmarinecorpsmartialartsinstructors2019.png
-Done: 5 new cutout(s).
 
 == 2026-10-01-0720-covington-wants-strickland.json
-$ fetch.py Colby Covington --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/colby-covington
-Image: {'type': 'fighter', 'name': 'Colby Covington'} -> fighter images/colby-covington/cutouts/01-colby-covington-2023.png  headline: Colby Calls Out Strickland
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-!! 2026-10-01-0720-covington-wants-strickland.json not rendered: 2026-10-01-0720-covington-wants-strickland.json: headline must be 1 to 3 words
-1 post(s) failed; they stay in posts/queue/.
+Rendered posts/2026-10-01-0720-covington-wants-strickland/post.png (fighter)
+Rendered posts/2026-10-01-0720-covington-wants-strickland/reel.mp4
