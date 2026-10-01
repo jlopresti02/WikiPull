@@ -26,7 +26,10 @@
         {
           "post": "2026-10-01-1620-rousey-replace-white",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Ronda Rousey)",
+          "scheduled_for": "2026-10-01T16:39:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4699196830764256876"
         }
       ]
     },
