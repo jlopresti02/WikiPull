@@ -2,6 +2,62 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "barcelos-discharged-after-rosas-fight",
+   "title": "Raoni Barcelos discharged from hospital after losing consciousness vs. Raul Rosas Jr.; Dana White says he's doing well",
+   "people": [
+    "Raoni Barcelos",
+    "Raul Rosas Jr.",
+    "Dana White"
+   ],
+   "event": "UFC Fight Night (UFC Vegas 121), late Sept 2026",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Barcelos (39) lost consciousness on the canvas in Round 5 vs. Raul Rosas Jr. after a takedown, stretchered out; medical stoppage loss",
+    "Hospitalized 3 days, then discharged; thanked fans on social media",
+    "Dana White: he's up walking and talking; six doctors and three ambulances were on site; not thinking about his fighting future"
+   ],
+   "sources": [
+    "https://www.cbssports.com/ufc/news/raoni-barcelos-released-hospital-ufc-fight-night-incident/",
+    "https://www.mmanews.com/article/raoni-barcelos-released-hospital-dana-white-update"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0820-barcelos-discharged",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "sterling-vs-oblique-kick-ban",
+   "title": "Aljamain Sterling opposes CSAC's Andy Foster's proposal to ban oblique kicks",
+   "people": [
+    "Aljamain Sterling",
+    "Andy Foster",
+    "Thiago Santos",
+    "Dana White"
+   ],
+   "event": "Unified Rules debate after UFC 331",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Andy Foster (CSAC) proposed banning oblique kicks to the knee under the Unified Rules after UFC 331",
+    "Sterling, on Ariel Helwani's show: enforce existing rules first; CTE risk from head strikes is the bigger issue",
+    "Thiago Santos also opposes a ban; Dana White said the UFC doesn't disagree with Foster's concerns",
+    "Sterling faces Kevin Vallejos at UFC Qatar, Nov 21"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/morning-report-aljamain-sterling-responds-120000349.html",
+    "https://www.yardbarker.com/mma/articles/refs_want_to_watch_a_mrder_scene_aljamain_sterling_rips_ufcs_bid_to_ban_controversial_move/s1_17730_44371312"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0821-sterling-oblique-kicks",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
    "id": "covington-strickland-raf-callout",
    "title": "Colby Covington says he'll wrestle Sean Strickland at any weight at RAF Las Vegas (Oct 23), disputing report he turned the match down",
    "people": [

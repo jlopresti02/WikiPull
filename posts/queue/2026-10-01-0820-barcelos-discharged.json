@@ -1,0 +1,15 @@
+{
+  "story_id": "barcelos-discharged-after-rosas-fight",
+  "headline": "Barcelos Home",
+  "visual": [
+    {"type": "fighter", "name": "Raoni Barcelos"},
+    {"type": "mystery", "headline": "Barcelos Update"},
+    {"type": "flag", "country": "Brazil"}
+  ],
+  "color": "#0f8a5f",
+  "caption": "Good news on Raoni Barcelos: the UFC bantamweight is out of the hospital and back with his family.\n\nBarcelos, 39, lost consciousness on the canvas in the fifth round of his UFC Fight Night bout with Raul Rosas Jr. and was taken out on a stretcher. He spent three days in the hospital before being discharged, and he thanked fans for their support on social media.\n\nUFC CEO Dana White said Barcelos is up, walking and talking, and that his fighting future isn't even a conversation right now. His health comes first. 🙏\n\nSend Raoni some love in the comments.",
+  "hashtags": ["MMANews", "UFC", "UFCNews", "RaoniBarcelos", "RaulRosasJr"],
+  "sources": ["CBS Sports", "MMA News"],
+  "music_pool": "espn",
+  "reel": true
+}
