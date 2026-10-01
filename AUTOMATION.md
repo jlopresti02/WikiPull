@@ -46,8 +46,9 @@ For each story from the sweep, compare it with `stories.json`:
   update.
 
 Rules:
-- At most **3 posts per run**, the most newsworthy first. Instagram treats
-  bursts of posts as spam, and it spreads your reach.
+- Post every story that qualifies, but **never more than 3 in one time
+  block** (see step 6). Extra posts wait for later blocks; they are not
+  dropped. Order them most newsworthy first.
 - Only post what a reputable outlet or official source reports. A rumor can
   be posted only if clearly worded as a report ("reportedly", "per ESPN").
 - No posts that mock or sensationalize serious injuries, deaths, arrests or
@@ -139,10 +140,23 @@ For each finished post, schedule it with Metricool `createScheduledPost`:
   `https://raw.githubusercontent.com/jlopresti02/WikiPull/<commit sha>/posts/<name>/reel.mp4`
 - `videoThumbnailUrl`: the same for `posts/<name>/cover.png`.
 - `text`: the exact contents of `posts/<name>/caption.txt`.
-- `date` / `publicationDate`: **10 minutes from now** (America/New_York).
-  With several posts, space them 2 minutes apart; every post must be
-  scheduled within 15 minutes of when it was made.
 - `autoPublish` true.
+
+**When to schedule (time blocks):** a time block is a 10-minute window,
+and it holds at most 3 posts, spaced 2 minutes apart.
+
+1. First call Metricool `getScheduledPosts` (brand 7159326, from now to 6
+   hours ahead, America/New_York) to see what is already waiting to go out,
+   including overflow from earlier runs. Never put a 4th post in a block
+   that already has 3.
+2. The first block starts **10 minutes from now**, so new posts go out
+   within 15 minutes of being made whenever there's room.
+3. Fill that block with up to 3 posts (at +0, +2 and +4 minutes in the
+   block). If more posts remain, start the next block 10 minutes after the
+   previous one, and repeat until every post has a time.
+4. If the blocks run into the next hour, keep going: later runs read the
+   Metricool schedule in step 1 and place their own posts after these, so
+   nothing collides and nothing is dropped.
 
 Then add `"scheduled_for"` and the Metricool `plannerUrl` to the post's
 entry in `stories.json`, commit and push.
@@ -150,5 +164,5 @@ entry in `stories.json`, commit and push.
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
-which image type was used), which stories were skipped as repeats, and any
-failures. If there were no posts, say so in one line.
+which image type was used), any that were pushed to later blocks, which
+stories were skipped as repeats, and any failures. If there were no posts, say so in one line.
