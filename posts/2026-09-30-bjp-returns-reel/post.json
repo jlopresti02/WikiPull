@@ -8,6 +8,10 @@
   ],
   "color": "#d2202f",
   "photo": 1,
+  "music_search": "epic hip hop",
+  "music": "music/epic-hip-hop/01-epic-hip-hop.mp3",
+  "music_credit": "\"Epic Hip-Hop\" by Soundrider/Dope / CC BY 3.0",
+  "music_start": 115.25,
   "reel": true,
   "photo_file": "01-jiriprochazka2022.png"
 }

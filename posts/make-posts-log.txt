@@ -1,38 +1,9 @@
-  retrying after error: HTTP Error 401: Unauthorized
-  retrying after error: HTTP Error 401: Unauthorized
 Searching Openverse music for: epic hip hop
-Traceback (most recent call last):
-  File "/home/runner/work/WikiPull/WikiPull/music.py", line 164, in <module>
-    main()
-  File "/home/runner/work/WikiPull/WikiPull/music.py", line 160, in main
-    print(f"Done: {fetch(args.query.strip(), args.count)} track(s) saved.")
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/WikiPull/WikiPull/music.py", line 100, in fetch
-    results = get_json(API + "?" + urllib.parse.urlencode(params)).get("results", [])
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/WikiPull/WikiPull/music.py", line 48, in get_json
-    with urllib.request.urlopen(req, timeout=30) as resp:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
-    return opener.open(url, data, timeout)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py", line 521, in open
-    response = meth(req, response)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py", line 630, in http_response
-    response = self.parent.error(
-               ^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py", line 559, in error
-    return self._call_chain(*args)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
-    result = func(*args)
-             ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
-    raise HTTPError(req.full_url, code, msg, hdrs, fp)
-urllib.error.HTTPError: HTTP Error 401: Unauthorized
+  saved music/epic-hip-hop/01-epic-hip-hop.mp3  [CC BY 3.0]  hook at 115.25s
+Done: 1 track(s) saved.
 
 == 2026-09-30-bjp-returns-reel.json
 $ music.py epic hip hop --count 3
-!! 2026-09-30-bjp-returns-reel.json not rendered: Command '['/opt/hostedtoolcache/Python/3.12.14/x64/bin/python', 'music.py', 'epic hip hop', '--count', '3']' returned non-zero exit status 1.
-1 post(s) failed; they stay in posts/queue/.
+Music: music/epic-hip-hop/01-epic-hip-hop.mp3 from 115.25s
+Rendered posts/2026-09-30-bjp-returns-reel/post.png
+Rendered posts/2026-09-30-bjp-returns-reel/reel.mp4
