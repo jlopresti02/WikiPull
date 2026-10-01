@@ -11,6 +11,6 @@ Done: 1 image(s) saved.
 $ fetch.py Marcus McGhee --count 5
 $ fetch.py United States --count 1 --flag
 Image: {'type': 'flag', 'country': 'United States'} -> card images/flag-united-states/01-flag-of-the-united-states-1822-1836.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
 Rendered posts/2026-09-30-2207-mcghee-new-foe/post.png (card)
 Rendered posts/2026-09-30-2207-mcghee-new-foe/reel.mp4
