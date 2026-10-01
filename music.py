@@ -161,10 +161,22 @@ def fetch(query, count):
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("query", help="what kind of music, e.g. 'epic hip hop'")
-    ap.add_argument("--count", type=int, default=3, help="tracks to keep (default 3)")
+    ap.add_argument("query", help="what kind of music, e.g. 'epic hip hop'; "
+                                  "separate several searches with ';'")
+    ap.add_argument("--count", type=int, default=3, help="tracks to keep per search (default 3)")
     args = ap.parse_args()
-    print(f"Done: {fetch(args.query.strip(), args.count)} track(s) saved.")
+    queries = [q.strip() for q in args.query.split(";") if q.strip()]
+    total = 0
+    for i, q in enumerate(queries):
+        if i:
+            time.sleep(4)  # stay well under Openverse's anonymous rate limit
+        try:
+            total += fetch(q, args.count)
+        except Exception as exc:
+            print(f"  search '{q}' failed: {exc}", file=sys.stderr)
+    print(f"Done: {total} track(s) saved.")
+    if not total:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
