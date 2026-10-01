@@ -1,95 +1,153 @@
 {
-  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
-  "stories": [
+ "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
+ "stories": [
+  {
+   "id": "talbott-omalley-white-house-claim",
+   "title": "Payton Talbott says a Sean O'Malley fight was in the works for UFC Freedom 250 (White House) before falling through; faces Figueiredo at UFC 332",
+   "people": [
+    "Payton Talbott",
+    "Sean O'Malley",
+    "Deiveson Figueiredo"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Talbott said on his YouTube channel he was supposed to fight O'Malley at UFC Freedom 250 in June",
+    "Several planned opponents fell through, citing injuries; Talbott questioned whether it was the UFC or fighters being scared",
+    "Broken feet also kept Talbott sidelined",
+    "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/payton-talbott-sean-omalley-was-discussed/",
+    "https://www.si.com/fannation/mma/news/ufc-332-star-sean-omalley-avoided-ufc-fight-house-fight-payton-talbott",
+    "https://www.mmanews.com/article/ufc-332s-payton-talbott-claims-he-was-expected-to-fight-former-champion-at-white-house",
+    "https://www.mmamania.com/latest-news/475780/payton-talbott-vs-sean-omalley-ufc-331s-talbott-explains-how-plague-of-broken-feet-stranded-him-on-sidelines"
+   ],
+   "posts": [
     {
-      "id": "sterling-vs-vallejos-ufc-qatar",
-      "title": "Aljamain Sterling vs. Kevin Vallejos co-headlines UFC Qatar (Nov 21); Sterling says he had one hour to accept, rejected Aaron Pico",
-      "people": [
-        "Aljamain Sterling",
-        "Kevin Vallejos",
-        "Aaron Pico"
-      ],
-      "event": "UFC Fight Night Qatar, November 21, 2026, Ali Bin Hamad Al Attiyah Arena, Al Rayyan",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Sterling vs. Vallejos is the featherweight co-main event at UFC Qatar on November 21",
-        "Sterling says the UFC gave him one hour to accept the fight",
-        "Sterling turned down Aaron Pico at UFC 333, saying the fight did nothing for his title push",
-        "Vallejos is undefeated"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/aljamain-sterling-given-one-hour-221926636.html",
-        "https://cagesidepress.com/2026/09/29/full-ufc-qatar-card-revealed-for-november-21-event/"
-      ],
-      "posts": [
-        {
-          "post": "2026-09-30-2320-sterling-one-hour",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Aljamain Sterling)",
-          "scheduled_for": "2026-09-30T23:35:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3643654017973112533"
-        }
-      ]
-    },
-    {
-      "id": "mcghee-vs-romero-ufc-332",
-      "title": "Anthony Romero replaces injured Bernardo Sopaj vs. Marcus McGhee at UFC 332 (Oct 3)",
-      "people": [
-        "Marcus McGhee",
-        "Anthony Romero",
-        "Bernardo Sopaj"
-      ],
-      "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Bernardo Sopaj withdrew from his bout with Marcus McGhee with an injury, three days before the event",
-        "Newcomer Anthony Romero (7-2, UNF bantamweight champion, Black House MMA, 26) steps in",
-        "Bout moved from bantamweight to featherweight",
-        "McGhee is No. 15-ranked at bantamweight, 11-2 overall"
-      ],
-      "sources": [
-        "https://www.mmanews.com/article/ufc-332-card-hit-by-shock-withdrawal-with-new-opponent-arriving-on-3-days-notice",
-        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476072/ufc-332-loses-bantamweight-banger-marcus-mcghee-draws-dangerous-newcomer-on-three-days-notice"
-      ],
-      "posts": [
-        {
-          "post": "2026-09-30-2207-mcghee-new-foe",
-          "kind": "new",
-          "format": "reel",
-          "image": "mystery silhouette",
-          "scheduled_for": "2026-09-30T22:35:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8767552402375425405"
-        }
-      ]
-    },
-    {
-      "id": "prochazka-vs-stirling-ufc-qatar",
-      "title": "Jiri Prochazka vs. Navajo Stirling headlines UFC Qatar (Nov 21)",
-      "people": [
-        "Jiri Prochazka",
-        "Navajo Stirling"
-      ],
-      "event": "UFC Fight Night Qatar, November 21, 2026",
-      "first_reported": "2026-09-29",
-      "facts": [
-        "Light heavyweight main event, UFC Fight Night in Qatar on November 21, 2026",
-        "Stirling undefeated, coming off a stoppage of Jan Blachowicz in August",
-        "Prochazka coming off a knockout loss to Carlos Ulberg"
-      ],
-      "sources": [
-        "https://www.cbssports.com/ufc/news/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-fight-card/",
-        "https://www.espn.com/mma/story/_/id/50059407/jiri-prochazka-fight-navajo-stirling-ufc-fight-night-qatar"
-      ],
-      "posts": [
-        {
-          "post": "2026-09-30-bjp-returns",
-          "kind": "new",
-          "format": "feed image",
-          "published": "2026-09-30T09:10:00-04:00",
-          "instagram": "https://www.instagram.com/p/Dd6aQIsivhL/"
-        }
-      ]
+     "post": "2026-10-01-0020-talbott-omalley-claim",
+     "kind": "new",
+     "format": "reel"
     }
-  ]
+   ]
+  },
+  {
+   "id": "ufc-sydney-feb-2027",
+   "title": "UFC Fight Night returns to Sydney, Feb. 6 (U.S.) / Feb. 7 local, 2027, at Afterpay Arena",
+   "people": [
+    "Quillan Salkilld",
+    "Alexander Volkanovski"
+   ],
+   "event": "UFC Fight Night Sydney, February 6/7, 2027, Afterpay Arena (formerly Qudos Bank Arena), Sydney",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Officially announced by the UFC",
+    "First Sydney Fight Night since 2017; fourth straight year of a UFC event in New South Wales",
+    "No fights announced yet; Volkanovski headlining UFC 333 next month",
+    "Presale registration open at UFC.com/Sydney"
+   ],
+   "sources": [
+    "https://www.ufc.com/sydney",
+    "https://cagesidepress.com/2026/09/30/ufc-headed-back-to-sydney-australia-in-feb-2027/",
+    "https://www.mmanews.com/article/ufc-fight-night-sydney-afterpay-arena-february-2027"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0020-ufc-sydney-2027",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "sterling-vs-vallejos-ufc-qatar",
+   "title": "Aljamain Sterling vs. Kevin Vallejos co-headlines UFC Qatar (Nov 21); Sterling says he had one hour to accept, rejected Aaron Pico",
+   "people": [
+    "Aljamain Sterling",
+    "Kevin Vallejos",
+    "Aaron Pico"
+   ],
+   "event": "UFC Fight Night Qatar, November 21, 2026, Ali Bin Hamad Al Attiyah Arena, Al Rayyan",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Sterling vs. Vallejos is the featherweight co-main event at UFC Qatar on November 21",
+    "Sterling says the UFC gave him one hour to accept the fight",
+    "Sterling turned down Aaron Pico at UFC 333, saying the fight did nothing for his title push",
+    "Vallejos is undefeated"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/aljamain-sterling-given-one-hour-221926636.html",
+    "https://cagesidepress.com/2026/09/29/full-ufc-qatar-card-revealed-for-november-21-event/"
+   ],
+   "posts": [
+    {
+     "post": "2026-09-30-2320-sterling-one-hour",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Aljamain Sterling)",
+     "scheduled_for": "2026-09-30T23:35:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3643654017973112533"
+    }
+   ]
+  },
+  {
+   "id": "mcghee-vs-romero-ufc-332",
+   "title": "Anthony Romero replaces injured Bernardo Sopaj vs. Marcus McGhee at UFC 332 (Oct 3)",
+   "people": [
+    "Marcus McGhee",
+    "Anthony Romero",
+    "Bernardo Sopaj"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Bernardo Sopaj withdrew from his bout with Marcus McGhee with an injury, three days before the event",
+    "Newcomer Anthony Romero (7-2, UNF bantamweight champion, Black House MMA, 26) steps in",
+    "Bout moved from bantamweight to featherweight",
+    "McGhee is No. 15-ranked at bantamweight, 11-2 overall"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/ufc-332-card-hit-by-shock-withdrawal-with-new-opponent-arriving-on-3-days-notice",
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476072/ufc-332-loses-bantamweight-banger-marcus-mcghee-draws-dangerous-newcomer-on-three-days-notice"
+   ],
+   "posts": [
+    {
+     "post": "2026-09-30-2207-mcghee-new-foe",
+     "kind": "new",
+     "format": "reel",
+     "image": "mystery silhouette",
+     "scheduled_for": "2026-09-30T22:35:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8767552402375425405"
+    }
+   ]
+  },
+  {
+   "id": "prochazka-vs-stirling-ufc-qatar",
+   "title": "Jiri Prochazka vs. Navajo Stirling headlines UFC Qatar (Nov 21)",
+   "people": [
+    "Jiri Prochazka",
+    "Navajo Stirling"
+   ],
+   "event": "UFC Fight Night Qatar, November 21, 2026",
+   "first_reported": "2026-09-29",
+   "facts": [
+    "Light heavyweight main event, UFC Fight Night in Qatar on November 21, 2026",
+    "Stirling undefeated, coming off a stoppage of Jan Blachowicz in August",
+    "Prochazka coming off a knockout loss to Carlos Ulberg"
+   ],
+   "sources": [
+    "https://www.cbssports.com/ufc/news/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-fight-card/",
+    "https://www.espn.com/mma/story/_/id/50059407/jiri-prochazka-fight-navajo-stirling-ufc-fight-night-qatar"
+   ],
+   "posts": [
+    {
+     "post": "2026-09-30-bjp-returns",
+     "kind": "new",
+     "format": "feed image",
+     "published": "2026-09-30T09:10:00-04:00",
+     "instagram": "https://www.instagram.com/p/Dd6aQIsivhL/"
+    }
+   ]
+  }
+ ]
 }

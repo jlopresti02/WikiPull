@@ -1,0 +1,14 @@
+{
+  "story_id": "ufc-sydney-feb-2027",
+  "headline": "UFC Sydney",
+  "visual": [
+    {"type": "venue", "name": "Qudos Bank Arena", "headline": "Sydney Return"},
+    {"type": "flag", "country": "Australia", "headline": "UFC Sydney"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "The UFC is officially going back to Sydney, Australia in February 2027.\n\nThe UFC announced a Fight Night card for Afterpay Arena (formerly Qudos Bank Arena) on Saturday, February 6 in the U.S., which is Sunday, February 7 local time. It will be the first UFC Fight Night in Sydney since 2017 and the promotion's fourth straight year running an event in New South Wales, after UFC 325 set a gate record in the same building. 🇦🇺\n\nNo fights have been announced yet. Alexander Volkanovski is busy with UFC 333 next month, so all eyes are on rising Aussie names like Quillan Salkilld to lead the card. Presale registration is open now on UFC.com.\n\nWho should headline UFC Sydney?",
+  "hashtags": ["MMANews", "UFC", "UFCSydney", "UFCAustralia", "Sydney"],
+  "sources": ["UFC", "Cageside Press", "MMA News"],
+  "music_pool": "espn",
+  "reel": true
+}

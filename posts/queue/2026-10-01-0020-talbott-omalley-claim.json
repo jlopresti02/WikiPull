@@ -1,0 +1,40 @@
+{
+  "story_id": "talbott-omalley-white-house-claim",
+  "headline": "Talbott's Claim",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Payton Talbott"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean O'Malley",
+      "headline": "O'Malley Fight?"
+    },
+    {
+      "type": "mystery",
+      "headline": "Talbott's Claim"
+    },
+    {
+      "type": "flag",
+      "country": "United States"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Payton Talbott says a fight with Sean O'Malley was on the table for the UFC's White House card.\n\nSpeaking on his YouTube channel ahead of UFC 332, the bantamweight said he was lined up for O'Malley at UFC Freedom 250 in June, then for a string of other names, but every matchup fell apart. Talbott said opponents kept citing injuries and wondered aloud whether it was the UFC or fighters being scared. Broken feet also kept him sidelined, per MMA Mania.\n\nTalbott (5-1 UFC), who last beat Henry Cejudo at UFC 323 in December 2025, now faces former flyweight champion Deiveson Figueiredo in the UFC 332 co-main event this Saturday in Salt Lake City, where he is a heavy favorite. 🥊\n\nShould O'Malley be next if Talbott wins?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "PaytonTalbott",
+    "SeanOMalley"
+  ],
+  "sources": [
+    "Heavy",
+    "Sports Illustrated",
+    "MMA News",
+    "MMA Mania"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}
