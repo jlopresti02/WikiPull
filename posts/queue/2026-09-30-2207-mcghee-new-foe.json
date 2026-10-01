@@ -7,8 +7,8 @@
       "name": "Marcus McGhee"
     },
     {
-      "type": "flag",
-      "country": "United States"
+      "type": "venue",
+      "name": "Delta Center"
     }
   ],
   "color": "#0f8a5f",
@@ -25,13 +25,5 @@
     "MMA Mania"
   ],
   "music_pool": "espn",
-  "reel": true,
-  "subject": {
-    "kind": "card",
-    "image": "images/flag-united-states/01-flag-of-the-united-states-1822-1836.png",
-    "credit": "No machine-readable author provided. Jacobolus assumed (based on copyright claims). / Public domain"
-  },
-  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
-  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
-  "music_start": 108.75
+  "reel": true
 }
