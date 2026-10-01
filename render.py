@@ -41,7 +41,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import numpy as np
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parent
 FONT = ROOT / "fonts" / "Anton-Regular.ttf"
@@ -62,13 +62,15 @@ class Layout:
     tag_y: int        # top of the WWIT MMA NEWS tag
     top_y: int        # where the headline's capitals start
     max_block_h: int  # tallest the whole headline block may be
+    bottom_safe: int  # keep framed images/graphics above this many px from the bottom
 
 
 # Feed post, 4:5.
-POST = Layout(1080, 1350, tag_y=60, top_y=160, max_block_h=440)
-# Reel, 9:16. Content starts lower to clear Instagram's top bar, and also
-# sits inside the 4:5 middle crop that the profile grid shows.
-REEL = Layout(1080, 1920, tag_y=330, top_y=430, max_block_h=470)
+POST = Layout(1080, 1350, tag_y=60, top_y=160, max_block_h=440, bottom_safe=70)
+# Reel, 9:16. Content starts lower to clear Instagram's top bar, sits inside
+# the 4:5 middle crop the profile grid shows, and framed images stay above
+# the caption and buttons Instagram draws over the bottom of a Reel.
+REEL = Layout(1080, 1920, tag_y=330, top_y=430, max_block_h=470, bottom_safe=420)
 
 
 def slugify(text):
@@ -94,17 +96,26 @@ def cap_height(size):
     return -font(size).getbbox("H", anchor="ls")[1]
 
 
-def layout_headline(words, L):
-    """Pick the biggest size that fits the width and height limits."""
-    size = 340.0
+def layout_headline(words, L, centered=False):
+    """Pick the biggest size that fits the width and height limits.
+
+    centered=True (posts with no image) lets the headline grow and sits it in
+    the middle of the space below the tag."""
+    n = len(words)
+    size = 420.0 if centered else 340.0
     for w in words:
         width = font(size).getlength(w)
         if width > MAX_TEXT_W:
             size = min(size, size * MAX_TEXT_W / width)
     ratio = cap_height(100) / 100
-    size = min(size, L.max_block_h / (ratio * (len(words) + (len(words) - 1) * LEAD)))
+    top = L.tag_y + TAG_H + 60
+    room = (L.h - L.bottom_safe) - top
+    max_block = room * 0.85 if centered else L.max_block_h
+    size = min(size, max_block / (ratio * (n + (n - 1) * LEAD)))
     cap = cap_height(size)
-    baselines = [L.top_y + cap + i * cap * (1 + LEAD) for i in range(len(words))]
+    block = cap * (n + (n - 1) * LEAD)
+    top_y = top + (room - block) / 2 if centered else L.top_y
+    baselines = [top_y + cap + i * cap * (1 + LEAD) for i in range(n)]
     return size, baselines
 
 
@@ -158,33 +169,103 @@ def place_fighter(L, cut, bottoms):
     return s, (L.w - round(cut.width * s)) // 2, int(y)
 
 
-class Scene:
-    """Everything needed to draw one post in one layout."""
+def photo_card(photo, max_w, max_h):
+    """A photo (flag, venue) as a framed card: white border, rounded corners,
+    soft shadow. Sized to fit max_w x max_h including the shadow."""
+    border, radius, pad, off = 12, 28, 30, 12
+    photo = photo.convert("RGB")
+    s = min((max_w - 2 * (border + pad)) / photo.width,
+            (max_h - 2 * (border + pad) - off) / photo.height)
+    pw, ph = max(1, int(photo.width * s)), max(1, int(photo.height * s))
+    cw, ch = pw + 2 * border, ph + 2 * border
+    card = Image.new("RGBA", (cw, ch), (255, 255, 255, 255))
+    card.paste(photo.resize((pw, ph), Image.LANCZOS), (border, border))
+    mask = Image.new("L", (cw, ch), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, cw - 1, ch - 1], radius=radius, fill=255)
+    card.putalpha(mask)
+    out = Image.new("RGBA", (cw + 2 * pad, ch + 2 * pad + off), (0, 0, 0, 0))
+    shadow = Image.new("RGBA", out.size, (0, 0, 0, 0))
+    shadow.paste((0, 0, 0, 110), (pad, pad + off), mask)
+    out.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(14)))
+    out.alpha_composite(card, (pad, pad))
+    return out
 
-    def __init__(self, L, words, bg, cut):
-        self.L, self.words, self.bg, self.cut = L, words, bg, cut
+
+def money_graphic(bg):
+    """A big dollar sign for money stories (purses, contracts, bonuses)."""
+    if is_light(bg):
+        fill, stroke = (22, 120, 64), (8, 48, 24)
+    else:
+        fill, stroke = (255, 204, 30), (120, 84, 0)
+    f = font(1000)
+    l, t, r, b = f.getbbox("$", stroke_width=26)
+    w, h = r - l + 80, b - t + 80
+    glyph = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    ImageDraw.Draw(glyph).text((40 - l, 40 - t), "$", font=f, fill=fill,
+                               stroke_width=26, stroke_fill=stroke)
+    out = Image.new("RGBA", (w + 40, h + 40), (0, 0, 0, 0))
+    shadow = Image.new("RGBA", out.size, (0, 0, 0, 0))
+    shadow.paste((0, 0, 0, 120), (20, 34), glyph.getchannel("A"))
+    out.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(16)))
+    out.alpha_composite(glyph, (20, 14))
+    return out
+
+
+class Scene:
+    """Everything needed to draw one post in one layout.
+
+    kind:
+      "fighter"  transparent cutout, as big as possible, may run off the bottom
+      "card"     a photo (flag, venue) shown as a framed card under the headline
+      "graphic"  a drawn graphic (the money sign), centered under the headline
+      "none"     headline only, set larger and centered
+    """
+
+    def __init__(self, L, words, bg, cut=None, kind="fighter"):
+        self.L, self.words, self.bg, self.kind = L, words, bg, kind
         self.light = is_light(bg)
         self.fg = (17, 17, 17) if self.light else (255, 255, 255)
-        self.size, self.baselines = layout_headline(words, L)
-        self.scale, self.x, self.y = place_fighter(
-            L, cut, text_bottoms(L, words, self.size, self.baselines))
+        self.size, self.baselines = layout_headline(words, L, centered=(kind == "none"))
         self.text = Image.new("RGBA", (L.w, L.h), (0, 0, 0, 0))
         draw_text_layer(ImageDraw.Draw(self.text), L, words, self.size, self.baselines,
                         self.fg, bg, self.light)
+        self.cut = None
+        if kind == "fighter":
+            self.cut = cut
+            self.scale, self.x, self.y = place_fighter(
+                L, cut, text_bottoms(L, words, self.size, self.baselines))
+        elif kind in ("card", "graphic"):
+            top = int(text_bottoms(L, words, self.size, self.baselines).max()) + MARGIN
+            room_h = (L.h - L.bottom_safe) - top
+            if kind == "card":
+                sub = photo_card(cut, 980, room_h)
+            else:
+                sub = money_graphic(bg)
+                s = min(900 / sub.width, room_h / sub.height)
+                sub = sub.resize((max(1, int(sub.width * s)), max(1, int(sub.height * s))),
+                                 Image.LANCZOS)
+            self.cut, self.scale = sub, 1.0
+            self.x = (L.w - sub.width) // 2
+            self.y = top + (room_h - sub.height) // 2
 
     def frame(self, zoom=1.0, text_alpha=1.0):
-        """Draw the post. zoom < 1 shrinks the fighter toward his bottom edge,
-        so he only ever moves away from the headline."""
+        """Draw the post. zoom < 1 shrinks the subject: a fighter toward his
+        bottom edge, a card or graphic toward its center, so the subject only
+        ever moves away from the headline."""
         L = self.L
         img = Image.new("RGBA", (L.w, L.h), self.bg + (255,))
-        s = self.scale * zoom
-        w2, h2 = max(1, round(self.cut.width * s)), max(1, round(self.cut.height * s))
-        full_w = round(self.cut.width * self.scale)
-        full_h = round(self.cut.height * self.scale)
-        fighter = self.cut.resize((w2, h2), Image.LANCZOS)
-        x = self.x + (full_w - w2) // 2
-        y = self.y + (full_h - h2)  # keep the bottom edge fixed
-        img.paste(fighter, (x, y), fighter)
+        if self.cut is not None:
+            s = self.scale * zoom
+            w2, h2 = max(1, round(self.cut.width * s)), max(1, round(self.cut.height * s))
+            full_w = round(self.cut.width * self.scale)
+            full_h = round(self.cut.height * self.scale)
+            sub = self.cut.resize((w2, h2), Image.LANCZOS)
+            x = self.x + (full_w - w2) // 2
+            if self.kind == "fighter":
+                y = self.y + (full_h - h2)  # keep the bottom edge fixed
+            else:
+                y = self.y + (full_h - h2) // 2  # keep the center fixed
+            img.paste(sub, (x, y), sub)
         if text_alpha >= 1:
             img.alpha_composite(self.text)
         elif text_alpha > 0:
@@ -246,43 +327,57 @@ def photo_credit(folder, cut_name):
     return None
 
 
+def legacy_subject(spec):
+    """Old post files name a "fighter"; turn that into a subject."""
+    folder = ROOT / "images" / slugify(spec["fighter"])
+    cutouts = sorted((folder / "cutouts").glob("*.png"))
+    if not cutouts:
+        sys.exit(f"no cutouts for {spec['fighter']}; fetch them first")
+    pick = int(spec.get("photo", 1))
+    cut_path = cutouts[min(max(pick, 1), len(cutouts)) - 1]
+    return {"kind": "fighter", "image": str(cut_path.relative_to(ROOT)),
+            "credit": photo_credit(folder, cut_path.name)}
+
+
 def render(spec_path):
     spec_path = Path(spec_path)
     spec = json.loads(spec_path.read_text())
     words = [w.upper() for w in spec["headline"].split()]
     if not 1 <= len(words) <= 3:
         sys.exit(f"{spec_path.name}: headline must be 1 to 3 words")
-
-    folder = ROOT / "images" / slugify(spec["fighter"])
-    cutouts = sorted((folder / "cutouts").glob("*.png"))
-    if not cutouts:
-        sys.exit(f"{spec_path.name}: no cutouts for {spec['fighter']}; fetch them first")
-    pick = int(spec.get("photo", 1))
-    cut_path = cutouts[min(max(pick, 1), len(cutouts)) - 1]
+    subject = spec.get("subject") or legacy_subject(spec)
+    kind = subject["kind"]
     bg = hex_rgb(spec.get("color", DEFAULT_COLOR))
 
     name = spec_path.stem
     out = ROOT / "posts" / name
     out.mkdir(parents=True, exist_ok=True)
 
-    with Image.open(cut_path) as im:
-        cut = im.convert("RGBA")
-    Scene(POST, words, bg, cut).frame().save(out / "post.png", optimize=True)
-    print(f"Rendered posts/{name}/post.png")
+    cut = None
+    if subject.get("image"):
+        with Image.open(ROOT / subject["image"]) as im:
+            cut = im.convert("RGBA")
+    Scene(POST, words, bg, cut, kind).frame().save(out / "post.png", optimize=True)
+    print(f"Rendered posts/{name}/post.png ({kind})")
     if spec.get("reel"):
-        make_reel(Scene(REEL, words, bg, cut), out, spec)
+        make_reel(Scene(REEL, words, bg, cut, kind), out, spec)
         print(f"Rendered posts/{name}/reel.mp4")
 
     lines = [spec["caption"].strip(), ""]
     if spec.get("sources"):
         lines.append("📰 Source: " + ", ".join(spec["sources"]))
-    credit = photo_credit(folder, cut_path.name)
-    if credit:
-        lines.append("📸 Photo: " + credit)
+    if subject.get("credit"):
+        lines.append(("📸 Photo: " if kind == "fighter" else "📸 Image: ") + subject["credit"])
     if spec.get("reel") and spec.get("music_credit"):
         lines.append("🎵 Music: " + spec["music_credit"])
-    (out / "caption.txt").write_text("\n".join(lines).strip() + "\n")
-    (out / "post.json").write_text(json.dumps({**spec, "photo_file": cut_path.name}, indent=2,
+    tags = [t if t.startswith("#") else "#" + t for t in spec.get("hashtags", [])][:5]
+    if tags:
+        lines += ["", " ".join(tags)]
+    caption = "\n".join(lines).strip() + "\n"
+    if len(caption) > 2200:
+        sys.exit(f"{spec_path.name}: caption is {len(caption)} characters; Instagram's limit is 2200")
+    (out / "caption.txt").write_text(caption)
+    (out / "post.json").write_text(json.dumps({**spec, "subject": subject}, indent=2,
                                               ensure_ascii=False) + "\n")
     return out
 

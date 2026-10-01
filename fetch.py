@@ -74,8 +74,9 @@ def meta(info, key):
 
 # ---------------------------------------------------------------- lookups
 
-def wikidata_main_image(query):
-    """The photo Wikipedia uses for this person/thing (Wikidata property P18)."""
+def wikidata_main_image(query, prop="P18"):
+    """The photo Wikipedia uses for this person/thing (Wikidata property P18),
+    or another image property, e.g. P41 = a country's flag."""
     found = api_get(WIKIDATA_API, {
         "action": "wbsearchentities", "search": query,
         "language": "en", "type": "item", "limit": 1,
@@ -85,7 +86,7 @@ def wikidata_main_image(query):
     entity = api_get(WIKIDATA_API, {
         "action": "wbgetentities", "ids": found[0]["id"], "props": "claims",
     })["entities"][found[0]["id"]]
-    claims = entity.get("claims", {}).get("P18", [])
+    claims = entity.get("claims", {}).get(prop, [])
     return ["File:" + c["mainsnak"]["datavalue"]["value"]
             for c in claims if "datavalue" in c.get("mainsnak", {})]
 
@@ -142,23 +143,36 @@ def title_matches(page, query):
     return all(word in title for word in re.findall(r"\w+", plain(query)))
 
 
-def fetch(query, count):
-    print(f"Searching Wikimedia Commons for: {query}")
-    main_images = []
-    try:
-        main_images = file_info(wikidata_main_image(query))
-    except Exception as exc:
-        print(f"  Wikidata lookup skipped: {exc}", file=sys.stderr)
-    search_results = commons_search(query)
+def flag_usable(page):
+    # Flags are SVG drawings; Commons serves a PNG rendering of them.
+    info = page["imageinfo"][0]
+    return bool(info.get("thumburl")) and bool(FREE_LICENSE.search(meta(info, "LicenseShortName")))
 
-    # The Wikipedia main photo is trusted; other results must name the subject.
-    strict = main_images + [p for p in search_results if title_matches(p, query)]
-    loose = main_images + search_results
+
+def fetch(query, count, flag=False):
+    """Fetch photos of `query`; with flag=True, fetch the official flag of the
+    country named `query` (into images/flag-<country>/)."""
+    if flag:
+        print(f"Looking up the flag of: {query}")
+        main_images = file_info(wikidata_main_image(query, prop="P41"))
+        strict, loose, ok = main_images, [], flag_usable
+    else:
+        print(f"Searching Wikimedia Commons for: {query}")
+        main_images = []
+        try:
+            main_images = file_info(wikidata_main_image(query))
+        except Exception as exc:
+            print(f"  Wikidata lookup skipped: {exc}", file=sys.stderr)
+        search_results = commons_search(query)
+        # The Wikipedia main photo is trusted; other results must name the subject.
+        strict = main_images + [p for p in search_results if title_matches(p, query)]
+        loose = main_images + search_results
+        ok = usable
 
     picked, seen = [], set()
     for candidates in (strict, loose):
         for page in candidates:
-            if page["title"] in seen or not usable(page):
+            if page["title"] in seen or not ok(page):
                 continue
             seen.add(page["title"])
             picked.append(page)
@@ -172,7 +186,7 @@ def fetch(query, count):
         print("  No openly licensed images found.")
         return 0
 
-    folder = IMAGES_DIR / slugify(query)
+    folder = IMAGES_DIR / (("flag-" if flag else "") + slugify(query))
     folder.mkdir(parents=True, exist_ok=True)
     for old in folder.iterdir():  # a rerun replaces the previous set
         if old.is_file():
@@ -209,6 +223,8 @@ def main():
     ap.add_argument("query", nargs="?", help="what to search for, e.g. a fighter's name")
     ap.add_argument("--count", type=int, default=5, help="images per search (default 5)")
     ap.add_argument("--queue", help="text file with one search per line")
+    ap.add_argument("--flag", action="store_true",
+                    help="fetch the official flag of the country named in the query")
     args = ap.parse_args()
 
     queries = []
@@ -220,7 +236,7 @@ def main():
     if not queries:
         ap.error("give a search term or a --queue file with at least one line")
 
-    total = sum(fetch(q, args.count) for q in queries)
+    total = sum(fetch(q, args.count, flag=args.flag) for q in queries)
     print(f"Done: {total} image(s) saved.")
 
 

@@ -1,0 +1,30 @@
+{
+  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
+  "stories": [
+    {
+      "id": "prochazka-vs-stirling-ufc-qatar",
+      "title": "Jiri Prochazka vs. Navajo Stirling headlines UFC Qatar (Nov 21)",
+      "people": ["Jiri Prochazka", "Navajo Stirling"],
+      "event": "UFC Fight Night Qatar, November 21, 2026",
+      "first_reported": "2026-09-29",
+      "facts": [
+        "Light heavyweight main event, UFC Fight Night in Qatar on November 21, 2026",
+        "Stirling undefeated, coming off a stoppage of Jan Blachowicz in August",
+        "Prochazka coming off a knockout loss to Carlos Ulberg"
+      ],
+      "sources": [
+        "https://www.cbssports.com/ufc/news/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-fight-card/",
+        "https://www.espn.com/mma/story/_/id/50059407/jiri-prochazka-fight-navajo-stirling-ufc-fight-night-qatar"
+      ],
+      "posts": [
+        {
+          "post": "2026-09-30-bjp-returns",
+          "kind": "new",
+          "format": "feed image",
+          "published": "2026-09-30T09:10:00-04:00",
+          "instagram": "https://www.instagram.com/p/Dd6aQIsivhL/"
+        }
+      ]
+    }
+  ]
+}

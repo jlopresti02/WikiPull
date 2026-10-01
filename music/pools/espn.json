@@ -1,0 +1,77 @@
+{
+  "description": "ESPN / sports-broadcast style tracks, used in rotation for Reels",
+  "tracks": [
+    {
+      "file": "music/sports/01-sport-is-cool.mp3",
+      "title": "Sport Is cool",
+      "artist": "Marco Margna",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/1121439",
+      "best_start": 160.5
+    },
+    {
+      "file": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+      "title": "Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件",
+      "artist": "Ambient Samurai - Ichiro NAKAGAWA",
+      "license": "CC BY 3.0",
+      "source": "https://www.jamendo.com/track/653424",
+      "best_start": 164.75
+    },
+    {
+      "file": "music/sports/03-blood-sport-war.mp3",
+      "title": "Blood Sport War",
+      "artist": "Nothing, I Know",
+      "license": "CC BY 3.0",
+      "source": "https://www.jamendo.com/track/420687",
+      "best_start": 8.5
+    },
+    {
+      "file": "music/news-intro/01-intro-a-new-song.mp3",
+      "title": "Intro - A new song",
+      "artist": "M Productions",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/322709",
+      "best_start": 22.25
+    },
+    {
+      "file": "music/news-intro/02-a-new-dawn-intro.mp3",
+      "title": "A New Dawn (Intro)",
+      "artist": "Eden Prayer",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/755726",
+      "best_start": 108.75
+    },
+    {
+      "file": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+      "title": "Channeling Power Into A New Dimension (Intro)",
+      "artist": "Dark Light",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/1005820",
+      "best_start": 168.5
+    },
+    {
+      "file": "music/action-sport/01-crystals.mp3",
+      "title": "Crystals",
+      "artist": "Professor Kliq",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/925495",
+      "best_start": 164.0
+    },
+    {
+      "file": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+      "title": "Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!",
+      "artist": "Jet Peks",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/725206",
+      "best_start": 156.25
+    },
+    {
+      "file": "music/action-sport/03-acrobat.mp3",
+      "title": "Acrobat",
+      "artist": "Howard M. Branson",
+      "license": "CC BY-SA 3.0",
+      "source": "https://www.jamendo.com/track/541616",
+      "best_start": 158.75
+    }
+  ]
+}

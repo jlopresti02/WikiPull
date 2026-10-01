@@ -102,3 +102,11 @@ To preview locally: `python render.py posts/queue/<name>.json`
 The design follows the MMA post template: the WWIT MMA NEWS tag, a big
 headline in Anton (bundled in `fonts/`, SIL Open Font License), and the
 fighter as large as possible without ever touching the text.
+
+## Hourly automation
+
+`AUTOMATION.md` is the runbook for the hourly task that sweeps MMA news,
+turns new stories into Reels (fighter cutout, or a money sign, venue photo
+or country flag when there's no usable photo), and schedules them on
+Instagram through Metricool. `stories.json` is the ledger of posted
+stories, so nothing is posted twice without a real update.
