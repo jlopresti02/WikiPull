@@ -2,9 +2,39 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "mcghee-vs-romero-ufc-332",
+      "title": "Anthony Romero replaces injured Bernardo Sopaj vs. Marcus McGhee at UFC 332 (Oct 3)",
+      "people": [
+        "Marcus McGhee",
+        "Anthony Romero",
+        "Bernardo Sopaj"
+      ],
+      "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+      "first_reported": "2026-09-30",
+      "facts": [
+        "Bernardo Sopaj withdrew from his bout with Marcus McGhee with an injury, three days before the event",
+        "Newcomer Anthony Romero (7-2, UNF bantamweight champion, Black House MMA, 26) steps in",
+        "Bout moved from bantamweight to featherweight",
+        "McGhee is No. 15-ranked at bantamweight, 11-2 overall"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/ufc-332-card-hit-by-shock-withdrawal-with-new-opponent-arriving-on-3-days-notice",
+        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476072/ufc-332-loses-bantamweight-banger-marcus-mcghee-draws-dangerous-newcomer-on-three-days-notice"
+      ],
+      "posts": [
+        {
+          "post": "2026-09-30-2207-mcghee-new-foe",
+          "kind": "new"
+        }
+      ]
+    },
+    {
       "id": "prochazka-vs-stirling-ufc-qatar",
       "title": "Jiri Prochazka vs. Navajo Stirling headlines UFC Qatar (Nov 21)",
-      "people": ["Jiri Prochazka", "Navajo Stirling"],
+      "people": [
+        "Jiri Prochazka",
+        "Navajo Stirling"
+      ],
       "event": "UFC Fight Night Qatar, November 21, 2026",
       "first_reported": "2026-09-29",
       "facts": [
