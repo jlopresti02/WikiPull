@@ -48,9 +48,16 @@ def get_json(url):
             with urllib.request.urlopen(req, timeout=30) as resp:
                 return json.load(resp)
         except Exception as exc:
+            detail = ""
+            if hasattr(exc, "read"):
+                try:
+                    detail = " " + exc.read().decode("utf-8", "replace")[:300]
+                except Exception:
+                    pass
             if attempt == 2:
+                print(f"  request failed: {exc}{detail}", file=sys.stderr)
                 raise
-            print(f"  retrying after error: {exc}", file=sys.stderr)
+            print(f"  retrying after error: {exc}{detail}", file=sys.stderr)
             time.sleep(3 * (attempt + 1))
 
 
@@ -95,7 +102,7 @@ def fetch(query, count):
     print(f"Searching Openverse music for: {query}")
     params = {
         "q": query, "category": "music", "license_type": "commercial,modification",
-        "page_size": 40,
+        "page_size": 20,  # the most Openverse allows without an API key
     }
     results = get_json(API + "?" + urllib.parse.urlencode(params)).get("results", [])
 
