@@ -24,7 +24,10 @@
         {
           "post": "2026-10-01-1720-gordon-vs-costa",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "venue (Madison Square Garden)",
+          "scheduled_for": "2026-10-01T17:32:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6934191047197674198"
         }
       ]
     },
