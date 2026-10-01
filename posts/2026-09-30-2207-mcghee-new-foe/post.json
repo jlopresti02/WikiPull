@@ -25,5 +25,13 @@
     "MMA Mania"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "card",
+    "image": "images/delta-center/01-delta-center-2023.jpg",
+    "credit": "Lomrjyo / CC BY-SA 4.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
