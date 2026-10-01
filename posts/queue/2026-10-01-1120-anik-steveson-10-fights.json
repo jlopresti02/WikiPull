@@ -1,0 +1,34 @@
+{
+  "story_id": "anik-doubts-steveson-10-ufc-fights",
+  "headline": "10 Fights?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Gable Steveson"
+    },
+    {
+      "type": "fighter",
+      "name": "Jon Anik",
+      "headline": "Anik's Doubt"
+    },
+    {
+      "type": "mystery",
+      "headline": "Steveson's Future"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Jon Anik isn't sure Gable Steveson's UFC run lasts long. 🎙️\n\nThe UFC's lead play-by-play voice questioned whether the Olympic gold medalist wrestler will even reach 10 fights in the UFC, per Bloody Elbow. It comes after Steveson was knocked out in just 12 seconds by Sean Sharaf on the UFC 331 main card in Los Angeles on Sept. 19, one of the biggest heavyweight upsets in recent MMA history, with Sharaf a roughly +1000 underdog.\n\nIt was Steveson's first pro MMA loss, and he has since vowed to come back stronger. A big UFC heavyweight question in this week's MMA news.\n\nDoes Gable Steveson make it to 10 UFC fights?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC331",
+    "GableSteveson",
+    "JonAnik"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "Athlon Sports"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}

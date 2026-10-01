@@ -2,6 +2,109 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "anik-doubts-steveson-10-ufc-fights",
+   "title": "Jon Anik questions whether Gable Steveson will even reach 10 UFC fights after 12-second KO loss",
+   "people": [
+    "Jon Anik",
+    "Gable Steveson",
+    "Sean Sharaf"
+   ],
+   "event": "UFC 331 aftermath (Sept 19, 2026, Crypto.com Arena, Los Angeles)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Anik questioned whether Steveson will make it to 10 UFC fights (Bloody Elbow, Oct 1)",
+    "Sean Sharaf KO'd Steveson in 12 seconds on the UFC 331 main card, Sept 19, LA; Sharaf ~+1000 underdog, Steveson ~-2500",
+    "First pro MMA loss for Steveson; he vowed to come back stronger",
+    "Requested by the user"
+   ],
+   "sources": [
+    "https://bloodyelbow.com/2026/10/01/jon-anik-questions-if-gable-steveson-will-even-make-it-to-10-fights-in-the-ufc-after-12-second-ko/",
+    "https://athlonsports.com/mma/ufc-331-reactions-sean-sharaf-gable-steveson-12-second-knockout"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1120-anik-steveson-10-fights",
+     "kind": "new"
+    }
+   ]
+  },
+  {
+   "id": "adama-diop-first-senegalese-ufc-signing",
+   "title": "Adama Diop becomes the first fighter from Senegal to sign with the UFC",
+   "people": [
+    "Adama Diop",
+    "Zaurbek Sabanov"
+   ],
+   "event": "Dana White's Contender Series Season 10, Sept 30, 2026",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Diop beat Zaurbek Sabanov by TKO at 2:13 of R2 on DWCS Sept 30 and earned a UFC contract",
+    "First Senegalese fighter signed by the UFC",
+    "Heavyweight, 6-1, former Senegalese traditional wrestler, EFC heavyweight champion (won April 2026 at EFC 132)",
+    "No UFC debut date yet"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/adama-diop-first-senegalese-fighter-ufc-contract"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1121-adama-diop-senegal-first",
+     "kind": "new"
+    }
+   ]
+  },
+  {
+   "id": "hernandez-federal-questioning-ufc-324-betting",
+   "title": "Alexander Hernandez says federal agents questioned him after UFC 324 bout was scrapped over suspicious betting",
+   "people": [
+    "Alexander Hernandez",
+    "Michael Johnson",
+    "Rafael dos Anjos",
+    "Ariel Helwani"
+   ],
+   "event": "UFC 324 (Jan 2026); UFC 332, Oct 3, 2026",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Hernandez vs. Michael Johnson at UFC 324 was canceled over suspicious betting (late money on Johnson)",
+    "Told Ariel Helwani that federal agents questioned him for about an hour, asked about messaging apps (Signal), then let him leave; says he had nothing to do with fight-fixing",
+    "Faces Rafael dos Anjos at UFC 332, Oct 3, Salt Lake City; lost to Rafa Garcia in April, snapping a 4-fight win streak"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/Alexander-Hernandez-says-feds-asked-if-he-planned-to-throw-UFC-fight-203030"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1122-hernandez-feds-questioned",
+     "kind": "new"
+    }
+   ]
+  },
+  {
+   "id": "pimblett-wants-tuf-vs-topuria",
+   "title": "Paddy Pimblett pitches a TUF coaching season opposite Ilia Topuria",
+   "people": [
+    "Paddy Pimblett",
+    "Ilia Topuria"
+   ],
+   "event": "The Ultimate Fighter (proposed)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Pimblett wants to coach TUF opposite Topuria to get in his head, citing McGregor vs. Aldo build-up",
+    "Feud dates to a 2022 hotel altercation at UFC London; Pimblett first floated TUF idea in 2023",
+    "Topuria lost to Justin Gaethje at UFC White House and says he's medically cleared to return this month",
+    "No fight or TUF season announced"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/paddy-pimblett-ultimate-fighter-ilia-topuria-feud"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1123-pimblett-tuf-topuria",
+     "kind": "new"
+    }
+   ]
+  },
+  {
    "id": "barcelos-discharged-after-rosas-fight",
    "title": "Raoni Barcelos discharged from hospital after losing consciousness vs. Raul Rosas Jr.; Dana White says he's doing well",
    "people": [

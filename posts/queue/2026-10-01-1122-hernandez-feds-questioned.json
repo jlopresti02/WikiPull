@@ -1,0 +1,34 @@
+{
+  "story_id": "hernandez-federal-questioning-ufc-324-betting",
+  "headline": "Feds Came Calling",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alexander Hernandez"
+    },
+    {
+      "type": "fighter",
+      "name": "Rafael dos Anjos",
+      "headline": "Next Up: RDA"
+    },
+    {
+      "type": "mystery",
+      "headline": "Hernandez Speaks"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alexander Hernandez says federal agents questioned him after his UFC 324 fight was called off.\n\nHis January bout with Michael Johnson was scrapped over suspicious betting activity, after money flooded in on Johnson the day before. Speaking with Ariel Helwani, Hernandez said agents interviewed him for about an hour, asked about messaging apps on his phone, and let him go, and he stressed he had nothing to do with any fight-fixing.\n\nThe UFC lightweight is back this weekend, facing Rafael dos Anjos at UFC 332 in Salt Lake City on Oct. 3. Big UFC news ahead of fight week.\n\nHernandez or dos Anjos on Saturday?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "AlexanderHernandez",
+    "RafaelDosAnjos"
+  ],
+  "sources": [
+    "Sherdog",
+    "Ariel Helwani"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}

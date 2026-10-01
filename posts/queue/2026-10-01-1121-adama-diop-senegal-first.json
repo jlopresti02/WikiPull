@@ -1,0 +1,33 @@
+{
+  "story_id": "adama-diop-first-senegalese-ufc-signing",
+  "headline": "Senegal Made History",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Adama Diop"
+    },
+    {
+      "type": "mystery",
+      "headline": "Diop Signs"
+    },
+    {
+      "type": "flag",
+      "country": "Senegal",
+      "headline": "Senegal's First"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Adama Diop just made UFC history for Senegal. 🇸🇳\n\nThe heavyweight earned a UFC contract on Dana White's Contender Series on Sept. 30, stopping Zaurbek Sabanov by TKO at 2:13 of the second round after mixing in a takedown and clinch strikes. That makes him the first fighter from Senegal ever signed by the UFC.\n\nDiop, a former Senegalese traditional wrestler, is now 6-1 in MMA and came in as the EFC heavyweight champion. His UFC debut date hasn't been announced yet. Big UFC signing news for African MMA.\n\nWho should Adama Diop fight first?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "DWCS",
+    "AdamaDiop",
+    "Senegal"
+  ],
+  "sources": [
+    "MMA News"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}
