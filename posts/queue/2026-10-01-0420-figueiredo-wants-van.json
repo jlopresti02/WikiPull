@@ -1,0 +1,38 @@
+{
+  "story_id": "figueiredo-calls-for-van-title-shot",
+  "headline": "Back To 125",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Deiveson Figueiredo"
+    },
+    {
+      "type": "fighter",
+      "name": "Joshua Van",
+      "headline": "Van Next?"
+    },
+    {
+      "type": "mystery",
+      "headline": "Figueiredo's Title Bid"
+    },
+    {
+      "type": "flag",
+      "country": "Brazil"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Deiveson Figueiredo wants one more run at UFC flyweight gold.\n\nThe two-time former UFC flyweight champion said at UFC 332 media day that he has been asking the UFC to send him back down to 125 pounds, insisting the cut would be easy and that he would knock out champion Joshua Van if given the chance. 🇧🇷\n\nFirst, Figueiredo has work to do at bantamweight: he meets rising contender Payton Talbott in the UFC 332 co-main event this Saturday, Oct. 3, in Salt Lake City. At 38 and coming off back-to-back losses, he'd also have to get past a crowded flyweight title picture that includes top contender Manel Kape.\n\nShould the UFC give Figueiredo a shot at Joshua Van?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "DeivesonFigueiredo",
+    "JoshuaVan"
+  ],
+  "sources": [
+    "MMA Mania",
+    "Last Word on MMA"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}
