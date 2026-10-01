@@ -72,6 +72,22 @@ WikiPull also builds finished WWIT MMA News posts.
    - `caption.txt`: your caption plus the source and photo credit lines
    - `post.json`: the post file, for the record
 
+### Reels with music
+
+Add `"reel": true` to a post file to also get `reel.mp4`: an 8-second
+1080×1920 video in the same design (headline fades in, the fighter slowly
+pushes in), plus `cover.png` for the Reel cover. Add music with:
+
+```json
+"music": "music/track.mp3",
+"music_credit": "Track by Artist / CC BY 4.0",
+"music_start": 12.5,
+"seconds": 8
+```
+
+The music is baked into the video. See `music/README.md` for which tracks
+are safe to use.
+
 To preview locally: `python render.py posts/queue/<name>.json`
 
 The design follows the MMA post template: the WWIT MMA NEWS tag, a big
