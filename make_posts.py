@@ -10,6 +10,8 @@ For each posts/queue/<name>.json:
        {"type": "mystery"}                             silhouette with a "?" (always works;
                                                        for fighters with no photo)
        {"type": "text"}                                headline only (always works)
+     Any option may add "headline": "..." to replace the post's headline
+     when that option is the one used.
      Old post files with a plain "fighter" field still work.
   2. Pick music: "music_pool": "espn" rotates through music/pools/espn.json;
      "music_search" searches Openverse; "music" names a file directly.
@@ -100,7 +102,12 @@ def resolve_visual(spec):
             subject = None
         if subject:
             spec["subject"] = subject
-            print(f"Image: {v} -> {subject['kind']} {subject.get('image') or ''}")
+            # An option can carry its own headline, used only if that option
+            # wins: e.g. the withdrawn fighter's photo with "SOPAJ OUT".
+            if v.get("headline"):
+                spec["headline"] = v["headline"]
+            print(f"Image: {v} -> {subject['kind']} {subject.get('image') or ''}"
+                  f"  headline: {spec['headline']}")
             return True
     return False
 

@@ -78,25 +78,45 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
 ```
 
 **Headline**: 1 to 3 punchy words, like a sports graphic ("BJP RETURNS",
-"TITLE SHOT", "OUT OF UFC 330"). When the visual could end up as the
-mystery silhouette, include the fighter's last name.
+"TITLE SHOT", "OUT OF UFC 330"). Match it to the image that will be used
+(see Visual below).
 
-**Visual**, in priority order (the first that works is used):
-1. `fighter`: the main person in the story, by the name Wikipedia uses. The
-   photo is cut out automatically. For a matchup, use the bigger name.
-2. If the story is about money (purses, bonuses, contracts, fines,
-   betting), add `{"type": "money"}` next. It always works.
-3. If it's a location or event announcement, add the arena/stadium
-   (`venue`) and then the host country's `flag`.
-4. **Fighter changes** (a withdrawal, injury, replacement or short-notice
-   opponent): if no photo may be found for the fighter, add
-   `{"type": "mystery"}` right after the `fighter` entry. It draws a
-   silhouette of a man with a question mark on it and always works. Put
-   the main fighter's **last name in the headline** so people know who the
-   post is about ("MCGHEE'S NEW FOE", "GANE OUT", "ASPINALL'S REPLACEMENT").
-   This is the stand-in until a bank of fighter images exists.
-5. Otherwise add the fighter's own country `flag` as a backup.
+**Visual**, in priority order (the first that works is used). Any entry
+can carry its own `"headline"`, which replaces the post's headline only if
+that entry is the one used.
+
+1. **Photos of fighters connected to the story**, by the names Wikipedia
+   uses (cut out automatically). Order: the main fighter, then the other
+   fighters who are in the story *and still involved* (e.g. a new opponent).
+2. **The fighter who is out**: for a withdrawal, injury, release or
+   replacement, add the fighter who is leaving last among the fighter
+   photos, with a headline about them leaving, e.g.
+   `{"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"}`
+   ("INJURED OUT", "SOPAJ REPLACED", "SOPAJ PULLS OUT"). The caption should
+   still tell the whole story.
+3. **Story-type graphic**: for money stories (purses, bonuses, contracts,
+   fines, betting) add `{"type": "money"}`; for location or event
+   announcements add the arena/stadium (`venue`), then the host country's
+   `flag`.
+4. **Silhouette backup** for any story about fighters: `{"type": "mystery"}`
+   draws a silhouette with a question mark and always works. It's the
+   stand-in when no connected fighter has a usable photo, so put the main
+   fighter's **last name in the headline** ("MCGHEE'S NEW FOE",
+   "ASPINALL'S REPLACEMENT").
+5. Otherwise the main fighter's country `flag`.
 A text-only post is the automatic last resort.
+
+Example for a replacement story:
+
+```json
+"headline": "McGhee's New Foe",
+"visual": [
+  {"type": "fighter", "name": "Marcus McGhee"},
+  {"type": "fighter", "name": "Anthony Romero"},
+  {"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"},
+  {"type": "mystery"}
+]
+```
 
 **Color**: vary it so the grid isn't one color. Red `#d2202f` for big news
 and fights, blue `#1f3fbf` for announcements, black `#111111` for money and
