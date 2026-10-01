@@ -1,6 +1,7 @@
-# Hourly WWIT MMA News automation
+# WWIT MMA News automation
 
-This is the runbook the hourly scheduled task follows. It turns new MMA news
+This is the runbook the scheduled task follows. It runs 4 times a day
+(9 AM, 1 PM, 6 PM and 10 PM Eastern), every day except Saturday. It turns new MMA news
 into Instagram Reels for **@wwitmma** and schedules them through Metricool.
 Edit this file to change how the automation behaves; the task reads it fresh
 every run.
@@ -32,9 +33,11 @@ with its facts, sources and posts. Also read the last ~10 entries in
 Run the news sweep (several separate web searches: general MMA news, UFC,
 PFL, ONE Championship and others, fight announcements and bookings,
 injuries and withdrawals, results from events happening now, weigh-ins,
-contracts and signings, notable callouts or controversies). Look at roughly
-the past hour, plus anything major from the past few hours still
-developing. Prefer reputable MMA outlets and official sources.
+contracts and signings, notable callouts or controversies). Cover
+everything since the previous run: about 4 to 11 hours, and on the Sunday
+9 AM run everything since Friday 10 PM (all of Saturday, including any
+Saturday-night event results). Use `stories.json` and recent `posts/`
+folders to see what's already covered. Prefer reputable MMA outlets and official sources.
 
 Send the user the usual short briefing with SendUserMessage: biggest story
 in one line, then a bullet per new story (what, who, source link). If
@@ -60,7 +63,7 @@ Rules:
   be posted only if clearly worded as a report ("reportedly", "per ESPN").
 - No posts that mock or sensationalize serious injuries, deaths, arrests or
   personal tragedies. Report them plainly or skip them.
-- If nothing qualifies, skip to step 7 and say no posts this hour.
+- If nothing qualifies, skip to step 7 and say no posts this run.
 
 ### 4. Write the post file
 
