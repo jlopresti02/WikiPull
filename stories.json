@@ -24,7 +24,10 @@
     {
      "post": "2026-10-01-0820-barcelos-discharged",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "silhouette graphic (no usable Barcelos photo)",
+     "scheduled_for": "2026-10-01T08:36:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6069199002064865549"
     }
    ]
   },
@@ -53,7 +56,10 @@
     {
      "post": "2026-10-01-0821-sterling-oblique-kicks",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Aljamain Sterling)",
+     "scheduled_for": "2026-10-01T08:38:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2684104962084849358"
     }
    ]
   },
