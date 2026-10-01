@@ -2,15 +2,45 @@
   "story_id": "covington-strickland-raf-callout",
   "headline": "Colby Calls Out Strickland",
   "visual": [
-    {"type": "fighter", "name": "Colby Covington"},
-    {"type": "fighter", "name": "Sean Strickland"},
-    {"type": "mystery", "headline": "Covington's Callout"},
-    {"type": "flag", "country": "United States"}
+    {
+      "type": "fighter",
+      "name": "Colby Covington"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland"
+    },
+    {
+      "type": "mystery",
+      "headline": "Covington's Callout"
+    },
+    {
+      "type": "flag",
+      "country": "United States"
+    }
   ],
   "color": "#d2202f",
   "caption": "Colby Covington wants Sean Strickland on the mats before he meets Khamzat Chimaev.\n\nA report from MMAmania said Real American Freestyle (RAF) offered Covington a wrestling match with UFC middleweight champion Sean Strickland for Oct. 23 in Las Vegas, and that talks stalled over a 10-pound weight gap. Covington fired back on X, calling it fake news and saying he'll wrestle Strickland at any weight that night. 🤼\n\nCovington is 5-0 in RAF and is set to defend his Cruiserweight Crossover title against Khamzat Chimaev in Abu Dhabi on Nov. 14. The two UFC stars have traded shots for years, so this MMA news has fans buzzing.\n\nWould you watch Covington vs. Strickland?",
-  "hashtags": ["MMANews", "UFC", "RAFWrestling", "ColbyCovington", "SeanStrickland"],
-  "sources": ["MMA News", "MMAmania", "Bloody Elbow"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "RAFWrestling",
+    "ColbyCovington",
+    "SeanStrickland"
+  ],
+  "sources": [
+    "MMA News",
+    "MMAmania",
+    "Bloody Elbow"
+  ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/colby-covington/cutouts/01-colby-covington-2023.png",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America / CC BY-SA 2.0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }
