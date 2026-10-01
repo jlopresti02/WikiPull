@@ -1,4 +1,18 @@
+Searching Wikimedia Commons for: Raoni Barcelos
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-01-0720-covington-wants-strickland.json
-Rendered posts/2026-10-01-0720-covington-wants-strickland/post.png (fighter)
-Rendered posts/2026-10-01-0720-covington-wants-strickland/reel.mp4
+== 2026-10-01-0820-barcelos-discharged.json
+$ fetch.py Raoni Barcelos --count 5
+Image: {'type': 'mystery', 'headline': 'Barcelos Update'} -> graphic   headline: Barcelos Update
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-01-0820-barcelos-discharged/post.png (graphic)
+Rendered posts/2026-10-01-0820-barcelos-discharged/reel.mp4
+
+== 2026-10-01-0821-sterling-oblique-kicks.json
+Image: {'type': 'fighter', 'name': 'Aljamain Sterling'} -> fighter images/aljamain-sterling/cutouts/01-alijamain-sterling-at-ufc-228.png  headline: Fix The Rules
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-01-0821-sterling-oblique-kicks/post.png (fighter)
+Rendered posts/2026-10-01-0821-sterling-oblique-kicks/reel.mp4
