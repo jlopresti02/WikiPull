@@ -24,7 +24,11 @@
    "posts": [
     {
      "post": "2026-10-01-1120-anik-steveson-10-fights",
-     "kind": "new"
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Gable Steveson)",
+     "scheduled_for": "2026-10-01T11:42:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3711814676643464237"
     }
    ]
   },
@@ -49,7 +53,11 @@
    "posts": [
     {
      "post": "2026-10-01-1121-adama-diop-senegal-first",
-     "kind": "new"
+     "kind": "new",
+     "format": "reel",
+     "image": "silhouette graphic (Commons photo was a different Adama Diop)",
+     "scheduled_for": "2026-10-01T12:03:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5726979719044248126"
     }
    ]
   },
@@ -75,7 +83,11 @@
    "posts": [
     {
      "post": "2026-10-01-1122-hernandez-feds-questioned",
-     "kind": "new"
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Alexander Hernandez)",
+     "scheduled_for": "2026-10-01T11:44:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7807492230755170997"
     }
    ]
   },
@@ -100,7 +112,11 @@
    "posts": [
     {
      "post": "2026-10-01-1123-pimblett-tuf-topuria",
-     "kind": "new"
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Paddy Pimblett)",
+     "scheduled_for": "2026-10-01T11:46:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7522779565810532795"
     }
    ]
   },
