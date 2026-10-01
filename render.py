@@ -211,17 +211,52 @@ def money_graphic(bg):
     return out
 
 
+def mystery_graphic(bg):
+    """A faceless head-and-shoulders silhouette with a big question mark on it.
+
+    Stand-in for a fighter we have no photo of (late replacements, newcomers),
+    until the fighter image bank exists."""
+    S = 2  # draw at 2x, then downsample for smooth edges
+    W, H = 900 * S, 1000 * S
+    dark_bg = sum(bg) < 120
+    body = (225, 225, 225) if dark_bg else (18, 18, 18)
+    mark = (17, 17, 17) if dark_bg else (255, 255, 255)
+    g = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(g)
+    cx = W // 2
+    # shoulders and chest: broad, with rounded shoulder corners, cut off at the bottom
+    d.rounded_rectangle([cx - 420 * S, 590 * S, cx + 420 * S, 1300 * S], radius=230 * S, fill=body)
+    # neck
+    d.rounded_rectangle([cx - 85 * S, 440 * S, cx + 85 * S, 640 * S], radius=40 * S, fill=body)
+    # head
+    d.ellipse([cx - 190 * S, 40 * S, cx + 190 * S, 500 * S], fill=body)
+    # question mark centered on the head
+    f = font(360 * S)
+    l, t, r, b = f.getbbox("?")
+    d.text((cx - (l + r) // 2, 270 * S - (t + b) // 2), "?", font=f, fill=mark)
+    g = g.resize((W // S, H // S), Image.LANCZOS)
+    out = Image.new("RGBA", (g.width + 40, g.height + 40), (0, 0, 0, 0))
+    shadow = Image.new("RGBA", out.size, (0, 0, 0, 0))
+    shadow.paste((0, 0, 0, 110), (20, 34), g.getchannel("A"))
+    out.alpha_composite(shadow.filter(ImageFilter.GaussianBlur(16)))
+    out.alpha_composite(g, (20, 14))
+    return out
+
+
+GRAPHICS = {"money": money_graphic, "mystery": mystery_graphic}
+
+
 class Scene:
     """Everything needed to draw one post in one layout.
 
     kind:
       "fighter"  transparent cutout, as big as possible, may run off the bottom
       "card"     a photo (flag, venue) shown as a framed card under the headline
-      "graphic"  a drawn graphic (the money sign), centered under the headline
+      "graphic"  a drawn graphic (money sign, mystery silhouette), centered under the headline
       "none"     headline only, set larger and centered
     """
 
-    def __init__(self, L, words, bg, cut=None, kind="fighter"):
+    def __init__(self, L, words, bg, cut=None, kind="fighter", graphic="money"):
         self.L, self.words, self.bg, self.kind = L, words, bg, kind
         self.light = is_light(bg)
         self.fg = (17, 17, 17) if self.light else (255, 255, 255)
@@ -240,7 +275,7 @@ class Scene:
             if kind == "card":
                 sub = photo_card(cut, 980, room_h)
             else:
-                sub = money_graphic(bg)
+                sub = GRAPHICS[graphic](bg)
                 s = min(900 / sub.width, room_h / sub.height)
                 sub = sub.resize((max(1, int(sub.width * s)), max(1, int(sub.height * s))),
                                  Image.LANCZOS)
@@ -357,10 +392,11 @@ def render(spec_path):
     if subject.get("image"):
         with Image.open(ROOT / subject["image"]) as im:
             cut = im.convert("RGBA")
-    Scene(POST, words, bg, cut, kind).frame().save(out / "post.png", optimize=True)
+    graphic = subject.get("graphic", "money")
+    Scene(POST, words, bg, cut, kind, graphic).frame().save(out / "post.png", optimize=True)
     print(f"Rendered posts/{name}/post.png ({kind})")
     if spec.get("reel"):
-        make_reel(Scene(REEL, words, bg, cut, kind), out, spec)
+        make_reel(Scene(REEL, words, bg, cut, kind, graphic), out, spec)
         print(f"Rendered posts/{name}/reel.mp4")
 
     lines = [spec["caption"].strip(), ""]

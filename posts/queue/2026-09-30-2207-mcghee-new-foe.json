@@ -1,14 +1,13 @@
 {
   "story_id": "mcghee-vs-romero-ufc-332",
-  "headline": "New Foe",
+  "headline": "McGhee's New Foe",
   "visual": [
     {
       "type": "fighter",
       "name": "Marcus McGhee"
     },
     {
-      "type": "venue",
-      "name": "Delta Center"
+      "type": "mystery"
     }
   ],
   "color": "#0f8a5f",
@@ -25,13 +24,5 @@
     "MMA Mania"
   ],
   "music_pool": "espn",
-  "reel": true,
-  "subject": {
-    "kind": "card",
-    "image": "images/delta-center/01-delta-center-2023.jpg",
-    "credit": "Lomrjyo / CC BY-SA 4.0"
-  },
-  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
-  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
-  "music_start": 168.5
+  "reel": true
 }

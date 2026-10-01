@@ -78,7 +78,8 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
 ```
 
 **Headline**: 1 to 3 punchy words, like a sports graphic ("BJP RETURNS",
-"TITLE SHOT", "OUT OF UFC 330").
+"TITLE SHOT", "OUT OF UFC 330"). When the visual could end up as the
+mystery silhouette, include the fighter's last name.
 
 **Visual**, in priority order (the first that works is used):
 1. `fighter`: the main person in the story, by the name Wikipedia uses. The
@@ -87,7 +88,14 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
    betting), add `{"type": "money"}` next. It always works.
 3. If it's a location or event announcement, add the arena/stadium
    (`venue`) and then the host country's `flag`.
-4. Otherwise add the fighter's own country `flag` as a backup.
+4. **Fighter changes** (a withdrawal, injury, replacement or short-notice
+   opponent): if no photo may be found for the fighter, add
+   `{"type": "mystery"}` right after the `fighter` entry. It draws a
+   silhouette of a man with a question mark on it and always works. Put
+   the main fighter's **last name in the headline** so people know who the
+   post is about ("MCGHEE'S NEW FOE", "GANE OUT", "ASPINALL'S REPLACEMENT").
+   This is the stand-in until a bank of fighter images exists.
+5. Otherwise add the fighter's own country `flag` as a backup.
 A text-only post is the automatic last resort.
 
 **Color**: vary it so the grid isn't one color. Red `#d2202f` for big news

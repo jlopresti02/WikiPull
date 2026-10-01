@@ -7,6 +7,8 @@ For each posts/queue/<name>.json:
        {"type": "venue",   "name": "Etihad Arena"}     arena/stadium photo, as a framed card
        {"type": "flag",    "country": "Qatar"}         country flag, as a framed card
        {"type": "money"}                               a big dollar sign (always works)
+       {"type": "mystery"}                             silhouette with a "?" (always works;
+                                                       for fighters with no photo)
        {"type": "text"}                                headline only (always works)
      Old post files with a plain "fighter" field still work.
   2. Pick music: "music_pool": "espn" rotates through music/pools/espn.json;
@@ -72,7 +74,9 @@ def try_visual(v):
         return {"kind": "card", "image": str(img.relative_to(ROOT)),
                 "credit": photo_credit(folder, img.name)}
     if t == "money":
-        return {"kind": "graphic", "image": None, "credit": None}
+        return {"kind": "graphic", "graphic": "money", "image": None, "credit": None}
+    if t == "mystery":
+        return {"kind": "graphic", "graphic": "mystery", "image": None, "credit": None}
     if t == "text":
         return {"kind": "none", "image": None, "credit": None}
     raise ValueError(f"unknown visual type: {t}")
