@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "gordon-vs-costa-ufc-334",
+      "title": "Jared Gordon vs. Melquizael Costa added to UFC 334 at lightweight (Nov 14, MSG)",
+      "people": [
+        "Jared Gordon",
+        "Melquizael Costa"
+      ],
+      "event": "UFC 334: Gane vs. Hokit, November 14, 2026, Madison Square Garden, New York",
+      "first_reported": "2026-10-01",
+      "facts": [
+        "Lightweight bout Jared Gordon vs. Melquizael Costa added to UFC 334; first reported by AG Fight, confirmed to Heavy by multiple sources",
+        "Costa (No. 12 featherweight) moves up to lightweight; his six-fight win streak ended in a main-event loss to Arnold Allen",
+        "Gordon (New York native) is on a two-fight losing streak, most recently a first-round guillotine loss to Jim Miller in 2026",
+        "UFC 334 is headlined by Ciryl Gane vs. Josh Hokit (interim HW title)"
+      ],
+      "sources": [
+        "https://heavy.com/sports/ufc/ufc-lightweight-ufc-334-new-york/",
+        "https://bloodyelbow.com/2026/10/01/top-15-ufc-star-moves-up-in-weight-as-return-gets-announced-for-ciryl-gane-vs-josh-hokit-card/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-01-1720-gordon-vs-costa",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "hardy-rousey-replace-dana-white",
       "title": "Dan Hardy says Dana White's UFC time has passed, floats Ronda Rousey as successor",
       "people": [
