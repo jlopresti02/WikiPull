@@ -86,9 +86,11 @@ def wikidata_main_image(query, prop="P18"):
     entity = api_get(WIKIDATA_API, {
         "action": "wbgetentities", "ids": found[0]["id"], "props": "claims",
     })["entities"][found[0]["id"]]
-    claims = entity.get("claims", {}).get(prop, [])
-    return ["File:" + c["mainsnak"]["datavalue"]["value"]
-            for c in claims if "datavalue" in c.get("mainsnak", {})]
+    claims = [c for c in entity.get("claims", {}).get(prop, [])
+              if "datavalue" in c.get("mainsnak", {}) and c.get("rank") != "deprecated"]
+    # Countries list historical flags too; the current one is ranked "preferred".
+    claims.sort(key=lambda c: c.get("rank") != "preferred")
+    return ["File:" + c["mainsnak"]["datavalue"]["value"] for c in claims]
 
 
 IMAGEINFO = {
