@@ -2,14 +2,39 @@
   "story_id": "silva-dismisses-critics-wang-toughest-fight",
   "headline": "Toughest Fight",
   "visual": [
-    {"type": "fighter", "name": "Natália Silva"},
-    {"type": "fighter", "name": "Wang Cong"},
-    {"type": "mystery", "headline": "Silva's Big Test"}
+    {
+      "type": "fighter",
+      "name": "Natália Silva"
+    },
+    {
+      "type": "fighter",
+      "name": "Wang Cong"
+    },
+    {
+      "type": "mystery",
+      "headline": "Silva's Big Test"
+    }
   ],
   "color": "#6b2fd1",
   "caption": "Natália Silva isn't listening to the UFC 332 critics.\n\nThe Brazilian flyweight told MMA Junkie that people have doubted her for her whole life, so the outside noise about this weekend's card doesn't faze her. Her focus has been on her camp, her preparation and leaving Salt Lake City with the vacant UFC women's flyweight title.\n\nSilva (20-5-1, 8-0 UFC) carries a 14-fight win streak, with wins over former champions Alexa Grasso and Rose Namajunas, into Saturday's main event against Wang Cong (10-1) at the Delta Center. She isn't taking Wang lightly either. Silva called it the toughest fight of her career. 🏆\n\nIs Silva the next UFC flyweight champion, or does Wang pull off the upset?",
-  "hashtags": ["MMANews", "UFC", "UFC332", "NataliaSilva", "WangCong"],
-  "sources": ["MMA Junkie"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "NataliaSilva",
+    "WangCong"
+  ],
+  "sources": [
+    "MMA Junkie"
+  ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png",
+    "credit": "Sexto Round / CC BY 3.0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

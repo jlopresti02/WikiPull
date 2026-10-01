@@ -1,23 +1,6 @@
-Searching Wikimedia Commons for: Wang Cong
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Natália Silva
-  saved images/nat-lia-silva/01-nat-lia-silva-2025.jpg  [CC BY 3.0]
-  saved images/nat-lia-silva/02-natalia-silva-ufc.jpg  [CC BY-SA 4.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-01 17:42:09.078308530 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png
-  cutout images/nat-lia-silva/cutouts/02-natalia-silva-ufc.png
-Done: 2 new cutout(s).
 
-== 2026-10-01-1320-wang-cong-real-champ.json
-$ fetch.py Wang Cong --count 5
-$ fetch.py Natália Silva --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/nat-lia-silva
-Image: {'type': 'fighter', 'name': 'Natália Silva'} -> fighter images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png  headline: Real Champ?
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-01-1320-wang-cong-real-champ/post.png (fighter)
-Rendered posts/2026-10-01-1320-wang-cong-real-champ/reel.mp4
+== 2026-10-01-1420-silva-toughest-fight.json
+Image: {'type': 'fighter', 'name': 'Natália Silva'} -> fighter images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png  headline: Toughest Fight
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-01-1420-silva-toughest-fight/post.png (fighter)
+Rendered posts/2026-10-01-1420-silva-toughest-fight/reel.mp4
