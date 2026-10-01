@@ -1,0 +1,15 @@
+{
+  "story_id": "pereira-teases-big-challenge",
+  "headline": "Reveal Saturday",
+  "visual": [
+    {"type": "fighter", "name": "Alex Pereira"},
+    {"type": "mystery", "headline": "Pereira's Next Foe?"},
+    {"type": "flag", "country": "Brazil"}
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Alex Pereira's next UFC fight gets revealed this weekend.\n\nUFC CEO Dana White has confirmed he will announce Pereira's next fight during the UFC 332 stream on Kick this Saturday, Oct. 3, per Bloody Elbow. The news comes days after the former two-division UFC champion teased a \"big challenge\" for his return. 🇧🇷\n\nPereira, the No. 3-ranked UFC heavyweight, hasn't competed since his TKO loss to Ciryl Gane for the interim heavyweight title at UFC Freedom 250 in June. No opponent has been made official yet, though some outlets have pointed to No. 2-ranked Sergei Pavlovich.\n\nWho do you want to see Poatan fight next?",
+  "hashtags": ["MMANews", "UFC", "UFC332", "AlexPereira", "Poatan"],
+  "sources": ["Bloody Elbow"],
+  "music_pool": "espn",
+  "reel": true
+}
