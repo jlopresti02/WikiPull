@@ -34,5 +34,13 @@
     "Last Word on MMA"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png",
+    "credit": "Show Me The Money / CC BY 3.0"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }
