@@ -1,0 +1,43 @@
+{
+  "story_id": "rogan-oblique-kick-ban",
+  "headline": "Rogan: Ban It",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Joe Rogan",
+      "headline": "Rogan: Ban It"
+    },
+    {
+      "type": "fighter",
+      "name": "Jon Jones",
+      "headline": "Ban The Kick?"
+    },
+    {
+      "type": "mystery",
+      "headline": "Ban The Kick?"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Joe Rogan wants the oblique kick out of MMA.\n\nOn JRE MMA Show #186 with UFC fighter Sean Sharaf, the UFC commentator argued that oblique and side kicks to the knee should be banned, comparing them to eye pokes: both can cause permanent damage, and you can't tap out of a kick that wrecks a knee. He pointed to Jon Jones' fights with Thiago Santos and Rampage Jackson as examples. Sharaf was more on the fence, saying it's a realistic fighting technique. The debate heated up after CSAC executive director Andy Foster floated a ban under the Unified Rules following UFC 331, and Dana White has said the UFC doesn't disagree. 🦵\n\nShould oblique kicks be banned in MMA?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "JoeRogan",
+    "ObliqueKick",
+    "JonJones"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "JRE MMA Show"
+  ],
+  "music_pool": "espn",
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/joe-rogan/cutouts/01-joerogan.png",
+    "credit": "Original: Rebecca Lai of Glasgow, Sweden Crop: East718 at en.wikipedia / CC BY 2.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
+}
