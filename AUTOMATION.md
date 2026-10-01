@@ -12,6 +12,22 @@ every run.
 - Repo: **jlopresti02/WikiPull** (public; Metricool pulls videos from it)
 - Music: the ESPN-style pool, `"music_pool": "espn"` (rotates automatically)
 
+## Requested stories (one-time)
+
+Post these on the next run even if they fall outside the sweep window,
+then delete the item from this list in the same commit as the ledger
+update. Still follow every rule below (own-words caption, sources,
+5 hashtags, time blocks, no repeats).
+
+- **Jon Anik on Gable Steveson** (requested by the user, Oct 1, 2026).
+  Anik questioned whether Steveson will even reach 10 UFC fights after
+  his 12-second KO loss to Sean Sharaf at UFC 331. Source: Bloody Elbow,
+  https://bloodyelbow.com/2026/10/01/jon-anik-questions-if-gable-steveson-will-even-make-it-to-10-fights-in-the-ufc-after-12-second-ko/
+  (background on the KO: Yahoo Sports / MMA Junkie UFC 331 results).
+  Re-check details first (where Anik said it, his exact point) and
+  attribute it to him. Visual: Gable Steveson, then Jon Anik, then
+  mystery. Purple `#6b2fd1`.
+
 ## Each run, in order
 
 ### 1. Get the repo and the ledger
