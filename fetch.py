@@ -88,8 +88,9 @@ def wikidata_main_image(query, prop="P18"):
     })["entities"][found[0]["id"]]
     claims = [c for c in entity.get("claims", {}).get(prop, [])
               if "datavalue" in c.get("mainsnak", {}) and c.get("rank") != "deprecated"]
-    # Countries list historical flags too; the current one is ranked "preferred".
-    claims.sort(key=lambda c: c.get("rank") != "preferred")
+    # Countries list historical flags too. Those carry an end time (P582);
+    # put current ones first, preferred rank ahead of normal.
+    claims.sort(key=lambda c: ("P582" in c.get("qualifiers", {}), c.get("rank") != "preferred"))
     return ["File:" + c["mainsnak"]["datavalue"]["value"] for c in claims]
 
 
