@@ -88,6 +88,15 @@ pushes in), plus `cover.png` for the Reel cover. Add music with:
 The music is baked into the video. See `music/README.md` for which tracks
 are safe to use.
 
+**Or let WikiPull find music:** use `"music_search": "epic hip hop"`
+instead of `"music"`. It searches Openverse (Creative Commons music from
+Jamendo, Freesound and Wikimedia), keeps only tracks licensed for
+commercial use and editing, saves them to `music/<search>/` with credits,
+and starts the Reel on the most energetic 8 seconds. `"music_pick": 2`
+uses the second track found. Turning on `music_search` also turns on the
+Reel. You can also fetch music by hand: Actions → Make posts → Run
+workflow, with a music search.
+
 To preview locally: `python render.py posts/queue/<name>.json`
 
 The design follows the MMA post template: the WWIT MMA NEWS tag, a big

@@ -9,3 +9,7 @@ Commons tracks (e.g. YouTube Audio Library, Pixabay Music, Free Music
 Archive), or music you made or licensed. Instagram detects copyrighted
 songs and will mute or remove the Reel. If a track's license asks for
 credit, put it in `"music_credit"` and it is added to the caption.
+
+Tracks fetched by `music.py` (or a post's `music_search`) land in
+`music/<search>/` with `credits.md`, already filtered to licenses that
+allow commercial use and editing.

@@ -8,6 +8,10 @@ on:
       - "posts/queue/*.json"
       - "music/**"
   workflow_dispatch:
+    inputs:
+      music_query:
+        description: "Optional: fetch music for Reels, e.g. 'epic hip hop'"
+        required: false
 
 permissions:
   contents: write
@@ -37,6 +41,12 @@ jobs:
           pip install --quiet "rembg[cpu]" opencv-python-headless pillow numpy
           which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
 
+      - name: Fetch music
+        if: github.event_name == 'workflow_dispatch' && inputs.music_query != ''
+        env:
+          QUERY: ${{ inputs.music_query }}
+        run: python music.py "$QUERY"
+
       - name: Make posts
         run: |
           set -o pipefail
@@ -47,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
-          git add -A posts images
+          git add -A posts images music
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
             exit 0

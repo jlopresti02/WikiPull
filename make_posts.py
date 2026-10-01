@@ -27,6 +27,32 @@ def has_cutouts(fighter):
     return folder.is_dir() and any(folder.glob("*.png"))
 
 
+def resolve_music(spec):
+    """Turn "music_search" into a concrete track, fetching from Openverse if needed.
+
+    Fills in "music", "music_credit" and "music_start" (unless already set)
+    and turns on "reel". Returns True if the spec changed.
+    """
+    query = spec.get("music_search")
+    if not query or spec.get("music"):
+        return False
+    folder = ROOT / "music" / slugify(query)
+    credits_file = folder / "credits.json"
+    if not credits_file.exists():
+        run("music.py", query, "--count", "3")
+    if not credits_file.exists():
+        raise RuntimeError(f"no music found for '{query}'")
+    tracks = json.loads(credits_file.read_text())
+    pick = min(max(int(spec.get("music_pick", 1)), 1), len(tracks)) - 1
+    t = tracks[pick]
+    spec["music"] = f"music/{folder.name}/{t['file']}"
+    spec.setdefault("music_credit", f"\"{t['title']}\" by {t['artist']} / {t['license']}")
+    spec.setdefault("music_start", t.get("best_start", 0))
+    spec["reel"] = True
+    print(f"Music: {spec['music']} from {spec['music_start']}s")
+    return True
+
+
 def run(*cmd):
     print("$", " ".join(cmd))
     subprocess.run([sys.executable, *cmd], cwd=ROOT, check=True)
@@ -46,6 +72,8 @@ def main():
             if not has_cutouts(fighter):
                 run("fetch.py", fighter, "--count", "5")
                 run("cutout.py", str(ROOT / "images" / slugify(fighter)))
+            if resolve_music(spec):
+                spec_path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
             render(spec_path)
             spec_path.unlink()
         except (Exception, SystemExit) as exc:
