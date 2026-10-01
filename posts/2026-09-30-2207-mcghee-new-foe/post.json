@@ -24,5 +24,14 @@
     "MMA Mania"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "graphic",
+    "graphic": "mystery",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

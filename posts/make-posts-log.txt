@@ -3,16 +3,10 @@ Searching Wikimedia Commons for: Marcus McGhee
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Delta Center
-  saved images/delta-center/01-delta-center-2023.jpg  [CC BY-SA 4.0]
-  saved images/delta-center/02-delta-center-satellite-view.png  [Public domain]
-  saved images/delta-center/03-delta-center-with-arena-station.jpg  [CC BY 4.0]
-Done: 3 image(s) saved.
 
 == 2026-09-30-2207-mcghee-new-foe.json
 $ fetch.py Marcus McGhee --count 5
-$ fetch.py Delta Center --count 3
-Image: {'type': 'venue', 'name': 'Delta Center'} -> card images/delta-center/01-delta-center-2023.jpg
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-09-30-2207-mcghee-new-foe/post.png (card)
+Image: {'type': 'mystery'} -> graphic 
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-09-30-2207-mcghee-new-foe/post.png (graphic)
 Rendered posts/2026-09-30-2207-mcghee-new-foe/reel.mp4
