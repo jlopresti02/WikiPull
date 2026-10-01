@@ -1,0 +1,46 @@
+{
+  "story_id": "sterling-vs-vallejos-ufc-qatar",
+  "headline": "Sterling's Call",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Aljamain Sterling",
+      "headline": "Sterling's Call"
+    },
+    {
+      "type": "fighter",
+      "name": "Kevin Vallejos"
+    },
+    {
+      "type": "mystery",
+      "headline": "Sterling's Call"
+    },
+    {
+      "type": "flag",
+      "country": "Qatar"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Aljamain Sterling says the UFC gave him just one hour to say yes to his next fight.\n\nThe former UFC bantamweight champion is booked against unbeaten featherweight Kevin Vallejos in the co-main event of UFC Qatar on November 21 at Ali Bin Hamad Al Attiyah Arena in Al Rayyan. Sterling says the offer came in right after training and he had an hour to answer.\n\nHe also revealed he turned down Aaron Pico for UFC 333, saying a win over a fighter who is 1-1 in the UFC would do nothing for his push toward a featherweight title shot. In his eyes, Vallejos is the opponent who can move him up the rankings. 🥊\n\nDid Sterling make the right call, or is Vallejos the riskier fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCQatar",
+    "AljamainSterling",
+    "KevinVallejos"
+  ],
+  "sources": [
+    "SB Nation / MMA Mania",
+    "Cageside Press"
+  ],
+  "music_pool": "espn",
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/aljamain-sterling/cutouts/01-alijamain-sterling-at-ufc-228.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}
