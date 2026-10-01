@@ -67,7 +67,10 @@
         {
           "post": "2026-10-01-0620-pereira-reveal-332",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Alex Pereira)",
+          "scheduled_for": "2026-10-01T06:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1115983320847173781"
         }
       ]
     },
