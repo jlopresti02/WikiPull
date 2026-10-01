@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "sterling-vs-vallejos-ufc-qatar",
+      "title": "Aljamain Sterling vs. Kevin Vallejos co-headlines UFC Qatar (Nov 21); Sterling says he had one hour to accept, rejected Aaron Pico",
+      "people": [
+        "Aljamain Sterling",
+        "Kevin Vallejos",
+        "Aaron Pico"
+      ],
+      "event": "UFC Fight Night Qatar, November 21, 2026, Ali Bin Hamad Al Attiyah Arena, Al Rayyan",
+      "first_reported": "2026-09-30",
+      "facts": [
+        "Sterling vs. Vallejos is the featherweight co-main event at UFC Qatar on November 21",
+        "Sterling says the UFC gave him one hour to accept the fight",
+        "Sterling turned down Aaron Pico at UFC 333, saying the fight did nothing for his title push",
+        "Vallejos is undefeated"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/aljamain-sterling-given-one-hour-221926636.html",
+        "https://cagesidepress.com/2026/09/29/full-ufc-qatar-card-revealed-for-november-21-event/"
+      ],
+      "posts": [
+        {
+          "post": "2026-09-30-2320-sterling-one-hour",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "mcghee-vs-romero-ufc-332",
       "title": "Anthony Romero replaces injured Bernardo Sopaj vs. Marcus McGhee at UFC 332 (Oct 3)",
       "people": [
