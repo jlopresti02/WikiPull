@@ -29,5 +29,13 @@
     "MMA News"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/adama-diop/cutouts/01-adama-diop-en-action-1.png",
+    "credit": "Adama Diop / Public domain"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
