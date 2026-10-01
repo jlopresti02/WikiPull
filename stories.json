@@ -2,6 +2,35 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "wang-cong-no-need-to-beat-shevchenko",
+   "title": "Wang Cong says she doesn't need to beat Valentina Shevchenko to be the real flyweight champion",
+   "people": [
+    "Wang Cong",
+    "Natália Silva",
+    "Valentina Shevchenko"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Wang told MMA Junkie she doesn't need to beat Shevchenko to feel like the real flyweight champion",
+    "Wang faces No. 1 contender Natália Silva for the vacant women's flyweight title in the UFC 332 main event",
+    "Shevchenko vacated the title due to injury in September (ESPN)",
+    "Wang: former kickboxer, 10-1, four-fight win streak"
+   ],
+   "sources": [
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476152/ufc-332s-cong-wang-doesnt-need-beat-valentina-shevchenko-be-real-flyweight-champion",
+    "https://boxingnews.com/news/wang-cong-shevchenko-ufc-332",
+    "https://www.espn.com/mma/story/_/id/49839558/shevchenko-injured-vacates-silva-wang-vie-belt-ufc-332"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1320-wang-cong-real-champ",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
    "id": "anik-doubts-steveson-10-ufc-fights",
    "title": "Jon Anik questions whether Gable Steveson will even reach 10 UFC fights after 12-second KO loss",
    "people": [
