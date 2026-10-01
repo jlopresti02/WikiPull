@@ -1,15 +1,6 @@
-Searching Wikimedia Commons for: Deiveson Figueiredo
-  saved images/deiveson-figueiredo/01-deiveson-figueiredo-2024.jpg  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-01 08:25:12.904313437 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png
-Done: 1 new cutout(s).
 
-== 2026-10-01-0420-figueiredo-wants-van.json
-$ fetch.py Deiveson Figueiredo --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/deiveson-figueiredo
-Image: {'type': 'fighter', 'name': 'Deiveson Figueiredo'} -> fighter images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png  headline: Back To 125
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-01-0420-figueiredo-wants-van/post.png (fighter)
-Rendered posts/2026-10-01-0420-figueiredo-wants-van/reel.mp4
+== 2026-10-01-0620-pereira-reveal-332.json
+Image: {'type': 'fighter', 'name': 'Alex Pereira'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Reveal Saturday
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-01-0620-pereira-reveal-332/post.png (fighter)
+Rendered posts/2026-10-01-0620-pereira-reveal-332/reel.mp4
