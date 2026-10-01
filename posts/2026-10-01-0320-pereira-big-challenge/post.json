@@ -1,0 +1,41 @@
+{
+  "story_id": "pereira-teases-big-challenge",
+  "headline": "Big Challenge",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alex Pereira"
+    },
+    {
+      "type": "mystery",
+      "headline": "Pereira's Next Foe?"
+    },
+    {
+      "type": "flag",
+      "country": "Brazil"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alex Pereira says his next fight is on the way, and he's calling it a big challenge.\n\nIn a new Instagram story, the former two-division UFC champion told fans good news is coming. Pereira, now the No. 3-ranked UFC heavyweight, hasn't fought since a TKO loss to Ciryl Gane in the interim heavyweight title fight at UFC Freedom 250 in June. 🇧🇷\n\nNo opponent or date is official yet. Some outlets have floated No. 2-ranked Sergei Pavlovich as a likely matchup, while Gane defends the interim belt against Josh Hokit at UFC 334 on Nov. 14. Pereira has said he wants to become the UFC's first three-division champion.\n\nWho should Poatan fight next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCHeavyweight",
+    "AlexPereira",
+    "Poatan"
+  ],
+  "sources": [
+    "Heavy",
+    "Athlon Sports"
+  ],
+  "music_pool": "espn",
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
+    "credit": "The White House / Public domain"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}
