@@ -1,47 +1,18 @@
-Searching Wikimedia Commons for: Josh Hokit
-  No file names matched; falling back to looser results.
-  saved images/josh-hokit/01-ufc-freedom-250-press-conference-9747953.jpg  [Public domain]
-  saved images/josh-hokit/02-ufc-freedom-250-the-mixed-martial-arts-event-produced-by-the.jpg  [Public domain]
-  saved images/josh-hokit/03-ufc-freedom-250-press-conference-9747953-cropped.jpg  [Public domain]
-  saved images/josh-hokit/04-ufc-freedom-250-ceremonial-weigh-in-at-the-ellipse-in-washin.jpg  [Public domain]
-  saved images/josh-hokit/05-ufc-freedom-250-ceremonial-weigh-in-at-the-ellipse-in-washin.jpg  [Public domain]
-Done: 5 image(s) saved.
-[0;93m2026-10-01 21:28:42.601779169 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/josh-hokit/cutouts/01-ufc-freedom-250-press-conference-9747953.png
-  cutout images/josh-hokit/cutouts/02-ufc-freedom-250-the-mixed-martial-arts-event-produced-by-the.png
-  cutout images/josh-hokit/cutouts/03-ufc-freedom-250-press-conference-9747953-cropped.png
-  cutout images/josh-hokit/cutouts/04-ufc-freedom-250-ceremonial-weigh-in-at-the-ellipse-in-washin.png
-  cutout images/josh-hokit/cutouts/05-ufc-freedom-250-ceremonial-weigh-in-at-the-ellipse-in-washin.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Joe Rogan
-  saved images/joe-rogan/01-joerogan.png  [CC BY 2.0]
-  saved images/joe-rogan/02-joerogan.jpg  [CC BY 2.0]
-  saved images/joe-rogan/03-geraldstrebendtjoerogan.jpg  [CC BY-SA 4.0]
-  saved images/joe-rogan/04-joerogan-usmcphoto-cropped.png  [Public domain]
-  saved images/joe-rogan/05-2026-joe-rogan-with-donald-trump-at-the-white-house-cropped.jpg  [Public domain]
-Done: 5 image(s) saved.
-[0;93m2026-10-01 21:32:41.114628185 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/joe-rogan/cutouts/01-joerogan.png
-  cutout images/joe-rogan/cutouts/02-joerogan.png
-  cutout images/joe-rogan/cutouts/03-geraldstrebendtjoerogan.png
-  cutout images/joe-rogan/cutouts/04-joerogan-usmcphoto-cropped.png
-  cutout images/joe-rogan/cutouts/05-2026-joe-rogan-with-donald-trump-at-the-white-house-cropped.png
-Done: 5 new cutout(s).
 
-== 2026-10-01-1730-hokit-pereira-witchcraft.json
-$ fetch.py Josh Hokit --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/josh-hokit
-Image: {'type': 'fighter', 'name': 'Josh Hokit'} -> fighter images/josh-hokit/cutouts/01-ufc-freedom-250-press-conference-9747953.png  headline: Hokit Fires Shots
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-01-1730-hokit-pereira-witchcraft/post.png (fighter)
-Rendered posts/2026-10-01-1730-hokit-pereira-witchcraft/reel.mp4
+== 2026-10-01-2220-figueiredo-shoves-talbott.json
+Image: {'type': 'fighter', 'name': 'Deiveson Figueiredo'} -> fighter images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png  headline: Hands On
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-01-2220-figueiredo-shoves-talbott/post.png (fighter)
+Rendered posts/2026-10-01-2220-figueiredo-shoves-talbott/reel.mp4
 
-== 2026-10-01-1731-rogan-ban-oblique-kicks.json
-$ fetch.py Joe Rogan --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/joe-rogan
-Image: {'type': 'fighter', 'name': 'Joe Rogan', 'headline': 'Rogan: Ban It'} -> fighter images/joe-rogan/cutouts/01-joerogan.png  headline: Rogan: Ban It
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-01-1731-rogan-ban-oblique-kicks/post.png (fighter)
-Rendered posts/2026-10-01-1731-rogan-ban-oblique-kicks/reel.mp4
+== 2026-10-01-2221-wang-silva-get-cute.json
+Image: {'type': 'fighter', 'name': 'Natália Silva'} -> fighter images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png  headline: Get Cute?
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-01-2221-wang-silva-get-cute/post.png (fighter)
+Rendered posts/2026-10-01-2221-wang-silva-get-cute/reel.mp4
+
+== 2026-10-01-2222-pimblett-tsarukyan-average.json
+Image: {'type': 'fighter', 'name': 'Paddy Pimblett'} -> fighter images/paddy-pimblett/cutouts/01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped.png  headline: Very Average
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-01-2222-pimblett-tsarukyan-average/post.png (fighter)
+Rendered posts/2026-10-01-2222-pimblett-tsarukyan-average/reel.mp4
