@@ -46,7 +46,9 @@ After a "Gemini images" commit:
 2. For each image in `gemini/images/` not yet in `drive.json`: make (or
    reuse) a subfolder named `<name>` inside the Gemini Images folder, then
    upload the file with the Google Drive `create_file` tool
-   (`base64Content`, `contentMimeType` `image/png`, `parentId` = that
+   (`base64Content`, `contentMimeType` `image/png`,
+   `disableConversionToGoogleType` **true** (otherwise Drive turns it into
+   a Google Doc), `parentId` = that
    subfolder). Record the new file id in `drive.json`.
 3. Commit `drive.json` and push.
 
