@@ -39,8 +39,26 @@ everything since the previous run: about 4 to 11 hours, and on the Sunday
 Saturday-night event results). Use `stories.json` and recent `posts/`
 folders to see what's already covered. Prefer reputable MMA outlets and official sources.
 
+Also run a separate **adjacent combat sports sweep** over the same window
+(see "Trial Reels" in step 3 for what to do with these stories). Use
+separate searches for each:
+- RAF (Real American Freestyle wrestling)
+- Olympic and international wrestling (freestyle, Greco-Roman, women's;
+  UWW world championships, national teams)
+- College wrestling (NCAA, top programs, transfers, big duals, recruits)
+- Pro BJJ and submission grappling (ADCC, CJI, UFC BJJ, IBJJF, Craig
+  Jones, Gordon Ryan, FloGrappling)
+- Bare knuckle boxing (BKFC and others)
+- Pro boxing (title fights, results, big signings, feuds)
+- Arm wrestling (East vs West, top pullers like Devon Larratt, Levan
+  Saginashvili)
+- "Spectacle sports" stories: anything else adjacent to combat sports
+  that is surprising or viral (Power Slap, influencer boxing, strongman
+  crossovers, celebrity fights, unusual matchups, wild moments)
+
 Send the user the usual short briefing with SendUserMessage: biggest story
-in one line, then a bullet per new story (what, who, source link). If
+in one line, then a bullet per new story (what, who, source link), with
+the adjacent combat sports stories in their own short section. If
 nothing significant happened, say so in one line.
 
 ### 3. Decide what to post
@@ -77,6 +95,28 @@ Rules:
 - No posts that mock or sensationalize serious injuries, deaths, arrests or
   personal tragedies. Report them plainly or skip them.
 - If nothing qualifies, skip to step 7 and say no posts this run.
+
+**Trial Reels** (started 2026-10-02). Instagram Trial Reels are shown
+only to non-followers at first, so they test weaker content without
+diluting the main feed. Each post is either a regular Reel or a Trial
+Reel, never both (the same video twice would split its reach).
+
+- **Regular Reel**: MMA stories with a well-known star plus conflict or
+  stakes (the top performers above).
+- **Trial Reel**: the weaker MMA posts: lesser-known fighters with no
+  hook, routine bookings and card additions, updates with a modest new
+  fact, and any post whose image isn't a person (flag, venue, money).
+- **Trial Reel, always**: every adjacent combat sports story from the
+  second sweep (RAF, Olympic and college wrestling, pro BJJ, bare knuckle,
+  pro boxing, arm wrestling, spectacle sports). Post up to **3 per run**,
+  picking the most interesting: a famous name, a viral moment, a feud,
+  or a crossover with MMA. Skip routine results nobody outside the sport
+  would recognize.
+
+Mark a Trial Reel by adding `"trial_reel": true` to its queue file.
+Order the schedule with regular Reels first (most newsworthy first),
+then Trial Reels. The 30-minute spacing applies to every post, Trial
+Reels included.
 
 ### 4. Write the post file
 
@@ -215,7 +255,17 @@ Built for Instagram search and the Reels algorithm:
 
 **Hashtags**: exactly 5 (Instagram's limit). Mix: 1 broad (`MMA` or
 `MMANews`), 1 promotion (`UFC`), 1 event (`UFCQatar`, `UFC330`), and 1 to 2
-names (`JiriProchazka`). No spaces or punctuation.
+names (`JiriProchazka`). No spaces or punctuation. For adjacent sports,
+use that sport's broad tag instead (`Wrestling`, `NCAAWrestling`, `BJJ`,
+`BareKnuckle`, `Boxing`, `ArmWrestling`), then its promotion (`RAF`,
+`ADCC`, `BKFC`), event and names.
+
+**Adjacent sports posts** follow the same rules as MMA posts: a real
+photo of the athlete (the `fighter` visual type works for anyone with a
+Wikipedia photo; list several people so one works), a 1 to 3 word
+headline, an own-words caption whose first line names the star and the
+hook, sources, and `"music_pool": "espn"`. Color purple `#6b2fd1` unless
+another color above fits better.
 
 **Sources**: the outlet names for the story (CBS Sports, ESPN, MMA
 Junkie...). The photo, music and source credit lines are added to the
@@ -227,8 +277,10 @@ In `stories.json`:
 - New story: add an entry at the top with `id`, `title`, `people`,
   `event`, `first_reported`, `facts`, `sources` (URLs) and a `posts` list.
 - Update: add the new facts and sources to the existing entry.
-- Add `{"post": "<file name without .json>", "kind": "new" or "update"}`
-  to its `posts`.
+- Add `{"post": "<file name without .json>", "kind": "new" or "update",
+  "format": "reel" or "trial_reel"}` to its `posts`.
+- Adjacent sports entries also get a `"sport"` field (e.g. `"boxing"`,
+  `"bjj"`, `"wrestling"`, `"arm wrestling"`).
 
 Commit the queue file(s) and `stories.json` together and push to `main`.
 The push starts the **Make posts** workflow.
@@ -241,8 +293,12 @@ every queued post. If a post is missing, read `posts/make-posts-log.txt`
 for the reason, leave it unscheduled, and tell the user.
 
 For each finished post, schedule it with Metricool `createScheduledPost`:
-- `blogId` 7159326, network `instagram`, `instagramData.type` `REEL`,
-  `showReelOnFeed` true, `isAiGenerated` false.
+- `blogId` 7159326, network `instagram`, `instagramData.type` `REEL`
+  (or `TRIAL_REEL` when `posts/<name>/post.json` has `"trial_reel":
+  true`), `showReelOnFeed` true, `isAiGenerated` false. If Metricool
+  rejects `TRIAL_REEL` (for example, the account isn't eligible yet),
+  schedule an MMA post as a regular `REEL` instead, leave an adjacent
+  sports post unscheduled, and tell the user.
 - `media`: the Reel's raw GitHub URL **pinned to the commit**:
   `https://raw.githubusercontent.com/jlopresti02/WikiPull/<commit sha>/posts/<name>/reel.mp4`
 - `videoThumbnailUrl`: the same for `posts/<name>/cover.png`.
@@ -271,5 +327,5 @@ entry in `stories.json`, commit and push.
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
-which image type was used), any that were pushed to later slots, which were held back for having no photo, which
+which image type was used, and Reel or Trial Reel), any that were pushed to later slots, which were held back for having no photo, which
 stories were skipped as repeats, and any failures. If there were no posts, say so in one line.
