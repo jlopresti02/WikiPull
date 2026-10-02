@@ -4,7 +4,7 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Bobby Green"
+      "name": "Bobby Green (fighter)"
     },
     {
       "type": "fighter",
@@ -27,13 +27,5 @@
     "MMA Sucka"
   ],
   "music_pool": "espn",
-  "reel": true,
-  "subject": {
-    "kind": "fighter",
-    "image": "images/bobby-green/cutouts/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.png",
-    "credit": "Humphrey Bolton / CC BY-SA 2.0"
-  },
-  "music": "music/action-sport/01-crystals.mp3",
-  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
-  "music_start": 164.0
+  "reel": true
 }
