@@ -1,6 +1,6 @@
 {
   "story_id": "king-green-bmf-title-dana-white",
-  "headline": "BMF Next?",
+  "headline": "Dana Agrees",
   "visual": [
     {
       "type": "fighter",
@@ -27,5 +27,13 @@
     "MMA Sucka"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+    "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

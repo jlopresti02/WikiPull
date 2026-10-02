@@ -1,86 +1,35 @@
-Searching Wikimedia Commons for: Dana White
-  saved images/dana-white/01-dana-white-in-june-2025-cropped.jpg  [CC BY 4.0]
-  saved images/dana-white/02-dana-white-london-2015-cropped.jpg  [CC BY-SA 2.0]
-  saved images/dana-white/03-dana-white-2015-cropped.jpg  [CC BY-SA 2.0]
-  saved images/dana-white/04-dana-white-headshot.jpg  [CC BY 2.0]
-  saved images/dana-white/05-dana-white-18594174568.jpg  [CC BY-SA 2.0]
+Searching Wikimedia Commons for: Conor McGregor
+  saved images/conor-mcgregor/01-conor-mcgregor-ufc-189-world-tour-london-2.jpg  [CC BY-SA 2.0]
+  saved images/conor-mcgregor/02-conor-mcgregor-2015.jpg  [CC BY-SA 2.0]
+  saved images/conor-mcgregor/03-conor-mcgregor-2018.jpg  [CC BY 4.0]
+  saved images/conor-mcgregor/04-conor-mcgregor.jpg  [CC BY-SA 3.0]
+  saved images/conor-mcgregor/05-conor-mcgregor-ufc-189-world-tour-london.jpg  [CC BY-SA 2.0]
 Done: 5 image(s) saved.
-[0;93m2026-10-02 13:50:01.904076632 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-02 13:59:14.446866432 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-  cutout images/dana-white/cutouts/02-dana-white-london-2015-cropped.png
-  cutout images/dana-white/cutouts/03-dana-white-2015-cropped.png
-  cutout images/dana-white/cutouts/04-dana-white-headshot.png
-  cutout images/dana-white/cutouts/05-dana-white-18594174568.png
+  cutout images/conor-mcgregor/cutouts/01-conor-mcgregor-ufc-189-world-tour-london-2.png
+  cutout images/conor-mcgregor/cutouts/02-conor-mcgregor-2015.png
+  cutout images/conor-mcgregor/cutouts/03-conor-mcgregor-2018.png
+  cutout images/conor-mcgregor/cutouts/04-conor-mcgregor.png
+  cutout images/conor-mcgregor/cutouts/05-conor-mcgregor-ufc-189-world-tour-london.png
 Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Rafael dos Anjos
-  No file names matched; falling back to looser results.
-  saved images/rafael-dos-anjos/01-tony-ferguson-mexico-city.jpg  [CC BY-SA 4.0]
-  saved images/rafael-dos-anjos/02-insanos-mc-divis-o-caetit.jpg  [CC BY-SA 4.0]
-  saved images/rafael-dos-anjos/03-insanos-mc-divis-o-caetit-82975.jpg  [CC BY-SA 4.0]
-Done: 3 image(s) saved.
-[0;93m2026-10-02 13:53:09.344166367 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/rafael-dos-anjos/cutouts/01-tony-ferguson-mexico-city.png
-  cutout images/rafael-dos-anjos/cutouts/02-insanos-mc-divis-o-caetit.png
-  cutout images/rafael-dos-anjos/cutouts/03-insanos-mc-divis-o-caetit-82975.png
-Done: 3 new cutout(s).
-Searching Wikimedia Commons for: Bobby Green
-  saved images/bobby-green/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.jpg  [CC BY-SA 2.0]
-  saved images/bobby-green/02-bobby-green-geograph-org-uk-8236061.jpg  [CC BY-SA 2.0]
-  saved images/bobby-green/03-entrance-to-bobby-green-farm-geograph-org-uk-6610695.jpg  [CC BY-SA 2.0]
-Done: 3 image(s) saved.
-[0;93m2026-10-02 13:54:59.872689983 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/bobby-green/cutouts/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.png
-  cutout images/bobby-green/cutouts/02-bobby-green-geograph-org-uk-8236061.png
-  cutout images/bobby-green/cutouts/03-entrance-to-bobby-green-farm-geograph-org-uk-6610695.png
-Done: 3 new cutout(s).
-Searching Wikimedia Commons for: Iasmin Lucindo
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Nicolle Caliari
+Searching Wikimedia Commons for: Bobby Green (fighter)
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
 
-== 2026-10-02-0920-dana-hearn-pr-war.json
-$ fetch.py Dana White --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/dana-white
-Image: {'type': 'fighter', 'name': 'Dana White'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: PR War
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-02-0920-dana-hearn-pr-war/post.png (fighter)
-Rendered posts/2026-10-02-0920-dana-hearn-pr-war/reel.mp4
+== 2026-10-02-0950-dos-anjos-mcgregor.json
+$ fetch.py Conor McGregor --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/conor-mcgregor
+Image: {'type': 'fighter', 'name': 'Conor McGregor'} -> fighter images/conor-mcgregor/cutouts/01-conor-mcgregor-ufc-189-world-tour-london-2.png  headline: Unfinished Business
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-02-0950-dos-anjos-mcgregor/post.png (fighter)
+Rendered posts/2026-10-02-0950-dos-anjos-mcgregor/reel.mp4
 
-== 2026-10-02-0921-dana-mixes-up-headliners.json
-Image: {'type': 'fighter', 'name': 'Dana White'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Wrong Fighter
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-02-0921-dana-mixes-up-headliners/post.png (fighter)
-Rendered posts/2026-10-02-0921-dana-mixes-up-headliners/reel.mp4
-
-== 2026-10-02-0922-dos-anjos-mcgregor.json
-$ fetch.py Rafael dos Anjos --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/rafael-dos-anjos
-Image: {'type': 'fighter', 'name': 'Rafael dos Anjos'} -> fighter images/rafael-dos-anjos/cutouts/01-tony-ferguson-mexico-city.png  headline: Unfinished Business
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-02-0922-dos-anjos-mcgregor/post.png (fighter)
-Rendered posts/2026-10-02-0922-dos-anjos-mcgregor/reel.mp4
-
-== 2026-10-02-0923-king-green-bmf.json
-$ fetch.py Bobby Green --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bobby-green
-Image: {'type': 'fighter', 'name': 'Bobby Green'} -> fighter images/bobby-green/cutouts/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.png  headline: BMF Next?
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-02-0923-king-green-bmf/post.png (fighter)
-Rendered posts/2026-10-02-0923-king-green-bmf/reel.mp4
-
-== 2026-10-02-0924-lucindo-caliari-ufc-333.json
-$ fetch.py Iasmin Lucindo --count 5
-$ fetch.py Nicolle Caliari --count 5
-Image: {'type': 'fighter', 'name': 'Dana White', 'headline': 'Ban Over'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Ban Over
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-02-0924-lucindo-caliari-ufc-333/post.png (fighter)
-Rendered posts/2026-10-02-0924-lucindo-caliari-ufc-333/reel.mp4
+== 2026-10-02-0951-king-green-bmf.json
+$ fetch.py Bobby Green (fighter) --count 5
+Image: {'type': 'fighter', 'name': 'Dana White', 'headline': 'Dana Agrees'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Dana Agrees
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-02-0951-king-green-bmf/post.png (fighter)
+Rendered posts/2026-10-02-0951-king-green-bmf/reel.mp4
