@@ -1,0 +1,14 @@
+{
+  "story_id": "dana-white-volkov-no-mans-land",
+  "headline": "No Man's Land",
+  "visual": [
+    {"type": "fighter", "name": "Alexander Volkov (fighter)"},
+    {"type": "fighter", "name": "Dana White", "headline": "Volkov Waits"}
+  ],
+  "color": "#d2202f",
+  "caption": "Dana White admits Alexander Volkov is stuck in \"no man's land\" in the UFC heavyweight title picture.\n\nVolkov has won six of his last seven and wanted a rematch with champion Ciryl Gane, who edged him by split decision in 2024. Instead the UFC gave Gane vs. Josh Hokit the UFC 334 title fight at Madison Square Garden, and Volkov faces Rizvan Kuniev at UFC 333. Speaking to reporters during UFC 332 fight week, White called it a timing issue, said Hokit didn't jump the line, and promised Volkov will get his shot.\n\nDoes Volkov deserve the next heavyweight title shot?",
+  "hashtags": ["MMANews", "UFC", "UFC333", "AlexanderVolkov", "DanaWhite"],
+  "sources": ["Heavy"],
+  "music_pool": "espn",
+  "reel": true
+}
