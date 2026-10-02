@@ -26,7 +26,10 @@
         {
           "post": "2026-10-02-1820-volkov-no-mans-land",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Alexander Volkov)",
+          "scheduled_for": "2026-10-02T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-333162631703671467"
         }
       ]
     },
@@ -53,7 +56,10 @@
         {
           "post": "2026-10-02-1821-rogan-sharaf-retire",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Joe Rogan)",
+          "scheduled_for": "2026-10-02T20:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8834824534051959503"
         }
       ]
     },
@@ -78,7 +84,10 @@
         {
           "post": "2026-10-02-1822-rogan-mvp-release",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "fighter photo (Michael Page)",
+          "scheduled_for": "2026-10-02T21:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3581080341577679820"
         }
       ]
     },
@@ -104,7 +113,10 @@
         {
           "post": "2026-10-02-1823-petrino-calls-out-blaydes",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "fighter photo (Curtis Blaydes)",
+          "scheduled_for": "2026-10-02T21:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2248113082972093937"
         }
       ]
     },
