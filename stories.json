@@ -26,7 +26,10 @@
     {
      "post": "2026-10-02-0920-dana-hearn-pr-war",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T10:10:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=689647101597142137"
     }
    ]
   },
@@ -53,7 +56,10 @@
     {
      "post": "2026-10-02-0921-dana-mixes-up-headliners",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T10:40:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4329514106064909131"
     }
    ]
   },
@@ -79,7 +85,10 @@
     {
      "post": "2026-10-02-0950-dos-anjos-mcgregor",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Conor McGregor)",
+     "scheduled_for": "2026-10-02T11:10:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1978047172380769919"
     }
    ]
   },
@@ -107,7 +116,10 @@
     {
      "post": "2026-10-02-0951-king-green-bmf",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T11:40:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-404260349947132923"
     }
    ]
   },
@@ -132,7 +144,10 @@
     {
      "post": "2026-10-02-0924-lucindo-caliari-ufc-333",
      "kind": "new",
-     "format": "trial_reel"
+     "format": "trial_reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T12:10:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5023546830825865522"
     }
    ]
   },
