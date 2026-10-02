@@ -18,7 +18,7 @@ every run.
 Post these on the next run even if they fall outside the sweep window,
 then delete the item from this list in the same commit as the ledger
 update. Still follow every rule below (own-words caption, sources,
-5 hashtags, time blocks, no repeats).
+5 hashtags, 30-minute spacing, no repeats).
 
 ## Each run, in order
 
@@ -53,12 +53,25 @@ For each story from the sweep, compare it with `stories.json`:
   result, a title implication, a venue announced): post an update, and say
   in the caption that it's an update (e.g. "UPDATE:").
 - **Same story, nothing new**: do not post. Never repeat a story without an
-  update.
+  update. The bar for an update is high: a *date for an announcement*
+  ("Pereira's next fight will be revealed Saturday") is not new; the
+  *announcement itself* (the opponent is named) is. On 2026-10-01 a
+  low-bar Pereira update got 34 views vs 246 for the original.
+
+What performs (from @wwitmma's first day of data, 2026-10-01):
+- **Top posts (200-260 views)**: a well-known star in the first line, plus
+  conflict or stakes: a feud, a clapback, an ultimatum, a refusal, a
+  fight falling through, a "who's next?" mystery.
+- **Bottom posts (34-44 views)**: no person's photo, a repeat story with a
+  weak update, or a lesser-known fighter with no hook.
+- Viewers decide in about 2 seconds (average watch time 1.6-3.4 s), so the
+  first frame (headline + face) matters most.
 
 Rules:
-- Post every story that qualifies, but **never more than 3 in one time
-  block** (see step 6). Extra posts wait for later blocks; they are not
-  dropped. Order them most newsworthy first.
+- Post every story that qualifies, ordered **most newsworthy first**: star
+  + conflict stories at the top, routine bookings and lesser-known names
+  last. Spacing is one post every 30 minutes (see step 6). Extra posts
+  wait for later slots; they are not dropped.
 - Only post what a reputable outlet or official source reports. A rumor can
   be posted only if clearly worded as a report ("reportedly", "per ESPN").
 - No posts that mock or sensationalize serious injuries, deaths, arrests or
@@ -89,12 +102,38 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
 
 **Headline**: 1 to 3 punchy words, like a sports graphic ("BJP RETURNS",
 "TITLE SHOT", "OUT OF UFC 330"). Match it to the image that will be used
-(see Visual below).
+(see Visual below). Make it emotional and specific, built on the conflict
+or the stakes, not a neutral label: "FAKE NEWS", "1 HOUR", "SCARED?",
+"BAN IT?" beat "STERLING SPEAKS" or "NEW FIGHT". For location posts, name
+the place: "SYDNEY BOUND", "UFC PARIS".
 
 **Visual**, in priority order (the first that works is used). Any entry
 can carry its own `"headline"`, which replaces the post's headline only if
 that entry is the one used.
 
+**Every post needs a real photo.** Posts with no person's photo were the
+two worst performers on day one. Pick the list for the story type:
+
+**A. Location / event announcements** (a new event, a city or country,
+an arena, "UFC returns to X"): lead with the place, not a fighter.
+1. The host country's `flag` first, with a headline naming the city or
+   country: `{"type": "flag", "country": "Australia", "headline": "Sydney Bound"}`.
+2. Then the arena/stadium (`venue`).
+3. Then a fighter from that country who is linked to the card, if any.
+Also put the country's flag emoji in the caption's first line
+("🇦🇺 The UFC is officially going back to Sydney.").
+
+**B. Rules, regulations, officiating, commissions** (rule changes, banned
+techniques, fouls, scoring, commission decisions, drug-testing policy):
+use a UFC referee, with a headline about the rule ("BAN IT?", "NEW RULE").
+List several so one works:
+`{"type": "fighter", "name": "Herb Dean"}`, then `"Marc Goddard"`, then
+`"Jason Herzog"`. A fighter at the center of the debate can go first if
+the story is about them (e.g. Sterling speaking against the rule); put
+the referees right after.
+
+**C. Everything else** (fights, call-outs, feuds, injuries, signings,
+results, business):
 1. **Photos of fighters connected to the story**, by the names Wikipedia
    uses (cut out automatically). Order: the main fighter, then the other
    fighters who are in the story *and still involved* (e.g. a new opponent).
@@ -104,17 +143,23 @@ that entry is the one used.
    `{"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"}`
    ("INJURED OUT", "SOPAJ REPLACED", "SOPAJ PULLS OUT"). The caption should
    still tell the whole story.
-3. **Story-type graphic**: for money stories (purses, bonuses, contracts,
-   fines, betting) add `{"type": "money"}`; for location or event
-   announcements add the arena/stadium (`venue`), then the host country's
-   `flag`.
-4. **Silhouette backup** for any story about fighters: `{"type": "mystery"}`
-   draws a silhouette with a question mark and always works. It's the
-   stand-in when no connected fighter has a usable photo, so put the main
-   fighter's **last name in the headline** ("MCGHEE'S NEW FOE",
-   "ASPINALL'S REPLACEMENT").
-5. Otherwise the main fighter's country `flag`.
-A text-only post is the automatic last resort.
+3. **A prominent figure tied to the story**: if no fighter photo works,
+   use a well-known non-fighter (the `fighter` type works for anyone with
+   a Wikipedia photo) with a headline that fits them. Usually **Dana
+   White** (`{"type": "fighter", "name": "Dana White", "headline": "Dana
+   Confirms"}`): any story where he announced, confirmed or commented,
+   plus UFC business, health updates and booking news. Others when they
+   are part of the story: Joe Rogan, Daniel Cormier, the PFL or ONE
+   leadership, a commission chief.
+4. **Money graphic**, money stories only (purses, bonuses, contracts,
+   fines, betting): `{"type": "money"}`, after all the people above.
+
+Do **not** use `mystery` or a text-only post anymore. After the Reels are
+rendered (step 6), check each post's `posts/<name>/post.json`: if
+`subject.kind` is `"none"`, or it is a `"graphic"` other than `money`,
+**don't schedule it**. Tell the user it was held back for having no photo,
+and name the person whose photo would fix it so they can add one to the
+image bank.
 
 Example for a replacement story:
 
@@ -124,7 +169,29 @@ Example for a replacement story:
   {"type": "fighter", "name": "Marcus McGhee"},
   {"type": "fighter", "name": "Anthony Romero"},
   {"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"},
-  {"type": "mystery"}
+  {"type": "fighter", "name": "Dana White", "headline": "McGhee's New Foe"}
+]
+```
+
+Example for a rules story:
+
+```json
+"headline": "Ban It?",
+"visual": [
+  {"type": "fighter", "name": "Aljamain Sterling"},
+  {"type": "fighter", "name": "Herb Dean"},
+  {"type": "fighter", "name": "Marc Goddard"},
+  {"type": "fighter", "name": "Jason Herzog"}
+]
+```
+
+Example for a location announcement:
+
+```json
+"headline": "Sydney Bound",
+"visual": [
+  {"type": "flag", "country": "Australia"},
+  {"type": "venue", "name": "Qudos Bank Arena"}
 ]
 ```
 
@@ -135,8 +202,10 @@ updates, purple `#6b2fd1` for anything else.
 
 **Caption**: write it in your own words (never copy an article's sentences).
 Built for Instagram search and the Reels algorithm:
-- First line is a hook that names who and what: "Jiří Procházka is back in
-  the main event."
+- First line is a hook that names the star and the conflict or stakes:
+  "Colby Covington just called the report fake news." beats "A report says
+  RAF offered a wrestling match." For location posts, start with the
+  country's flag emoji and the city.
 - 2 to 4 short sentences of the facts, naturally packed with search
   keywords: full fighter names, the promotion (UFC, PFL, ONE), the event
   name and number, weight class, city/country, and terms like "MMA news",
@@ -180,19 +249,19 @@ For each finished post, schedule it with Metricool `createScheduledPost`:
 - `text`: the exact contents of `posts/<name>/caption.txt`.
 - `autoPublish` true.
 
-**When to schedule (time blocks):** a time block is a 10-minute window,
-and it holds at most 3 posts, spaced 2 minutes apart.
+**When to schedule (30-minute spacing):** posts go out **one at a time,
+at least 30 minutes apart**, so each Reel gets its own push from
+Instagram. (On day one, posts 2 minutes apart split each other's reach.)
 
-1. First call Metricool `getScheduledPosts` (brand 7159326, from now to 6
+1. First call Metricool `getScheduledPosts` (brand 7159326, from now to 12
    hours ahead, America/New_York) to see what is already waiting to go out,
-   including overflow from earlier runs. Never put a 4th post in a block
-   that already has 3.
-2. The first block starts **10 minutes from now**, so new posts go out
-   within 15 minutes of being made whenever there's room.
-3. Fill that block with up to 3 posts (at +0, +2 and +4 minutes in the
-   block). If more posts remain, start the next block 10 minutes after the
-   previous one, and repeat until every post has a time.
-4. If the blocks run into the next hour, keep going: later runs read the
+   including overflow from earlier runs.
+2. The first post goes **10 minutes from now**, or 30 minutes after the
+   last post already waiting in Metricool, whichever is later. Never put a
+   post within 30 minutes of another one.
+3. Each following post goes 30 minutes after the previous one, most
+   newsworthy first, until every post has a time.
+4. If the slots run past the next run, keep going: later runs read the
    Metricool schedule in step 1 and place their own posts after these, so
    nothing collides and nothing is dropped.
 
@@ -202,5 +271,5 @@ entry in `stories.json`, commit and push.
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
-which image type was used), any that were pushed to later blocks, which
+which image type was used), any that were pushed to later slots, which were held back for having no photo, which
 stories were skipped as repeats, and any failures. If there were no posts, say so in one line.
