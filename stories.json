@@ -27,7 +27,10 @@
     {
      "post": "2026-10-01-2222-pimblett-tsarukyan-average",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Paddy Pimblett)",
+     "scheduled_for": "2026-10-01T23:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9130481508306338727"
     }
    ]
   },
@@ -53,7 +56,10 @@
     {
      "post": "2026-10-01-2221-wang-silva-get-cute",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Natália Silva)",
+     "scheduled_for": "2026-10-01T22:55:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2996922187084378778"
     }
    ]
   },
@@ -80,7 +86,10 @@
     {
      "post": "2026-10-01-2220-figueiredo-shoves-talbott",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Deiveson Figueiredo)",
+     "scheduled_for": "2026-10-01T22:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7484793539669966066"
     }
    ]
   },
