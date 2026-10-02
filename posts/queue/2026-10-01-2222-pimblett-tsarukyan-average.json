@@ -1,0 +1,15 @@
+{
+  "story_id": "pimblett-rips-tsarukyan-title-shot",
+  "headline": "Very Average",
+  "visual": [
+    {"type": "fighter", "name": "Paddy Pimblett"},
+    {"type": "fighter", "name": "Arman Tsarukyan"},
+    {"type": "fighter", "name": "Dana White", "headline": "Who's Next?"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "Paddy Pimblett says he'd be furious if Arman Tsarukyan gets the next UFC lightweight title shot.\n\nIn comments reported by MMA Weekly, Pimblett gave Tsarukyan credit for the knockout of Mauricio Ruffy, but said he looked very average up until that finish. He pointed out that Tsarukyan couldn't take Ruffy down, while Benoit Saint Denis did it repeatedly, and Pimblett has already beaten BSD.\n\nPimblett also argued Tsarukyan hasn't beaten anyone ranked higher than his own opponents since UFC 300. Champion Justin Gaethje has named Tsarukyan as next in line, but Dana White hasn't made it official, and an Ilia Topuria rematch is also in the mix. 🏆\n\nWho should get the next shot at Gaethje?",
+  "hashtags": ["MMANews", "UFC", "PaddyPimblett", "ArmanTsarukyan", "UFCLightweight"],
+  "sources": ["MMA Weekly", "Forbes"],
+  "music_pool": "espn",
+  "reel": true
+}

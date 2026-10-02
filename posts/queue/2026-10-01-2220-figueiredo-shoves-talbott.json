@@ -1,0 +1,15 @@
+{
+  "story_id": "figueiredo-shoves-talbott-ufc-332-presser",
+  "headline": "Hands On",
+  "visual": [
+    {"type": "fighter", "name": "Deiveson Figueiredo"},
+    {"type": "fighter", "name": "Payton Talbott"},
+    {"type": "fighter", "name": "Dana White", "headline": "Presser Heat"}
+  ],
+  "color": "#d2202f",
+  "caption": "Deiveson Figueiredo put his hands on Payton Talbott before UFC 332 even started.\n\nDuring the faceoffs at Thursday's UFC 332 press conference in Salt Lake City, the former UFC flyweight champion gave Talbott a shove, per MMA Junkie. The two meet in Saturday's bantamweight co-main event at the Delta Center, under the Natália Silva vs. Wang Cong title fight.\n\nThe tension has been building all week: Talbott has claimed he was lined up for a big-name fight before this one, while Figueiredo has said he's just happy the UFC still keeps him on main cards. 🥊\n\nDoes the veteran make a statement Saturday, or does Talbott get the biggest win of his career?",
+  "hashtags": ["MMANews", "UFC", "UFC332", "DeivesonFigueiredo", "PaytonTalbott"],
+  "sources": ["MMA Junkie", "MMA Fighting"],
+  "music_pool": "espn",
+  "reel": true
+}
