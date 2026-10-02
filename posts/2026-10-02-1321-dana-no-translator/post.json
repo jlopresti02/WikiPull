@@ -2,13 +2,36 @@
   "story_id": "dana-white-no-translator-ateba-gautier",
   "headline": "No Translator",
   "visual": [
-    {"type": "fighter", "name": "Dana White"},
-    {"type": "fighter", "name": "Ateba Gautier"}
+    {
+      "type": "fighter",
+      "name": "Dana White"
+    },
+    {
+      "type": "fighter",
+      "name": "Ateba Gautier"
+    }
   ],
   "color": "#d2202f",
   "caption": "Dana White called for a translator for Ateba Gautier at the UFC 332 press conference, right after Gautier had answered in English.\n\nThe UFC had no French interpreter on hand for the Cameroonian middleweight, who opens Saturday's main card against Roman Kopylov in Salt Lake City. Gautier answered one question in French, then switched to English for the next. White still seemed lost and apologized that there was no translator. Gautier laughed it off, but the clip blew up with UFC fans online. It's White's second viral slip of fight week, after he mixed up Wang Cong's record with Natalia Silva's.\n\nRough week for Dana at the mic?",
-  "hashtags": ["MMANews", "UFC", "UFC332", "DanaWhite", "AtebaGautier"],
-  "sources": ["SPORTbible", "MMA Fighting"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "DanaWhite",
+    "AtebaGautier"
+  ],
+  "sources": [
+    "SPORTbible",
+    "MMA Fighting"
+  ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+    "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

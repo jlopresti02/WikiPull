@@ -1,0 +1,48 @@
+{
+  "story_id": "umar-nurmagomedov-vs-faber-raf-abu-dhabi",
+  "headline": "Umar vs Faber",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Umar Nurmagomedov"
+    },
+    {
+      "type": "fighter",
+      "name": "Urijah Faber"
+    },
+    {
+      "type": "fighter",
+      "name": "Khamzat Chimaev",
+      "headline": "RAF Abu Dhabi"
+    },
+    {
+      "type": "fighter",
+      "name": "Colby Covington",
+      "headline": "RAF Abu Dhabi"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Umar Nurmagomedov is taking on Urijah Faber on the wrestling mat.\n\nThe UFC bantamweight makes his Real American Freestyle debut against the Hall of Famer at RAF Abu Dhabi on November 14 at Etihad Arena. It will be Faber's third RAF match. The card is headlined by Khamzat Chimaev vs. Colby Covington for the RAF cruiserweight crossover title, and it's the first event in a five-year deal that brings RAF freestyle wrestling to Abu Dhabi.\n\nCan Faber hang with a Nurmagomedov on the mat?",
+  "hashtags": [
+    "Wrestling",
+    "RAF",
+    "RAFAbuDhabi",
+    "UmarNurmagomedov",
+    "UrijahFaber"
+  ],
+  "sources": [
+    "The National",
+    "LowKick MMA"
+  ],
+  "music_pool": "espn",
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/umar-nurmagomedov/cutouts/01-umarnurmagomedov.png",
+    "credit": "Новости ННТ / CC BY 3.0"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
+}

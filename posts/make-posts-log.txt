@@ -1,35 +1,39 @@
-Searching Wikimedia Commons for: Conor McGregor
-  saved images/conor-mcgregor/01-conor-mcgregor-ufc-189-world-tour-london-2.jpg  [CC BY-SA 2.0]
-  saved images/conor-mcgregor/02-conor-mcgregor-2015.jpg  [CC BY-SA 2.0]
-  saved images/conor-mcgregor/03-conor-mcgregor-2018.jpg  [CC BY 4.0]
-  saved images/conor-mcgregor/04-conor-mcgregor.jpg  [CC BY-SA 3.0]
-  saved images/conor-mcgregor/05-conor-mcgregor-ufc-189-world-tour-london.jpg  [CC BY-SA 2.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-02 13:59:14.446866432 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/conor-mcgregor/cutouts/01-conor-mcgregor-ufc-189-world-tour-london-2.png
-  cutout images/conor-mcgregor/cutouts/02-conor-mcgregor-2015.png
-  cutout images/conor-mcgregor/cutouts/03-conor-mcgregor-2018.png
-  cutout images/conor-mcgregor/cutouts/04-conor-mcgregor.png
-  cutout images/conor-mcgregor/cutouts/05-conor-mcgregor-ufc-189-world-tour-london.png
-Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Esteban Ribovics
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 Searching Wikimedia Commons for: Bobby Green (fighter)
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Umar Nurmagomedov
+  saved images/umar-nurmagomedov/01-umarnurmagomedov.png  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-10-02 17:22:38.047096083 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/umar-nurmagomedov/cutouts/01-umarnurmagomedov.png
+Done: 1 new cutout(s).
 
-== 2026-10-02-0950-dos-anjos-mcgregor.json
-$ fetch.py Conor McGregor --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/conor-mcgregor
-Image: {'type': 'fighter', 'name': 'Conor McGregor'} -> fighter images/conor-mcgregor/cutouts/01-conor-mcgregor-ufc-189-world-tour-london-2.png  headline: Unfinished Business
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-02-0950-dos-anjos-mcgregor/post.png (fighter)
-Rendered posts/2026-10-02-0950-dos-anjos-mcgregor/reel.mp4
-
-== 2026-10-02-0951-king-green-bmf.json
+== 2026-10-02-1320-ribovics-misses-weight.json
+$ fetch.py Esteban Ribovics --count 5
 $ fetch.py Bobby Green (fighter) --count 5
-Image: {'type': 'fighter', 'name': 'Dana White', 'headline': 'Dana Agrees'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Dana Agrees
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-02-0951-king-green-bmf/post.png (fighter)
-Rendered posts/2026-10-02-0951-king-green-bmf/reel.mp4
+Image: {'type': 'fighter', 'name': 'Dana White', 'headline': 'Ribovics Heavy'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Ribovics Heavy
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-02-1320-ribovics-misses-weight/post.png (fighter)
+Rendered posts/2026-10-02-1320-ribovics-misses-weight/reel.mp4
+
+== 2026-10-02-1321-dana-no-translator.json
+Image: {'type': 'fighter', 'name': 'Dana White'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: No Translator
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-02-1321-dana-no-translator/post.png (fighter)
+Rendered posts/2026-10-02-1321-dana-no-translator/reel.mp4
+
+== 2026-10-02-1322-umar-faber-raf.json
+$ fetch.py Umar Nurmagomedov --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/umar-nurmagomedov
+Image: {'type': 'fighter', 'name': 'Umar Nurmagomedov'} -> fighter images/umar-nurmagomedov/cutouts/01-umarnurmagomedov.png  headline: Umar vs Faber
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-02-1322-umar-faber-raf/post.png (fighter)
+Rendered posts/2026-10-02-1322-umar-faber-raf/reel.mp4
