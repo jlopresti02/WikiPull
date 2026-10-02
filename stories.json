@@ -23,7 +23,10 @@
     {
      "post": "2026-10-02-1321-dana-no-translator",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T18:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=361411412957285832"
     }
    ]
   },
@@ -54,7 +57,10 @@
     {
      "post": "2026-10-02-1322-umar-faber-raf",
      "kind": "new",
-     "format": "trial_reel"
+     "format": "trial_reel",
+     "image": "fighter photo (Umar Nurmagomedov)",
+     "scheduled_for": "2026-10-02T19:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6795555648735955507"
     }
    ]
   },
@@ -184,7 +190,10 @@
     {
      "post": "2026-10-02-1320-ribovics-misses-weight",
      "kind": "update",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T19:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2161486312751345878"
     }
    ]
   },
