@@ -2,6 +2,63 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "dana-white-no-translator-ateba-gautier",
+   "title": "No translator for Ateba Gautier at UFC 332 presser; Dana White asks for one after Gautier answers in English",
+   "people": [
+    "Dana White",
+    "Ateba Gautier",
+    "Roman Kopylov"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "UFC had no French translator for Gautier at the UFC 332 press conference",
+    "Gautier answered in French, then in English; White still called for a translator and apologized",
+    "Clip went viral; second White fight-week blunder after Wang/Silva record mix-up"
+   ],
+   "sources": [
+    "https://www.sportbible.com/ufc/dana-white-press-conference-disrespectful-moment-ateba-gautier-762796-20261002"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1321-dana-no-translator",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "umar-nurmagomedov-vs-faber-raf-abu-dhabi",
+   "sport": "wrestling",
+   "title": "Umar Nurmagomedov makes RAF debut vs. Urijah Faber at RAF Abu Dhabi (Nov 14); Chimaev vs. Covington headlines",
+   "people": [
+    "Umar Nurmagomedov",
+    "Urijah Faber",
+    "Khamzat Chimaev",
+    "Colby Covington",
+    "Kyle Snyder"
+   ],
+   "event": "RAF Abu Dhabi (Nov 14, Etihad Arena)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Umar Nurmagomedov RAF debut vs. Urijah Faber (Faber's third RAF match)",
+    "Headliner: Chimaev vs. Covington for RAF cruiserweight crossover title (booked Sep 29)",
+    "Kyle Snyder vs. Shamil Erdogan also on card",
+    "First event of five-year RAF / DCT Abu Dhabi / UAE Wrestling Federation deal"
+   ],
+   "sources": [
+    "https://www.thenationalnews.com/sport/combat-sports/2026/10/02/umar-nurmagomedov-to-make-raf-debut-in-abu-dhabi/",
+    "https://www.lowkickmma.com/khamzat-chimaev-vs-colby-covington-raf/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1322-umar-faber-raf",
+     "kind": "new",
+     "format": "trial_reel"
+    }
+   ]
+  },
+  {
    "id": "dana-white-hearn-fury-joshua-feud",
    "title": "Dana White says UFC is producing Fury vs. Joshua; Eddie Hearn calls White's side 'control freaks'",
    "people": [
@@ -106,11 +163,14 @@
    "facts": [
     "White: 'I absolutely agree' Green fits BMF title fight",
     "Green, 40, on four-fight win streak; called BMF title a dream",
-    "Ribovics called Green 'Minnie Mouse' at presser"
+    "Ribovics called Green 'Minnie Mouse' at presser",
+    "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official"
    ],
    "sources": [
     "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
-    "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/"
+    "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/",
+    "https://www.sherdog.com/news/news/UFC-332-weighin-results-Title-fight-set-1-fighter-heavy-203045",
+    "https://hottakes.com/articles/esteban-ribovics-misses-weight-by-half-a-pound-for-ufc-332-7f9858a9-4973-4017-8510-9bc3378fef2b"
    ],
    "posts": [
     {
@@ -120,6 +180,11 @@
      "image": "fighter photo (Dana White)",
      "scheduled_for": "2026-10-02T11:40:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-404260349947132923"
+    },
+    {
+     "post": "2026-10-02-1320-ribovics-misses-weight",
+     "kind": "update",
+     "format": "reel"
     }
    ]
   },
