@@ -1,0 +1,29 @@
+{
+  "story_id": "dos-anjos-open-to-mcgregor-fight",
+  "headline": "Unfinished Business",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Rafael dos Anjos"
+    },
+    {
+      "type": "fighter",
+      "name": "Conor McGregor"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Rafael dos Anjos still wants Conor McGregor, ten years after their fight fell apart.\n\nThe former UFC lightweight champion, who meets Alexander Hernandez at UFC 332 on Saturday in his 50th pro fight, says a McGregor fight \"would be awesome.\" But he won't sit on the sidelines for years waiting like Michael Chandler did. McGregor responded with a simple \"Thank you Rafael.\"\n\nThe two were booked for UFC 196 in 2016 before dos Anjos broke his foot, opening the door for Nate Diaz. McGregor hasn't fought since hurting his knee against Max Holloway in July.\n\nShould the UFC finally make McGregor vs. dos Anjos?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "ConorMcGregor",
+    "RafaelDosAnjos"
+  ],
+  "sources": [
+    "MMA Fighting",
+    "BoxingNews"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}

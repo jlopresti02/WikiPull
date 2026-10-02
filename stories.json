@@ -2,6 +2,141 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "dana-white-hearn-fury-joshua-feud",
+   "title": "Dana White says UFC is producing Fury vs. Joshua; Eddie Hearn calls White's side 'control freaks'",
+   "people": [
+    "Dana White",
+    "Eddie Hearn",
+    "Tyson Fury",
+    "Anthony Joshua"
+   ],
+   "event": "Fury vs. Joshua (Dec 11, 2026, Cardiff)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "White at UFC 332 presser: UFC is promoting and producing the whole Fury-Joshua show",
+    "Hearn says Joshua's contract bars White/Zuffa unless Matchroom allows it; blamed White's 'arrogance', called them 'control freaks'",
+    "White says Hearn is trying to win a PR battle; White skipped London launch presser"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-hits-back-at-eddie-hearn-im-producing-the-entire-event-after-fury-joshua-claim/",
+    "https://sports.yahoo.com/articles/eddie-hearn-blames-dana-white-200000508.html",
+    "https://www.mmanews.com/article/dana-white-claims-ufc-producing-fury-joshua-fight"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0920-dana-hearn-pr-war",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "dana-white-mixes-up-ufc-332-headliners",
+   "title": "Dana White credits Wang Cong with Natalia Silva's wins; fans roast him",
+   "people": [
+    "Dana White",
+    "Wang Cong",
+    "Natália Silva"
+   ],
+   "event": "UFC 332 (Oct 3, Salt Lake City)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "White credited Wang with wins over Namajunas, Andrade, Grasso; those were Silva's",
+    "White correctly cited Wang's 2015 kickboxing win over Shevchenko",
+    "Fans called it 'laughably sad'"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-cant-remember-ufc-332-champ-records-fans-roast/",
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476268/doh-dana-white-clearly-doesnt-know-his-ufc-332-headliner-wang-cong-she-beat-rose-namajunas"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0921-dana-mixes-up-headliners",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "dos-anjos-open-to-mcgregor-fight",
+   "title": "Rafael dos Anjos open to Conor McGregor fight after UFC 332, won't wait for it",
+   "people": [
+    "Rafael dos Anjos",
+    "Conor McGregor",
+    "Alexander Hernandez"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Dos Anjos faces Hernandez at UFC 332 in his 50th pro fight",
+    "Says McGregor fight 'would be awesome' but won't wait like Chandler did",
+    "McGregor replied 'Thank you Rafael'; UFC 196 bout in 2016 fell through due to RDA injury"
+   ],
+   "sources": [
+    "https://boxingnews.com/news/dos-anjos-open-mcgregor-fight-ufc-332"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0922-dos-anjos-mcgregor",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "king-green-bmf-title-dana-white",
+   "title": "Dana White agrees King Green deserves BMF title shot if he beats Ribovics at UFC 332",
+   "people": [
+    "Bobby Green",
+    "Dana White",
+    "Esteban Ribovics",
+    "Charles Oliveira"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "White: 'I absolutely agree' Green fits BMF title fight",
+    "Green, 40, on four-fight win streak; called BMF title a dream",
+    "Ribovics called Green 'Minnie Mouse' at presser"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
+    "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0923-king-green-bmf",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "caliari-vs-lucindo-ufc-333",
+   "title": "Nicolle Caliari vs. Iasmin Lucindo added to UFC 333 (Abu Dhabi)",
+   "people": [
+    "Iasmin Lucindo",
+    "Nicolle Caliari"
+   ],
+   "event": "UFC 333",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Strawweight bout added per MMA Junkie",
+    "Lucindo returns from 9-month mesterolone suspension; CSAD accepted contaminated supplement explanation",
+    "Caliari coming off sub win over Shauna Bannon in May"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/ufc-333-adds-brazilian-strawweight-220130862.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0924-lucindo-caliari-ufc-333",
+     "kind": "new",
+     "format": "trial_reel"
+    }
+   ]
+  },
+  {
    "id": "pimblett-rips-tsarukyan-title-shot",
    "title": "Paddy Pimblett says he'd be furious if Arman Tsarukyan gets next lightweight title shot",
    "people": [

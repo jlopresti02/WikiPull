@@ -1,0 +1,31 @@
+{
+  "story_id": "dana-white-hearn-fury-joshua-feud",
+  "headline": "PR War",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dana White"
+    },
+    {
+      "type": "fighter",
+      "name": "Eddie Hearn",
+      "headline": "Control Freaks?"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Dana White and Eddie Hearn are at war over who runs Tyson Fury vs. Anthony Joshua.\n\nAt the UFC 332 press conference in Salt Lake City, the UFC boss insisted he isn't just promoting the Dec. 11 heavyweight fight in Cardiff. He says the UFC is producing the entire show. Hearn says Joshua's contract keeps White and Zuffa Boxing out unless Matchroom signs off, and he blamed the UFC side's \"arrogance,\" calling them control freaks. White's answer: Hearn is just trying to win a PR battle.\n\nThe UFC vs. Matchroom boxing feud is only heating up ahead of the biggest heavyweight fight in years. 🥊\n\nWho wins this one: Dana or Eddie?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "DanaWhite",
+    "FuryJoshua",
+    "EddieHearn"
+  ],
+  "sources": [
+    "LowKick MMA",
+    "MMA Fighting",
+    "BBC Sport"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}

@@ -1,0 +1,33 @@
+{
+  "story_id": "dana-white-mixes-up-ufc-332-headliners",
+  "headline": "Wrong Fighter",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dana White"
+    },
+    {
+      "type": "fighter",
+      "name": "Wang Cong"
+    },
+    {
+      "type": "fighter",
+      "name": "Natália Silva"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Dana White got his own UFC 332 headliners mixed up, and fans let him hear it.\n\nMaking the case for Wang Cong's title shot, the UFC president credited her with wins over Rose Namajunas, Jessica Andrade and Alexa Grasso. Those wins actually belong to her opponent, Natália Silva, who is 8-0 in the UFC. White did get Wang's kickboxing win over Valentina Shevchenko right.\n\nSilva vs. Wang for the vacant UFC women's flyweight title headlines UFC 332 Saturday in Salt Lake City, and the mix-up has fans calling it a bad look for the fight's promotion.\n\nHonest slip, or proof the UFC isn't selling this title fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "DanaWhite",
+    "WangCong"
+  ],
+  "sources": [
+    "LowKick MMA",
+    "MMA Mania"
+  ],
+  "music_pool": "espn",
+  "reel": true
+}

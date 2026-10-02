@@ -1,0 +1,34 @@
+{
+  "story_id": "caliari-vs-lucindo-ufc-333",
+  "headline": "Ban Over",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Iasmin Lucindo"
+    },
+    {
+      "type": "fighter",
+      "name": "Nicolle Caliari"
+    },
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "headline": "Ban Over"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Iasmin Lucindo is back from suspension, and she has a Brazilian rival waiting at UFC 333.\n\nLucindo (18-6) meets Nicolle Caliari (9-4) in a strawweight fight added to UFC 333 in Abu Dhabi, per MMA Junkie. Lucindo returns after a nine-month suspension for mesterolone; the UFC's anti-doping program accepted that a contaminated supplement was to blame. Caliari is coming off a submission win over Shauna Bannon in May.\n\nUFC 333 is headlined by Alexander Volkanovski vs. Movsar Evloev and Petr Yan vs. Merab Dvalishvili.\n\nWho takes the all-Brazilian strawweight fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "IasminLucindo",
+    "NicolleCaliari"
+  ],
+  "sources": [
+    "MMA Junkie"
+  ],
+  "music_pool": "espn",
+  "reel": true,
+  "trial_reel": true
+}
