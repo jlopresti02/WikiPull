@@ -1,0 +1,71 @@
+name: Gemini images
+
+on:
+  # Run by hand from the Actions tab (works in the GitHub mobile app too)
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "What to generate (no real, named people)"
+        required: true
+      name:
+        description: "Short name for the image folder"
+        required: false
+      count:
+        description: "How many images (1-4)"
+        required: false
+        default: "1"
+      aspect_ratio:
+        description: "9:16 (Reel), 1:1, 4:5, 16:9..."
+        required: false
+        default: "9:16"
+  # Or add a JSON request file to gemini/requests/ and push
+  push:
+    paths:
+      - "gemini/requests/*.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gemini-images
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate images
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL }}
+          PROMPT: ${{ inputs.prompt }}
+          NAME: ${{ inputs.name }}
+          COUNT: ${{ inputs.count }}
+          RATIO: ${{ inputs.aspect_ratio }}
+        run: |
+          if [ -n "$PROMPT" ]; then
+            python gemini_images.py --prompt "$PROMPT" --name "$NAME" \
+              --count "${COUNT:-1}" --aspect-ratio "${RATIO:-9:16}"
+          else
+            python gemini_images.py
+          fi
+
+      - name: Commit images
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add gemini
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Gemini images"
+          git pull --rebase
+          git push
