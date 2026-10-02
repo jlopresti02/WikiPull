@@ -27,5 +27,13 @@
     "BBC Sport"
   ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+    "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }
