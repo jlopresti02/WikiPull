@@ -2,14 +2,37 @@
   "story_id": "rogan-on-mvp-ufc-release",
   "headline": "Rogan On MVP",
   "visual": [
-    {"type": "fighter", "name": "Michael Page (fighter)"},
-    {"type": "fighter", "name": "Joe Rogan", "headline": "Rogan On MVP"}
+    {
+      "type": "fighter",
+      "name": "Michael Page (fighter)"
+    },
+    {
+      "type": "fighter",
+      "name": "Joe Rogan",
+      "headline": "Rogan On MVP"
+    }
   ],
   "color": "#6b2fd1",
   "caption": "Joe Rogan calls Michael \"Venom\" Page one of his favorite fighters, but says he gets why the UFC let him go.\n\nOn the JRE MMA Show, Rogan pointed to Page's age (39) and a few low-action fights. He added that MVP is close to unstoppable at welterweight and his power doesn't carry the same way at middleweight. Page went 5-1 in the UFC and his contract ended after a decision win over Nursulton Ruziboev in Paris; he was then dropped from the UFC rankings and reportedly released.\n\nWhere should MVP fight next?",
-  "hashtags": ["MMANews", "UFC", "MichaelVenomPage", "JoeRogan", "Welterweight"],
-  "sources": ["MMA News"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "MichaelVenomPage",
+    "JoeRogan",
+    "Welterweight"
+  ],
+  "sources": [
+    "MMA News"
+  ],
   "music_pool": "espn",
   "reel": true,
-  "trial_reel": true
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/michael-page-fighter/cutouts/01-michael-page.png",
+    "credit": "Amoby / CC0"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

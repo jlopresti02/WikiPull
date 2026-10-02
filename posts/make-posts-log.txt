@@ -1,39 +1,71 @@
-Searching Wikimedia Commons for: Esteban Ribovics
+Searching Wikimedia Commons for: Alexander Volkov (fighter)
   No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Bobby Green (fighter)
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Umar Nurmagomedov
-  saved images/umar-nurmagomedov/01-umarnurmagomedov.png  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-02 17:22:38.047096083 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  saved images/alexander-volkov-fighter/01-alexander-volkov-in-m-1.jpg  [CC BY-SA 4.0]
+  saved images/alexander-volkov-fighter/02-alexander-volkov-in-m-1-cropped.jpg  [CC BY-SA 4.0]
+  saved images/alexander-volkov-fighter/03-sergei-pavlovich-vs-alexander-volkov-face-off.png  [CC BY 3.0]
+Done: 3 image(s) saved.
+[0;93m2026-10-02 22:22:11.111286686 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/umar-nurmagomedov/cutouts/01-umarnurmagomedov.png
+  cutout images/alexander-volkov-fighter/cutouts/01-alexander-volkov-in-m-1.png
+  cutout images/alexander-volkov-fighter/cutouts/02-alexander-volkov-in-m-1-cropped.png
+  cutout images/alexander-volkov-fighter/cutouts/03-sergei-pavlovich-vs-alexander-volkov-face-off.png
+Done: 3 new cutout(s).
+Searching Wikimedia Commons for: Sean Sharaf
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Michael Page (fighter)
+  No file names matched; falling back to looser results.
+  saved images/michael-page-fighter/01-michael-page.png  [CC0]
+Done: 1 image(s) saved.
+[0;93m2026-10-02 22:24:35.373149106 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/michael-page-fighter/cutouts/01-michael-page.png
 Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Vitor Petrino
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Curtis Blaydes
+  saved images/curtis-blaydes/01-curtis-blaydes-at-ufc-221.png  [CC BY 3.0]
+  saved images/curtis-blaydes/02-curtis-blaydes-2018.jpg  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-02 22:25:16.381589277 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/curtis-blaydes/cutouts/01-curtis-blaydes-at-ufc-221.png
+  cutout images/curtis-blaydes/cutouts/02-curtis-blaydes-2018.png
+Done: 2 new cutout(s).
 
-== 2026-10-02-1320-ribovics-misses-weight.json
-$ fetch.py Esteban Ribovics --count 5
-$ fetch.py Bobby Green (fighter) --count 5
-Image: {'type': 'fighter', 'name': 'Dana White', 'headline': 'Ribovics Heavy'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Ribovics Heavy
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-02-1320-ribovics-misses-weight/post.png (fighter)
-Rendered posts/2026-10-02-1320-ribovics-misses-weight/reel.mp4
+== 2026-10-02-1820-volkov-no-mans-land.json
+$ fetch.py Alexander Volkov (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/alexander-volkov-fighter
+Image: {'type': 'fighter', 'name': 'Alexander Volkov (fighter)'} -> fighter images/alexander-volkov-fighter/cutouts/01-alexander-volkov-in-m-1.png  headline: No Man's Land
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-02-1820-volkov-no-mans-land/post.png (fighter)
+Rendered posts/2026-10-02-1820-volkov-no-mans-land/reel.mp4
 
-== 2026-10-02-1321-dana-no-translator.json
-Image: {'type': 'fighter', 'name': 'Dana White'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: No Translator
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-02-1321-dana-no-translator/post.png (fighter)
-Rendered posts/2026-10-02-1321-dana-no-translator/reel.mp4
+== 2026-10-02-1821-rogan-sharaf-retire.json
+$ fetch.py Sean Sharaf --count 5
+Image: {'type': 'fighter', 'name': 'Joe Rogan', 'headline': 'Rogan: Retire?'} -> fighter images/joe-rogan/cutouts/01-joerogan.png  headline: Rogan: Retire?
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-02-1821-rogan-sharaf-retire/post.png (fighter)
+Rendered posts/2026-10-02-1821-rogan-sharaf-retire/reel.mp4
 
-== 2026-10-02-1322-umar-faber-raf.json
-$ fetch.py Umar Nurmagomedov --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/umar-nurmagomedov
-Image: {'type': 'fighter', 'name': 'Umar Nurmagomedov'} -> fighter images/umar-nurmagomedov/cutouts/01-umarnurmagomedov.png  headline: Umar vs Faber
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-02-1322-umar-faber-raf/post.png (fighter)
-Rendered posts/2026-10-02-1322-umar-faber-raf/reel.mp4
+== 2026-10-02-1822-rogan-mvp-release.json
+$ fetch.py Michael Page (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/michael-page-fighter
+Image: {'type': 'fighter', 'name': 'Michael Page (fighter)'} -> fighter images/michael-page-fighter/cutouts/01-michael-page.png  headline: Rogan On MVP
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-02-1822-rogan-mvp-release/post.png (fighter)
+Rendered posts/2026-10-02-1822-rogan-mvp-release/reel.mp4
+
+== 2026-10-02-1823-petrino-calls-out-blaydes.json
+$ fetch.py Vitor Petrino --count 5
+$ fetch.py Curtis Blaydes --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/curtis-blaydes
+Image: {'type': 'fighter', 'name': 'Curtis Blaydes', 'headline': 'Blaydes Called Out'} -> fighter images/curtis-blaydes/cutouts/01-curtis-blaydes-at-ufc-221.png  headline: Blaydes Called Out
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-02-1823-petrino-calls-out-blaydes/post.png (fighter)
+Rendered posts/2026-10-02-1823-petrino-calls-out-blaydes/reel.mp4
