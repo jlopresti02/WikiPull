@@ -1,0 +1,30 @@
+{
+  "story_id": "erdogan-submits-elliott-one-fight-night-48",
+  "headline": "Erdogan 14-0",
+  "color": "#f5c518",
+  "caption": "Shamil Erdogan is still unbeaten after choking out Paul Elliott at ONE Fight Night 48.\nErdogan or Snyder? 👇\n\nErdogan finished Elliott with a rear-naked choke at 2:28 of round two on Friday's ONE Championship card, moving to 14-0 in MMA. Up next, he's booked to wrestle Olympic champion Kyle Snyder at RAF Abu Dhabi on Nov. 14. ONE Championship results and MMA news.\n\nDoes he beat Snyder?",
+  "hashtags": [
+    "MMA",
+    "ONEChampionship",
+    "ONEFightNight48",
+    "ShamilErdogan",
+    "MMANews"
+  ],
+  "sources": [
+    "MMA News",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "question": "Erdogan or Snyder?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Shamil Erdogan",
+      "file": "drive-shamil-erd"
+    }
+  ]
+}

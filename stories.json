@@ -2,6 +2,110 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "dos-anjos-ko-by-hernandez-gloves-off-ufc-332",
+      "title": "Alexander Hernandez stops Rafael dos Anjos at UFC 332; RDA leaves gloves in cage",
+      "people": [
+        "Rafael dos Anjos",
+        "Alexander Hernandez"
+      ],
+      "event": "UFC 332",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Hernandez TKO R2 3:12",
+        "RDA took R1; dropped by jab early R2, finished with hook and ground strikes",
+        "RDA's 50th pro fight, first in ~2 years; four-fight skid",
+        "Left gloves in cage; no formal retirement announcement"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/dos-anjos-retires-loss-hernandez",
+        "https://cagesidepress.com/2026/10/03/ufc-332-alexander-hernandez-puts-away-rda/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-1820-rda-gloves-off",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "johnny-walker-kos-parkin-heavyweight-debut-ufc-332",
+      "title": "Johnny Walker knocks out Mick Parkin in heavyweight debut at UFC 332",
+      "people": [
+        "Johnny Walker",
+        "Mick Parkin"
+      ],
+      "event": "UFC 332",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "KO (knees) R1 3:35",
+        "Heavyweight debut",
+        "Jumped out of cage to celebrate with his wife"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/10/03/ufc-332-johnny-walker-impressive-in-heavyweight-debut-stops-mick-parkin-with-knees/",
+        "https://www.sherdog.com/videos/highlightreels/UFC-332-highlight-video-Johnny-Walker-knee-explodes-on-Mick-Parkins-jaw-23814"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-1821-walker-heavyweight-ko",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "vettori-fifth-straight-loss-naurdiev-ufc-332",
+      "title": "Ismail Naurdiev beats Marvin Vettori at UFC 332, Vettori's fifth straight loss",
+      "people": [
+        "Marvin Vettori",
+        "Ismail Naurdiev"
+      ],
+      "event": "UFC 332",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Unanimous decision 29-28 x3",
+        "Fifth straight loss for Vettori",
+        "Fight originally set for June; Vettori withdrew with rib injury"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/10/03/ufc-332-ismail-naurdiev-serves-up-fifth-straight-loss-for-marvin-vettori/",
+        "https://sports.yahoo.com/articles/ufc-332-results-marvin-vettoris-205810446.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-1822-vettori-five-straight",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "court-mcgee-retirement-fight-loss-nolan-ufc-332",
+      "title": "Eric Nolan stops Court McGee in McGee's retirement fight at UFC 332",
+      "people": [
+        "Court McGee",
+        "Eric Nolan"
+      ],
+      "event": "UFC 332",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Nolan TKO R3 3:26",
+        "McGee's 37th pro, 25th UFC fight; retirement fight in Utah",
+        "Nolan's first UFC win"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/10/03/ufc-332-eric-nolan-sends-court-mcgee-into-retirement/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-1823-court-mcgee-retires",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
       "id": "pimblett-would-vacate-before-fighting-staines",
       "title": "Paddy Pimblett says he'd vacate the lightweight title rather than fight teammate George Staines",
       "people": [
@@ -55,6 +159,12 @@
           "kind": "new",
           "format": "trial_reel",
           "held_back": "wrong person in photo (Commons 'Anthony Smith.jpg' is not the fighter); not scheduled"
+        },
+        {
+          "post": "2026-10-03-1824-anthony-smith-stopped-gamebred",
+          "kind": "new",
+          "format": "trial_reel",
+          "note": "re-render of held post with user's Drive photo"
         }
       ]
     },
@@ -108,6 +218,12 @@
           "kind": "new",
           "format": "trial_reel",
           "held_back": "no photo found (silhouette only); not scheduled"
+        },
+        {
+          "post": "2026-10-03-1825-erdogan-still-perfect",
+          "kind": "new",
+          "format": "trial_reel",
+          "note": "re-render of held post with user's Drive photo"
         }
       ]
     },

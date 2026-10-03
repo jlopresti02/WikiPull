@@ -1,0 +1,32 @@
+{
+  "story_id": "court-mcgee-retirement-fight-loss-nolan-ufc-332",
+  "headline": "Last Walk",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Court McGee"
+    },
+    {
+      "type": "fighter",
+      "name": "Eric Nolan"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Court McGee's farewell fight in his home state ended with a loss to Eric Nolan at UFC 332.\nRespect or one too many? 👇\n\nThe Ultimate Fighter 11 winner was stopped in round three in Salt Lake City, Utah, in his 25th UFC fight and 37th as a pro. It was Nolan's first UFC win. Joe Rogan interviewed McGee in the cage, and the broadcast aired a tribute to the welterweight veteran. UFC 332 results and MMA news.\n\nFavorite Court McGee moment?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "CourtMcGee",
+    "Welterweight"
+  ],
+  "sources": [
+    "Cageside Press"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "question": "Respect or one too many?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true
+}
