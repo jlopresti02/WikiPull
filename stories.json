@@ -31,7 +31,9 @@
           "post": "2026-10-03-1826-rda-finished",
           "kind": "new",
           "format": "reel",
-          "note": "re-render with Alexander Hernandez photo"
+          "note": "re-render with Alexander Hernandez photo",
+          "scheduled_for": "2026-10-03T18:51:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7799827488458915117"
         }
       ]
     },
@@ -57,7 +59,9 @@
         {
           "post": "2026-10-03-1821-walker-heavyweight-ko",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-03T18:21:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8308330403235381379"
         }
       ]
     },
@@ -83,7 +87,9 @@
         {
           "post": "2026-10-03-1822-vettori-five-straight",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-03T19:21:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6175521695315017947"
         }
       ]
     },
@@ -108,7 +114,9 @@
         {
           "post": "2026-10-03-1823-court-mcgee-retires",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-03T19:51:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4529188202516953700"
         }
       ]
     },
@@ -171,7 +179,9 @@
           "post": "2026-10-03-1824-anthony-smith-stopped-gamebred",
           "kind": "new",
           "format": "trial_reel",
-          "note": "re-render of held post with user's Drive photo"
+          "note": "re-render of held post with user's Drive photo",
+          "scheduled_for": "2026-10-03T20:21:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7354358257474356697"
         }
       ]
     },
@@ -230,7 +240,9 @@
           "post": "2026-10-03-1825-erdogan-still-perfect",
           "kind": "new",
           "format": "trial_reel",
-          "note": "re-render of held post with user's Drive photo"
+          "note": "re-render of held post with user's Drive photo",
+          "scheduled_for": "2026-10-03T20:51:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-968762650796930066"
         }
       ]
     },
