@@ -24,7 +24,9 @@
         {
           "post": "2026-10-03-1320-pimblett-vacate-staines",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-03T13:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2241419288055233782"
         }
       ]
     },
@@ -51,7 +53,8 @@
         {
           "post": "2026-10-03-1321-anthony-smith-stopped-gamebred",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "held_back": "wrong person in photo (Commons 'Anthony Smith.jpg' is not the fighter); not scheduled"
         }
       ]
     },
@@ -74,7 +77,9 @@
         {
           "post": "2026-10-03-1322-makhachev-masters-degree",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-03T13:55:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2510523282821497817"
         }
       ]
     },
@@ -101,7 +106,8 @@
         {
           "post": "2026-10-03-1323-erdogan-still-perfect",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "held_back": "no photo found (silhouette only); not scheduled"
         }
       ]
     },
