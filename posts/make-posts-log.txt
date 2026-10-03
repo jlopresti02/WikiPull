@@ -1,63 +1,9 @@
-Searching Wikimedia Commons for: Anthony Smith (fighter)
-  No file names matched; falling back to looser results.
-  saved images/anthony-smith-fighter/01-anthony-smith.jpg  [CC BY-SA 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-03 17:06:57.548627230 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/anthony-smith-fighter/cutouts/01-anthony-smith.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Islam Makhachev
-  saved images/islam-makhachev/01-islam-makhachev-2022-ufc-belt.png  [CC BY 3.0]
-  saved images/islam-makhachev/02-islam-makhachev-2022-ufc-belt-cropped.png  [CC BY 3.0]
-  saved images/islam-makhachev/03-islam-makhachev-current-ufc-lightweight-champion.jpg  [CC BY-SA 4.0]
-  saved images/islam-makhachev/04-islam-makhachev-signature.png  [Public domain]
-  saved images/islam-makhachev/05-islam-makhachev-2023.jpg  [CC BY 3.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-03 17:08:22.415449871 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png
-  cutout images/islam-makhachev/cutouts/02-islam-makhachev-2022-ufc-belt-cropped.png
-  cutout images/islam-makhachev/cutouts/03-islam-makhachev-current-ufc-lightweight-champion.png
-  cutout images/islam-makhachev/cutouts/04-islam-makhachev-signature.png
-  cutout images/islam-makhachev/cutouts/05-islam-makhachev-2023.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Shamil Erdogan
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f79f14e4e50>); is the folder shared by link?
-Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f79f1406f70>); is the folder shared by link?
-Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f79f14e4e50>); is the folder shared by link?
-Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f79f1407100>); is the folder shared by link?
-Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f79f1407100>); is the folder shared by link?
-Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7f79f0313060>); is the folder shared by link?
-
-== 2026-10-03-1320-pimblett-vacate-staines.json
-Image: {'type': 'fighter', 'name': 'Paddy Pimblett', 'file': '01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped'} -> fighter images/paddy-pimblett/cutouts/01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped.png  headline: I'd Vacate
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-03-1320-pimblett-vacate-staines/post.png (fighter)
-Rendered posts/2026-10-03-1320-pimblett-vacate-staines/reel.mp4
-
-== 2026-10-03-1321-anthony-smith-stopped-gamebred.json
-$ fetch.py Anthony Smith (fighter) --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/anthony-smith-fighter
-Image: {'type': 'fighter', 'name': 'Anthony Smith (fighter)'} -> fighter images/anthony-smith-fighter/cutouts/01-anthony-smith.png  headline: Smith Stopped
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-03-1321-anthony-smith-stopped-gamebred/post.png (fighter)
-Rendered posts/2026-10-03-1321-anthony-smith-stopped-gamebred/reel.mp4
-
-== 2026-10-03-1322-makhachev-masters-degree.json
-$ fetch.py Islam Makhachev --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/islam-makhachev
-Image: {'type': 'fighter', 'name': 'Islam Makhachev'} -> fighter images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png  headline: Back To School
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-03-1322-makhachev-masters-degree/post.png (fighter)
-Rendered posts/2026-10-03-1322-makhachev-masters-degree/reel.mp4
-
-== 2026-10-03-1323-erdogan-still-perfect.json
-$ fetch.py Shamil Erdogan --count 5
-Image: {'type': 'mystery', 'headline': 'Erdogan 14-0'} -> graphic   headline: Erdogan 14-0
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-03-1323-erdogan-still-perfect/post.png (graphic)
-Rendered posts/2026-10-03-1323-erdogan-still-perfect/reel.mp4
+Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d988400>); is the folder shared by link?
+Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
+Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
+Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
+Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
+Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7f847d413100>); is the folder shared by link?
+Drive: could not download Anthony Smith.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d413100>); is the folder shared by link?
+Drive: could not download Shamil Erd.WEBP (cannot identify image file <_io.BytesIO object at 0x7f847d413010>); is the folder shared by link?
+Queue is empty.
