@@ -101,15 +101,20 @@ only to non-followers at first, so they test weaker content without
 diluting the main feed. Each post is either a regular Reel or a Trial
 Reel, never both (the same video twice would split its reach).
 
+Through Oct 2, Trial Reels averaged 157 views vs 147 for regular Reels,
+while reaching only new people ("Flinch!": 226 views in 90 minutes), so
+use them freely for anything that isn't a top story.
+
 - **Regular Reel**: MMA stories with a well-known star plus conflict or
-  stakes (the top performers above).
-- **Business and cross-sport stories go as Trial Reels too**, even with a
-  big name: promoter spats, broadcast deals, a UFC figure talking about
-  boxing ("PR War", Dana vs Eddie Hearn over a boxing match: 30 views as
-  a regular Reel).
-- **Trial Reel**: the weaker MMA posts: lesser-known fighters with no
-  hook, routine bookings and card additions, updates with a modest new
-  fact, and any post whose image isn't a person (flag, venue, money).
+  stakes, shown with that star's own photo (the top performers above).
+- **Trial Reel**, any of these:
+  - Weaker MMA posts: lesser-known fighters with no hook, routine
+    bookings and card additions, updates with a modest new fact.
+  - Any post whose image isn't the story's own person: silhouette,
+    flag, venue or money graphic.
+  - Business and cross-sport stories, even with a big name: promoter
+    spats, broadcast deals, a UFC figure talking about boxing ("PR War",
+    Dana vs Eddie Hearn over a boxing match: 30 views as a regular Reel).
 - **Trial Reel, always**: every adjacent combat sports story from the
   second sweep (RAF, Olympic and college wrestling, pro BJJ, bare knuckle,
   pro boxing, arm wrestling, spectacle sports). Post up to **3 per run**,
