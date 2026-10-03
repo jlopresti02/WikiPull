@@ -1,1069 +1,1131 @@
 {
-  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
-  "stories": [
+ "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
+ "stories": [
+  {
+   "id": "dana-white-pereira-star-power-gane-rematch",
+   "title": "Dana White pushes back on reporter who says Alex Pereira's star power deserved a Ciryl Gane rematch",
+   "people": [
+    "Dana White",
+    "Alex Pereira",
+    "Ciryl Gane",
+    "Josh Hokit"
+   ],
+   "event": "UFC 332 media / UFC 334",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Reporter at UFC 332 media scrum asked why Pereira didn't get Gane rematch; cited star power",
+    "White: UFC books the best in the world and who deserves it, not star power",
+    "White: Pereira coming off loss to Gane, fans weren't demanding a rematch",
+    "Gane vs. Hokit for heavyweight title at UFC 334, Nov 14, MSG; Pereira's next opponent expected to be revealed during UFC 332 weekend"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/dana-white-drops-cold-truth-on-alex-pereira-after-giving-josh-hokit-title-shot-at-ufc-334-deserves-to-be-there",
+    "https://www.yardbarker.com/mma/articles/dana_white_annoyed_after_interviewer_questions_ufcs_alex_pereira_snub_for_ciryl_gane_title_fight/s1_17730_44377631",
+    "https://sports.yahoo.com/articles/dana-white-shuts-down-alex-093540746.html"
+   ],
+   "posts": [
     {
-      "id": "dana-white-volkov-no-mans-land",
-      "title": "Dana White says Alexander Volkov is in heavyweight 'no man's land' but will get his title shot",
-      "people": [
-        "Alexander Volkov",
-        "Dana White",
-        "Ciryl Gane",
-        "Josh Hokit",
-        "Rizvan Kuniev"
-      ],
-      "event": "UFC 333 / UFC 334",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "White: Volkov in 'no man's land', a timing issue, 'he'll get his shot'",
-        "Volkov 6-1 in last 7; wanted Gane rematch, UFC chose Gane vs. Hokit for UFC 334",
-        "Volkov faces Rizvan Kuniev at UFC 333",
-        "White denies Hokit skipped the line"
-      ],
-      "sources": [
-        "https://heavy.com/sports/ufc/alexander-volkov-ufc-no-mans-land/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-1820-volkov-no-mans-land",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Alexander Volkov)",
-          "scheduled_for": "2026-10-02T20:00:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-333162631703671467"
-        }
-      ]
-    },
-    {
-      "id": "rogan-advises-sharaf-retire",
-      "title": "Joe Rogan advises Sean Sharaf to consider retiring after his UFC 331 KO of Gable Steveson",
-      "people": [
-        "Joe Rogan",
-        "Sean Sharaf",
-        "Gable Steveson"
-      ],
-      "event": "JRE MMA Show #186",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "Rogan told Sharaf to think about retiring and let the moment settle",
-        "Sharaf KO'd Olympic gold medalist Steveson at UFC 331, Steveson's first MMA loss",
-        "Sharaf, ex-Marine, entered 0-2 in UFC as big underdog; no timeline or next fight"
-      ],
-      "sources": [
-        "https://boxingnews.com/news/sharaf-retirement-gable-steveson-ko",
-        "https://www.bjpenn.com/mma-news/joe-rogan/joe-rogan-presses-sean-sharaf-retire-after-upset-ufc-331/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-1821-rogan-sharaf-retire",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Joe Rogan)",
-          "scheduled_for": "2026-10-02T20:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8834824534051959503"
-        }
-      ]
-    },
-    {
-      "id": "rogan-on-mvp-ufc-release",
-      "title": "Joe Rogan says he understands UFC releasing Michael 'Venom' Page, one of his favorite fighters",
-      "people": [
-        "Joe Rogan",
-        "Michael Page"
-      ],
-      "event": "JRE MMA Show #186",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "Rogan cites Page's age (39) and some boring fights",
-        "Rogan: Page near unstoppable at welterweight, power doesn't translate at 185",
-        "Page 5-1 in UFC; contract ended after win over Ruziboev in Paris; removed from rankings, reportedly released"
-      ],
-      "sources": [
-        "https://www.mmanews.com/article/joe-rogan-michael-venom-page-ufc-release"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-1822-rogan-mvp-release",
-          "kind": "new",
-          "format": "trial_reel",
-          "image": "fighter photo (Michael Page)",
-          "scheduled_for": "2026-10-02T21:00:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3581080341577679820"
-        }
-      ]
-    },
-    {
-      "id": "petrino-calls-out-blaydes-ufc-335",
-      "title": "Vitor Petrino calls out Curtis Blaydes for UFC 335 (Dec 12, Las Vegas)",
-      "people": [
-        "Vitor Petrino",
-        "Curtis Blaydes"
-      ],
-      "event": "UFC 335 (Dec 12)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "No. 9 Petrino wants No. 7 Blaydes; told UFC, waiting on Blaydes",
-        "Petrino 4-0 at heavyweight, latest win over Spivac in August",
-        "Blaydes (20-6) beat Cortes-Acosta Sept 12"
-      ],
-      "sources": [
-        "https://www.sherdog.com/news/news/Vitor-Petrino-calls-out-Curtis-Blaydes-for-UFC-335-Accept-the-fight-203047",
-        "https://heavy.com/sports/ufc/vitor-petrino-calls-out-curtis-blaydes/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-1823-petrino-calls-out-blaydes",
-          "kind": "new",
-          "format": "trial_reel",
-          "image": "fighter photo (Curtis Blaydes)",
-          "scheduled_for": "2026-10-02T21:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2248113082972093937"
-        }
-      ]
-    },
-    {
-      "id": "dana-white-no-translator-ateba-gautier",
-      "title": "No translator for Ateba Gautier at UFC 332 presser; Dana White asks for one after Gautier answers in English",
-      "people": [
-        "Dana White",
-        "Ateba Gautier",
-        "Roman Kopylov"
-      ],
-      "event": "UFC 332 (Oct 3)",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "UFC had no French translator for Gautier at the UFC 332 press conference",
-        "Gautier answered in French, then in English; White still called for a translator and apologized",
-        "Clip went viral; second White fight-week blunder after Wang/Silva record mix-up"
-      ],
-      "sources": [
-        "https://www.sportbible.com/ufc/dana-white-press-conference-disrespectful-moment-ateba-gautier-762796-20261002"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-1321-dana-no-translator",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Dana White)",
-          "scheduled_for": "2026-10-02T18:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=361411412957285832"
-        }
-      ]
-    },
-    {
-      "id": "umar-nurmagomedov-vs-faber-raf-abu-dhabi",
-      "sport": "wrestling",
-      "title": "Umar Nurmagomedov makes RAF debut vs. Urijah Faber at RAF Abu Dhabi (Nov 14); Chimaev vs. Covington headlines",
-      "people": [
-        "Umar Nurmagomedov",
-        "Urijah Faber",
-        "Khamzat Chimaev",
-        "Colby Covington",
-        "Kyle Snyder"
-      ],
-      "event": "RAF Abu Dhabi (Nov 14, Etihad Arena)",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "Umar Nurmagomedov RAF debut vs. Urijah Faber (Faber's third RAF match)",
-        "Headliner: Chimaev vs. Covington for RAF cruiserweight crossover title (booked Sep 29)",
-        "Kyle Snyder vs. Shamil Erdogan also on card",
-        "First event of five-year RAF / DCT Abu Dhabi / UAE Wrestling Federation deal"
-      ],
-      "sources": [
-        "https://www.thenationalnews.com/sport/combat-sports/2026/10/02/umar-nurmagomedov-to-make-raf-debut-in-abu-dhabi/",
-        "https://www.lowkickmma.com/khamzat-chimaev-vs-colby-covington-raf/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-1322-umar-faber-raf",
-          "kind": "new",
-          "format": "trial_reel",
-          "image": "fighter photo (Umar Nurmagomedov)",
-          "scheduled_for": "2026-10-02T19:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6795555648735955507"
-        }
-      ]
-    },
-    {
-      "id": "dana-white-hearn-fury-joshua-feud",
-      "title": "Dana White says UFC is producing Fury vs. Joshua; Eddie Hearn calls White's side 'control freaks'",
-      "people": [
-        "Dana White",
-        "Eddie Hearn",
-        "Tyson Fury",
-        "Anthony Joshua"
-      ],
-      "event": "Fury vs. Joshua (Dec 11, 2026, Cardiff)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "White at UFC 332 presser: UFC is promoting and producing the whole Fury-Joshua show",
-        "Hearn says Joshua's contract bars White/Zuffa unless Matchroom allows it; blamed White's 'arrogance', called them 'control freaks'",
-        "White says Hearn is trying to win a PR battle; White skipped London launch presser"
-      ],
-      "sources": [
-        "https://www.lowkickmma.com/dana-white-hits-back-at-eddie-hearn-im-producing-the-entire-event-after-fury-joshua-claim/",
-        "https://sports.yahoo.com/articles/eddie-hearn-blames-dana-white-200000508.html",
-        "https://www.mmanews.com/article/dana-white-claims-ufc-producing-fury-joshua-fight"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-0920-dana-hearn-pr-war",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Dana White)",
-          "scheduled_for": "2026-10-02T10:10:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=689647101597142137"
-        }
-      ]
-    },
-    {
-      "id": "dana-white-mixes-up-ufc-332-headliners",
-      "title": "Dana White credits Wang Cong with Natalia Silva's wins; fans roast him",
-      "people": [
-        "Dana White",
-        "Wang Cong",
-        "Natália Silva"
-      ],
-      "event": "UFC 332 (Oct 3, Salt Lake City)",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "White credited Wang with wins over Namajunas, Andrade, Grasso; those were Silva's",
-        "White correctly cited Wang's 2015 kickboxing win over Shevchenko",
-        "Fans called it 'laughably sad'"
-      ],
-      "sources": [
-        "https://www.lowkickmma.com/dana-white-cant-remember-ufc-332-champ-records-fans-roast/",
-        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476268/doh-dana-white-clearly-doesnt-know-his-ufc-332-headliner-wang-cong-she-beat-rose-namajunas"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-0921-dana-mixes-up-headliners",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Dana White)",
-          "scheduled_for": "2026-10-02T10:40:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4329514106064909131"
-        }
-      ]
-    },
-    {
-      "id": "dos-anjos-open-to-mcgregor-fight",
-      "title": "Rafael dos Anjos open to Conor McGregor fight after UFC 332, won't wait for it",
-      "people": [
-        "Rafael dos Anjos",
-        "Conor McGregor",
-        "Alexander Hernandez"
-      ],
-      "event": "UFC 332 (Oct 3)",
-      "first_reported": "2026-10-02",
-      "facts": [
-        "Dos Anjos faces Hernandez at UFC 332 in his 50th pro fight",
-        "Says McGregor fight 'would be awesome' but won't wait like Chandler did",
-        "McGregor replied 'Thank you Rafael'; UFC 196 bout in 2016 fell through due to RDA injury"
-      ],
-      "sources": [
-        "https://boxingnews.com/news/dos-anjos-open-mcgregor-fight-ufc-332"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-0950-dos-anjos-mcgregor",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Conor McGregor)",
-          "scheduled_for": "2026-10-02T11:10:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1978047172380769919"
-        }
-      ]
-    },
-    {
-      "id": "king-green-bmf-title-dana-white",
-      "title": "Dana White agrees King Green deserves BMF title shot if he beats Ribovics at UFC 332",
-      "people": [
-        "Bobby Green",
-        "Dana White",
-        "Esteban Ribovics",
-        "Charles Oliveira"
-      ],
-      "event": "UFC 332 (Oct 3)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "White: 'I absolutely agree' Green fits BMF title fight",
-        "Green, 40, on four-fight win streak; called BMF title a dream",
-        "Ribovics called Green 'Minnie Mouse' at presser",
-        "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official"
-      ],
-      "sources": [
-        "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
-        "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/",
-        "https://www.sherdog.com/news/news/UFC-332-weighin-results-Title-fight-set-1-fighter-heavy-203045",
-        "https://hottakes.com/articles/esteban-ribovics-misses-weight-by-half-a-pound-for-ufc-332-7f9858a9-4973-4017-8510-9bc3378fef2b"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-0951-king-green-bmf",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Dana White)",
-          "scheduled_for": "2026-10-02T11:40:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-404260349947132923"
-        },
-        {
-          "post": "2026-10-02-1320-ribovics-misses-weight",
-          "kind": "update",
-          "format": "reel",
-          "image": "fighter photo (Dana White)",
-          "scheduled_for": "2026-10-02T19:00:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2161486312751345878"
-        }
-      ]
-    },
-    {
-      "id": "caliari-vs-lucindo-ufc-333",
-      "title": "Nicolle Caliari vs. Iasmin Lucindo added to UFC 333 (Abu Dhabi)",
-      "people": [
-        "Iasmin Lucindo",
-        "Nicolle Caliari"
-      ],
-      "event": "UFC 333",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Strawweight bout added per MMA Junkie",
-        "Lucindo returns from 9-month mesterolone suspension; CSAD accepted contaminated supplement explanation",
-        "Caliari coming off sub win over Shauna Bannon in May"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/ufc-333-adds-brazilian-strawweight-220130862.html"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-02-0924-lucindo-caliari-ufc-333",
-          "kind": "new",
-          "format": "trial_reel",
-          "image": "fighter photo (Dana White)",
-          "scheduled_for": "2026-10-02T12:10:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5023546830825865522"
-        }
-      ]
-    },
-    {
-      "id": "pimblett-rips-tsarukyan-title-shot",
-      "title": "Paddy Pimblett says he'd be furious if Arman Tsarukyan gets next lightweight title shot",
-      "people": [
-        "Paddy Pimblett",
-        "Arman Tsarukyan",
-        "Justin Gaethje",
-        "Benoit Saint Denis",
-        "Mauricio Ruffy"
-      ],
-      "event": "UFC lightweight title picture",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Pimblett credited Tsarukyan's KO of Mauricio Ruffy but said he looked 'very average' before the finish",
-        "Said Tsarukyan couldn't take Ruffy down while BSD did repeatedly; Pimblett has beaten BSD",
-        "Argued Tsarukyan hasn't beaten anyone ranked higher than Pimblett's opponents since UFC 300",
-        "Gaethje named Tsarukyan next; Dana White hasn't confirmed; Topuria rematch also possible"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/paddy-pimblett-furious-arman-tsarukyan-215625664.html",
-        "https://sports.yahoo.com/articles/justin-gaethje-stops-ilia-topuria-092736060.html"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-2222-pimblett-tsarukyan-average",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Paddy Pimblett)",
-          "scheduled_for": "2026-10-01T23:25:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9130481508306338727"
-        }
-      ]
-    },
-    {
-      "id": "wang-silva-presser-clash-ufc-332",
-      "title": "Wang Cong says Natalia Silva won't sell UFC 332 fight; Silva: 'she can get cute by herself'",
-      "people": [
-        "Wang Cong",
-        "Natália Silva"
-      ],
-      "event": "UFC 332 (Oct 3, 2026, Delta Center, Salt Lake City)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "At the Oct 1 UFC 332 press conference, Wang criticized Silva for not helping promote the fight",
-        "Wang said she wrote Silva a note with a plan for the ceremonial weigh-in faceoff; Silva didn't look at it",
-        "Silva: if Wang wants to get cute she can do it herself; this is her dream and she's there to fight, not play",
-        "Related: wang-cong-no-need-to-beat-shevchenko, silva-dismisses-critics-wang-toughest-fight"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/natalia-silva-wang-cong-share-230204688.html"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-2221-wang-silva-get-cute",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Natália Silva)",
-          "scheduled_for": "2026-10-01T22:55:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2996922187084378778"
-        }
-      ]
-    },
-    {
-      "id": "figueiredo-shoves-talbott-ufc-332-presser",
-      "title": "Deiveson Figueiredo shoves Payton Talbott at UFC 332 press conference faceoff",
-      "people": [
-        "Deiveson Figueiredo",
-        "Payton Talbott"
-      ],
-      "event": "UFC 332 (Oct 3, 2026, Delta Center, Salt Lake City) bantamweight co-main",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Figueiredo gave Talbott a shove during faceoffs at the Oct 1 UFC 332 press conference (MMA Junkie)",
-        "Figueiredo told MMA Fighting the card criticism is annoying and he's happy the UFC keeps him on main cards",
-        "Related: figueiredo-calls-for-van-title-shot, talbott-omalley-white-house-claim"
-      ],
-      "sources": [
-        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/01/ufc-332-press-conference-faceoffs-silva-wang-figueiredo-talbott/92045534007/",
-        "https://sports.yahoo.com/articles/ufc-332-press-conference-faceoffs-230142843.html",
-        "https://sports.yahoo.com/articles/live-ufc-332-press-conference-210502283.html"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-2220-figueiredo-shoves-talbott",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Deiveson Figueiredo)",
-          "scheduled_for": "2026-10-01T22:25:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7484793539669966066"
-        }
-      ]
-    },
-    {
-      "id": "rogan-oblique-kick-ban",
-      "title": "Joe Rogan says oblique kicks to the knee should be banned (JRE MMA Show #186)",
-      "people": [
-        "Joe Rogan",
-        "Sean Sharaf",
-        "Andy Foster",
-        "Jon Jones"
-      ],
-      "event": "Oblique kick ban debate (related: sterling-vs-oblique-kick-ban)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "On JRE MMA Show #186 with Sean Sharaf, Rogan argued oblique/side kicks to the knee should be banned, comparing them to eye pokes (permanent damage, can't tap out)",
-        "Rogan cited Jon Jones vs. Thiago Santos and Rampage Jackson; Sharaf was more ambivalent, calling it realistic fighting",
-        "CSAC's Andy Foster raised a possible ban under the Unified Rules after UFC 331 (Sep 2026); Dana White said the UFC doesn't disagree"
-      ],
-      "sources": [
-        "https://bloodyelbow.com/2026/10/01/joe-rogan-provides-verdict-on-ufc-exploring-ban-for-controversial-oblique-kick/",
-        "https://finance.biggo.com/podcast/7d2b34d4db7e410d",
-        "https://mmasucka.com/news/dana-white-clears-ufcs-stance-on-csac-chiefs-motive-for-banning-oblique-kicks/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1731-rogan-ban-oblique-kicks",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Joe Rogan)",
-          "scheduled_for": "2026-10-01T17:47:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7045383002939146682"
-        }
-      ]
-    },
-    {
-      "id": "hokit-pereira-witchcraft-claims",
-      "title": "Josh Hokit revives 'witchcraft' claims about Alex Pereira ahead of UFC 334",
-      "people": [
-        "Josh Hokit",
-        "Alex Pereira",
-        "Ciryl Gane",
-        "Jiri Prochazka"
-      ],
-      "event": "UFC 334: Gane vs. Hokit, November 14, 2026, Madison Square Garden, New York",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "On the Believe Me You podcast (clip circulated Oct 1), Hokit claimed Pereira's 'Chama' chant is shaman witchcraft and insulted Pereira",
-        "Similar to Prochazka's claims before UFC 295/303; Pereira's camp says he doesn't practice witchcraft; 'Chama' roughly means 'let's go'",
-        "Hokit (10-0) faces Ciryl Gane for the heavyweight title at UFC 334; wants Pereira next",
-        "Pereira's next fight to be revealed by Dana White on the UFC 332 Kick stream (Oct 3)"
-      ],
-      "sources": [
-        "https://nyfights.com/featured/josh-hokit-alex-pereira-witchcraft-ufc-334/",
-        "https://bloodyelbow.com/2026/10/01/josh-hokit-shares-bizarre-theory-of-alex-pereira-which-was-brought-up-by-his-former-foe/",
-        "https://www.lowkickmma.com/josh-hokit-call-out-alex-pereira-witchcraft-jon-jones/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1730-hokit-pereira-witchcraft",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Josh Hokit)",
-          "scheduled_for": "2026-10-01T17:45:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6489149087282606929"
-        }
-      ]
-    },
-    {
-      "id": "gordon-vs-costa-ufc-334",
-      "title": "Jared Gordon vs. Melquizael Costa added to UFC 334 at lightweight (Nov 14, MSG)",
-      "people": [
-        "Jared Gordon",
-        "Melquizael Costa"
-      ],
-      "event": "UFC 334: Gane vs. Hokit, November 14, 2026, Madison Square Garden, New York",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Lightweight bout Jared Gordon vs. Melquizael Costa added to UFC 334; first reported by AG Fight, confirmed to Heavy by multiple sources",
-        "Costa (No. 12 featherweight) moves up to lightweight; his six-fight win streak ended in a main-event loss to Arnold Allen",
-        "Gordon (New York native) is on a two-fight losing streak, most recently a first-round guillotine loss to Jim Miller in 2026",
-        "UFC 334 is headlined by Ciryl Gane vs. Josh Hokit (interim HW title)"
-      ],
-      "sources": [
-        "https://heavy.com/sports/ufc/ufc-lightweight-ufc-334-new-york/",
-        "https://bloodyelbow.com/2026/10/01/top-15-ufc-star-moves-up-in-weight-as-return-gets-announced-for-ciryl-gane-vs-josh-hokit-card/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1720-gordon-vs-costa",
-          "kind": "new",
-          "format": "reel",
-          "image": "venue (Madison Square Garden)",
-          "scheduled_for": "2026-10-01T17:32:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6934191047197674198"
-        }
-      ]
-    },
-    {
-      "id": "hardy-rousey-replace-dana-white",
-      "title": "Dan Hardy says Dana White's UFC time has passed, floats Ronda Rousey as successor",
-      "people": [
-        "Dan Hardy",
-        "Ronda Rousey",
-        "Dana White",
-        "Hunter Campbell"
-      ],
-      "event": "UFC leadership (commentary)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Dan Hardy (ex-UFC welterweight title challenger, now with PFL Europe) said White seems more focused on Zuffa Boxing and Power Slap and the UFC would benefit from new leadership",
-        "Hardy named Ronda Rousey, not Hunter Campbell, as a possible successor",
-        "Speculation only; Rousey has not officially expressed interest; White remains UFC CEO"
-      ],
-      "sources": [
-        "https://www.operationsports.com/ronda-rousey-tipped-as-dana-whites-potential-ufc-successor-and-an-ex-fighter-says-the-longtime-boss-has-had-his-run/",
-        "https://bloodyelbow.com/2026/10/01/ronda-rousey-backed-to-replace-dana-white-by-ex-ufc-star-his-time-in-mma-has-passed/",
-        "https://www.sportskeeda.com/mma/news-former-ufc-welterweight-title-challenger-floats-idea-ronda-rousey-replacing-dana-white-potential-new-face-ufc"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1620-rousey-replace-white",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Ronda Rousey)",
-          "scheduled_for": "2026-10-01T16:39:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4699196830764256876"
-        }
-      ]
-    },
-    {
-      "id": "silva-dismisses-critics-wang-toughest-fight",
-      "title": "Natália Silva shrugs off UFC 332 critics, calls Wang Cong her toughest fight",
-      "people": [
-        "Natália Silva",
-        "Wang Cong"
-      ],
-      "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Silva told MMA Junkie the criticism of UFC 332 doesn't matter to her; people have doubted her all her life",
-        "She says Wang Cong will be her toughest fight",
-        "Silva: 20-5-1, 8-0 UFC, 14-fight win streak incl. Alexa Grasso and Rose Namajunas",
-        "Wang: 10-1, 5-1 UFC; vacant flyweight title after Shevchenko vacated"
-      ],
-      "sources": [
-        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/01/ufc-332-natalia-silva-dismisses-critics-toughest-fight-vs-wang-cong-women-mma-flyweight-title/92034920007/",
-        "https://sports.yahoo.com/articles/natalia-silva-unfazed-ufc-332-125017504.html"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1420-silva-toughest-fight",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Natália Silva)",
-          "scheduled_for": "2026-10-01T14:52:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5526745571620926305"
-        }
-      ]
-    },
-    {
-      "id": "wang-cong-no-need-to-beat-shevchenko",
-      "title": "Wang Cong says she doesn't need to beat Valentina Shevchenko to be the real flyweight champion",
-      "people": [
-        "Wang Cong",
-        "Natália Silva",
-        "Valentina Shevchenko"
-      ],
-      "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Wang told MMA Junkie she doesn't need to beat Shevchenko to feel like the real flyweight champion",
-        "Wang faces No. 1 contender Natália Silva for the vacant women's flyweight title in the UFC 332 main event",
-        "Shevchenko vacated the title due to injury in September (ESPN)",
-        "Wang: former kickboxer, 10-1, four-fight win streak"
-      ],
-      "sources": [
-        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476152/ufc-332s-cong-wang-doesnt-need-beat-valentina-shevchenko-be-real-flyweight-champion",
-        "https://boxingnews.com/news/wang-cong-shevchenko-ufc-332",
-        "https://www.espn.com/mma/story/_/id/49839558/shevchenko-injured-vacates-silva-wang-vie-belt-ufc-332"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1320-wang-cong-real-champ",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Natália Silva; no Wang Cong photo)",
-          "scheduled_for": "2026-10-01T13:54:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4457383064935091241"
-        }
-      ]
-    },
-    {
-      "id": "anik-doubts-steveson-10-ufc-fights",
-      "title": "Jon Anik questions whether Gable Steveson will even reach 10 UFC fights after 12-second KO loss",
-      "people": [
-        "Jon Anik",
-        "Gable Steveson",
-        "Sean Sharaf"
-      ],
-      "event": "UFC 331 aftermath (Sept 19, 2026, Crypto.com Arena, Los Angeles)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Anik questioned whether Steveson will make it to 10 UFC fights (Bloody Elbow, Oct 1)",
-        "Sean Sharaf KO'd Steveson in 12 seconds on the UFC 331 main card, Sept 19, LA; Sharaf ~+1000 underdog, Steveson ~-2500",
-        "First pro MMA loss for Steveson; he vowed to come back stronger",
-        "Requested by the user"
-      ],
-      "sources": [
-        "https://bloodyelbow.com/2026/10/01/jon-anik-questions-if-gable-steveson-will-even-make-it-to-10-fights-in-the-ufc-after-12-second-ko/",
-        "https://athlonsports.com/mma/ufc-331-reactions-sean-sharaf-gable-steveson-12-second-knockout"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1120-anik-steveson-10-fights",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Gable Steveson)",
-          "scheduled_for": "2026-10-01T11:42:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3711814676643464237"
-        }
-      ]
-    },
-    {
-      "id": "adama-diop-first-senegalese-ufc-signing",
-      "title": "Adama Diop becomes the first fighter from Senegal to sign with the UFC",
-      "people": [
-        "Adama Diop",
-        "Zaurbek Sabanov"
-      ],
-      "event": "Dana White's Contender Series Season 10, Sept 30, 2026",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Diop beat Zaurbek Sabanov by TKO at 2:13 of R2 on DWCS Sept 30 and earned a UFC contract",
-        "First Senegalese fighter signed by the UFC",
-        "Heavyweight, 6-1, former Senegalese traditional wrestler, EFC heavyweight champion (won April 2026 at EFC 132)",
-        "No UFC debut date yet"
-      ],
-      "sources": [
-        "https://www.mmanews.com/article/adama-diop-first-senegalese-fighter-ufc-contract"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1121-adama-diop-senegal-first",
-          "kind": "new",
-          "format": "reel",
-          "image": "silhouette graphic (Commons photo was a different Adama Diop)",
-          "scheduled_for": "2026-10-01T12:03:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5726979719044248126"
-        }
-      ]
-    },
-    {
-      "id": "hernandez-federal-questioning-ufc-324-betting",
-      "title": "Alexander Hernandez says federal agents questioned him after UFC 324 bout was scrapped over suspicious betting",
-      "people": [
-        "Alexander Hernandez",
-        "Michael Johnson",
-        "Rafael dos Anjos",
-        "Ariel Helwani"
-      ],
-      "event": "UFC 324 (Jan 2026); UFC 332, Oct 3, 2026",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Hernandez vs. Michael Johnson at UFC 324 was canceled over suspicious betting (late money on Johnson)",
-        "Told Ariel Helwani that federal agents questioned him for about an hour, asked about messaging apps (Signal), then let him leave; says he had nothing to do with fight-fixing",
-        "Faces Rafael dos Anjos at UFC 332, Oct 3, Salt Lake City; lost to Rafa Garcia in April, snapping a 4-fight win streak"
-      ],
-      "sources": [
-        "https://www.sherdog.com/news/news/Alexander-Hernandez-says-feds-asked-if-he-planned-to-throw-UFC-fight-203030"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1122-hernandez-feds-questioned",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Alexander Hernandez)",
-          "scheduled_for": "2026-10-01T11:44:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7807492230755170997"
-        }
-      ]
-    },
-    {
-      "id": "pimblett-wants-tuf-vs-topuria",
-      "title": "Paddy Pimblett pitches a TUF coaching season opposite Ilia Topuria",
-      "people": [
-        "Paddy Pimblett",
-        "Ilia Topuria"
-      ],
-      "event": "The Ultimate Fighter (proposed)",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Pimblett wants to coach TUF opposite Topuria to get in his head, citing McGregor vs. Aldo build-up",
-        "Feud dates to a 2022 hotel altercation at UFC London; Pimblett first floated TUF idea in 2023",
-        "Topuria lost to Justin Gaethje at UFC White House and says he's medically cleared to return this month",
-        "No fight or TUF season announced"
-      ],
-      "sources": [
-        "https://www.mmanews.com/article/paddy-pimblett-ultimate-fighter-ilia-topuria-feud"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-1123-pimblett-tuf-topuria",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Paddy Pimblett)",
-          "scheduled_for": "2026-10-01T11:46:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7522779565810532795"
-        }
-      ]
-    },
-    {
-      "id": "barcelos-discharged-after-rosas-fight",
-      "title": "Raoni Barcelos discharged from hospital after losing consciousness vs. Raul Rosas Jr.; Dana White says he's doing well",
-      "people": [
-        "Raoni Barcelos",
-        "Raul Rosas Jr.",
-        "Dana White"
-      ],
-      "event": "UFC Fight Night (UFC Vegas 121), late Sept 2026",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Barcelos (39) lost consciousness on the canvas in Round 5 vs. Raul Rosas Jr. after a takedown, stretchered out; medical stoppage loss",
-        "Hospitalized 3 days, then discharged; thanked fans on social media",
-        "Dana White: he's up walking and talking; six doctors and three ambulances were on site; not thinking about his fighting future"
-      ],
-      "sources": [
-        "https://www.cbssports.com/ufc/news/raoni-barcelos-released-hospital-ufc-fight-night-incident/",
-        "https://www.mmanews.com/article/raoni-barcelos-released-hospital-dana-white-update"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0820-barcelos-discharged",
-          "kind": "new",
-          "format": "reel",
-          "image": "silhouette graphic (no usable Barcelos photo)",
-          "scheduled_for": "2026-10-01T08:36:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6069199002064865549"
-        }
-      ]
-    },
-    {
-      "id": "sterling-vs-oblique-kick-ban",
-      "title": "Aljamain Sterling opposes CSAC's Andy Foster's proposal to ban oblique kicks",
-      "people": [
-        "Aljamain Sterling",
-        "Andy Foster",
-        "Thiago Santos",
-        "Dana White"
-      ],
-      "event": "Unified Rules debate after UFC 331",
-      "first_reported": "2026-10-01",
-      "facts": [
-        "Andy Foster (CSAC) proposed banning oblique kicks to the knee under the Unified Rules after UFC 331",
-        "Sterling, on Ariel Helwani's show: enforce existing rules first; CTE risk from head strikes is the bigger issue",
-        "Thiago Santos also opposes a ban; Dana White said the UFC doesn't disagree with Foster's concerns",
-        "Sterling faces Kevin Vallejos at UFC Qatar, Nov 21"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/morning-report-aljamain-sterling-responds-120000349.html",
-        "https://www.yardbarker.com/mma/articles/refs_want_to_watch_a_mrder_scene_aljamain_sterling_rips_ufcs_bid_to_ban_controversial_move/s1_17730_44371312"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0821-sterling-oblique-kicks",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Aljamain Sterling)",
-          "scheduled_for": "2026-10-01T08:38:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2684104962084849358"
-        }
-      ]
-    },
-    {
-      "id": "covington-strickland-raf-callout",
-      "title": "Colby Covington says he'll wrestle Sean Strickland at any weight at RAF Las Vegas (Oct 23), disputing report he turned the match down",
-      "people": [
-        "Colby Covington",
-        "Sean Strickland",
-        "Khamzat Chimaev"
-      ],
-      "event": "RAF (Real American Freestyle) Las Vegas, Oct 23, 2026",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "MMAmania (Sept 29) reported RAF offered Covington vs. UFC middleweight champ Strickland for Oct 23 in Las Vegas; talks broke down over weight (Strickland 200 lbs, Covington 190)",
-        "Covington on X: 'Fake news. I'll wrestle Strickland at any weight he wants October 23rd' in Las Vegas",
-        "Covington is 5-0 in RAF, defends RAF Cruiserweight Crossover title vs. Khamzat Chimaev, Nov 14, Etihad Arena, Abu Dhabi",
-        "Oct 1: Bloody Elbow framed it as Covington calling to face Strickland before wrestling Chimaev"
-      ],
-      "sources": [
-        "https://www.mmanews.com/article/colby-covington-claims-fake-news-after-report-he-refused-sean-strickland-raf-wrestling-match",
-        "https://sports.yahoo.com/articles/exclusive-khamzat-scored-raf-15-210000350.html",
-        "https://bloodyelbow.com/2026/10/01/plot-twist-colby-covington-calls-to-face-sean-strickland-before-he-wrestles-khamzat-chimaev/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0720-covington-wants-strickland",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Colby Covington)",
-          "scheduled_for": "2026-10-01T07:42:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1060153238731246958"
-        }
-      ]
-    },
-    {
-      "id": "figueiredo-calls-for-van-title-shot",
-      "title": "Deiveson Figueiredo wants to return to flyweight and challenge champion Joshua Van",
-      "people": [
-        "Deiveson Figueiredo",
-        "Joshua Van",
-        "Payton Talbott",
-        "Manel Kape"
-      ],
-      "event": "UFC 332",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "At UFC 332 media day (Sept 30), Figueiredo said he's been asking the UFC to let him drop back to 125 lbs and can make the weight easily",
-        "Says he would knock out flyweight champion Joshua Van",
-        "Faces Payton Talbott in UFC 332 co-main event, Oct 3, Salt Lake City (bantamweight)",
-        "Figueiredo is 38, a two-time former UFC flyweight champ, on a two-fight skid; Manel Kape seen as top 125 contender"
-      ],
-      "sources": [
-        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476084/ufc-332s-deiveson-figueiredo-demands-flyweight-title-shot-against-joshua-van-i-will-make-that-weight-very-easy",
-        "https://lastwordonsports.com/mma/2026/10/01/deiveson-figueiredo-ufc-125lbs/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0420-figueiredo-wants-van",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Deiveson Figueiredo)",
-          "scheduled_for": "2026-10-01T04:38:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5801817870346531038"
-        }
-      ]
-    },
-    {
-      "id": "pereira-teases-big-challenge",
-      "title": "Alex Pereira teases a 'big challenge' for his UFC return",
-      "people": [
-        "Alex Pereira",
-        "Sergei Pavlovich",
-        "Ciryl Gane"
-      ],
-      "event": "UFC 332 (announcement)",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Pereira posted on Instagram: good news is coming, 'a big challenge'",
-        "No opponent or date officially announced; outlets speculate Sergei Pavlovich (No. 2 HW)",
-        "Pereira is No. 3 at heavyweight; last fought June 2026, TKO loss to Ciryl Gane for interim HW title at UFC Freedom 250",
-        "Gane defends interim title vs. Josh Hokit at UFC 334 on Nov. 14",
-        "Oct 1: Dana White confirmed he'll announce Pereira's next fight during the UFC 332 Kick stream (Sat., Oct. 3), per Bloody Elbow"
-      ],
-      "sources": [
-        "https://heavy.com/sports/ufc/alex-pereira-teases-fight-big-challenge/",
-        "https://athlonsports.com/mma/alex-pereira-teases-ufc-return-big-challenge-sergei-pavlovich",
-        "https://bloodyelbow.com/2026/10/01/dana-white-confirms-hell-announce-alex-pereiras-next-fight-during-ufc-332-kick-stream/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0320-pereira-big-challenge",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Alex Pereira)",
-          "scheduled_for": "2026-10-01T03:32:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5474121482021484186"
-        },
-        {
-          "post": "2026-10-01-0620-pereira-reveal-332",
-          "kind": "update",
-          "format": "reel",
-          "image": "fighter photo (Alex Pereira)",
-          "scheduled_for": "2026-10-01T06:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1115983320847173781"
-        }
-      ]
-    },
-    {
-      "id": "talbott-omalley-white-house-claim",
-      "title": "Payton Talbott says a Sean O'Malley fight was in the works for UFC Freedom 250 (White House) before falling through; faces Figueiredo at UFC 332",
-      "people": [
-        "Payton Talbott",
-        "Sean O'Malley",
-        "Deiveson Figueiredo"
-      ],
-      "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Talbott said on his YouTube channel he was supposed to fight O'Malley at UFC Freedom 250 in June",
-        "Several planned opponents fell through, citing injuries; Talbott questioned whether it was the UFC or fighters being scared",
-        "Broken feet also kept Talbott sidelined",
-        "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323"
-      ],
-      "sources": [
-        "https://heavy.com/sports/ufc/payton-talbott-sean-omalley-was-discussed/",
-        "https://www.si.com/fannation/mma/news/ufc-332-star-sean-omalley-avoided-ufc-fight-house-fight-payton-talbott",
-        "https://www.mmanews.com/article/ufc-332s-payton-talbott-claims-he-was-expected-to-fight-former-champion-at-white-house",
-        "https://www.mmamania.com/latest-news/475780/payton-talbott-vs-sean-omalley-ufc-331s-talbott-explains-how-plague-of-broken-feet-stranded-him-on-sidelines"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0020-talbott-omalley-claim",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Sean O'Malley; no usable Talbott photo)",
-          "scheduled_for": "2026-10-01T00:39:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6386136268349617173"
-        }
-      ]
-    },
-    {
-      "id": "ufc-sydney-feb-2027",
-      "title": "UFC Fight Night returns to Sydney, Feb. 6 (U.S.) / Feb. 7 local, 2027, at Afterpay Arena",
-      "people": [
-        "Quillan Salkilld",
-        "Alexander Volkanovski"
-      ],
-      "event": "UFC Fight Night Sydney, February 6/7, 2027, Afterpay Arena (formerly Qudos Bank Arena), Sydney",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Officially announced by the UFC",
-        "First Sydney Fight Night since 2017; fourth straight year of a UFC event in New South Wales",
-        "No fights announced yet; Volkanovski headlining UFC 333 next month",
-        "Presale registration open at UFC.com/Sydney"
-      ],
-      "sources": [
-        "https://www.ufc.com/sydney",
-        "https://cagesidepress.com/2026/09/30/ufc-headed-back-to-sydney-australia-in-feb-2027/",
-        "https://www.mmanews.com/article/ufc-fight-night-sydney-afterpay-arena-february-2027"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-01-0020-ufc-sydney-2027",
-          "kind": "new",
-          "format": "reel",
-          "image": "venue photo (Qudos Bank Arena)",
-          "scheduled_for": "2026-10-01T00:37:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=843647548489157858"
-        }
-      ]
-    },
-    {
-      "id": "sterling-vs-vallejos-ufc-qatar",
-      "title": "Aljamain Sterling vs. Kevin Vallejos co-headlines UFC Qatar (Nov 21); Sterling says he had one hour to accept, rejected Aaron Pico",
-      "people": [
-        "Aljamain Sterling",
-        "Kevin Vallejos",
-        "Aaron Pico"
-      ],
-      "event": "UFC Fight Night Qatar, November 21, 2026, Ali Bin Hamad Al Attiyah Arena, Al Rayyan",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Sterling vs. Vallejos is the featherweight co-main event at UFC Qatar on November 21",
-        "Sterling says the UFC gave him one hour to accept the fight",
-        "Sterling turned down Aaron Pico at UFC 333, saying the fight did nothing for his title push",
-        "Vallejos is undefeated"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/aljamain-sterling-given-one-hour-221926636.html",
-        "https://cagesidepress.com/2026/09/29/full-ufc-qatar-card-revealed-for-november-21-event/"
-      ],
-      "posts": [
-        {
-          "post": "2026-09-30-2320-sterling-one-hour",
-          "kind": "new",
-          "format": "reel",
-          "image": "fighter photo (Aljamain Sterling)",
-          "scheduled_for": "2026-09-30T23:35:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3643654017973112533"
-        }
-      ]
-    },
-    {
-      "id": "mcghee-vs-romero-ufc-332",
-      "title": "Anthony Romero replaces injured Bernardo Sopaj vs. Marcus McGhee at UFC 332 (Oct 3)",
-      "people": [
-        "Marcus McGhee",
-        "Anthony Romero",
-        "Bernardo Sopaj"
-      ],
-      "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
-      "first_reported": "2026-09-30",
-      "facts": [
-        "Bernardo Sopaj withdrew from his bout with Marcus McGhee with an injury, three days before the event",
-        "Newcomer Anthony Romero (7-2, UNF bantamweight champion, Black House MMA, 26) steps in",
-        "Bout moved from bantamweight to featherweight",
-        "McGhee is No. 15-ranked at bantamweight, 11-2 overall"
-      ],
-      "sources": [
-        "https://www.mmanews.com/article/ufc-332-card-hit-by-shock-withdrawal-with-new-opponent-arriving-on-3-days-notice",
-        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476072/ufc-332-loses-bantamweight-banger-marcus-mcghee-draws-dangerous-newcomer-on-three-days-notice"
-      ],
-      "posts": [
-        {
-          "post": "2026-09-30-2207-mcghee-new-foe",
-          "kind": "new",
-          "format": "reel",
-          "image": "mystery silhouette",
-          "scheduled_for": "2026-09-30T22:35:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8767552402375425405"
-        }
-      ]
-    },
-    {
-      "id": "prochazka-vs-stirling-ufc-qatar",
-      "title": "Jiri Prochazka vs. Navajo Stirling headlines UFC Qatar (Nov 21)",
-      "people": [
-        "Jiri Prochazka",
-        "Navajo Stirling"
-      ],
-      "event": "UFC Fight Night Qatar, November 21, 2026",
-      "first_reported": "2026-09-29",
-      "facts": [
-        "Light heavyweight main event, UFC Fight Night in Qatar on November 21, 2026",
-        "Stirling undefeated, coming off a stoppage of Jan Blachowicz in August",
-        "Prochazka coming off a knockout loss to Carlos Ulberg"
-      ],
-      "sources": [
-        "https://www.cbssports.com/ufc/news/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-fight-card/",
-        "https://www.espn.com/mma/story/_/id/50059407/jiri-prochazka-fight-navajo-stirling-ufc-fight-night-qatar"
-      ],
-      "posts": [
-        {
-          "post": "2026-09-30-bjp-returns",
-          "kind": "new",
-          "format": "feed image",
-          "published": "2026-09-30T09:10:00-04:00",
-          "instagram": "https://www.instagram.com/p/Dd6aQIsivhL/"
-        }
-      ]
+     "post": "2026-10-02-2220-dana-pereira-star-power",
+     "kind": "new",
+     "format": "reel"
     }
-  ]
+   ]
+  },
+  {
+   "id": "wang-mocks-silva-ufc-332-ceremonial-weigh-ins",
+   "title": "Wang Cong mocks Natalia Silva's hip feints at UFC 332 ceremonial weigh-ins; Silva shoves her",
+   "people": [
+    "Wang Cong",
+    "Natália Silva"
+   ],
+   "event": "UFC 332",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "At ceremonial weigh-ins, Wang (Joker makeup) bounced her hips imitating Silva's feints",
+    "Silva shoved Wang's arms away; security separated them",
+    "Vacant women's flyweight title, Oct 3, Salt Lake City"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/wang-cong-mocks-natalia-silva-001452177.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-2221-wang-mocks-silva",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "figueiredo-shoves-talbott-ufc-332-presser",
+   "title": "Deiveson Figueiredo shoves Payton Talbott at UFC 332 press conference faceoff",
+   "people": [
+    "Deiveson Figueiredo",
+    "Payton Talbott"
+   ],
+   "event": "UFC 332 (Oct 3, 2026, Delta Center, Salt Lake City) bantamweight co-main",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Figueiredo gave Talbott a shove during faceoffs at the Oct 1 UFC 332 press conference (MMA Junkie)",
+    "Figueiredo told MMA Fighting the card criticism is annoying and he's happy the UFC keeps him on main cards",
+    "Related: figueiredo-calls-for-van-title-shot, talbott-omalley-white-house-claim",
+    "UPDATE 2026-10-02: Figueiredo faked a punch at Talbott at ceremonial weigh-in faceoff; Talbott reacted, staff stepped in; five-round co-main, Talbott favored"
+   ],
+   "sources": [
+    "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/01/ufc-332-press-conference-faceoffs-silva-wang-figueiredo-talbott/92045534007/",
+    "https://sports.yahoo.com/articles/ufc-332-press-conference-faceoffs-230142843.html",
+    "https://sports.yahoo.com/articles/live-ufc-332-press-conference-210502283.html",
+    "https://boxingnews.com/news/figueiredo-fake-punch-talbott-ufc-332"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-2220-figueiredo-shoves-talbott",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Deiveson Figueiredo)",
+     "scheduled_for": "2026-10-01T22:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7484793539669966066"
+    },
+    {
+     "post": "2026-10-02-2222-figueiredo-fake-punch-talbott",
+     "kind": "update",
+     "format": "trial_reel"
+    }
+   ]
+  },
+  {
+   "id": "dana-white-volkov-no-mans-land",
+   "title": "Dana White says Alexander Volkov is in heavyweight 'no man's land' but will get his title shot",
+   "people": [
+    "Alexander Volkov",
+    "Dana White",
+    "Ciryl Gane",
+    "Josh Hokit",
+    "Rizvan Kuniev"
+   ],
+   "event": "UFC 333 / UFC 334",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "White: Volkov in 'no man's land', a timing issue, 'he'll get his shot'",
+    "Volkov 6-1 in last 7; wanted Gane rematch, UFC chose Gane vs. Hokit for UFC 334",
+    "Volkov faces Rizvan Kuniev at UFC 333",
+    "White denies Hokit skipped the line"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/alexander-volkov-ufc-no-mans-land/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1820-volkov-no-mans-land",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Alexander Volkov)",
+     "scheduled_for": "2026-10-02T20:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-333162631703671467"
+    }
+   ]
+  },
+  {
+   "id": "rogan-advises-sharaf-retire",
+   "title": "Joe Rogan advises Sean Sharaf to consider retiring after his UFC 331 KO of Gable Steveson",
+   "people": [
+    "Joe Rogan",
+    "Sean Sharaf",
+    "Gable Steveson"
+   ],
+   "event": "JRE MMA Show #186",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Rogan told Sharaf to think about retiring and let the moment settle",
+    "Sharaf KO'd Olympic gold medalist Steveson at UFC 331, Steveson's first MMA loss",
+    "Sharaf, ex-Marine, entered 0-2 in UFC as big underdog; no timeline or next fight"
+   ],
+   "sources": [
+    "https://boxingnews.com/news/sharaf-retirement-gable-steveson-ko",
+    "https://www.bjpenn.com/mma-news/joe-rogan/joe-rogan-presses-sean-sharaf-retire-after-upset-ufc-331/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1821-rogan-sharaf-retire",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Joe Rogan)",
+     "scheduled_for": "2026-10-02T20:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8834824534051959503"
+    }
+   ]
+  },
+  {
+   "id": "rogan-on-mvp-ufc-release",
+   "title": "Joe Rogan says he understands UFC releasing Michael 'Venom' Page, one of his favorite fighters",
+   "people": [
+    "Joe Rogan",
+    "Michael Page"
+   ],
+   "event": "JRE MMA Show #186",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Rogan cites Page's age (39) and some boring fights",
+    "Rogan: Page near unstoppable at welterweight, power doesn't translate at 185",
+    "Page 5-1 in UFC; contract ended after win over Ruziboev in Paris; removed from rankings, reportedly released"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/joe-rogan-michael-venom-page-ufc-release"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1822-rogan-mvp-release",
+     "kind": "new",
+     "format": "trial_reel",
+     "image": "fighter photo (Michael Page)",
+     "scheduled_for": "2026-10-02T21:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3581080341577679820"
+    }
+   ]
+  },
+  {
+   "id": "petrino-calls-out-blaydes-ufc-335",
+   "title": "Vitor Petrino calls out Curtis Blaydes for UFC 335 (Dec 12, Las Vegas)",
+   "people": [
+    "Vitor Petrino",
+    "Curtis Blaydes"
+   ],
+   "event": "UFC 335 (Dec 12)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "No. 9 Petrino wants No. 7 Blaydes; told UFC, waiting on Blaydes",
+    "Petrino 4-0 at heavyweight, latest win over Spivac in August",
+    "Blaydes (20-6) beat Cortes-Acosta Sept 12"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/Vitor-Petrino-calls-out-Curtis-Blaydes-for-UFC-335-Accept-the-fight-203047",
+    "https://heavy.com/sports/ufc/vitor-petrino-calls-out-curtis-blaydes/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1823-petrino-calls-out-blaydes",
+     "kind": "new",
+     "format": "trial_reel",
+     "image": "fighter photo (Curtis Blaydes)",
+     "scheduled_for": "2026-10-02T21:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2248113082972093937"
+    }
+   ]
+  },
+  {
+   "id": "dana-white-no-translator-ateba-gautier",
+   "title": "No translator for Ateba Gautier at UFC 332 presser; Dana White asks for one after Gautier answers in English",
+   "people": [
+    "Dana White",
+    "Ateba Gautier",
+    "Roman Kopylov"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "UFC had no French translator for Gautier at the UFC 332 press conference",
+    "Gautier answered in French, then in English; White still called for a translator and apologized",
+    "Clip went viral; second White fight-week blunder after Wang/Silva record mix-up"
+   ],
+   "sources": [
+    "https://www.sportbible.com/ufc/dana-white-press-conference-disrespectful-moment-ateba-gautier-762796-20261002"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1321-dana-no-translator",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T18:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=361411412957285832"
+    }
+   ]
+  },
+  {
+   "id": "umar-nurmagomedov-vs-faber-raf-abu-dhabi",
+   "sport": "wrestling",
+   "title": "Umar Nurmagomedov makes RAF debut vs. Urijah Faber at RAF Abu Dhabi (Nov 14); Chimaev vs. Covington headlines",
+   "people": [
+    "Umar Nurmagomedov",
+    "Urijah Faber",
+    "Khamzat Chimaev",
+    "Colby Covington",
+    "Kyle Snyder"
+   ],
+   "event": "RAF Abu Dhabi (Nov 14, Etihad Arena)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Umar Nurmagomedov RAF debut vs. Urijah Faber (Faber's third RAF match)",
+    "Headliner: Chimaev vs. Covington for RAF cruiserweight crossover title (booked Sep 29)",
+    "Kyle Snyder vs. Shamil Erdogan also on card",
+    "First event of five-year RAF / DCT Abu Dhabi / UAE Wrestling Federation deal"
+   ],
+   "sources": [
+    "https://www.thenationalnews.com/sport/combat-sports/2026/10/02/umar-nurmagomedov-to-make-raf-debut-in-abu-dhabi/",
+    "https://www.lowkickmma.com/khamzat-chimaev-vs-colby-covington-raf/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-1322-umar-faber-raf",
+     "kind": "new",
+     "format": "trial_reel",
+     "image": "fighter photo (Umar Nurmagomedov)",
+     "scheduled_for": "2026-10-02T19:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6795555648735955507"
+    }
+   ]
+  },
+  {
+   "id": "dana-white-hearn-fury-joshua-feud",
+   "title": "Dana White says UFC is producing Fury vs. Joshua; Eddie Hearn calls White's side 'control freaks'",
+   "people": [
+    "Dana White",
+    "Eddie Hearn",
+    "Tyson Fury",
+    "Anthony Joshua"
+   ],
+   "event": "Fury vs. Joshua (Dec 11, 2026, Cardiff)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "White at UFC 332 presser: UFC is promoting and producing the whole Fury-Joshua show",
+    "Hearn says Joshua's contract bars White/Zuffa unless Matchroom allows it; blamed White's 'arrogance', called them 'control freaks'",
+    "White says Hearn is trying to win a PR battle; White skipped London launch presser"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-hits-back-at-eddie-hearn-im-producing-the-entire-event-after-fury-joshua-claim/",
+    "https://sports.yahoo.com/articles/eddie-hearn-blames-dana-white-200000508.html",
+    "https://www.mmanews.com/article/dana-white-claims-ufc-producing-fury-joshua-fight"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0920-dana-hearn-pr-war",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T10:10:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=689647101597142137"
+    }
+   ]
+  },
+  {
+   "id": "dana-white-mixes-up-ufc-332-headliners",
+   "title": "Dana White credits Wang Cong with Natalia Silva's wins; fans roast him",
+   "people": [
+    "Dana White",
+    "Wang Cong",
+    "Natália Silva"
+   ],
+   "event": "UFC 332 (Oct 3, Salt Lake City)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "White credited Wang with wins over Namajunas, Andrade, Grasso; those were Silva's",
+    "White correctly cited Wang's 2015 kickboxing win over Shevchenko",
+    "Fans called it 'laughably sad'"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-cant-remember-ufc-332-champ-records-fans-roast/",
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476268/doh-dana-white-clearly-doesnt-know-his-ufc-332-headliner-wang-cong-she-beat-rose-namajunas"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0921-dana-mixes-up-headliners",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T10:40:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4329514106064909131"
+    }
+   ]
+  },
+  {
+   "id": "dos-anjos-open-to-mcgregor-fight",
+   "title": "Rafael dos Anjos open to Conor McGregor fight after UFC 332, won't wait for it",
+   "people": [
+    "Rafael dos Anjos",
+    "Conor McGregor",
+    "Alexander Hernandez"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-02",
+   "facts": [
+    "Dos Anjos faces Hernandez at UFC 332 in his 50th pro fight",
+    "Says McGregor fight 'would be awesome' but won't wait like Chandler did",
+    "McGregor replied 'Thank you Rafael'; UFC 196 bout in 2016 fell through due to RDA injury"
+   ],
+   "sources": [
+    "https://boxingnews.com/news/dos-anjos-open-mcgregor-fight-ufc-332"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0950-dos-anjos-mcgregor",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Conor McGregor)",
+     "scheduled_for": "2026-10-02T11:10:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1978047172380769919"
+    }
+   ]
+  },
+  {
+   "id": "king-green-bmf-title-dana-white",
+   "title": "Dana White agrees King Green deserves BMF title shot if he beats Ribovics at UFC 332",
+   "people": [
+    "Bobby Green",
+    "Dana White",
+    "Esteban Ribovics",
+    "Charles Oliveira"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "White: 'I absolutely agree' Green fits BMF title fight",
+    "Green, 40, on four-fight win streak; called BMF title a dream",
+    "Ribovics called Green 'Minnie Mouse' at presser",
+    "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
+    "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/",
+    "https://www.sherdog.com/news/news/UFC-332-weighin-results-Title-fight-set-1-fighter-heavy-203045",
+    "https://hottakes.com/articles/esteban-ribovics-misses-weight-by-half-a-pound-for-ufc-332-7f9858a9-4973-4017-8510-9bc3378fef2b"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0951-king-green-bmf",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T11:40:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-404260349947132923"
+    },
+    {
+     "post": "2026-10-02-1320-ribovics-misses-weight",
+     "kind": "update",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T19:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2161486312751345878"
+    }
+   ]
+  },
+  {
+   "id": "caliari-vs-lucindo-ufc-333",
+   "title": "Nicolle Caliari vs. Iasmin Lucindo added to UFC 333 (Abu Dhabi)",
+   "people": [
+    "Iasmin Lucindo",
+    "Nicolle Caliari"
+   ],
+   "event": "UFC 333",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Strawweight bout added per MMA Junkie",
+    "Lucindo returns from 9-month mesterolone suspension; CSAD accepted contaminated supplement explanation",
+    "Caliari coming off sub win over Shauna Bannon in May"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/ufc-333-adds-brazilian-strawweight-220130862.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0924-lucindo-caliari-ufc-333",
+     "kind": "new",
+     "format": "trial_reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T12:10:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5023546830825865522"
+    }
+   ]
+  },
+  {
+   "id": "pimblett-rips-tsarukyan-title-shot",
+   "title": "Paddy Pimblett says he'd be furious if Arman Tsarukyan gets next lightweight title shot",
+   "people": [
+    "Paddy Pimblett",
+    "Arman Tsarukyan",
+    "Justin Gaethje",
+    "Benoit Saint Denis",
+    "Mauricio Ruffy"
+   ],
+   "event": "UFC lightweight title picture",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Pimblett credited Tsarukyan's KO of Mauricio Ruffy but said he looked 'very average' before the finish",
+    "Said Tsarukyan couldn't take Ruffy down while BSD did repeatedly; Pimblett has beaten BSD",
+    "Argued Tsarukyan hasn't beaten anyone ranked higher than Pimblett's opponents since UFC 300",
+    "Gaethje named Tsarukyan next; Dana White hasn't confirmed; Topuria rematch also possible"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/paddy-pimblett-furious-arman-tsarukyan-215625664.html",
+    "https://sports.yahoo.com/articles/justin-gaethje-stops-ilia-topuria-092736060.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-2222-pimblett-tsarukyan-average",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Paddy Pimblett)",
+     "scheduled_for": "2026-10-01T23:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9130481508306338727"
+    }
+   ]
+  },
+  {
+   "id": "wang-silva-presser-clash-ufc-332",
+   "title": "Wang Cong says Natalia Silva won't sell UFC 332 fight; Silva: 'she can get cute by herself'",
+   "people": [
+    "Wang Cong",
+    "Natália Silva"
+   ],
+   "event": "UFC 332 (Oct 3, 2026, Delta Center, Salt Lake City)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "At the Oct 1 UFC 332 press conference, Wang criticized Silva for not helping promote the fight",
+    "Wang said she wrote Silva a note with a plan for the ceremonial weigh-in faceoff; Silva didn't look at it",
+    "Silva: if Wang wants to get cute she can do it herself; this is her dream and she's there to fight, not play",
+    "Related: wang-cong-no-need-to-beat-shevchenko, silva-dismisses-critics-wang-toughest-fight"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/natalia-silva-wang-cong-share-230204688.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-2221-wang-silva-get-cute",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Natália Silva)",
+     "scheduled_for": "2026-10-01T22:55:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2996922187084378778"
+    }
+   ]
+  },
+  {
+   "id": "rogan-oblique-kick-ban",
+   "title": "Joe Rogan says oblique kicks to the knee should be banned (JRE MMA Show #186)",
+   "people": [
+    "Joe Rogan",
+    "Sean Sharaf",
+    "Andy Foster",
+    "Jon Jones"
+   ],
+   "event": "Oblique kick ban debate (related: sterling-vs-oblique-kick-ban)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "On JRE MMA Show #186 with Sean Sharaf, Rogan argued oblique/side kicks to the knee should be banned, comparing them to eye pokes (permanent damage, can't tap out)",
+    "Rogan cited Jon Jones vs. Thiago Santos and Rampage Jackson; Sharaf was more ambivalent, calling it realistic fighting",
+    "CSAC's Andy Foster raised a possible ban under the Unified Rules after UFC 331 (Sep 2026); Dana White said the UFC doesn't disagree"
+   ],
+   "sources": [
+    "https://bloodyelbow.com/2026/10/01/joe-rogan-provides-verdict-on-ufc-exploring-ban-for-controversial-oblique-kick/",
+    "https://finance.biggo.com/podcast/7d2b34d4db7e410d",
+    "https://mmasucka.com/news/dana-white-clears-ufcs-stance-on-csac-chiefs-motive-for-banning-oblique-kicks/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1731-rogan-ban-oblique-kicks",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Joe Rogan)",
+     "scheduled_for": "2026-10-01T17:47:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7045383002939146682"
+    }
+   ]
+  },
+  {
+   "id": "hokit-pereira-witchcraft-claims",
+   "title": "Josh Hokit revives 'witchcraft' claims about Alex Pereira ahead of UFC 334",
+   "people": [
+    "Josh Hokit",
+    "Alex Pereira",
+    "Ciryl Gane",
+    "Jiri Prochazka"
+   ],
+   "event": "UFC 334: Gane vs. Hokit, November 14, 2026, Madison Square Garden, New York",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "On the Believe Me You podcast (clip circulated Oct 1), Hokit claimed Pereira's 'Chama' chant is shaman witchcraft and insulted Pereira",
+    "Similar to Prochazka's claims before UFC 295/303; Pereira's camp says he doesn't practice witchcraft; 'Chama' roughly means 'let's go'",
+    "Hokit (10-0) faces Ciryl Gane for the heavyweight title at UFC 334; wants Pereira next",
+    "Pereira's next fight to be revealed by Dana White on the UFC 332 Kick stream (Oct 3)"
+   ],
+   "sources": [
+    "https://nyfights.com/featured/josh-hokit-alex-pereira-witchcraft-ufc-334/",
+    "https://bloodyelbow.com/2026/10/01/josh-hokit-shares-bizarre-theory-of-alex-pereira-which-was-brought-up-by-his-former-foe/",
+    "https://www.lowkickmma.com/josh-hokit-call-out-alex-pereira-witchcraft-jon-jones/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1730-hokit-pereira-witchcraft",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Josh Hokit)",
+     "scheduled_for": "2026-10-01T17:45:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6489149087282606929"
+    }
+   ]
+  },
+  {
+   "id": "gordon-vs-costa-ufc-334",
+   "title": "Jared Gordon vs. Melquizael Costa added to UFC 334 at lightweight (Nov 14, MSG)",
+   "people": [
+    "Jared Gordon",
+    "Melquizael Costa"
+   ],
+   "event": "UFC 334: Gane vs. Hokit, November 14, 2026, Madison Square Garden, New York",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Lightweight bout Jared Gordon vs. Melquizael Costa added to UFC 334; first reported by AG Fight, confirmed to Heavy by multiple sources",
+    "Costa (No. 12 featherweight) moves up to lightweight; his six-fight win streak ended in a main-event loss to Arnold Allen",
+    "Gordon (New York native) is on a two-fight losing streak, most recently a first-round guillotine loss to Jim Miller in 2026",
+    "UFC 334 is headlined by Ciryl Gane vs. Josh Hokit (interim HW title)"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/ufc-lightweight-ufc-334-new-york/",
+    "https://bloodyelbow.com/2026/10/01/top-15-ufc-star-moves-up-in-weight-as-return-gets-announced-for-ciryl-gane-vs-josh-hokit-card/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1720-gordon-vs-costa",
+     "kind": "new",
+     "format": "reel",
+     "image": "venue (Madison Square Garden)",
+     "scheduled_for": "2026-10-01T17:32:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6934191047197674198"
+    }
+   ]
+  },
+  {
+   "id": "hardy-rousey-replace-dana-white",
+   "title": "Dan Hardy says Dana White's UFC time has passed, floats Ronda Rousey as successor",
+   "people": [
+    "Dan Hardy",
+    "Ronda Rousey",
+    "Dana White",
+    "Hunter Campbell"
+   ],
+   "event": "UFC leadership (commentary)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Dan Hardy (ex-UFC welterweight title challenger, now with PFL Europe) said White seems more focused on Zuffa Boxing and Power Slap and the UFC would benefit from new leadership",
+    "Hardy named Ronda Rousey, not Hunter Campbell, as a possible successor",
+    "Speculation only; Rousey has not officially expressed interest; White remains UFC CEO"
+   ],
+   "sources": [
+    "https://www.operationsports.com/ronda-rousey-tipped-as-dana-whites-potential-ufc-successor-and-an-ex-fighter-says-the-longtime-boss-has-had-his-run/",
+    "https://bloodyelbow.com/2026/10/01/ronda-rousey-backed-to-replace-dana-white-by-ex-ufc-star-his-time-in-mma-has-passed/",
+    "https://www.sportskeeda.com/mma/news-former-ufc-welterweight-title-challenger-floats-idea-ronda-rousey-replacing-dana-white-potential-new-face-ufc"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1620-rousey-replace-white",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Ronda Rousey)",
+     "scheduled_for": "2026-10-01T16:39:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4699196830764256876"
+    }
+   ]
+  },
+  {
+   "id": "silva-dismisses-critics-wang-toughest-fight",
+   "title": "Natália Silva shrugs off UFC 332 critics, calls Wang Cong her toughest fight",
+   "people": [
+    "Natália Silva",
+    "Wang Cong"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Silva told MMA Junkie the criticism of UFC 332 doesn't matter to her; people have doubted her all her life",
+    "She says Wang Cong will be her toughest fight",
+    "Silva: 20-5-1, 8-0 UFC, 14-fight win streak incl. Alexa Grasso and Rose Namajunas",
+    "Wang: 10-1, 5-1 UFC; vacant flyweight title after Shevchenko vacated"
+   ],
+   "sources": [
+    "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/01/ufc-332-natalia-silva-dismisses-critics-toughest-fight-vs-wang-cong-women-mma-flyweight-title/92034920007/",
+    "https://sports.yahoo.com/articles/natalia-silva-unfazed-ufc-332-125017504.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1420-silva-toughest-fight",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Natália Silva)",
+     "scheduled_for": "2026-10-01T14:52:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5526745571620926305"
+    }
+   ]
+  },
+  {
+   "id": "wang-cong-no-need-to-beat-shevchenko",
+   "title": "Wang Cong says she doesn't need to beat Valentina Shevchenko to be the real flyweight champion",
+   "people": [
+    "Wang Cong",
+    "Natália Silva",
+    "Valentina Shevchenko"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Wang told MMA Junkie she doesn't need to beat Shevchenko to feel like the real flyweight champion",
+    "Wang faces No. 1 contender Natália Silva for the vacant women's flyweight title in the UFC 332 main event",
+    "Shevchenko vacated the title due to injury in September (ESPN)",
+    "Wang: former kickboxer, 10-1, four-fight win streak"
+   ],
+   "sources": [
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476152/ufc-332s-cong-wang-doesnt-need-beat-valentina-shevchenko-be-real-flyweight-champion",
+    "https://boxingnews.com/news/wang-cong-shevchenko-ufc-332",
+    "https://www.espn.com/mma/story/_/id/49839558/shevchenko-injured-vacates-silva-wang-vie-belt-ufc-332"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1320-wang-cong-real-champ",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Natália Silva; no Wang Cong photo)",
+     "scheduled_for": "2026-10-01T13:54:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4457383064935091241"
+    }
+   ]
+  },
+  {
+   "id": "anik-doubts-steveson-10-ufc-fights",
+   "title": "Jon Anik questions whether Gable Steveson will even reach 10 UFC fights after 12-second KO loss",
+   "people": [
+    "Jon Anik",
+    "Gable Steveson",
+    "Sean Sharaf"
+   ],
+   "event": "UFC 331 aftermath (Sept 19, 2026, Crypto.com Arena, Los Angeles)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Anik questioned whether Steveson will make it to 10 UFC fights (Bloody Elbow, Oct 1)",
+    "Sean Sharaf KO'd Steveson in 12 seconds on the UFC 331 main card, Sept 19, LA; Sharaf ~+1000 underdog, Steveson ~-2500",
+    "First pro MMA loss for Steveson; he vowed to come back stronger",
+    "Requested by the user"
+   ],
+   "sources": [
+    "https://bloodyelbow.com/2026/10/01/jon-anik-questions-if-gable-steveson-will-even-make-it-to-10-fights-in-the-ufc-after-12-second-ko/",
+    "https://athlonsports.com/mma/ufc-331-reactions-sean-sharaf-gable-steveson-12-second-knockout"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1120-anik-steveson-10-fights",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Gable Steveson)",
+     "scheduled_for": "2026-10-01T11:42:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3711814676643464237"
+    }
+   ]
+  },
+  {
+   "id": "adama-diop-first-senegalese-ufc-signing",
+   "title": "Adama Diop becomes the first fighter from Senegal to sign with the UFC",
+   "people": [
+    "Adama Diop",
+    "Zaurbek Sabanov"
+   ],
+   "event": "Dana White's Contender Series Season 10, Sept 30, 2026",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Diop beat Zaurbek Sabanov by TKO at 2:13 of R2 on DWCS Sept 30 and earned a UFC contract",
+    "First Senegalese fighter signed by the UFC",
+    "Heavyweight, 6-1, former Senegalese traditional wrestler, EFC heavyweight champion (won April 2026 at EFC 132)",
+    "No UFC debut date yet"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/adama-diop-first-senegalese-fighter-ufc-contract"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1121-adama-diop-senegal-first",
+     "kind": "new",
+     "format": "reel",
+     "image": "silhouette graphic (Commons photo was a different Adama Diop)",
+     "scheduled_for": "2026-10-01T12:03:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5726979719044248126"
+    }
+   ]
+  },
+  {
+   "id": "hernandez-federal-questioning-ufc-324-betting",
+   "title": "Alexander Hernandez says federal agents questioned him after UFC 324 bout was scrapped over suspicious betting",
+   "people": [
+    "Alexander Hernandez",
+    "Michael Johnson",
+    "Rafael dos Anjos",
+    "Ariel Helwani"
+   ],
+   "event": "UFC 324 (Jan 2026); UFC 332, Oct 3, 2026",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Hernandez vs. Michael Johnson at UFC 324 was canceled over suspicious betting (late money on Johnson)",
+    "Told Ariel Helwani that federal agents questioned him for about an hour, asked about messaging apps (Signal), then let him leave; says he had nothing to do with fight-fixing",
+    "Faces Rafael dos Anjos at UFC 332, Oct 3, Salt Lake City; lost to Rafa Garcia in April, snapping a 4-fight win streak"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/Alexander-Hernandez-says-feds-asked-if-he-planned-to-throw-UFC-fight-203030"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1122-hernandez-feds-questioned",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Alexander Hernandez)",
+     "scheduled_for": "2026-10-01T11:44:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7807492230755170997"
+    }
+   ]
+  },
+  {
+   "id": "pimblett-wants-tuf-vs-topuria",
+   "title": "Paddy Pimblett pitches a TUF coaching season opposite Ilia Topuria",
+   "people": [
+    "Paddy Pimblett",
+    "Ilia Topuria"
+   ],
+   "event": "The Ultimate Fighter (proposed)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Pimblett wants to coach TUF opposite Topuria to get in his head, citing McGregor vs. Aldo build-up",
+    "Feud dates to a 2022 hotel altercation at UFC London; Pimblett first floated TUF idea in 2023",
+    "Topuria lost to Justin Gaethje at UFC White House and says he's medically cleared to return this month",
+    "No fight or TUF season announced"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/paddy-pimblett-ultimate-fighter-ilia-topuria-feud"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-1123-pimblett-tuf-topuria",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Paddy Pimblett)",
+     "scheduled_for": "2026-10-01T11:46:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7522779565810532795"
+    }
+   ]
+  },
+  {
+   "id": "barcelos-discharged-after-rosas-fight",
+   "title": "Raoni Barcelos discharged from hospital after losing consciousness vs. Raul Rosas Jr.; Dana White says he's doing well",
+   "people": [
+    "Raoni Barcelos",
+    "Raul Rosas Jr.",
+    "Dana White"
+   ],
+   "event": "UFC Fight Night (UFC Vegas 121), late Sept 2026",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Barcelos (39) lost consciousness on the canvas in Round 5 vs. Raul Rosas Jr. after a takedown, stretchered out; medical stoppage loss",
+    "Hospitalized 3 days, then discharged; thanked fans on social media",
+    "Dana White: he's up walking and talking; six doctors and three ambulances were on site; not thinking about his fighting future"
+   ],
+   "sources": [
+    "https://www.cbssports.com/ufc/news/raoni-barcelos-released-hospital-ufc-fight-night-incident/",
+    "https://www.mmanews.com/article/raoni-barcelos-released-hospital-dana-white-update"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0820-barcelos-discharged",
+     "kind": "new",
+     "format": "reel",
+     "image": "silhouette graphic (no usable Barcelos photo)",
+     "scheduled_for": "2026-10-01T08:36:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6069199002064865549"
+    }
+   ]
+  },
+  {
+   "id": "sterling-vs-oblique-kick-ban",
+   "title": "Aljamain Sterling opposes CSAC's Andy Foster's proposal to ban oblique kicks",
+   "people": [
+    "Aljamain Sterling",
+    "Andy Foster",
+    "Thiago Santos",
+    "Dana White"
+   ],
+   "event": "Unified Rules debate after UFC 331",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "Andy Foster (CSAC) proposed banning oblique kicks to the knee under the Unified Rules after UFC 331",
+    "Sterling, on Ariel Helwani's show: enforce existing rules first; CTE risk from head strikes is the bigger issue",
+    "Thiago Santos also opposes a ban; Dana White said the UFC doesn't disagree with Foster's concerns",
+    "Sterling faces Kevin Vallejos at UFC Qatar, Nov 21"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/morning-report-aljamain-sterling-responds-120000349.html",
+    "https://www.yardbarker.com/mma/articles/refs_want_to_watch_a_mrder_scene_aljamain_sterling_rips_ufcs_bid_to_ban_controversial_move/s1_17730_44371312"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0821-sterling-oblique-kicks",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Aljamain Sterling)",
+     "scheduled_for": "2026-10-01T08:38:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2684104962084849358"
+    }
+   ]
+  },
+  {
+   "id": "covington-strickland-raf-callout",
+   "title": "Colby Covington says he'll wrestle Sean Strickland at any weight at RAF Las Vegas (Oct 23), disputing report he turned the match down",
+   "people": [
+    "Colby Covington",
+    "Sean Strickland",
+    "Khamzat Chimaev"
+   ],
+   "event": "RAF (Real American Freestyle) Las Vegas, Oct 23, 2026",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "MMAmania (Sept 29) reported RAF offered Covington vs. UFC middleweight champ Strickland for Oct 23 in Las Vegas; talks broke down over weight (Strickland 200 lbs, Covington 190)",
+    "Covington on X: 'Fake news. I'll wrestle Strickland at any weight he wants October 23rd' in Las Vegas",
+    "Covington is 5-0 in RAF, defends RAF Cruiserweight Crossover title vs. Khamzat Chimaev, Nov 14, Etihad Arena, Abu Dhabi",
+    "Oct 1: Bloody Elbow framed it as Covington calling to face Strickland before wrestling Chimaev"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/colby-covington-claims-fake-news-after-report-he-refused-sean-strickland-raf-wrestling-match",
+    "https://sports.yahoo.com/articles/exclusive-khamzat-scored-raf-15-210000350.html",
+    "https://bloodyelbow.com/2026/10/01/plot-twist-colby-covington-calls-to-face-sean-strickland-before-he-wrestles-khamzat-chimaev/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0720-covington-wants-strickland",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Colby Covington)",
+     "scheduled_for": "2026-10-01T07:42:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1060153238731246958"
+    }
+   ]
+  },
+  {
+   "id": "figueiredo-calls-for-van-title-shot",
+   "title": "Deiveson Figueiredo wants to return to flyweight and challenge champion Joshua Van",
+   "people": [
+    "Deiveson Figueiredo",
+    "Joshua Van",
+    "Payton Talbott",
+    "Manel Kape"
+   ],
+   "event": "UFC 332",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "At UFC 332 media day (Sept 30), Figueiredo said he's been asking the UFC to let him drop back to 125 lbs and can make the weight easily",
+    "Says he would knock out flyweight champion Joshua Van",
+    "Faces Payton Talbott in UFC 332 co-main event, Oct 3, Salt Lake City (bantamweight)",
+    "Figueiredo is 38, a two-time former UFC flyweight champ, on a two-fight skid; Manel Kape seen as top 125 contender"
+   ],
+   "sources": [
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476084/ufc-332s-deiveson-figueiredo-demands-flyweight-title-shot-against-joshua-van-i-will-make-that-weight-very-easy",
+    "https://lastwordonsports.com/mma/2026/10/01/deiveson-figueiredo-ufc-125lbs/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0420-figueiredo-wants-van",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Deiveson Figueiredo)",
+     "scheduled_for": "2026-10-01T04:38:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5801817870346531038"
+    }
+   ]
+  },
+  {
+   "id": "pereira-teases-big-challenge",
+   "title": "Alex Pereira teases a 'big challenge' for his UFC return",
+   "people": [
+    "Alex Pereira",
+    "Sergei Pavlovich",
+    "Ciryl Gane"
+   ],
+   "event": "UFC 332 (announcement)",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Pereira posted on Instagram: good news is coming, 'a big challenge'",
+    "No opponent or date officially announced; outlets speculate Sergei Pavlovich (No. 2 HW)",
+    "Pereira is No. 3 at heavyweight; last fought June 2026, TKO loss to Ciryl Gane for interim HW title at UFC Freedom 250",
+    "Gane defends interim title vs. Josh Hokit at UFC 334 on Nov. 14",
+    "Oct 1: Dana White confirmed he'll announce Pereira's next fight during the UFC 332 Kick stream (Sat., Oct. 3), per Bloody Elbow"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/alex-pereira-teases-fight-big-challenge/",
+    "https://athlonsports.com/mma/alex-pereira-teases-ufc-return-big-challenge-sergei-pavlovich",
+    "https://bloodyelbow.com/2026/10/01/dana-white-confirms-hell-announce-alex-pereiras-next-fight-during-ufc-332-kick-stream/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0320-pereira-big-challenge",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Alex Pereira)",
+     "scheduled_for": "2026-10-01T03:32:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5474121482021484186"
+    },
+    {
+     "post": "2026-10-01-0620-pereira-reveal-332",
+     "kind": "update",
+     "format": "reel",
+     "image": "fighter photo (Alex Pereira)",
+     "scheduled_for": "2026-10-01T06:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1115983320847173781"
+    }
+   ]
+  },
+  {
+   "id": "talbott-omalley-white-house-claim",
+   "title": "Payton Talbott says a Sean O'Malley fight was in the works for UFC Freedom 250 (White House) before falling through; faces Figueiredo at UFC 332",
+   "people": [
+    "Payton Talbott",
+    "Sean O'Malley",
+    "Deiveson Figueiredo"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Talbott said on his YouTube channel he was supposed to fight O'Malley at UFC Freedom 250 in June",
+    "Several planned opponents fell through, citing injuries; Talbott questioned whether it was the UFC or fighters being scared",
+    "Broken feet also kept Talbott sidelined",
+    "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/payton-talbott-sean-omalley-was-discussed/",
+    "https://www.si.com/fannation/mma/news/ufc-332-star-sean-omalley-avoided-ufc-fight-house-fight-payton-talbott",
+    "https://www.mmanews.com/article/ufc-332s-payton-talbott-claims-he-was-expected-to-fight-former-champion-at-white-house",
+    "https://www.mmamania.com/latest-news/475780/payton-talbott-vs-sean-omalley-ufc-331s-talbott-explains-how-plague-of-broken-feet-stranded-him-on-sidelines"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0020-talbott-omalley-claim",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Sean O'Malley; no usable Talbott photo)",
+     "scheduled_for": "2026-10-01T00:39:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6386136268349617173"
+    }
+   ]
+  },
+  {
+   "id": "ufc-sydney-feb-2027",
+   "title": "UFC Fight Night returns to Sydney, Feb. 6 (U.S.) / Feb. 7 local, 2027, at Afterpay Arena",
+   "people": [
+    "Quillan Salkilld",
+    "Alexander Volkanovski"
+   ],
+   "event": "UFC Fight Night Sydney, February 6/7, 2027, Afterpay Arena (formerly Qudos Bank Arena), Sydney",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Officially announced by the UFC",
+    "First Sydney Fight Night since 2017; fourth straight year of a UFC event in New South Wales",
+    "No fights announced yet; Volkanovski headlining UFC 333 next month",
+    "Presale registration open at UFC.com/Sydney"
+   ],
+   "sources": [
+    "https://www.ufc.com/sydney",
+    "https://cagesidepress.com/2026/09/30/ufc-headed-back-to-sydney-australia-in-feb-2027/",
+    "https://www.mmanews.com/article/ufc-fight-night-sydney-afterpay-arena-february-2027"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-01-0020-ufc-sydney-2027",
+     "kind": "new",
+     "format": "reel",
+     "image": "venue photo (Qudos Bank Arena)",
+     "scheduled_for": "2026-10-01T00:37:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=843647548489157858"
+    }
+   ]
+  },
+  {
+   "id": "sterling-vs-vallejos-ufc-qatar",
+   "title": "Aljamain Sterling vs. Kevin Vallejos co-headlines UFC Qatar (Nov 21); Sterling says he had one hour to accept, rejected Aaron Pico",
+   "people": [
+    "Aljamain Sterling",
+    "Kevin Vallejos",
+    "Aaron Pico"
+   ],
+   "event": "UFC Fight Night Qatar, November 21, 2026, Ali Bin Hamad Al Attiyah Arena, Al Rayyan",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Sterling vs. Vallejos is the featherweight co-main event at UFC Qatar on November 21",
+    "Sterling says the UFC gave him one hour to accept the fight",
+    "Sterling turned down Aaron Pico at UFC 333, saying the fight did nothing for his title push",
+    "Vallejos is undefeated"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/aljamain-sterling-given-one-hour-221926636.html",
+    "https://cagesidepress.com/2026/09/29/full-ufc-qatar-card-revealed-for-november-21-event/"
+   ],
+   "posts": [
+    {
+     "post": "2026-09-30-2320-sterling-one-hour",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Aljamain Sterling)",
+     "scheduled_for": "2026-09-30T23:35:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3643654017973112533"
+    }
+   ]
+  },
+  {
+   "id": "mcghee-vs-romero-ufc-332",
+   "title": "Anthony Romero replaces injured Bernardo Sopaj vs. Marcus McGhee at UFC 332 (Oct 3)",
+   "people": [
+    "Marcus McGhee",
+    "Anthony Romero",
+    "Bernardo Sopaj"
+   ],
+   "event": "UFC 332: Silva vs. Wang, October 3, 2026, Delta Center, Salt Lake City",
+   "first_reported": "2026-09-30",
+   "facts": [
+    "Bernardo Sopaj withdrew from his bout with Marcus McGhee with an injury, three days before the event",
+    "Newcomer Anthony Romero (7-2, UNF bantamweight champion, Black House MMA, 26) steps in",
+    "Bout moved from bantamweight to featherweight",
+    "McGhee is No. 15-ranked at bantamweight, 11-2 overall"
+   ],
+   "sources": [
+    "https://www.mmanews.com/article/ufc-332-card-hit-by-shock-withdrawal-with-new-opponent-arriving-on-3-days-notice",
+    "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476072/ufc-332-loses-bantamweight-banger-marcus-mcghee-draws-dangerous-newcomer-on-three-days-notice"
+   ],
+   "posts": [
+    {
+     "post": "2026-09-30-2207-mcghee-new-foe",
+     "kind": "new",
+     "format": "reel",
+     "image": "mystery silhouette",
+     "scheduled_for": "2026-09-30T22:35:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8767552402375425405"
+    }
+   ]
+  },
+  {
+   "id": "prochazka-vs-stirling-ufc-qatar",
+   "title": "Jiri Prochazka vs. Navajo Stirling headlines UFC Qatar (Nov 21)",
+   "people": [
+    "Jiri Prochazka",
+    "Navajo Stirling"
+   ],
+   "event": "UFC Fight Night Qatar, November 21, 2026",
+   "first_reported": "2026-09-29",
+   "facts": [
+    "Light heavyweight main event, UFC Fight Night in Qatar on November 21, 2026",
+    "Stirling undefeated, coming off a stoppage of Jan Blachowicz in August",
+    "Prochazka coming off a knockout loss to Carlos Ulberg"
+   ],
+   "sources": [
+    "https://www.cbssports.com/ufc/news/ufc-fight-night-qatar-jiri-prochazka-vs-navajo-stirling-fight-card/",
+    "https://www.espn.com/mma/story/_/id/50059407/jiri-prochazka-fight-navajo-stirling-ufc-fight-night-qatar"
+   ],
+   "posts": [
+    {
+     "post": "2026-09-30-bjp-returns",
+     "kind": "new",
+     "format": "feed image",
+     "published": "2026-09-30T09:10:00-04:00",
+     "instagram": "https://www.instagram.com/p/Dd6aQIsivhL/"
+    }
+   ]
+  }
+ ]
 }
