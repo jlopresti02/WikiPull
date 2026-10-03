@@ -1,23 +1,6 @@
-Searching Wikimedia Commons for: Wang Cong
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Payton Talbott
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-
-== zz-ci-test-carousel.json
-Rendered posts/zz-ci-test-carousel/slide-01.jpg (cover)
-Rendered posts/zz-ci-test-carousel/slide-02.jpg (hook)
-$ fetch.py Wang Cong --count 5
-  no photo for ['Wang Cong']: using the silhouette
-Rendered posts/zz-ci-test-carousel/slide-03.jpg (result)
-$ fetch.py Payton Talbott --count 5
-  no photo for ['Payton Talbott']: using the silhouette
-Rendered posts/zz-ci-test-carousel/slide-04.jpg (result)
-Rendered posts/zz-ci-test-carousel/slide-05.jpg (list)
-Rendered posts/zz-ci-test-carousel/slide-06.jpg (bonuses)
-Rendered posts/zz-ci-test-carousel/slide-07.jpg (cta)
+Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c8532ce50>); is the folder shared by link?
+Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c85286f70>); is the folder shared by link?
+Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c8532ce50>); is the folder shared by link?
+Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c852870b0>); is the folder shared by link?
+Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f3c852870b0>); is the folder shared by link?
+Queue is empty.
