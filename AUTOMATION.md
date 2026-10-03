@@ -127,6 +127,44 @@ Order the schedule with regular Reels first (most newsworthy first),
 then Trial Reels. The 30-minute spacing applies to every post, Trial
 Reels included.
 
+### 3b. Check the Google Drive image bank, then pick each photo
+
+The user keeps extra photos in a Google Drive folder, **Gemini Images**
+(folder id `100IXlX0jQO1WqckSc6pW29d2ejaVPc_W`). `drive_images.json` in the
+repo lists every Drive photo already brought in.
+
+1. **List the folder** with the Google Drive `search_files` tool:
+   `parentId = '100IXlX0jQO1WqckSc6pW29d2ejaVPc_W'` (pageSize 100; follow
+   `nextPageToken`). If it has subfolders named after people, list those
+   too; their files belong to that person.
+2. **Add new files** (any id not in `drive_images.json`) to its `files`
+   list: `{"id", "name", "person"}`. Work out the person from the file
+   name ("Joe_Rogan_3.JPG" is Joe Rogan, "Josh Hokit 1" is Josh Hokit) or
+   the subfolder name, spelled the way Wikipedia spells them. If the file
+   has a description naming the photographer or source, put it in
+   `"credit"`. If you can't tell who it is, add it with `"skip": true`.
+3. If you added anything, commit and push `drive_images.json` **on its
+   own first**. That starts the Make posts workflow, which downloads the
+   photos into `images/<person>/drive-<name>.jpg` and cuts them out. Wait
+   for its "Make posts" commit (`git pull` every 30 s, up to 10 minutes).
+   If `posts/make-posts-log.txt` says a Drive file couldn't be downloaded
+   ("is the folder shared by link?"), tell the user in the final report
+   that the folder needs to be shared as "anyone with the link can view",
+   and carry on with the other photos.
+4. **Pick the best photo for each post.** For every person you're about
+   to show, look at all of their cutouts, Drive and Wikimedia alike
+   (`images/<slug>/cutouts/*.png`; open them with Read). Choose the one
+   that suits *this* post best:
+   - the face is clear, large and in focus, one person, not cut off oddly;
+   - the expression fits the story: intense or serious for feuds,
+     call-outs and fight news; smiling for wins, signings and good news;
+   - fight gear or a press-event look for fight stories; a recent look
+     over an old one.
+   Put the chosen photo's file name on that visual entry:
+   `{"type": "fighter", "name": "Joe Rogan", "file": "drive-joe-rogan-3"}`.
+   If a person has no cutouts yet (new name), leave out `"file"`; the
+   workflow fetches and uses the first good photo.
+
 ### 4. Write the post file
 
 Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:

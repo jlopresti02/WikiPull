@@ -439,11 +439,13 @@ def make_reel(scene, out, spec):
 
 
 def photo_credit(folder, cut_name):
+    if not (folder / "credits.json").exists():
+        return None
     credits = json.loads((folder / "credits.json").read_text())
     stem = Path(cut_name).stem
     for c in credits:
         if Path(c["file"]).stem == stem:
-            return f"{c['author']} / {c['license']}"
+            return f"{c['author']} / {c['license']}" if c.get("license") else c["author"]
     return None
 
 

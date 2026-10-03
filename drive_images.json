@@ -1,0 +1,12 @@
+{
+  "folder_id": "100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
+  "folder_url": "https://drive.google.com/drive/folders/100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
+  "note": "The user's Google Drive image bank. Each run lists the folder and adds new files here (id, name, person, optional credit). The Make posts workflow downloads them into images/<person>/drive-<name>.<ext> and cuts them out. Set \"skip\": true to ignore a file.",
+  "files": [
+    {"id": "1KbT-5IgXArELx3INDmqOkOmYBnOifmrx", "name": "Joe_Rogan.JPG", "person": "Joe Rogan"},
+    {"id": "1BM8NyEYr5BcatJgQJMXFuO9eEKgaqmq-", "name": "Joe_Rogan_.JPG", "person": "Joe Rogan"},
+    {"id": "1jviBXoxmTtGHvhqVsnD8GqkEXAfz-an7", "name": "Joe_Rogan_3.JPG", "person": "Joe Rogan"},
+    {"id": "1RoshENs-vzsWL8bqr3VZLJCFl52cAbOD", "name": "Joe_Rogan_4.JPG", "person": "Joe Rogan"},
+    {"id": "1CFlJJfwg76ZyuFP6VOyMDpg6XPl3L1Cm", "name": "Josh Hokit 1", "person": "Josh Hokit"}
+  ]
+}

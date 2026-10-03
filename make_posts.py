@@ -4,6 +4,9 @@
 For each posts/queue/<name>.json:
   1. Pick the image ("visual"), trying each option in order until one works:
        {"type": "fighter", "name": "Jiri Prochazka"}   cutout from Wikimedia Commons
+                                                       (add "file": "<photo file>" to use a
+                                                       specific photo in images/<slug>/,
+                                                       e.g. one copied from Google Drive)
        {"type": "venue",   "name": "Etihad Arena"}     arena/stadium photo, as a framed card
        {"type": "flag",    "country": "Qatar"}         country flag, as a framed card
        {"type": "money"}                               a big dollar sign (always works)
@@ -35,6 +38,7 @@ from pathlib import Path
 from render import ROOT, photo_credit, render, slugify
 
 QUEUE = ROOT / "posts" / "queue"
+DRIVE_MANIFEST = ROOT / "drive_images.json"
 POOLS = ROOT / "music" / "pools"
 
 
@@ -55,15 +59,27 @@ def try_visual(v):
     t = v.get("type")
     if t == "fighter":
         folder = ROOT / "images" / slugify(v["name"])
-        if not first_image(folder, "cutouts"):
-            if not first_image(folder):
-                run("fetch.py", v["name"], "--count", "5")
-            if first_image(folder):
-                run("cutout.py", str(folder))
+        if not first_image(folder):
+            run("fetch.py", v["name"], "--count", "5")
+        # Cut out any photo that doesn't have a cutout yet (e.g. one just
+        # added from the Google Drive image bank).
+        photos = [p for p in folder.glob("*") if p.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp"}] \
+            if folder.is_dir() else []
+        if any(not (folder / "cutouts" / (p.stem + ".png")).exists() for p in photos):
+            run("cutout.py", str(folder))
         cuts = sorted((folder / "cutouts").glob("*.png")) if (folder / "cutouts").is_dir() else []
         if not cuts:
             return None
-        cut = cuts[min(max(int(v.get("photo", 1)), 1), len(cuts)) - 1]
+        if v.get("file"):
+            # a specific photo chosen by the run (Drive or Wikimedia)
+            want = Path(v["file"]).stem
+            match = [c for c in cuts if c.stem == want]
+            if not match:
+                print(f"  chosen photo {v['file']} has no cutout; trying the next option")
+                return None
+            cut = match[0]
+        else:
+            cut = cuts[min(max(int(v.get("photo", 1)), 1), len(cuts)) - 1]
         return {"kind": "fighter", "image": str(cut.relative_to(ROOT)),
                 "credit": photo_credit(folder, cut.name)}
     if t in ("venue", "flag"):
@@ -114,6 +130,52 @@ def resolve_visual(spec):
                   f"  headline: {spec['headline']}")
             return True
     return False
+
+
+def sync_drive():
+    """Download photos listed in drive_images.json (the user's Google Drive
+    image bank) into images/<person>/drive-<name>.<ext>, with a credit entry,
+    and cut them out. The Drive folder must be shared as "anyone with the
+    link can view"; otherwise the download returns a sign-in page, which is
+    skipped with a note in the log."""
+    if not DRIVE_MANIFEST.exists():
+        return
+    import io
+    import urllib.request
+    from PIL import Image
+    manifest = json.loads(DRIVE_MANIFEST.read_text())
+    touched = set()
+    for f in manifest.get("files", []):
+        person = f.get("person")
+        if not person or f.get("skip"):
+            continue
+        folder = ROOT / "images" / slugify(person)
+        stem = "drive-" + slugify(Path(f["name"]).stem)
+        if any(folder.glob(stem + ".*")):
+            continue
+        url = f"https://drive.usercontent.google.com/download?id={f['id']}&export=download&confirm=t"
+        try:
+            with urllib.request.urlopen(url, timeout=60) as r:
+                data = r.read()
+            with Image.open(io.BytesIO(data)) as im:
+                im.load()
+                fmt = (im.format or "JPEG").lower()
+        except Exception as exc:
+            print(f"Drive: could not download {f['name']} ({exc}); is the folder shared by link?")
+            continue
+        ext = {"jpeg": ".jpg", "png": ".png", "webp": ".webp"}.get(fmt, ".jpg")
+        folder.mkdir(parents=True, exist_ok=True)
+        (folder / (stem + ext)).write_bytes(data)
+        credits_path = folder / "credits.json"
+        credits = json.loads(credits_path.read_text()) if credits_path.exists() else []
+        credits.append({"file": stem + ext, "title": f["name"],
+                        "author": f.get("credit") or "WWIT MMA News",
+                        "license": "", "source": f"https://drive.google.com/file/d/{f['id']}"})
+        credits_path.write_text(json.dumps(credits, indent=2) + "\n")
+        print(f"Drive: saved images/{folder.name}/{stem + ext}")
+        touched.add(folder)
+    for folder in sorted(touched):
+        run("cutout.py", str(folder))
 
 
 def get_cut(names):
@@ -171,6 +233,7 @@ def resolve_music(spec):
 
 
 def main():
+    sync_drive()
     specs = sorted(QUEUE.glob("*.json")) if QUEUE.is_dir() else []
     if not specs:
         print("Queue is empty.")
