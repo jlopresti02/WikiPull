@@ -1,0 +1,39 @@
+{
+  "story_id": "figueiredo-shoves-talbott-ufc-332-presser",
+  "headline": "Flinch!",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Deiveson Figueiredo"
+    },
+    {
+      "type": "fighter",
+      "name": "Payton Talbott",
+      "headline": "Talbott Flinches"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Deiveson Figueiredo got under Payton Talbott's skin again, this time with a fake punch at the UFC 332 ceremonial weigh-ins.\n\nDays after shoving Talbott at the press conference, the former UFC flyweight champion faked a strike during their final faceoff, Talbott reacted and UFC staff stepped in. The two meet in a five-round bantamweight co-main event Saturday in Salt Lake City, with Talbott favored over the 37-year-old Brazilian.\n\nMind games working, or is Talbott ready?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "DeivesonFigueiredo",
+    "PaytonTalbott"
+  ],
+  "sources": [
+    "BoxingNews",
+    "MMA Mania"
+  ],
+  "music_pool": "espn",
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png",
+    "credit": "Show Me The Money / CC BY 3.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}

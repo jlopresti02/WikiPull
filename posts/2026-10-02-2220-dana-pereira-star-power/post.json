@@ -2,14 +2,43 @@
   "story_id": "dana-white-pereira-star-power-gane-rematch",
   "headline": "Star Power?",
   "visual": [
-    {"type": "fighter", "name": "Dana White"},
-    {"type": "fighter", "name": "Alex Pereira", "headline": "No Rematch"},
-    {"type": "fighter", "name": "Ciryl Gane", "headline": "No Rematch"}
+    {
+      "type": "fighter",
+      "name": "Dana White"
+    },
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "headline": "No Rematch"
+    },
+    {
+      "type": "fighter",
+      "name": "Ciryl Gane",
+      "headline": "No Rematch"
+    }
   ],
   "color": "#d2202f",
   "caption": "Dana White got testy when a reporter said Alex Pereira's star power should have earned him a rematch with Ciryl Gane.\n\nSpeaking to media ahead of UFC 332, the UFC boss flipped the question back on the reporter and said the UFC books the best in the world and whoever deserves the spot, not the biggest name. He pointed out that Pereira is coming off a TKO loss to Gane and said fans weren't demanding a rematch after that fight. Gane now defends the UFC heavyweight title against unbeaten Josh Hokit at UFC 334 on November 14 at Madison Square Garden, while Pereira's next opponent is expected to be revealed this weekend.\n\nDid Pereira deserve the rematch?",
-  "hashtags": ["MMANews", "UFC", "UFC334", "AlexPereira", "DanaWhite"],
-  "sources": ["MMA News", "EssentiallySports", "NY Fights"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "AlexPereira",
+    "DanaWhite"
+  ],
+  "sources": [
+    "MMA News",
+    "EssentiallySports",
+    "NY Fights"
+  ],
   "music_pool": "espn",
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+    "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
