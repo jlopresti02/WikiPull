@@ -3,22 +3,21 @@ Searching Wikimedia Commons for: Wang Cong
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Payton Talbott
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-02-2220-dana-pereira-star-power.json
-Image: {'type': 'fighter', 'name': 'Dana White'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Star Power?
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-02-2220-dana-pereira-star-power/post.png (fighter)
-Rendered posts/2026-10-02-2220-dana-pereira-star-power/reel.mp4
-
-== 2026-10-02-2221-wang-mocks-silva.json
+== zz-ci-test-carousel.json
+Rendered posts/zz-ci-test-carousel/slide-01.jpg (cover)
+Rendered posts/zz-ci-test-carousel/slide-02.jpg (hook)
 $ fetch.py Wang Cong --count 5
-Image: {'type': 'fighter', 'name': 'Natália Silva', 'headline': 'Silva Mocked'} -> fighter images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png  headline: Silva Mocked
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-02-2221-wang-mocks-silva/post.png (fighter)
-Rendered posts/2026-10-02-2221-wang-mocks-silva/reel.mp4
-
-== 2026-10-02-2222-figueiredo-fake-punch-talbott.json
-Image: {'type': 'fighter', 'name': 'Deiveson Figueiredo'} -> fighter images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png  headline: Flinch!
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-02-2222-figueiredo-fake-punch-talbott/post.png (fighter)
-Rendered posts/2026-10-02-2222-figueiredo-fake-punch-talbott/reel.mp4
+  no photo for ['Wang Cong']: using the silhouette
+Rendered posts/zz-ci-test-carousel/slide-03.jpg (result)
+$ fetch.py Payton Talbott --count 5
+  no photo for ['Payton Talbott']: using the silhouette
+Rendered posts/zz-ci-test-carousel/slide-04.jpg (result)
+Rendered posts/zz-ci-test-carousel/slide-05.jpg (list)
+Rendered posts/zz-ci-test-carousel/slide-06.jpg (bonuses)
+Rendered posts/zz-ci-test-carousel/slide-07.jpg (cta)
