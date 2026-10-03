@@ -25,5 +25,13 @@
   "seconds": 6,
   "question": "Retire or one more?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alexander-hernandez/cutouts/01-alexander-hernandez-jan-19-2019.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
