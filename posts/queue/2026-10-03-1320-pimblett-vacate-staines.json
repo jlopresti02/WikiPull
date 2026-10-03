@@ -1,0 +1,17 @@
+{
+  "story_id": "pimblett-would-vacate-before-fighting-staines",
+  "headline": "I'd Vacate",
+  "visual": [
+    {"type": "fighter", "name": "Paddy Pimblett", "file": "01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped"},
+    {"type": "fighter", "name": "George Staines"}
+  ],
+  "color": "#d2202f",
+  "caption": "Paddy Pimblett says he would give up a UFC title before he'd ever fight his teammate George Staines.\nVacate or fight? 👇\n\nIn a new interview with Kolos MMA, the Liverpool star said that if he were lightweight champion and Staines became the No. 1 contender, he'd move up a division and leave the belt behind. Pimblett called Staines more family than a training partner. Staines just earned his UFC contract on Dana White's Contender Series, while Pimblett is still chasing UFC gold after losing the interim lightweight title fight to Justin Gaethje in January. UFC news, MMA news, and loyalty over the belt.\n\nWould you give up the title for a teammate?",
+  "hashtags": ["MMANews", "UFC", "PaddyPimblett", "GeorgeStaines", "Lightweight"],
+  "sources": ["MMA News", "Bloody Elbow"],
+  "music_pool": "espn",
+  "seconds": 6,
+  "question": "Vacate or fight?",
+  "follow_card": true,
+  "reel": true
+}

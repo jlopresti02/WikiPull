@@ -1,0 +1,17 @@
+{
+  "story_id": "makhachev-enrolls-masters-plekhanov",
+  "headline": "Back To School",
+  "visual": [
+    {"type": "fighter", "name": "Islam Makhachev"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "UFC champion Islam Makhachev is heading back to the classroom in the middle of his title reign.\nSmart or distraction? 👇\n\nMakhachev has enrolled as a master's student at Plekhanov Russian University of Economics, according to MMA News and Bloody Elbow. The two-division UFC champion is studying alongside his fight career as the welterweight division lines up challengers for him. UFC news and MMA news away from the cage.\n\nCould you train for a title fight and do a master's?",
+  "hashtags": ["MMANews", "UFC", "IslamMakhachev", "Welterweight", "Makhachev"],
+  "sources": ["MMA News", "Bloody Elbow"],
+  "music_pool": "espn",
+  "seconds": 6,
+  "question": "Smart or distraction?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true
+}
