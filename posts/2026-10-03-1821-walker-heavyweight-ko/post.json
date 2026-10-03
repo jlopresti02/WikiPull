@@ -33,5 +33,13 @@
   "seconds": 6,
   "question": "Title threat or not?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/johnny-walker-fighter/cutouts/01-afsoc-celebrates-outstanding-airmen-of-the-year-5.png",
+    "credit": "Airman Ashton Hamby / Public domain"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

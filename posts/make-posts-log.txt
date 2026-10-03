@@ -1,9 +1,96 @@
-Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d988400>); is the folder shared by link?
-Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
-Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
-Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
-Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f847d98b060>); is the folder shared by link?
-Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7f847d413100>); is the folder shared by link?
-Drive: could not download Anthony Smith.JPG (cannot identify image file <_io.BytesIO object at 0x7f847d413100>); is the folder shared by link?
-Drive: could not download Shamil Erd.WEBP (cannot identify image file <_io.BytesIO object at 0x7f847d413010>); is the folder shared by link?
-Queue is empty.
+Searching Wikimedia Commons for: Rafael dos Anjos
+  No file names matched; falling back to looser results.
+  saved images/rafael-dos-anjos/01-tony-ferguson-mexico-city.jpg  [CC BY-SA 4.0]
+  saved images/rafael-dos-anjos/02-insanos-mc-divis-o-caetit.jpg  [CC BY-SA 4.0]
+  saved images/rafael-dos-anjos/03-insanos-mc-divis-o-caetit-82975.jpg  [CC BY-SA 4.0]
+Done: 3 image(s) saved.
+[0;93m2026-10-03 22:07:10.516628644 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/rafael-dos-anjos/cutouts/01-tony-ferguson-mexico-city.png
+  cutout images/rafael-dos-anjos/cutouts/02-insanos-mc-divis-o-caetit.png
+  cutout images/rafael-dos-anjos/cutouts/03-insanos-mc-divis-o-caetit-82975.png
+Done: 3 new cutout(s).
+Searching Wikimedia Commons for: Johnny Walker (fighter)
+  No file names matched; falling back to looser results.
+  saved images/johnny-walker-fighter/01-afsoc-celebrates-outstanding-airmen-of-the-year-5.jpg  [Public domain]
+  saved images/johnny-walker-fighter/02-johnny-walker-lutador-2025.jpg  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-03 22:08:27.847821689 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/johnny-walker-fighter/cutouts/01-afsoc-celebrates-outstanding-airmen-of-the-year-5.png
+  cutout images/johnny-walker-fighter/cutouts/02-johnny-walker-lutador-2025.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Marvin Vettori
+  saved images/marvin-vettori/01-marvin-vettori-la-gazzetta-dello-sport-2025.png  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-10-03 22:09:17.441569221 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/marvin-vettori/cutouts/01-marvin-vettori-la-gazzetta-dello-sport-2025.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Court McGee
+  saved images/court-mcgee/01-court-mcgee-2012-cropped.jpg  [Public domain]
+Done: 1 image(s) saved.
+[0;93m2026-10-03 22:09:40.427367553 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/court-mcgee/cutouts/01-court-mcgee-2012-cropped.png
+Done: 1 new cutout(s).
+[0;93m2026-10-03 22:09:58.896270188 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/anthony-smith-fighter/cutouts/drive-anthony-smith.png
+Done: 1 new cutout(s).
+[0;93m2026-10-03 22:10:16.783206246 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/shamil-erdogan/cutouts/drive-shamil-erd.png
+Done: 1 new cutout(s).
+Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f866c088400>); is the folder shared by link?
+Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f866c08b060>); is the folder shared by link?
+Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f866c08b060>); is the folder shared by link?
+Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f866c08b060>); is the folder shared by link?
+Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f866c08b060>); is the folder shared by link?
+Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7f866b5c3100>); is the folder shared by link?
+
+== 2026-10-03-1820-rda-gloves-off.json
+$ fetch.py Rafael dos Anjos --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/rafael-dos-anjos
+Image: {'type': 'fighter', 'name': 'Rafael dos Anjos'} -> fighter images/rafael-dos-anjos/cutouts/01-tony-ferguson-mexico-city.png  headline: Gloves Off
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-03-1820-rda-gloves-off/post.png (fighter)
+Rendered posts/2026-10-03-1820-rda-gloves-off/reel.mp4
+
+== 2026-10-03-1821-walker-heavyweight-ko.json
+$ fetch.py Johnny Walker (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/johnny-walker-fighter
+Image: {'type': 'fighter', 'name': 'Johnny Walker (fighter)'} -> fighter images/johnny-walker-fighter/cutouts/01-afsoc-celebrates-outstanding-airmen-of-the-year-5.png  headline: Out Cold
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-03-1821-walker-heavyweight-ko/post.png (fighter)
+Rendered posts/2026-10-03-1821-walker-heavyweight-ko/reel.mp4
+
+== 2026-10-03-1822-vettori-five-straight.json
+$ fetch.py Marvin Vettori --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/marvin-vettori
+Image: {'type': 'fighter', 'name': 'Marvin Vettori'} -> fighter images/marvin-vettori/cutouts/01-marvin-vettori-la-gazzetta-dello-sport-2025.png  headline: 5 Straight
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-03-1822-vettori-five-straight/post.png (fighter)
+Rendered posts/2026-10-03-1822-vettori-five-straight/reel.mp4
+
+== 2026-10-03-1823-court-mcgee-retires.json
+$ fetch.py Court McGee --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/court-mcgee
+Image: {'type': 'fighter', 'name': 'Court McGee'} -> fighter images/court-mcgee/cutouts/01-court-mcgee-2012-cropped.png  headline: Last Walk
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-03-1823-court-mcgee-retires/post.png (fighter)
+Rendered posts/2026-10-03-1823-court-mcgee-retires/reel.mp4
+
+== 2026-10-03-1824-anthony-smith-stopped-gamebred.json
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/anthony-smith-fighter
+Image: {'type': 'fighter', 'name': 'Anthony Smith (fighter)', 'file': 'drive-anthony-smith'} -> fighter images/anthony-smith-fighter/cutouts/drive-anthony-smith.png  headline: Smith Stopped
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-03-1824-anthony-smith-stopped-gamebred/post.png (fighter)
+Rendered posts/2026-10-03-1824-anthony-smith-stopped-gamebred/reel.mp4
+
+== 2026-10-03-1825-erdogan-still-perfect.json
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/shamil-erdogan
+Image: {'type': 'fighter', 'name': 'Shamil Erdogan', 'file': 'drive-shamil-erd'} -> fighter images/shamil-erdogan/cutouts/drive-shamil-erd.png  headline: Erdogan 14-0
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-03-1825-erdogan-still-perfect/post.png (fighter)
+Rendered posts/2026-10-03-1825-erdogan-still-perfect/reel.mp4

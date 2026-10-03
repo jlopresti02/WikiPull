@@ -26,5 +26,13 @@
       "name": "Anthony Smith (fighter)",
       "file": "drive-anthony-smith"
     }
-  ]
+  ],
+  "subject": {
+    "kind": "fighter",
+    "image": "images/anthony-smith-fighter/cutouts/drive-anthony-smith.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }

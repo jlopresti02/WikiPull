@@ -28,5 +28,13 @@
   "question": "Respect or one too many?",
   "follow_card": true,
   "reel": true,
-  "trial_reel": true
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/court-mcgee/cutouts/01-court-mcgee-2012-cropped.png",
+    "credit": "Sgt. Sarah E. Enos / Public domain"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

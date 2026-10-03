@@ -28,5 +28,13 @@
   "seconds": 6,
   "question": "Cut or keep him?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/marvin-vettori/cutouts/01-marvin-vettori-la-gazzetta-dello-sport-2025.png",
+    "credit": "La Gazzetta dello Sport / CC BY 3.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

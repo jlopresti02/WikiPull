@@ -33,5 +33,13 @@
   "seconds": 6,
   "question": "Retire or one more?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/rafael-dos-anjos/cutouts/01-tony-ferguson-mexico-city.png",
+    "credit": "DiarioMMA / CC BY-SA 4.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
