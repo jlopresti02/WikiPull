@@ -2,13 +2,25 @@
   "story_id": "ufc-332-picks",
   "headline": "UFC 332 Picks",
   "visual": [
-    {"type": "fighter", "name": "Natalia Silva"},
-    {"type": "fighter", "name": "Marlon Figueiredo"}
+    {
+      "type": "fighter",
+      "name": "Natalia Silva"
+    },
+    {
+      "type": "fighter",
+      "name": "Marlon Figueiredo"
+    }
   ],
   "color": "#1e3a8a",
   "caption": "Our picks for UFC 332 👇\n\nMAIN CARD\n✓ Silva over Wang (FLW Title)\n✓ Figueiredo over Talbott\n✓ Green over Ribovics\n✓ Soldo over Williams\n✓ Gautier over Kopylov\n\nPRELIMS\n✓ Rodriguez over Coria\n✓ Pinas over Pulyaev\n✓ McGhee over Romero\n✓ Wint over Armand\n✓ Walker over Parkin\n✓ Smith over Whitehead\n✓ Dos Anjos over Hernandez\n✓ Vetturi over Naidiev\n✓ McGee over Nolan",
-  "hashtags": ["UFC332", "UFC", "Picks"],
-  "sources": ["UFC Official"],
+  "hashtags": [
+    "UFC332",
+    "UFC",
+    "Picks"
+  ],
+  "sources": [
+    "UFC Official"
+  ],
   "music_pool": "espn",
   "reel": true,
   "subject": {
