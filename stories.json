@@ -24,7 +24,14 @@
         {
           "post": "2026-10-03-1820-rda-gloves-off",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "held_back": "wrong person in photo (Commons results for Rafael dos Anjos are Tony Ferguson / unrelated); not scheduled"
+        },
+        {
+          "post": "2026-10-03-1826-rda-finished",
+          "kind": "new",
+          "format": "reel",
+          "note": "re-render with Alexander Hernandez photo"
         }
       ]
     },
