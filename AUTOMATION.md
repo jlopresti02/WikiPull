@@ -103,6 +103,10 @@ Reel, never both (the same video twice would split its reach).
 
 - **Regular Reel**: MMA stories with a well-known star plus conflict or
   stakes (the top performers above).
+- **Business and cross-sport stories go as Trial Reels too**, even with a
+  big name: promoter spats, broadcast deals, a UFC figure talking about
+  boxing ("PR War", Dana vs Eddie Hearn over a boxing match: 30 views as
+  a regular Reel).
 - **Trial Reel**: the weaker MMA posts: lesser-known fighters with no
   hook, routine bookings and card additions, updates with a modest new
   fact, and any post whose image isn't a person (flag, venue, money).
@@ -136,6 +140,7 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
   "hashtags": ["MMANews", "UFC", "UFCQatar", "JiriProchazka", "LightHeavyweight"],
   "sources": ["CBS Sports", "ESPN"],
   "music_pool": "espn",
+  "seconds": 6,
   "reel": true
 }
 ```
@@ -151,8 +156,11 @@ the place: "SYDNEY BOUND", "UFC PARIS".
 can carry its own `"headline"`, which replaces the post's headline only if
 that entry is the one used.
 
-**Every post needs a real photo.** Posts with no person's photo were the
-two worst performers on day one. Pick the list for the story type:
+**Use the photo of the person the story is about.** Through Oct 2, Reels
+with the story's own fighter averaged 191 views; Reels using Dana White's
+photo for someone else's story averaged 68 (King Green story with Dana's
+face: 25 views). A face that doesn't match the headline gets scrolled
+past. Pick the list for the story type:
 
 **A. Location / event announcements** (a new event, a city or country,
 an arena, "UFC returns to X"): lead with the place, not a fighter.
@@ -183,23 +191,31 @@ results, business):
    `{"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"}`
    ("INJURED OUT", "SOPAJ REPLACED", "SOPAJ PULLS OUT"). The caption should
    still tell the whole story.
-3. **A prominent figure tied to the story**: if no fighter photo works,
-   use a well-known non-fighter (the `fighter` type works for anyone with
-   a Wikipedia photo) with a headline that fits them. Usually **Dana
-   White** (`{"type": "fighter", "name": "Dana White", "headline": "Dana
-   Confirms"}`): any story where he announced, confirmed or commented,
-   plus UFC business, health updates and booking news. Others when they
-   are part of the story: Joe Rogan, Daniel Cormier, the PFL or ONE
-   leadership, a commission chief.
+   **Try every name a fighter goes by** before giving up: list the
+   Wikipedia name and common alternates as separate entries (e.g. "Bobby
+   Green" and "King Green"; "Natalia Silva" and "Natália Silva").
+3. **Dana White (or another non-fighter) only when they ARE the story**:
+   he announced it, said it, did it, or is in the conflict ("Wrong
+   Fighter", Dana's own mix-up: 154 views). Then he can go first. When the
+   story is about a fighter and Dana merely commented, use the fighter;
+   never use Dana's face as a stand-in. Same for Joe Rogan, Daniel
+   Cormier, commentators and executives: when they talk about a fighter,
+   show the fighter ("Rogan On MVP" with Michael Page's photo: 144;
+   "Rogan: Ban It" with Rogan's photo: 115 vs 248 for Sterling on the same
+   topic).
 4. **Money graphic**, money stories only (purses, bonuses, contracts,
    fines, betting): `{"type": "money"}`, after all the people above.
+5. **Silhouette backup** for fighter stories when no photo of anyone in
+   the story works: `{"type": "mystery"}` with the fighter's **last name in
+   the headline** ("MCGHEE'S NEW FOE"). It beat the Dana stand-in on views
+   (132 vs 68 average), so it's the fallback instead of a stand-in face.
+   Post silhouette Reels as **Trial Reels** (`"trial_reel": true`).
 
-Do **not** use `mystery` or a text-only post anymore. After the Reels are
-rendered (step 6), check each post's `posts/<name>/post.json`: if
-`subject.kind` is `"none"`, or it is a `"graphic"` other than `money`,
-**don't schedule it**. Tell the user it was held back for having no photo,
-and name the person whose photo would fix it so they can add one to the
-image bank.
+After the Reels are rendered (step 6), check each post's
+`posts/<name>/post.json`: if `subject.kind` is `"none"` (text only),
+**don't schedule it**. Tell the user it was held back for having no
+image, and name the person whose photo would fix it so they can add one
+to the image bank.
 
 Example for a replacement story:
 
@@ -209,7 +225,7 @@ Example for a replacement story:
   {"type": "fighter", "name": "Marcus McGhee"},
   {"type": "fighter", "name": "Anthony Romero"},
   {"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"},
-  {"type": "fighter", "name": "Dana White", "headline": "McGhee's New Foe"}
+  {"type": "mystery"}
 ]
 ```
 
@@ -250,7 +266,11 @@ Built for Instagram search and the Reels algorithm:
   keywords: full fighter names, the promotion (UFC, PFL, ONE), the event
   name and number, weight class, city/country, and terms like "MMA news",
   "UFC news", "fight announcement", "title fight" where they're true.
-- End with a question to get comments ("Who takes it?").
+- **Second line: a two-option question** with a 👇, so people see it
+  without opening the caption: "Colby or Strickland? 👇", "Ban it or keep
+  it? 👇", "Fair or not? 👇". Through Oct 2, 38 Reels got 0 comments with
+  only an open question at the end; easy picks are easier to answer.
+- End with a short open question too ("Who takes it?").
 - Keep it under about 1,200 characters. Use 1 or 2 emoji at most.
 
 **Hashtags**: exactly 5 (Instagram's limit). Mix: 1 broad (`MMA` or
