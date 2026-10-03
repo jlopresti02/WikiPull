@@ -27,7 +27,10 @@
     {
      "post": "2026-10-03-0916-morales-january-return",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Michael Morales)",
+     "scheduled_for": "2026-10-03T09:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-73469908588674695"
     }
    ]
   },
@@ -78,7 +81,8 @@
     {
      "post": "2026-10-03-0915-green-ribovics-clash",
      "kind": "update",
-     "format": "reel"
+     "format": "reel",
+     "held": "no usable photo: 'King Green' fetch returned unrelated Wikimedia images; not scheduled"
     }
    ]
   },
