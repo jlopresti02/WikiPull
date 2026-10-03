@@ -2,6 +2,87 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "morales-january-return-title-shot-plan",
+   "title": "Michael Morales accepts January 2027 fight (not Prates or Garry), targets June title shot vs Makhachev",
+   "people": [
+    "Michael Morales",
+    "Islam Makhachev",
+    "Carlos Prates",
+    "Ian Machado Garry"
+   ],
+   "event": "TBA (January 2027)",
+   "first_reported": "2026-10-03",
+   "facts": [
+    "Morales (19-0, No. 3 WW) accepted a fight for January 2027; UFC had pushed for December",
+    "Opponent unnamed; Morales: neither Prates nor Garry wants to fight",
+    "Calls it his last fight before a title shot; targets June 2027 vs champion Makhachev",
+    "Hasn't fought since last November; says UFC hadn't given him a fight in a year"
+   ],
+   "sources": [
+    "https://mmasucka.com/news/michael-morales-reveals-exact-timeline-of-his-ufc-return-reacts-to-carlos-prates-ian-machado-garry/",
+    "https://www.yardbarker.com/mma/articles/michael_morales_confirms_next_fight_timeline_as_title_shot_inches_closer/s1_17730_44381307",
+    "https://bloodyelbow.com/2026/10/03/islam-makhachevs-next-opponent-seemingly-set-as-michael-morales-announces-january-return/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-03-0916-morales-january-return",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "king-green-bmf-title-dana-white",
+   "title": "Dana White agrees King Green deserves BMF title shot if he beats Ribovics at UFC 332",
+   "people": [
+    "Bobby Green",
+    "Dana White",
+    "Esteban Ribovics",
+    "Charles Oliveira"
+   ],
+   "event": "UFC 332 (Oct 3)",
+   "first_reported": "2026-10-01",
+   "facts": [
+    "White: 'I absolutely agree' Green fits BMF title fight",
+    "Green, 40, on four-fight win streak; called BMF title a dream",
+    "Ribovics called Green 'Minnie Mouse' at presser",
+    "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official",
+    "After Friday weigh-ins, Green and boxer Arnold Barboza Jr. confronted Ribovics and his team outside; insults traded, near scuffle, calmed down. Green gets 20% of Ribovics' purse; never missed weight in 31 UFC fights; swore at a cameraman during a hard cut"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
+    "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/",
+    "https://www.sherdog.com/news/news/UFC-332-weighin-results-Title-fight-set-1-fighter-heavy-203045",
+    "https://hottakes.com/articles/esteban-ribovics-misses-weight-by-half-a-pound-for-ufc-332-7f9858a9-4973-4017-8510-9bc3378fef2b",
+    "https://sports.yahoo.com/articles/video-green-team-confront-ribovics-124209563.html",
+    "https://bloodyelbow.com/2026/10/03/king-green-and-esteban-ribovics-clash-over-weight-miss-outside-ufc-332-fighter-hotel/",
+    "https://sports.yahoo.com/articles/king-green-crashes-cameraman-during-020000076.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-02-0951-king-green-bmf",
+     "kind": "new",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T11:40:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-404260349947132923"
+    },
+    {
+     "post": "2026-10-02-1320-ribovics-misses-weight",
+     "kind": "update",
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T19:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2161486312751345878"
+    },
+    {
+     "post": "2026-10-03-0915-green-ribovics-clash",
+     "kind": "update",
+     "format": "reel"
+    }
+   ]
+  },
+  {
    "id": "dana-white-pereira-star-power-gane-rematch",
    "title": "Dana White pushes back on reporter who says Alex Pereira's star power deserved a Ciryl Gane rematch",
    "people": [
@@ -372,48 +453,6 @@
      "image": "fighter photo (Conor McGregor)",
      "scheduled_for": "2026-10-02T11:10:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1978047172380769919"
-    }
-   ]
-  },
-  {
-   "id": "king-green-bmf-title-dana-white",
-   "title": "Dana White agrees King Green deserves BMF title shot if he beats Ribovics at UFC 332",
-   "people": [
-    "Bobby Green",
-    "Dana White",
-    "Esteban Ribovics",
-    "Charles Oliveira"
-   ],
-   "event": "UFC 332 (Oct 3)",
-   "first_reported": "2026-10-01",
-   "facts": [
-    "White: 'I absolutely agree' Green fits BMF title fight",
-    "Green, 40, on four-fight win streak; called BMF title a dream",
-    "Ribovics called Green 'Minnie Mouse' at presser",
-    "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official"
-   ],
-   "sources": [
-    "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
-    "https://mmasucka.com/news/dana-white-reveals-whether-king-green-could-fight-for-the-bmf-title/",
-    "https://www.sherdog.com/news/news/UFC-332-weighin-results-Title-fight-set-1-fighter-heavy-203045",
-    "https://hottakes.com/articles/esteban-ribovics-misses-weight-by-half-a-pound-for-ufc-332-7f9858a9-4973-4017-8510-9bc3378fef2b"
-   ],
-   "posts": [
-    {
-     "post": "2026-10-02-0951-king-green-bmf",
-     "kind": "new",
-     "format": "reel",
-     "image": "fighter photo (Dana White)",
-     "scheduled_for": "2026-10-02T11:40:00-04:00",
-     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-404260349947132923"
-    },
-    {
-     "post": "2026-10-02-1320-ribovics-misses-weight",
-     "kind": "update",
-     "format": "reel",
-     "image": "fighter photo (Dana White)",
-     "scheduled_for": "2026-10-02T19:00:00-04:00",
-     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2161486312751345878"
     }
    ]
   },
