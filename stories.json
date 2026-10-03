@@ -27,7 +27,10 @@
     {
      "post": "2026-10-02-2220-dana-pereira-star-power",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Dana White)",
+     "scheduled_for": "2026-10-02T22:35:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=218166984271151891"
     }
    ]
   },
@@ -52,7 +55,10 @@
     {
      "post": "2026-10-02-2221-wang-mocks-silva",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "image": "fighter photo (Natália Silva)",
+     "scheduled_for": "2026-10-02T23:05:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7727204317764997029"
     }
    ]
   },
@@ -89,7 +95,10 @@
     {
      "post": "2026-10-02-2222-figueiredo-fake-punch-talbott",
      "kind": "update",
-     "format": "trial_reel"
+     "format": "trial_reel",
+     "image": "fighter photo (Deiveson Figueiredo)",
+     "scheduled_for": "2026-10-02T23:35:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4849648273340973857"
     }
    ]
   },
