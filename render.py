@@ -18,7 +18,11 @@ A post file is a small JSON file:
       "music":    "music/track.mp3",         # optional, track in the repo
       "music_credit": "Track by Artist / CC BY 4.0",  # shown in the caption
       "music_start": 12.5,                   # optional, where in the track to start
-      "seconds":  8                          # optional, Reel length (default 8)
+      "seconds":  8,                         # optional, Reel length (default 8)
+      "question": "Colby or Strickland?",    # optional: on the Reel the headline
+                                             # turns into this question at 2.5 s
+      "follow_card": true                    # optional: last 1.2 s of the Reel
+                                             # reads FOLLOW @WWITMMA
     }
 
 Output goes to posts/<post name>/:
@@ -123,15 +127,23 @@ def tag_width():
     return int(font(TAG_SIZE).getlength(TAG) + 60)
 
 
-def draw_text_layer(draw, L, words, size, baselines, fg, bg, light):
+def draw_words(draw, L, words, size, baselines, fg):
     f = font(size)
     for w, y in zip(words, baselines):
         draw.text((L.w / 2, y), w, font=f, fill=fg, anchor="ms")
+
+
+def draw_tag(draw, L, fg, bg, light):
     tw = tag_width()
     draw.rounded_rectangle([TAG_X, L.tag_y, TAG_X + tw, L.tag_y + TAG_H], radius=10, fill=fg)
     cap = cap_height(TAG_SIZE)
     draw.text((TAG_X + tw / 2, L.tag_y + TAG_H / 2 + cap / 2), TAG, font=font(TAG_SIZE),
               fill=(255, 255, 255) if light else bg, anchor="ms")
+
+
+def draw_text_layer(draw, L, words, size, baselines, fg, bg, light):
+    draw_words(draw, L, words, size, baselines, fg)
+    draw_tag(draw, L, fg, bg, light)
 
 
 def text_bottoms(L, words, size, baselines):
@@ -261,9 +273,12 @@ class Scene:
         self.light = is_light(bg)
         self.fg = (17, 17, 17) if self.light else (255, 255, 255)
         self.size, self.baselines = layout_headline(words, L, centered=(kind == "none"))
-        self.text = Image.new("RGBA", (L.w, L.h), (0, 0, 0, 0))
-        draw_text_layer(ImageDraw.Draw(self.text), L, words, self.size, self.baselines,
-                        self.fg, bg, self.light)
+        self.words_layer = Image.new("RGBA", (L.w, L.h), (0, 0, 0, 0))
+        draw_words(ImageDraw.Draw(self.words_layer), L, words, self.size, self.baselines, self.fg)
+        self.tag_layer = Image.new("RGBA", (L.w, L.h), (0, 0, 0, 0))
+        draw_tag(ImageDraw.Draw(self.tag_layer), L, self.fg, bg, self.light)
+        self.text = self.words_layer.copy()
+        self.text.alpha_composite(self.tag_layer)
         self.cut = None
         if kind == "fighter":
             self.cut = cut
@@ -283,7 +298,47 @@ class Scene:
             self.x = (L.w - sub.width) // 2
             self.y = top + (room_h - sub.height) // 2
 
-    def frame(self, zoom=1.0, text_alpha=1.0):
+    def subject_mask(self):
+        """Where the subject is painted at full size (zoom 1)."""
+        mask = Image.new("L", (self.L.w, self.L.h), 0)
+        if self.cut is not None:
+            w2 = round(self.cut.width * self.scale)
+            h2 = round(self.cut.height * self.scale)
+            a = self.cut.getchannel("A").resize((max(1, w2), max(1, h2)), Image.BILINEAR)
+            mask.paste(a, (self.x, self.y))
+        return np.asarray(mask) > 40
+
+    def alt_words(self, text):
+        """A layer with `text` set in the headline's place (for the Reel's
+        question and follow cards): no taller than the headline block and
+        shrunk until it clears the subject by MARGIN."""
+        words = [w.upper() for w in text.split()]
+        n = len(words)
+        ratio = cap_height(100) / 100
+        block = cap_height(self.size) * (len(self.words) + (len(self.words) - 1) * LEAD)
+        size = min(340.0, block / (ratio * (n + (n - 1) * LEAD)))
+        for w in words:
+            width = font(size).getlength(w)
+            if width > MAX_TEXT_W:
+                size = min(size, size * MAX_TEXT_W / width)
+        subj = self.subject_mask()
+        while True:
+            cap = cap_height(size)
+            total = cap * (n + (n - 1) * LEAD)
+            top = self.L.top_y + (block - total) / 2  # centered in the headline's block
+            baselines = [top + cap + i * cap * (1 + LEAD) for i in range(n)]
+            layer = Image.new("RGBA", (self.L.w, self.L.h), (0, 0, 0, 0))
+            draw_words(ImageDraw.Draw(layer), self.L, words, size, baselines, self.fg)
+            a = np.asarray(layer.getchannel("A")) > 20
+            # grow the text mask by MARGIN downward and check it against the subject
+            grown = a.copy()
+            for d in range(1, MARGIN + 1):
+                grown[d:] |= a[:-d]
+            if not (grown & subj).any() or size < 40:
+                return layer
+            size *= 0.94
+
+    def frame(self, zoom=1.0, text_alpha=1.0, alt=None, alt_alpha=0.0):
         """Draw the post. zoom < 1 shrinks the subject: a fighter toward his
         bottom edge, a card or graphic toward its center, so the subject only
         ever moves away from the headline."""
@@ -301,17 +356,27 @@ class Scene:
             else:
                 y = self.y + (full_h - h2) // 2  # keep the center fixed
             img.paste(sub, (x, y), sub)
-        if text_alpha >= 1:
-            img.alpha_composite(self.text)
-        elif text_alpha > 0:
-            t = self.text.copy()
-            t.putalpha(t.getchannel("A").point(lambda v: int(v * text_alpha)))
-            img.alpha_composite(t)
+        def put(layer, a):
+            if a >= 1:
+                img.alpha_composite(layer)
+            elif a > 0:
+                t = layer.copy()
+                t.putalpha(t.getchannel("A").point(lambda v: int(v * a)))
+                img.alpha_composite(t)
+        if alt is None or alt_alpha <= 0:
+            put(self.text, text_alpha)
+        else:
+            put(self.tag_layer, text_alpha)
+            put(self.words_layer, text_alpha * (1 - alt_alpha))
+            put(alt, alt_alpha)
         return img.convert("RGB")
 
 
 def ease_out(t):
     return 1 - (1 - t) ** 3
+
+
+FOLLOW_TEXT = "Follow @wwitmma"
 
 
 def make_reel(scene, out, spec):
@@ -342,11 +407,31 @@ def make_reel(scene, out, spec):
             str(out / "reel.mp4")]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     punch = int(0.35 * FPS)  # headline fades/punches in over the first moment
+    # Text cards that replace the headline later in the Reel: the question
+    # (from 2.5 s) and the follow card (last 1.2 s). The headline returns when
+    # the Reel loops.
+    cards = []
+    if spec.get("question"):
+        cards.append((int(min(2.5, seconds * 0.42) * FPS), scene.alt_words(spec["question"])))
+    if spec.get("follow_card"):
+        cards.append((frames - int(1.2 * FPS), scene.alt_words(FOLLOW_TEXT)))
+    fade = max(1, int(0.2 * FPS))
     for i in range(frames):
         t = i / max(1, frames - 1)
         zoom = 0.93 + 0.07 * ease_out(t)
         text_alpha = min(1.0, (i + 1) / punch)
-        proc.stdin.write(scene.frame(zoom, text_alpha).tobytes())
+        alt, alt_alpha, prev = None, 0.0, None
+        for start, layer in cards:
+            if i >= start:
+                prev, alt = alt, layer
+                alt_alpha = min(1.0, (i - start + 1) / fade)
+        if prev is not None and alt_alpha < 1:
+            # crossfade question -> follow card
+            img = Image.blend(scene.frame(zoom, text_alpha, prev, 1.0),
+                              scene.frame(zoom, text_alpha, alt, 1.0), alt_alpha)
+        else:
+            img = scene.frame(zoom, text_alpha, alt, alt_alpha)
+        proc.stdin.write(img.tobytes())
     proc.stdin.close()
     if proc.wait() != 0:
         sys.exit("ffmpeg failed to write the Reel")

@@ -18,6 +18,10 @@ For each posts/queue/<name>.json:
   3. Render the post (render.py) into posts/<name>/.
   4. Remove the file from the queue; posts/<name>/post.json keeps a copy.
 
+Carousel post files ("carousel": true, see carousel.py) skip steps 1-2:
+each slide looks up its own fighters (silhouette when there's no photo)
+and the slides are written as posts/<name>/slide-NN.jpg.
+
 A post that fails is left in the queue with the reason printed, so it can be
 fixed and pushed again. The GitHub workflow runs this whenever a post file
 is added to posts/queue/.
@@ -112,6 +116,25 @@ def resolve_visual(spec):
     return False
 
 
+def get_cut(names):
+    """For carousels: the first of `names` that has a usable cutout, as
+    (RGBA image, credit). (None, None) when none do."""
+    if not names:
+        return None, None
+    for name in (names if isinstance(names, list) else [names]):
+        try:
+            subject = try_visual({"type": "fighter", "name": name})
+        except Exception as exc:
+            print(f"  photo for {name} failed: {exc}")
+            subject = None
+        if subject:
+            from PIL import Image
+            with Image.open(ROOT / subject["image"]) as im:
+                return im.convert("RGBA"), subject["credit"]
+    print(f"  no photo for {names}: using the silhouette")
+    return None, None
+
+
 def resolve_music(spec):
     """Fill in "music", "music_credit" and "music_start" from a pool or a
     search; turns on "reel". Returns True if the spec changed."""
@@ -157,6 +180,11 @@ def main():
         print(f"\n== {spec_path.name}")
         try:
             spec = json.loads(spec_path.read_text())
+            if spec.get("carousel"):
+                from carousel import render_carousel
+                render_carousel(spec_path, get_cut)
+                spec_path.unlink()
+                continue
             changed = resolve_visual(spec)
             changed = resolve_music(spec) or changed
             if changed:

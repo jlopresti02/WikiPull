@@ -146,9 +146,20 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
   "sources": ["CBS Sports", "ESPN"],
   "music_pool": "espn",
   "seconds": 6,
+  "question": "BJP or Stirling?",
+  "follow_card": true,
   "reel": true
 }
 ```
+
+**On the Reel itself** (added Oct 3: people leave after about 2.4 s and
+almost nobody opens the caption):
+- `"question"`: at 2.5 s the headline turns into this question, set just
+  as big. Use the same two-option question as the caption's second line,
+  2 to 4 words, no emoji (the font has none): "COLBY OR STRICKLAND?",
+  "BAN IT?", "FAIR OR NOT?". Every post gets one.
+- `"follow_card": true`: the last 1.2 s read FOLLOW @WWITMMA, then the
+  Reel loops back to the headline. Every post gets it.
 
 **Headline**: 1 to 3 punchy words, like a sports graphic ("BJP RETURNS",
 "TITLE SHOT", "OUT OF UFC 330"). Match it to the image that will be used
@@ -313,8 +324,8 @@ The push starts the **Make posts** workflow.
 ### 6. Wait for the Reels, then schedule them
 
 Poll (`git pull` every 30 s, up to 15 minutes) until a commit named
-"Make posts" appears after yours and `posts/<name>/reel.mp4` exists for
-every queued post. If a post is missing, read `posts/make-posts-log.txt`
+"Make posts" appears after yours and `posts/<name>/reel.mp4` (for a
+carousel, `posts/<name>/slide-01.jpg`) exists for every queued post. If a post is missing, read `posts/make-posts-log.txt`
 for the reason, leave it unscheduled, and tell the user.
 
 For each finished post, schedule it with Metricool `createScheduledPost`:
@@ -328,6 +339,9 @@ For each finished post, schedule it with Metricool `createScheduledPost`:
   `https://raw.githubusercontent.com/jlopresti02/WikiPull/<commit sha>/posts/<name>/reel.mp4`
 - `videoThumbnailUrl`: the same for `posts/<name>/cover.png`.
 - `text`: the exact contents of `posts/<name>/caption.txt`.
+- `firstCommentText`: the post's question followed by " 👇 Drop your
+  pick", e.g. "Colby or Strickland? 👇 Drop your pick". A first comment
+  from the account gives viewers a thread to reply to.
 - `autoPublish` true.
 
 **When to schedule (30-minute spacing):** posts go out **one at a time,
@@ -349,8 +363,89 @@ Instagram. (On day one, posts 2 minutes apart split each other's reach.)
 Then add `"scheduled_for"` and the Metricool `plannerUrl` to the post's
 entry in `stories.json`, commit and push.
 
+### 6b. Results carousels (after every UFC event)
+
+The first run after a UFC event finishes (usually the Sunday 9 AM run for
+a Saturday card) also makes one **results carousel**: every result from
+the card in one swipeable post, the kind of post people save and share.
+Make it before the Reels, and schedule it **first** (the Reels follow it
+in the usual 30-minute slots). Only one per event: check `stories.json`
+for an entry with `"format": "carousel"` for that event first.
+
+Get the results from official or reputable sources (UFC.com, ESPN, MMA
+Junkie, MMA Fighting): winner, loser, method, round and time for every
+fight, plus the four bonuses. Only use what is reported; never guess a
+result. If the card isn't finished yet, skip the carousel this run.
+
+Create `posts/queue/<YYYY-MM-DD-HHMM>-<event-slug>-results.json`:
+
+```json
+{
+  "carousel": true,
+  "story_id": "ufc-332-results",
+  "headline": "UFC 332 Results",
+  "color": "#d2202f",
+  "slides": [
+    {"type": "cover", "title": "UFC 332 Results", "fighter": ["Natalia Silva", "Natália Silva"],
+     "kicker": "New champion", "subtitle": "Silva def. Wang Cong"},
+    {"type": "hook", "title": "Night Of Finishes", "fighter": "Payton Talbott",
+     "kicker": "Best finish", "subtitle": "Talbott KO R1 2:11"},
+    {"type": "result", "label": "Main event · Flyweight title",
+     "winner": ["Natalia Silva", "Natália Silva"], "loser": "Wang Cong",
+     "method": "Decision (unanimous)", "detail": "R5 5:00"},
+    {"type": "result", "label": "Co-main · Bantamweight", "winner": "...", "loser": "...",
+     "method": "KO", "detail": "R1 2:11"},
+    {"type": "list", "title": "Main Card",
+     "rows": [["Winner Name", "Loser Name", "Sub R2"], ["...", "...", "Dec"]]},
+    {"type": "list", "title": "Prelims", "rows": [["...", "...", "KO R1"]]},
+    {"type": "bonuses", "title": "Bonuses",
+     "rows": [["Fight of the Night", "Silva vs Wang"], ["Performance of the Night", "..."]]},
+    {"type": "cta", "title": "Who's next for the champ?",
+     "lines": ["Comment your pick", "Follow @wwitmma for results"]}
+  ],
+  "caption": "...",
+  "hashtags": ["UFC332", "UFC", "MMA", "MMANews", "NataliaSilva"],
+  "sources": ["UFC.com", "ESPN"]
+}
+```
+
+Slides (2 to 10, Instagram's limit; aim for 7 or 8):
+1. **cover**: "<EVENT> RESULTS" (1 to 4 words) with the main event winner
+   (or new champion) and a subtitle pill like "SILVA DEF. WANG CONG".
+2. **hook**: the night's best moment, a fast finish, a title change, a
+   wild ending: a 1 to 4 word title plus that fighter. Instagram often
+   re-shows a carousel starting from slide 2, so this must stand alone.
+3. **result** slides for the main event and co-main (add one for any
+   other headline fight): winner big in color, loser smaller in gray,
+   method pill. List alternate names as a list so a photo is found.
+4. **list** slides: the rest of the main card, then the prelims, up to 6
+   rows each (winner, loser, short method like "KO R1", "Sub R2", "Dec").
+5. **bonuses**, if announced.
+6. **cta**: a question about what's next ("Who's next for the champ?"),
+   with "Comment your pick" and "Follow @wwitmma for results".
+
+Fighters with no photo get the silhouette automatically, so the carousel
+always renders. No betting language anywhere (no odds, favorites or
+underdogs; "surprise" not "upset").
+
+Caption: first line names the main event result; then 2 to 3 short
+sentences with full names, event name and number, city and "UFC results"
+/ "MMA results" for search; then a two-option question and 👇; 5
+hashtags; sources. Credits are added automatically.
+
+Push it with the other queue files. The Make posts workflow writes
+`posts/<name>/slide-01.jpg` ... `slide-NN.jpg` and `caption.txt` (no
+video). Schedule it with Metricool `createScheduledPost`:
+- `instagramData.type` `POST` (several images make a carousel),
+  `isAiGenerated` false, no `showReelOnFeed`, no `videoThumbnailUrl`.
+- `media`: every slide's raw GitHub URL, pinned to the commit, in order.
+- `text`: `caption.txt`; `firstCommentText`: the question + " 👇".
+- Music can't be added through Metricool's scheduling; skip it.
+
+Ledger: `{"post": "<name>", "kind": "new", "format": "carousel"}`.
+
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
-which image type was used, and Reel or Trial Reel), any that were pushed to later slots, which were held back for having no photo, which
+which image type was used, and Reel, Trial Reel or carousel), any that were pushed to later slots, which were held back for having no photo, which
 stories were skipped as repeats, and any failures. If there were no posts, say so in one line.
