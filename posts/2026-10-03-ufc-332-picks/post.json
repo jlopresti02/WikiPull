@@ -1,0 +1,93 @@
+{
+  "carousel": true,
+  "headline": "UFC 332 Picks",
+  "color": "#1e3a8a",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "UFC 332 Picks",
+      "fighter": "Natalia Silva",
+      "kicker": "Main Event",
+      "subtitle": "Silva vs Wang"
+    },
+    {
+      "type": "result",
+      "label": "Main event · Flyweight title",
+      "winner": "Natalia Silva",
+      "loser": "Wang Cong",
+      "method": "Decision",
+      "detail": "Championship bout"
+    },
+    {
+      "type": "result",
+      "label": "Bantamweight bout",
+      "winner": "Marlon Figueiredo",
+      "loser": "Payton Talbott",
+      "method": "KO/TKO",
+      "detail": "Early stoppage"
+    },
+    {
+      "type": "list",
+      "title": "More Main Card Picks",
+      "rows": [
+        [
+          "Bobby Green",
+          "Andre Ribovics",
+          "Decision"
+        ],
+        [
+          "Andre Muniz",
+          "Edo de Oliveira",
+          "Submission"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Prelim Picks",
+      "rows": [
+        [
+          "Jose Rodriguez",
+          "Maria Coria",
+          "TKO"
+        ],
+        [
+          "Raul Pinas",
+          "Ruslan Pulyaev",
+          "Decision"
+        ],
+        [
+          "Marcus McGhee",
+          "Anthony Romero",
+          "Decision"
+        ],
+        [
+          "T.J. Brown",
+          "Wint Armand",
+          "Submission"
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Who do you think takes it?",
+      "lines": [
+        "Share your picks in the comments",
+        "Follow @wwitmma for results"
+      ]
+    }
+  ],
+  "caption": "Our picks for UFC 332 on Sunday. Silva's striking and experience should give her the edge over Wang Cong for the flyweight title. Figueiredo's power and wrestling will be tested against Talbott.\n\nWho's on your card? Comment your picks below! 🥊",
+  "hashtags": [
+    "UFC332",
+    "UFC",
+    "MMA",
+    "Predictions",
+    "FightWeek"
+  ],
+  "sources": [
+    "UFC Official"
+  ],
+  "slide_count": 6,
+  "photo_credits": []
+}
