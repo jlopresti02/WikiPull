@@ -2,18 +2,48 @@
   "story_id": "king-green-bmf-title-dana-white",
   "headline": "Back Off",
   "visual": [
-    {"type": "fighter", "name": "King Green"},
-    {"type": "fighter", "name": "Bobby Green (fighter)"},
-    {"type": "fighter", "name": "Bobby Green"},
-    {"type": "fighter", "name": "Esteban Ribovics", "headline": "Ribovics Confronted"}
+    {
+      "type": "fighter",
+      "name": "King Green"
+    },
+    {
+      "type": "fighter",
+      "name": "Bobby Green (fighter)"
+    },
+    {
+      "type": "fighter",
+      "name": "Bobby Green"
+    },
+    {
+      "type": "fighter",
+      "name": "Esteban Ribovics",
+      "headline": "Ribovics Confronted"
+    }
   ],
   "color": "#0f8a5f",
   "caption": "UPDATE: King Green and Esteban Ribovics nearly came to blows outside the UFC 332 weigh-ins, hours before they fight in Salt Lake City.\nKing Green or Ribovics? 👇\n\nStill angry that Ribovics came in half a pound heavy, Green and his friend, pro boxer Arnold Barboza Jr., confronted Ribovics and his team after Friday's weigh-ins. Insults flew and Green told them he'd fight right there before things cooled down. Green, 40, made weight at 155.5 and takes 20% of Ribovics' purse. He's never missed weight in 31 UFC fights, and he made it clear the cut wasn't easy. The lightweight bout is on tonight's UFC 332 main card, with a possible BMF title shot on the line for Green.\n\nWho wins tonight?",
-  "hashtags": ["MMANews", "UFC", "UFC332", "KingGreen", "EstebanRibovics"],
-  "sources": ["MMA Mania", "Bloody Elbow"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "KingGreen",
+    "EstebanRibovics"
+  ],
+  "sources": [
+    "MMA Mania",
+    "Bloody Elbow"
+  ],
   "music_pool": "espn",
   "seconds": 6,
   "question": "Green or Ribovics?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/king-green/cutouts/01-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.png",
+    "credit": "Fenalannm 223 / CC BY-SA 4.0"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

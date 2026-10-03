@@ -1,6 +1,42 @@
-Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c8532ce50>); is the folder shared by link?
-Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c85286f70>); is the folder shared by link?
-Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c8532ce50>); is the folder shared by link?
-Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f3c852870b0>); is the folder shared by link?
-Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f3c852870b0>); is the folder shared by link?
-Queue is empty.
+Searching Wikimedia Commons for: King Green
+  saved images/king-green/01-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.jpg  [CC BY-SA 4.0]
+  saved images/king-green/02-kevin-king-green-bay-packers-player-during-pre-season-game-a.jpg  [CC BY-SA 2.0]
+  saved images/king-green/03-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.jpg  [CC BY-SA 4.0]
+  saved images/king-green/04-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.jpg  [CC BY-SA 4.0]
+Done: 4 image(s) saved.
+[0;93m2026-10-03 13:16:07.124292956 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/king-green/cutouts/01-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.png
+  cutout images/king-green/cutouts/02-kevin-king-green-bay-packers-player-during-pre-season-game-a.png
+  cutout images/king-green/cutouts/03-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.png
+  cutout images/king-green/cutouts/04-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.png
+Done: 4 new cutout(s).
+Searching Wikimedia Commons for: Michael Morales (fighter)
+  saved images/michael-morales-fighter/01-michael-morales-quito-27-de-mayo-del-2025-cropped.jpg  [Public domain]
+Done: 1 image(s) saved.
+[0;93m2026-10-03 13:18:49.583506775 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png
+Done: 1 new cutout(s).
+Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7fd332444e50>); is the folder shared by link?
+Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7fd331d86fc0>); is the folder shared by link?
+Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7fd332444e50>); is the folder shared by link?
+Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7fd331d87100>); is the folder shared by link?
+Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7fd331d87100>); is the folder shared by link?
+Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7fd33186b060>); is the folder shared by link?
+
+== 2026-10-03-0915-green-ribovics-clash.json
+$ fetch.py King Green --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/king-green
+Image: {'type': 'fighter', 'name': 'King Green'} -> fighter images/king-green/cutouts/01-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.png  headline: Back Off
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-03-0915-green-ribovics-clash/post.png (fighter)
+Rendered posts/2026-10-03-0915-green-ribovics-clash/reel.mp4
+
+== 2026-10-03-0916-morales-january-return.json
+$ fetch.py Michael Morales (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/michael-morales-fighter
+Image: {'type': 'fighter', 'name': 'Michael Morales (fighter)'} -> fighter images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png  headline: Nobody Wants It
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-03-0916-morales-january-return/post.png (fighter)
+Rendered posts/2026-10-03-0916-morales-january-return/reel.mp4

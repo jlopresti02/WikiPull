@@ -1,0 +1,6 @@
+# Image credits: King Green
+
+- **01-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.jpg**: Fenalannm 223, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%AF%8C%E5%BA%B7%E8%8A%B1%E5%9C%92_Beverly_Garden_tree_Alexandra_Palm_King_green_leaves_May_2023_Px3_03.jpg
+- **02-kevin-king-green-bay-packers-player-during-pre-season-game-a.jpg**: Keith Allison from Hanover, MD, USA, CC BY-SA 2.0, https://commons.wikimedia.org/wiki/File:Kevin_King_(Green_Bay_Packers_player)_during_pre-season_game_against_Washington_Redskins_on_August_19,_2017_in_Maryland.jpg
+- **03-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.jpg**: Fenalannm 223, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%AF%8C%E5%BA%B7%E8%8A%B1%E5%9C%92_Beverly_Garden_tree_Alexandra_Palm_King_green_leaves_May_2023_Px3_01.jpg
+- **04-hk-skd-tko-tseung-kwan-o-beverly-garden-tree-alexandra-palm-.jpg**: Fenalannm 223, CC BY-SA 4.0, https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%AF%8C%E5%BA%B7%E8%8A%B1%E5%9C%92_Beverly_Garden_tree_Alexandra_Palm_King_green_leaves_May_2023_Px3_02.jpg
