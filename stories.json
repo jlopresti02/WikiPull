@@ -2,6 +2,41 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-332-results",
+      "title": "UFC 332 full results: Silva wins vacant flyweight title, record 11 finishes",
+      "people": [
+        "Natália Silva",
+        "Wang Cong",
+        "Payton Talbott",
+        "Deiveson Figueiredo",
+        "Esteban Ribovics",
+        "King Green",
+        "Johnny Walker"
+      ],
+      "event": "UFC 332 (Oct 3, 2026, Delta Center, Salt Lake City)",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "Main card: Silva def. Wang UD (48-47, 48-47, 49-46) vacant women's flyweight title; Talbott def. Figueiredo TKO R1 2:09; Ribovics def. Green TKO R1 4:08; Soldic def. Khaos Williams UD (29-28, 29-27, 29-27); Kopylov def. Gautier TKO R1 3:12",
+        "Prelims: Rodriguez def. Coria TKO R1 3:11; Pinas def. Pulyaev KO R1 1:15; McGhee def. Romero TKO R1 4:58; Wint def. Armand TKO R1 0:23; Walker def. Parkin KO (knee) R1 3:35; Jacobe Smith def. Whitehead KO R1 1:32; Hernandez def. dos Anjos TKO R2 3:12; Naurdiev def. Vettori UD (29-28 x3); Nolan def. McGee TKO R3 3:26",
+        "Bonuses: no Fight of the Night; Performance of the Night ($100K) to Kopylov, Rodriguez, Pinas, Walker; $25K finish bonuses to Talbott, McGhee, Wint, Smith, Hernandez, Nolan",
+        "11 finishes, 9 first-round KO/TKOs (modern-era records per Cageside Press)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-332-Silva-vs-Wang-playbyplay-results-round-scoring-203049",
+        "https://www.cbssports.com/ufc/news/ufc-332-fight-card-natalia-silva-wang-cong-results-winners/",
+        "https://sports.yahoo.com/articles/ufc-332-bonuses-four-score-041510920.html",
+        "https://cagesidepress.com/2026/10/04/ufc-332-four-performance-bonuses-awarded/",
+        "https://www.yardbarker.com/mma/articles/ufc_332_results_full_card_winners_bonuses_record_11_finishes/s1_17702_44385408"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-0845-ufc-332-results",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
+    },
+    {
       "id": "oliveira-vs-lopes-bmf-ufc-335",
       "title": "Charles Oliveira defends BMF title vs. Diego Lopes to headline UFC 335",
       "people": [
