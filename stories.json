@@ -1716,6 +1716,33 @@
           "instagram": "https://www.instagram.com/p/Dd6aQIsivhL/"
         }
       ]
+    },
+    {
+      "id": "talbott-calls-out-andrew-garfield",
+      "title": "Payton Talbott accidentally calls out Andrew Garfield before correcting to Sean O'Malley after UFC 332 win",
+      "people": [
+        "Payton Talbott",
+        "Andrew Garfield",
+        "Sean O'Malley"
+      ],
+      "event": "UFC 332 (Oct 3, 2026, Salt Lake City)",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "Post-fight interview with Joe Rogan: \"Andrew Garfield, I mean, Sean O'Malley, you can't run forever.\""
+      ],
+      "sources": [
+        "https://www.essentiallysports.com/ufc-mma-news-sean-o-malley-refutes-white-house-claim-before-payton-talbott-accidentally-called-out-spiderman-actor-at-ufc-332/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-1200-talbott-garfield-slip",
+          "kind": "new",
+          "format": "reel",
+          "image": "pair: Talbott (Drive) + user-supplied edited Garfield image",
+          "scheduled_for": "2026-10-04T12:15:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2924398094969226067"
+        }
+      ]
     }
   ]
 }
