@@ -26,7 +26,10 @@
         {
           "post": "2026-10-04-0920-shevchenko-keep-it-warm",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Valentina Shevchenko)",
+          "scheduled_for": "2026-10-04T09:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1166801002249107996"
         }
       ]
     },
@@ -567,7 +570,10 @@
         {
           "post": "2026-10-04-0922-herb-dean-rough-year",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "image": "referee photo (Herb Dean)",
+          "scheduled_for": "2026-10-04T10:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6033113291181476948"
         }
       ]
     },
@@ -1582,7 +1588,10 @@
         {
           "post": "2026-10-04-0921-talbott-cant-run",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Payton Talbott, Drive)",
+          "scheduled_for": "2026-10-04T09:55:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2220374744692049710"
         }
       ]
     },
