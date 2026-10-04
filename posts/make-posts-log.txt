@@ -1,6 +1,30 @@
+Searching Wikimedia Commons for: Esteban Ribovics
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Raoni Barcelos
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-04-1200-talbott-garfield-slip.json
-Image: {'type': 'pair', 'left': {'name': 'Payton Talbott'}, 'right': {'name': 'Andrew Garfield', 'scale': 0.6, 'lift': 0.3}} -> fighter images/pairs/payton-talbott-andrew-garfield.png  headline: Wrong Callout
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-04-1200-talbott-garfield-slip/post.png (fighter)
-Rendered posts/2026-10-04-1200-talbott-garfield-slip/reel.mp4
+== 2026-10-04-1320-wang-eye-poke.json
+Image: {'type': 'fighter', 'name': 'Wang Cong', 'file': 'drive-wang-cong'} -> fighter images/wang-cong/cutouts/drive-wang-cong.png  headline: Eye Poke
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-04-1320-wang-eye-poke/post.png (fighter)
+Rendered posts/2026-10-04-1320-wang-eye-poke/reel.mp4
+
+== 2026-10-04-1321-ribovics-ac-excuse.json
+$ fetch.py Esteban Ribovics --count 5
+Image: {'type': 'mystery', 'headline': "Ribovics' Excuse"} -> graphic   headline: Ribovics' Excuse
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-04-1321-ribovics-ac-excuse/post.png (graphic)
+Rendered posts/2026-10-04-1321-ribovics-ac-excuse/reel.mp4
+
+== 2026-10-04-1322-barcelos-brain-swelling.json
+$ fetch.py Raoni Barcelos --count 5
+Image: {'type': 'mystery', 'headline': 'Barcelos Update'} -> graphic   headline: Barcelos Update
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-04-1322-barcelos-brain-swelling/post.png (graphic)
+Rendered posts/2026-10-04-1322-barcelos-brain-swelling/reel.mp4

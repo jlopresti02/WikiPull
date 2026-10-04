@@ -1,0 +1,46 @@
+{
+  "story_id": "wang-cong-blames-eye-poke-ufc-332",
+  "headline": "Eye Poke",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Wang Cong",
+      "file": "drive-wang-cong"
+    },
+    {
+      "type": "fighter",
+      "name": "Natalia Silva",
+      "file": "02-natalia-silva-ufc",
+      "headline": "Silva's Belt"
+    },
+    {
+      "type": "mystery",
+      "headline": "Wang's Excuse?"
+    }
+  ],
+  "color": "#d2202f",
+  "question": "Excuse or legit?",
+  "caption": "Wang Cong says an eye poke cost her the UFC 332 title fight against Natalia Silva.\nExcuse or legit? 👇\n\nIn a video posted after the loss, Wang said she was poked early and could not see properly for the rest of the fight, admitting she has regrets. Silva won the vacant UFC women's flyweight title by unanimous decision in Salt Lake City, while Dana White said Wang will hate herself when she watches the film because she turned it on too late. UFC news and UFC 332 aftermath.\n\nShould Wang get a rematch?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "WangCong",
+    "NataliaSilva"
+  ],
+  "sources": [
+    "MMA Mania via Yahoo Sports"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/wang-cong/cutouts/drive-wang-cong.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
+}
