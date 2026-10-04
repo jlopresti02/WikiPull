@@ -562,7 +562,10 @@
         {
           "post": "2026-10-03-2320-silva-new-champ",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Natália Silva)",
+          "scheduled_for": "2026-10-04T00:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3605867794785614538"
         }
       ]
     },
