@@ -101,16 +101,32 @@ What performs (from @wwitmma's first day of data, 2026-10-01):
   first frame (headline + face) matters most.
 
 Rules:
-- **Daily cap: 10 posts per calendar day (Eastern), all types counted**
-  (Reels, Trial Reels, carousels). Before writing posts, count what
-  Metricool already has published or scheduled for that day (step 6
-  explains how) and only make as many as fit. Rank the run's stories
+- **Daily cap: 10 automated news posts per calendar day (Eastern)**:
+  the news Reels and Trial Reels this runbook makes. **Not counted**: the
+  results carousel after a UFC event (step 6b) and anything the user asks
+  for directly (picks, memes, requested stories, manual posts); those
+  don't use up the 10 and are never dropped for the cap. Before writing
+  posts, count the day's automated news posts already published or
+  scheduled (step 6 explains how) and only make as many as fit. Rank the run's stories
   **most newsworthy first** (star + conflict at the top, routine bookings
   and lesser-known names last) and **drop the weakest** when over the cap.
   Dropped stories are not queued for later; say in the report which were
   skipped for the cap. A genuinely big story (title fight booked, a star's
   result, a major injury or withdrawal) can replace a weaker one already
   scheduled for that day if it hasn't gone out yet.
+- **Breaking-news exception (added at the user's request, Oct 4):** a
+  truly major breaking story goes out **in the current news cycle even if
+  the day is already at 10**, as a regular Reel in the next open slot. The
+  bar is high, roughly once a week at most: a champion vacating, stripped
+  or retiring; a superstar (McGregor, Jones, Pereira, Topuria, Makhachev
+  level) booked, injured out of a fight or making a shock announcement; a
+  main event or title fight falling apart close to the event; a death or
+  serious incident (reported plainly); a major business shake-up (UFC
+  leadership, a broadcast deal). Fight-week drama, callouts and routine
+  bookings are never exceptions, however good. Breaking stories still
+  skip quiet hours unless they're so big they'd be stale by 7:30 AM; then
+  post at the next slot even overnight. Say in the report when the
+  exception was used and why.
 - Only post what a reputable outlet or official source reports. A rumor can
   be posted only if clearly worded as a report ("reportedly", "per ESPN").
 - No posts that mock or sensationalize serious injuries, deaths, arrests or
@@ -447,8 +463,9 @@ Eastern.** Overnight posts got half the views of everything else.
 1. First call Metricool `getScheduledPosts` (brand 7159326, from now to 24
    hours ahead, America/New_York) to see what is already waiting to go out,
    including overflow from earlier runs. For the daily cap (step 3), count
-   that day's posts in `stories.json` (`scheduled_for` dates) plus anything
-   waiting in Metricool for that day.
+   that day's automated news posts in `stories.json` (`scheduled_for`
+   dates; leave out results carousels and posts the user asked for) plus
+   any of those waiting in Metricool for that day.
 2. The first post goes **10 minutes from now**, or 30 minutes after the
    last post already waiting in Metricool, whichever is later. Never put a
    post within 30 minutes of another one.
