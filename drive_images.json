@@ -86,7 +86,9 @@
     {
       "id": "1ejH1fwMVI-5Rsbw3f6gwPADxg5VJsTnA",
       "name": "sean strickland 3",
-      "person": "Sean Strickland"
+      "person": "Sean Strickland",
+      "skip": true,
+      "note": "does not appear to be Sean Strickland"
     },
     {
       "id": "1AoTCtdUzcF5Pas1V8VXRzjCdV1IhyhJL",
