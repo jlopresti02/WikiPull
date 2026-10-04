@@ -1,6 +1,41 @@
+Searching Wikimedia Commons for: Natalia Silva
+  saved images/natalia-silva/01-nat-lia-silva-2025.jpg  [CC BY 3.0]
+  saved images/natalia-silva/02-natalia-silva-ufc.jpg  [CC BY-SA 4.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-04 12:21:12.572401048 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/natalia-silva/cutouts/01-nat-lia-silva-2025.png
+  cutout images/natalia-silva/cutouts/02-natalia-silva-ufc.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Wang Cong
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Cong Wang
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Payton Talbott
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-03-2320-silva-new-champ.json
-Image: {'type': 'fighter', 'name': 'Natália Silva'} -> fighter images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png  headline: New Champ
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-03-2320-silva-new-champ/post.png (fighter)
-Rendered posts/2026-10-03-2320-silva-new-champ/reel.mp4
+== 2026-10-04-0845-ufc-332-results.json
+$ fetch.py Natalia Silva --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/natalia-silva
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-01.jpg (cover)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-02.jpg (hook)
+$ fetch.py Wang Cong --count 5
+$ fetch.py Cong Wang --count 5
+  no photo for ['Wang Cong', 'Cong Wang']: using the silhouette
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-03.jpg (result)
+$ fetch.py Payton Talbott --count 5
+  no photo for ['Payton Talbott']: using the silhouette
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-04.jpg (result)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-05.jpg (list)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-06.jpg (list)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-07.jpg (bonuses)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-08.jpg (cta)
