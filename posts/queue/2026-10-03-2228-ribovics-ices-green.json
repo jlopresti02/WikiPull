@@ -1,0 +1,34 @@
+{
+  "story_id": "king-green-bmf-title-dana-white",
+  "headline": "Ribovics Ices Green",
+  "color": "#d2202f",
+  "caption": "UPDATE: King Green's BMF title dream took a hit as Esteban Ribovics stopped him one day after missing weight.\nFair or not? 👇\n\nRibovics, who came in half a pound over the lightweight limit, dropped Green three times and got the TKO at 4:08 of round one at UFC 332 in Salt Lake City. He apologized to the crowd for the weight miss after the win. Green had been on a four-fight win streak, and Dana White said this week a win could put him in the BMF picture. UFC 332 results and MMA news.\n\nShould a weight miss cost a fighter the win?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "KingGreen",
+    "EstebanRibovics"
+  ],
+  "sources": [
+    "Cageside Press",
+    "Yahoo Sports",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "question": "Fair or not?",
+  "follow_card": true,
+  "reel": true,
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Esteban Ribovics"
+    },
+    {
+      "type": "fighter",
+      "name": "Bobby Green (fighter)",
+      "headline": "Green Stopped"
+    }
+  ]
+}

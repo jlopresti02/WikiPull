@@ -51,7 +51,8 @@
         {
           "post": "2026-10-03-2224-kopylov-stops-gautier",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "held": "not scheduled: no photo of Gautier or Kopylov (silhouette render)"
         }
       ]
     },
@@ -470,9 +471,10 @@
           "held": "no usable photo: 'King Green' fetch returned unrelated Wikimedia images; not scheduled"
         },
         {
-          "post": "2026-10-03-2222-ribovics-stops-king-green",
+          "post": "2026-10-03-2228-ribovics-ices-green",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "note": "re-queued: first render picked a wrong 'Bobby Green' (place) photo"
         }
       ]
     },
