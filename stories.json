@@ -484,11 +484,11 @@
           "held": "no usable photo: 'King Green' fetch returned unrelated Wikimedia images; not scheduled"
         },
         {
-          "post": "2026-10-03-2228-ribovics-ices-green",
+          "post": "2026-10-03-2230-king-green-stopped",
           "kind": "update",
           "format": "reel",
-          "note": "re-queued: first render picked a wrong 'Bobby Green' (place) photo",
-          "held": "not scheduled: no photo found for Esteban Ribovics or Bobby Green (text-only render)"
+          "note": "re-queued with user-uploaded King Green photo",
+          "held": null
         }
       ]
     },
