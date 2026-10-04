@@ -1,24 +1,29 @@
-Searching Wikimedia Commons for: Esteban Ribovics
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Bobby Green (fighter)
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d0400>); is the folder shared by link?
-Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
-Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
-Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
-Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
-Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7f16a0313100>); is the folder shared by link?
+[0;93m2026-10-04 02:35:11.137845617 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/joe-rogan/cutouts/drive-joe-rogan-3.png
+  cutout images/joe-rogan/cutouts/drive-joe-rogan-4.png
+  cutout images/joe-rogan/cutouts/drive-joe-rogan.png
+Done: 3 new cutout(s).
+[0;93m2026-10-04 02:36:51.788444782 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/josh-hokit/cutouts/drive-josh-hokit-1.png
+  cutout images/josh-hokit/cutouts/drive-josh-hokit-2.png
+Done: 2 new cutout(s).
+[0;93m2026-10-04 02:37:37.393664276 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/roman-kopylov/cutouts/upload-roman-kopylov-1.png
+Done: 1 new cutout(s).
+Drive: saved images/joe-rogan/drive-joe-rogan.jpg
+Drive: saved images/joe-rogan/drive-joe-rogan-3.jpg
+Drive: saved images/joe-rogan/drive-joe-rogan-4.jpg
+Drive: saved images/josh-hokit/drive-josh-hokit-1.jpg
+Drive: saved images/josh-hokit/drive-josh-hokit-2.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/joe-rogan
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/josh-hokit
 
-== 2026-10-03-2228-ribovics-ices-green.json
-$ fetch.py Esteban Ribovics --count 5
-$ fetch.py Bobby Green (fighter) --count 5
-Image: {'type': 'text'} -> none   headline: Ribovics Ices Green
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-03-2228-ribovics-ices-green/post.png (none)
-Rendered posts/2026-10-03-2228-ribovics-ices-green/reel.mp4
+== 2026-10-03-2229-kopylov-shocks-gautier.json
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/roman-kopylov
+Image: {'type': 'fighter', 'name': 'Roman Kopylov', 'file': 'upload-roman-kopylov-1'} -> fighter images/roman-kopylov/cutouts/upload-roman-kopylov-1.png  headline: Kopylov Shocks
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-03-2229-kopylov-shocks-gautier/post.png (fighter)
+Rendered posts/2026-10-03-2229-kopylov-shocks-gautier/reel.mp4
