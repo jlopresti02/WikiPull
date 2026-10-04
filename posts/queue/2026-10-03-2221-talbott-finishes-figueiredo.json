@@ -1,0 +1,33 @@
+{
+  "story_id": "figueiredo-shoves-talbott-ufc-332-presser",
+  "headline": "2 Champs Down",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Payton Talbott"
+    },
+    {
+      "type": "fighter",
+      "name": "Deiveson Figueiredo",
+      "headline": "Figgy Finished"
+    }
+  ],
+  "color": "#f5c518",
+  "question": "Contender or not yet?",
+  "caption": "UPDATE: Payton Talbott answered Deiveson Figueiredo's fight-week shove with a first-round TKO at UFC 332.\nContender or not yet? 👇\n\nTalbott dropped the former UFC flyweight champion with a right hand early, then finished it after a knee in the bantamweight co-main event in Salt Lake City. It's back-to-back wins over former champions for Talbott after his victory over Henry Cejudo, and he now sits at 6-1 in the UFC. UFC 332 results and MMA news.\n\nWho should Talbott fight next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "PaytonTalbott",
+    "DeivesonFigueiredo"
+  ],
+  "sources": [
+    "Bleacher Report",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

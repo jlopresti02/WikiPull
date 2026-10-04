@@ -1,0 +1,33 @@
+{
+  "story_id": "nickal-vs-pyfer-ufc-335",
+  "headline": "Nickal Vs Pyfer",
+  "trial_reel": true,
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Bo Nickal"
+    },
+    {
+      "type": "fighter",
+      "name": "Joe Pyfer"
+    }
+  ],
+  "color": "#6b2fd1",
+  "question": "Nickal or Pyfer?",
+  "caption": "Bo Nickal and Joe Pyfer are finally set to settle it at UFC 335.\nNickal or Pyfer? 👇\n\nThe middleweight fight was revealed during the UFC 332 broadcast for Dec. 12 at T-Mobile Arena in Las Vegas. Brandon Moreno vs. Charles Johnson was also added, on a card headlined by Charles Oliveira vs. Diego Lopes for the BMF title. UFC news and fight announcement.\n\nWho gets the finish?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "BoNickal",
+    "JoePyfer"
+  ],
+  "sources": [
+    "Yahoo Sports",
+    "Bleacher Report"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

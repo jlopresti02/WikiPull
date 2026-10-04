@@ -1,0 +1,34 @@
+{
+  "story_id": "oliveira-vs-lopes-bmf-ufc-335",
+  "headline": "BMF Defense",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Charles Oliveira"
+    },
+    {
+      "type": "fighter",
+      "name": "Diego Lopes",
+      "headline": "Lopes Wants BMF"
+    }
+  ],
+  "color": "#1f3fbf",
+  "question": "Oliveira or Lopes?",
+  "caption": "Charles Oliveira will defend the BMF title against Diego Lopes in the UFC 335 main event.\nOliveira or Lopes? 👇\n\nThe fight was announced during the UFC 332 broadcast for Dec. 12 at T-Mobile Arena in Las Vegas, with Lopes moving up to lightweight. Oliveira won the BMF belt from Max Holloway in March. The card also includes Alex Pereira vs. Sergei Pavlovich, Bo Nickal vs. Joe Pyfer and Brandon Moreno vs. Charles Johnson. UFC news and fight announcement.\n\nWho walks out with the BMF belt?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "CharlesOliveira",
+    "DiegoLopes"
+  ],
+  "sources": [
+    "Yahoo Sports",
+    "Cageside Press",
+    "Bleacher Report"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

@@ -1,0 +1,33 @@
+{
+  "story_id": "fury-invites-trump-ringwalk-joshua",
+  "headline": "Trump Ringwalk?",
+  "trial_reel": true,
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Tyson Fury"
+    },
+    {
+      "type": "fighter",
+      "name": "Anthony Joshua",
+      "headline": "Fury Vs AJ"
+    }
+  ],
+  "color": "#6b2fd1",
+  "question": "Fury or Joshua?",
+  "caption": "Tyson Fury says he wants President Trump to walk him to the ring against Anthony Joshua.\nFury or Joshua? 👇\n\nFury told Sky Sports he will invite Trump to the Dec. 11 heavyweight fight at Principality Stadium in Cardiff, and called the Joshua bout a warm-up for a third fight with Oleksandr Usyk. The event has also sparked a feud between Dana White and Eddie Hearn. Boxing news.\n\nWould you want to see that ringwalk?",
+  "hashtags": [
+    "Boxing",
+    "FuryJoshua",
+    "TysonFury",
+    "AnthonyJoshua",
+    "BoxingNews"
+  ],
+  "sources": [
+    "Sky Sports"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

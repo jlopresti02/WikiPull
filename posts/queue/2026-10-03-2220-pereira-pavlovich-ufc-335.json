@@ -1,0 +1,38 @@
+{
+  "story_id": "pereira-teases-big-challenge",
+  "headline": "Pavlovich Next",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alex Pereira"
+    },
+    {
+      "type": "fighter",
+      "name": "Sergei Pavlovich",
+      "headline": "Pereira Vs Pavlovich"
+    },
+    {
+      "type": "mystery",
+      "headline": "Pereira's Next Foe"
+    }
+  ],
+  "color": "#d2202f",
+  "question": "Pereira or Pavlovich?",
+  "caption": "UPDATE: Alex Pereira's 'big challenge' is Sergei Pavlovich, and he's staying at heavyweight.\nPereira or Pavlovich? 👇\n\nDana White revealed the matchup during the UFC 332 broadcast: a five-round heavyweight co-main event at UFC 335 on Dec. 12 at T-Mobile Arena in Las Vegas. Pereira is coming off a TKO loss to Ciryl Gane in June, while Pavlovich has won three straight. The winner could be next in line after Gane vs. Hokit. UFC news and fight announcement.\n\nWho wins this heavyweight fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "AlexPereira",
+    "SergeiPavlovich"
+  ],
+  "sources": [
+    "Yahoo Sports",
+    "Cageside Press",
+    "Fightful"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

@@ -2,6 +2,143 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "oliveira-vs-lopes-bmf-ufc-335",
+      "title": "Charles Oliveira defends BMF title vs. Diego Lopes to headline UFC 335",
+      "people": [
+        "Charles Oliveira",
+        "Diego Lopes",
+        "Dana White"
+      ],
+      "event": "UFC 335, Dec 12, 2026, T-Mobile Arena, Las Vegas",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Announced during UFC 332 broadcast",
+        "Lopes moves up to lightweight",
+        "Oliveira won BMF belt from Holloway at UFC 326 (March)",
+        "Card also: Pereira vs. Pavlovich (co-main), Nickal vs. Pyfer, Moreno vs. Charles Johnson"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
+        "https://cagesidepress.com/2026/10/03/charles-oliveira-vs-diego-lopes-bmf-title-fight-tops-ufc-335/",
+        "https://bleacherreport.com/articles/25506336-ufc-335-fight-card-reveals-charles-oliveira-vs-diego-lopes-bmf-title-pereira-pavlovich-more"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2223-oliveira-lopes-bmf",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "kopylov-tkos-gautier-ufc-332",
+      "title": "Roman Kopylov stops Ateba Gautier in R1 at UFC 332",
+      "people": [
+        "Roman Kopylov",
+        "Ateba Gautier"
+      ],
+      "event": "UFC 332 (Oct 3)",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Kopylov def. Gautier R1 TKO (punches), main card opener",
+        "Kopylov was underdog; said 'I think I'm dreaming'",
+        "Related: dana-white-no-translator-ateba-gautier"
+      ],
+      "sources": [
+        "https://www.cbssports.com/ufc/news/ufc-332-fight-results-natalia-silva-wang-cong-card-live-updates/live/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2224-kopylov-stops-gautier",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
+      "id": "nickal-vs-pyfer-ufc-335",
+      "title": "Bo Nickal vs. Joe Pyfer booked for UFC 335",
+      "people": [
+        "Bo Nickal",
+        "Joe Pyfer",
+        "Brandon Moreno",
+        "Charles Johnson"
+      ],
+      "event": "UFC 335, Dec 12, 2026",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Announced during UFC 332 broadcast",
+        "Moreno vs. Charles Johnson also added"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
+        "https://bleacherreport.com/articles/25506336-ufc-335-fight-card-reveals-charles-oliveira-vs-diego-lopes-bmf-title-pereira-pavlovich-more"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2225-nickal-vs-pyfer",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
+      "id": "fury-invites-trump-ringwalk-joshua",
+      "sport": "boxing",
+      "title": "Tyson Fury to invite Donald Trump to walk him out vs. Anthony Joshua",
+      "people": [
+        "Tyson Fury",
+        "Anthony Joshua",
+        "Donald Trump",
+        "Oleksandr Usyk"
+      ],
+      "event": "Fury vs. Joshua, Dec 11, 2026, Principality Stadium, Cardiff",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Fury told Sky Sports he will invite Trump to accompany his ringwalk",
+        "Fury called Joshua fight a warm-up for Usyk trilogy",
+        "Related: dana-white-hearn-fury-joshua-feud"
+      ],
+      "sources": [
+        "https://www.skysports.com/boxing/news/13594802/fury-vs-joshua-tyson-fury-to-invite-donald-trump-to-accompany-him-on-anthony-joshua-fight-ringwalk-in-december"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2226-fury-trump-ringwalk",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
+      "id": "whittaker-outpoints-wallace-ibf-eliminator",
+      "sport": "boxing",
+      "title": "Ben Whittaker survives 12th-round scare to outpoint Conor Wallace, becomes Bivol's IBF mandatory",
+      "people": [
+        "Ben Whittaker",
+        "Conor Wallace",
+        "Dmitry Bivol"
+      ],
+      "event": "IBF light heavyweight final eliminator, Oct 3, 2026, Birmingham",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "UD 117-111, 116-112, 115-113",
+        "Whittaker went down 3 times in 12th, none ruled knockdowns",
+        "Now mandatory for Bivol's IBF title"
+      ],
+      "sources": [
+        "https://www.skysports.com/boxing/news/13594856/ben-whittaker-clings-on-to-outpoint-conor-wallace-as-he-endures-final-round-fright-to-claim-unanimous-decision-win",
+        "https://www.espn.com/boxing/story/_/id/50093253/ben-whittaker-dominates-chaotic-finish-outpoint-conor-wallace"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2227-whittaker-survives-wallace",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
       "id": "dos-anjos-ko-by-hernandez-gloves-off-ufc-332",
       "title": "Alexander Hernandez stops Rafael dos Anjos at UFC 332; RDA leaves gloves in cage",
       "people": [
@@ -295,7 +432,8 @@
         "Green, 40, on four-fight win streak; called BMF title a dream",
         "Ribovics called Green 'Minnie Mouse' at presser",
         "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official",
-        "After Friday weigh-ins, Green and boxer Arnold Barboza Jr. confronted Ribovics and his team outside; insults traded, near scuffle, calmed down. Green gets 20% of Ribovics' purse; never missed weight in 31 UFC fights; swore at a cameraman during a hard cut"
+        "After Friday weigh-ins, Green and boxer Arnold Barboza Jr. confronted Ribovics and his team outside; insults traded, near scuffle, calmed down. Green gets 20% of Ribovics' purse; never missed weight in 31 UFC fights; swore at a cameraman during a hard cut",
+        "RESULT 2026-10-03: Ribovics def. Green via R1 TKO 4:08 (ref Herb Dean), three knockdowns; Ribovics apologized for missing weight"
       ],
       "sources": [
         "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
@@ -304,7 +442,9 @@
         "https://hottakes.com/articles/esteban-ribovics-misses-weight-by-half-a-pound-for-ufc-332-7f9858a9-4973-4017-8510-9bc3378fef2b",
         "https://sports.yahoo.com/articles/video-green-team-confront-ribovics-124209563.html",
         "https://bloodyelbow.com/2026/10/03/king-green-and-esteban-ribovics-clash-over-weight-miss-outside-ufc-332-fighter-hotel/",
-        "https://sports.yahoo.com/articles/king-green-crashes-cameraman-during-020000076.html"
+        "https://sports.yahoo.com/articles/king-green-crashes-cameraman-during-020000076.html",
+        "https://cagesidepress.com/2026/10/03/esteban-ribovics-scores-violent-tko-victory-over-king-green/",
+        "https://sports.yahoo.com/articles/ufc-332-video-esteban-ribovics-014127714.html"
       ],
       "posts": [
         {
@@ -328,6 +468,11 @@
           "kind": "update",
           "format": "reel",
           "held": "no usable photo: 'King Green' fetch returned unrelated Wikimedia images; not scheduled"
+        },
+        {
+          "post": "2026-10-03-2222-ribovics-stops-king-green",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },
@@ -405,13 +550,16 @@
         "Figueiredo gave Talbott a shove during faceoffs at the Oct 1 UFC 332 press conference (MMA Junkie)",
         "Figueiredo told MMA Fighting the card criticism is annoying and he's happy the UFC keeps him on main cards",
         "Related: figueiredo-calls-for-van-title-shot, talbott-omalley-white-house-claim",
-        "UPDATE 2026-10-02: Figueiredo faked a punch at Talbott at ceremonial weigh-in faceoff; Talbott reacted, staff stepped in; five-round co-main, Talbott favored"
+        "UPDATE 2026-10-02: Figueiredo faked a punch at Talbott at ceremonial weigh-in faceoff; Talbott reacted, staff stepped in; five-round co-main, Talbott favored",
+        "RESULT 2026-10-03: Talbott def. Figueiredo, R1 TKO (right hand knockdown, knee, finish); Talbott 6-1 UFC, back-to-back wins over ex-champs Cejudo and Figueiredo"
       ],
       "sources": [
         "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/01/ufc-332-press-conference-faceoffs-silva-wang-figueiredo-talbott/92045534007/",
         "https://sports.yahoo.com/articles/ufc-332-press-conference-faceoffs-230142843.html",
         "https://sports.yahoo.com/articles/live-ufc-332-press-conference-210502283.html",
-        "https://boxingnews.com/news/figueiredo-fake-punch-talbott-ufc-332"
+        "https://boxingnews.com/news/figueiredo-fake-punch-talbott-ufc-332",
+        "https://bleacherreport.com/articles/25506247-payton-talbott-beats-figueiredo-stats-judges-scorecards-prize-money-highlights-ufc-332",
+        "https://www.sherdog.com/videos/highlightreels/UFC-332-highlight-video-Payton-Talbott-destroys-Deiveson-Figueiredo-23825"
       ],
       "posts": [
         {
@@ -429,6 +577,11 @@
           "image": "fighter photo (Deiveson Figueiredo)",
           "scheduled_for": "2026-10-02T23:35:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4849648273340973857"
+        },
+        {
+          "post": "2026-10-03-2221-talbott-finishes-figueiredo",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },
@@ -1244,12 +1397,16 @@
         "No opponent or date officially announced; outlets speculate Sergei Pavlovich (No. 2 HW)",
         "Pereira is No. 3 at heavyweight; last fought June 2026, TKO loss to Ciryl Gane for interim HW title at UFC Freedom 250",
         "Gane defends interim title vs. Josh Hokit at UFC 334 on Nov. 14",
-        "Oct 1: Dana White confirmed he'll announce Pereira's next fight during the UFC 332 Kick stream (Sat., Oct. 3), per Bloody Elbow"
+        "Oct 1: Dana White confirmed he'll announce Pereira's next fight during the UFC 332 Kick stream (Sat., Oct. 3), per Bloody Elbow",
+        "UPDATE 2026-10-03: Dana White announced on UFC 332 broadcast: Pereira vs. Sergei Pavlovich, 5-round heavyweight co-main of UFC 335, Dec 12, T-Mobile Arena, Las Vegas; Pavlovich on 3-fight win streak"
       ],
       "sources": [
         "https://heavy.com/sports/ufc/alex-pereira-teases-fight-big-challenge/",
         "https://athlonsports.com/mma/alex-pereira-teases-ufc-return-big-challenge-sergei-pavlovich",
-        "https://bloodyelbow.com/2026/10/01/dana-white-confirms-hell-announce-alex-pereiras-next-fight-during-ufc-332-kick-stream/"
+        "https://bloodyelbow.com/2026/10/01/dana-white-confirms-hell-announce-alex-pereiras-next-fight-during-ufc-332-kick-stream/",
+        "https://sports.yahoo.com/mma/article/alex-pereira-staying-at-heavyweight-as-dana-white-announces-his-next-fight-for-ufc-335-011052102.html",
+        "https://cagesidepress.com/2026/10/03/sergei-pavlovich-vs-alex-pereira-announced-as-ufc-335-co-main/",
+        "https://www.fightful.com/mma/alex-pereira-to-face-sergei-pavlovich-in-ufc-335-co-main-event/"
       ],
       "posts": [
         {
@@ -1267,6 +1424,11 @@
           "image": "fighter photo (Alex Pereira)",
           "scheduled_for": "2026-10-01T06:30:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1115983320847173781"
+        },
+        {
+          "post": "2026-10-03-2220-pereira-pavlovich-ufc-335",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },

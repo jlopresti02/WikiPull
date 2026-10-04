@@ -1,0 +1,33 @@
+{
+  "story_id": "whittaker-outpoints-wallace-ibf-eliminator",
+  "headline": "Survived",
+  "trial_reel": true,
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ben Whittaker"
+    },
+    {
+      "type": "fighter",
+      "name": "Ben Whittaker (boxer)"
+    }
+  ],
+  "color": "#6b2fd1",
+  "question": "Ready for Bivol?",
+  "caption": "Ben Whittaker nearly threw it away in the final round but still beat Conor Wallace in Birmingham.\nReady for Bivol? 👇\n\nWhittaker went down three times in the 12th, with none ruled knockdowns, and won a unanimous decision (117-111, 116-112, 115-113) in the IBF light heavyweight final eliminator. The win makes him the mandatory challenger for Dmitry Bivol's IBF title. Boxing news and results.\n\nDoes he beat Bivol?",
+  "hashtags": [
+    "Boxing",
+    "IBF",
+    "BenWhittaker",
+    "DmitryBivol",
+    "BoxingNews"
+  ],
+  "sources": [
+    "Sky Sports",
+    "ESPN"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}
