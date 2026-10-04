@@ -1,0 +1,39 @@
+{
+  "story_id": "king-green-bmf-title-dana-white",
+  "headline": "Rough Year",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Herb Dean"
+    },
+    {
+      "type": "fighter",
+      "name": "Bobby Green",
+      "file": "drive-bobby-green-aka-king-green",
+      "headline": "Stopped Too Soon?"
+    },
+    {
+      "type": "fighter",
+      "name": "King Green",
+      "headline": "Stopped Too Soon?"
+    }
+  ],
+  "color": "#0f8a5f",
+  "question": "Early or fair?",
+  "caption": "UPDATE: Dana White admitted referee Herb Dean is having a rough year after King Green's UFC 332 loss was waved off.\nEarly or fair? 👇\n\nDean stopped Esteban Ribovics vs. King Green in round one after Green was dropped for a third time. Green said he had told Dean before the fight to let it go until someone got knocked out, and admitted he's a little mad. White said at the post-fight press conference that Green went down three times in a row and he has seen worse stoppages. It adds to a run of officiating debates around Dean this year. UFC news and MMA news.\n\nShould the ref have let it go?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "HerbDean",
+    "KingGreen"
+  ],
+  "sources": [
+    "MMA Sucka",
+    "MMA Mania"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

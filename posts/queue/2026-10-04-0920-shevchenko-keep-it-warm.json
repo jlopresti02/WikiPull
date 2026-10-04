@@ -1,0 +1,43 @@
+{
+  "story_id": "shevchenko-warns-silva-coming-for-belt",
+  "headline": "Keep It Warm",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Valentina Shevchenko"
+    },
+    {
+      "type": "fighter",
+      "name": "Natalia Silva",
+      "file": "02-natalia-silva-ufc",
+      "headline": "Shevchenko Warns"
+    },
+    {
+      "type": "fighter",
+      "name": "Natália Silva",
+      "headline": "Shevchenko Warns"
+    },
+    {
+      "type": "mystery",
+      "headline": "Shevchenko's Warning"
+    }
+  ],
+  "color": "#d2202f",
+  "question": "Shevchenko or Silva?",
+  "caption": "Valentina Shevchenko has a message for new UFC champ Natália Silva: don't get comfortable, she's coming back for the belt.\nShevchenko or Silva? 👇\n\nSilva took the vacant women's flyweight title with a unanimous decision over Wang Cong in the UFC 332 main event in Salt Lake City. Shevchenko, who gave up the belt in September with an injury expected to sideline her into 2027, congratulated Silva and told her to keep the title warm. Dana White said Silva shouldn't sit and wait and should stay active in the meantime. UFC news and MMA news.\n\nWho wins the eventual title fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "ValentinaShevchenko",
+    "NataliaSilva"
+  ],
+  "sources": [
+    "Yahoo Sports (Uncrowned)",
+    "LowKick MMA"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

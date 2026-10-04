@@ -2,6 +2,35 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "shevchenko-warns-silva-coming-for-belt",
+      "title": "Valentina Shevchenko warns new champ Natalia Silva not to get comfortable; Dana White says Silva should stay active",
+      "people": [
+        "Valentina Shevchenko",
+        "Natalia Silva",
+        "Dana White"
+      ],
+      "event": "UFC 332 aftermath",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "Shevchenko congratulated Silva and said 'keep it warm, I'm coming soon for my belt'",
+        "Shevchenko vacated in September with undisclosed injury expected to keep her out until 2027",
+        "Dana White at post-fight presser: Silva should be active rather than wait for Shevchenko",
+        "White on Wang: she'll 'hate herself' watching the film; fight was close"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/article/dana-white-valentina-shevchenko-react-to-natalia-silvas-ufc-332-title-win-dont-get-too-comfortable-043614802.html",
+        "https://lowkickmma.com/natalia-silva-ufc-title-my-time-ufc-332",
+        "https://heavy.com/sports/ufc/dana-white-wang-cong-ufc-332/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-0920-shevchenko-keep-it-warm",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "ufc-332-results",
       "title": "UFC 332 full results: Silva wins vacant flyweight title, record 11 finishes",
       "people": [
@@ -487,7 +516,8 @@
         "Ribovics called Green 'Minnie Mouse' at presser",
         "UFC 332 weigh-ins (Oct 2): Ribovics 156.5, missed lightweight limit by 0.5 lb, fined part of purse; Green 155.5; all others made weight; Silva 125 / Wang 124.5 title fight official",
         "After Friday weigh-ins, Green and boxer Arnold Barboza Jr. confronted Ribovics and his team outside; insults traded, near scuffle, calmed down. Green gets 20% of Ribovics' purse; never missed weight in 31 UFC fights; swore at a cameraman during a hard cut",
-        "RESULT 2026-10-03: Ribovics def. Green via R1 TKO 4:08 (ref Herb Dean), three knockdowns; Ribovics apologized for missing weight"
+        "RESULT 2026-10-03: Ribovics def. Green via R1 TKO 4:08 (ref Herb Dean), three knockdowns; Ribovics apologized for missing weight",
+        "UPDATE 2026-10-04: Stoppage disputed; Green said he told Herb Dean not to stop it until someone was knocked out, 'a little mad'. Dana White: 'Herb's having a rough f**king year' but Green was dropped three times, 'I've seen worse stoppages'"
       ],
       "sources": [
         "https://www.lowkickmma.com/dana-white-king-green-bmf-title-ribovic/",
@@ -498,7 +528,9 @@
         "https://bloodyelbow.com/2026/10/03/king-green-and-esteban-ribovics-clash-over-weight-miss-outside-ufc-332-fighter-hotel/",
         "https://sports.yahoo.com/articles/king-green-crashes-cameraman-during-020000076.html",
         "https://cagesidepress.com/2026/10/03/esteban-ribovics-scores-violent-tko-victory-over-king-green/",
-        "https://sports.yahoo.com/articles/ufc-332-video-esteban-ribovics-014127714.html"
+        "https://sports.yahoo.com/articles/ufc-332-video-esteban-ribovics-014127714.html",
+        "https://mmasucka.com/news/dana-white-reacts-to-herb-deans-alleged-early-stoppage-debacle-after-ufc-332/",
+        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476841/dana-white-admits-herb-dean-having-rough-year-after-screwy-ufc-332-stoppage-king-green-reacts"
       ],
       "posts": [
         {
@@ -531,6 +563,11 @@
           "image": "fighter photo (King Green, user upload)",
           "scheduled_for": "2026-10-04T02:10:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1548357879828791591"
+        },
+        {
+          "post": "2026-10-04-0922-herb-dean-rough-year",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },
@@ -1522,13 +1559,16 @@
         "Talbott said on his YouTube channel he was supposed to fight O'Malley at UFC Freedom 250 in June",
         "Several planned opponents fell through, citing injuries; Talbott questioned whether it was the UFC or fighters being scared",
         "Broken feet also kept Talbott sidelined",
-        "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323"
+        "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323",
+        "UPDATE 2026-10-03: After TKO of Figueiredo at UFC 332, Talbott called out O'Malley in-cage: 'I just mopped the floor with two champions back-to-back... Sean O'Malley. You can't run forever.' Dana White called Talbott 'absolutely dominant'; no O'Malley response yet"
       ],
       "sources": [
         "https://heavy.com/sports/ufc/payton-talbott-sean-omalley-was-discussed/",
         "https://www.si.com/fannation/mma/news/ufc-332-star-sean-omalley-avoided-ufc-fight-house-fight-payton-talbott",
         "https://www.mmanews.com/article/ufc-332s-payton-talbott-claims-he-was-expected-to-fight-former-champion-at-white-house",
-        "https://www.mmamania.com/latest-news/475780/payton-talbott-vs-sean-omalley-ufc-331s-talbott-explains-how-plague-of-broken-feet-stranded-him-on-sidelines"
+        "https://www.mmamania.com/latest-news/475780/payton-talbott-vs-sean-omalley-ufc-331s-talbott-explains-how-plague-of-broken-feet-stranded-him-on-sidelines",
+        "https://sports.yahoo.com/articles/payton-talbott-calls-sean-o-082707069.html",
+        "https://heavy.com/sports/ufc/dana-white-payton-talbott-ufc-332/"
       ],
       "posts": [
         {
@@ -1538,6 +1578,11 @@
           "image": "fighter photo (Sean O'Malley; no usable Talbott photo)",
           "scheduled_for": "2026-10-01T00:39:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6386136268349617173"
+        },
+        {
+          "post": "2026-10-04-0921-talbott-cant-run",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },

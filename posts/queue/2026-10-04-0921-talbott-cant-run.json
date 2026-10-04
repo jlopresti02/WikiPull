@@ -1,0 +1,39 @@
+{
+  "story_id": "talbott-omalley-white-house-claim",
+  "headline": "Can't Run Forever",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Payton Talbott",
+      "file": "drive-payton-talbott"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean O'Malley",
+      "file": "01-sean-o-malley-in-2024",
+      "headline": "Talbott Calls Him Out"
+    },
+    {
+      "type": "mystery",
+      "headline": "Talbott's Callout"
+    }
+  ],
+  "color": "#0f8a5f",
+  "question": "Talbott or O'Malley?",
+  "caption": "UPDATE: Payton Talbott just called out Sean O'Malley again, this time inside the Octagon after stopping Deiveson Figueiredo.\nTalbott or O'Malley? 👇\n\nFresh off a first-round TKO of the former champ in the UFC 332 co-main, Talbott said he has now beaten two champions in a row and wants another, telling O'Malley he can't run forever. Talbott had already claimed a fight with O'Malley fell through earlier this year, which O'Malley denied. Dana White called Talbott's performance absolutely dominant. UFC 332 results and UFC bantamweight news.\n\nShould the UFC make it next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "PaytonTalbott",
+    "SeanOMalley"
+  ],
+  "sources": [
+    "NY Fights via Yahoo Sports",
+    "Heavy"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}
