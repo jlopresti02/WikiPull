@@ -8,7 +8,9 @@
         "name": "Payton Talbott"
       },
       "right": {
-        "name": "Andrew Garfield"
+        "name": "Andrew Garfield",
+        "scale": 0.6,
+        "lift": 0.3
       }
     },
     {
@@ -38,7 +40,7 @@
     "image": "images/pairs/payton-talbott-andrew-garfield.png",
     "credit": "WWIT MMA News; WWIT MMA News (edit)"
   },
-  "music": "music/news-intro/01-intro-a-new-song.mp3",
-  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
-  "music_start": 22.25
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

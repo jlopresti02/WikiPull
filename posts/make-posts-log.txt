@@ -1,11 +1,6 @@
-[0;93m2026-10-04 15:56:48.385824885 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/andrew-garfield/cutouts/user-andrew-garfield.png
-Done: 1 new cutout(s).
 
 == 2026-10-04-1200-talbott-garfield-slip.json
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/andrew-garfield
-Image: {'type': 'pair', 'left': {'name': 'Payton Talbott'}, 'right': {'name': 'Andrew Garfield'}} -> fighter images/pairs/payton-talbott-andrew-garfield.png  headline: Wrong Callout
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Image: {'type': 'pair', 'left': {'name': 'Payton Talbott'}, 'right': {'name': 'Andrew Garfield', 'scale': 0.6, 'lift': 0.3}} -> fighter images/pairs/payton-talbott-andrew-garfield.png  headline: Wrong Callout
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
 Rendered posts/2026-10-04-1200-talbott-garfield-slip/post.png (fighter)
 Rendered posts/2026-10-04-1200-talbott-garfield-slip/reel.mp4
