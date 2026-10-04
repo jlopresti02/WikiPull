@@ -26,7 +26,10 @@
         {
           "post": "2026-10-03-2223-oliveira-lopes-bmf",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Charles Oliveira)",
+          "scheduled_for": "2026-10-03T23:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5907881838592082656"
         }
       ]
     },
@@ -79,7 +82,10 @@
         {
           "post": "2026-10-03-2225-nickal-vs-pyfer",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "fighter photo (Bo Nickal)",
+          "scheduled_for": "2026-10-04T00:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
         }
       ]
     },
@@ -107,7 +113,10 @@
         {
           "post": "2026-10-03-2226-fury-trump-ringwalk",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "fighter photo (Tyson Fury)",
+          "scheduled_for": "2026-10-04T01:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6960231282061496310"
         }
       ]
     },
@@ -135,7 +144,10 @@
         {
           "post": "2026-10-03-2227-whittaker-survives-wallace",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "fighter photo (Ben Whittaker)",
+          "scheduled_for": "2026-10-04T01:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5618266060130204050"
         }
       ]
     },
@@ -474,7 +486,8 @@
           "post": "2026-10-03-2228-ribovics-ices-green",
           "kind": "update",
           "format": "reel",
-          "note": "re-queued: first render picked a wrong 'Bobby Green' (place) photo"
+          "note": "re-queued: first render picked a wrong 'Bobby Green' (place) photo",
+          "held": "not scheduled: no photo found for Esteban Ribovics or Bobby Green (text-only render)"
         }
       ]
     },
@@ -583,7 +596,10 @@
         {
           "post": "2026-10-03-2221-talbott-finishes-figueiredo",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Deiveson Figueiredo)",
+          "scheduled_for": "2026-10-03T23:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6102392774016123485"
         }
       ]
     },
@@ -1430,7 +1446,10 @@
         {
           "post": "2026-10-03-2220-pereira-pavlovich-ufc-335",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Alex Pereira)",
+          "scheduled_for": "2026-10-03T22:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9222102418765727027"
         }
       ]
     },
