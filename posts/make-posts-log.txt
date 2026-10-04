@@ -1,11 +1,6 @@
-[0;93m2026-10-04 02:40:19.121216491 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/bobby-green-fighter/cutouts/upload-king-green-1.png
-Done: 1 new cutout(s).
 
-== 2026-10-03-2230-king-green-stopped.json
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bobby-green-fighter
-Image: {'type': 'fighter', 'name': 'Bobby Green (fighter)', 'file': 'upload-king-green-1'} -> fighter images/bobby-green-fighter/cutouts/upload-king-green-1.png  headline: Green Stopped
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-03-2230-king-green-stopped/post.png (fighter)
-Rendered posts/2026-10-03-2230-king-green-stopped/reel.mp4
+== 2026-10-03-2320-silva-new-champ.json
+Image: {'type': 'fighter', 'name': 'Natália Silva'} -> fighter images/nat-lia-silva/cutouts/01-nat-lia-silva-2025.png  headline: New Champ
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-03-2320-silva-new-champ/post.png (fighter)
+Rendered posts/2026-10-03-2320-silva-new-champ/reel.mp4
