@@ -1,10 +1,11 @@
 {
   "story_id": "strickland-money-ufc-335-snub",
-  "headline": "Imavov Waits",
+  "headline": "Pay Me",
   "visual": [
     {
       "type": "fighter",
-      "name": "Sean Strickland"
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
     },
     {
       "type": "fighter",
@@ -36,10 +37,10 @@
   "reel": true,
   "subject": {
     "kind": "fighter",
-    "image": "images/nassourdine-imavov/cutouts/01-nassourdine-imavov.png",
-    "credit": "JoeKhanMMA / CC BY-SA 4.0"
+    "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
-  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
-  "music_start": 164.75
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }

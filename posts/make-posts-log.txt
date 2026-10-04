@@ -1,13 +1,6 @@
-[0;93m2026-10-04 22:48:38.450112590 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/sean-strickland/cutouts/drive-sean-strickland-2.png
-  cutout images/sean-strickland/cutouts/drive-sean-strickland-3.png
-  cutout images/sean-strickland/cutouts/drive-sean-strickland-funny.png
-  cutout images/sean-strickland/cutouts/drive-sean-strickland.png
-Done: 4 new cutout(s).
-Drive: saved images/sean-strickland/drive-sean-strickland.jpg
-Drive: saved images/sean-strickland/drive-sean-strickland-2.jpg
-Drive: saved images/sean-strickland/drive-sean-strickland-3.jpg
-Drive: saved images/sean-strickland/drive-sean-strickland-funny.png
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sean-strickland
-Queue is empty.
+
+== 2026-10-04-1820-strickland-bingo-money.json
+Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Pay Me
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-04-1820-strickland-bingo-money/post.png (fighter)
+Rendered posts/2026-10-04-1820-strickland-bingo-money/reel.mp4
