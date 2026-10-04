@@ -32,7 +32,10 @@
         {
           "post": "2026-10-04-0845-ufc-332-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "image": "cover Natália Silva; hook Johnny Walker; silhouette for Wang Cong and Payton Talbott",
+          "scheduled_for": "2026-10-04T08:45:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5322047084722079531"
         }
       ]
     },
