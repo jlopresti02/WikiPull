@@ -42,5 +42,6 @@
   },
   "music": "music/news-intro/02-a-new-dawn-intro.mp3",
   "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
-  "music_start": 108.75
+  "music_start": 108.75,
+  "trial_reel": true
 }

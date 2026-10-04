@@ -1737,7 +1737,7 @@
         {
           "post": "2026-10-04-1200-talbott-garfield-slip",
           "kind": "new",
-          "format": "reel",
+          "format": "trial_reel",
           "image": "pair: Talbott (Drive) + user-supplied edited Garfield image",
           "scheduled_for": "2026-10-04T12:15:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2924398094969226067"
