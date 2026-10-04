@@ -271,6 +271,36 @@ After the Reels are rendered (step 6), check each post's
 image, and name the person whose photo would fix it so they can add one
 to the image bank.
 
+**Photo-needed alerts** (requested 2026-10-04). Right after the Reels
+render, and before scheduling, check every post's `post.json`. If
+`subject.kind` is `"graphic"` with `"graphic": "mystery"` (silhouette)
+or `"none"`, or the photo used is not the person the story is about,
+send the user a **PushNotification** (status "proactive") straight
+away, separate from the end-of-run alert, so they can add a photo while
+there's still time. One notification per run covering every such post,
+under 200 characters, naming who needs a photo, the headline and the
+time it's scheduled for, and saying where to put it, e.g.
+"Photo needed: Esteban Ribovics ('Blame The AC?', 2:25 PM) and Raoni
+Barcelos (2:55 PM). Add to Gemini Images in Drive to replace the silhouette."
+For a held-back text-only post, say it's held until a photo is added.
+Schedule silhouette posts at the end of the run's slots so there is as
+much time as possible to swap them.
+
+**Swap silhouettes when a photo arrives.** At the start of every run
+(and whenever the user asks), check Metricool's waiting posts and
+`stories.json` for posts that went out to Metricool with a silhouette
+(`"image"` says silhouette) and haven't published yet. If the Drive
+folder now has a photo of that person: add it to `drive_images.json`,
+re-queue the post (its original queue file from git history plus
+`"file": "drive-<slug>"` on the person's visual entry) in one push, wait
+for the Make posts commit, check the new `post.png`, then update the
+Metricool post (`updateScheduledPost`, same caption from the new
+`caption.txt`, media and cover pinned to the new commit). If the post
+is due within about 10 minutes, first move it 30 minutes later (keeping
+the 30-minute spacing) so the silhouette version never goes out. Record
+the new image and time in `stories.json`. Held-back text-only posts get
+rendered and scheduled the same way once a photo is added.
+
 Example for a replacement story:
 
 ```json
@@ -485,5 +515,5 @@ Ledger: `{"post": "<name>", "kind": "new", "format": "carousel"}`.
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
-which image type was used, and Reel, Trial Reel or carousel), any that were pushed to later slots, which were held back for having no photo, which
+which image type was used, and Reel, Trial Reel or carousel), any that were pushed to later slots, which were held back for having no photo, which silhouettes are still waiting for a photo (person and time), which
 stories were skipped as repeats, and any failures. If there were no posts, say so in one line.
