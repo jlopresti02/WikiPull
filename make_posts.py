@@ -82,6 +82,35 @@ def try_visual(v):
             cut = cuts[min(max(int(v.get("photo", 1)), 1), len(cuts)) - 1]
         return {"kind": "fighter", "image": str(cut.relative_to(ROOT)),
                 "credit": photo_credit(folder, cut.name)}
+    if t == "pair":
+        # Two people side by side in one cutout, e.g. a fighter and the
+        # person he called out: {"type": "pair", "left": {"name": ...},
+        # "right": {"name": ..., "file": ...}}. Both must have a cutout.
+        from PIL import Image
+        sides = []
+        for side in ("left", "right"):
+            sub = try_visual({"type": "fighter", **v[side]})
+            if not sub:
+                print(f"  pair: no cutout for {v[side].get('name')}")
+                return None
+            sides.append(sub)
+        cuts = []
+        for sub in sides:
+            im = Image.open(ROOT / sub["image"]).convert("RGBA")
+            cuts.append(im.crop(im.getbbox() or (0, 0, im.width, im.height)))
+        h = max(c.height for c in cuts)
+        cuts = [c.resize((max(1, round(c.width * h / c.height)), h), Image.LANCZOS) for c in cuts]
+        overlap = int(min(c.width for c in cuts) * 0.12)
+        out = Image.new("RGBA", (cuts[0].width + cuts[1].width - overlap, h), (0, 0, 0, 0))
+        out.alpha_composite(cuts[1], (cuts[0].width - overlap, 0))
+        out.alpha_composite(cuts[0], (0, 0))  # left person in front
+        folder = ROOT / "images" / "pairs"
+        folder.mkdir(parents=True, exist_ok=True)
+        path = folder / (slugify(v["left"]["name"] + " " + v["right"]["name"]) + ".png")
+        out.save(path)
+        credits = [s["credit"] for s in sides if s.get("credit")]
+        credit = "; ".join(dict.fromkeys(credits)) or None
+        return {"kind": "fighter", "image": str(path.relative_to(ROOT)), "credit": credit}
     if t in ("venue", "flag"):
         query = v.get("name") or v.get("country")
         folder = ROOT / "images" / (("flag-" if t == "flag" else "") + slugify(query))
