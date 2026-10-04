@@ -55,8 +55,10 @@
           "post": "2026-10-03-2229-kopylov-shocks-gautier",
           "kind": "new",
           "format": "trial_reel",
-          "held": null,
-          "note": "re-queued with user-uploaded Kopylov photo"
+          "note": "re-queued with user-uploaded Kopylov photo",
+          "image": "fighter photo (Roman Kopylov, user upload)",
+          "scheduled_for": "2026-10-04T02:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9181348136481933692"
         }
       ]
     },
@@ -488,7 +490,9 @@
           "kind": "update",
           "format": "reel",
           "note": "re-queued with user-uploaded King Green photo",
-          "held": null
+          "image": "fighter photo (King Green, user upload)",
+          "scheduled_for": "2026-10-04T02:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1548357879828791591"
         }
       ]
     },
