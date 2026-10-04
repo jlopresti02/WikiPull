@@ -18,7 +18,7 @@ A post file is a small JSON file:
       "music":    "music/track.mp3",         # optional, track in the repo
       "music_credit": "Track by Artist / CC BY 4.0",  # shown in the caption
       "music_start": 12.5,                   # optional, where in the track to start
-      "seconds":  8,                         # optional, Reel length (default 8)
+      "seconds":  5,                         # optional, Reel length (default 5)
       "question": "Colby or Strickland?",    # optional: on the Reel the headline
                                              # turns into this question at 2.5 s
       "follow_card": true                    # optional: last 1.2 s of the Reel
@@ -384,7 +384,7 @@ def make_reel(scene, out, spec):
     with the music track (or silence) underneath."""
     if not shutil.which("ffmpeg"):
         sys.exit("ffmpeg is needed to make a Reel")
-    seconds = float(spec.get("seconds", 8))
+    seconds = float(spec.get("seconds", 5))
     frames = int(seconds * FPS)
     music = spec.get("music")
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
@@ -418,8 +418,11 @@ def make_reel(scene, out, spec):
     fade = max(1, int(0.2 * FPS))
     for i in range(frames):
         t = i / max(1, frames - 1)
-        zoom = 0.93 + 0.07 * ease_out(t)
-        text_alpha = min(1.0, (i + 1) / punch)
+        # Visible motion from the first frame (viewers decide in ~2 s): a
+        # bigger push-in that moves fastest at the start.
+        zoom = 0.86 + 0.14 * ease_out(t)
+        # Headline readable on frame one, then punches to full.
+        text_alpha = min(1.0, 0.6 + 0.4 * (i + 1) / punch)
         alt, alt_alpha, prev = None, 0.0, None
         for start, layer in cards:
             if i >= start:

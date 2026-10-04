@@ -76,6 +76,21 @@ For each story from the sweep, compare it with `stories.json`:
   *announcement itself* (the opponent is named) is. On 2026-10-01 a
   low-bar Pereira update got 34 views vs 246 for the original.
 
+**Week 1 review (Oct 1-4, 55 Reels; added Oct 4).** Median 194 views per
+Reel, but followers only went 304 to 307 and likes/shares/saves are near
+zero: reach is fine, conversion is the problem. What the week showed:
+- **Fighter vs. fighter drama wins**: Figueiredo's fake punch at Talbott
+  (491), Wang mocking Silva (279), Morales says nobody will fight him
+  (286), Pimblett would vacate rather than fight a teammate (284).
+- **Boxing and business flop**: Fury/Trump 24, Dana vs. Hearn 37,
+  Whittaker 50. Routine bookings too: Lucindo vs. Caliari 82.
+- **Overnight posts die**: posts going out 12-6 AM got a median of 91
+  views vs. 194 overall (UFC 332 results queued past midnight: Silva 91,
+  Nickal/Pyfer 75, Fury 24). **8 PM to midnight is this account's best
+  window** (median about 220), better than mornings or afternoons.
+- **More posts didn't mean more followers**: 20 Reels on Oct 1 alone.
+  Fewer, stronger posts.
+
 What performs (from @wwitmma's first day of data, 2026-10-01):
 - **Top posts (200-260 views)**: a well-known star in the first line, plus
   conflict or stakes: a feud, a clapback, an ultimatum, a refusal, a
@@ -86,10 +101,16 @@ What performs (from @wwitmma's first day of data, 2026-10-01):
   first frame (headline + face) matters most.
 
 Rules:
-- Post every story that qualifies, ordered **most newsworthy first**: star
-  + conflict stories at the top, routine bookings and lesser-known names
-  last. Spacing is one post every 30 minutes (see step 6). Extra posts
-  wait for later slots; they are not dropped.
+- **Daily cap: 10 posts per calendar day (Eastern), all types counted**
+  (Reels, Trial Reels, carousels). Before writing posts, count what
+  Metricool already has published or scheduled for that day (step 6
+  explains how) and only make as many as fit. Rank the run's stories
+  **most newsworthy first** (star + conflict at the top, routine bookings
+  and lesser-known names last) and **drop the weakest** when over the cap.
+  Dropped stories are not queued for later; say in the report which were
+  skipped for the cap. A genuinely big story (title fight booked, a star's
+  result, a major injury or withdrawal) can replace a weaker one already
+  scheduled for that day if it hasn't gone out yet.
 - Only post what a reputable outlet or official source reports. A rumor can
   be posted only if clearly worded as a report ("reportedly", "per ESPN").
 - No posts that mock or sensationalize serious injuries, deaths, arrests or
@@ -117,8 +138,8 @@ use them freely for anything that isn't a top story.
     Dana vs Eddie Hearn over a boxing match: 30 views as a regular Reel).
 - **Trial Reel, always**: every adjacent combat sports story from the
   second sweep (RAF, Olympic and college wrestling, pro BJJ, bare knuckle,
-  pro boxing, arm wrestling, spectacle sports). Post up to **3 per run**,
-  picking the most interesting: a famous name, a viral moment, a feud,
+  pro boxing, arm wrestling, spectacle sports). Post at most **1 per run**
+  (they flopped in week 1, see above), picking the most interesting: a famous name, a viral moment, a feud,
   or a crossover with MMA. Skip routine results nobody outside the sport
   would recognize.
 
@@ -183,7 +204,7 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
   "hashtags": ["MMANews", "UFC", "UFCQatar", "JiriProchazka", "LightHeavyweight"],
   "sources": ["CBS Sports", "ESPN"],
   "music_pool": "espn",
-  "seconds": 6,
+  "seconds": 5,
   "question": "BJP or Stirling?",
   "follow_card": true,
   "reel": true
@@ -191,8 +212,10 @@ Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
 ```
 
 **On the Reel itself** (added Oct 3: people leave after about 2.4 s and
-almost nobody opens the caption):
-- `"question"`: at 2.5 s the headline turns into this question, set just
+almost nobody opens the caption). Reels are **5 seconds** (Oct 4): shorter
+means more people reach the end and it loops. The renderer pushes in on the
+face from the first frame; leave `"seconds"` at 5 unless there's a reason.
+- `"question"`: at about 2 s the headline turns into this question, set just
   as big. Use the same two-option question as the caption's second line,
   2 to 4 words, no emoji (the font has none): "COLBY OR STRICKLAND?",
   "BAN IT?", "FAIR OR NOT?". Every post gets one.
@@ -346,7 +369,8 @@ Built for Instagram search and the Reels algorithm:
   "Colby Covington just called the report fake news." beats "A report says
   RAF offered a wrestling match." For location posts, start with the
   country's flag emoji and the city.
-- 2 to 4 short sentences of the facts, naturally packed with search
+- **2 short sentences** of the facts (Oct 4: long captions got no likes or
+  comments; nobody reads them), naturally packed with search
   keywords: full fighter names, the promotion (UFC, PFL, ONE), the event
   name and number, weight class, city/country, and terms like "MMA news",
   "UFC news", "fight announcement", "title fight" where they're true.
@@ -355,7 +379,8 @@ Built for Instagram search and the Reels algorithm:
   it? 👇", "Fair or not? 👇". Through Oct 2, 38 Reels got 0 comments with
   only an open question at the end; easy picks are easier to answer.
 - End with a short open question too ("Who takes it?").
-- Keep it under about 1,200 characters. Use 1 or 2 emoji at most.
+- Keep the written part (before sources and credits) under about 450
+  characters. Use 1 or 2 emoji at most.
 
 **Hashtags**: exactly 5 (Instagram's limit). Mix: 1 broad (`MMA` or
 `MMANews`), 1 promotion (`UFC`), 1 event (`UFCQatar`, `UFC330`), and 1 to 2
@@ -416,17 +441,29 @@ For each finished post, schedule it with Metricool `createScheduledPost`:
 at least 30 minutes apart**, so each Reel gets its own push from
 Instagram. (On day one, posts 2 minutes apart split each other's reach.)
 
-1. First call Metricool `getScheduledPosts` (brand 7159326, from now to 12
+**Quiet hours (Oct 4): nothing goes out between 12:30 AM and 7:30 AM
+Eastern.** Overnight posts got half the views of everything else.
+
+1. First call Metricool `getScheduledPosts` (brand 7159326, from now to 24
    hours ahead, America/New_York) to see what is already waiting to go out,
-   including overflow from earlier runs.
+   including overflow from earlier runs. For the daily cap (step 3), count
+   that day's posts in `stories.json` (`scheduled_for` dates) plus anything
+   waiting in Metricool for that day.
 2. The first post goes **10 minutes from now**, or 30 minutes after the
    last post already waiting in Metricool, whichever is later. Never put a
    post within 30 minutes of another one.
 3. Each following post goes 30 minutes after the previous one, most
    newsworthy first, until every post has a time.
-4. If the slots run past the next run, keep going: later runs read the
+4. **If a slot would land in quiet hours**, move it and everything after
+   it to **7:30 AM** onward (30 minutes apart). Those morning posts count
+   toward the next day's cap of 10, so drop the weakest if that day would
+   go over. Late-night news that will be stale by morning (a live result
+   everyone already covered) is better skipped than posted at 8 AM; a
+   story with a reaction or a next step (a callout, a "what's next") holds
+   up fine.
+5. If the slots run past the next run, keep going: later runs read the
    Metricool schedule in step 1 and place their own posts after these, so
-   nothing collides and nothing is dropped.
+   nothing collides.
 
 Then add `"scheduled_for"` and the Metricool `plannerUrl` to the post's
 entry in `stories.json`, commit and push.
