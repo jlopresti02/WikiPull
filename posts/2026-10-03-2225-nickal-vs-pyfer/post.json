@@ -29,5 +29,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/bo-nickal/cutouts/01-bo-nickal-52791819473.png",
+    "credit": "Noah Riffe / Public domain"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

@@ -30,5 +30,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/charles-oliveira/cutouts/01-charles-oliveira-do-bronxs.png",
+    "credit": "Renan Silva / CC0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

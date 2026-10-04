@@ -38,5 +38,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/bobby-green/cutouts/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.png",
+    "credit": "Humphrey Bolton / CC BY-SA 2.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

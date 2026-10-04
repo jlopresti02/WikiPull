@@ -29,5 +29,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/tyson-fury/cutouts/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.png",
+    "credit": "Mike DiDomizio / CC BY-SA 4.0"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }

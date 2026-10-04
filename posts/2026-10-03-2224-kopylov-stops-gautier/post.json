@@ -33,5 +33,14 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "graphic",
+    "graphic": "mystery",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

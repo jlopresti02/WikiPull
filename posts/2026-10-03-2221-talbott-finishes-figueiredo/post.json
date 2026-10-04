@@ -1,6 +1,6 @@
 {
   "story_id": "figueiredo-shoves-talbott-ufc-332-presser",
-  "headline": "2 Champs Down",
+  "headline": "Figgy Finished",
   "visual": [
     {
       "type": "fighter",
@@ -29,5 +29,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png",
+    "credit": "Show Me The Money / CC BY 3.0"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
 }

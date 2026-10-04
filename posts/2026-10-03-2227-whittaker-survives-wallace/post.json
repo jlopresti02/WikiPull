@@ -29,5 +29,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/ben-whittaker/cutouts/01-ben-whittaker-boxer-after-tokyo-olympics.png",
+    "credit": "National Lottery Good Causes / CC BY 3.0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }
