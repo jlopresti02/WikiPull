@@ -2,15 +2,35 @@
   "story_id": "dana-white-so-called-experts-ufc-332",
   "headline": "No Clue",
   "visual": [
-    {"type": "fighter", "name": "Dana White", "file": "01-dana-white-in-june-2025-cropped"}
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    }
   ],
   "color": "#d2202f",
   "question": "Dana right or wrong?",
   "caption": "Dana White fired back at the critics of UFC 332, saying the \"so-called experts\" have no clue about the fight business.\nDana right or wrong? 👇\n\nThe Salt Lake City card delivered 11 knockouts, and White said only four or five UFC cards in 25 years have truly been bad. Critics had targeted the Natalia Silva vs. Wang Cong flyweight title main event, and a Yahoo Sports column argues both sides have a point. UFC news and UFC 332 aftermath.\n\nWas UFC 332 a good card?",
-  "hashtags": ["MMANews", "UFC", "UFC332", "DanaWhite", "UFCNews"],
-  "sources": ["Yahoo Sports (Uncrowned)"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "DanaWhite",
+    "UFCNews"
+  ],
+  "sources": [
+    "Yahoo Sports (Uncrowned)"
+  ],
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+    "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

@@ -1,24 +1,29 @@
-[0;93m2026-10-04 17:50:08.837018605 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Sean Strickland
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Nassourdine Imavov
+  saved images/nassourdine-imavov/01-nassourdine-imavov.jpg  [CC BY-SA 4.0]
+  saved images/nassourdine-imavov/02-nassourdine-imavov-2024.png  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-04 22:09:32.982012272 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/esteban-ribovics/cutouts/drive-esteban-ribovics.png
-Done: 1 new cutout(s).
-[0;93m2026-10-04 17:51:18.832646599 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/raoni-barcelos/cutouts/drive-raoni-barcelos.png
-Done: 1 new cutout(s).
-Drive: saved images/esteban-ribovics/drive-esteban-ribovics.jpg
-Drive: saved images/raoni-barcelos/drive-raoni-barcelos.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/esteban-ribovics
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/raoni-barcelos
+  cutout images/nassourdine-imavov/cutouts/01-nassourdine-imavov.png
+  cutout images/nassourdine-imavov/cutouts/02-nassourdine-imavov-2024.png
+Done: 2 new cutout(s).
 
-== 2026-10-04-1321-ribovics-ac-excuse.json
-Image: {'type': 'fighter', 'name': 'Esteban Ribovics', 'file': 'drive-esteban-ribovics'} -> fighter images/esteban-ribovics/cutouts/drive-esteban-ribovics.png  headline: Blame The AC?
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-04-1321-ribovics-ac-excuse/post.png (fighter)
-Rendered posts/2026-10-04-1321-ribovics-ac-excuse/reel.mp4
+== 2026-10-04-1820-strickland-bingo-money.json
+$ fetch.py Sean Strickland --count 5
+$ fetch.py Nassourdine Imavov --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/nassourdine-imavov
+Image: {'type': 'fighter', 'name': 'Nassourdine Imavov', 'headline': 'Imavov Waits'} -> fighter images/nassourdine-imavov/cutouts/01-nassourdine-imavov.png  headline: Imavov Waits
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-04-1820-strickland-bingo-money/post.png (fighter)
+Rendered posts/2026-10-04-1820-strickland-bingo-money/reel.mp4
 
-== 2026-10-04-1322-barcelos-brain-swelling.json
-Image: {'type': 'fighter', 'name': 'Raoni Barcelos', 'file': 'drive-raoni-barcelos'} -> fighter images/raoni-barcelos/cutouts/drive-raoni-barcelos.png  headline: Barcelos Update
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-04-1322-barcelos-brain-swelling/post.png (fighter)
-Rendered posts/2026-10-04-1322-barcelos-brain-swelling/reel.mp4
+== 2026-10-04-1821-dana-so-called-experts.json
+Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: No Clue
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-04-1821-dana-so-called-experts/post.png (fighter)
+Rendered posts/2026-10-04-1821-dana-so-called-experts/reel.mp4

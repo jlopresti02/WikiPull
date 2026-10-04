@@ -1,0 +1,45 @@
+{
+  "story_id": "strickland-money-ufc-335-snub",
+  "headline": "Imavov Waits",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean Strickland"
+    },
+    {
+      "type": "fighter",
+      "name": "Nassourdine Imavov",
+      "headline": "Imavov Waits"
+    },
+    {
+      "type": "mystery",
+      "headline": "Strickland's Price?"
+    }
+  ],
+  "color": "#111111",
+  "question": "Pay him or not?",
+  "caption": "Sean Strickland is hinting that money is why he isn't headlining UFC 335.\nPay him or not? 👇\n\nWhen a fan suggested the UFC middleweight champion was holding out for more money, Strickland reportedly replied \"Bingo lol.\" He had said the Nassourdine Imavov title fight was close, pending an agreement on pay, and has called UFC pay unfair before. Instead, Charles Oliveira vs. Diego Lopes for the BMF title headlines UFC 335 on Dec. 12 in Las Vegas. UFC news.\n\nShould the UFC pay up?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "SeanStrickland",
+    "Imavov"
+  ],
+  "sources": [
+    "MMA Mania",
+    "EssentiallySports"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/nassourdine-imavov/cutouts/01-nassourdine-imavov.png",
+    "credit": "JoeKhanMMA / CC BY-SA 4.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}
