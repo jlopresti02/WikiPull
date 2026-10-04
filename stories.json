@@ -24,7 +24,10 @@
         {
           "post": "2026-10-04-1320-wang-eye-poke",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Wang Cong, Drive)",
+          "scheduled_for": "2026-10-04T13:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2102658632533455352"
         }
       ]
     },
@@ -51,7 +54,10 @@
         {
           "post": "2026-10-04-1321-ribovics-ac-excuse",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "silhouette (no Ribovics photo found)",
+          "scheduled_for": "2026-10-04T13:55:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3817340637555046339"
         }
       ]
     },
@@ -1460,7 +1466,10 @@
         {
           "post": "2026-10-04-1322-barcelos-brain-swelling",
           "kind": "update",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "silhouette (no Barcelos photo found)",
+          "scheduled_for": "2026-10-04T14:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-9181472278928472066"
         }
       ]
     },
