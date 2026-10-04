@@ -541,10 +541,14 @@
       "facts": [
         "At ceremonial weigh-ins, Wang (Joker makeup) bounced her hips imitating Silva's feints",
         "Silva shoved Wang's arms away; security separated them",
-        "Vacant women's flyweight title, Oct 3, Salt Lake City"
+        "Vacant women's flyweight title, Oct 3, Salt Lake City",
+        "RESULT 2026-10-03: Silva def. Wang by UD (49-46, 48-47, 48-47) for vacant women's flyweight title; head-kick knockdown R2; Wang won R4-R5; Silva 4th UFC women's flyweight champ, 15 straight wins"
       ],
       "sources": [
-        "https://sports.yahoo.com/articles/wang-cong-mocks-natalia-silva-001452177.html"
+        "https://sports.yahoo.com/articles/wang-cong-mocks-natalia-silva-001452177.html",
+        "https://cagesidepress.com/2026/10/03/ufc-332-natalia-silva-takes-early-lead-fends-off-wang-cong-to-claim-flyweight-gold/",
+        "https://heavy.com/sports/ufc/natalia-silva-wins-flyweight-title-ufc332/",
+        "https://bleacherreport.com/articles/25506214-natalia-silva-beats-wang-cong-stats-judges-scorecards-prize-money-ufc-332-highlights"
       ],
       "posts": [
         {
@@ -554,6 +558,11 @@
           "image": "fighter photo (Natália Silva)",
           "scheduled_for": "2026-10-02T23:05:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7727204317764997029"
+        },
+        {
+          "post": "2026-10-03-2320-silva-new-champ",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },
