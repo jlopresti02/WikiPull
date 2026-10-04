@@ -4,7 +4,8 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Raoni Barcelos"
+      "name": "Raoni Barcelos",
+      "file": "drive-raoni-barcelos"
     },
     {
       "type": "mystery",
@@ -30,12 +31,11 @@
   "reel": true,
   "trial_reel": true,
   "subject": {
-    "kind": "graphic",
-    "graphic": "mystery",
-    "image": null,
-    "credit": null
+    "kind": "fighter",
+    "image": "images/raoni-barcelos/cutouts/drive-raoni-barcelos.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
-  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
-  "music_start": 156.25
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

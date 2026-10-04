@@ -1,10 +1,11 @@
 {
   "story_id": "ribovics-blames-ac-weight-miss-ufc-332",
-  "headline": "Ribovics' Excuse",
+  "headline": "Blame The AC?",
   "visual": [
     {
       "type": "fighter",
-      "name": "Esteban Ribovics"
+      "name": "Esteban Ribovics",
+      "file": "drive-esteban-ribovics"
     },
     {
       "type": "mystery",
@@ -30,12 +31,11 @@
   "reel": true,
   "trial_reel": true,
   "subject": {
-    "kind": "graphic",
-    "graphic": "mystery",
-    "image": null,
-    "credit": null
+    "kind": "fighter",
+    "image": "images/esteban-ribovics/cutouts/drive-esteban-ribovics.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/01-crystals.mp3",
-  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
-  "music_start": 164.0
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

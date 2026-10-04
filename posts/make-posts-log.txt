@@ -1,30 +1,24 @@
-Searching Wikimedia Commons for: Esteban Ribovics
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Raoni Barcelos
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-
-== 2026-10-04-1320-wang-eye-poke.json
-Image: {'type': 'fighter', 'name': 'Wang Cong', 'file': 'drive-wang-cong'} -> fighter images/wang-cong/cutouts/drive-wang-cong.png  headline: Eye Poke
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-04-1320-wang-eye-poke/post.png (fighter)
-Rendered posts/2026-10-04-1320-wang-eye-poke/reel.mp4
+[0;93m2026-10-04 17:50:08.837018605 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/esteban-ribovics/cutouts/drive-esteban-ribovics.png
+Done: 1 new cutout(s).
+[0;93m2026-10-04 17:51:18.832646599 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/raoni-barcelos/cutouts/drive-raoni-barcelos.png
+Done: 1 new cutout(s).
+Drive: saved images/esteban-ribovics/drive-esteban-ribovics.jpg
+Drive: saved images/raoni-barcelos/drive-raoni-barcelos.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/esteban-ribovics
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/raoni-barcelos
 
 == 2026-10-04-1321-ribovics-ac-excuse.json
-$ fetch.py Esteban Ribovics --count 5
-Image: {'type': 'mystery', 'headline': "Ribovics' Excuse"} -> graphic   headline: Ribovics' Excuse
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-04-1321-ribovics-ac-excuse/post.png (graphic)
+Image: {'type': 'fighter', 'name': 'Esteban Ribovics', 'file': 'drive-esteban-ribovics'} -> fighter images/esteban-ribovics/cutouts/drive-esteban-ribovics.png  headline: Blame The AC?
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-04-1321-ribovics-ac-excuse/post.png (fighter)
 Rendered posts/2026-10-04-1321-ribovics-ac-excuse/reel.mp4
 
 == 2026-10-04-1322-barcelos-brain-swelling.json
-$ fetch.py Raoni Barcelos --count 5
-Image: {'type': 'mystery', 'headline': 'Barcelos Update'} -> graphic   headline: Barcelos Update
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-04-1322-barcelos-brain-swelling/post.png (graphic)
+Image: {'type': 'fighter', 'name': 'Raoni Barcelos', 'file': 'drive-raoni-barcelos'} -> fighter images/raoni-barcelos/cutouts/drive-raoni-barcelos.png  headline: Barcelos Update
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-04-1322-barcelos-brain-swelling/post.png (fighter)
 Rendered posts/2026-10-04-1322-barcelos-brain-swelling/reel.mp4
