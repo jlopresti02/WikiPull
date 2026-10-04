@@ -2,6 +2,61 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "strickland-money-ufc-335-snub",
+      "title": "Sean Strickland hints money is why he isn't headlining UFC 335 vs. Imavov ('Bingo lol')",
+      "people": [
+        "Sean Strickland",
+        "Nassourdine Imavov",
+        "Charles Oliveira",
+        "Diego Lopes"
+      ],
+      "event": "UFC 335 (Dec 12, 2026, T-Mobile Arena, Las Vegas)",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "Strickland replied 'Bingo lol' to a fan saying he wants more money, per EssentiallySports",
+        "Strickland earlier said the Imavov fight was nearly done pending pay; has called UFC pay 'predatory' and 'unfair'",
+        "MMA Mania: Strickland was 'ready to go' for UFC 335",
+        "Oliveira vs. Lopes BMF title headlines UFC 335 instead"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-news/476917/middleweight-miss-sean-strickland-was-ready-to-go-for-ufc-335-before-bmf-swerve",
+        "https://www.yardbarker.com/mma/articles/sean_strickland_reveals_money_as_reason_behind_ufc_335_main_event_snub/s1_17730_44385134"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-1820-strickland-bingo-money",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "dana-white-so-called-experts-ufc-332",
+      "title": "Dana White says the 'so-called experts' have no clue after UFC 332 criticism",
+      "people": [
+        "Dana White",
+        "Natália Silva",
+        "Wang Cong"
+      ],
+      "event": "UFC 332: Silva vs. Wang, Oct 3, 2026, Salt Lake City",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "UFC 332 had 11 knockouts",
+        "White at post-fight presser: only 'four or five in 25 years' were bad cards; 'so-called experts' have no clue about the fight business",
+        "Uncrowned column (Oct 4) says the card over-delivered but the main event lacked stakes"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/article/dana-white-came-for-ufc-332s-so-called-experts--but-they-werent-exactly-wrong-182313337.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-1821-dana-so-called-experts",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "wang-cong-blames-eye-poke-ufc-332",
       "title": "Wang Cong blames first-round eye poke for UFC 332 title loss to Natalia Silva",
       "people": [
