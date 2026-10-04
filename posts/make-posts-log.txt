@@ -1,141 +1,24 @@
-Searching Wikimedia Commons for: Payton Talbott
+Searching Wikimedia Commons for: Esteban Ribovics
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Bobby Green
-  saved images/bobby-green/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.jpg  [CC BY-SA 2.0]
-  saved images/bobby-green/02-bobby-green-geograph-org-uk-8236061.jpg  [CC BY-SA 2.0]
-  saved images/bobby-green/03-entrance-to-bobby-green-farm-geograph-org-uk-6610695.jpg  [CC BY-SA 2.0]
-Done: 3 image(s) saved.
-[0;93m2026-10-04 02:17:50.540436597 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/bobby-green/cutouts/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.png
-  cutout images/bobby-green/cutouts/02-bobby-green-geograph-org-uk-8236061.png
-  cutout images/bobby-green/cutouts/03-entrance-to-bobby-green-farm-geograph-org-uk-6610695.png
-Done: 3 new cutout(s).
-Searching Wikimedia Commons for: Charles Oliveira
-  saved images/charles-oliveira/01-charles-oliveira-do-bronxs.jpg  [CC0]
-  saved images/charles-oliveira/02-charles-do-bronx-oliveira.jpg  [CC BY-SA 3.0]
-  saved images/charles-oliveira/03-charles-oliveira-ufc-51605805645.jpg  [CC0]
-  saved images/charles-oliveira/04-charles-oliveira-ufc-51605575319.jpg  [Public domain]
-  saved images/charles-oliveira/05-charles-oliveira-ufc-51605147518.jpg  [Public domain]
-Done: 5 image(s) saved.
-[0;93m2026-10-04 02:20:03.237789040 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/charles-oliveira/cutouts/01-charles-oliveira-do-bronxs.png
-  cutout images/charles-oliveira/cutouts/02-charles-do-bronx-oliveira.png
-  cutout images/charles-oliveira/cutouts/03-charles-oliveira-ufc-51605805645.png
-  cutout images/charles-oliveira/cutouts/04-charles-oliveira-ufc-51605575319.png
-  cutout images/charles-oliveira/cutouts/05-charles-oliveira-ufc-51605147518.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Ateba Gautier
+Searching Wikimedia Commons for: Bobby Green (fighter)
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Roman Kopylov
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Bo Nickal
-  saved images/bo-nickal/01-bo-nickal-52791819473.jpg  [Public domain]
-  saved images/bo-nickal/02-bo-nickal-las-vegas-2023.jpg  [CC BY-SA 4.0]
-  saved images/bo-nickal/03-bo-nickal-2024.png  [CC BY 3.0]
-Done: 3 image(s) saved.
-[0;93m2026-10-04 02:22:31.344469802 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/bo-nickal/cutouts/01-bo-nickal-52791819473.png
-  cutout images/bo-nickal/cutouts/02-bo-nickal-las-vegas-2023.png
-  cutout images/bo-nickal/cutouts/03-bo-nickal-2024.png
-Done: 3 new cutout(s).
-Searching Wikimedia Commons for: Tyson Fury
-  saved images/tyson-fury/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.jpg  [CC BY-SA 4.0]
-  saved images/tyson-fury/02-tyson-fury-2016-04-30.jpg  [CC BY-SA 4.0]
-  saved images/tyson-fury/03-honestly-tyson-fury.jpg  [CC0]
-  saved images/tyson-fury/04-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017.jpg  [CC BY-SA 4.0]
-  saved images/tyson-fury/05-andy-thorne-meeting-tyson-fury.jpg  [CC BY-SA 4.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-04 02:23:52.723677604 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/tyson-fury/cutouts/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.png
-  cutout images/tyson-fury/cutouts/02-tyson-fury-2016-04-30.png
-  cutout images/tyson-fury/cutouts/03-honestly-tyson-fury.png
-  cutout images/tyson-fury/cutouts/04-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017.png
-  cutout images/tyson-fury/cutouts/05-andy-thorne-meeting-tyson-fury.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Ben Whittaker
-  saved images/ben-whittaker/01-ben-whittaker-boxer-after-tokyo-olympics.jpg  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-04 02:25:52.820334744 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/ben-whittaker/cutouts/01-ben-whittaker-boxer-after-tokyo-olympics.png
-Done: 1 new cutout(s).
-Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7fc5c6884400>); is the folder shared by link?
-Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7fc5c6887010>); is the folder shared by link?
-Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7fc5c6887010>); is the folder shared by link?
-Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7fc5c6887010>); is the folder shared by link?
-Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7fc5c6887010>); is the folder shared by link?
-Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7fc5c5dbf100>); is the folder shared by link?
+Drive: could not download Joe_Rogan.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d0400>); is the folder shared by link?
+Drive: could not download Joe_Rogan_.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
+Drive: could not download Joe_Rogan_3.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
+Drive: could not download Joe_Rogan_4.JPG (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
+Drive: could not download Josh Hokit 1 (cannot identify image file <_io.BytesIO object at 0x7f16a13d3010>); is the folder shared by link?
+Drive: could not download Josh Hokit 2 (cannot identify image file <_io.BytesIO object at 0x7f16a0313100>); is the folder shared by link?
 
-== 2026-10-03-2220-pereira-pavlovich-ufc-335.json
-Image: {'type': 'fighter', 'name': 'Alex Pereira'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Pavlovich Next
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-03-2220-pereira-pavlovich-ufc-335/post.png (fighter)
-Rendered posts/2026-10-03-2220-pereira-pavlovich-ufc-335/reel.mp4
-
-== 2026-10-03-2221-talbott-finishes-figueiredo.json
-$ fetch.py Payton Talbott --count 5
-Image: {'type': 'fighter', 'name': 'Deiveson Figueiredo', 'headline': 'Figgy Finished'} -> fighter images/deiveson-figueiredo/cutouts/01-deiveson-figueiredo-2024.png  headline: Figgy Finished
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-03-2221-talbott-finishes-figueiredo/post.png (fighter)
-Rendered posts/2026-10-03-2221-talbott-finishes-figueiredo/reel.mp4
-
-== 2026-10-03-2222-ribovics-stops-king-green.json
-$ fetch.py Bobby Green --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bobby-green
-Image: {'type': 'fighter', 'name': 'Bobby Green'} -> fighter images/bobby-green/cutouts/01-footpath-from-bobby-green-to-stocks-lane-clayton-geograph-or.png  headline: Green Stopped
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-03-2222-ribovics-stops-king-green/post.png (fighter)
-Rendered posts/2026-10-03-2222-ribovics-stops-king-green/reel.mp4
-
-== 2026-10-03-2223-oliveira-lopes-bmf.json
-$ fetch.py Charles Oliveira --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/charles-oliveira
-Image: {'type': 'fighter', 'name': 'Charles Oliveira'} -> fighter images/charles-oliveira/cutouts/01-charles-oliveira-do-bronxs.png  headline: BMF Defense
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-03-2223-oliveira-lopes-bmf/post.png (fighter)
-Rendered posts/2026-10-03-2223-oliveira-lopes-bmf/reel.mp4
-
-== 2026-10-03-2224-kopylov-stops-gautier.json
-$ fetch.py Ateba Gautier --count 5
-$ fetch.py Roman Kopylov --count 5
-Image: {'type': 'mystery', 'headline': 'Gautier Stopped'} -> graphic   headline: Gautier Stopped
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-03-2224-kopylov-stops-gautier/post.png (graphic)
-Rendered posts/2026-10-03-2224-kopylov-stops-gautier/reel.mp4
-
-== 2026-10-03-2225-nickal-vs-pyfer.json
-$ fetch.py Bo Nickal --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bo-nickal
-Image: {'type': 'fighter', 'name': 'Bo Nickal'} -> fighter images/bo-nickal/cutouts/01-bo-nickal-52791819473.png  headline: Nickal Vs Pyfer
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-03-2225-nickal-vs-pyfer/post.png (fighter)
-Rendered posts/2026-10-03-2225-nickal-vs-pyfer/reel.mp4
-
-== 2026-10-03-2226-fury-trump-ringwalk.json
-$ fetch.py Tyson Fury --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tyson-fury
-Image: {'type': 'fighter', 'name': 'Tyson Fury'} -> fighter images/tyson-fury/cutouts/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.png  headline: Trump Ringwalk?
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-03-2226-fury-trump-ringwalk/post.png (fighter)
-Rendered posts/2026-10-03-2226-fury-trump-ringwalk/reel.mp4
-
-== 2026-10-03-2227-whittaker-survives-wallace.json
-$ fetch.py Ben Whittaker --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ben-whittaker
-Image: {'type': 'fighter', 'name': 'Ben Whittaker'} -> fighter images/ben-whittaker/cutouts/01-ben-whittaker-boxer-after-tokyo-olympics.png  headline: Survived
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-03-2227-whittaker-survives-wallace/post.png (fighter)
-Rendered posts/2026-10-03-2227-whittaker-survives-wallace/reel.mp4
+== 2026-10-03-2228-ribovics-ices-green.json
+$ fetch.py Esteban Ribovics --count 5
+$ fetch.py Bobby Green (fighter) --count 5
+Image: {'type': 'text'} -> none   headline: Ribovics Ices Green
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-03-2228-ribovics-ices-green/post.png (none)
+Rendered posts/2026-10-03-2228-ribovics-ices-green/reel.mp4
