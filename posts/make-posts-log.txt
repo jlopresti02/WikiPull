@@ -1,19 +1,16 @@
-[0;93m2026-10-04 12:46:49.080622323 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-04 13:02:58.896513841 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/bobby-green-fighter/cutouts/drive-bobby-green-aka-king-green.png
+  cutout images/wang-cong/cutouts/drive-wang-cong.png
 Done: 1 new cutout(s).
-[0;93m2026-10-04 12:47:58.523096866 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/payton-talbott/cutouts/drive-payton-talbott.png
-Done: 1 new cutout(s).
-[0;93m2026-10-04 12:48:24.065335488 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/roman-kopylov/cutouts/drive-roman-kopylov.png
-Done: 1 new cutout(s).
-Drive: saved images/payton-talbott/drive-payton-talbott.jpg
-Drive: saved images/bobby-green-fighter/drive-bobby-green-aka-king-green.jpg
-Drive: saved images/roman-kopylov/drive-roman-kopylov.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bobby-green-fighter
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/payton-talbott
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/roman-kopylov
-Queue is empty.
+Drive: saved images/wang-cong/drive-wang-cong.png
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/wang-cong
+
+== 2026-10-04-0845-ufc-332-results.json
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-01.jpg (cover)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-02.jpg (hook)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-03.jpg (result)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-04.jpg (result)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-05.jpg (list)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-06.jpg (list)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-07.jpg (bonuses)
+Rendered posts/2026-10-04-0845-ufc-332-results/slide-08.jpg (cta)
