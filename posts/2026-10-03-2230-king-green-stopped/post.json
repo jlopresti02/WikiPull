@@ -26,5 +26,13 @@
       "name": "Bobby Green (fighter)",
       "file": "upload-king-green-1"
     }
-  ]
+  ],
+  "subject": {
+    "kind": "fighter",
+    "image": "images/bobby-green-fighter/cutouts/upload-king-green-1.png",
+    "credit": "UFC"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
 }

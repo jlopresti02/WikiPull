@@ -1,29 +1,11 @@
-[0;93m2026-10-04 02:35:11.137845617 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-04 02:40:19.121216491 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/joe-rogan/cutouts/drive-joe-rogan-3.png
-  cutout images/joe-rogan/cutouts/drive-joe-rogan-4.png
-  cutout images/joe-rogan/cutouts/drive-joe-rogan.png
-Done: 3 new cutout(s).
-[0;93m2026-10-04 02:36:51.788444782 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/josh-hokit/cutouts/drive-josh-hokit-1.png
-  cutout images/josh-hokit/cutouts/drive-josh-hokit-2.png
-Done: 2 new cutout(s).
-[0;93m2026-10-04 02:37:37.393664276 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/roman-kopylov/cutouts/upload-roman-kopylov-1.png
+  cutout images/bobby-green-fighter/cutouts/upload-king-green-1.png
 Done: 1 new cutout(s).
-Drive: saved images/joe-rogan/drive-joe-rogan.jpg
-Drive: saved images/joe-rogan/drive-joe-rogan-3.jpg
-Drive: saved images/joe-rogan/drive-joe-rogan-4.jpg
-Drive: saved images/josh-hokit/drive-josh-hokit-1.jpg
-Drive: saved images/josh-hokit/drive-josh-hokit-2.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/joe-rogan
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/josh-hokit
 
-== 2026-10-03-2229-kopylov-shocks-gautier.json
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/roman-kopylov
-Image: {'type': 'fighter', 'name': 'Roman Kopylov', 'file': 'upload-roman-kopylov-1'} -> fighter images/roman-kopylov/cutouts/upload-roman-kopylov-1.png  headline: Kopylov Shocks
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-03-2229-kopylov-shocks-gautier/post.png (fighter)
-Rendered posts/2026-10-03-2229-kopylov-shocks-gautier/reel.mp4
+== 2026-10-03-2230-king-green-stopped.json
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bobby-green-fighter
+Image: {'type': 'fighter', 'name': 'Bobby Green (fighter)', 'file': 'upload-king-green-1'} -> fighter images/bobby-green-fighter/cutouts/upload-king-green-1.png  headline: Green Stopped
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-03-2230-king-green-stopped/post.png (fighter)
+Rendered posts/2026-10-03-2230-king-green-stopped/reel.mp4
