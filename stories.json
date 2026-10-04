@@ -52,10 +52,11 @@
       ],
       "posts": [
         {
-          "post": "2026-10-03-2224-kopylov-stops-gautier",
+          "post": "2026-10-03-2229-kopylov-shocks-gautier",
           "kind": "new",
           "format": "trial_reel",
-          "held": "not scheduled: no photo of Gautier or Kopylov (silhouette render)"
+          "held": null,
+          "note": "re-queued with user-uploaded Kopylov photo"
         }
       ]
     },

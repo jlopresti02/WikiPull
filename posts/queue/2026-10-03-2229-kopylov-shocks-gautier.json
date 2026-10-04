@@ -1,0 +1,29 @@
+{
+  "story_id": "kopylov-tkos-gautier-ufc-332",
+  "color": "#f5c518",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "AtebaGautier",
+    "RomanKopylov"
+  ],
+  "sources": [
+    "CBS Sports"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "question": "Hype or real?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "headline": "Kopylov Shocks",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Roman Kopylov",
+      "file": "upload-roman-kopylov-1"
+    }
+  ],
+  "caption": "Roman Kopylov stopped one of the UFC's most hyped prospects, Ateba Gautier, in the first round at UFC 332.\nHype or real? 👇\n\nKopylov, who went in as the clear underdog, picked off Gautier with counters, dropped him with a one-two and finished with strikes to open the UFC 332 main card in Salt Lake City. Afterward Kopylov said it felt like he was dreaming. UFC 332 results and MMA news.\n\nCan Gautier bounce back?"
+}
