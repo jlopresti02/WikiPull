@@ -1,0 +1,38 @@
+{
+  "story_id": "talbott-calls-out-andrew-garfield",
+  "headline": "Wrong Callout",
+  "visual": [
+    {
+      "type": "pair",
+      "left": {
+        "name": "Payton Talbott"
+      },
+      "right": {
+        "name": "Andrew Garfield",
+        "scale": 0.6,
+        "lift": 0.3
+      }
+    },
+    {
+      "type": "fighter",
+      "name": "Payton Talbott"
+    }
+  ],
+  "color": "#d2202f",
+  "question": "Garfield or O'Malley?",
+  "caption": "Payton Talbott called out Andrew Garfield by mistake after his UFC 332 win. 🕷️\nGarfield or O'Malley? 👇\n\nFresh off a first-round TKO of former champ Deiveson Figueiredo in Salt Lake City, Talbott grabbed the mic with Joe Rogan and went straight for his next target: \"Andrew Garfield, I mean, Sean O'Malley, you can't run forever.\" He corrected himself right away, but the Spider-Man actor got called out first. UFC 332 news and UFC bantamweight news.\n\nWho would you rather see Talbott fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "PaytonTalbott",
+    "AndrewGarfield"
+  ],
+  "sources": [
+    "EssentiallySports"
+  ],
+  "music_pool": "espn",
+  "seconds": 6,
+  "follow_card": true,
+  "reel": true
+}

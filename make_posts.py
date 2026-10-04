@@ -98,12 +98,20 @@ def try_visual(v):
         for sub in sides:
             im = Image.open(ROOT / sub["image"]).convert("RGBA")
             cuts.append(im.crop(im.getbbox() or (0, 0, im.width, im.height)))
+        # Same height by default; a side's "scale" (e.g. 0.6) shrinks it, for
+        # a close-up headshot next to a half-body photo. Bottoms line up.
         h = max(c.height for c in cuts)
-        cuts = [c.resize((max(1, round(c.width * h / c.height)), h), Image.LANCZOS) for c in cuts]
+        hs = [max(1, round(h * float(v[side].get("scale", 1)))) for side in ("left", "right")]
+        cuts = [c.resize((max(1, round(c.width * t / c.height)), t), Image.LANCZOS)
+                for c, t in zip(cuts, hs)]
         overlap = int(min(c.width for c in cuts) * 0.12)
-        out = Image.new("RGBA", (cuts[0].width + cuts[1].width - overlap, h), (0, 0, 0, 0))
-        out.alpha_composite(cuts[1], (cuts[0].width - overlap, 0))
-        out.alpha_composite(cuts[0], (0, 0))  # left person in front
+        # A side's "lift" (fraction of the tallest height) raises it off the
+        # bottom, so a small headshot isn't cut off by the frame.
+        lifts = [int(h * float(v[side].get("lift", 0))) for side in ("left", "right")]
+        H = max(c.height + l for c, l in zip(cuts, lifts))
+        out = Image.new("RGBA", (cuts[0].width + cuts[1].width - overlap, H), (0, 0, 0, 0))
+        out.alpha_composite(cuts[1], (cuts[0].width - overlap, H - cuts[1].height - lifts[1]))
+        out.alpha_composite(cuts[0], (0, H - cuts[0].height - lifts[0]))  # left person in front
         folder = ROOT / "images" / "pairs"
         folder.mkdir(parents=True, exist_ok=True)
         path = folder / (slugify(v["left"]["name"] + " " + v["right"]["name"]) + ".png")
