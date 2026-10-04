@@ -35,5 +35,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

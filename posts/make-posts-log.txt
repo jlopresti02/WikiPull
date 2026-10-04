@@ -1,16 +1,44 @@
-[0;93m2026-10-04 13:02:58.896513841 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Valentina Shevchenko
+  saved images/valentina-shevchenko/01-valentina-shevchenko.jpg  [CC BY 3.0]
+  saved images/valentina-shevchenko/02-valentina-shevchenko-in-2016.jpg  [Public domain]
+  saved images/valentina-shevchenko/03-valentina-shevchenko-ufc-bantamweight-fighter-and-her-coach-.jpg  [Public domain]
+  saved images/valentina-shevchenko/04-from-left-brian-garcia-mmajunkie-radio-host-valentina-shevch.jpg  [Public domain]
+  saved images/valentina-shevchenko/05-elisa-qualizza-vs-valentina-shevchenko.jpg  [CC BY-SA 4.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-04 13:08:11.289841600 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/wang-cong/cutouts/drive-wang-cong.png
+  cutout images/valentina-shevchenko/cutouts/01-valentina-shevchenko.png
+  cutout images/valentina-shevchenko/cutouts/02-valentina-shevchenko-in-2016.png
+  cutout images/valentina-shevchenko/cutouts/03-valentina-shevchenko-ufc-bantamweight-fighter-and-her-coach-.png
+  cutout images/valentina-shevchenko/cutouts/04-from-left-brian-garcia-mmajunkie-radio-host-valentina-shevch.png
+  cutout images/valentina-shevchenko/cutouts/05-elisa-qualizza-vs-valentina-shevchenko.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Herb Dean
+  saved images/herb-dean/01-herb-dean-interview-with-mmanytt.jpg  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-10-04 13:10:55.574689262 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png
 Done: 1 new cutout(s).
-Drive: saved images/wang-cong/drive-wang-cong.png
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/wang-cong
 
-== 2026-10-04-0845-ufc-332-results.json
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-01.jpg (cover)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-02.jpg (hook)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-03.jpg (result)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-04.jpg (result)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-05.jpg (list)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-06.jpg (list)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-07.jpg (bonuses)
-Rendered posts/2026-10-04-0845-ufc-332-results/slide-08.jpg (cta)
+== 2026-10-04-0920-shevchenko-keep-it-warm.json
+$ fetch.py Valentina Shevchenko --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/valentina-shevchenko
+Image: {'type': 'fighter', 'name': 'Valentina Shevchenko'} -> fighter images/valentina-shevchenko/cutouts/01-valentina-shevchenko.png  headline: Keep It Warm
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-04-0920-shevchenko-keep-it-warm/post.png (fighter)
+Rendered posts/2026-10-04-0920-shevchenko-keep-it-warm/reel.mp4
+
+== 2026-10-04-0921-talbott-cant-run.json
+Image: {'type': 'fighter', 'name': 'Payton Talbott', 'file': 'drive-payton-talbott'} -> fighter images/payton-talbott/cutouts/drive-payton-talbott.png  headline: Can't Run Forever
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-04-0921-talbott-cant-run/post.png (fighter)
+Rendered posts/2026-10-04-0921-talbott-cant-run/reel.mp4
+
+== 2026-10-04-0922-herb-dean-rough-year.json
+$ fetch.py Herb Dean --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/herb-dean
+Image: {'type': 'fighter', 'name': 'Herb Dean'} -> fighter images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png  headline: Rough Year
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-04-0922-herb-dean-rough-year/post.png (fighter)
+Rendered posts/2026-10-04-0922-herb-dean-rough-year/reel.mp4

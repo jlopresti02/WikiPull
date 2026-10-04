@@ -39,5 +39,13 @@
   "music_pool": "espn",
   "seconds": 6,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/valentina-shevchenko/cutouts/01-valentina-shevchenko.png",
+    "credit": "MMAnytt.se / CC BY 3.0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }
