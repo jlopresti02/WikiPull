@@ -2,6 +2,60 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "wang-cong-blames-eye-poke-ufc-332",
+      "title": "Wang Cong blames first-round eye poke for UFC 332 title loss to Natalia Silva",
+      "people": [
+        "Wang Cong",
+        "Natalia Silva",
+        "Dana White"
+      ],
+      "event": "UFC 332 aftermath",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "In a subtitled social media video, Wang said she was poked in the eye early and her sight was blocked; 'I have some regrets'",
+        "Silva won the vacant women's flyweight title by UD (49-46, 48-47, 48-47)",
+        "Dana White: Wang will 'hate herself' watching the film; should have stepped on the gas earlier"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/wang-cong-blames-eye-poke-153000515.html",
+        "https://www.mmamania.com/ufc-332-fight-card-start-time-live-stream-silva-vs-cong/476919/wang-cong-blames-eye-poke-for-poor-performance-in-ufc-332-title-fight"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-1320-wang-eye-poke",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "ribovics-blames-ac-weight-miss-ufc-332",
+      "title": "Esteban Ribovics blames air conditioning for UFC 332 weight miss before King Green fight",
+      "people": [
+        "Esteban Ribovics",
+        "Bobby Green",
+        "Arnold Barboza Jr."
+      ],
+      "event": "UFC 332 aftermath",
+      "first_reported": "2026-10-04",
+      "facts": [
+        "Ribovics: AC turned on in workout room during Thursday cut, he stopped sweating; missed lightweight limit by 0.5 lb",
+        "Laughed off sabotage question; said issue was with 'the boxer guy' (Arnold Barboza Jr.), not Green",
+        "Declined to call anyone out; back-to-back wins over Edson Barboza and Green"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/esteban-ribovics-blames-ufc-332-160000072.html",
+        "https://www.sportskeeda.com/mma/news-i-stopped-sweating-esteban-ribovics-claims-air-conditioner-caused-weight-miss-king-green-fight-ufc-332"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-04-1321-ribovics-ac-excuse",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
       "id": "shevchenko-warns-silva-coming-for-belt",
       "title": "Valentina Shevchenko warns new champ Natalia Silva not to get comfortable; Dana White says Silva should stay active",
       "people": [
@@ -1386,11 +1440,13 @@
       "facts": [
         "Barcelos (39) lost consciousness on the canvas in Round 5 vs. Raul Rosas Jr. after a takedown, stretchered out; medical stoppage loss",
         "Hospitalized 3 days, then discharged; thanked fans on social media",
-        "Dana White: he's up walking and talking; six doctors and three ambulances were on site; not thinking about his fighting future"
+        "Dana White: he's up walking and talking; six doctors and three ambulances were on site; not thinking about his fighting future",
+        "UPDATE 2026-10-04: Glover Teixeira says the collapse was swelling in the brain; Barcelos was not knocked out but blacked out; reported in good spirits (Cageside Press)"
       ],
       "sources": [
         "https://www.cbssports.com/ufc/news/raoni-barcelos-released-hospital-ufc-fight-night-incident/",
-        "https://www.mmanews.com/article/raoni-barcelos-released-hospital-dana-white-update"
+        "https://www.mmanews.com/article/raoni-barcelos-released-hospital-dana-white-update",
+        "https://cagesidepress.com/2026/10/04/sunday-mma-quick-hits-what-happened-barcelos-rizin-dana-hearn/"
       ],
       "posts": [
         {
@@ -1400,6 +1456,11 @@
           "image": "silhouette graphic (no usable Barcelos photo)",
           "scheduled_for": "2026-10-01T08:36:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6069199002064865549"
+        },
+        {
+          "post": "2026-10-04-1322-barcelos-brain-swelling",
+          "kind": "update",
+          "format": "trial_reel"
         }
       ]
     },
