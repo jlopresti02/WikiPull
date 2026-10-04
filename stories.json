@@ -26,7 +26,10 @@
         {
           "post": "2026-10-04-1820-strickland-bingo-money",
           "kind": "new",
-          "format": "reel"
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-04T18:55:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3137977968557931321",
+          "image": "fighter photo (Nassourdine Imavov; no Sean Strickland photo, awaiting Drive photo)"
         }
       ]
     },
@@ -52,7 +55,10 @@
         {
           "post": "2026-10-04-1821-dana-so-called-experts",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-04T18:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8666461142677998769",
+          "image": "fighter photo (Dana White)"
         }
       ]
     },
