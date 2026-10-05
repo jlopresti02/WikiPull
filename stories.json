@@ -2,6 +2,56 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "asplund-calls-out-johnny-walker-ufc-335",
+   "title": "Steven Asplund calls out Johnny Walker for UFC 335 with GSP's 'not impressed' line",
+   "people": [
+    "Steven Asplund",
+    "Johnny Walker"
+   ],
+   "event": "UFC 335 (Dec 12, 2026, T-Mobile Arena, Las Vegas)",
+   "first_reported": "2026-10-05",
+   "facts": [
+    "Asplund (8-2, 2-1 UFC, DWCS signee) on Instagram Stories: 'Johnny Walker, I'm not impressed by your performance' (GSP's line to Matt Hughes, UFC 63)",
+    "Walker KO'd Mick Parkin with a knee in R1 of his heavyweight debut at UFC 332, earned $100K bonus",
+    "Asplund wants it at UFC 335"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/Steven-Asplund-targets-Johnny-Walker-at-UFC-335-with-famous-GSP-line-203073"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-05-0921-asplund-not-impressed",
+     "kind": "new",
+     "format": "trial_reel"
+    }
+   ]
+  },
+  {
+   "id": "wint-calls-out-sharaf-ufc-334",
+   "title": "Anthony Wint calls out Sean Sharaf for UFC 334 at MSG",
+   "people": [
+    "Anthony Wint",
+    "Sean Sharaf"
+   ],
+   "event": "UFC 334 (Nov 14, 2026, Madison Square Garden)",
+   "first_reported": "2026-10-05",
+   "facts": [
+    "Wint (9-0, ex-NY Jets LB) TKO'd Lucas Armand in 23 s at UFC 332, called out Sharaf in cage with Rogan and at presser",
+    "Sharaf (5-2) KO'd Gable Steveson in 12 s at UFC 331",
+    "Wint: no beef, Sharaf once gave him a ride; 'business of sport, but... business of show'"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/ExJets-LB-wants-the-man-who-knocked-out-Gable-Steveson-in-12-seconds-203076"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-05-0922-wint-wants-sharaf",
+     "kind": "new",
+     "format": "trial_reel"
+    }
+   ]
+  },
+  {
    "id": "strickland-money-ufc-335-snub",
    "title": "Sean Strickland hints money is why he isn't headlining UFC 335 vs. Imavov ('Bingo lol')",
    "people": [
@@ -1720,7 +1770,8 @@
     "Several planned opponents fell through, citing injuries; Talbott questioned whether it was the UFC or fighters being scared",
     "Broken feet also kept Talbott sidelined",
     "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323",
-    "UPDATE 2026-10-03: After TKO of Figueiredo at UFC 332, Talbott called out O'Malley in-cage: 'I just mopped the floor with two champions back-to-back... Sean O'Malley. You can't run forever.' Dana White called Talbott 'absolutely dominant'; no O'Malley response yet"
+    "UPDATE 2026-10-03: After TKO of Figueiredo at UFC 332, Talbott called out O'Malley in-cage: 'I just mopped the floor with two champions back-to-back... Sean O'Malley. You can't run forever.' Dana White called Talbott 'absolutely dominant'; no O'Malley response yet",
+    "UPDATE 2026-10-04 (~6:30 PM ET): O'Malley replied on Instagram Stories with a graphic of his last 7 fights: '4 out of last 7 fights have been against 3 of the greatest bantamweights of all time... Ain't duckin no one' (Yan, Sterling, Dvalishvili x2); also posted a clip styled as Talbott"
    ],
    "sources": [
     "https://heavy.com/sports/ufc/payton-talbott-sean-omalley-was-discussed/",
@@ -1728,7 +1779,9 @@
     "https://www.mmanews.com/article/ufc-332s-payton-talbott-claims-he-was-expected-to-fight-former-champion-at-white-house",
     "https://www.mmamania.com/latest-news/475780/payton-talbott-vs-sean-omalley-ufc-331s-talbott-explains-how-plague-of-broken-feet-stranded-him-on-sidelines",
     "https://sports.yahoo.com/articles/payton-talbott-calls-sean-o-082707069.html",
-    "https://heavy.com/sports/ufc/dana-white-payton-talbott-ufc-332/"
+    "https://heavy.com/sports/ufc/dana-white-payton-talbott-ufc-332/",
+    "https://sports.yahoo.com/articles/sean-o-malley-responds-payton-222915235.html",
+    "https://www.lowkickmma.com/sean-omalley-payton-talbott-response-ducking/"
    ],
    "posts": [
     {
@@ -1746,6 +1799,12 @@
      "image": "fighter photo (Payton Talbott, Drive)",
      "scheduled_for": "2026-10-04T09:55:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2220374744692049710"
+    },
+    {
+     "post": "2026-10-05-0920-omalley-aint-ducking",
+     "kind": "update",
+     "format": "reel",
+     "image": "fighter photo (Sean O'Malley)"
     }
    ]
   },
