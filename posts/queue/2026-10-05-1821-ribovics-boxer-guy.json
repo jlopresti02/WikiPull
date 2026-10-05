@@ -1,0 +1,18 @@
+{
+  "story_id": "ribovics-trash-talk-aimed-at-barboza-ufc-332",
+  "headline": "Not Bobby",
+  "visual": [
+    {"type": "fighter", "name": "Esteban Ribovics", "file": "drive-esteban-ribovics"},
+    {"type": "mystery", "headline": "Ribovics' Target"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "Esteban Ribovics says his UFC 332 trash talk wasn't for King Green at all.\nClassy or petty? 👇\n\nAfter stopping Bobby Green in round 1 in Salt Lake City, Ribovics yelled \"keep talking\", but says it was meant for boxer Arnold Barboza Jr., Green's friend, after their hotel run-in the day before. UFC news.\n\nShould Barboza answer?",
+  "hashtags": ["MMANews", "UFC", "UFC332", "EstebanRibovics", "BobbyGreen"],
+  "sources": ["Sherdog", "MMA Fighting"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Classy or petty?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true
+}

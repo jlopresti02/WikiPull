@@ -2,6 +2,60 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "costa-calls-ufc-dana-incompetent",
+   "title": "Paulo Costa calls the UFC and Dana White 'incompetent' in a deleted X post",
+   "people": [
+    "Paulo Costa",
+    "Dana White"
+   ],
+   "event": "none (Costa has 1 fight left on UFC contract)",
+   "first_reported": "2026-10-04",
+   "facts": [
+    "Deleted X post (captured Oct 3 by @mmamarcuss): UFC 'lost-lacking focus and direction', cards 'cobbled together from whatever is left over', Dana mixes up fighters' names, more focused on boxing and Eddie Hearn rivalry; 'Volkov should be fighting for the heavyweight title'; 'empires often crumble from within'",
+    "Costa admits offers were all five-rounders (Doha, Abu Dhabi on 6 days' notice, Salt Lake City): 'PAY FOR 3, GET 5'",
+    "Background: Sept 20 ultimatum to Hunter Campbell (3-round fight, raise pay for 5, or release); Dana: 'He's been offered fights and turned them down'",
+    "Last fight: KO of Azamat Murzakanov at UFC 327 (April); signed with Eddie Hearn's management"
+   ],
+   "sources": [
+    "https://www.lowkickmma.com/paulo-costa-blasts-ufc-and-dana-white-in-deleted-post-incompetent/",
+    "https://bloodyelbow.com/2026/10/04/dana-whites-decline-comes-up-as-top-5-contender-calls-the-ufc-incompetent-in-quickly-deleted-post/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-05-1820-costa-incompetent",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
+  },
+  {
+   "id": "ribovics-trash-talk-aimed-at-barboza-ufc-332",
+   "title": "Esteban Ribovics says his UFC 332 'keep talking' trash talk was aimed at boxer Arnold Barboza Jr., not King Green",
+   "people": [
+    "Esteban Ribovics",
+    "Bobby Green",
+    "Arnold Barboza Jr."
+   ],
+   "event": "UFC 332 (Oct 3, Salt Lake City)",
+   "first_reported": "2026-10-05",
+   "facts": [
+    "Ribovics yelled 'Keep talking' as Herb Dean stopped Green in R1 (three knockdowns); then they embraced",
+    "Post-fight presser: 'It was for the day before. But it's not Bobby. It's the boxer guy.' (Barboza, Green's friend; hotel altercation after weigh-ins)",
+    "Had a training partner mimic Green's in-fight talking in sparring"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/Esteban-Ribovics-reveals-real-target-of-UFC-332-postfight-trash-talk-203066",
+    "https://boxingnews.com/news/ribovics-ufc-332-trash-talk-target/"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-05-1821-ribovics-boxer-guy",
+     "kind": "new",
+     "format": "trial_reel"
+    }
+   ]
+  },
+  {
    "id": "asplund-calls-out-johnny-walker-ufc-335",
    "title": "Steven Asplund calls out Johnny Walker for UFC 335 with GSP's 'not impressed' line",
    "people": [
