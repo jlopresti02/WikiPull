@@ -1,0 +1,41 @@
+{
+  "story_id": "pereira-teases-big-challenge",
+  "headline": "Gigantic Power",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Joe Rogan",
+      "file": "drive-joe-rogan-4"
+    },
+    {
+      "type": "fighter",
+      "name": "Alex Pereira"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Joe Rogan just warned Alex Pereira: Sergei Pavlovich is a \"huge, huge heavyweight with gigantic power.\" 😳\nPereira or Pavlovich? 👇\n\nRogan says Poatan is done with light heavyweight and wants Ciryl Gane again, but must get past Pavlovich first in the UFC 335 heavyweight co-main, Dec. 12 in Las Vegas. UFC news.\n\nWho wins the heavyweight war?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "AlexPereira",
+    "JoeRogan"
+  ],
+  "sources": [
+    "LowKick MMA",
+    "MMA Junkie"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Pereira or Pavlovich?",
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/joe-rogan/cutouts/drive-joe-rogan-4.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
+}
