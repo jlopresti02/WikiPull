@@ -1,29 +1,29 @@
-Searching Wikimedia Commons for: Henry Cejudo
-  saved images/henry-cejudo/01-henry-cejudo-54235464255-cropped.jpg  [CC BY-SA 2.0]
-  saved images/henry-cejudo/02-henry-cejudo-smiling.jpg  [CC BY 3.0]
-  saved images/henry-cejudo/03-henry-cejudo.jpg  [CC BY 3.0]
-  saved images/henry-cejudo/04-henry-cejudo-antonio-brown-54235293159.jpg  [CC BY-SA 2.0]
-  saved images/henry-cejudo/05-hughie-johnston-henry-cejudo-antonio-brown-54235463330.jpg  [CC BY-SA 2.0]
+Searching Wikimedia Commons for: Paulo Costa
+  saved images/paulo-costa/01-jo-o-paulo-costa.jpg  [CC BY-SA 4.0]
+  saved images/paulo-costa/02-joao-paulo-costa.jpg  [CC BY-SA 4.0]
+  saved images/paulo-costa/03-edpaulocosta.jpg  [CC BY-SA 4.0]
+  saved images/paulo-costa/04-reprodu-o-de-planta-planta-da-cidade-de-s-paulo-costa-rufino.jpg  [Public domain]
+  saved images/paulo-costa/05-teia2008-paulocosta4.jpg  [CC BY-SA 2.0]
 Done: 5 image(s) saved.
-[0;93m2026-10-05 17:40:13.585637602 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-05 22:13:06.127703640 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/henry-cejudo/cutouts/01-henry-cejudo-54235464255-cropped.png
-  cutout images/henry-cejudo/cutouts/02-henry-cejudo-smiling.png
-  cutout images/henry-cejudo/cutouts/03-henry-cejudo.png
-  cutout images/henry-cejudo/cutouts/04-henry-cejudo-antonio-brown-54235293159.png
-  cutout images/henry-cejudo/cutouts/05-hughie-johnston-henry-cejudo-antonio-brown-54235463330.png
+  cutout images/paulo-costa/cutouts/01-jo-o-paulo-costa.png
+  cutout images/paulo-costa/cutouts/02-joao-paulo-costa.png
+  cutout images/paulo-costa/cutouts/03-edpaulocosta.png
+  cutout images/paulo-costa/cutouts/04-reprodu-o-de-planta-planta-da-cidade-de-s-paulo-costa-rufino.png
+  cutout images/paulo-costa/cutouts/05-teia2008-paulocosta4.png
 Done: 5 new cutout(s).
 
-== 2026-10-05-1340-cejudo-protecting-omalley.json
-$ fetch.py Henry Cejudo --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/henry-cejudo
-Image: {'type': 'fighter', 'name': 'Henry Cejudo'} -> fighter images/henry-cejudo/cutouts/01-henry-cejudo-54235464255-cropped.png  headline: Protected?
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-05-1340-cejudo-protecting-omalley/post.png (fighter)
-Rendered posts/2026-10-05-1340-cejudo-protecting-omalley/reel.mp4
+== 2026-10-05-1820-costa-incompetent.json
+$ fetch.py Paulo Costa --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/paulo-costa
+Image: {'type': 'fighter', 'name': 'Paulo Costa'} -> fighter images/paulo-costa/cutouts/01-jo-o-paulo-costa.png  headline: Incompetent
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-05-1820-costa-incompetent/post.png (fighter)
+Rendered posts/2026-10-05-1820-costa-incompetent/reel.mp4
 
-== 2026-10-05-1341-rogan-pereira-tough-task.json
-Image: {'type': 'fighter', 'name': 'Joe Rogan', 'file': 'drive-joe-rogan-4'} -> fighter images/joe-rogan/cutouts/drive-joe-rogan-4.png  headline: Gigantic Power
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-05-1341-rogan-pereira-tough-task/post.png (fighter)
-Rendered posts/2026-10-05-1341-rogan-pereira-tough-task/reel.mp4
+== 2026-10-05-1821-ribovics-boxer-guy.json
+Image: {'type': 'fighter', 'name': 'Esteban Ribovics', 'file': 'drive-esteban-ribovics'} -> fighter images/esteban-ribovics/cutouts/drive-esteban-ribovics.png  headline: Not Bobby
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-05-1821-ribovics-boxer-guy/post.png (fighter)
+Rendered posts/2026-10-05-1821-ribovics-boxer-guy/reel.mp4
