@@ -1,0 +1,45 @@
+{
+  "story_id": "strickland-money-ufc-335-snub",
+  "headline": "Strip Him",
+  "visual": [
+    {
+      "type": "pair",
+      "left": {
+        "name": "Nassourdine Imavov",
+        "file": "01-nassourdine-imavov"
+      },
+      "right": {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    },
+    {
+      "type": "fighter",
+      "name": "Nassourdine Imavov",
+      "file": "01-nassourdine-imavov"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "UPDATE: Nassourdine Imavov just offered Sean Strickland $500K of his own money to fight him. 💰\nTake it or skip it? 👇\n\nThe UFC middleweight contender says the champ is \"just scared\" if he still says no, and wants the UFC to strip him. Strickland reportedly passed on UFC 335 over pay; Imavov wants the title fight in January. UFC news.\n\nDoes Strickland take the money?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCMiddleweight",
+    "SeanStrickland",
+    "Imavov"
+  ],
+  "sources": [
+    "Heavy",
+    "Nassourdine Imavov on X"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Take it or skip it?",
+  "follow_card": true,
+  "reel": true
+}

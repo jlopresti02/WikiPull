@@ -1,0 +1,41 @@
+{
+  "story_id": "morales-january-return-title-shot-plan",
+  "headline": "Final Boss",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Michael Morales (fighter)",
+      "file": "01-michael-morales-quito-27-de-mayo-del-2025-cropped"
+    },
+    {
+      "type": "fighter",
+      "name": "Michael Morales"
+    },
+    {
+      "type": "fighter",
+      "name": "Shavkat Rakhmonov"
+    },
+    {
+      "type": "mystery",
+      "headline": "Morales Calls Out"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "UPDATE: Unbeaten Michael Morales just named Shavkat Rakhmonov, \"the final boss\" of welterweight, as his next target.\nMorales or Shavkat? 👇\n\nIn a new hype video, the No. 3 UFC welterweight tells champ Islam Makhachev no more excuses and says Rakhmonov is his fight for 2027. Rakhmonov has been out about two years with injuries. UFC news.\n\nWho wins: 19-0 vs. 19-0?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCWelterweight",
+    "MichaelMorales",
+    "ShavkatRakhmonov"
+  ],
+  "sources": [
+    "Heavy",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Morales or Shavkat?",
+  "follow_card": true,
+  "reel": true
+}
