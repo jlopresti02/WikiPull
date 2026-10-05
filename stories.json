@@ -37,7 +37,9 @@
      "post": "2026-10-04-2220-imavov-strip-him",
      "kind": "update",
      "format": "reel",
-     "image": "pair photo (Imavov + Strickland, Drive)"
+     "image": "pair photo (Imavov + Strickland, Drive)",
+     "scheduled_for": "2026-10-05T07:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1889796518971816184"
     }
    ]
   },
@@ -638,7 +640,9 @@
      "post": "2026-10-04-2221-morales-final-boss",
      "kind": "update",
      "format": "reel",
-     "image": "fighter photo (Michael Morales)"
+     "image": "fighter photo (Michael Morales)",
+     "scheduled_for": "2026-10-05T08:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5934811960110829166"
     }
    ]
   },
