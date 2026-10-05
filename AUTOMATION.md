@@ -114,6 +114,26 @@ Rules:
   skipped for the cap. A genuinely big story (title fight booked, a star's
   result, a major injury or withdrawal) can replace a weaker one already
   scheduled for that day if it hasn't gone out yet.
+- **Save the evening (Oct 5).** 8 PM to midnight is this account's best
+  window, but on Oct 4 the day's 10 were used up by 7:30 PM and the 10 PM
+  run's stories got pushed to 7:30 AM. So **4 of the 10 are reserved for
+  posts going out 7 PM to 12:30 AM**:
+  - Posts scheduled before 7 PM may use at most **6** of the day's 10.
+    When a daytime run has more good stories than that, pick the ones
+    that would go stale fast for now, and **hold the rest for the evening**:
+    add them to `stories.json` as normal entries (facts, sources) with
+    `"held_for_evening": true` and an empty `"posts": []`, and don't queue
+    them. The 6 PM and 10 PM runs read held entries first, post the ones
+    that still stand up (dropping the flag when they do), and drop any
+    that went stale. Stories with a reaction or a "what's next" angle
+    hold up fine for a few hours.
+  - The 6 PM run schedules from **7 PM** onward (not 10 minutes from now)
+    unless a story is breaking, and the 10 PM run fills the rest up to
+    12:30 AM. Evening slots never get pushed to the next morning while
+    the day's cap still has room.
+  - Posts that go out after midnight (12:00-12:30 AM) count toward the
+    day before, not the new day, so overnight overflow doesn't eat the
+    next day's cap.
 - **Breaking-news exception (added at the user's request, Oct 4):** a
   truly major breaking story goes out **in the current news cycle even if
   the day is already at 10**, as a regular Reel in the next open slot. The
