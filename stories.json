@@ -22,7 +22,10 @@
     {
      "post": "2026-10-05-0921-asplund-not-impressed",
      "kind": "new",
-     "format": "trial_reel"
+     "format": "trial_reel",
+     "scheduled_for": "2026-10-05T09:55:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3543977935532374444",
+     "image": "fighter photo (Johnny Walker; no Asplund photo)"
     }
    ]
   },
@@ -47,7 +50,10 @@
     {
      "post": "2026-10-05-0922-wint-wants-sharaf",
      "kind": "new",
-     "format": "trial_reel"
+     "format": "trial_reel",
+     "scheduled_for": "2026-10-05T10:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8891259501131943588",
+     "image": "silhouette (no Anthony Wint or Sean Sharaf photo)"
     }
    ]
   },
@@ -1804,7 +1810,9 @@
      "post": "2026-10-05-0920-omalley-aint-ducking",
      "kind": "update",
      "format": "reel",
-     "image": "fighter photo (Sean O'Malley)"
+     "image": "fighter photo (Sean O'Malley)",
+     "scheduled_for": "2026-10-05T09:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4150738274650077761"
     }
    ]
   },
