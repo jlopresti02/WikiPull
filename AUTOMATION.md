@@ -196,7 +196,15 @@ repo lists every Drive photo already brought in.
    - the expression fits the story: intense or serious for feuds,
      call-outs and fight news; smiling for wins, signings and good news;
    - fight gear or a press-event look for fight stories; a recent look
-     over an old one.
+     over an old one;
+   - **funny photos for funny stories** (user, Oct 4): when a story is
+     lighthearted, a trolling post, a joke or something absurd, use a
+     playful photo if the person has one. Drive files with "funny" in
+     the name are meant for this (e.g. `drive-sean-strickland-funny`,
+     Strickland as a scorpion), and so are old-look photos marked
+     with a `"note"` in `drive_images.json` (e.g. `drive-sean-strickland-3`,
+     Strickland years ago with hair). Keep these out of serious
+     stories (injuries, title fights, real disputes).
    Put the chosen photo's file name on that visual entry:
    `{"type": "fighter", "name": "Joe Rogan", "file": "drive-joe-rogan-3"}`.
    If a person has no cutouts yet (new name), leave out `"file"`; the
