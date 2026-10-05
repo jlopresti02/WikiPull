@@ -1,0 +1,45 @@
+{
+ "story_id": "wint-calls-out-sharaf-ufc-334",
+ "headline": "Next Victim?",
+ "visual": [
+  {
+   "type": "fighter",
+   "name": "Anthony Wint",
+   "file": "drive-anthony-wint"
+  },
+  {
+   "type": "fighter",
+   "name": "Anthony Wint",
+   "file": "drive-anthony-wint-ny-jets"
+  },
+  {
+   "type": "fighter",
+   "name": "Sean Sharaf",
+   "file": "drive-sean-sharif",
+   "headline": "Wint Wants Sharaf"
+  },
+  {
+   "type": "mystery",
+   "headline": "Wint's Callout"
+  }
+ ],
+ "color": "#1f3fbf",
+ "caption": "Unbeaten ex-NFL linebacker Anthony Wint wants Sean Sharaf, the man who KO'd Gable Steveson in 12 seconds.\nWint or Sharaf? 👇\n\nFresh off a 23-second TKO at UFC 332, the 9-0 Wint called out Sharaf for UFC 334 at Madison Square Garden in November, saying there's no beef, it's the business of show. UFC news.\n\nWho wins?",
+ "hashtags": [
+  "MMANews",
+  "UFC",
+  "UFC334",
+  "AnthonyWint",
+  "SeanSharaf"
+ ],
+ "sources": [
+  "MMA Fighting",
+  "Sherdog"
+ ],
+ "music_pool": "espn",
+ "seconds": 5,
+ "question": "Wint or Sharaf?",
+ "follow_card": true,
+ "reel": true,
+ "trial_reel": true
+}

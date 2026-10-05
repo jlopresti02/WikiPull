@@ -1,100 +1,115 @@
 {
-  "folder_id": "100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
-  "folder_url": "https://drive.google.com/drive/folders/100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
-  "note": "The user's Google Drive image bank. Each run lists the folder and adds new files here (id, name, person, optional credit). The Make posts workflow downloads them into images/<person>/drive-<name>.<ext> and cuts them out. Set \"skip\": true to ignore a file.",
-  "files": [
-    {
-      "id": "1KbT-5IgXArELx3INDmqOkOmYBnOifmrx",
-      "name": "Joe_Rogan.JPG",
-      "person": "Joe Rogan"
-    },
-    {
-      "id": "1BM8NyEYr5BcatJgQJMXFuO9eEKgaqmq-",
-      "name": "Joe_Rogan_.JPG",
-      "person": "Joe Rogan"
-    },
-    {
-      "id": "1jviBXoxmTtGHvhqVsnD8GqkEXAfz-an7",
-      "name": "Joe_Rogan_3.JPG",
-      "person": "Joe Rogan"
-    },
-    {
-      "id": "1RoshENs-vzsWL8bqr3VZLJCFl52cAbOD",
-      "name": "Joe_Rogan_4.JPG",
-      "person": "Joe Rogan"
-    },
-    {
-      "id": "1CFlJJfwg76ZyuFP6VOyMDpg6XPl3L1Cm",
-      "name": "Josh Hokit 1",
-      "person": "Josh Hokit"
-    },
-    {
-      "id": "1MEWKAiN2aE9hA_cX_hQ-4AseEgdbFdO5",
-      "name": "Josh Hokit 2",
-      "person": "Josh Hokit"
-    },
-    {
-      "id": "1lCo9ZSDQDYzjX58XK3rIC49kXrFWSm0i",
-      "name": "Anthony Smith.JPG",
-      "person": "Anthony Smith (fighter)"
-    },
-    {
-      "id": "1xZSmvrfeoQYrNWJHw8f8NJot6VYSHTum",
-      "name": "Shamil Erd.WEBP",
-      "person": "Shamil Erdogan"
-    },
-    {
-      "id": "1hq1c7wjBkB4fVoE7uRQBM5peCmE26mhT",
-      "name": "payton talbott",
-      "person": "Payton Talbott"
-    },
-    {
-      "id": "17Vm3EM3WFswtgYtsSmm8291Hg6CYzcFr",
-      "name": "Bobby Green AKA King Green",
-      "person": "Bobby Green (fighter)"
-    },
-    {
-      "id": "131XIenOvEwHQcsuTXQoqo9jwA_09vhaJ",
-      "name": "roman kopylov",
-      "person": "Roman Kopylov"
-    },
-    {
-      "id": "1zz5N55hRRIdqgwwFxEpZqrIVBhcO5VYE",
-      "name": "Wang Cong.png",
-      "person": "Wang Cong"
-    },
-    {
-      "id": "1RAn7PlFvwnz9OSATmKgUzcDVuXnbPpZc",
-      "name": "Esteban Ribovics",
-      "person": "Esteban Ribovics"
-    },
-    {
-      "id": "1Bsyabo7iHXSglNj6UfjyHw1JxNOALGw0",
-      "name": "raoni barcelos",
-      "person": "Raoni Barcelos"
-    },
-    {
-      "id": "1N7aL-_gAN3OZoo3KGYV-IidmIxGdX9ca",
-      "name": "sean strickland",
-      "person": "Sean Strickland"
-    },
-    {
-      "id": "1prKxDkKVHoLwDQNK-P163tHlyYhauSWU",
-      "name": "sean strickland 2",
-      "person": "Sean Strickland"
-    },
-    {
-      "id": "1ejH1fwMVI-5Rsbw3f6gwPADxg5VJsTnA",
-      "name": "sean strickland 3",
-      "person": "Sean Strickland",
-      "skip": true,
-      "note": "Sean Strickland earlier in his career, with hair (confirmed by user 2026-10-04); good for funny/lighthearted stories"
-    },
-    {
-      "id": "1AoTCtdUzcF5Pas1V8VXRzjCdV1IhyhJL",
-      "name": "sean strickland funny",
-      "person": "Sean Strickland",
-      "note": "Playful image (Strickland as a scorpion); use for funny/lighthearted stories"
-    }
-  ]
+ "folder_id": "100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
+ "folder_url": "https://drive.google.com/drive/folders/100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
+ "note": "The user's Google Drive image bank. Each run lists the folder and adds new files here (id, name, person, optional credit). The Make posts workflow downloads them into images/<person>/drive-<name>.<ext> and cuts them out. Set \"skip\": true to ignore a file.",
+ "files": [
+  {
+   "id": "1KbT-5IgXArELx3INDmqOkOmYBnOifmrx",
+   "name": "Joe_Rogan.JPG",
+   "person": "Joe Rogan"
+  },
+  {
+   "id": "1BM8NyEYr5BcatJgQJMXFuO9eEKgaqmq-",
+   "name": "Joe_Rogan_.JPG",
+   "person": "Joe Rogan"
+  },
+  {
+   "id": "1jviBXoxmTtGHvhqVsnD8GqkEXAfz-an7",
+   "name": "Joe_Rogan_3.JPG",
+   "person": "Joe Rogan"
+  },
+  {
+   "id": "1RoshENs-vzsWL8bqr3VZLJCFl52cAbOD",
+   "name": "Joe_Rogan_4.JPG",
+   "person": "Joe Rogan"
+  },
+  {
+   "id": "1CFlJJfwg76ZyuFP6VOyMDpg6XPl3L1Cm",
+   "name": "Josh Hokit 1",
+   "person": "Josh Hokit"
+  },
+  {
+   "id": "1MEWKAiN2aE9hA_cX_hQ-4AseEgdbFdO5",
+   "name": "Josh Hokit 2",
+   "person": "Josh Hokit"
+  },
+  {
+   "id": "1lCo9ZSDQDYzjX58XK3rIC49kXrFWSm0i",
+   "name": "Anthony Smith.JPG",
+   "person": "Anthony Smith (fighter)"
+  },
+  {
+   "id": "1xZSmvrfeoQYrNWJHw8f8NJot6VYSHTum",
+   "name": "Shamil Erd.WEBP",
+   "person": "Shamil Erdogan"
+  },
+  {
+   "id": "1hq1c7wjBkB4fVoE7uRQBM5peCmE26mhT",
+   "name": "payton talbott",
+   "person": "Payton Talbott"
+  },
+  {
+   "id": "17Vm3EM3WFswtgYtsSmm8291Hg6CYzcFr",
+   "name": "Bobby Green AKA King Green",
+   "person": "Bobby Green (fighter)"
+  },
+  {
+   "id": "131XIenOvEwHQcsuTXQoqo9jwA_09vhaJ",
+   "name": "roman kopylov",
+   "person": "Roman Kopylov"
+  },
+  {
+   "id": "1zz5N55hRRIdqgwwFxEpZqrIVBhcO5VYE",
+   "name": "Wang Cong.png",
+   "person": "Wang Cong"
+  },
+  {
+   "id": "1RAn7PlFvwnz9OSATmKgUzcDVuXnbPpZc",
+   "name": "Esteban Ribovics",
+   "person": "Esteban Ribovics"
+  },
+  {
+   "id": "1Bsyabo7iHXSglNj6UfjyHw1JxNOALGw0",
+   "name": "raoni barcelos",
+   "person": "Raoni Barcelos"
+  },
+  {
+   "id": "1N7aL-_gAN3OZoo3KGYV-IidmIxGdX9ca",
+   "name": "sean strickland",
+   "person": "Sean Strickland"
+  },
+  {
+   "id": "1prKxDkKVHoLwDQNK-P163tHlyYhauSWU",
+   "name": "sean strickland 2",
+   "person": "Sean Strickland"
+  },
+  {
+   "id": "1ejH1fwMVI-5Rsbw3f6gwPADxg5VJsTnA",
+   "name": "sean strickland 3",
+   "person": "Sean Strickland",
+   "skip": true,
+   "note": "Sean Strickland earlier in his career, with hair (confirmed by user 2026-10-04); good for funny/lighthearted stories"
+  },
+  {
+   "id": "1AoTCtdUzcF5Pas1V8VXRzjCdV1IhyhJL",
+   "name": "sean strickland funny",
+   "person": "Sean Strickland",
+   "note": "Playful image (Strickland as a scorpion); use for funny/lighthearted stories"
+  },
+  {
+   "id": "1r4cz0l8Nrh_c6ty9USC2zFwHxATlOWQE",
+   "name": "Anthony Wint",
+   "person": "Anthony Wint"
+  },
+  {
+   "id": "1ztpAn9XpXJ24__gbdX5pnyl1Fc-Ou_R_",
+   "name": "Anthony Wint NY Jets",
+   "person": "Anthony Wint"
+  },
+  {
+   "id": "1r_3DWELsf9jNf0MoouC6TuJ89HvlY5ZF",
+   "name": "sean sharif",
+   "person": "Sean Sharaf"
+  }
+ ]
 }
