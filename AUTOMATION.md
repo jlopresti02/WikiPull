@@ -31,7 +31,8 @@ with its facts, sources and posts. Also read the last ~10 entries in
 ### 2. Sweep the news
 
 Run the news sweep (several separate web searches: general MMA news, UFC,
-PFL, ONE Championship and others, fight announcements and bookings,
+PFL, ONE Championship (its own search every run; see the ONE section
+below) and others, fight announcements and bookings,
 injuries and withdrawals, results from events happening now, weigh-ins,
 contracts and signings, notable callouts or controversies). Cover
 everything since the previous run: about 4 to 11 hours, and on the Sunday
@@ -178,6 +179,34 @@ use them freely for anything that isn't a top story.
   (they flopped in week 1, see above), picking the most interesting: a famous name, a viral moment, a feud,
   or a crossover with MMA. Skip routine results nobody outside the sport
   would recognize.
+
+**ONE Championship (added at the user's request, Oct 5).** The best
+Reel of week 1 was a ONE story: "ERDOGAN 14-0" (Shamil Erdogan stays
+unbeaten, next wrestles Kyle Snyder at RAF), a Trial Reel with 636 views,
+the highest 3-second view rate of the week (38%), still climbing two days
+later. Few English-language accounts cover ONE, so there's less
+competition. So **post the big ONE Championship stories every run** as
+**Trial Reels**:
+- Big means one of: a title change or title fight booked; an unbeaten
+  fighter's streak continuing or ending; a viral finish; a crossover with
+  a name UFC fans know (a UFC veteran, Demetrious Johnson, a RAF or boxing
+  tie-in); a star (Rodtang, Superlek, Takeru, Jonathan Haggerty, Anatoly
+  Malykhin, Christian Lee, Adriano Moraes level) doing something notable.
+  ONE's Muay Thai and kickboxing count when the story is that big. Skip
+  routine results and bookings.
+- Headline the hook in numbers or stakes when it fits ("ERDOGAN 14-0",
+  "NEW CHAMP"). Use the fighter's own photo; check the Drive image bank
+  first, and if there's no usable photo, hold the post and tell the user
+  so they can add one, instead of using a silhouette.
+- Hashtags: `MMA` or `MMANews`, `ONEChampionship`, the event tag
+  (`ONEFightNight48`, `ONE172`), and the fighter's name.
+- They count toward the daily 10 like any news post, but they're **not
+  dropped as lesser-known fighters**: rank them like a mid-tier UFC story,
+  and prefer the evening slots. They are not adjacent sports, so the
+  one-per-run adjacent sports limit doesn't apply. Up to 2 ONE posts a
+  day; more only for a truly huge night.
+- Include ONE Championship in the news sweep every run (onefc.com news,
+  plus MMA outlets that cover ONE).
 
 Mark a Trial Reel by adding `"trial_reel": true` to its queue file.
 Order the schedule with regular Reels first (most newsworthy first),
