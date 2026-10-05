@@ -1724,7 +1724,8 @@
     "Pereira is No. 3 at heavyweight; last fought June 2026, TKO loss to Ciryl Gane for interim HW title at UFC Freedom 250",
     "Gane defends interim title vs. Josh Hokit at UFC 334 on Nov. 14",
     "Oct 1: Dana White confirmed he'll announce Pereira's next fight during the UFC 332 Kick stream (Sat., Oct. 3), per Bloody Elbow",
-    "UPDATE 2026-10-03: Dana White announced on UFC 332 broadcast: Pereira vs. Sergei Pavlovich, 5-round heavyweight co-main of UFC 335, Dec 12, T-Mobile Arena, Las Vegas; Pavlovich on 3-fight win streak"
+    "UPDATE 2026-10-03: Dana White announced on UFC 332 broadcast: Pereira vs. Sergei Pavlovich, 5-round heavyweight co-main of UFC 335, Dec 12, T-Mobile Arena, Las Vegas; Pavlovich on 3-fight win streak",
+    "2026-10-05 (LowKick, citing MMA Junkie): Joe Rogan on the UFC 332 broadcast said Pereira won't return to light heavyweight, wants Gane again, but Pavlovich is a 'huge, huge heavyweight with gigantic power'"
    ],
    "sources": [
     "https://heavy.com/sports/ufc/alex-pereira-teases-fight-big-challenge/",
@@ -1732,7 +1733,8 @@
     "https://bloodyelbow.com/2026/10/01/dana-white-confirms-hell-announce-alex-pereiras-next-fight-during-ufc-332-kick-stream/",
     "https://sports.yahoo.com/mma/article/alex-pereira-staying-at-heavyweight-as-dana-white-announces-his-next-fight-for-ufc-335-011052102.html",
     "https://cagesidepress.com/2026/10/03/sergei-pavlovich-vs-alex-pereira-announced-as-ufc-335-co-main/",
-    "https://www.fightful.com/mma/alex-pereira-to-face-sergei-pavlovich-in-ufc-335-co-main-event/"
+    "https://www.fightful.com/mma/alex-pereira-to-face-sergei-pavlovich-in-ufc-335-co-main-event/",
+    "https://www.lowkickmma.com/joe-rogan-warns-alex-pereira-of-tough-task-against-sergei-pavlovich/"
    ],
    "posts": [
     {
@@ -1758,6 +1760,12 @@
      "image": "fighter photo (Alex Pereira)",
      "scheduled_for": "2026-10-03T22:40:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9222102418765727027"
+    },
+    {
+     "post": "2026-10-05-1341-rogan-pereira-tough-task",
+     "kind": "update",
+     "format": "reel",
+     "requested_by_user": true
     }
    ]
   },
@@ -1777,7 +1785,8 @@
     "Broken feet also kept Talbott sidelined",
     "Talbott (5-1 UFC) faces Deiveson Figueiredo in the UFC 332 co-main event; last fought Dec 2025, beating Henry Cejudo at UFC 323",
     "UPDATE 2026-10-03: After TKO of Figueiredo at UFC 332, Talbott called out O'Malley in-cage: 'I just mopped the floor with two champions back-to-back... Sean O'Malley. You can't run forever.' Dana White called Talbott 'absolutely dominant'; no O'Malley response yet",
-    "UPDATE 2026-10-04 (~6:30 PM ET): O'Malley replied on Instagram Stories with a graphic of his last 7 fights: '4 out of last 7 fights have been against 3 of the greatest bantamweights of all time... Ain't duckin no one' (Yan, Sterling, Dvalishvili x2); also posted a clip styled as Talbott"
+    "UPDATE 2026-10-04 (~6:30 PM ET): O'Malley replied on Instagram Stories with a graphic of his last 7 fights: '4 out of last 7 fights have been against 3 of the greatest bantamweights of all time... Ain't duckin no one' (Yan, Sterling, Dvalishvili x2); also posted a clip styled as Talbott",
+    "UPDATE 2026-10-04 (11:45 PM ET, LowKick): Henry Cejudo (who lost to Talbott at UFC 323) backed Talbott on X, saying the UFC needs to stop protecting O'Malley"
    ],
    "sources": [
     "https://heavy.com/sports/ufc/payton-talbott-sean-omalley-was-discussed/",
@@ -1787,7 +1796,8 @@
     "https://sports.yahoo.com/articles/payton-talbott-calls-sean-o-082707069.html",
     "https://heavy.com/sports/ufc/dana-white-payton-talbott-ufc-332/",
     "https://sports.yahoo.com/articles/sean-o-malley-responds-payton-222915235.html",
-    "https://www.lowkickmma.com/sean-omalley-payton-talbott-response-ducking/"
+    "https://www.lowkickmma.com/sean-omalley-payton-talbott-response-ducking/",
+    "https://www.lowkickmma.com/former-ufc-double-champion-demands-sean-omalley-fight-payton-talbott-next/"
    ],
    "posts": [
     {
@@ -1813,6 +1823,12 @@
      "image": "fighter photo (Sean O'Malley)",
      "scheduled_for": "2026-10-05T09:25:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4150738274650077761"
+    },
+    {
+     "post": "2026-10-05-1340-cejudo-protecting-omalley",
+     "kind": "update",
+     "format": "reel",
+     "requested_by_user": true
     }
    ]
   },
