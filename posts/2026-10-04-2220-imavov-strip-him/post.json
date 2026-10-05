@@ -41,5 +41,13 @@
   "seconds": 5,
   "question": "Take it or skip it?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/pairs/nassourdine-imavov-sean-strickland.png",
+    "credit": "JoeKhanMMA / CC BY-SA 4.0; WWIT MMA News"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

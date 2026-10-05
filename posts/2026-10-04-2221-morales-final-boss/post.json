@@ -37,5 +37,13 @@
   "seconds": 5,
   "question": "Morales or Shavkat?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png",
+    "credit": "Presidencia de la República del Ecuador / Public domain"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
