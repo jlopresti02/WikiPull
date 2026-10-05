@@ -25,7 +25,10 @@
     {
      "post": "2026-10-05-1820-costa-incompetent",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "scheduled_for": "2026-10-05T19:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2425876131853941923",
+     "image": "fighter photo (Dana White stand-in, he is the target; no usable Paulo Costa photo, Wikimedia returned other people)"
     }
    ]
   },
@@ -52,7 +55,10 @@
     {
      "post": "2026-10-05-1821-ribovics-boxer-guy",
      "kind": "new",
-     "format": "trial_reel"
+     "format": "trial_reel",
+     "scheduled_for": "2026-10-05T19:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-408909463127964982",
+     "image": "fighter photo (Esteban Ribovics, Drive)"
     }
    ]
   },
