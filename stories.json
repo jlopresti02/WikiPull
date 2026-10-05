@@ -1765,7 +1765,10 @@
      "post": "2026-10-05-1341-rogan-pereira-tough-task",
      "kind": "update",
      "format": "reel",
-     "requested_by_user": true
+     "requested_by_user": true,
+     "image": "fighter photo (Joe Rogan, Drive funny face drive-joe-rogan-4; user request)",
+     "scheduled_for": "2026-10-05T14:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6957835843281860494"
     }
    ]
   },
@@ -1828,7 +1831,10 @@
      "post": "2026-10-05-1340-cejudo-protecting-omalley",
      "kind": "update",
      "format": "reel",
-     "requested_by_user": true
+     "requested_by_user": true,
+     "image": "fighter photo (Henry Cejudo, Wikimedia)",
+     "scheduled_for": "2026-10-05T13:55:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-800499430698106426"
     }
    ]
   },
