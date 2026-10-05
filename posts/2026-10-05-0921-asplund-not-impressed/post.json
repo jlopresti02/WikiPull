@@ -1,0 +1,46 @@
+{
+  "story_id": "asplund-calls-out-johnny-walker-ufc-335",
+  "headline": "Walker Called Out",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Steven Asplund"
+    },
+    {
+      "type": "fighter",
+      "name": "Johnny Walker (fighter)",
+      "file": "02-johnny-walker-lutador-2025",
+      "headline": "Walker Called Out"
+    },
+    {
+      "type": "mystery",
+      "headline": "Asplund's Callout"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Heavyweight Steven Asplund just borrowed GSP's famous line to call out Johnny Walker.\nAsplund or Walker? 👇\n\nAfter Walker's knee KO of Mick Parkin in his UFC heavyweight debut at UFC 332, Asplund posted \"I'm not impressed by your performance\" and wants him at UFC 335 in Las Vegas in December. UFC news.\n\nWould you make this fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "JohnnyWalker",
+    "StevenAsplund"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Asplund or Walker?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/johnny-walker-fighter/cutouts/02-johnny-walker-lutador-2025.png",
+    "credit": "Sexto Round / CC BY 3.0"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}
