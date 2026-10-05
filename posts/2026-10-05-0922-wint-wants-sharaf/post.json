@@ -1,14 +1,21 @@
 {
   "story_id": "wint-calls-out-sharaf-ufc-334",
-  "headline": "Wint's Callout",
+  "headline": "Next Victim?",
   "visual": [
     {
       "type": "fighter",
-      "name": "Anthony Wint"
+      "name": "Anthony Wint",
+      "file": "drive-anthony-wint"
+    },
+    {
+      "type": "fighter",
+      "name": "Anthony Wint",
+      "file": "drive-anthony-wint-ny-jets"
     },
     {
       "type": "fighter",
       "name": "Sean Sharaf",
+      "file": "drive-sean-sharif",
       "headline": "Wint Wants Sharaf"
     },
     {
@@ -36,12 +43,11 @@
   "reel": true,
   "trial_reel": true,
   "subject": {
-    "kind": "graphic",
-    "graphic": "mystery",
-    "image": null,
-    "credit": null
+    "kind": "fighter",
+    "image": "images/anthony-wint/cutouts/drive-anthony-wint.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/03-acrobat.mp3",
-  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
-  "music_start": 158.75
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

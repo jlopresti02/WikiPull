@@ -1,36 +1,20 @@
-Searching Wikimedia Commons for: Steven Asplund
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Anthony Wint
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Sean Sharaf
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-
-== 2026-10-05-0920-omalley-aint-ducking.json
-Image: {'type': 'fighter', 'name': "Sean O'Malley", 'file': '01-sean-o-malley-in-2024'} -> fighter images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png  headline: Ain't Ducking
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-05-0920-omalley-aint-ducking/post.png (fighter)
-Rendered posts/2026-10-05-0920-omalley-aint-ducking/reel.mp4
-
-== 2026-10-05-0921-asplund-not-impressed.json
-$ fetch.py Steven Asplund --count 5
-Image: {'type': 'fighter', 'name': 'Johnny Walker (fighter)', 'file': '02-johnny-walker-lutador-2025', 'headline': 'Walker Called Out'} -> fighter images/johnny-walker-fighter/cutouts/02-johnny-walker-lutador-2025.png  headline: Walker Called Out
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-05-0921-asplund-not-impressed/post.png (fighter)
-Rendered posts/2026-10-05-0921-asplund-not-impressed/reel.mp4
+[0;93m2026-10-05 13:41:32.658105813 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/anthony-wint/cutouts/drive-anthony-wint-ny-jets.png
+  cutout images/anthony-wint/cutouts/drive-anthony-wint.png
+Done: 2 new cutout(s).
+[0;93m2026-10-05 13:43:06.079757651 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/sean-sharaf/cutouts/drive-sean-sharif.png
+Done: 1 new cutout(s).
+Drive: saved images/anthony-wint/drive-anthony-wint.jpg
+Drive: saved images/anthony-wint/drive-anthony-wint-ny-jets.jpg
+Drive: saved images/sean-sharaf/drive-sean-sharif.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/anthony-wint
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sean-sharaf
 
 == 2026-10-05-0922-wint-wants-sharaf.json
-$ fetch.py Anthony Wint --count 5
-$ fetch.py Sean Sharaf --count 5
-Image: {'type': 'mystery', 'headline': "Wint's Callout"} -> graphic   headline: Wint's Callout
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-05-0922-wint-wants-sharaf/post.png (graphic)
+Image: {'type': 'fighter', 'name': 'Anthony Wint', 'file': 'drive-anthony-wint'} -> fighter images/anthony-wint/cutouts/drive-anthony-wint.png  headline: Next Victim?
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-05-0922-wint-wants-sharaf/post.png (fighter)
 Rendered posts/2026-10-05-0922-wint-wants-sharaf/reel.mp4
