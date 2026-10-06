@@ -1,0 +1,18 @@
+{
+  "story_id": "chimaev-offers-strickland-1m-rematch",
+  "headline": "$1M Rematch",
+  "visual": [
+    {"type": "fighter", "name": "Khamzat Chimaev"},
+    {"type": "fighter", "name": "Sean Strickland", "file": "drive-sean-strickland", "headline": "$1M Offer"},
+    {"type": "money", "headline": "$1M Rematch"}
+  ],
+  "color": "#d2202f",
+  "caption": "Khamzat Chimaev just put $1 million on the table for a Sean Strickland rematch.\nChimaev or Strickland? 👇\n\nChimaev told the UFC middleweight champ to send a location, doubling Nassourdine Imavov's $500K offer. Strickland handed Chimaev his first loss by split decision at UFC 328. UFC news.\n\nDoes Strickland take it?",
+  "hashtags": ["MMANews", "UFC", "UFCMiddleweight", "KhamzatChimaev", "SeanStrickland"],
+  "sources": ["Sherdog", "MiddleEasy"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Chimaev or Strickland?",
+  "follow_card": true,
+  "reel": true
+}

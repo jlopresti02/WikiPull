@@ -11,16 +11,47 @@
       ],
       "event": "UFC middleweight",
       "first_reported": "2026-10-06",
-      "held_for_evening": true,
       "facts": [
         "Chimaev posted on X (Oct 5) offering Strickland '1' (read as $1 million) for a rematch 'outside inside the cage', doubling Imavov's $500K offer",
         "Strickland beat Chimaev by split decision at UFC 328 in May for the middleweight title, Chimaev's first loss; Strickland's next defense vs. Imavov is reportedly stuck on pay and now looks like 2027",
         "Related: strickland-money-ufc-335-snub (Imavov $500K offer already posted)"
       ],
       "sources": [
-        "https://www.sherdog.com/news/news/Khamzat-Chimaev-offers-Sean-Strickland-1-million-for-UFC-rematch-203081"
+        "https://www.sherdog.com/news/news/Khamzat-Chimaev-offers-Sean-Strickland-1-million-for-UFC-rematch-203081",
+        "https://middleeasy.com/mma-news/khamzat-chimaev-offers-sean-strickland-1-million-send-me-location"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-06-1820-chimaev-1m-strickland",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "rakhmonov-teases-morales-19-0-vs-19-0",
+      "title": "Shavkat Rakhmonov teases Michael Morales fight: '19-0 VS 19-0'",
+      "people": [
+        "Shavkat Rakhmonov",
+        "Michael Morales"
+      ],
+      "event": "UFC welterweight",
+      "first_reported": "2026-10-06",
+      "facts": [
+        "Oct 6: Rakhmonov posted a TikTok video captioned '19-0 VS 19-0', read as a reply to Morales naming him the 'final boss'",
+        "No fight booked; Rakhmonov last fought Dec 2024 (beat Ian Machado Garry), sidelined by injuries; Morales last stopped Sean Brady Nov 2025",
+        "Related: morales-january-return-title-shot-plan, garry-says-morales-fight-locked-in"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/shavkat-rakhmonov-hints-19-0-versus-19-0-ufc-fight-michael-morales/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-06-1821-rakhmonov-19-0",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
     },
     {
       "id": "poirier-helped-teammate-cheat-scale",
@@ -30,7 +61,6 @@
       ],
       "event": "",
       "first_reported": "2026-10-06",
-      "held_for_evening": true,
       "facts": [
         "On the 'Deep Waters' podcast (clip posted by @UFConParamount Oct 5), Poirier said he stood behind the weigh-in towel and lifted a naked, overweight teammate slightly so he made weight at a fight in Mississippi",
         "Poirier, former interim champ, retired after losing to Max Holloway; has not ruled out a return"
@@ -38,7 +68,13 @@
       "sources": [
         "https://www.sherdog.com/news/news/Dustin-Poirier-admits-he-helped-teammate-cheat-scale-to-make-weight-203079"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-06-1822-poirier-scale-cheat",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
     },
     {
       "id": "aldo-vera-grappling-draw-hype-ecuador",
@@ -51,7 +87,6 @@
       "event": "Hype Fighting (Quito, Ecuador)",
       "sport": "bjj",
       "first_reported": "2026-10-06",
-      "held_for_evening": true,
       "facts": [
         "Sunday Oct 4: Aldo and Vera drew a 10-minute grappling match headlining Hype Fighting in Quito; Aldo escaped a Vera heel hook; Aldo's first competition in ~17 months",
         "Colby Covington was also on the card but organizers said he fell ill and went to a local hospital",
@@ -61,7 +96,8 @@
         "https://www.sherdog.com/news/news/Jose-Aldo-returns-after-17-months-grapples-Marlon-Vera-to-draw-203087",
         "https://middleeasy.com/mma-news/jose-aldo-marlon-vera-grappling-match-draw-hype-ecuador/"
       ],
-      "posts": []
+      "posts": [],
+      "skipped": "2026-10-06 6 PM run: dropped for the daily cap (stale / O'Malley and Cejudo already posted today)"
     },
     {
       "id": "omalley-yan-voice-notes-ufc-333",
@@ -173,7 +209,6 @@
       ],
       "event": "PFL",
       "first_reported": "2026-10-05",
-      "held_for_evening": true,
       "facts": [
         "Cyborg to MMA Sucka: she will fight MMA again; her performance vs. Ketlen Vieira proved she can still compete with the best",
         "Also wants to compete in RAF, joked about Kayla Harrison there; says she offered Claressa Shields $2M for a boxing match; BKFC never made a serious offer"
@@ -182,7 +217,8 @@
         "https://www.sherdog.com/news/news/Cris-Cyborg-confirms-she-will-fight-MMA-again-following-PFL-farewell-203091",
         "https://mmasucka.com/interviews/exclusive-mma-great-cris-cyborg-responds-to-calls-for-return-talks-raf-boxing-neuro42/"
       ],
-      "posts": []
+      "posts": [],
+      "skipped": "2026-10-06 6 PM run: dropped for the daily cap (stale / O'Malley and Cejudo already posted today)"
     },
     {
       "id": "omalley-calls-cejudo-jealous",
@@ -194,7 +230,6 @@
       ],
       "event": "UFC bantamweight",
       "first_reported": "2026-10-06",
-      "held_for_evening": true,
       "facts": [
         "On The MMA Guru's show O'Malley said 'jealousy is not a good thing' about Cejudo, who keeps saying fighters would beat him and pushed for O'Malley vs. Talbott",
         "Follows Cejudo saying the UFC protects O'Malley (see talbott-omalley-white-house-claim)"
@@ -202,7 +237,8 @@
       "sources": [
         "https://mmasucka.com/news/sean-omalley-accuses-henry-cejudo-of-jealousy-after-repeated-hell-beat-sean-claims/"
       ],
-      "posts": []
+      "posts": [],
+      "skipped": "2026-10-06 6 PM run: dropped for the daily cap (stale / O'Malley and Cejudo already posted today)"
     },
     {
       "id": "johnson-adesanya-rip-evloev-no-finishes",
