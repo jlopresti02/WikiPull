@@ -25,7 +25,10 @@
         {
           "post": "2026-10-06-0925-omalley-yan-next",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "fighter photo (Sean O'Malley)",
+          "scheduled_for": "2026-10-06T09:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2923695327500417138"
         }
       ]
     },
@@ -56,7 +59,10 @@
         {
           "post": "2026-10-06-0926-cejudo-herb-step-aside",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "image": "referee photo (Herb Dean)",
+          "scheduled_for": "2026-10-06T10:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3419031272171914724"
         }
       ]
     },
@@ -87,7 +93,10 @@
         {
           "post": "2026-10-06-0927-zabit-raf",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "image": "fighter photo (Zabit Magomedsharipov)",
+          "scheduled_for": "2026-10-06T10:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4816879988143407069"
         }
       ]
     },
