@@ -1,0 +1,51 @@
+{
+  "story_id": "garry-says-morales-fight-locked-in",
+  "headline": "Garry Says Set",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ian Machado Garry"
+    },
+    {
+      "type": "fighter",
+      "name": "Ian Garry"
+    },
+    {
+      "type": "fighter",
+      "name": "Michael Morales (fighter)",
+      "file": "01-michael-morales-quito-27-de-mayo-del-2025-cropped",
+      "headline": "Garry Says Set"
+    },
+    {
+      "type": "mystery",
+      "headline": "Garry's Next Foe"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Ian Machado Garry says his fight with unbeaten Michael Morales is locked in, and accuses Morales of already making excuses.\nGarry or Morales? 👇\n\nGarry says the UFC has sent a date for a welterweight main event. Morales hasn't confirmed it and keeps calling out Islam Makhachev and Shavkat Rakhmonov. UFC news.\n\nWho's telling the truth?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCWelterweight",
+    "IanMachadoGarry",
+    "MichaelMorales"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "MMA Mania",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Garry or Morales?",
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png",
+    "credit": "Presidencia de la República del Ecuador / Public domain"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
+}

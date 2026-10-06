@@ -1,7 +1,18 @@
-[0;93m2026-10-06 02:07:39.210559122 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/paulo-costa/cutouts/drive-paulo-costa.png
-Done: 1 new cutout(s).
-Drive: saved images/paulo-costa/drive-paulo-costa.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/paulo-costa
-Queue is empty.
+Searching Wikimedia Commons for: Ian Machado Garry
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Ian Garry
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+
+== 2026-10-05-2225-garry-locked-in.json
+$ fetch.py Ian Machado Garry --count 5
+$ fetch.py Ian Garry --count 5
+Image: {'type': 'fighter', 'name': 'Michael Morales (fighter)', 'file': '01-michael-morales-quito-27-de-mayo-del-2025-cropped', 'headline': 'Garry Says Set'} -> fighter images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png  headline: Garry Says Set
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-05-2225-garry-locked-in/post.png (fighter)
+Rendered posts/2026-10-05-2225-garry-locked-in/reel.mp4
