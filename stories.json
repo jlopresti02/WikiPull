@@ -28,7 +28,10 @@
         {
           "post": "2026-10-05-2225-garry-locked-in",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-05T22:40:00-04:00",
+          "image": "fighter photo (Michael Morales; no Garry photo found)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1560802649539263052"
         }
       ]
     },
