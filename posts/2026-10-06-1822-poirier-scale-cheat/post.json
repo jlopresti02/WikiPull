@@ -1,0 +1,39 @@
+{
+  "story_id": "poirier-helped-teammate-cheat-scale",
+  "headline": "Scale Cheat",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dustin Poirier"
+    },
+    {
+      "type": "mystery",
+      "headline": "Poirier Confesses"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Dustin Poirier just admitted he helped a teammate cheat the scale.\nFunny or shady? 👇\n\nOn the Deep Waters podcast, the former UFC interim champ said he hid behind the weigh-in towel and lifted an overweight teammate just enough to make weight at a fight in Mississippi. MMA news.\n\nWould you have done it?",
+  "hashtags": [
+    "MMA",
+    "UFC",
+    "MMANews",
+    "DustinPoirier",
+    "WeighIns"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Funny or shady?",
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dustin-poirier/cutouts/01-dustin-poirier-2024.png",
+    "credit": "Poatanfan24 / CC BY-SA 4.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}

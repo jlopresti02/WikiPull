@@ -1,27 +1,47 @@
-Searching Wikimedia Commons for: Zabit Magomedsharipov
-  saved images/zabit-magomedsharipov/01-zabit-magomedsharipov-at-ufc-fight-night-136.jpg  [CC BY 3.0]
+Searching Wikimedia Commons for: Khamzat Chimaev
+  saved images/khamzat-chimaev/01-adam-shamsiev-and-khamzat-chimaev.jpg  [CC BY-SA 4.0]
 Done: 1 image(s) saved.
-[0;93m2026-10-06 13:27:27.342170508 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-06 22:15:24.545145291 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/zabit-magomedsharipov/cutouts/01-zabit-magomedsharipov-at-ufc-fight-night-136.png
+  cutout images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png
 Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Shavkat Rakhmonov
+  saved images/shavkat-rakhmonov/01-shavkat-rakhmonov.jpg  [CC0]
+Done: 1 image(s) saved.
+[0;93m2026-10-06 22:16:25.720339874 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/shavkat-rakhmonov/cutouts/01-shavkat-rakhmonov.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Dustin Poirier
+  saved images/dustin-poirier/01-dustin-poirier-2024.jpg  [CC BY-SA 4.0]
+  saved images/dustin-poirier/02-dustin-poirier-stance.png  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-06 22:16:58.907956747 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/dustin-poirier/cutouts/01-dustin-poirier-2024.png
+  cutout images/dustin-poirier/cutouts/02-dustin-poirier-stance.png
+Done: 2 new cutout(s).
 
-== 2026-10-06-0925-omalley-yan-next.json
-Image: {'type': 'fighter', 'name': "Sean O'Malley", 'file': '01-sean-o-malley-in-2024'} -> fighter images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png  headline: You're Next
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-06-0925-omalley-yan-next/post.png (fighter)
-Rendered posts/2026-10-06-0925-omalley-yan-next/reel.mp4
+== 2026-10-06-1820-chimaev-1m-strickland.json
+$ fetch.py Khamzat Chimaev --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/khamzat-chimaev
+Image: {'type': 'fighter', 'name': 'Khamzat Chimaev'} -> fighter images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png  headline: $1M Rematch
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-06-1820-chimaev-1m-strickland/post.png (fighter)
+Rendered posts/2026-10-06-1820-chimaev-1m-strickland/reel.mp4
 
-== 2026-10-06-0926-cejudo-herb-step-aside.json
-Image: {'type': 'fighter', 'name': 'Herb Dean'} -> fighter images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png  headline: Step Aside?
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-06-0926-cejudo-herb-step-aside/post.png (fighter)
-Rendered posts/2026-10-06-0926-cejudo-herb-step-aside/reel.mp4
+== 2026-10-06-1821-rakhmonov-19-0.json
+$ fetch.py Shavkat Rakhmonov --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/shavkat-rakhmonov
+Image: {'type': 'fighter', 'name': 'Shavkat Rakhmonov'} -> fighter images/shavkat-rakhmonov/cutouts/01-shavkat-rakhmonov.png  headline: 19-0 vs 19-0
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-06-1821-rakhmonov-19-0/post.png (fighter)
+Rendered posts/2026-10-06-1821-rakhmonov-19-0/reel.mp4
 
-== 2026-10-06-0927-zabit-raf.json
-$ fetch.py Zabit Magomedsharipov --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/zabit-magomedsharipov
-Image: {'type': 'fighter', 'name': 'Zabit Magomedsharipov'} -> fighter images/zabit-magomedsharipov/cutouts/01-zabit-magomedsharipov-at-ufc-fight-night-136.png  headline: Zabit Returns
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-06-0927-zabit-raf/post.png (fighter)
-Rendered posts/2026-10-06-0927-zabit-raf/reel.mp4
+== 2026-10-06-1822-poirier-scale-cheat.json
+$ fetch.py Dustin Poirier --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/dustin-poirier
+Image: {'type': 'fighter', 'name': 'Dustin Poirier'} -> fighter images/dustin-poirier/cutouts/01-dustin-poirier-2024.png  headline: Scale Cheat
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-06-1822-poirier-scale-cheat/post.png (fighter)
+Rendered posts/2026-10-06-1822-poirier-scale-cheat/reel.mp4
