@@ -2,6 +2,68 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "chimaev-offers-strickland-1m-rematch",
+      "title": "Khamzat Chimaev offers Sean Strickland $1 million for a UFC rematch",
+      "people": [
+        "Khamzat Chimaev",
+        "Sean Strickland",
+        "Nassourdine Imavov"
+      ],
+      "event": "UFC middleweight",
+      "first_reported": "2026-10-06",
+      "held_for_evening": true,
+      "facts": [
+        "Chimaev posted on X (Oct 5) offering Strickland '1' (read as $1 million) for a rematch 'outside inside the cage', doubling Imavov's $500K offer",
+        "Strickland beat Chimaev by split decision at UFC 328 in May for the middleweight title, Chimaev's first loss; Strickland's next defense vs. Imavov is reportedly stuck on pay and now looks like 2027",
+        "Related: strickland-money-ufc-335-snub (Imavov $500K offer already posted)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Khamzat-Chimaev-offers-Sean-Strickland-1-million-for-UFC-rematch-203081"
+      ],
+      "posts": []
+    },
+    {
+      "id": "poirier-helped-teammate-cheat-scale",
+      "title": "Dustin Poirier admits he helped a teammate cheat the scale to make weight",
+      "people": [
+        "Dustin Poirier"
+      ],
+      "event": "",
+      "first_reported": "2026-10-06",
+      "held_for_evening": true,
+      "facts": [
+        "On the 'Deep Waters' podcast (clip posted by @UFConParamount Oct 5), Poirier said he stood behind the weigh-in towel and lifted a naked, overweight teammate slightly so he made weight at a fight in Mississippi",
+        "Poirier, former interim champ, retired after losing to Max Holloway; has not ruled out a return"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dustin-Poirier-admits-he-helped-teammate-cheat-scale-to-make-weight-203079"
+      ],
+      "posts": []
+    },
+    {
+      "id": "aldo-vera-grappling-draw-hype-ecuador",
+      "title": "Jose Aldo returns, draws Marlon Vera in grappling match at Hype Fighting in Quito",
+      "people": [
+        "José Aldo",
+        "Marlon Vera",
+        "Colby Covington"
+      ],
+      "event": "Hype Fighting (Quito, Ecuador)",
+      "sport": "bjj",
+      "first_reported": "2026-10-06",
+      "held_for_evening": true,
+      "facts": [
+        "Sunday Oct 4: Aldo and Vera drew a 10-minute grappling match headlining Hype Fighting in Quito; Aldo escaped a Vera heel hook; Aldo's first competition in ~17 months",
+        "Colby Covington was also on the card but organizers said he fell ill and went to a local hospital",
+        "Adjacent sports option (Trial Reel) for the evening; may be stale"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Jose-Aldo-returns-after-17-months-grapples-Marlon-Vera-to-draw-203087",
+        "https://middleeasy.com/mma-news/jose-aldo-marlon-vera-grappling-match-draw-hype-ecuador/"
+      ],
+      "posts": []
+    },
+    {
       "id": "omalley-yan-voice-notes-ufc-333",
       "title": "Sean O'Malley shares private voice notes with champ Petr Yan ahead of UFC 333",
       "people": [
