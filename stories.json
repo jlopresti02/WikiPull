@@ -2,6 +2,138 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "omalley-yan-voice-notes-ufc-333",
+      "title": "Sean O'Malley shares private voice notes with champ Petr Yan ahead of UFC 333",
+      "people": [
+        "Sean O'Malley",
+        "Petr Yan",
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333 (Abu Dhabi)",
+      "first_reported": "2026-10-06",
+      "facts": [
+        "O'Malley played voice notes in a video with The MMA Guru: he hopes Yan beats Merab so he can beat him again",
+        "Yan replied he'll smash Merab and O'Malley is next",
+        "Yan defends the bantamweight title vs. Dvalishvili at UFC 333 in Abu Dhabi; O'Malley beat Yan by split decision at UFC 280 (2022)",
+        "O'Malley also said he'd 'duck' Talbott for the Yan fight if Merab loses"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-news/477103/sean-omalley-shares-back-and-forth-with-champ-petr-yan-you-will-be-next",
+        "https://sports.yahoo.com/articles/sean-o-malley-shares-back-110506813.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-06-0925-omalley-yan-next",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "cejudo-herb-dean-step-aside-ufc-332",
+      "title": "Henry Cejudo says Herb Dean should step aside after UFC 332 King Green stoppage",
+      "people": [
+        "Henry Cejudo",
+        "Herb Dean",
+        "Kamaru Usman",
+        "Bobby Green",
+        "Esteban Ribovics"
+      ],
+      "event": "UFC 332 aftermath (Pound 4 Pound podcast, Oct 5)",
+      "first_reported": "2026-10-06",
+      "facts": [
+        "On 'Pound 4 Pound with Kamaru & Henry' Cejudo said nobody likes Dean anymore, it's ridiculous he still has a job with the NSAC, he should step aside",
+        "Refers to Dean's R1 stoppage of Ribovics vs. King Green at UFC 332 (Green dropped three times); also cited a DWCS knee incident",
+        "Usman defended Dean: it's at the referee's discretion",
+        "Related ledger story: king-green-bmf-title-dana-white (Dana's 'rough year' comment)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/henry-cejudo-herb-dean-step-aside-ufc-332-stoppage-debate/",
+        "https://sports.yahoo.com/articles/herb-dean-trashed-henry-cejudo-025336821.html",
+        "https://bloodyelbow.com/2026/10/06/herb-dean-told-to-retire-from-refereeing-by-henry-cejudo-who-piles-in-on-ufc-332-criticism/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-06-0926-cejudo-herb-step-aside",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "zabit-signs-raf-vs-chikadze-abu-dhabi",
+      "sport": "wrestling",
+      "title": "Zabit Magomedsharipov signs multi-fight RAF deal, debuts vs. Giga Chikadze at RAF Abu Dhabi",
+      "people": [
+        "Zabit Magomedsharipov",
+        "Giga Chikadze",
+        "Khamzat Chimaev",
+        "Colby Covington"
+      ],
+      "event": "RAF Abu Dhabi, Nov 14, 2026, Etihad Arena",
+      "first_reported": "2026-10-06",
+      "facts": [
+        "Multi-fight RAF deal, terms undisclosed (MMA Junkie)",
+        "Debut vs. UFC veteran Giga Chikadze at RAF Abu Dhabi, Nov 14",
+        "Chimaev vs. Covington reportedly headlines (MiddleEasy); Umar Nurmagomedov vs. Faber also on card",
+        "Zabit went 6-0 in UFC, 18-1 overall; last MMA fight vs. Kattar Nov 2019"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/raf-signs-former-ufc-star-003020205.html",
+        "https://www.sherdog.com/news/news/Report-Zabit-Magomedsharipov-signs-multifight-deal-for-combat-sports-return-203085",
+        "https://middleeasy.com/mma-news/zabit-magomedsharipov-raf-multi-fight-deal-abu-dhabi"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-06-0927-zabit-raf",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
+      "id": "cyborg-will-fight-mma-again",
+      "title": "Cris Cyborg says she will fight MMA again despite PFL 'farewell'",
+      "people": [
+        "Cris Cyborg",
+        "Ketlen Vieira",
+        "Claressa Shields",
+        "Kayla Harrison"
+      ],
+      "event": "PFL",
+      "first_reported": "2026-10-05",
+      "held_for_evening": true,
+      "facts": [
+        "Cyborg to MMA Sucka: she will fight MMA again; her performance vs. Ketlen Vieira proved she can still compete with the best",
+        "Also wants to compete in RAF, joked about Kayla Harrison there; says she offered Claressa Shields $2M for a boxing match; BKFC never made a serious offer"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Cris-Cyborg-confirms-she-will-fight-MMA-again-following-PFL-farewell-203091",
+        "https://mmasucka.com/interviews/exclusive-mma-great-cris-cyborg-responds-to-calls-for-return-talks-raf-boxing-neuro42/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "omalley-calls-cejudo-jealous",
+      "title": "Sean O'Malley says Henry Cejudo is jealous after Cejudo's repeated jabs",
+      "people": [
+        "Sean O'Malley",
+        "Henry Cejudo",
+        "Payton Talbott"
+      ],
+      "event": "UFC bantamweight",
+      "first_reported": "2026-10-06",
+      "held_for_evening": true,
+      "facts": [
+        "On The MMA Guru's show O'Malley said 'jealousy is not a good thing' about Cejudo, who keeps saying fighters would beat him and pushed for O'Malley vs. Talbott",
+        "Follows Cejudo saying the UFC protects O'Malley (see talbott-omalley-white-house-claim)"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/sean-omalley-accuses-henry-cejudo-of-jealousy-after-repeated-hell-beat-sean-claims/"
+      ],
+      "posts": []
+    },
+    {
       "id": "johnson-adesanya-rip-evloev-no-finishes",
       "title": "Demetrious Johnson and Israel Adesanya question unbeaten Evloev's lack of finishes",
       "people": [

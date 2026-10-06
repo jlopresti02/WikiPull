@@ -1,0 +1,17 @@
+{
+  "story_id": "cejudo-herb-dean-step-aside-ufc-332",
+  "headline": "Step Aside?",
+  "visual": [
+    {"type": "fighter", "name": "Herb Dean"},
+    {"type": "fighter", "name": "Henry Cejudo", "headline": "Cejudo: Step Aside"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "Henry Cejudo says referee Herb Dean should step aside after UFC 332.\nKeep him or replace him? 👇\n\nOn his podcast with Kamaru Usman, the former two-division UFC champ said nobody likes Dean anymore and ripped his stoppage of King Green vs. Esteban Ribovics. Usman backed the ref's call. MMA news.\n\nWas the stoppage early?",
+  "hashtags": ["MMANews", "UFC", "UFC332", "HerbDean", "HenryCejudo"],
+  "sources": ["MiddleEasy", "Heavy via Yahoo Sports"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Keep or replace?",
+  "follow_card": true,
+  "reel": true
+}

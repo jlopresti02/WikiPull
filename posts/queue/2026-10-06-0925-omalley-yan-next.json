@@ -1,0 +1,17 @@
+{
+  "story_id": "omalley-yan-voice-notes-ufc-333",
+  "headline": "You're Next",
+  "visual": [
+    {"type": "fighter", "name": "Sean O'Malley", "file": "01-sean-o-malley-in-2024"},
+    {"type": "fighter", "name": "Petr Yan"}
+  ],
+  "color": "#d2202f",
+  "caption": "Sean O'Malley and champ Petr Yan are already trading threats before UFC 333.\nO'Malley or Yan? 👇\n\nO'Malley shared private voice notes: he hopes Yan gets past Merab Dvalishvili so he can beat him again, and Yan answered that O'Malley is next. Yan defends the UFC bantamweight title against Dvalishvili at UFC 333 in Abu Dhabi. UFC news.\n\nWho wins the rematch?",
+  "hashtags": ["MMANews", "UFC", "UFC333", "SeanOMalley", "PetrYan"],
+  "sources": ["MMA Mania", "Yahoo Sports"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "O'Malley or Yan?",
+  "follow_card": true,
+  "reel": true
+}
