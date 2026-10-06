@@ -1,6 +1,6 @@
 {
   "story_id": "johnson-adesanya-rip-evloev-no-finishes",
-  "headline": "No Finishes?",
+  "headline": "DJ Rips Evloev",
   "visual": [
     {
       "type": "fighter",
@@ -39,5 +39,13 @@
   "reel": true,
   "music_pool": "espn",
   "seconds": 5,
-  "follow_card": true
+  "follow_card": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/demetrious-johnson-fighter/cutouts/01-demetrious-johnson-2024.png",
+    "credit": "Onlyfans / CC BY 3.0"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
 }

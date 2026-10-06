@@ -1,18 +1,103 @@
-Searching Wikimedia Commons for: Ian Machado Garry
+Searching Wikimedia Commons for: Movsar Evloev
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Ian Garry
+Searching Wikimedia Commons for: Demetrious Johnson (fighter)
   No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
+  saved images/demetrious-johnson-fighter/01-demetrious-johnson-2024.png  [CC BY 3.0]
+  saved images/demetrious-johnson-fighter/02-mma-fighters-visit-charleston-6.jpg  [Public domain]
+Done: 2 image(s) saved.
+[0;93m2026-10-06 02:32:23.400443246 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/demetrious-johnson-fighter/cutouts/01-demetrious-johnson-2024.png
+  cutout images/demetrious-johnson-fighter/cutouts/02-mma-fighters-visit-charleston-6.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Ilia Topuria
+  saved images/ilia-topuria/01-ilia-topuria-in-the-oval-office-while-president-donald-j-tru.jpg  [Public domain]
+  saved images/ilia-topuria/02-ilia-topuria-at-the-orbeliani-palace-cropped.jpg  [CC BY 4.0]
+  saved images/ilia-topuria/03-salome-zourabichvili-awards-ilia-topuria-with-the-order-of-h.jpg  [CC BY 4.0]
+  saved images/ilia-topuria/04-ilia-topuria-at-the-orbeliani-palace.jpg  [CC BY 4.0]
+  saved images/ilia-topuria/05-ilia-topuria.jpg  [CC BY 3.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-06 02:34:14.646184692 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/ilia-topuria/cutouts/01-ilia-topuria-in-the-oval-office-while-president-donald-j-tru.png
+  cutout images/ilia-topuria/cutouts/02-ilia-topuria-at-the-orbeliani-palace-cropped.png
+  cutout images/ilia-topuria/cutouts/03-salome-zourabichvili-awards-ilia-topuria-with-the-order-of-h.png
+  cutout images/ilia-topuria/cutouts/04-ilia-topuria-at-the-orbeliani-palace.png
+  cutout images/ilia-topuria/cutouts/05-ilia-topuria.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Sam Alvey
+  saved images/sam-alvey/01-samalvey.jpg  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-10-06 02:36:49.093428999 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/sam-alvey/cutouts/01-samalvey.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Victor Ortiz
+  saved images/victor-ortiz/01-victor-ortiz-june-2011.jpg  [CC BY-SA 2.0]
+  saved images/victor-ortiz/02-victor-ortiz-at-westside-boxing-club-la.jpg  [Public domain]
+  saved images/victor-ortiz/03-victor-ortiz.jpg  [CC BY-SA 2.0]
+  saved images/victor-ortiz/04-victor-ortiz-and-floyd-mayweather-jr-2.jpg  [CC BY-SA 2.0]
+  saved images/victor-ortiz/05-victor-ortiz-and-floyd-mayweather-jr.jpg  [CC BY-SA 2.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-06 02:37:34.849033483 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/victor-ortiz/cutouts/01-victor-ortiz-june-2011.png
+  cutout images/victor-ortiz/cutouts/02-victor-ortiz-at-westside-boxing-club-la.png
+  cutout images/victor-ortiz/cutouts/03-victor-ortiz.png
+  cutout images/victor-ortiz/cutouts/04-victor-ortiz-and-floyd-mayweather-jr-2.png
+  cutout images/victor-ortiz/cutouts/05-victor-ortiz-and-floyd-mayweather-jr.png
+Done: 5 new cutout(s).
 
-== 2026-10-05-2225-garry-locked-in.json
-$ fetch.py Ian Machado Garry --count 5
-$ fetch.py Ian Garry --count 5
-Image: {'type': 'fighter', 'name': 'Michael Morales (fighter)', 'file': '01-michael-morales-quito-27-de-mayo-del-2025-cropped', 'headline': 'Garry Says Set'} -> fighter images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png  headline: Garry Says Set
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-05-2225-garry-locked-in/post.png (fighter)
-Rendered posts/2026-10-05-2225-garry-locked-in/reel.mp4
+== 2026-10-05-2235-evloev-no-finishes.json
+$ fetch.py Movsar Evloev --count 5
+$ fetch.py Demetrious Johnson (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/demetrious-johnson-fighter
+Image: {'type': 'fighter', 'name': 'Demetrious Johnson (fighter)', 'headline': 'DJ Rips Evloev'} -> fighter images/demetrious-johnson-fighter/cutouts/01-demetrious-johnson-2024.png  headline: DJ Rips Evloev
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-05-2235-evloev-no-finishes/post.png (fighter)
+Rendered posts/2026-10-05-2235-evloev-no-finishes/reel.mp4
+
+== 2026-10-05-2236-topuria-big-yes.json
+$ fetch.py Ilia Topuria --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ilia-topuria
+Image: {'type': 'fighter', 'name': 'Ilia Topuria'} -> fighter images/ilia-topuria/cutouts/01-ilia-topuria-in-the-oval-office-while-president-donald-j-tru.png  headline: Big Yes
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-05-2236-topuria-big-yes/post.png (fighter)
+Rendered posts/2026-10-05-2236-topuria-big-yes/reel.mp4
+
+== 2026-10-05-2237-rousey-unicorn.json
+Image: {'type': 'fighter', 'name': 'Ronda Rousey', 'file': '02-ronda-rousey'} -> fighter images/ronda-rousey/cutouts/02-ronda-rousey.png  headline: Unicorn
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-05-2237-rousey-unicorn/post.png (fighter)
+Rendered posts/2026-10-05-2237-rousey-unicorn/reel.mp4
+
+== 2026-10-05-2238-fury-betrayed.json
+Image: {'type': 'fighter', 'name': 'Tyson Fury', 'file': '01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro'} -> fighter images/tyson-fury/cutouts/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.png  headline: Betrayed
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-05-2238-fury-betrayed/post.png (fighter)
+Rendered posts/2026-10-05-2238-fury-betrayed/reel.mp4
+
+== 2026-10-05-2239-alvey-bkfc.json
+$ fetch.py Sam Alvey --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sam-alvey
+Image: {'type': 'fighter', 'name': 'Sam Alvey'} -> fighter images/sam-alvey/cutouts/01-samalvey.png  headline: Smile'N Goes Bare
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-05-2239-alvey-bkfc/post.png (fighter)
+Rendered posts/2026-10-05-2239-alvey-bkfc/reel.mp4
+
+== 2026-10-05-2240-ortiz-malignaggi.json
+$ fetch.py Victor Ortiz --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/victor-ortiz
+Image: {'type': 'fighter', 'name': 'Victor Ortiz'} -> fighter images/victor-ortiz/cutouts/01-victor-ortiz-june-2011.png  headline: Ortiz vs Paulie
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-05-2240-ortiz-malignaggi/post.png (fighter)
+Rendered posts/2026-10-05-2240-ortiz-malignaggi/reel.mp4
+
+== 2026-10-05-2241-talbott-ranked.json
+Image: {'type': 'fighter', 'name': 'Payton Talbott', 'file': 'drive-payton-talbott'} -> fighter images/payton-talbott/cutouts/drive-payton-talbott.png  headline: Ranked Now
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-05-2241-talbott-ranked/post.png (fighter)
+Rendered posts/2026-10-05-2241-talbott-ranked/reel.mp4

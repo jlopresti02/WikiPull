@@ -32,5 +32,14 @@
   "trial_reel": true,
   "music_pool": "espn",
   "seconds": 5,
-  "follow_card": true
+  "follow_card": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/payton-talbott/cutouts/drive-payton-talbott.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75,
+  "reel": true
 }

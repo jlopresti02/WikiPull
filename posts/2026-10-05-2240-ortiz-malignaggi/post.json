@@ -31,5 +31,14 @@
   "trial_reel": true,
   "music_pool": "espn",
   "seconds": 5,
-  "follow_card": true
+  "follow_card": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/victor-ortiz/cutouts/01-victor-ortiz-june-2011.png",
+    "credit": "Chamber of Fear / CC BY-SA 2.0"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25,
+  "reel": true
 }

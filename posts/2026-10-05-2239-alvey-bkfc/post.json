@@ -28,5 +28,14 @@
   "trial_reel": true,
   "music_pool": "espn",
   "seconds": 5,
-  "follow_card": true
+  "follow_card": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/sam-alvey/cutouts/01-samalvey.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5,
+  "reel": true
 }

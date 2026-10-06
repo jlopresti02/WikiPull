@@ -32,5 +32,13 @@
   "reel": true,
   "music_pool": "espn",
   "seconds": 5,
-  "follow_card": true
+  "follow_card": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/ronda-rousey/cutouts/02-ronda-rousey.png",
+    "credit": "PedroGaytan / CC BY 2.0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }
