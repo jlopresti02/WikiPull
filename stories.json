@@ -27,7 +27,10 @@
           "post": "2026-10-05-2235-evloev-no-finishes",
           "kind": "new",
           "format": "reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-05T23:10:00-04:00",
+          "image": "fighter photo (Demetrious Johnson; no Evloev photo found)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2030812319848418853"
         }
       ]
     },
@@ -55,7 +58,10 @@
           "post": "2026-10-05-2236-topuria-big-yes",
           "kind": "new",
           "format": "reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-05T23:40:00-04:00",
+          "image": "fighter photo (Ilia Topuria)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5030262705307760924"
         }
       ]
     },
@@ -82,7 +88,10 @@
           "post": "2026-10-05-2237-rousey-unicorn",
           "kind": "new",
           "format": "reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-06T00:10:00-04:00",
+          "image": "fighter photo (Ronda Rousey)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5279567243495427477"
         }
       ]
     },
@@ -110,7 +119,10 @@
           "post": "2026-10-05-2238-fury-betrayed",
           "kind": "new",
           "format": "trial_reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-06T07:30:00-04:00",
+          "image": "fighter photo (Tyson Fury)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1614682981943325425"
         }
       ],
       "sport": "boxing"
@@ -137,7 +149,10 @@
           "post": "2026-10-05-2239-alvey-bkfc",
           "kind": "new",
           "format": "trial_reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-06T08:00:00-04:00",
+          "image": "fighter photo (Sam Alvey)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5107070082615195603"
         }
       ],
       "sport": "bare knuckle"
@@ -164,7 +179,10 @@
           "post": "2026-10-05-2240-ortiz-malignaggi",
           "kind": "new",
           "format": "trial_reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-06T08:30:00-04:00",
+          "image": "fighter photo (Victor Ortiz)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-9217592429824686729"
         }
       ],
       "sport": "bare knuckle"
@@ -193,7 +211,10 @@
           "post": "2026-10-05-2241-talbott-ranked",
           "kind": "new",
           "format": "trial_reel",
-          "requested": true
+          "requested": true,
+          "scheduled_for": "2026-10-06T09:00:00-04:00",
+          "image": "fighter photo (Payton Talbott, Drive)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-340428826463025863"
         }
       ]
     },
