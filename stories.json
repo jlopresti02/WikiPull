@@ -24,7 +24,10 @@
         {
           "post": "2026-10-06-1820-chimaev-1m-strickland",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-06T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7665604632125915412",
+          "image": "fighter photo (Khamzat Chimaev, Wikimedia group shot)"
         }
       ]
     },
@@ -49,7 +52,10 @@
         {
           "post": "2026-10-06-1821-rakhmonov-19-0",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-06T20:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7499266978259223962",
+          "image": "fighter photo (Shavkat Rakhmonov, Wikimedia group shot)"
         }
       ]
     },
@@ -72,7 +78,10 @@
         {
           "post": "2026-10-06-1822-poirier-scale-cheat",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-06T21:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1090104558061633569",
+          "image": "fighter photo (Dustin Poirier)"
         }
       ]
     },
