@@ -1,0 +1,37 @@
+{
+  "story_id": "topuria-vs-parnasse-ufc-336-report",
+  "headline": "Big Yes",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ilia Topuria"
+    },
+    {
+      "type": "fighter",
+      "name": "Salahdine Parnasse"
+    },
+    {
+      "type": "mystery",
+      "headline": "Topuria Next?"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Ilia Topuria vs. Salahdine Parnasse at UFC 336? Parnasse's team says it's a big yes, but nothing is signed.\nTopuria or Parnasse? 👇\n\nA report claimed the fight for the UFC 336 co-main in January. Parnasse's management says there's no contract, and reporters including MMA Fighting's Mike Heck pushed back. UFC news.\n\nWould you watch it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC336",
+    "IliaTopuria",
+    "SalahdineParnasse"
+  ],
+  "sources": [
+    "NY Fights",
+    "Yahoo Sports",
+    "Bloody Elbow"
+  ],
+  "question": "Topuria or Parnasse?",
+  "reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true
+}

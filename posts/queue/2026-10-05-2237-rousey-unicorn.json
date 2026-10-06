@@ -1,0 +1,36 @@
+{
+  "story_id": "dana-white-rousey-unicorn-women-ufc",
+  "headline": "Unicorn",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ronda Rousey",
+      "file": "02-ronda-rousey"
+    },
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped",
+      "headline": "Dana: Unicorn"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Dana White admits he never wanted women in the UFC until Ronda Rousey changed his mind.\nGoat or overrated? 👇\n\nOn The Diary Of A CEO, White said Rousey asked him for 15 minutes and won him over within a few. He called her a unicorn. Rousey headlined the first UFC women's fight at UFC 157 in 2013. UFC news.\n\nIs Rousey the most important fighter ever?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "DanaWhite",
+    "RondaRousey",
+    "WomensMMA"
+  ],
+  "sources": [
+    "ClutchPoints",
+    "Yahoo Sports",
+    "Bloody Elbow"
+  ],
+  "question": "Goat or overrated?",
+  "reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true
+}

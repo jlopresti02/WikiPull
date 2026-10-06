@@ -1,0 +1,36 @@
+{
+  "story_id": "ufc-332-rankings-talbott-wint-walker",
+  "headline": "Ranked Now",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Payton Talbott",
+      "file": "drive-payton-talbott"
+    },
+    {
+      "type": "fighter",
+      "name": "Johnny Walker (fighter)"
+    },
+    {
+      "type": "fighter",
+      "name": "Anthony Wint"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Payton Talbott knocked out Deiveson Figueiredo and is now ranked at bantamweight.\nContender or hype? 👇\n\nMMA Mania's UFC rankings update puts Talbott at No. 11 after UFC 332, while Johnny Walker (No. 12) and Anthony Wint (No. 15) enter the heavyweight top 15. UFC news.\n\nWho does Talbott fight next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "PaytonTalbott",
+    "UFCRankings"
+  ],
+  "sources": [
+    "MMA Mania"
+  ],
+  "question": "Contender or hype?",
+  "trial_reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true
+}

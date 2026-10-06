@@ -1,0 +1,33 @@
+{
+  "story_id": "john-fury-davison-betrayed-tyson",
+  "headline": "Betrayed",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Tyson Fury",
+      "file": "01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro"
+    },
+    {
+      "type": "fighter",
+      "name": "Anthony Joshua"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "John Fury says Ben Davison betrayed Tyson Fury by training Anthony Joshua.\nTraitor or business? 👇\n\nTyson's dad says it's all about money, after Fury gave his former trainer his big break. Fury and Joshua finally meet Dec. 11 in Cardiff. Boxing news.\n\nDoes the switch help AJ?",
+  "hashtags": [
+    "Boxing",
+    "TysonFury",
+    "AnthonyJoshua",
+    "FuryJoshua",
+    "BoxingNews"
+  ],
+  "sources": [
+    "Boxing247",
+    "Playbook Boxing"
+  ],
+  "question": "Traitor or business?",
+  "trial_reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true
+}

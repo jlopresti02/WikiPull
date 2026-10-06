@@ -1,0 +1,32 @@
+{
+  "story_id": "sam-alvey-signs-bkfc",
+  "headline": "Smile'N Goes Bare",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sam Alvey"
+    },
+    {
+      "type": "mystery",
+      "headline": "Alvey To BKFC"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Former UFC veteran Sam Alvey just signed with BKFC and says he'll be champion by April.\nChamp or bust? 👇\n\nThe ex-UFC and Bellator fighter and two-time Karate Combat champ debuts Dec. 4 in Hershey, Pennsylvania, and heads to BKFC's Ironweight division. Bare knuckle news.\n\nCan Smile'N win BKFC gold?",
+  "hashtags": [
+    "BareKnuckle",
+    "BKFC",
+    "SamAlvey",
+    "MMA",
+    "BKFCHershey"
+  ],
+  "sources": [
+    "Combat Press",
+    "BKFC"
+  ],
+  "question": "Champ or bust?",
+  "trial_reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true
+}

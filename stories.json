@@ -2,6 +2,202 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "johnson-adesanya-rip-evloev-no-finishes",
+      "title": "Demetrious Johnson and Israel Adesanya question unbeaten Evloev's lack of finishes",
+      "people": [
+        "Demetrious Johnson",
+        "Israel Adesanya",
+        "Movsar Evloev",
+        "Alexander Volkanovski"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-05",
+      "facts": [
+        "DJ: 20-0 with no finishes, how is he still in the UFC",
+        "Adesanya called him a grappler with no finishes or knockouts",
+        "Evloev faces Volkanovski for featherweight title, UFC 333 main event, Abu Dhabi, Oct 24"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/05/movsar-evloevs-fighting-style-questioned-by-demetrious-johnson-how-is-he-still-in-the-ufc/",
+        "https://www.sports.kz/news/kak-on-esche-v-ufc-djonson-i-adesanya-raskritikovali-evloeva"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2235-evloev-no-finishes",
+          "kind": "new",
+          "format": "reel",
+          "requested": true
+        }
+      ]
+    },
+    {
+      "id": "topuria-vs-parnasse-ufc-336-report",
+      "title": "Report: Topuria vs. Parnasse at UFC 336; Parnasse camp says big yes, nothing signed",
+      "people": [
+        "Ilia Topuria",
+        "Salahdine Parnasse"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-10-05",
+      "facts": [
+        "Social account @mma_bdm reported Topuria vs Parnasse for UFC 336 co-main (Jan 2027)",
+        "Parnasse management: big yes if UFC wants it, no contract, nothing official",
+        "Mike Heck (MMA Fighting) and Giorgi Kokiashvili pushed back on the report"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/salahdine-parnasse-vs-ilia-topuria-165107834.html",
+        "https://bloodyelbow.com/2026/10/05/salahdine-parnasses-manager-reacts-to-rumored-ilia-topuria-fight-at-ufc-336-its-a-big-yes/"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2236-topuria-big-yes",
+          "kind": "new",
+          "format": "reel",
+          "requested": true
+        }
+      ]
+    },
+    {
+      "id": "dana-white-rousey-unicorn-women-ufc",
+      "title": "Dana White: unicorn Ronda Rousey changed his mind on women in the UFC",
+      "people": [
+        "Dana White",
+        "Ronda Rousey"
+      ],
+      "event": null,
+      "first_reported": "2026-10-05",
+      "facts": [
+        "On The Diary Of A CEO, White said he did not want women in UFC; Rousey asked for 15 minutes and convinced him",
+        "Called her a unicorn"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/dana-white-says-unicorn-ronda-151327603.html",
+        "https://bloodyelbow.com/2026/10/05/dana-white-explains-why-he-refused-to-let-women-in-the-ufc-until-unicorn-ronda-rousey-came-along/"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2237-rousey-unicorn",
+          "kind": "new",
+          "format": "reel",
+          "requested": true
+        }
+      ]
+    },
+    {
+      "id": "john-fury-davison-betrayed-tyson",
+      "title": "John Fury says Ben Davison betrayed Tyson by training Joshua",
+      "people": [
+        "John Fury",
+        "Tyson Fury",
+        "Ben Davison",
+        "Anthony Joshua"
+      ],
+      "event": "Fury vs Joshua, Dec 11, Cardiff",
+      "first_reported": "2026-10-05",
+      "facts": [
+        "John Fury (Playbook Boxing): Davison betrayed Tyson, all about money",
+        "Fury vs Joshua Dec 11 Cardiff"
+      ],
+      "sources": [
+        "https://www.boxing247.com/boxing-news/john-fury-accuses-ben-davison-of-betraying-tyson/310319"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2238-fury-betrayed",
+          "kind": "new",
+          "format": "trial_reel",
+          "requested": true
+        }
+      ],
+      "sport": "boxing"
+    },
+    {
+      "id": "sam-alvey-signs-bkfc",
+      "title": "Sam Alvey signs multi-fight BKFC deal",
+      "people": [
+        "Sam Alvey"
+      ],
+      "event": "BKFC Fight Night Hershey, Dec 4",
+      "first_reported": "2026-10-05",
+      "facts": [
+        "Ex-UFC/Bellator, 2x Karate Combat champ",
+        "Debuts Dec 4 in Hershey PA, Ironweight, opponent TBA",
+        "Predicts title by April 2027"
+      ],
+      "sources": [
+        "https://combatpress.com/2026/10/sam-alvey-signs-multi-fight-deal-with-bkfc-eyes-ironweight-gold/"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2239-alvey-bkfc",
+          "kind": "new",
+          "format": "trial_reel",
+          "requested": true
+        }
+      ],
+      "sport": "bare knuckle"
+    },
+    {
+      "id": "ortiz-vs-malignaggi-bkb-62",
+      "title": "Victor Ortiz vs Paulie Malignaggi headlines BKB 62",
+      "people": [
+        "Victor Ortiz",
+        "Paulie Malignaggi"
+      ],
+      "event": "BKB 62, Dec 5, Orpheum Theatre LA",
+      "first_reported": "2026-10-05",
+      "facts": [
+        "Five-round super welterweight bare knuckle bout",
+        "Ortiz won BKB debut in July; Malignaggi 1-2 in bare knuckle"
+      ],
+      "sources": [
+        "https://www.lowkickmma.com/victor-ortiz-and-paulie-malignaggi-set-for-bare-knuckle-clash-in-los-angeles/"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2240-ortiz-malignaggi",
+          "kind": "new",
+          "format": "trial_reel",
+          "requested": true
+        }
+      ],
+      "sport": "bare knuckle"
+    },
+    {
+      "id": "ufc-332-rankings-talbott-wint-walker",
+      "title": "MMA Mania UFC rankings after UFC 332: Talbott #11 BW, Walker #12 and Wint #15 HW",
+      "people": [
+        "Payton Talbott",
+        "Johnny Walker",
+        "Anthony Wint"
+      ],
+      "event": "UFC 332",
+      "first_reported": "2026-10-05",
+      "facts": [
+        "MMA Mania meta rankings (not official UFC media rankings)",
+        "Talbott #11 bantamweight, Figueiredo out",
+        "Walker #12, Wint #15 heavyweight"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/payton-talbott-takes-figgy-spot-230500041.html"
+      ],
+      "requested_by_user": true,
+      "posts": [
+        {
+          "post": "2026-10-05-2241-talbott-ranked",
+          "kind": "new",
+          "format": "trial_reel",
+          "requested": true
+        }
+      ]
+    },
+    {
       "id": "garry-says-morales-fight-locked-in",
       "title": "Ian Machado Garry says Morales fight is set, date locked in for a main event",
       "people": [

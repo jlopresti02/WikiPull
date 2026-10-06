@@ -1,0 +1,43 @@
+{
+  "story_id": "johnson-adesanya-rip-evloev-no-finishes",
+  "headline": "No Finishes?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Movsar Evloev"
+    },
+    {
+      "type": "fighter",
+      "name": "Demetrious Johnson (fighter)",
+      "headline": "DJ Rips Evloev"
+    },
+    {
+      "type": "fighter",
+      "name": "Demetrious Johnson",
+      "headline": "DJ Rips Evloev"
+    },
+    {
+      "type": "mystery",
+      "headline": "Evloev Ripped"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Demetrious Johnson and Israel Adesanya just ripped unbeaten Movsar Evloev for never finishing anyone in the UFC.\nFair or harsh? 👇\n\nDJ asked how a 20-0 fighter with zero finishes is still in the UFC. Evloev challenges Alexander Volkanovski for the featherweight title at UFC 333 in Abu Dhabi on Oct. 24. UFC news.\n\nDoes Evloev need a finish vs. Volk?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "MovsarEvloev",
+    "DemetriousJohnson"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "Sports.kz",
+    "Title Fight"
+  ],
+  "question": "Fair or harsh?",
+  "reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true
+}
