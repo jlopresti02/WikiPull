@@ -1,0 +1,47 @@
+{
+  "story_id": "zabit-signs-raf-vs-chikadze-abu-dhabi",
+  "headline": "Zabit Returns",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Zabit Magomedsharipov"
+    },
+    {
+      "type": "fighter",
+      "name": "Giga Chikadze",
+      "headline": "Zabit vs Giga"
+    },
+    {
+      "type": "mystery",
+      "headline": "Zabit Returns"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Zabit Magomedsharipov is back, signing a multi-fight deal with RAF wrestling.\nZabit or Giga? 👇\n\nThe former UFC featherweight star, who went 6-0 in the UFC, debuts against UFC veteran Giga Chikadze at RAF Abu Dhabi on Nov. 14, per MMA Junkie. Khamzat Chimaev vs. Colby Covington reportedly tops the card. Wrestling news.\n\nWho takes it?",
+  "hashtags": [
+    "Wrestling",
+    "RAF",
+    "RAFAbuDhabi",
+    "ZabitMagomedsharipov",
+    "GigaChikadze"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "Sherdog",
+    "MiddleEasy"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Zabit or Giga?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/zabit-magomedsharipov/cutouts/01-zabit-magomedsharipov-at-ufc-fight-night-136.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}
