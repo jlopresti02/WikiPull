@@ -1,6 +1,7 @@
-
-== 2026-10-05-1820-costa-incompetent.json
-Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Incompetent
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-05-1820-costa-incompetent/post.png (fighter)
-Rendered posts/2026-10-05-1820-costa-incompetent/reel.mp4
+[0;93m2026-10-06 02:07:39.210559122 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/paulo-costa/cutouts/drive-paulo-costa.png
+Done: 1 new cutout(s).
+Drive: saved images/paulo-costa/drive-paulo-costa.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/paulo-costa
+Queue is empty.
