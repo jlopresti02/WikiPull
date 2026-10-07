@@ -1,41 +1,29 @@
-Searching Wikimedia Commons for: Floyd Mayweather Jr.
-  saved images/floyd-mayweather-jr/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.jpg  [CC BY-SA 2.0]
-  saved images/floyd-mayweather-jr/02-floyd-mayweather-jr-2011.jpg  [CC BY-SA 2.0]
-  saved images/floyd-mayweather-jr/03-floyd-mayweather-jr-cropped.jpg  [Public domain]
-  saved images/floyd-mayweather-jr/04-floyd-mayweather-jr-vs-juan-manuel-m-rquez.jpg  [CC BY 2.0]
-  saved images/floyd-mayweather-jr/05-floyd-mayweather-jr-at-dewalt-event.jpg  [CC BY-SA 2.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-07 13:31:25.774715680 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Navajo Stirling
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Alexander Volkanovski
+  saved images/alexander-volkanovski/01-alexander-volkanovski-at-ufc-232.jpg  [CC BY 3.0]
+  saved images/alexander-volkanovski/02-alexander-volkanovski-in-2021.jpg  [CC BY-SA 2.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-07 17:12:30.600718451 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/floyd-mayweather-jr/cutouts/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.png
-  cutout images/floyd-mayweather-jr/cutouts/02-floyd-mayweather-jr-2011.png
-  cutout images/floyd-mayweather-jr/cutouts/03-floyd-mayweather-jr-cropped.png
-  cutout images/floyd-mayweather-jr/cutouts/04-floyd-mayweather-jr-vs-juan-manuel-m-rquez.png
-  cutout images/floyd-mayweather-jr/cutouts/05-floyd-mayweather-jr-at-dewalt-event.png
-Done: 5 new cutout(s).
+  cutout images/alexander-volkanovski/cutouts/01-alexander-volkanovski-at-ufc-232.png
+  cutout images/alexander-volkanovski/cutouts/02-alexander-volkanovski-in-2021.png
+Done: 2 new cutout(s).
 
-== 2026-10-07-0920-shevchenko-forced-out.json
-Image: {'type': 'fighter', 'name': 'Valentina Shevchenko', 'file': '01-valentina-shevchenko'} -> fighter images/valentina-shevchenko/cutouts/01-valentina-shevchenko.png  headline: Forced Out?
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-07-0920-shevchenko-forced-out/post.png (fighter)
-Rendered posts/2026-10-07-0920-shevchenko-forced-out/reel.mp4
+== 2026-10-07-1320-stirling-dagestan.json
+$ fetch.py Navajo Stirling --count 5
+Image: {'type': 'fighter', 'name': 'Islam Makhachev', 'file': '05-islam-makhachev-2023', 'headline': "Islam's Offer"} -> fighter images/islam-makhachev/cutouts/05-islam-makhachev-2023.png  headline: Islam's Offer
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-07-1320-stirling-dagestan/post.png (fighter)
+Rendered posts/2026-10-07-1320-stirling-dagestan/reel.mp4
 
-== 2026-10-07-0921-bisping-snubs-chimaev.json
-Image: {'type': 'fighter', 'name': 'Khamzat Chimaev', 'file': '01-adam-shamsiev-and-khamzat-chimaev'} -> fighter images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png  headline: Snubbed
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-07-0921-bisping-snubs-chimaev/post.png (fighter)
-Rendered posts/2026-10-07-0921-bisping-snubs-chimaev/reel.mp4
-
-== 2026-10-07-0922-pereira-losing-streak.json
-Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Losing Streak?
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-07-0922-pereira-losing-streak/post.png (fighter)
-Rendered posts/2026-10-07-0922-pereira-losing-streak/reel.mp4
-
-== 2026-10-07-0923-garcia-mayweather-0.json
-$ fetch.py Floyd Mayweather Jr. --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/floyd-mayweather-jr
-Image: {'type': 'fighter', 'name': 'Floyd Mayweather Jr.'} -> fighter images/floyd-mayweather-jr/cutouts/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.png  headline: Risk The 0?
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-07-0923-garcia-mayweather-0/post.png (fighter)
-Rendered posts/2026-10-07-0923-garcia-mayweather-0/reel.mp4
+== 2026-10-07-1321-volkanovski-boos.json
+$ fetch.py Alexander Volkanovski --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/alexander-volkanovski
+Image: {'type': 'fighter', 'name': 'Alexander Volkanovski'} -> fighter images/alexander-volkanovski/cutouts/01-alexander-volkanovski-at-ufc-232.png  headline: In My Head
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-07-1321-volkanovski-boos/post.png (fighter)
+Rendered posts/2026-10-07-1321-volkanovski-boos/reel.mp4

@@ -1,0 +1,45 @@
+{
+  "story_id": "volkanovski-evloev-boos-in-his-head-ufc-333",
+  "headline": "In My Head",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alexander Volkanovski"
+    },
+    {
+      "type": "fighter",
+      "name": "Movsar Evloev",
+      "headline": "Evloev Booed"
+    },
+    {
+      "type": "mystery",
+      "headline": "Volkanovski Rattled?"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alexander Volkanovski admits the boos aimed at Movsar Evloev are getting to him more than to Evloev.\nBoo or cheer? 👇\n\nOn the Precision podcast, the UFC featherweight champion said unbeaten Evloev (20-0) took the long road and earned this title shot long ago. They meet in the UFC 333 title fight on Oct. 24 in Abu Dhabi. UFC news.\n\nWho keeps the belt?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "AlexanderVolkanovski",
+    "MovsarEvloev"
+  ],
+  "sources": [
+    "Sherdog",
+    "Precision Podcast"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Boo or cheer?",
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alexander-volkanovski/cutouts/01-alexander-volkanovski-at-ufc-232.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}
