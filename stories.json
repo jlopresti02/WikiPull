@@ -22,7 +22,10 @@
         {
           "post": "2026-10-07-1320-stirling-dagestan",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-07T13:55:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5725350619698017653",
+          "image": "fighter: Islam Makhachev (no Stirling photo)"
         }
       ]
     },
@@ -47,7 +50,10 @@
         {
           "post": "2026-10-07-1321-volkanovski-boos",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-07T13:25:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5106020485570278015",
+          "image": "fighter: Alexander Volkanovski"
         }
       ]
     },
