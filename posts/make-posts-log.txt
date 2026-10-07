@@ -1,29 +1,9 @@
-Searching Wikimedia Commons for: Navajo Stirling
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Alexander Volkanovski
-  saved images/alexander-volkanovski/01-alexander-volkanovski-at-ufc-232.jpg  [CC BY 3.0]
-  saved images/alexander-volkanovski/02-alexander-volkanovski-in-2021.jpg  [CC BY-SA 2.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-07 17:12:30.600718451 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-07 22:19:51.774333315 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/alexander-volkanovski/cutouts/01-alexander-volkanovski-at-ufc-232.png
-  cutout images/alexander-volkanovski/cutouts/02-alexander-volkanovski-in-2021.png
+  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
+  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-cook.png
 Done: 2 new cutout(s).
-
-== 2026-10-07-1320-stirling-dagestan.json
-$ fetch.py Navajo Stirling --count 5
-Image: {'type': 'fighter', 'name': 'Islam Makhachev', 'file': '05-islam-makhachev-2023', 'headline': "Islam's Offer"} -> fighter images/islam-makhachev/cutouts/05-islam-makhachev-2023.png  headline: Islam's Offer
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-07-1320-stirling-dagestan/post.png (fighter)
-Rendered posts/2026-10-07-1320-stirling-dagestan/reel.mp4
-
-== 2026-10-07-1321-volkanovski-boos.json
-$ fetch.py Alexander Volkanovski --count 5
+Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-champ.jpg
+Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-cook.webp
 $ cutout.py /home/runner/work/WikiPull/WikiPull/images/alexander-volkanovski
-Image: {'type': 'fighter', 'name': 'Alexander Volkanovski'} -> fighter images/alexander-volkanovski/cutouts/01-alexander-volkanovski-at-ufc-232.png  headline: In My Head
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-07-1321-volkanovski-boos/post.png (fighter)
-Rendered posts/2026-10-07-1321-volkanovski-boos/reel.mp4
+Queue is empty.
