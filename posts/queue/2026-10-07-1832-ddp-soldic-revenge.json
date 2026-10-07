@@ -1,0 +1,20 @@
+{
+  "story_id": "du-plessis-open-to-soldic-superfight",
+  "headline": "Revenge Fight?",
+  "visual": [
+    {"type": "fighter", "name": "Dricus du Plessis"},
+    {"type": "fighter", "name": "Dricus Du Plessis"},
+    {"type": "fighter", "name": "Roberto Soldić", "headline": "Soldic Next?"},
+    {"type": "fighter", "name": "Roberto Soldic", "headline": "Soldic Next?"},
+    {"type": "mystery", "headline": "DDP vs Soldic?"}
+  ],
+  "color": "#d2202f",
+  "caption": "Dricus du Plessis is open to running it back with Roberto Soldic, the man who knocked him out.\nDDP or Soldic? 👇\n\nThey split two KSW fights in 2018 and 2019, and Soldic just won his UFC debut at UFC 332. Du Plessis called a super fight \"awesome\" but says Soldic must win a couple of UFC fights first. UFC news.\n\nWho wins fight 3?",
+  "hashtags": ["MMANews", "UFC", "DricusDuPlessis", "RobertoSoldic", "UFC332"],
+  "sources": ["MiddleEasy", "Bloody Elbow"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "DDP or Soldic?",
+  "follow_card": true,
+  "reel": true
+}

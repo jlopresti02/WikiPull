@@ -1,0 +1,19 @@
+{
+  "story_id": "cerrone-pettis-3-raf-15-wrestling",
+  "headline": "Trilogy On Mats",
+  "visual": [
+    {"type": "fighter", "name": "Donald Cerrone"},
+    {"type": "fighter", "name": "Anthony Pettis"},
+    {"type": "mystery", "headline": "Cerrone vs Pettis 3"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "Donald Cerrone vs. Anthony Pettis 3 is happening, but as a wrestling match.\nCowboy or Showtime? 👇\n\nThe UFC veterans meet in a freestyle wrestling crossover at RAF 15 on Nov. 28 in Chicago, both making their Real American Freestyle debut. Pettis beat Cerrone twice in the UFC, in 2013 and 2020.\n\nWho wins on the mat?",
+  "hashtags": ["Wrestling", "RAF", "RAF15", "DonaldCerrone", "AnthonyPettis"],
+  "sources": ["MMA Fighting", "MMA News"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Cowboy or Showtime?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true
+}
