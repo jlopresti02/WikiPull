@@ -623,6 +623,46 @@ video). Schedule it with Metricool `createScheduledPost`:
 
 Ledger: `{"post": "<name>", "kind": "new", "format": "carousel"}`.
 
+### 6c. Contender Series carousels (after every DWCS episode)
+
+Added at the user's request (Oct 7): followers like keeping up with Dana
+White's Contender Series, even though the fighters aren't known names. So
+DWCS results are **not** skipped as "lesser-known fighters"; instead, the
+first run after each DWCS episode (usually the Wednesday 9 AM run, since
+episodes air Tuesday night) makes one **DWCS carousel**. One per episode:
+check `stories.json` for a `"format": "carousel"` entry for that week
+first. Individual DWCS fighters don't get their own Reels unless the story
+has a real hook beyond the contract (as with a famous name or a viral
+moment).
+
+- Same file format, renderer and scheduling as step 6b (`"carousel":
+  true`, Metricool `POST` with every slide pinned to the commit, first
+  comment = question + " 👇"). Schedule it in the run's first open slot,
+  ahead of that run's Reels, following the usual spacing and quiet hours.
+- Like the UFC results carousel, it **doesn't count toward the daily 10**.
+- Slides (aim for 5 to 8):
+  1. **cover**: "DWCS WEEK 9" or a hook like "4 CONTRACTS", with the
+     standout winner and a subtitle pill ("SEASON 10 · WEEK 9").
+  2. **hook**: the best moment of the night (fastest KO, wildest finish,
+     a great backstory, like Dana's own runner earning a deal).
+  3. **result** slides, one per fighter who got a contract: winner, loser,
+     method and time; the label says "UFC contract ✓" plus weight class.
+     List alternate name spellings so a photo is found; the silhouette
+     fills in automatically when there's none.
+  4. **list**: every result from the night, contract or not (winner, loser,
+     short method).
+  5. **cta**: "Who'll make noise in the UFC first?" with "Comment your
+     pick" and "Follow @wwitmma for DWCS results".
+- Caption: first line names the number of contracts and the standout
+  ("Dana White handed out 4 UFC contracts on Contender Series Week 9.");
+  then 1 to 2 short sentences with the names, "Dana White's Contender
+  Series", season and week, "UFC contract" and "MMA news" for search; a
+  two-option question with 👇; hashtags `DWCS`, `UFC`, `MMANews`,
+  `ContenderSeries` and the standout fighter's name; sources (UFC.com,
+  MMA Junkie, Sherdog...). Only report results from reputable sources.
+- Ledger: one entry per episode (`id` like `dwcs-s10-week-9`), with
+  `{"post": "<name>", "kind": "new", "format": "carousel"}`.
+
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
