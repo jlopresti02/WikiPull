@@ -1,9 +1,169 @@
-[0;93m2026-10-07 22:19:51.774333315 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Sal Everett
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Salhahuddin Everett
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Sal Everett
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Salhahuddin Everett
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Preston LaGrange
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Nell Ariano
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Neil Ariano
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Sal Everett
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Salhahuddin Everett
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Ozzy Martin
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Roque Conceicao
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Roque Conceição
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Alexander Chavez
+  No file names matched; falling back to looser results.
+  saved images/alexander-chavez/01-raul-chavez.jpg  [CC BY-SA 3.0]
+  saved images/alexander-chavez/02-ra-l-ch-vez-51007291697-cropped.jpg  [CC BY 2.0]
+  saved images/alexander-chavez/03-miguel-cabrera-51006481568.jpg  [CC BY 2.0]
+  saved images/alexander-chavez/04-ra-l-ch-vez-51006481568-cropped.jpg  [CC BY 2.0]
+  saved images/alexander-chavez/05-miguel-cabrera-51007291697.jpg  [CC BY 2.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-07 22:30:36.788227378 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-cook.png
+  cutout images/alexander-chavez/cutouts/01-raul-chavez.png
+  cutout images/alexander-chavez/cutouts/02-ra-l-ch-vez-51007291697-cropped.png
+  cutout images/alexander-chavez/cutouts/03-miguel-cabrera-51006481568.png
+  cutout images/alexander-chavez/cutouts/04-ra-l-ch-vez-51006481568-cropped.png
+  cutout images/alexander-chavez/cutouts/05-miguel-cabrera-51007291697.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Mateus Soares
+  saved images/mateus-soares/01-mateus-soares-de-azevedo.jpg  [CC BY-SA 4.0]
+  saved images/mateus-soares/02-florentino-mateus-soares-ferreira.jpg  [Public domain]
+Done: 2 image(s) saved.
+[0;93m2026-10-07 22:32:12.960624838 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/mateus-soares/cutouts/01-mateus-soares-de-azevedo.png
+  cutout images/mateus-soares/cutouts/02-florentino-mateus-soares-ferreira.png
 Done: 2 new cutout(s).
-Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-champ.jpg
-Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-cook.webp
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/alexander-volkanovski
-Queue is empty.
+Searching Wikimedia Commons for: Ryuho Miyaguchi
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Dricus du Plessis
+  saved images/dricus-du-plessis/01-img-dricus-duplessis-cropped.jpg  [CC0]
+  saved images/dricus-du-plessis/02-img-dricus-duplessis.jpg  [CC0]
+Done: 2 image(s) saved.
+[0;93m2026-10-07 22:32:58.497000047 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png
+  cutout images/dricus-du-plessis/cutouts/02-img-dricus-duplessis.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Donald Cerrone
+  saved images/donald-cerrone/01-donald-cowboy-cerrone.jpg  [CC BY 2.0]
+  saved images/donald-cerrone/02-donald-cerrone.jpg  [CC BY 2.0]
+  saved images/donald-cerrone/03-donald-cowboy-cerrone-cropped.jpg  [CC BY 2.0]
+  saved images/donald-cerrone/04-donald-cowboy-cerrone-visits-gta-9954419-cropped.jpg  [Public domain]
+Done: 4 image(s) saved.
+[0;93m2026-10-07 22:33:36.108980970 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/donald-cerrone/cutouts/01-donald-cowboy-cerrone.png
+  cutout images/donald-cerrone/cutouts/02-donald-cerrone.png
+  cutout images/donald-cerrone/cutouts/03-donald-cowboy-cerrone-cropped.png
+  cutout images/donald-cerrone/cutouts/04-donald-cowboy-cerrone-visits-gta-9954419-cropped.png
+Done: 4 new cutout(s).
+
+== 2026-10-07-1830-dwcs-s10-week-9.json
+$ fetch.py Sal Everett --count 5
+$ fetch.py Salhahuddin Everett --count 5
+  no photo for ['Sal Everett', 'Salhahuddin Everett']: using the silhouette
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-01.jpg (cover)
+$ fetch.py Sal Everett --count 5
+$ fetch.py Salhahuddin Everett --count 5
+  no photo for ['Sal Everett', 'Salhahuddin Everett']: using the silhouette
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-02.jpg (hook)
+$ fetch.py Preston LaGrange --count 5
+  no photo for ['Preston LaGrange']: using the silhouette
+$ fetch.py Nell Ariano --count 5
+$ fetch.py Neil Ariano --count 5
+  no photo for ['Nell Ariano', 'Neil Ariano']: using the silhouette
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-03.jpg (result)
+$ fetch.py Sal Everett --count 5
+$ fetch.py Salhahuddin Everett --count 5
+  no photo for ['Sal Everett', 'Salhahuddin Everett']: using the silhouette
+$ fetch.py Ozzy Martin --count 5
+  no photo for ['Ozzy Martin']: using the silhouette
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-04.jpg (result)
+$ fetch.py Roque Conceicao --count 5
+$ fetch.py Roque Conceição --count 5
+  no photo for ['Roque Conceicao', 'Roque Conceição']: using the silhouette
+$ fetch.py Alexander Chavez --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/alexander-chavez
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-05.jpg (result)
+$ fetch.py Mateus Soares --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/mateus-soares
+$ fetch.py Ryuho Miyaguchi --count 5
+  no photo for ['Ryuho Miyaguchi']: using the silhouette
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-06.jpg (result)
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-07.jpg (list)
+Rendered posts/2026-10-07-1830-dwcs-s10-week-9/slide-08.jpg (cta)
+
+== 2026-10-07-1831-strickland-vacate.json
+Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Vacate It?
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-07-1831-strickland-vacate/post.png (fighter)
+Rendered posts/2026-10-07-1831-strickland-vacate/reel.mp4
+
+== 2026-10-07-1832-ddp-soldic-revenge.json
+$ fetch.py Dricus du Plessis --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/dricus-du-plessis
+Image: {'type': 'fighter', 'name': 'Dricus du Plessis'} -> fighter images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png  headline: Revenge Fight?
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-07-1832-ddp-soldic-revenge/post.png (fighter)
+Rendered posts/2026-10-07-1832-ddp-soldic-revenge/reel.mp4
+
+== 2026-10-07-1833-cerrone-pettis-raf.json
+$ fetch.py Donald Cerrone --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/donald-cerrone
+Image: {'type': 'fighter', 'name': 'Donald Cerrone'} -> fighter images/donald-cerrone/cutouts/01-donald-cowboy-cerrone.png  headline: Trilogy On Mats
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-07-1833-cerrone-pettis-raf/post.png (fighter)
+Rendered posts/2026-10-07-1833-cerrone-pettis-raf/reel.mp4
