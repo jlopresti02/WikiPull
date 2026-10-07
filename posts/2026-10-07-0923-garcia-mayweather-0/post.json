@@ -1,0 +1,55 @@
+{
+  "story_id": "garcia-dares-mayweather-pro-fight",
+  "headline": "Risk The 0?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Floyd Mayweather Jr."
+    },
+    {
+      "type": "fighter",
+      "name": "Floyd Mayweather"
+    },
+    {
+      "type": "fighter",
+      "name": "Ryan Garcia",
+      "headline": "Garcia Wants Floyd"
+    },
+    {
+      "type": "fighter",
+      "name": "Ryan Garcia (boxer)",
+      "headline": "Garcia Wants Floyd"
+    },
+    {
+      "type": "mystery",
+      "headline": "Mayweather vs Garcia?"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Ryan Garcia just dared Floyd Mayweather to put his 50-0 record on the line.\nFloyd or Ryan? 👇\n\nAfter FightHype reported talks between the two, the WBC welterweight champ said he wants a real pro fight, not an exhibition. Nothing is signed, and Mayweather hasn't fought professionally since Conor McGregor in 2017. Boxing news.\n\nWould you watch?",
+  "hashtags": [
+    "Boxing",
+    "BoxingNews",
+    "FloydMayweather",
+    "RyanGarcia",
+    "MayweatherGarcia"
+  ],
+  "sources": [
+    "BoxingNews24",
+    "NowBoxing"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Floyd or Ryan?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/floyd-mayweather-jr/cutouts/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.png",
+    "credit": "DEWALT POWER TOOLS FIGHT NIGHT CLUB 2010 / CC BY-SA 2.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
+}

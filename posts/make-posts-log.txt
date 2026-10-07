@@ -1,47 +1,41 @@
-Searching Wikimedia Commons for: Khamzat Chimaev
-  saved images/khamzat-chimaev/01-adam-shamsiev-and-khamzat-chimaev.jpg  [CC BY-SA 4.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-06 22:15:24.545145291 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Floyd Mayweather Jr.
+  saved images/floyd-mayweather-jr/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.jpg  [CC BY-SA 2.0]
+  saved images/floyd-mayweather-jr/02-floyd-mayweather-jr-2011.jpg  [CC BY-SA 2.0]
+  saved images/floyd-mayweather-jr/03-floyd-mayweather-jr-cropped.jpg  [Public domain]
+  saved images/floyd-mayweather-jr/04-floyd-mayweather-jr-vs-juan-manuel-m-rquez.jpg  [CC BY 2.0]
+  saved images/floyd-mayweather-jr/05-floyd-mayweather-jr-at-dewalt-event.jpg  [CC BY-SA 2.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-07 13:31:25.774715680 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Shavkat Rakhmonov
-  saved images/shavkat-rakhmonov/01-shavkat-rakhmonov.jpg  [CC0]
-Done: 1 image(s) saved.
-[0;93m2026-10-06 22:16:25.720339874 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/shavkat-rakhmonov/cutouts/01-shavkat-rakhmonov.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Dustin Poirier
-  saved images/dustin-poirier/01-dustin-poirier-2024.jpg  [CC BY-SA 4.0]
-  saved images/dustin-poirier/02-dustin-poirier-stance.png  [CC BY 3.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-06 22:16:58.907956747 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/dustin-poirier/cutouts/01-dustin-poirier-2024.png
-  cutout images/dustin-poirier/cutouts/02-dustin-poirier-stance.png
-Done: 2 new cutout(s).
+  cutout images/floyd-mayweather-jr/cutouts/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.png
+  cutout images/floyd-mayweather-jr/cutouts/02-floyd-mayweather-jr-2011.png
+  cutout images/floyd-mayweather-jr/cutouts/03-floyd-mayweather-jr-cropped.png
+  cutout images/floyd-mayweather-jr/cutouts/04-floyd-mayweather-jr-vs-juan-manuel-m-rquez.png
+  cutout images/floyd-mayweather-jr/cutouts/05-floyd-mayweather-jr-at-dewalt-event.png
+Done: 5 new cutout(s).
 
-== 2026-10-06-1820-chimaev-1m-strickland.json
-$ fetch.py Khamzat Chimaev --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/khamzat-chimaev
-Image: {'type': 'fighter', 'name': 'Khamzat Chimaev'} -> fighter images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png  headline: $1M Rematch
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-06-1820-chimaev-1m-strickland/post.png (fighter)
-Rendered posts/2026-10-06-1820-chimaev-1m-strickland/reel.mp4
+== 2026-10-07-0920-shevchenko-forced-out.json
+Image: {'type': 'fighter', 'name': 'Valentina Shevchenko', 'file': '01-valentina-shevchenko'} -> fighter images/valentina-shevchenko/cutouts/01-valentina-shevchenko.png  headline: Forced Out?
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-07-0920-shevchenko-forced-out/post.png (fighter)
+Rendered posts/2026-10-07-0920-shevchenko-forced-out/reel.mp4
 
-== 2026-10-06-1821-rakhmonov-19-0.json
-$ fetch.py Shavkat Rakhmonov --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/shavkat-rakhmonov
-Image: {'type': 'fighter', 'name': 'Shavkat Rakhmonov'} -> fighter images/shavkat-rakhmonov/cutouts/01-shavkat-rakhmonov.png  headline: 19-0 vs 19-0
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-06-1821-rakhmonov-19-0/post.png (fighter)
-Rendered posts/2026-10-06-1821-rakhmonov-19-0/reel.mp4
+== 2026-10-07-0921-bisping-snubs-chimaev.json
+Image: {'type': 'fighter', 'name': 'Khamzat Chimaev', 'file': '01-adam-shamsiev-and-khamzat-chimaev'} -> fighter images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png  headline: Snubbed
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-07-0921-bisping-snubs-chimaev/post.png (fighter)
+Rendered posts/2026-10-07-0921-bisping-snubs-chimaev/reel.mp4
 
-== 2026-10-06-1822-poirier-scale-cheat.json
-$ fetch.py Dustin Poirier --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/dustin-poirier
-Image: {'type': 'fighter', 'name': 'Dustin Poirier'} -> fighter images/dustin-poirier/cutouts/01-dustin-poirier-2024.png  headline: Scale Cheat
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-06-1822-poirier-scale-cheat/post.png (fighter)
-Rendered posts/2026-10-06-1822-poirier-scale-cheat/reel.mp4
+== 2026-10-07-0922-pereira-losing-streak.json
+Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Losing Streak?
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-07-0922-pereira-losing-streak/post.png (fighter)
+Rendered posts/2026-10-07-0922-pereira-losing-streak/reel.mp4
+
+== 2026-10-07-0923-garcia-mayweather-0.json
+$ fetch.py Floyd Mayweather Jr. --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/floyd-mayweather-jr
+Image: {'type': 'fighter', 'name': 'Floyd Mayweather Jr.'} -> fighter images/floyd-mayweather-jr/cutouts/01-floyd-mayweather-jr-at-dewalt-event-5888721735-rotated-4.png  headline: Risk The 0?
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-07-0923-garcia-mayweather-0/post.png (fighter)
+Rendered posts/2026-10-07-0923-garcia-mayweather-0/reel.mp4

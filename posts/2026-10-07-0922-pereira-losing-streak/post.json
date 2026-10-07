@@ -1,0 +1,48 @@
+{
+  "story_id": "volkov-pereira-losing-streak-pavlovich-ufc-335",
+  "headline": "Losing Streak?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "01-alex-pereira-in-the-oval-office-while-president-donald-j-tru"
+    },
+    {
+      "type": "fighter",
+      "name": "Sergei Pavlovich"
+    },
+    {
+      "type": "fighter",
+      "name": "Alexander Volkov"
+    },
+    {
+      "type": "mystery",
+      "headline": "Pereira's Losing Streak?"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alexander Volkov says Alex Pereira is headed for a losing streak.\nPereira or Pavlovich? 👇\n\nVolkov told Helen Yee that Sergei Pavlovich's punching power makes it a very hard matchup for Pereira. The heavyweights meet in the five-round co-main of UFC 335 on Dec. 12 in Las Vegas, after Pereira's loss to Ciryl Gane. UFC news.\n\nWho wins?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "AlexPereira",
+    "SergeiPavlovich"
+  ],
+  "sources": [
+    "MMASucka"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Pereira or Pavlovich?",
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
+    "credit": "The White House / Public domain"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}
