@@ -2,6 +2,174 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "shevchenko-did-not-willingly-vacate-report",
+      "title": "Report: Valentina Shevchenko did not willingly vacate the UFC flyweight title",
+      "people": [
+        "Valentina Shevchenko",
+        "Natalia Silva",
+        "Ariel Helwani"
+      ],
+      "event": "UFC 332 / women's flyweight title",
+      "first_reported": "2026-10-06",
+      "facts": [
+        "Ariel Helwani (The Ariel Helwani Show, Oct 5-6): 'Did she willingly give up that belt, no... They needed a title fight' for Oct 3",
+        "UFC told her she'll get the title fight when she returns; she is out with shoulder/back ligament injuries (up to 8 months per coach Pavel Fedotov)",
+        "Natalia Silva beat Wang Cong at UFC 332 for the vacant belt; Shevchenko hasn't addressed the report"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/valentina-shevchenko-did-not-willingly-vacate-ufc-title"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-0920-shevchenko-forced-out",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "bisping-snubs-chimaev-top-10-middleweights",
+      "title": "Michael Bisping leaves Khamzat Chimaev off his all-time top 10 UFC middleweights",
+      "people": [
+        "Michael Bisping",
+        "Khamzat Chimaev"
+      ],
+      "event": "UFC middleweight",
+      "first_reported": "2026-10-07",
+      "facts": [
+        "On the JAXXON Podcast Bisping said 'I wouldn't put Khamzat in the top ten. What did he do?', noting he never defended the belt",
+        "Reminded of the Whittaker win, Bisping conceded 'great win, you're right'",
+        "Chimaev lost the title to Sean Strickland at UFC 328"
+      ],
+      "sources": [
+        "https://www.essentiallysports.com/ufc-mma-news-michael-bisping-snubs-khamzat-chimaev-from-his-top-ten-middleweights-of-all-time-list/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-0921-bisping-snubs-chimaev",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "volkov-pereira-losing-streak-pavlovich-ufc-335",
+      "title": "Alexander Volkov predicts Alex Pereira 'going on a losing streak' vs Sergei Pavlovich at UFC 335",
+      "people": [
+        "Alexander Volkov",
+        "Alex Pereira",
+        "Sergei Pavlovich"
+      ],
+      "event": "UFC 335 (Dec 12, Las Vegas)",
+      "first_reported": "2026-10-06",
+      "facts": [
+        "Volkov to Helen Yee: Pavlovich's power makes it a very hard matchup; sees Pereira on a losing streak",
+        "Pereira vs Pavlovich is the five-round heavyweight co-main of UFC 335, Dec 12, T-Mobile Arena; Pereira lost heavyweight debut to Ciryl Gane"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/alexander-volkov-predicts-sergei-pavlovichs-power-will-be-too-much-for-alex-pereira/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-0922-pereira-losing-streak",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "garcia-dares-mayweather-pro-fight",
+      "title": "Ryan Garcia dares Floyd Mayweather to risk his 0 after reported talks",
+      "people": [
+        "Ryan Garcia",
+        "Floyd Mayweather Jr."
+      ],
+      "event": "Boxing",
+      "sport": "boxing",
+      "first_reported": "2026-10-07",
+      "facts": [
+        "FightHype reported late Oct 6 that talks are underway between Mayweather (49, 50-0) and WBC welterweight champ Garcia; unconfirmed",
+        "Garcia on X: wants a sanctioned pro fight, not an exhibition: 'I want his 0 on the line', 'remember you made this call'",
+        "Nothing signed; Mayweather's last pro fight was McGregor in 2017"
+      ],
+      "sources": [
+        "https://www.boxingnews24.com/2026/10/ryan-garcia-pushes-floyd-mayweather-for-professional-fight/",
+        "https://www.nowboxing.com/2026/10/rumors-swirl-of-mega-fight-talks-between-floyd-mayweather-and-ryan-garcia/55548/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-0923-garcia-mayweather-0",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
+      "id": "dana-white-de-la-hoya-mutual-dislike-mcmahon-snub",
+      "title": "Dana White on De La Hoya 'set up' claim: dislike is mutual; reveals Vince McMahon ticket snub; De La Hoya calls him 'Uncle Fester'",
+      "people": [
+        "Dana White",
+        "Oscar De La Hoya",
+        "Vince McMahon",
+        "Eddie Hearn"
+      ],
+      "event": "DWCS Week 9 presser / Zuffa Boxing",
+      "first_reported": "2026-10-06",
+      "held_for_evening": true,
+      "facts": [
+        "At DWCS Week 9 presser (Oct 6) White denied he'd set up De La Hoya: 'I would never do that', 'my dislike for Oscar De La Hoya is very well known... and it's mutual'",
+        "White said Vince McMahon pulled his tickets at WrestleMania 34 for Ronda Rousey's debut; he ended up in the bleachers",
+        "De La Hoya on Helwani: 'Dana is getting so much heat for not knowing what he's doing', 'Eddie Hearn is just cooking him', 'Uncle Fester', 'what kind of promoter is that?'",
+        "Related: dana-white-hearn-fury-joshua-feud"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/10/06/dwcs-dana-white-oscar-vince-mcmahon/",
+        "https://mmasucka.com/news/oscar-de-la-hoya-goes-after-dana-whites-boxing-ambitions-what-kind-of-promoter-is-that/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "makhachev-kok-boru-calls-out-orolbai",
+      "title": "Islam Makhachev tries kok boru in Kyrgyzstan, jokingly calls out Myktybek Orolbai",
+      "people": [
+        "Islam Makhachev",
+        "Myktybek Orolbai"
+      ],
+      "event": "",
+      "first_reported": "2026-10-07",
+      "held_for_evening": true,
+      "facts": [
+        "Makhachev played kok boru (kokpar, horseback game with a goat carcass) in Kyrgyzstan; his team won",
+        "'It seemed to be a bit easier on tape... A very intense and physical sport'",
+        "Joked 'Myktybek Orolbai, where are you?'; Orolbai sent greetings but didn't show"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Islam-Makhachev-thought-this-sport-looked-easy-then-he-tried-it-203098"
+      ],
+      "posts": []
+    },
+    {
+      "id": "lopes-ufc-told-him-skip-hooker-parnasse",
+      "title": "Diego Lopes: UFC told him not to take Dan Hooker Paris main event after signing Parnasse",
+      "people": [
+        "Diego Lopes",
+        "Dan Hooker",
+        "Salahdine Parnasse",
+        "Charles Oliveira"
+      ],
+      "event": "UFC 335",
+      "first_reported": "2026-10-07",
+      "held_for_evening": true,
+      "facts": [
+        "Lopes to Helwani: UFC first floated him headlining UFC Paris vs Hooker at 155, then 'signed the French guy, and they were like, Don't take this fight'",
+        "Options then were Oliveira or 'BSD in New York'; he faces Oliveira for the BMF title at UFC 335, Dec 12"
+      ],
+      "sources": [
+        "https://www.essentiallysports.com/ufc-mma-news-diego-lopes-reveals-how-ufc-s-initial-plans-for-him-got-sidelined-by-salahdine-parnasse-signing/"
+      ],
+      "posts": []
+    },
+    {
       "id": "chimaev-offers-strickland-1m-rematch",
       "title": "Khamzat Chimaev offers Sean Strickland $1 million for a UFC rematch",
       "people": [

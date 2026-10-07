@@ -1,0 +1,17 @@
+{
+  "story_id": "shevchenko-did-not-willingly-vacate-report",
+  "headline": "Forced Out?",
+  "visual": [
+    {"type": "fighter", "name": "Valentina Shevchenko", "file": "01-valentina-shevchenko"},
+    {"type": "mystery", "headline": "Shevchenko Forced Out?"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "Valentina Shevchenko didn't want to give up her UFC title, per Ariel Helwani.\nFair or not? 👇\n\nHelwani says the UFC needed a title fight for Oct. 3, so the injured flyweight champ was asked to vacate, with a promise of a title shot when she returns. Natalia Silva won the vacant belt at UFC 332. UFC news.\n\nShould she get it right back?",
+  "hashtags": ["MMANews", "UFC", "UFC332", "ValentinaShevchenko", "NataliaSilva"],
+  "sources": ["MMA News", "The Ariel Helwani Show"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Fair or not?",
+  "follow_card": true,
+  "reel": true
+}
