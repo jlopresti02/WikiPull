@@ -1,0 +1,18 @@
+{
+  "story_id": "navajo-stirling-takes-makhachev-dagestan-offer",
+  "headline": "Dagestan Bound",
+  "visual": [
+    {"type": "fighter", "name": "Navajo Stirling"},
+    {"type": "fighter", "name": "Islam Makhachev", "file": "05-islam-makhachev-2023", "headline": "Islam's Offer"},
+    {"type": "mystery", "headline": "Stirling To Dagestan?"}
+  ],
+  "color": "#d2202f",
+  "caption": "Navajo Stirling wants Islam Makhachev's famous Dagestan treatment for real.\nGenius or crazy? 👇\n\nThe unbeaten UFC light heavyweight (11-0) posed in a papakha and told Ariel Helwani he'd start with a few weeks, since he has no kids holding him back. First he headlines UFC Qatar against Jiri Prochazka on Nov. 21. MMA news.\n\nWould you do it?",
+  "hashtags": ["MMANews", "UFC", "UFCQatar", "NavajoStirling", "IslamMakhachev"],
+  "sources": ["Sherdog", "The Ariel Helwani Show"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Genius or crazy?",
+  "follow_card": true,
+  "reel": true
+}

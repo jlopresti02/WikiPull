@@ -2,6 +2,76 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "navajo-stirling-takes-makhachev-dagestan-offer",
+      "title": "Navajo Stirling says he's serious about Makhachev's 'send me 2-3 years to Dagestan' offer",
+      "people": [
+        "Navajo Stirling",
+        "Islam Makhachev"
+      ],
+      "event": "UFC Qatar (Nov 21)",
+      "first_reported": "2026-10-07",
+      "facts": [
+        "Stirling (11-0, 6-0 UFC) posted in a papakha: 'Islam Makhachev, our saviour, send me 2-3 year Dagestan and forget'",
+        "Told Ariel Helwani he's serious, no kids holding him back; would start with 2-3 weeks",
+        "Headlines UFC Qatar vs Jiri Prochazka Nov 21 in Doha"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Islam-Makhachev-finally-gets-a-taker-for-his-famous-Dagestan-offer-203100"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-1320-stirling-dagestan",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "volkanovski-evloev-boos-in-his-head-ufc-333",
+      "title": "Volkanovski: boos for Evloev are getting into my head more than his",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-07",
+      "facts": [
+        "On Precision podcast Volkanovski said he feels bad for Evloev over LA presser boos",
+        "Said Evloev took the long road and probably deserved a title shot before now",
+        "UFC 333 featherweight title fight Oct 24, Etihad Arena, Abu Dhabi"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Alexander-Volkanovski-admits-Movsar-Evloev-boos-got-in-his-head-203097"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-1321-volkanovski-boos",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
+      "id": "barboza-signs-acbjj-grappling",
+      "title": "Edson Barboza signs with ACBJJ for grappling after MMA retirement",
+      "people": [
+        "Edson Barboza"
+      ],
+      "event": "ACBJJ",
+      "first_reported": "2026-10-07",
+      "held_for_evening": true,
+      "sport": "bjj",
+      "facts": [
+        "Barboza (24-15) retired from MMA in August after a 4th straight loss (TKO by Ribovics, UFC 330)",
+        "Signed with Absolute Championship of Brazilian Jiu-Jitsu (ACBJJ) per the promotion",
+        "Drew with Sharabutdin Magomedov in a Hype FC grappling match in March"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Edson-Barboza-retired-from-MMA-but-hes-not-done-competing-203107"
+      ],
+      "posts": []
+    },
+    {
       "id": "shevchenko-did-not-willingly-vacate-report",
       "title": "Report: Valentina Shevchenko did not willingly vacate the UFC flyweight title",
       "people": [
@@ -132,11 +202,13 @@
         "At DWCS Week 9 presser (Oct 6) White denied he'd set up De La Hoya: 'I would never do that', 'my dislike for Oscar De La Hoya is very well known... and it's mutual'",
         "White said Vince McMahon pulled his tickets at WrestleMania 34 for Ronda Rousey's debut; he ended up in the bleachers",
         "De La Hoya on Helwani: 'Dana is getting so much heat for not knowing what he's doing', 'Eddie Hearn is just cooking him', 'Uncle Fester', 'what kind of promoter is that?'",
-        "Related: dana-white-hearn-fury-joshua-feud"
+        "Related: dana-white-hearn-fury-joshua-feud",
+        "Oct 7: De La Hoya told Fight Hub TV he skipped Garcia-Benn (Sept 12, co-promoted by Zuffa/Golden Boy) because 'I wasn't going to show up to be embarrassed'; White: he'd just call and say 'You're not welcome'"
       ],
       "sources": [
         "https://cagesidepress.com/2026/10/06/dwcs-dana-white-oscar-vince-mcmahon/",
-        "https://mmasucka.com/news/oscar-de-la-hoya-goes-after-dana-whites-boxing-ambitions-what-kind-of-promoter-is-that/"
+        "https://mmasucka.com/news/oscar-de-la-hoya-goes-after-dana-whites-boxing-ambitions-what-kind-of-promoter-is-that/",
+        "https://www.sherdog.com/news/news/Dana-White-fires-back-after-Oscar-De-La-Hoya-feared-being-embarrassed-203108"
       ],
       "posts": []
     },

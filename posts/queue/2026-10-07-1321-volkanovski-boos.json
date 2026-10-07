@@ -1,0 +1,18 @@
+{
+  "story_id": "volkanovski-evloev-boos-in-his-head-ufc-333",
+  "headline": "In My Head",
+  "visual": [
+    {"type": "fighter", "name": "Alexander Volkanovski"},
+    {"type": "fighter", "name": "Movsar Evloev", "headline": "Evloev Booed"},
+    {"type": "mystery", "headline": "Volkanovski Rattled?"}
+  ],
+  "color": "#d2202f",
+  "caption": "Alexander Volkanovski admits the boos aimed at Movsar Evloev are getting to him more than to Evloev.\nBoo or cheer? 👇\n\nOn the Precision podcast, the UFC featherweight champion said unbeaten Evloev (20-0) took the long road and earned this title shot long ago. They meet in the UFC 333 title fight on Oct. 24 in Abu Dhabi. UFC news.\n\nWho keeps the belt?",
+  "hashtags": ["MMANews", "UFC", "UFC333", "AlexanderVolkanovski", "MovsarEvloev"],
+  "sources": ["Sherdog", "Precision Podcast"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Boo or cheer?",
+  "follow_card": true,
+  "reel": true
+}
