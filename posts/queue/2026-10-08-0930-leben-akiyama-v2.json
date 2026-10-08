@@ -1,0 +1,62 @@
+{
+  "story_id": "leben-returns-vs-akiyama-black-combat-17",
+  "headline": "Leben Returns",
+  "format": "v2",
+  "v2": {
+    "tag": "BLACK COMBAT 17",
+    "kicker": "13 YEARS LATER",
+    "hook": "Leben vs Akiyama 2",
+    "left": [
+      {
+        "name": "Chris Leben"
+      }
+    ],
+    "right": [
+      {
+        "name": "Yoshihiro Akiyama"
+      }
+    ],
+    "story": "Chris Leben, 46, ends a nearly 13-year MMA layoff in what's billed as Akiyama's retirement fight.",
+    "chips": [
+      "FIRST FIGHT: LEBEN",
+      "TRIANGLE CHOKE R3",
+      "UFC 116 · 2010"
+    ],
+    "question": "Leben or Akiyama?",
+    "options": [
+      "LEBEN",
+      "AKIYAMA"
+    ]
+  },
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Chris Leben"
+    },
+    {
+      "type": "fighter",
+      "name": "Yoshihiro Akiyama"
+    },
+    {
+      "type": "mystery",
+      "headline": "Leben Returns"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Chris Leben is coming back to MMA after nearly 13 years to rematch Yoshihiro Akiyama.\nLeben or Akiyama? 👇\n\nBlack Combat booked it for Black Combat 17 on Nov. 21 in Seoul, billed as Akiyama's retirement fight. Leben, 46, choked Akiyama out at UFC 116 back in 2010. MMA news.\n\nWho wins the rematch?",
+  "hashtags": [
+    "MMA",
+    "MMANews",
+    "BlackCombat",
+    "ChrisLeben",
+    "YoshihiroAkiyama"
+  ],
+  "sources": [
+    "Sherdog",
+    "MiddleEasy"
+  ],
+  "music_pool": "espn",
+  "question": "Leben or Akiyama?",
+  "follow_card": true,
+  "reel": true
+}

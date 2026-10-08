@@ -485,15 +485,34 @@ def render(spec_path):
     graphic = subject.get("graphic", "money")
     Scene(POST, words, bg, cut, kind, graphic).frame().save(out / "post.png", optimize=True)
     print(f"Rendered posts/{name}/post.png ({kind})")
-    if spec.get("reel"):
+    credit_extra = []
+    if spec.get("reel") and spec.get("format") == "v2":
+        # Reel format v2 (reel_v2.py): two fighters, story card, pick card.
+        from reel_v2 import make_reel_v2
+        cuts = []
+        for side in ("left_subject", "right_subject"):
+            sub = spec["v2"].get(side) or {}
+            if sub.get("image"):
+                with Image.open(ROOT / sub["image"]) as im:
+                    cuts.append(im.convert("RGBA"))
+            else:
+                cuts.append(None)
+            if sub.get("credit"):
+                credit_extra.append(sub["credit"])
+        make_reel_v2(spec, out, *cuts)
+        print(f"Rendered posts/{name}/reel.mp4 (format v2)")
+    elif spec.get("reel"):
         make_reel(Scene(REEL, words, bg, cut, kind, graphic), out, spec)
         print(f"Rendered posts/{name}/reel.mp4")
 
     lines = [spec["caption"].strip(), ""]
     if spec.get("sources"):
         lines.append("📰 Source: " + ", ".join(spec["sources"]))
-    if subject.get("credit"):
-        lines.append(("📸 Photo: " if kind == "fighter" else "📸 Image: ") + subject["credit"])
+    photo_credits = list(dict.fromkeys(credit_extra)) if credit_extra else (
+        [subject["credit"]] if subject.get("credit") else [])
+    if photo_credits:
+        label = "📸 Photo: " if (kind == "fighter" or credit_extra) else "📸 Image: "
+        lines.append(label + "; ".join(photo_credits))
     if spec.get("reel") and spec.get("music_credit"):
         lines.append("🎵 Music: " + spec["music_credit"])
     tags = [t if t.startswith("#") else "#" + t for t in spec.get("hashtags", [])][:5]

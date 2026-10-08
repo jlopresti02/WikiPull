@@ -169,6 +169,31 @@ def resolve_visual(spec):
     return False
 
 
+def resolve_v2(spec):
+    """Reel format v2: find a cutout for each side ("left", "right"). A side
+    with no photo is left empty and the renderer draws the silhouette."""
+    v2 = spec.get("v2")
+    if spec.get("format") != "v2" or not v2:
+        return False
+    changed = False
+    for side in ("left", "right"):
+        if v2.get(side + "_subject") or not v2.get(side):
+            continue
+        names = v2[side] if isinstance(v2[side], list) else [v2[side]]
+        sub = None
+        for opt in names:
+            try:
+                sub = try_visual({"type": "fighter", **opt})
+            except Exception as exc:
+                print(f"  v2 {side} {opt} failed: {exc}")
+            if sub:
+                break
+        v2[side + "_subject"] = sub or {"kind": "graphic", "graphic": "mystery", "image": None, "credit": None}
+        print(f"v2 {side}: {v2[side + '_subject'].get('image') or 'silhouette'}")
+        changed = True
+    return changed
+
+
 def sync_drive():
     """Download photos listed in drive_images.json (the user's Google Drive
     image bank) into images/<person>/drive-<name>.<ext>, with a credit entry,
@@ -286,6 +311,7 @@ def main():
                 spec_path.unlink()
                 continue
             changed = resolve_visual(spec)
+            changed = resolve_v2(spec) or changed
             changed = resolve_music(spec) or changed
             if changed:
                 spec_path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")

@@ -97,7 +97,6 @@
       ],
       "event": "Black Combat 17: Vantablack (Nov 21, 2026, Gocheok Sky Dome, Seoul)",
       "first_reported": "2026-10-07",
-      "held_for_evening": true,
       "facts": [
         "Leben (22-12), 46, vs Akiyama (16-7); billed as Akiyama's retirement fight",
         "Rematch: Leben won by R3 triangle choke at UFC 116 (2010)",
@@ -107,7 +106,15 @@
         "https://www.sherdog.com/news/news/Chris-Leben-to-return-to-MMA-after-nearly-13-years-against-Yoshihiro-Akiyama-203123",
         "https://middleeasy.com/mma-news/chris-leben-returns-mma-yoshihiro-akiyama-black-combat-17"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-08-0930-leben-akiyama-v2",
+          "kind": "new",
+          "format": "reel",
+          "reel_format": "v2",
+          "note": "user asked to try Reel format v2 on a later post (Oct 8)"
+        }
+      ]
     },
     {
       "id": "yan-featherweight-not-volkanovski",

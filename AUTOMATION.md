@@ -295,6 +295,15 @@ face from the first frame; leave `"seconds"` at 5 unless there's a reason.
 - `"follow_card": true`: the last 1.2 s read FOLLOW @WWITMMA, then the
   Reel loops back to the headline. Every post gets it.
 
+**Reel format v2 (trial, Oct 8, user request).** `reel_v2.py` renders the
+"WWIT Reel Format v2" mockup: an 8-second loop with two fighter photos and a
+VS badge (hook), a white story card with fact chips (context), then a
+"YOUR PICK" card with two answer boxes. A post opts in with `"format": "v2"`
+and a `"v2"` block (`tag`, `kicker`, `hook`, `left`, `right`, `story`,
+`chips`, `question`, `options`; see the top of `reel_v2.py`). The first one
+is Leben vs. Akiyama (Oct 8, 7 PM). Use it only when the user asks until
+they decide whether it replaces the default format.
+
 **Headline**: 1 to 3 punchy words, like a sports graphic ("BJP RETURNS",
 "TITLE SHOT", "OUT OF UFC 330"). Match it to the image that will be used
 (see Visual below). Make it emotional and specific, built on the conflict
