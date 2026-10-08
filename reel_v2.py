@@ -60,6 +60,9 @@ GREY_TEXT = (212, 214, 219)
 GREY_SOURCE = (169, 173, 181)
 CHIP_BG, CHIP_BORDER = (28, 30, 34), (58, 61, 68)
 DEFAULT_ACCENT = "#FFC21A"
+DEFAULT_CORNERS = ("#D7262E", "#1F6FE0")   # red corner (left), blue corner (right)
+SEAM = 70          # diagonal split: seam leans this far either side of centre
+T_LAND = 0.24      # fighters land, VS pops, impact shake
 
 # Everything is laid out at 2x the 540x960 mockup.
 PAD_L, PAD_R = 56, 128          # right gutter keeps clear of Instagram's buttons
@@ -252,58 +255,144 @@ class V2:
         src = " · ".join(s.upper() for s in spec.get("sources", []))
         self.source = (f"SOURCE: {src}   ·   @WWITMMA" if src else "@WWITMMA")
 
+        self.corners = [hex_rgb(c) for c in v.get("corners", DEFAULT_CORNERS)][:2]
+        hl = v.get("highlight")
+        if hl is None and ":" in self.hook:
+            hl = self.hook.split(":", 1)[1]
+        elif hl is None:
+            hl = self.hook.split()[-1]       # no highlight given: the last word
+        self.highlight = set((hl or "").upper().replace(":", " ").split())
+
         self.col_w = (W - 8) // 2
         self.cuts = []
         for c in (left_cut, right_cut):
             self.cuts.append(fit_cut(c, self.col_w, PHOTO_H) if c is not None
                              else silhouette(self.col_w, PHOTO_H))
+        self._build_panels()
+        self._layout_hook()
         self.text_hook = self._hook_layer()
         self.card, self.card_h = self._context_card()
         self.chips_layer = self._chips_layer()
         self.question_frame = self._question_frame()
 
-    # photos with VS badge, at a zoom factor; dim = 0..1 (0.45 = 55% opacity)
-    def photos(self, zoom=1.0, dim=0.0):
+    # ---- fight-poster panels -------------------------------------------
+
+    def _build_panels(self):
+        """Diagonal split with a corner-colour glow behind each fighter."""
+        top_mid, bot_mid = W // 2 + SEAM, W // 2 - SEAM
+        self.masks, self.panel_bgs = [], []
+        polys = [[(0, 0), (top_mid - 5, 0), (bot_mid - 5, PHOTO_H), (0, PHOTO_H)],
+                 [(top_mid + 5, 0), (W, 0), (W, PHOTO_H), (bot_mid + 5, PHOTO_H)]]
+        for i, poly in enumerate(polys):
+            m = Image.new("L", (W, PHOTO_H), 0)
+            ImageDraw.Draw(m).polygon(poly, fill=255)
+            self.masks.append(m)
+            bg = Image.new("RGBA", (W, PHOTO_H), (COL_A if i == 0 else COL_B) + (255,))
+            glow = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
+            cx = W // 4 if i == 0 else 3 * W // 4
+            gd = ImageDraw.Draw(glow)
+            gd.ellipse([cx - 420, 120, cx + 420, PHOTO_H + 260], fill=self.corners[i] + (190,))
+            glow = glow.filter(ImageFilter.GaussianBlur(110))
+            bg.alpha_composite(glow)
+            # dark floor so the fighters sit on something
+            floor = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
+            fd = ImageDraw.Draw(floor)
+            for k in range(220):
+                fd.line([(0, PHOTO_H - k), (W, PHOTO_H - k)], fill=BG + (int(150 * (1 - k / 220)),))
+            bg.alpha_composite(floor)
+            self.panel_bgs.append(bg)
+        seam = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
+        ImageDraw.Draw(seam).line([(top_mid, -10), (bot_mid, PHOTO_H + 10)], fill=self.accent, width=10)
+        self.seam = seam
+
+    # photos with VS badge, at a zoom factor; dim = 0..1 (0.45 = 55% opacity);
+    # dx shifts each fighter sideways (slide-in); vs = VS badge scale (0 hides it)
+    def photos(self, zoom=1.0, dim=0.0, dx=(0, 0), vs=1.0):
         img = Image.new("RGBA", (W, H), BG + (255,))
-        d = ImageDraw.Draw(img)
-        cols = [(0, COL_A), (self.col_w + 8, COL_B)]
-        for (x0, col), cut in zip(cols, self.cuts):
-            panel = Image.new("RGBA", (self.col_w, PHOTO_H), col + (255,))
+        strip = Image.new("RGBA", (W, PHOTO_H), BG + (255,))
+        for i, cut in enumerate(self.cuts):
+            panel = self.panel_bgs[i].copy()
             cw, ch = int(cut.width * zoom), int(cut.height * zoom)
             c = cut.resize((cw, ch), Image.LANCZOS) if zoom != 1.0 else cut
-            px = (self.col_w - cw) // 2
+            cx = W // 4 if i == 0 else 3 * W // 4
+            px = cx - cw // 2 + int(dx[i])
             py = PHOTO_H - ch  # bottoms on the accent bar
             panel.paste(c, (px, py), c)
-            img.alpha_composite(panel, (x0, PHOTO_TOP))
+            strip.paste(panel, (0, 0), self.masks[i])
+        strip.alpha_composite(self.seam)
+        img.alpha_composite(strip, (0, PHOTO_TOP))
         if dim > 0:
             shade = Image.new("RGBA", (W, PHOTO_H), BG + (int(255 * dim),))
             img.alpha_composite(shade, (0, PHOTO_TOP))
-        # VS badge
-        r = 80
-        cx, cy = W // 2, PHOTO_TOP + 248 + r
         d = ImageDraw.Draw(img)
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=BG, outline=self.accent, width=6)
-        f = anton(60)
-        d.text((cx, cy + cap(f) / 2), "VS", font=f, fill=self.accent, anchor="ms")
+        if vs > 0.02:
+            r = int(92 * vs)
+            cx, cy = W // 2, PHOTO_TOP + 300
+            d.ellipse([cx - r - 8, cy - r - 8, cx + r + 8, cy + r + 8], fill=BG)
+            d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=self.accent)
+            f = anton(max(8, int(76 * vs)))
+            d.text((cx, cy + cap(f) / 2), "VS", font=f, fill=INK, anchor="ms")
         d.rectangle([0, BAR_Y, W, BAR_Y + 12], fill=self.accent)
         return img
 
+    # ---- hook text: solid kicker tag + big word-by-word headline ----------
+
+    def _layout_hook(self):
+        max_w = W - PAD_L - PAD_R
+        y = BAR_Y + 12 + 52
+        self.kicker_box = None
+        if self.kicker:
+            fk = barlow(50, 800)
+            kw = spaced_width(self.kicker, fk, 5) + 44
+            kh = cap(fk) + 36
+            box = Image.new("RGBA", (int(kw), int(kh)), self.accent + (255,))
+            draw_spaced(ImageDraw.Draw(box), (22, kh / 2 + cap(fk) / 2), self.kicker, fk, INK, 5)
+            self.kicker_box = (box, PAD_L, int(y))
+            y += kh + 30
+        f, lines, size = fit_lines(self.hook, anton, 168, max_w, 3)
+        lh = size * 1.0
+        y += cap(f)
+        space = f.getlength(" ")
+        self.words = []          # (image, x, baseline-top y, index)
+        n = 0
+        for line in lines:
+            x = PAD_L
+            for word in line.split():
+                key = word.strip(":,.!?\"'").upper()
+                col = self.accent if key in self.highlight else WHITE
+                ww = int(f.getlength(word)) + 4
+                im = Image.new("RGBA", (ww, int(size * 1.3)), (0, 0, 0, 0))
+                ImageDraw.Draw(im).text((0, cap(f)), word, font=f, fill=col, anchor="ls")
+                self.words.append((im, int(x), int(y - cap(f)), n))
+                x += f.getlength(word) + space
+                n += 1
+            y += lh
+
+    def draw_hook(self, img, t):
+        if self.kicker_box:
+            box, x, y = self.kicker_box
+            k = 1.0 if t >= 0.12 else 0.55 + 0.45 * t / 0.12   # on screen from frame 0
+            k = 1 - (1 - k) ** 3
+            if k > 0:
+                img.alpha_composite(box, (int(x - (box.width + x) * (1 - k)), y))
+        for im, x, y, i in self.words:
+            t0 = 0.0 + 0.06 * i             # first word is on screen from frame 0, then one by one
+            k = (t - t0) / 0.14 if t0 > 0 else 1.0
+            if k <= 0:
+                continue
+            k = min(1.0, k)
+            s = 1.0 + 0.55 * (1 - k) ** 2   # 155% -> 100%
+            a = min(1.0, k * 1.6)
+            w2, h2 = int(im.width * s), int(im.height * s)
+            w_im = im.resize((w2, h2), Image.LANCZOS) if s != 1.0 else im.copy()
+            if a < 1:
+                w_im.putalpha(w_im.getchannel("A").point(lambda v: int(v * a)))
+            cx, cy = x + im.width / 2, y + im.height / 2
+            img.alpha_composite(w_im, (int(cx - w2 / 2), int(cy - h2 / 2)))
+
     def _hook_layer(self):
         layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-        d = ImageDraw.Draw(layer)
-        max_w = W - PAD_L - PAD_R
-        y = BAR_Y + 12 + 44
-        if self.kicker:
-            fk = barlow(52, 800)
-            y += cap(fk)
-            draw_spaced(d, (PAD_L, y), self.kicker, fk, self.accent, 6)
-            y += 28
-        f, lines, size = fit_lines(self.hook, anton, 124, max_w, 2)
-        lh = size * 1.02
-        y += cap(f)
-        for line in lines:
-            d.text((PAD_L, y), line, font=f, fill=WHITE, anchor="ls")
-            y += lh
+        self.draw_hook(layer, 99)
         return layer
 
     def _context_card(self):
@@ -407,26 +496,33 @@ class V2:
                 prev = self.frame(T_QUESTION - 0.001).convert("RGBA")
                 img = Image.blend(prev, img, k)
             return img.convert("RGB")
-        zoom = 1.0 + 0.08 * (t / T_QUESTION)
+        zoom = 1.0 + 0.10 * (t / T_QUESTION)
         if t < T_CONTEXT:
-            img = self.photos(zoom)
+            # fighters slide in from their own sides (already ~80% in on frame 0)
+            # and land at T_LAND; VS pops; one quick impact shake + flash
+            k = min(1.0, t / T_LAND)
+            k = 1 - (1 - k) ** 3
+            off = 0.22 * (W // 2) * (1 - k)
+            vs = 0.0
+            if t >= T_LAND - 0.04:
+                u = min(1.0, (t - T_LAND + 0.04) / 0.18)
+                vs = u * (1.0 + 0.35 * (1 - u) * 2) if u < 1 else 1.0   # overshoot then settle
+            img = self.photos(zoom, dx=(-off, off), vs=vs)
             d = ImageDraw.Draw(img)
             draw_header(d, self.accent, self.tag)
-            # headline slams in: 0-0.25 s, from 112% scale and 40% opacity
-            k = min(1.0, t / 0.25)
-            k = 1 - (1 - k) ** 3
-            layer = self.text_hook
-            if k < 1:
-                s = 1.12 - 0.12 * k
-                big = layer.resize((int(W * s), int(H * s)), Image.LANCZOS)
-                # scale around the headline's left baseline area
-                ox, oy = PAD_L, BAR_Y + 120
-                x, y = int(ox - ox * s), int(oy - oy * s)
-                tmp = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-                tmp.paste(big, (x, y), big)
-                tmp.putalpha(tmp.getchannel("A").point(lambda v: int(v * (0.4 + 0.6 * k))))
-                layer = tmp
-            img.alpha_composite(layer)
+            self.draw_hook(img, t)
+            since = t - T_LAND
+            if 0 <= since < 0.10:
+                flash = Image.new("RGBA", (W, H), WHITE + (int(70 * (1 - since / 0.10)),))
+                img.alpha_composite(flash)
+            if 0 <= since < 0.22:
+                amp = 18 * (1 - since / 0.22)
+                sx = int(amp * (1 if int(since * FPS) % 2 == 0 else -1))
+                sy = int(amp * 0.6 * (-1 if int(since * FPS) % 2 == 0 else 1))
+                shaken = Image.new("RGBA", (W, H), BG + (255,))
+                big = img.resize((int(W * 1.03), int(H * 1.03)), Image.LANCZOS)
+                shaken.paste(big, (int(-W * 0.015) + sx, int(-H * 0.015) + sy))
+                img = shaken
             return img.convert("RGB")
         # context: dim photos, card slides up (0.35 s), chips fade in
         u = min(1.0, (t - T_CONTEXT) / 0.35)
@@ -479,5 +575,5 @@ def make_reel_v2(spec, out, left_cut, right_cut):
     proc.stdin.close()
     if proc.wait() != 0:
         sys.exit("ffmpeg failed to write the v2 Reel")
-    v.frame(1.0).save(out / "cover.png", optimize=True)
+    v.frame(1.6).save(out / "cover.png", optimize=True)
     return v
