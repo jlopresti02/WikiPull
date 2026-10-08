@@ -1,0 +1,43 @@
+{
+  "story_id": "strickland-ponders-vacating-title-pay",
+  "headline": "Out Of Contract?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    },
+    {
+      "type": "fighter",
+      "name": "Jake Paul"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Jake Paul just fired back at Sean Strickland's threat to quit the UFC and box him.\nStrickland or Paul? 👇\n\nAfter the UFC middleweight champ floated vacating his title over pay, Paul answered by asking whether he's even out of his contract. Strickland is still under UFC contract, with Nassourdine Imavov expected next. MMA news.\n\nWould you watch it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "SeanStrickland",
+    "JakePaul",
+    "Boxing"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "Sportskeeda",
+    "Yahoo Sports"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Strickland or Paul?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
+}

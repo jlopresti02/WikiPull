@@ -1,35 +1,6 @@
-Searching Wikimedia Commons for: Chris Leben
-  saved images/chris-leben/01-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29-cro.jpg  [CC BY 3.0]
-  saved images/chris-leben/02-chris-leben-talks-bare-knuckle-boxing-fight-youtube-1-45.jpg  [CC BY 3.0]
-  saved images/chris-leben/03-chris-leben-talks-bare-knuckle-boxing-fight-youtube-1-45-cro.jpg  [CC BY 3.0]
-  saved images/chris-leben/04-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29.jpg  [CC BY 3.0]
-Done: 4 image(s) saved.
-[0;93m2026-10-08 13:28:53.972372916 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/chris-leben/cutouts/01-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29-cro.png
-  cutout images/chris-leben/cutouts/02-chris-leben-talks-bare-knuckle-boxing-fight-youtube-1-45.png
-  cutout images/chris-leben/cutouts/03-chris-leben-talks-bare-knuckle-boxing-fight-youtube-1-45-cro.png
-  cutout images/chris-leben/cutouts/04-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29.png
-Done: 4 new cutout(s).
-Searching Wikimedia Commons for: Yoshihiro Akiyama
-  saved images/yoshihiro-akiyama/01-search.jpg  [CC BY-SA 4.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-08 13:31:07.291451404 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/yoshihiro-akiyama/cutouts/01-search.png
-Done: 1 new cutout(s).
 
-== 2026-10-08-0930-leben-akiyama-v2.json
-$ fetch.py Chris Leben --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/chris-leben
-Image: {'type': 'fighter', 'name': 'Chris Leben'} -> fighter images/chris-leben/cutouts/01-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29-cro.png  headline: Leben Returns
-v2 left: images/chris-leben/cutouts/01-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29-cro.png
-$ fetch.py Yoshihiro Akiyama --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/yoshihiro-akiyama
-v2 right: images/yoshihiro-akiyama/cutouts/01-search.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-08-0930-leben-akiyama-v2/post.png (fighter)
-v2: downloaded fonts/BarlowCondensed-ExtraBold.ttf
-v2: downloaded fonts/BarlowCondensed-Bold.ttf
-v2: downloaded fonts/BarlowCondensed-SemiBold.ttf
-Rendered posts/2026-10-08-0930-leben-akiyama-v2/reel.mp4 (format v2)
+== 2026-10-08-1320-paul-out-of-contract.json
+Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Out Of Contract?
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-08-1320-paul-out-of-contract/post.png (fighter)
+Rendered posts/2026-10-08-1320-paul-out-of-contract/reel.mp4
