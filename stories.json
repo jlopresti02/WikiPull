@@ -37,7 +37,10 @@
         {
           "post": "2026-10-08-1320-paul-out-of-contract",
           "kind": "update",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-08T13:30:00-04:00",
+          "image": "fighter photo (Sean Strickland, Drive, with belt)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2414605265603706006"
         }
       ]
     },
