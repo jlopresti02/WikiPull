@@ -112,7 +112,10 @@
           "kind": "new",
           "format": "reel",
           "reel_format": "v2",
-          "note": "user asked to try Reel format v2 on a later post (Oct 8)"
+          "note": "user asked to try Reel format v2 on a later post (Oct 8)",
+          "scheduled_for": "2026-10-08T19:00:00-04:00",
+          "image": "v2 pair: Chris Leben + Yoshihiro Akiyama (Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8220208582450564805"
         }
       ]
     },
