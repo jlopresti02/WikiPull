@@ -1,0 +1,16 @@
+{
+  "story_id": "makhachev-kok-boru-calls-out-orolbai",
+  "headline": "Where Are You?",
+  "visual": [
+    {"type": "fighter", "name": "Islam Makhachev", "file": "03-islam-makhachev-current-ufc-lightweight-champion"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "Islam Makhachev jokingly called out Myktybek Orolbai... on horseback 🐎\nFunny or fire? 👇\n\nThe UFC star tried kok boru, the Central Asian horseback game, in Kyrgyzstan and admitted it looked easier on tape. His team won, but Orolbai only sent greetings. MMA news.\n\nWould you play it?",
+  "hashtags": ["MMANews", "UFC", "IslamMakhachev", "MyktybekOrolbai", "MMA"],
+  "sources": ["Sherdog"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Funny or fire?",
+  "follow_card": true,
+  "reel": true
+}

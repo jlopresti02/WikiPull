@@ -1,0 +1,18 @@
+{
+  "story_id": "lopes-ufc-told-him-skip-hooker-parnasse",
+  "headline": "UFC Said No",
+  "visual": [
+    {"type": "fighter", "name": "Diego Lopes"},
+    {"type": "fighter", "name": "Charles Oliveira"},
+    {"type": "mystery", "headline": "Lopes Blocked"}
+  ],
+  "color": "#d2202f",
+  "caption": "Diego Lopes says the UFC told him NOT to take the Dan Hooker fight in Paris.\nUFC's call or Lopes'? 👇\n\nLopes told Ariel Helwani the Paris main event at lightweight was on the table until the UFC signed Salahdine Parnasse. Now he meets Charles Oliveira for the BMF title at UFC 335 on Dec. 12. UFC news.\n\nWho wins, Lopes or Do Bronx?",
+  "hashtags": ["MMANews", "UFC", "UFC335", "DiegoLopes", "CharlesOliveira"],
+  "sources": ["EssentiallySports", "Ariel Helwani"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "UFC's call or his?",
+  "follow_card": true,
+  "reel": true
+}

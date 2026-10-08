@@ -134,7 +134,6 @@
    ],
    "event": "UFC 332",
    "first_reported": "2026-10-07",
-   "held_for_evening": true,
    "facts": [
     "Told Hablemos MMA he wants Moicano or Hooker; 'Moicano keeps getting away from all these guys'",
     "Stopped King Green R1 at UFC 332 after missing weight by 0.5 lb; stopped Barboza at UFC 330"
@@ -142,7 +141,8 @@
    "sources": [
     "https://middleeasy.com/mma-news/esteban-ribovics-renato-moicano-dan-hooker-ufc-332-targets"
    ],
-   "posts": []
+   "posts": [],
+   "dropped": "skipped for daily cap (10 PM run, Oct 7)"
   },
   {
    "id": "navajo-stirling-takes-makhachev-dagestan-offer",
@@ -370,7 +370,6 @@
    ],
    "event": "",
    "first_reported": "2026-10-07",
-   "held_for_evening": true,
    "facts": [
     "Makhachev played kok boru (kokpar, horseback game with a goat carcass) in Kyrgyzstan; his team won",
     "'It seemed to be a bit easier on tape... A very intense and physical sport'",
@@ -379,7 +378,13 @@
    "sources": [
     "https://www.sherdog.com/news/news/Islam-Makhachev-thought-this-sport-looked-easy-then-he-tried-it-203098"
    ],
-   "posts": []
+   "posts": [
+    {
+     "post": "2026-10-07-2231-makhachev-kok-boru",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
   },
   {
    "id": "lopes-ufc-told-him-skip-hooker-parnasse",
@@ -392,7 +397,6 @@
    ],
    "event": "UFC 335",
    "first_reported": "2026-10-07",
-   "held_for_evening": true,
    "facts": [
     "Lopes to Helwani: UFC first floated him headlining UFC Paris vs Hooker at 155, then 'signed the French guy, and they were like, Don't take this fight'",
     "Options then were Oliveira or 'BSD in New York'; he faces Oliveira for the BMF title at UFC 335, Dec 12"
@@ -400,7 +404,13 @@
    "sources": [
     "https://www.essentiallysports.com/ufc-mma-news-diego-lopes-reveals-how-ufc-s-initial-plans-for-him-got-sidelined-by-salahdine-parnasse-signing/"
    ],
-   "posts": []
+   "posts": [
+    {
+     "post": "2026-10-07-2230-lopes-ufc-said-no",
+     "kind": "new",
+     "format": "reel"
+    }
+   ]
   },
   {
    "id": "chimaev-offers-strickland-1m-rematch",
