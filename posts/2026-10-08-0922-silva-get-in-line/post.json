@@ -32,5 +32,13 @@
   "music_pool": "espn",
   "seconds": 5,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/natalia-silva/cutouts/01-nat-lia-silva-2025.png",
+    "credit": "Sexto Round / CC BY 3.0"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

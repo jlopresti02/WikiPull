@@ -1,29 +1,54 @@
-Searching Wikimedia Commons for: Diego Lopes
-  saved images/diego-lopes/01-diego-lopes-2025.jpg  [CC BY 3.0]
-  saved images/diego-lopes/02-diego-lopes-footballer.jpg  [CC0]
-  saved images/diego-lopes/03-diego-lopes-footballer-2024-08-10.jpg  [CC0]
-  saved images/diego-lopes/04-diego-lopes-croce-processionale-in-argento-parz-dorato-su-an.jpg  [CC BY-SA 4.0]
-  saved images/diego-lopes/05-stemmi-dei-cavalieri-nel-palazzo-della-carovana-191-diego-lo.jpg  [CC BY 3.0]
+Searching Wikimedia Commons for: Jon Jones
+  saved images/jon-jones/01-jon-jones-being-interviewed.png  [CC BY 3.0]
+  saved images/jon-jones/02-jon-jones-in-2014-cropped.jpg  [Public domain]
+  saved images/jon-jones/03-jon-jones-supporting-brain-health-study.jpg  [CC BY 2.0]
+  saved images/jon-jones/04-jon-jones-posing.png  [CC BY 3.0]
+  saved images/jon-jones/05-jon-bones-jones.jpg  [CC BY 2.0]
 Done: 5 image(s) saved.
-[0;93m2026-10-08 02:15:37.316300703 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-08 13:13:47.015633990 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/diego-lopes/cutouts/01-diego-lopes-2025.png
-  cutout images/diego-lopes/cutouts/02-diego-lopes-footballer.png
-  cutout images/diego-lopes/cutouts/03-diego-lopes-footballer-2024-08-10.png
-  cutout images/diego-lopes/cutouts/04-diego-lopes-croce-processionale-in-argento-parz-dorato-su-an.png
-  cutout images/diego-lopes/cutouts/05-stemmi-dei-cavalieri-nel-palazzo-della-carovana-191-diego-lo.png
+  cutout images/jon-jones/cutouts/01-jon-jones-being-interviewed.png
+  cutout images/jon-jones/cutouts/02-jon-jones-in-2014-cropped.png
+  cutout images/jon-jones/cutouts/03-jon-jones-supporting-brain-health-study.png
+  cutout images/jon-jones/cutouts/04-jon-jones-posing.png
+  cutout images/jon-jones/cutouts/05-jon-bones-jones.png
 Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Shakur Stevenson
+  saved images/shakur-stevenson/01-jesus-vs-stevenson-2016-rio-8cr.jpg  [CC BY 3.0 br]
+  saved images/shakur-stevenson/02-shakur-stevenson-usa-rio-2016.jpg  [CC BY 3.0 br]
+  saved images/shakur-stevenson/03-shakurstevenson.jpg  [CC0]
+Done: 3 image(s) saved.
+[0;93m2026-10-08 13:16:42.278637476 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/shakur-stevenson/cutouts/01-jesus-vs-stevenson-2016-rio-8cr.png
+  cutout images/shakur-stevenson/cutouts/02-shakur-stevenson-usa-rio-2016.png
+  cutout images/shakur-stevenson/cutouts/03-shakurstevenson.png
+Done: 3 new cutout(s).
 
-== 2026-10-07-2230-lopes-ufc-said-no.json
-$ fetch.py Diego Lopes --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/diego-lopes
-Image: {'type': 'fighter', 'name': 'Diego Lopes'} -> fighter images/diego-lopes/cutouts/01-diego-lopes-2025.png  headline: UFC Said No
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-07-2230-lopes-ufc-said-no/post.png (fighter)
-Rendered posts/2026-10-07-2230-lopes-ufc-said-no/reel.mp4
+== 2026-10-08-0920-imavov-sign-it.json
+Image: {'type': 'pair', 'left': {'name': 'Nassourdine Imavov', 'file': '01-nassourdine-imavov'}, 'right': {'name': 'Sean Strickland', 'file': 'drive-sean-strickland'}} -> fighter images/pairs/nassourdine-imavov-sean-strickland.png  headline: Sign It!
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-08-0920-imavov-sign-it/post.png (fighter)
+Rendered posts/2026-10-08-0920-imavov-sign-it/reel.mp4
 
-== 2026-10-07-2231-makhachev-kok-boru.json
-Image: {'type': 'fighter', 'name': 'Islam Makhachev', 'file': '03-islam-makhachev-current-ufc-lightweight-champion'} -> fighter images/islam-makhachev/cutouts/03-islam-makhachev-current-ufc-lightweight-champion.png  headline: Where Are You?
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-07-2231-makhachev-kok-boru/post.png (fighter)
-Rendered posts/2026-10-07-2231-makhachev-kok-boru/reel.mp4
+== 2026-10-08-0921-jones-10x-more.json
+$ fetch.py Jon Jones --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/jon-jones
+Image: {'type': 'fighter', 'name': 'Jon Jones'} -> fighter images/jon-jones/cutouts/01-jon-jones-being-interviewed.png  headline: 10X More
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-08-0921-jones-10x-more/post.png (fighter)
+Rendered posts/2026-10-08-0921-jones-10x-more/reel.mp4
+
+== 2026-10-08-0922-silva-get-in-line.json
+Image: {'type': 'fighter', 'name': 'Natalia Silva', 'file': '01-nat-lia-silva-2025'} -> fighter images/natalia-silva/cutouts/01-nat-lia-silva-2025.png  headline: Get In Line
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-08-0922-silva-get-in-line/post.png (fighter)
+Rendered posts/2026-10-08-0922-silva-get-in-line/reel.mp4
+
+== 2026-10-08-0923-shakur-haney-144.json
+$ fetch.py Shakur Stevenson --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/shakur-stevenson
+Image: {'type': 'fighter', 'name': 'Shakur Stevenson'} -> fighter images/shakur-stevenson/cutouts/01-jesus-vs-stevenson-2016-rio-8cr.png  headline: Deal At 144?
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-08-0923-shakur-haney-144/post.png (fighter)
+Rendered posts/2026-10-08-0923-shakur-haney-144/reel.mp4

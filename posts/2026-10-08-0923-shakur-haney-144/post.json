@@ -33,5 +33,13 @@
   "music_pool": "espn",
   "seconds": 5,
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/shakur-stevenson/cutouts/01-jesus-vs-stevenson-2016-rio-8cr.png",
+    "credit": "Fernando Frazão/Agência Brasil / CC BY 3.0 br"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
 }
