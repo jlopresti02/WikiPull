@@ -240,6 +240,103 @@ def silhouette(box_w, box_h):
     return fit_cut(g, box_w, box_h)
 
 
+# ---- colour-wheel backgrounds (thumbnail principle) ---------------------
+# Each fighter gets a loud, saturated background chosen against the colours
+# of their own photo: far round the colour wheel from the photo's main hue
+# (complementary), bright where the photo is dark, never close to the skin
+# tones every face shares, never the brand yellow, and clearly different
+# from the other fighter's side.
+
+VIVID = {
+    "electric cyan": "#00C8FF", "royal blue": "#2457FF", "violet": "#8B3DFF",
+    "hot magenta": "#FF2D9B", "fire red": "#FF2B2B", "blaze orange": "#FF7417",
+    "lime": "#6BFF2E", "emerald": "#00D97E", "teal": "#00C2B8",
+}
+SKIN_HUE = 25.0          # degrees: where faces sit on the wheel
+
+
+def _hue_dist(a, b):
+    d = abs(a - b) % 360
+    return min(d, 360 - d)
+
+
+def subject_colour(cut):
+    """Main hue (degrees), how colourful it is (0-1) and brightness (0-1) of
+    a cutout's visible pixels, ignoring greys that carry no hue."""
+    import numpy as np
+    small = cut.copy()
+    small.thumbnail((240, 240))
+    a = np.asarray(small.getchannel("A"), dtype=float) / 255
+    hsv = np.asarray(small.convert("RGB").convert("HSV"), dtype=float) / 255
+    vis = a > 0.8
+    if vis.sum() < 50:
+        return SKIN_HUE, 0.0, 0.4
+    h, s, v = hsv[..., 0][vis] * 360, hsv[..., 1][vis], hsv[..., 2][vis]
+    w = s * v                                   # colourful, lit pixels count most
+    if w.sum() < 1e-6:
+        return SKIN_HUE, 0.0, float(v.mean())
+    ang = np.radians(h)
+    hue = (np.degrees(np.arctan2((np.sin(ang) * w).sum(), (np.cos(ang) * w).sum())) + 360) % 360
+    return float(hue), float((s * v).mean() * 2), float(v.mean())
+
+
+def _bg_score(bg_hex, subj, accent_hue):
+    import colorsys
+    r, g, b = hex_rgb(bg_hex)
+    bh, bs, bv = colorsys.rgb_to_hsv(r / 255, g / 255, b / 255)
+    bh *= 360
+    hue, chroma, light = subj
+    comp = _hue_dist(bh, hue) / 180                       # 1 = complementary
+    skin = _hue_dist(bh, SKIN_HUE) / 180                  # keep away from faces
+    lum = 0.2126 * r / 255 + 0.7152 * g / 255 + 0.0722 * b / 255
+    contrast = abs(lum - light * 0.75)                    # bright behind a dark photo
+    score = 1.2 * comp * min(1.0, 0.4 + chroma) + 1.0 * skin + 1.4 * contrast
+    if _hue_dist(bh, accent_hue) < 30:
+        score -= 0.8                                      # brand yellow is for badges
+    return score, bh
+
+
+def pick_backgrounds(cuts, accent, seed=""):
+    import colorsys
+    ah = colorsys.rgb_to_hsv(*(c / 255 for c in accent))[0] * 360
+    subs = [subject_colour(c) if c is not None else (SKIN_HUE, 0.0, 0.3) for c in cuts]
+    scored = [{n: _bg_score(h, s, ah) for n, h in VIVID.items()} for s in subs]
+    pairs = []
+    for n1, (s1, h1) in scored[0].items():
+        for n2, (s2, h2) in scored[1].items():
+            gap = _hue_dist(h1, h2)
+            pairs.append((s1 + s2 + (0.6 if gap >= 90 else -1.5 if gap < 50 else 0), n1, n2))
+    pairs.sort(reverse=True)
+    # every face sits near the same spot on the wheel, so rotate among the
+    # pairs that score close to the best (per story) to keep the feed varied
+    top = [p for p in pairs if p[0] >= pairs[0][0] - 0.5][:8]
+    import zlib
+    _, n1, n2 = top[zlib.crc32(seed.encode()) % len(top)]
+    return [hex_rgb(VIVID[n1]), hex_rgb(VIVID[n2])], [n1, n2], subs
+
+
+def outline_cut(cut, width=9, colour=WHITE):
+    """Thumbnail-style white outline plus a soft shadow behind the cutout.
+    Edges where the photo is cropped (the subject runs off the image) get no
+    stroke, so there's never a straight white line."""
+    import numpy as np
+    a = np.asarray(cut.getchannel("A"))
+    pad_l = 0 if (a[:, :2] > 128).mean() > 0.02 else width + 14
+    pad_r = 0 if (a[:, -2:] > 128).mean() > 0.02 else width + 14
+    pad_t = width + 14
+    W2, H2 = cut.width + pad_l + pad_r, cut.height + pad_t
+    base = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
+    alpha = Image.new("L", (W2, H2), 0)
+    alpha.paste(cut.getchannel("A"), (pad_l, pad_t))
+    shadow = alpha.filter(ImageFilter.GaussianBlur(16)).point(lambda v: int(v * 0.55))
+    base.paste(Image.new("RGBA", (W2, H2), (0, 0, 0, 255)), (0, 0), shadow)
+    grown = alpha.filter(ImageFilter.GaussianBlur(width / 2)).point(lambda v: 255 if v > 18 else 0)
+    grown = grown.filter(ImageFilter.GaussianBlur(1.2))
+    base.paste(Image.new("RGBA", (W2, H2), colour + (255,)), (0, 0), grown)
+    base.alpha_composite(cut, (pad_l, pad_t))
+    return base
+
+
 class V2:
     def __init__(self, spec, left_cut, right_cut):
         v = spec["v2"]
@@ -268,6 +365,13 @@ class V2:
         for c in (left_cut, right_cut):
             self.cuts.append(fit_cut(c, self.col_w, PHOTO_H) if c is not None
                              else silhouette(self.col_w, PHOTO_H))
+        if "corners" not in v:
+            self.corners, self.corner_names, self.subject_colours = pick_backgrounds(
+                [left_cut, right_cut], self.accent, spec.get("story_id") or self.hook)
+            print(f"v2 backgrounds: {self.corner_names[0]} | {self.corner_names[1]}")
+        if v.get("outline", True):
+            self.cuts = [outline_cut(c) if c is not None and src is not None else c
+                         for c, src in zip(self.cuts, (left_cut, right_cut))]
         self._build_panels()
         self._layout_hook()
         self.text_hook = self._hook_layer()
@@ -287,18 +391,23 @@ class V2:
             m = Image.new("L", (W, PHOTO_H), 0)
             ImageDraw.Draw(m).polygon(poly, fill=255)
             self.masks.append(m)
-            bg = Image.new("RGBA", (W, PHOTO_H), (COL_A if i == 0 else COL_B) + (255,))
-            glow = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
+            # loud, saturated fill: the colour itself across the panel, a
+            # bright hot-spot behind the fighter, darker toward the edges
+            c = self.corners[i]
+            dark = tuple(int(v * 0.42) for v in c)
+            hot = tuple(int(v + (255 - v) * 0.35) for v in c)
+            bg = Image.new("RGBA", (W, PHOTO_H), dark + (255,))
             cx = W // 4 if i == 0 else 3 * W // 4
-            gd = ImageDraw.Draw(glow)
-            gd.ellipse([cx - 420, 120, cx + 420, PHOTO_H + 260], fill=self.corners[i] + (190,))
-            glow = glow.filter(ImageFilter.GaussianBlur(110))
-            bg.alpha_composite(glow)
-            # dark floor so the fighters sit on something
+            for col, box, blur in ((c, [cx - 520, -120, cx + 520, PHOTO_H + 200], 120),
+                                   (hot, [cx - 260, 120, cx + 260, 760], 110)):
+                glow = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
+                ImageDraw.Draw(glow).ellipse(box, fill=col + (255,))
+                bg.alpha_composite(glow.filter(ImageFilter.GaussianBlur(blur)))
+            # light floor shade so the fighters sit on something
             floor = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
             fd = ImageDraw.Draw(floor)
-            for k in range(220):
-                fd.line([(0, PHOTO_H - k), (W, PHOTO_H - k)], fill=BG + (int(150 * (1 - k / 220)),))
+            for k in range(160):
+                fd.line([(0, PHOTO_H - k), (W, PHOTO_H - k)], fill=BG + (int(90 * (1 - k / 160)),))
             bg.alpha_composite(floor)
             self.panel_bgs.append(bg)
         seam = Image.new("RGBA", (W, PHOTO_H), (0, 0, 0, 0))
