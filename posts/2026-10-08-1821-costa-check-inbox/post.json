@@ -30,5 +30,13 @@
   "seconds": 5,
   "question": "Rematch or team up?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/paulo-costa/cutouts/drive-paulo-costa.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

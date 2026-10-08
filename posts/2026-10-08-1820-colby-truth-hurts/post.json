@@ -30,5 +30,13 @@
   "seconds": 5,
   "question": "Colby or Jones?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/colby-covington/cutouts/01-colby-covington-2023.png",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America / CC BY-SA 2.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

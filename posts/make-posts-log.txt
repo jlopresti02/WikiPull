@@ -1,6 +1,12 @@
 
-== 2026-10-08-1320-paul-out-of-contract.json
-Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Out Of Contract?
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-08-1320-paul-out-of-contract/post.png (fighter)
-Rendered posts/2026-10-08-1320-paul-out-of-contract/reel.mp4
+== 2026-10-08-1820-colby-truth-hurts.json
+Image: {'type': 'fighter', 'name': 'Colby Covington', 'file': '01-colby-covington-2023'} -> fighter images/colby-covington/cutouts/01-colby-covington-2023.png  headline: Truth Hurts
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-08-1820-colby-truth-hurts/post.png (fighter)
+Rendered posts/2026-10-08-1820-colby-truth-hurts/reel.mp4
+
+== 2026-10-08-1821-costa-check-inbox.json
+Image: {'type': 'fighter', 'name': 'Paulo Costa', 'file': 'drive-paulo-costa'} -> fighter images/paulo-costa/cutouts/drive-paulo-costa.png  headline: Check Inbox
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-08-1821-costa-check-inbox/post.png (fighter)
+Rendered posts/2026-10-08-1821-costa-check-inbox/reel.mp4
