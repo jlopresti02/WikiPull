@@ -62,7 +62,7 @@ CHIP_BG, CHIP_BORDER = (28, 30, 34), (58, 61, 68)
 DEFAULT_ACCENT = "#FFC21A"
 DEFAULT_CORNERS = ("#D7262E", "#1F6FE0")   # red corner (left), blue corner (right)
 SEAM = 70          # diagonal split: seam leans this far either side of centre
-T_LAND = 0.24      # fighters land, VS pops, impact shake
+T_LAND = 0.40      # fighters land, VS pops, impact (sound hit; music starts here)
 
 # Everything is laid out at 2x the 540x960 mockup.
 PAD_L, PAD_R = 56, 128          # right gutter keeps clear of Instagram's buttons
@@ -548,24 +548,89 @@ class V2:
         return img.convert("RGB")
 
 
+def make_sfx(path, seconds, sr=44100, seed=7):
+    """Synthesise the opening sound: a whoosh that builds while the fighters
+    slide in, then a heavy cinematic impact at T_LAND (sub drop + crack +
+    body). Made in code, so there's nothing to license or credit."""
+    import wave
+    import numpy as np
+    rng = np.random.default_rng(seed)
+    n = int(seconds * sr)
+    out = np.zeros((n, 2))
+    land = int(T_LAND * sr)
+
+    def lowpass(x, cutoffs):
+        y, acc = np.empty_like(x), 0.0
+        a = 1 - np.exp(-2 * np.pi * cutoffs / sr)
+        for i in range(len(x)):
+            acc += a[i] * (x[i] - acc)
+            y[i] = acc
+        return y
+
+    # whoosh: band of noise sweeping up in pitch and volume into the hit
+    wn = land + int(0.06 * sr)
+    t = np.arange(wn) / sr
+    u = np.clip(t / T_LAND, 0, 1)
+    cut_hi = 400 + 5200 * u ** 1.6
+    cut_lo = 120 + 1400 * u ** 1.6
+    env = (0.15 + 0.85 * u ** 2.2) * np.where(t > T_LAND, np.exp(-(t - T_LAND) / 0.02), 1)
+    for ch in range(2):
+        noise = rng.standard_normal(wn)
+        band = lowpass(noise, cut_hi) - lowpass(noise, cut_lo)
+        out[:wn, ch] += 2.6 * band * env
+    sweep_f = 180 + 700 * u ** 1.5
+    out[:wn] += (0.2 * np.sin(2 * np.pi * np.cumsum(sweep_f) / sr) * env)[:, None]
+
+    # impact
+    m = min(n - land, int(1.6 * sr))
+    t = np.arange(m) / sr
+    f = 38 + 110 * np.exp(-t / 0.045)                       # pitch-dropping sub thump
+    sub = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-t / 0.42)
+    crack_n = rng.standard_normal(m)
+    crack = (crack_n - lowpass(crack_n, np.full(m, 1800.0))) * np.exp(-t / 0.012)
+    body_n = rng.standard_normal(m)
+    body = lowpass(body_n, 300 + 2500 * np.exp(-t / 0.05)) * np.exp(-t / 0.16)
+    hit = 1.25 * sub + 0.9 * crack + 1.4 * body
+    hit = np.tanh(1.6 * hit)                                 # drive it for weight
+    out[land:land + m] += hit[:, None]
+
+    out *= 0.89 / max(1e-9, np.abs(out[land:land + m]).max())  # the hit peaks ~ -1 dBFS
+    out = np.clip(out, -0.95, 0.95)
+    pcm = (out * 32767).astype("<i2")
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(2)
+        w.setsampwidth(2)
+        w.setframerate(sr)
+        w.writeframes(pcm.tobytes())
+
+
 def make_reel_v2(spec, out, left_cut, right_cut):
     if not shutil.which("ffmpeg"):
         sys.exit("ffmpeg is needed to make a Reel")
     seconds = float(spec.get("seconds_v2", SECONDS))
     frames = int(seconds * FPS)
     v = V2(spec, left_cut, right_cut)
+    sfx = out / "_sfx.wav"
+    make_sfx(sfx, seconds)
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
-           "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
+           "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+           "-i", str(sfx)]
     music = spec.get("music")
     if music:
+        # music comes in right on the impact, at full level
         track = ROOT / music
         if not track.exists():
             sys.exit(f"music file not found: {music}")
-        cmd += ["-ss", str(float(spec.get("music_start", 0))), "-t", str(seconds), "-i", str(track),
-                "-af", f"afade=t=in:d=0.3,afade=t=out:st={max(0.0, seconds - 1.0)}:d=1.0"]
+        delay = int(T_LAND * 1000)
+        cmd += ["-ss", str(float(spec.get("music_start", 0))), "-t", str(seconds - T_LAND), "-i", str(track),
+                "-filter_complex",
+                f"[2:a]volume=0.85,afade=t=in:d=0.12,afade=t=out:st={max(0.0, seconds - T_LAND - 1.0)}:d=1.0,"
+                f"adelay={delay}|{delay},apad[m];"
+                f"[1:a]volume=1.0[s];[s][m]amix=inputs=2:duration=first:normalize=0,"
+                f"alimiter=limit=0.95[a]"]
     else:
-        cmd += ["-f", "lavfi", "-t", str(seconds), "-i", "anullsrc=r=44100:cl=stereo"]
-    cmd += ["-map", "0:v", "-map", "1:a", "-shortest",
+        cmd += ["-filter_complex", "[1:a]anull[a]"]
+    cmd += ["-map", "0:v", "-map", "[a]", "-shortest",
             "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
             "-profile:v", "high", "-movflags", "+faststart",
             "-c:a", "aac", "-b:a", "192k", "-ar", "44100", str(out / "reel.mp4")]
@@ -575,5 +640,6 @@ def make_reel_v2(spec, out, left_cut, right_cut):
     proc.stdin.close()
     if proc.wait() != 0:
         sys.exit("ffmpeg failed to write the v2 Reel")
+    sfx.unlink(missing_ok=True)
     v.frame(1.6).save(out / "cover.png", optimize=True)
     return v
