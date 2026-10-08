@@ -585,16 +585,19 @@ def make_sfx(path, seconds, sr=44100, seed=7):
     m = min(n - land, int(1.6 * sr))
     t = np.arange(m) / sr
     f = 38 + 110 * np.exp(-t / 0.045)                       # pitch-dropping sub thump
-    sub = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-t / 0.42)
+    sub = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-t / 0.6)
+    sub += 0.6 * np.sin(2 * np.pi * np.cumsum(f * 0.5) / sr) * np.exp(-t / 0.8)   # octave below
     crack_n = rng.standard_normal(m)
     crack = (crack_n - lowpass(crack_n, np.full(m, 1800.0))) * np.exp(-t / 0.012)
     body_n = rng.standard_normal(m)
     body = lowpass(body_n, 300 + 2500 * np.exp(-t / 0.05)) * np.exp(-t / 0.16)
-    hit = 1.25 * sub + 0.9 * crack + 1.4 * body
-    hit = np.tanh(1.6 * hit)                                 # drive it for weight
+    hit = 2.0 * sub + 1.0 * crack + 1.6 * body
+    hit = np.tanh(2.6 * hit)                                 # drive it hard: louder, heavier
     out[land:land + m] += hit[:, None]
 
     out *= 0.89 / max(1e-9, np.abs(out[land:land + m]).max())  # the hit peaks ~ -1 dBFS
+    # push the boom up: soft-clip the hit and its tail so it plays much louder
+    out[land:] = 0.95 * np.tanh(2.2 * out[land:]) / np.tanh(2.2)
     out = np.clip(out, -0.95, 0.95)
     pcm = (out * 32767).astype("<i2")
     with wave.open(str(path), "wb") as w:
@@ -624,7 +627,7 @@ def make_reel_v2(spec, out, left_cut, right_cut):
         delay = int(T_LAND * 1000)
         cmd += ["-ss", str(float(spec.get("music_start", 0))), "-t", str(seconds - T_LAND), "-i", str(track),
                 "-filter_complex",
-                f"[2:a]volume=0.85,afade=t=in:d=0.12,afade=t=out:st={max(0.0, seconds - T_LAND - 1.0)}:d=1.0,"
+                f"[2:a]volume='0.85*min(1,0.3+0.7*t/0.7)':eval=frame,afade=t=in:d=0.08,afade=t=out:st={max(0.0, seconds - T_LAND - 1.0)}:d=1.0,"
                 f"adelay={delay}|{delay},apad[m];"
                 f"[1:a]volume=1.0[s];[s][m]amix=inputs=2:duration=first:normalize=0,"
                 f"alimiter=limit=0.95[a]"]
