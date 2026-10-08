@@ -26,7 +26,17 @@
     "options": [
       "LEBEN",
       "AKIYAMA"
-    ]
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/chris-leben/cutouts/01-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29-cro.png",
+      "credit": "MMAnytt / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/yoshihiro-akiyama/cutouts/01-search.png",
+      "credit": "Pabian / CC BY-SA 4.0"
+    }
   },
   "visual": [
     {
@@ -58,5 +68,13 @@
   "music_pool": "espn",
   "question": "Leben or Akiyama?",
   "follow_card": true,
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/chris-leben/cutouts/01-chris-leben-talks-bare-knuckle-boxing-fight-youtube-2-29-cro.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
