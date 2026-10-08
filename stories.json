@@ -2,6 +2,69 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "strickland-ponders-vacating-title-pay",
+      "title": "Sean Strickland ponders vacating UFC middleweight title / not re-signing over pay",
+      "people": [
+        "Sean Strickland",
+        "Jake Paul",
+        "Conor McGregor"
+      ],
+      "event": "",
+      "first_reported": "2026-10-07",
+      "facts": [
+        "Posted on X he may vacate, move to 205 to get out of contract early and box Jake Paul",
+        "'McGregor makes 30 million to fight for 30 second and they dont want to pay us a fraction of it'; 'kinda over it'",
+        "Nothing decided; depends on UFC changing his pay. Expected to face Imavov next (Jan 2027 at earliest)",
+        "Related: chimaev-offers-strickland-1m-rematch",
+        "UPDATE 2026-10-08: Jake Paul responded to Strickland's threat to vacate and box him, asking 'Are you out of contract?' (Sportskeeda, Bloody Elbow, Yahoo/Athlon)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/sean-strickland-ponders-vacating-ufc-220703822.html",
+        "https://bloodyelbow.com/2026/10/07/sean-strickland-debating-not-re-signing-with-ufc-over-pay-dispute-im-kinda-over-it/",
+        "https://bloodyelbow.com/2026/10/08/jake-paul-sends-message-to-sean-strickland-amid-ufc-pay-dispute-and-plan-to-vacate-his-title/",
+        "https://www.sportskeeda.com/mma/news-are-contract-jake-paul-responds-sean-strickland-s-threats-leaving-ufc-fighting-the-problem-child",
+        "https://sports.yahoo.com/articles/jake-paul-responds-sean-strickland-005602347.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-1831-strickland-vacate",
+          "kind": "new",
+          "format": "reel",
+          "image": "Strickland (drive, with belt)",
+          "scheduled_for": "2026-10-07T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4415320362528687834"
+        },
+        {
+          "post": "2026-10-08-1320-paul-out-of-contract",
+          "kind": "update",
+          "format": "trial_reel"
+        }
+      ]
+    },
+    {
+      "id": "tsarukyan-vs-neiman-gracie-raf-abu-dhabi",
+      "sport": "wrestling",
+      "title": "Arman Tsarukyan vs. Neiman Gracie added to RAF Abu Dhabi (Nov 14), Covington vs Chimaev card",
+      "people": [
+        "Arman Tsarukyan",
+        "Neiman Gracie"
+      ],
+      "event": "RAF Abu Dhabi (Nov 14, 2026)",
+      "first_reported": "2026-10-08",
+      "held_for_evening": true,
+      "facts": [
+        "Tsarukyan (UFC top lightweight contender) booked vs Neiman Gracie in a wrestling match at RAF's first Abu Dhabi event, Nov 14; Chimaev vs Covington headlines; Bella Mir also added (Yahoo)",
+        "Adjacent sports (RAF) -> Trial Reel; evening candidate"
+      ],
+      "sources": [
+        "https://www.thenationalnews.com/sport/combat-sports/2026/10/08/ufc-star-arman-tsarukyan-added-to-raf-abu-dhabi-card/",
+        "https://gulfnews.com/sport/arman-tsarukyans-opponent-for-first-ever-raf-abu-dhabi-event-announced-1.500703220",
+        "https://bloodyelbow.com/2026/10/08/arman-tsarukyan-books-match-against-gracie-family-member-on-covington-vs-chimaev-raf-card/",
+        "https://sports.yahoo.com/articles/arman-tsarukyan-bella-mir-latest-100642962.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "jones-rips-covington-negative-energy",
       "title": "Jon Jones rips Colby Covington over 'negative energy' claim about Gable Steveson's KO loss",
       "people": [
@@ -193,37 +256,6 @@
           "scheduled_for": "2026-10-07T19:00:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1505841484153966326",
           "image": "silhouettes (no DWCS fighter photos)"
-        }
-      ]
-    },
-    {
-      "id": "strickland-ponders-vacating-title-pay",
-      "title": "Sean Strickland ponders vacating UFC middleweight title / not re-signing over pay",
-      "people": [
-        "Sean Strickland",
-        "Jake Paul",
-        "Conor McGregor"
-      ],
-      "event": "",
-      "first_reported": "2026-10-07",
-      "facts": [
-        "Posted on X he may vacate, move to 205 to get out of contract early and box Jake Paul",
-        "'McGregor makes 30 million to fight for 30 second and they dont want to pay us a fraction of it'; 'kinda over it'",
-        "Nothing decided; depends on UFC changing his pay. Expected to face Imavov next (Jan 2027 at earliest)",
-        "Related: chimaev-offers-strickland-1m-rematch"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/sean-strickland-ponders-vacating-ufc-220703822.html",
-        "https://bloodyelbow.com/2026/10/07/sean-strickland-debating-not-re-signing-with-ufc-over-pay-dispute-im-kinda-over-it/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-07-1831-strickland-vacate",
-          "kind": "new",
-          "format": "reel",
-          "image": "Strickland (drive, with belt)",
-          "scheduled_for": "2026-10-07T19:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4415320362528687834"
         }
       ]
     },
