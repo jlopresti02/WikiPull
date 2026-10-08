@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "costa-offers-strickland-solution",
+      "title": "Paulo Costa tells Sean Strickland he has 'a solution' for their UFC pay disputes, sends him a DM",
+      "people": [
+        "Paulo Costa",
+        "Sean Strickland"
+      ],
+      "event": "none (both in UFC pay standoffs)",
+      "first_reported": "2026-10-08",
+      "facts": [
+        "Costa on X Oct 8: 'Strickland, I have a solution for us. I sent u a message. Inbox.' No details given",
+        "Strickland reportedly wanted $1M for the Imavov title defense vs a reported $400K show/$400K win offer; has floated vacating, moving to 205 and boxing Jake Paul",
+        "Costa has one fight left on his UFC contract, refuses five-rounders at three-round pay; Strickland beat Costa by split decision at UFC 302",
+        "Related: strickland-ponders-vacating-title-pay, costa-calls-ufc-dana-incompetent"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/paulo-costa-reaches-out-to-sean-strickland-with-a-solution-to-his-ufc-dispute/",
+        "https://bloodyelbow.com/2026/10/08/paulo-costa-reaches-out-to-sean-strickland-amid-their-public-ufc-pay-complaints-i-have-a-solution/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-08-1821-costa-check-inbox",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "strickland-ponders-vacating-title-pay",
       "title": "Sean Strickland ponders vacating UFC middleweight title / not re-signing over pay",
       "people": [
@@ -74,16 +101,21 @@
         "Jon Jones",
         "Colby Covington",
         "Gable Steveson",
-        "Sean Sharaf"
+        "Sean Sharaf",
+        "Daniel Cormier"
       ],
       "event": "",
       "first_reported": "2026-10-07",
       "facts": [
         "Covington blamed Steveson's 12-second KO loss to Sean Sharaf at UFC 331 (Sept 19) on Jones' 'bad energy'",
-        "Jones on X Oct 7: funny that you blame Gable's loss on my 'negative energy'; says Colby needs security in his own country, is obsessed with him, and he has achieved 'literally ten times more' since they were college roommates"
+        "Jones on X Oct 7: funny that you blame Gable's loss on my 'negative energy'; says Colby needs security in his own country, is obsessed with him, and he has achieved 'literally ten times more' since they were college roommates",
+        "UPDATE 2026-10-08: Covington answered on X (Wed night): 'The things I say only bother you because they're true', called Jones a 'narcissistic abusive sociopath', said his octagon achievements don't make him a better person, and told Steveson to leave Jones and train with Daniel Cormier. Covington faces Chimaev at RAF Abu Dhabi Nov 14 (MMA News, Bloody Elbow)"
       ],
       "sources": [
-        "https://www.sherdog.com/news/news/Jon-Jones-rips-Colby-Covington-over-negative-energy-claim-203115"
+        "https://www.sherdog.com/news/news/Jon-Jones-rips-Colby-Covington-over-negative-energy-claim-203115",
+        "https://www.mmanews.com/article/colby-covington-jon-jones-daniel-cormier-gable-steveson",
+        "https://bloodyelbow.com/2026/10/08/colby-covington-rips-narcissistic-sociopath-jon-jones-drags-daniel-cormier-into-their-feud/",
+        "https://www.sportskeeda.com/mma/news-you-re-narcissistic-abusive-sociopath-colby-covington-returns-fire-jon-jones-calls-comments-gable-steveson"
       ],
       "posts": [
         {
@@ -93,6 +125,11 @@
           "scheduled_for": "2026-10-08T10:00:00-04:00",
           "image": "fighter photo (Jon Jones, Wikimedia)",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3138840592271849988"
+        },
+        {
+          "post": "2026-10-08-1820-colby-truth-hurts",
+          "kind": "update",
+          "format": "reel"
         }
       ]
     },
@@ -196,11 +233,11 @@
       ],
       "event": "UFC 333 (Oct 24, Etihad Arena, Abu Dhabi)",
       "first_reported": "2026-10-07",
-      "held_for_evening": true,
       "facts": [
         "Yan to Full Violence: 145 interests him 'maybe somewhere in the future' but 'my friend Alex Volkanovski, so I don't want to beat him up'",
         "Joshua Van moving up is Van's call",
-        "Yan defends bantamweight title vs Dvalishvili (trilogy) at UFC 333; Volkanovski vs Evloev same card"
+        "Yan defends bantamweight title vs Dvalishvili (trilogy) at UFC 333; Volkanovski vs Evloev same card",
+        "Dropped 2026-10-08 6 PM run: stale (Oct 7 interview, no conflict hook), evening slots went to fresher stories"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Petr-Yan-eyes-featherweight-move-but-draws-line-at-Alexander-Volkanovski-fight-203116"

@@ -1,0 +1,34 @@
+{
+  "story_id": "jones-rips-covington-negative-energy",
+  "headline": "Truth Hurts",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Colby Covington",
+      "file": "01-colby-covington-2023"
+    },
+    {
+      "type": "fighter",
+      "name": "Jon Jones"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "UPDATE: Colby Covington just fired back at Jon Jones, calling him a \"narcissistic sociopath.\"\nColby or Jones? 👇\n\nOn X, Covington said Jones' UFC wins don't make him a better person and told Gable Steveson to leave Jones and train with Daniel Cormier instead. Colby faces Khamzat Chimaev at RAF Abu Dhabi on Nov. 14. MMA news.\n\nWho's winning this feud?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "ColbyCovington",
+    "JonJones",
+    "DanielCormier"
+  ],
+  "sources": [
+    "MMA News",
+    "Bloody Elbow",
+    "Sportskeeda"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Colby or Jones?",
+  "follow_card": true,
+  "reel": true
+}

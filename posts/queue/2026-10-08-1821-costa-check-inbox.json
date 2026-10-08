@@ -1,0 +1,34 @@
+{
+  "story_id": "costa-offers-strickland-solution",
+  "headline": "Check Inbox",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Paulo Costa",
+      "file": "drive-paulo-costa"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Paulo Costa just slid into Sean Strickland's DMs with a \"solution\" to their UFC pay fights.\nRematch or team up? 👇\n\nCosta posted on X that he messaged the UFC middleweight champ privately but kept the plan secret. Both are in pay standoffs with the UFC, and Strickland beat Costa by split decision at UFC 302. MMA news.\n\nWhat do you think the plan is?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "PauloCosta",
+    "SeanStrickland",
+    "UFCNews"
+  ],
+  "sources": [
+    "MMA Sucka",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Rematch or team up?",
+  "follow_card": true,
+  "reel": true
+}
