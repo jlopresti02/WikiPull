@@ -1,0 +1,36 @@
+{
+  "story_id": "silva-tells-shevchenko-get-in-line",
+  "headline": "Get In Line",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Natalia Silva",
+      "file": "01-nat-lia-silva-2025"
+    },
+    {
+      "type": "fighter",
+      "name": "Natália Silva"
+    },
+    {
+      "type": "fighter",
+      "name": "Valentina Shevchenko"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "UFC champ Natalia Silva just told Valentina Shevchenko to get in line.\nSilva or Shevchenko? 👇\n\nThe new women's flyweight champion says the belt is hers now, not Shevchenko's, after she won it at UFC 332. Silva also said her eye poke on Wang Cong wasn't illegal and is aiming for a first title defense in 2027. UFC news.\n\nWho holds the belt next year?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC332",
+    "NataliaSilva",
+    "ValentinaShevchenko"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "question": "Silva or Shevchenko?",
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true,
+  "reel": true
+}

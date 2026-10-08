@@ -1,0 +1,37 @@
+{
+  "story_id": "stevenson-haney-agree-144-catchweight",
+  "headline": "Deal At 144?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Shakur Stevenson"
+    },
+    {
+      "type": "fighter",
+      "name": "Devin Haney"
+    },
+    {
+      "type": "mystery",
+      "headline": "Haney At 144?"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Shakur Stevenson and Devin Haney just agreed online to fight at 144 pounds.\nReal fight or just talk? 👇\n\nAfter days of trading shots on social media, both boxers said yes to a 144-pound catchweight. Nothing is signed and no date is set yet. Boxing news.\n\nWho wins, Shakur or Haney?",
+  "hashtags": [
+    "Boxing",
+    "BoxingNews",
+    "ShakurStevenson",
+    "DevinHaney",
+    "HaneyStevenson"
+  ],
+  "sources": [
+    "BoxingScene",
+    "The Ring"
+  ],
+  "question": "Shakur or Haney?",
+  "trial_reel": true,
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true,
+  "reel": true
+}

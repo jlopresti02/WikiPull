@@ -1,0 +1,44 @@
+{
+  "story_id": "strickland-money-ufc-335-snub",
+  "headline": "Sign It!",
+  "visual": [
+    {
+      "type": "pair",
+      "left": {
+        "name": "Nassourdine Imavov",
+        "file": "01-nassourdine-imavov"
+      },
+      "right": {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    },
+    {
+      "type": "fighter",
+      "name": "Nassourdine Imavov",
+      "file": "01-nassourdine-imavov"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Nassourdine Imavov just confronted Sean Strickland face to face in Las Vegas.\nSign it or vacate? 👇\n\nImavov caught the UFC middleweight champion outside the UFC Performance Institute and demanded to know why their title fight contract is still unsigned until security stepped in. Strickland walked away as Imavov followed. UFC news.\n\nWill this fight ever happen?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "SeanStrickland",
+    "NassourdineImavov",
+    "UFCMiddleweight"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "question": "Sign it or vacate?",
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true,
+  "reel": true
+}

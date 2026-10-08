@@ -1,0 +1,32 @@
+{
+  "story_id": "jones-rips-covington-negative-energy",
+  "headline": "10X More",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Jon Jones"
+    },
+    {
+      "type": "fighter",
+      "name": "Colby Covington",
+      "file": "01-colby-covington-2023"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Jon Jones just fired back at Colby Covington over his 'negative energy' jab.\nJones or Colby? 👇\n\nCovington blamed Gable Steveson's 12-second KO loss to Sean Sharaf at UFC 331 on Jones' bad energy. Jones answered on X that Colby is obsessed with him and that he has done ten times more since they were college roommates. MMA news.\n\nWho wins this war of words?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "JonJones",
+    "ColbyCovington",
+    "GableSteveson"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "question": "Jones or Colby?",
+  "music_pool": "espn",
+  "seconds": 5,
+  "follow_card": true,
+  "reel": true
+}
