@@ -24,7 +24,10 @@
         {
           "post": "2026-10-08-1821-costa-check-inbox",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-08T20:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8378533174350362910",
+          "image": "fighter photo (Paulo Costa, Drive)"
         }
       ]
     },
@@ -129,7 +132,10 @@
         {
           "post": "2026-10-08-1820-colby-truth-hurts",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-08T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4712404529042114375",
+          "image": "fighter photo (Colby Covington, Wikimedia)"
         }
       ]
     },
