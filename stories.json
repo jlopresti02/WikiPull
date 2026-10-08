@@ -23,7 +23,10 @@
         {
           "post": "2026-10-08-0921-jones-10x-more",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-08T10:00:00-04:00",
+          "image": "fighter photo (Jon Jones, Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3138840592271849988"
         }
       ]
     },
@@ -49,7 +52,10 @@
         {
           "post": "2026-10-08-0922-silva-get-in-line",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-08T10:30:00-04:00",
+          "image": "fighter photo (Natalia Silva, Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3569335352181176529"
         }
       ]
     },
@@ -75,7 +81,10 @@
         {
           "post": "2026-10-08-0923-shakur-haney-144",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-08T11:00:00-04:00",
+          "image": "fighter photo (Shakur Stevenson, Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4077443462421592380"
         }
       ]
     },
@@ -1220,7 +1229,10 @@
         {
           "post": "2026-10-08-0920-imavov-sign-it",
           "kind": "update",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-08T09:30:00-04:00",
+          "image": "pair photo (Imavov + Strickland, Drive)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8454412246016281539"
         }
       ]
     },
