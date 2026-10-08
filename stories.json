@@ -382,7 +382,10 @@
     {
      "post": "2026-10-07-2231-makhachev-kok-boru",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "scheduled_for": "2026-10-08T07:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-9164093268953249222",
+     "image": "fighter photo (Islam Makhachev)"
     }
    ]
   },
@@ -408,7 +411,10 @@
     {
      "post": "2026-10-07-2230-lopes-ufc-said-no",
      "kind": "new",
-     "format": "reel"
+     "format": "reel",
+     "scheduled_for": "2026-10-07T22:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6435280002605468791",
+     "image": "fighter photo (Diego Lopes, Wikimedia)"
     }
    ]
   },
