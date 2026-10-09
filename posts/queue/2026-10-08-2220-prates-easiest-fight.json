@@ -1,0 +1,18 @@
+{
+  "story_id": "covington-prates-easiest-fight-makhachev",
+  "headline": "Easiest Fight?",
+  "visual": [
+    {"type": "fighter", "name": "Carlos Prates"},
+    {"type": "fighter", "name": "Colby Covington", "file": "01-colby-covington-2023"},
+    {"type": "fighter", "name": "Islam Makhachev"}
+  ],
+  "color": "#d2202f",
+  "caption": "Colby Covington says Carlos Prates would be the easiest fight of Islam Makhachev's career.\nColby right or wrong? 👇\n\nTalking to Ariel Helwani, Covington called Prates \"just a straight striker\" and predicted Makhachev takes him down and submits him. Prates is reportedly in line for a UFC welterweight title shot early next year. UFC news.\n\nCan Prates prove him wrong?",
+  "hashtags": ["MMANews", "UFC", "CarlosPrates", "IslamMakhachev", "ColbyCovington"],
+  "sources": ["Sherdog", "Ariel Helwani"],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Colby right or wrong?",
+  "follow_card": true,
+  "reel": true
+}

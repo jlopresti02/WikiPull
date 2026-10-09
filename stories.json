@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "covington-prates-easiest-fight-makhachev",
+      "title": "Colby Covington: Carlos Prates would be the easiest fight of Islam Makhachev's career",
+      "people": [
+        "Colby Covington",
+        "Carlos Prates",
+        "Islam Makhachev",
+        "Michael Morales"
+      ],
+      "event": null,
+      "first_reported": "2026-10-08",
+      "facts": [
+        "Covington to Ariel Helwani (X post Oct 7): Prates 'has nothing for him', 'just a straight striker', 'easiest fight of Makhachev's career'; predicts takedown and kimura or head-and-arm choke",
+        "On Morales: unproven, takedown defense untested in five-round fights",
+        "Prates (24-7) linked to a Makhachev (29-1) UFC welterweight title fight early 2027 before Ramadan; not booked"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Colby-Covington-says-Carlos-Prates-would-be-Islam-Makhachevs-easiest-fight-203117"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-08-2220-prates-easiest-fight",
+          "kind": "new",
+          "format": "reel"
+        }
+      ]
+    },
+    {
       "id": "costa-offers-strickland-solution",
       "title": "Paulo Costa tells Sean Strickland he has 'a solution' for their UFC pay disputes, sends him a DM",
       "people": [
@@ -84,7 +111,6 @@
       ],
       "event": "RAF Abu Dhabi (Nov 14, 2026)",
       "first_reported": "2026-10-08",
-      "held_for_evening": true,
       "facts": [
         "Tsarukyan (UFC top lightweight contender) booked vs Neiman Gracie in a wrestling match at RAF's first Abu Dhabi event, Nov 14; Chimaev vs Covington headlines; Bella Mir also added (Yahoo)",
         "Adjacent sports (RAF) -> Trial Reel; evening candidate"
@@ -95,7 +121,13 @@
         "https://bloodyelbow.com/2026/10/08/arman-tsarukyan-books-match-against-gracie-family-member-on-covington-vs-chimaev-raf-card/",
         "https://sports.yahoo.com/articles/arman-tsarukyan-bella-mir-latest-100642962.html"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-08-2221-tsarukyan-raf-gracie",
+          "kind": "new",
+          "format": "trial_reel"
+        }
+      ]
     },
     {
       "id": "jones-rips-covington-negative-energy",
@@ -259,7 +291,6 @@
       ],
       "event": "UFC 335 (Dec 12, Las Vegas) wished",
       "first_reported": "2026-10-08",
-      "held_for_evening": true,
       "facts": [
         "Walker to talkSPORT: 'I've asked for Marcin Tybura for my next fight. If he's ready for December, I would like to fight him.'",
         "Tybura, 40, has lost three straight; Walker KO'd Mick Parkin with a knee at UFC 332",
@@ -268,7 +299,8 @@
       "sources": [
         "https://www.sherdog.com/news/news/Johnny-Walker-calls-out-UFC-veteran-following-explosive-heavyweight-debut-203125"
       ],
-      "posts": []
+      "posts": [],
+      "dropped": "stale by Oct 9 (10 PM run Oct 8: day cap had 1 slot left)"
     },
     {
       "id": "dwcs-s10-week-9",
