@@ -36,13 +36,31 @@ first use (Google Fonts, OFL). If Barlow can't be had, a condensed system
 font or Anton stands in.
 """
 
+import colorsys
+import math
+import random
 import shutil
 import subprocess
 import sys
 import urllib.request
+import wave
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
+
+# ---- "punch" effects (Oct 9, user request) --------------------------------
+# On by default; a post can turn them off with "v2": {"fx": false}.
+#  * Color-wheel backgrounds: each photo column gets a bright, MrBeast-style
+#    radial background in the hue opposite the photo's own colors, so the
+#    fighter pops; the two columns never share a hue or clash with the accent.
+#    Cutouts get a white outline.
+#  * Movement: photos slide in from the sides, then a hit at T_IMPACT: screen
+#    shake, white flash, the VS badge pops and the headline slams. Smaller
+#    hits when the story card lands and when the question appears.
+#  * Sound: a whoosh into a loud boom at the impact; the music starts right
+#    after the boom. Smaller whoosh + hit at each later beat.
+T_IMPACT = 0.35
+MUSIC_DELAY = 0.42
 
 ROOT = Path(__file__).resolve().parent
 FONTS = ROOT / "fonts"
@@ -237,9 +255,99 @@ def silhouette(box_w, box_h):
     return fit_cut(g, box_w, box_h)
 
 
+def dominant_hue(cut):
+    """Average hue of a cutout's colorful pixels (0..1), or None if grey."""
+    small = cut.copy()
+    small.thumbnail((90, 90))
+    alpha = small.getchannel("A")
+    hsv = small.convert("RGB").convert("HSV")
+    sx = sy = wt = 0.0
+    for (h, s, v), a in zip(hsv.getdata(), alpha.getdata()):
+        if a < 128 or v < 40:
+            continue
+        w = (s / 255) * (v / 255)
+        ang = h / 255 * 2 * math.pi
+        sx += math.cos(ang) * w
+        sy += math.sin(ang) * w
+        wt += w
+    if wt < 1e-3 or math.hypot(sx, sy) / wt < 0.08:
+        return None
+    return (math.atan2(sy, sx) / (2 * math.pi)) % 1.0
+
+
+def hue_dist(a, b):
+    d = abs(a - b) % 1.0
+    return min(d, 1 - d)
+
+
+def pick_bg_hues(cuts, accent):
+    """Complementary hue per column; columns at least 0.2 apart on the wheel
+    and away from the accent's hue."""
+    acc_h = colorsys.rgb_to_hsv(*[c / 255 for c in accent])[0]
+    defaults = [0.58, 0.92]          # electric blue, hot pink
+    hues = []
+    for i, c in enumerate(cuts):
+        h = dominant_hue(c) if c is not None else None
+        hues.append((h + 0.5) % 1.0 if h is not None else defaults[i])
+    for i in range(2):
+        if hue_dist(hues[i], acc_h) < 0.08:
+            hues[i] = (hues[i] + 0.12) % 1.0
+    if hue_dist(hues[0], hues[1]) < 0.2:
+        hues[1] = (hues[0] + 0.33) % 1.0
+        if hue_dist(hues[1], acc_h) < 0.08:
+            hues[1] = (hues[0] + 0.62) % 1.0
+    return hues
+
+
+def hsv_rgb(h, s, v):
+    return tuple(int(round(x * 255)) for x in colorsys.hsv_to_rgb(h, s, v))
+
+
+def burst_panel(hue, w, h):
+    """Bright center fading to a deep edge, with faint sunburst rays."""
+    inner, outer = hsv_rgb(hue, 0.72, 1.0), hsv_rgb(hue, 0.95, 0.42)
+    grad = Image.radial_gradient("L").resize((w * 2, h * 2))
+    grad = grad.crop((w // 2, int(h * 0.45), w // 2 + w, int(h * 0.45) + h))
+    panel = Image.composite(Image.new("RGB", (w, h), outer), Image.new("RGB", (w, h), inner), grad)
+    rays = Image.new("L", (w, h), 0)
+    d = ImageDraw.Draw(rays)
+    cx, cy, R = w // 2, int(h * 0.45), max(w, h) * 2
+    for k in range(0, 360, 20):
+        d.pieslice([cx - R, cy - R, cx + R, cy + R], k, k + 10, fill=34)
+    panel = Image.composite(Image.new("RGB", (w, h), (255, 255, 255)), panel, rays)
+    return panel.convert("RGBA")
+
+
+def outlined(cut, stroke=9):
+    """Cutout with a white outline and a soft glow behind it."""
+    pad = stroke * 3
+    a = Image.new("L", (cut.width + 2 * pad, cut.height + 2 * pad), 0)
+    a.paste(cut.getchannel("A"), (pad, pad))
+    small = a.resize((max(1, a.width // 3), max(1, a.height // 3)))
+    grown = small.filter(ImageFilter.MaxFilter(2 * (stroke // 3) + 1)).resize(a.size)
+    grown = grown.filter(ImageFilter.GaussianBlur(1.5))
+    glow = a.filter(ImageFilter.GaussianBlur(stroke * 2)).point(lambda v: int(v * 0.6))
+    out = Image.new("RGBA", a.size, (255, 255, 255, 0))
+    out.putalpha(ImageChops.lighter(grown, glow))
+    out.alpha_composite(cut, (pad, pad))
+    # keep the bottom edge flat on the bar (no outline under the body)
+    return out.crop((0, 0, out.width, pad + cut.height))
+
+
+def ease_out_back(x, k=1.6):
+    x = min(1.0, max(0.0, x))
+    return 1 + (k + 1) * (x - 1) ** 3 + k * (x - 1) ** 2
+
+
+def ease_out(x):
+    x = min(1.0, max(0.0, x))
+    return 1 - (1 - x) ** 3
+
+
 class V2:
     def __init__(self, spec, left_cut, right_cut):
         v = spec["v2"]
+        self.fx = v.get("fx", True)
         self.accent = hex_rgb(v.get("accent", DEFAULT_ACCENT))
         self.tag = (v.get("tag") or "").upper() or None
         self.kicker = (v.get("kicker") or "").upper()
@@ -257,34 +365,46 @@ class V2:
         for c in (left_cut, right_cut):
             self.cuts.append(fit_cut(c, self.col_w, PHOTO_H) if c is not None
                              else silhouette(self.col_w, PHOTO_H))
+        if self.fx:
+            self.hues = pick_bg_hues([left_cut, right_cut], self.accent)
+            self.panels = [burst_panel(h, self.col_w, PHOTO_H) for h in self.hues]
+            self.cuts = [outlined(c) for c in self.cuts]
+        else:
+            self.hues = None
+            self.panels = [Image.new("RGBA", (self.col_w, PHOTO_H), col + (255,))
+                           for col in (COL_A, COL_B)]
         self.text_hook = self._hook_layer()
         self.card, self.card_h = self._context_card()
         self.chips_layer = self._chips_layer()
         self.question_frame = self._question_frame()
 
     # photos with VS badge, at a zoom factor; dim = 0..1 (0.45 = 55% opacity)
-    def photos(self, zoom=1.0, dim=0.0):
+    def photos(self, zoom=1.0, dim=0.0, slide=1.0, badge=1.0):
+        """slide: 0 = photos off-screen to the sides, 1 = in place.
+        badge: VS badge scale (0 hides it)."""
         img = Image.new("RGBA", (W, H), BG + (255,))
-        d = ImageDraw.Draw(img)
-        cols = [(0, COL_A), (self.col_w + 8, COL_B)]
-        for (x0, col), cut in zip(cols, self.cuts):
-            panel = Image.new("RGBA", (self.col_w, PHOTO_H), col + (255,))
+        xs = [0, self.col_w + 8]
+        for i, (x0, cut) in enumerate(zip(xs, self.cuts)):
+            panel = self.panels[i].copy()
             cw, ch = int(cut.width * zoom), int(cut.height * zoom)
             c = cut.resize((cw, ch), Image.LANCZOS) if zoom != 1.0 else cut
-            px = (self.col_w - cw) // 2
+            off = int((1 - slide) * self.col_w * 1.1) * (-1 if i == 0 else 1)
+            px = (self.col_w - cw) // 2 + off
             py = PHOTO_H - ch  # bottoms on the accent bar
-            panel.paste(c, (px, py), c)
+            panel.alpha_composite(c, (px, py)) if px > -cw and px < self.col_w else None
             img.alpha_composite(panel, (x0, PHOTO_TOP))
         if dim > 0:
             shade = Image.new("RGBA", (W, PHOTO_H), BG + (int(255 * dim),))
             img.alpha_composite(shade, (0, PHOTO_TOP))
-        # VS badge
-        r = 80
-        cx, cy = W // 2, PHOTO_TOP + 248 + r
+        if badge > 0.01:
+            r = int(80 * badge)
+            cx, cy = W // 2, PHOTO_TOP + 248 + 80
+            d = ImageDraw.Draw(img)
+            d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=BG, outline=self.accent,
+                      width=max(2, int(6 * badge)))
+            f = anton(max(8, int(60 * badge)))
+            d.text((cx, cy + cap(f) / 2), "VS", font=f, fill=self.accent, anchor="ms")
         d = ImageDraw.Draw(img)
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=BG, outline=self.accent, width=6)
-        f = anton(60)
-        d.text((cx, cy + cap(f) / 2), "VS", font=f, fill=self.accent, anchor="ms")
         d.rectangle([0, BAR_Y, W, BAR_Y + 12], fill=self.accent)
         return img
 
@@ -356,6 +476,13 @@ class V2:
 
     def _question_frame(self):
         img = Image.new("RGBA", (W, H), BG + (255,))
+        if self.fx:
+            # faint color-wheel burst from the left fighter's hue
+            glow = burst_panel(self.hues[0], W, H)
+            glow.putalpha(Image.radial_gradient("L").resize((W * 2, H * 2))
+                          .crop((W // 2, H // 2, W // 2 + W, H // 2 + H))
+                          .point(lambda v: int((255 - v) * 0.22)))
+            img.alpha_composite(glow)
         d = ImageDraw.Draw(img)
         draw_header(d, self.accent)
         max_w = W - PAD_L - PAD_R
@@ -381,7 +508,11 @@ class V2:
         bh = 40 * 2 + cap(f_used) + 8
         for i, o in enumerate(opts):
             x0 = PAD_L + i * (bw + 24)
-            d.rectangle([x0, y, x0 + bw, y + bh], outline=self.accent if i == 0 else WHITE, width=6)
+            if self.fx:
+                d.rectangle([x0, y, x0 + bw, y + bh], fill=hsv_rgb(self.hues[i], 0.85, 0.85),
+                            outline=WHITE, width=6)
+            else:
+                d.rectangle([x0, y, x0 + bw, y + bh], outline=self.accent if i == 0 else WHITE, width=6)
             d.text((x0 + bw / 2, y + bh / 2 + cap(f_used) / 2), o, font=f_used, fill=WHITE, anchor="ms")
         y += bh + 56
         fp = barlow(48, 600)
@@ -399,21 +530,59 @@ class V2:
     # ---- frames -----------------------------------------------------
 
     def frame(self, t):
+        img = self._frame(t)
+        if not self.fx:
+            return img
+        # punch-in when the question appears
+        if T_QUESTION <= t < T_QUESTION + 0.18:
+            s = 1.07 - 0.07 * ease_out((t - T_QUESTION) / 0.18)
+            big = img.resize((int(W * s), int(H * s)), Image.BILINEAR)
+            x, y = (big.width - W) // 2, (big.height - H) // 2
+            img = big.crop((x, y, x + W, y + H))
+        # screen shake
+        amp = 0.0
+        for t0, a0, dur in ((T_IMPACT, 30, 0.35), (T_CONTEXT + 0.35, 14, 0.2), (T_QUESTION, 14, 0.2)):
+            if t0 <= t < t0 + dur:
+                amp = max(amp, a0 * (1 - (t - t0) / dur))
+        if amp > 0.5:
+            rnd = random.Random(int(t * FPS))
+            dx, dy = int(rnd.uniform(-amp, amp)), int(rnd.uniform(-amp, amp))
+            shaken = Image.new("RGB", (W, H), BG)
+            shaken.paste(img, (dx, dy))
+            img = shaken
+        # white flash on the hits
+        for t0, a0, dur in ((T_IMPACT, 0.6, 0.14), (T_QUESTION, 0.3, 0.1)):
+            if t0 <= t < t0 + dur:
+                a = a0 * (1 - (t - t0) / dur)
+                img = Image.blend(img, Image.new("RGB", (W, H), WHITE), a)
+        return img
+
+    def _frame(self, t):
         if t >= T_QUESTION:
             img = self.question_frame.copy()
             # quick fade up from the context frame over 0.15 s
             k = min(1.0, (t - T_QUESTION) / 0.15)
             if k < 1:
-                prev = self.frame(T_QUESTION - 0.001).convert("RGBA")
+                prev = self._frame(T_QUESTION - 0.001).convert("RGBA")
                 img = Image.blend(prev, img, k)
             return img.convert("RGB")
         zoom = 1.0 + 0.08 * (t / T_QUESTION)
         if t < T_CONTEXT:
-            img = self.photos(zoom)
+            if self.fx:
+                # photos slide in, then the hit: VS pops, headline slams
+                slide = ease_out_back(t / T_IMPACT, 1.2) if t < T_IMPACT else 1.0
+                badge = ease_out_back((t - T_IMPACT) / 0.22, 2.4) if t >= T_IMPACT else 0.0
+                img = self.photos(zoom, slide=slide, badge=badge)
+                k_raw = (t - (T_IMPACT - 0.05)) / 0.2
+            else:
+                img = self.photos(zoom)
+                k_raw = t / 0.25
             d = ImageDraw.Draw(img)
             draw_header(d, self.accent, self.tag)
-            # headline slams in: 0-0.25 s, from 112% scale and 40% opacity
-            k = min(1.0, t / 0.25)
+            # headline slams in from 112% scale and 40% opacity
+            if k_raw <= 0:
+                return img.convert("RGB")
+            k = min(1.0, k_raw)
             k = 1 - (1 - k) ** 3
             layer = self.text_hook
             if k < 1:
@@ -452,6 +621,66 @@ class V2:
         return img.convert("RGB")
 
 
+def write_sfx(path, seconds, sr=44100):
+    """Whoosh -> boom at T_IMPACT, smaller whoosh + hit when the story card
+    lands and when the question appears. Mono 16-bit WAV."""
+    import numpy as np
+    n = int(seconds * sr)
+    out = np.zeros(n)
+    rng = np.random.default_rng(7)
+
+    def lowpass(x, fc):
+        # one-pole lowpass with a per-sample cutoff
+        a = 1 - np.exp(-2 * np.pi * np.asarray(fc) / sr) * np.ones(len(x))
+        y = np.empty_like(x)
+        acc = 0.0
+        for i in range(len(x)):
+            acc += a[i] * (x[i] - acc)
+            y[i] = acc
+        return y
+
+    def whoosh(t_end, dur, gain):
+        m = int(dur * sr)
+        i0 = int(t_end * sr) - m
+        if i0 < 0:
+            m += i0
+            i0 = 0
+        x = rng.standard_normal(m)
+        p = np.linspace(0, 1, m)
+        y = lowpass(x, 250 + 7000 * p ** 2)
+        y = y - lowpass(y, 180)            # thin out the rumble
+        env = p ** 2.2
+        out[i0:i0 + m] += gain * y * env / (np.abs(y).max() + 1e-9)
+
+    def boom(t0, gain, length=1.3):
+        i0 = int(t0 * sr)
+        m = min(int(length * sr), n - i0)
+        if m <= 0:
+            return
+        tt = np.arange(m) / sr
+        f = 38 + 72 * np.exp(-tt / 0.07)                    # 110 Hz -> 38 Hz drop
+        sub = np.sin(2 * np.pi * np.cumsum(f) / sr) * np.exp(-tt / 0.45)
+        f2 = 60 + 140 * np.exp(-tt / 0.03)
+        thump = np.sin(2 * np.pi * np.cumsum(f2) / sr) * np.exp(-tt / 0.09)
+        click = lowpass(rng.standard_normal(m), 3000) * np.exp(-tt / 0.018) * 4
+        y = np.tanh(1.8 * (0.95 * sub + 0.6 * thump + 0.5 * click))
+        out[i0:i0 + m] += gain * y
+
+    whoosh(T_IMPACT, T_IMPACT, 0.55)
+    boom(T_IMPACT, 1.0)
+    whoosh(T_CONTEXT + 0.35, 0.35, 0.3)
+    boom(T_CONTEXT + 0.35, 0.45, 0.6)
+    whoosh(T_QUESTION, 0.28, 0.3)
+    boom(T_QUESTION, 0.55, 0.8)
+    peak = np.abs(out).max() or 1.0
+    pcm = (out / peak * 0.97 * 32767).astype("<i2")
+    with wave.open(str(path), "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(sr)
+        w.writeframes(pcm.tobytes())
+
+
 def make_reel_v2(spec, out, left_cut, right_cut):
     if not shutil.which("ffmpeg"):
         sys.exit("ffmpeg is needed to make a Reel")
@@ -461,15 +690,35 @@ def make_reel_v2(spec, out, left_cut, right_cut):
     cmd = ["ffmpeg", "-y", "-loglevel", "error",
            "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-"]
     music = spec.get("music")
-    if music:
-        track = ROOT / music
-        if not track.exists():
-            sys.exit(f"music file not found: {music}")
+    track = ROOT / music if music else None
+    if music and not track.exists():
+        sys.exit(f"music file not found: {music}")
+    if v.fx:
+        sfx = out / "_sfx.wav"
+        write_sfx(sfx, seconds)
+        cmd += ["-i", str(sfx)]
+        if track:
+            # music comes in right after the boom
+            mlen = seconds - MUSIC_DELAY
+            cmd += ["-ss", str(float(spec.get("music_start", 0))), "-t", str(mlen), "-i", str(track)]
+            ms = int(MUSIC_DELAY * 1000)
+            graph = (f"[2:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=0.85,"
+                     f"afade=t=in:d=0.12,afade=t=out:st={max(0.0, mlen - 1.0)}:d=1.0,"
+                     f"adelay={ms}|{ms}[m];"
+                     f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,volume=1.1[s];"
+                     f"[m][s]amix=inputs=2:duration=longest:normalize=0,"
+                     f"alimiter=limit=0.95,atrim=0:{seconds}[a]")
+        else:
+            graph = f"[1:a]aformat=sample_rates=44100:channel_layouts=stereo,atrim=0:{seconds}[a]"
+        cmd += ["-filter_complex", graph, "-map", "0:v", "-map", "[a]"]
+    elif track:
         cmd += ["-ss", str(float(spec.get("music_start", 0))), "-t", str(seconds), "-i", str(track),
-                "-af", f"afade=t=in:d=0.3,afade=t=out:st={max(0.0, seconds - 1.0)}:d=1.0"]
+                "-af", f"afade=t=in:d=0.3,afade=t=out:st={max(0.0, seconds - 1.0)}:d=1.0",
+                "-map", "0:v", "-map", "1:a"]
     else:
-        cmd += ["-f", "lavfi", "-t", str(seconds), "-i", "anullsrc=r=44100:cl=stereo"]
-    cmd += ["-map", "0:v", "-map", "1:a", "-shortest",
+        cmd += ["-f", "lavfi", "-t", str(seconds), "-i", "anullsrc=r=44100:cl=stereo",
+                "-map", "0:v", "-map", "1:a"]
+    cmd += ["-shortest",
             "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
             "-profile:v", "high", "-movflags", "+faststart",
             "-c:a", "aac", "-b:a", "192k", "-ar", "44100", str(out / "reel.mp4")]
@@ -479,5 +728,6 @@ def make_reel_v2(spec, out, left_cut, right_cut):
     proc.stdin.close()
     if proc.wait() != 0:
         sys.exit("ffmpeg failed to write the v2 Reel")
+    (out / "_sfx.wav").unlink(missing_ok=True)
     v.frame(1.0).save(out / "cover.png", optimize=True)
     return v

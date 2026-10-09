@@ -301,13 +301,25 @@ VS badge (hook), a white story card with fact chips (context), then a
 "YOUR PICK" card with two answer boxes. A post opts in with `"format": "v2"`
 and a `"v2"` block (`tag`, `kicker`, `hook`, `left`, `right`, `story`,
 `chips`, `question`, `options`; see the top of `reel_v2.py`). The first one
-is Leben vs. Akiyama (Oct 8, 7 PM). Use it only when the user asks until
-they decide whether it replaces the default format.
+is Leben vs. Akiyama (Oct 8, 7 PM). It is now the default (see below).
 
-**v2 test day: Friday, Oct 9 (user request, Oct 8 10 PM run).** Every
-automated news Reel and Trial Reel scheduled to go out on Oct 9 (Eastern)
-uses `"format": "v2"`; results/DWCS carousels stay as they are. From
-Oct 10 on, go back to the default format unless the user says otherwise.
+**v2 + punch effects is the default format (user request, Oct 9 AM).**
+From the Oct 9 9 AM run on, **every automated news Reel and Trial Reel
+uses `"format": "v2"`** (results/DWCS carousels stay as they are). The
+v2 renderer now adds, by default, the style the user asked for:
+- **Color-wheel backgrounds**: each photo column gets a bright,
+  MrBeast-style sunburst background in the hue opposite the photo's own
+  colors (so the fighter pops), with a white outline around the cutout.
+  The two columns always differ and avoid the yellow accent. The answer
+  boxes on the "YOUR PICK" card use the same two colors.
+- **Movement**: photos slide in from the sides, then a hit at 0.35 s
+  (screen shake, white flash, VS badge pops, headline slams); smaller hits
+  when the story card lands and when the question punches in.
+- **Sound**: a whoosh into a loud boom at the hit, and the music starts
+  right after the boom; smaller whoosh + hit at each later beat.
+Leave these on. `"v2": {"fx": false}` turns them off for one post (only if
+the user asks).
+
 Writing a v2 post:
 - Keep everything else in the post file as usual (headline, `visual` as a
   fallback, caption, `question`, 5 hashtags, sources, `trial_reel`), and
