@@ -3,6 +3,6 @@
 Image: {'type': 'fighter', 'name': 'Ismael Bonfim', 'file': 'drive-ismael-bonfim'} -> fighter images/ismael-bonfim/cutouts/drive-ismael-bonfim.png  headline: 7.5 Pounds
 v2 left: images/ismael-bonfim/cutouts/drive-ismael-bonfim.png
 v2 right: silhouette
-Music: music/action-sport/01-crystals.mp3 from 164.0s
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
 Rendered posts/2026-10-09-1900-bonfim-burger/post.png (fighter)
 Rendered posts/2026-10-09-1900-bonfim-burger/reel.mp4 (format v2)
