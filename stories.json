@@ -24,7 +24,10 @@
         {
           "post": "2026-10-08-2220-prates-easiest-fight",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-10-08T22:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-61882471021195780",
+          "image": "fighter: Carlos Prates (Wikimedia)"
         }
       ]
     },
@@ -125,7 +128,10 @@
         {
           "post": "2026-10-08-2221-tsarukyan-raf-gracie",
           "kind": "new",
-          "format": "trial_reel"
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-09T07:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3859554503542653482",
+          "image": "fighter: Arman Tsarukyan (Wikimedia)"
         }
       ]
     },
