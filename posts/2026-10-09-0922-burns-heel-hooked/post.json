@@ -35,16 +35,11 @@
     "hook": "Burns Tapped",
     "left": [
       {
-        "name": "Gilbert Burns"
-      },
-      {
-        "name": "Gilbert Burns (fighter)"
+        "name": "Gilbert Burns",
+        "file": "01-gilbert-burns-2024"
       }
     ],
     "right": [
-      {
-        "name": "Gabriel Almeida"
-      },
       {
         "name": "Gabriel Almeida (grappler)"
       }
@@ -60,15 +55,16 @@
       "SHOCK",
       "EXPECTED"
     ],
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
     "left_subject": {
       "kind": "fighter",
       "image": "images/gilbert-burns/cutouts/01-gilbert-burns-2024.png",
       "credit": "Sexto Round / CC BY 3.0"
-    },
-    "right_subject": {
-      "kind": "fighter",
-      "image": "images/gabriel-almeida/cutouts/01-sele-o-brasileira-de-futebol-enfrenta-a-alemanha-1039208-20-.png",
-      "credit": "Fernando Frazão/Agência Brasil / CC BY 3.0 br"
     }
   },
   "subject": {
@@ -76,7 +72,7 @@
     "image": "images/gilbert-burns/cutouts/01-gilbert-burns-2024.png",
     "credit": "Sexto Round / CC BY 3.0"
   },
-  "music": "music/sports/01-sport-is-cool.mp3",
-  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
-  "music_start": 160.5
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }
