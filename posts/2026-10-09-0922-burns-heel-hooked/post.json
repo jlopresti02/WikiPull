@@ -4,7 +4,13 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Gilbert Burns"
+      "name": "Gilbert Burns",
+      "file": "01-gilbert-burns-2024"
+    },
+    {
+      "type": "fighter",
+      "name": "Gabriel Almeida",
+      "file": "drive-gabriel-almeida"
     },
     {
       "type": "mystery",
@@ -41,7 +47,8 @@
     ],
     "right": [
       {
-        "name": "Gabriel Almeida (grappler)"
+        "name": "Gabriel Almeida",
+        "file": "drive-gabriel-almeida"
       }
     ],
     "story": "Gabriel Almeida caught Gilbert Burns with a heel hook in the first round at the UFC Apex.",
@@ -55,16 +62,15 @@
       "SHOCK",
       "EXPECTED"
     ],
-    "right_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
-    },
     "left_subject": {
       "kind": "fighter",
       "image": "images/gilbert-burns/cutouts/01-gilbert-burns-2024.png",
       "credit": "Sexto Round / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/gabriel-almeida/cutouts/drive-gabriel-almeida.png",
+      "credit": null
     }
   },
   "subject": {
@@ -72,7 +78,7 @@
     "image": "images/gilbert-burns/cutouts/01-gilbert-burns-2024.png",
     "credit": "Sexto Round / CC BY 3.0"
   },
-  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
-  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
-  "music_start": 164.75
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }
