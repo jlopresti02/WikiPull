@@ -55,6 +55,26 @@
     "options": [
       "FIGHT ON",
       "CANCEL"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/ismael-bonfim/cutouts/drive-ismael-bonfim.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "prop",
+      "prop": "cheeseburger",
+      "image": null,
+      "credit": null
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/ismael-bonfim/cutouts/drive-ismael-bonfim.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

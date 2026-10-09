@@ -1,15 +1,8 @@
-[0;93m2026-10-09 22:42:44.339610643 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/arnold-allen/cutouts/drive-arnold-allen-2.png
-  cutout images/arnold-allen/cutouts/drive-arnold-allen.png
-Done: 2 new cutout(s).
-[0;93m2026-10-09 22:44:18.645968867 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/ismael-bonfim/cutouts/drive-ismael-bonfim.png
-Done: 1 new cutout(s).
-Drive: saved images/arnold-allen/drive-arnold-allen.jpg
-Drive: saved images/arnold-allen/drive-arnold-allen-2.jpg
-Drive: saved images/ismael-bonfim/drive-ismael-bonfim.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/arnold-allen
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ismael-bonfim
-Queue is empty.
+
+== 2026-10-09-1900-bonfim-burger.json
+Image: {'type': 'fighter', 'name': 'Ismael Bonfim', 'file': 'drive-ismael-bonfim'} -> fighter images/ismael-bonfim/cutouts/drive-ismael-bonfim.png  headline: 7.5 Pounds
+v2 left: images/ismael-bonfim/cutouts/drive-ismael-bonfim.png
+v2 right: silhouette
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-09-1900-bonfim-burger/post.png (fighter)
+Rendered posts/2026-10-09-1900-bonfim-burger/reel.mp4 (format v2)
