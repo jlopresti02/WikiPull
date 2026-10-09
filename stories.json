@@ -67,7 +67,10 @@
      "format": "trial_reel",
      "style": "v2",
      "requested_by_user": true,
-     "note": "re-do of the held 1822 post with the user's Bonfim photo and a drawn cheeseburger (user request)"
+     "note": "re-do of the held 1822 post with the user's Bonfim photo and a drawn cheeseburger (user request)",
+     "scheduled_for": "2026-10-09T20:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3215998930684065528",
+     "image": "v2: Ismael Bonfim (Drive drive-ismael-bonfim) vs drawn cheeseburger prop"
     }
    ]
   },
@@ -223,7 +226,7 @@
      "scheduled_for": "2026-10-09T19:30:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=514475779255780421",
      "image": "v2: silhouette (no Brendan Allen photo) vs Dricus du Plessis (Wikimedia)",
-     "note": "queued as reel; rendered with Allen silhouette so scheduled as TRIAL_REEL; swap when an Allen photo is added"
+     "note": "queued as reel; rendered with Allen silhouette so scheduled as TRIAL_REEL; swap when an Allen photo is added; Drive photos added 6:40 PM are Arnold Allen (different fighter), filed under images/arnold-allen, not used"
     }
    ]
   },
