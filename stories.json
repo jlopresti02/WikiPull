@@ -221,12 +221,12 @@
     {
      "post": "2026-10-09-1820-allen-easier-route",
      "kind": "new",
-     "format": "trial_reel",
+     "format": "reel",
      "style": "v2",
      "scheduled_for": "2026-10-09T19:30:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=514475779255780421",
-     "image": "v2: silhouette (no Brendan Allen photo) vs Dricus du Plessis (Wikimedia)",
-     "note": "queued as reel; rendered with Allen silhouette so scheduled as TRIAL_REEL; swap when an Allen photo is added; Drive photos added 6:40 PM are Arnold Allen (different fighter), filed under images/arnold-allen, not used"
+     "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs Dricus du Plessis (Wikimedia)",
+     "note": "first scheduled as TRIAL_REEL with an Allen silhouette; user added a Brendan Allen photo 7:08 PM, re-rendered and switched to a regular REEL at 7:30 PM (Metricool id 392459102). Earlier 'arnold allen' Drive files are Arnold Allen, filed separately"
     }
    ]
   },
