@@ -24,7 +24,10 @@
      "post": "2026-10-09-0920-hokit-rips-volkov",
      "kind": "new",
      "format": "reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-09T09:45:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8944758254303557245",
+     "image": "v2: Josh Hokit (Drive drive-josh-hokit-1) vs Alexander Volkov (Wikimedia)"
     }
    ]
   },
@@ -52,7 +55,10 @@
      "post": "2026-10-09-0921-jake-paul-cleared",
      "kind": "new",
      "format": "trial_reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-09T10:15:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7868469168432787568",
+     "image": "v2: Jake Paul (Wikimedia) vs Sean Strickland (Drive)"
     }
    ]
   },
@@ -80,7 +86,10 @@
      "post": "2026-10-09-0922-burns-heel-hooked",
      "kind": "new",
      "format": "trial_reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-09T10:45:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6508403837585278241",
+     "image": "v2: Gilbert Burns (Wikimedia) vs silhouette (Gabriel Almeida; no photo, Wikipedia name match was a footballer)"
     }
    ]
   },
