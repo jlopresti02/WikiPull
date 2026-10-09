@@ -59,6 +59,24 @@
     "options": [
       "PAUL",
       "STRICKLAND"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/jake-paul/cutouts/01-jake-paul-2019.png",
+      "credit": "Erik Drost / CC BY 2.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/jake-paul/cutouts/01-jake-paul-2019.png",
+    "credit": "Erik Drost / CC BY 2.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

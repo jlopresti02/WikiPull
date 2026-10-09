@@ -1,8 +1,76 @@
+Searching Wikimedia Commons for: Jake Paul
+  saved images/jake-paul/01-jake-paul-2019.jpg  [CC BY 2.0]
+  saved images/jake-paul/02-jake-paul-53116882732.jpg  [CC BY 2.0]
+  saved images/jake-paul/03-jake-paul-2016.png  [CC BY 3.0]
+  saved images/jake-paul/04-logan-paul-and-jake-paul-48086709896.jpg  [CC BY 2.0]
+  saved images/jake-paul/05-jake-paul-1.jpg  [CC BY 3.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-09 13:23:51.199133639 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/jake-paul/cutouts/01-jake-paul-2019.png
+  cutout images/jake-paul/cutouts/02-jake-paul-53116882732.png
+  cutout images/jake-paul/cutouts/03-jake-paul-2016.png
+  cutout images/jake-paul/cutouts/04-logan-paul-and-jake-paul-48086709896.png
+  cutout images/jake-paul/cutouts/05-jake-paul-1.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Gilbert Burns
+  saved images/gilbert-burns/01-gilbert-burns-2024.png  [CC BY 3.0]
+  saved images/gilbert-burns/02-gilbert-burns-i-m-here-to-stop-the-hype-train-youtube-2-50-c.jpg  [CC BY 3.0]
+  saved images/gilbert-burns/03-gilbert-burns-i-m-here-to-stop-the-hype-train-youtube-2-50.jpg  [CC BY 3.0]
+  saved images/gilbert-burns/04-gilbert-burns-s-family-burial-site-bolton-churchyard-east-lo.jpg  [CC BY-SA 4.0]
+  saved images/gilbert-burns/05-jean-breckenridge-wife-of-gilbert-burns-bishopton-parish-chu.jpg  [CC BY 4.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-09 13:25:36.301162181 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/gilbert-burns/cutouts/01-gilbert-burns-2024.png
+  cutout images/gilbert-burns/cutouts/02-gilbert-burns-i-m-here-to-stop-the-hype-train-youtube-2-50-c.png
+  cutout images/gilbert-burns/cutouts/03-gilbert-burns-i-m-here-to-stop-the-hype-train-youtube-2-50.png
+  cutout images/gilbert-burns/cutouts/04-gilbert-burns-s-family-burial-site-bolton-churchyard-east-lo.png
+  cutout images/gilbert-burns/cutouts/05-jean-breckenridge-wife-of-gilbert-burns-bishopton-parish-chu.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Gabriel Almeida
+  No file names matched; falling back to looser results.
+  saved images/gabriel-almeida/01-sele-o-brasileira-de-futebol-enfrenta-a-alemanha-1039208-20-.jpg  [CC BY 3.0 br]
+  saved images/gabriel-almeida/02-brasil-conquista-primeiro-ouro-ol-mpico-nos-penaltis-1039259.jpg  [CC BY 3.0 br]
+  saved images/gabriel-almeida/03-gabriel-vs-sao-bernardo-30-01-16-2.jpg  [CC BY 3.0]
+  saved images/gabriel-almeida/04-gabriel-vs-sao-bernardo-30-01-16-3.jpg  [CC BY 3.0]
+  saved images/gabriel-almeida/05-16-02-2020-jogo-flamengo-x-atl-tico-pr-49542617928.jpg  [CC BY 2.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-09 13:26:34.510679340 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/gabriel-almeida/cutouts/01-sele-o-brasileira-de-futebol-enfrenta-a-alemanha-1039208-20-.png
+  cutout images/gabriel-almeida/cutouts/02-brasil-conquista-primeiro-ouro-ol-mpico-nos-penaltis-1039259.png
+  cutout images/gabriel-almeida/cutouts/03-gabriel-vs-sao-bernardo-30-01-16-2.png
+  cutout images/gabriel-almeida/cutouts/04-gabriel-vs-sao-bernardo-30-01-16-3.png
+  cutout images/gabriel-almeida/cutouts/05-16-02-2020-jogo-flamengo-x-atl-tico-pr-49542617928.png
+Done: 5 new cutout(s).
 
-== 2026-10-09-0730-tsarukyan-raf-gracie-v2.json
-Image: {'type': 'fighter', 'name': 'Arman Tsarukyan', 'headline': 'Tsarukyan Wrestles'} -> fighter images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png  headline: Tsarukyan Wrestles
-v2 left: images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png
-v2 right: images/neiman-gracie/cutouts/02-neimangracie-adxc.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-09-0730-tsarukyan-raf-gracie-v2/post.png (fighter)
-Rendered posts/2026-10-09-0730-tsarukyan-raf-gracie-v2/reel.mp4 (format v2)
+== 2026-10-09-0920-hokit-rips-volkov.json
+Image: {'type': 'fighter', 'name': 'Josh Hokit', 'file': 'drive-josh-hokit-1'} -> fighter images/josh-hokit/cutouts/drive-josh-hokit-1.png  headline: Never Happening
+v2 left: images/josh-hokit/cutouts/drive-josh-hokit-1.png
+v2 right: images/alexander-volkov-fighter/cutouts/02-alexander-volkov-in-m-1-cropped.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-09-0920-hokit-rips-volkov/post.png (fighter)
+Rendered posts/2026-10-09-0920-hokit-rips-volkov/reel.mp4 (format v2)
+
+== 2026-10-09-0921-jake-paul-cleared.json
+$ fetch.py Jake Paul --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/jake-paul
+Image: {'type': 'fighter', 'name': 'Jake Paul'} -> fighter images/jake-paul/cutouts/01-jake-paul-2019.png  headline: Paul Cleared
+v2 left: images/jake-paul/cutouts/01-jake-paul-2019.png
+v2 right: images/sean-strickland/cutouts/drive-sean-strickland.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-09-0921-jake-paul-cleared/post.png (fighter)
+Rendered posts/2026-10-09-0921-jake-paul-cleared/reel.mp4 (format v2)
+
+== 2026-10-09-0922-burns-heel-hooked.json
+$ fetch.py Gilbert Burns --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gilbert-burns
+Image: {'type': 'fighter', 'name': 'Gilbert Burns'} -> fighter images/gilbert-burns/cutouts/01-gilbert-burns-2024.png  headline: Burns Tapped
+v2 left: images/gilbert-burns/cutouts/01-gilbert-burns-2024.png
+$ fetch.py Gabriel Almeida --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gabriel-almeida
+v2 right: images/gabriel-almeida/cutouts/01-sele-o-brasileira-de-futebol-enfrenta-a-alemanha-1039208-20-.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-09-0922-burns-heel-hooked/post.png (fighter)
+Rendered posts/2026-10-09-0922-burns-heel-hooked/reel.mp4 (format v2)
