@@ -4,7 +4,8 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Brendan Allen"
+      "name": "Brendan Allen",
+      "file": "drive-brendan-allen"
     },
     {
       "type": "fighter",
@@ -39,10 +40,8 @@
     "hook": "Allen vs DDP",
     "left": [
       {
-        "name": "Brendan Allen"
-      },
-      {
-        "name": "Brendan Allen (fighter)"
+        "name": "Brendan Allen",
+        "file": "drive-brendan-allen"
       }
     ],
     "right": [
@@ -63,10 +62,9 @@
       "DDP"
     ],
     "left_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
+      "kind": "fighter",
+      "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+      "credit": "WWIT MMA News"
     },
     "right_subject": {
       "kind": "fighter",
@@ -76,10 +74,10 @@
   },
   "subject": {
     "kind": "fighter",
-    "image": "images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png",
-    "credit": "User:Philippe3017 / CC0"
+    "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/news-intro/01-intro-a-new-song.mp3",
-  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
-  "music_start": 22.25
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

@@ -1,7 +1,8 @@
-[0;93m2026-10-09 23:10:43.855458673 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/brendan-allen/cutouts/drive-brendan-allen.png
-Done: 1 new cutout(s).
-Drive: saved images/brendan-allen/drive-brendan-allen.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/brendan-allen
-Queue is empty.
+
+== 2026-10-09-1820-allen-easier-route.json
+Image: {'type': 'fighter', 'name': 'Brendan Allen', 'file': 'drive-brendan-allen'} -> fighter images/brendan-allen/cutouts/drive-brendan-allen.png  headline: Easier Route
+v2 left: images/brendan-allen/cutouts/drive-brendan-allen.png
+v2 right: images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-09-1820-allen-easier-route/post.png (fighter)
+Rendered posts/2026-10-09-1820-allen-easier-route/reel.mp4 (format v2)
