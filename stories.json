@@ -2,6 +2,64 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "teixeira-pavlovich-better-fit-pereira",
+   "title": "Glover Teixeira says Sergei Pavlovich is a better matchup for Alex Pereira than Ciryl Gane",
+   "people": [
+    "Alex Pereira",
+    "Sergei Pavlovich",
+    "Glover Teixeira",
+    "Ciryl Gane"
+   ],
+   "event": "UFC 335 (Dec 12, Las Vegas)",
+   "first_reported": "2026-10-09",
+   "facts": [
+    "Teixeira to Sherdog: Pavlovich stays planted, Gane moves more; 'this one definitely isn't going to the fifth round'",
+    "Pereira lost his heavyweight debut to Gane by R2 TKO at UFC Freedom 250 in June; still wants a third title",
+    "Related: volkov-pereira-losing-streak-pavlovich-ufc-335 (different speaker, Pereira camp's response)"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/Alex-Pereiras-coach-says-Sergei-Pavlovich-is-better-fit-than-Gane-203146"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-09-1821-pereira-no-round-5",
+     "kind": "new",
+     "format": "reel",
+     "style": "v2"
+    }
+   ]
+  },
+  {
+   "id": "ufc-vegas-122-weigh-in-misses",
+   "title": "UFC Vegas 122 weigh-ins: Bonfim 7.5 lb heavy, Ribeiro and Souza also miss; main event official",
+   "people": [
+    "Ismael Bonfim",
+    "Francisco Prado",
+    "Brendson Ribeiro",
+    "Ketlen Souza",
+    "Brendan Allen",
+    "Christian Leroy Duncan"
+   ],
+   "event": "UFC Vegas 122 (Oct 10, 2026, Meta Apex)",
+   "first_reported": "2026-10-09",
+   "facts": [
+    "Ismael Bonfim 163.5 (lightweight, vs Francisco Prado 155); Brendson Ribeiro 208.5 (LHW, vs Felipe Franco); Ketlen Souza 117 (strawweight, vs Lupita Godinez)",
+    "Allen 186, Duncan 185 for the main event",
+    "Fines of a percentage of purse if bouts go ahead"
+   ],
+   "sources": [
+    "https://www.sherdog.com/news/news/UFC-Vegas-122-weighin-results-Main-event-set-3-fighters-heavy-203152"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-09-1822-bonfim-misses-weight",
+     "kind": "new",
+     "format": "trial_reel",
+     "style": "v2"
+    }
+   ]
+  },
+  {
    "id": "tim-kennedy-reportedly-shot-congo-ambush",
    "title": "Former UFC middleweight Tim Kennedy reportedly shot in Congo ambush (Sept 17); stable",
    "people": [
@@ -138,13 +196,20 @@
    "first_reported": "2026-10-09",
    "facts": [
     "Allen accuses du Plessis of taking the easier Usman fight (July; DDP won)",
-    "Allen headlines UFC Vegas 122 vs Christian Leroy Duncan, Sat Oct 10"
+    "Allen headlines UFC Vegas 122 vs Christian Leroy Duncan, Sat Oct 10",
+    "Allen: the January DDP fight fell through after he was told DDP was hurt; DDP then beat Usman by UD in July; 'He took the easier fight, plain and simple'"
    ],
    "sources": [
     "https://www.sherdog.com/news/news/Brendan-Allen-accuses-Dricus-du-Plessis-of-taking-easier-Kamaru-Usman-fight-203134"
    ],
-   "held_for_evening": true,
-   "posts": []
+   "posts": [
+    {
+     "post": "2026-10-09-1820-allen-easier-route",
+     "kind": "new",
+     "format": "reel",
+     "style": "v2"
+    }
+   ]
   },
   {
    "id": "covington-prates-easiest-fight-makhachev",

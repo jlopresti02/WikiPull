@@ -1,0 +1,63 @@
+{
+  "story_id": "teixeira-pavlovich-better-fit-pereira",
+  "headline": "No Round 5",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "01-alex-pereira-in-the-oval-office-while-president-donald-j-tru"
+    },
+    {
+      "type": "fighter",
+      "name": "Sergei Pavlovich"
+    },
+    {
+      "type": "mystery",
+      "headline": "Pereira vs Pavlovich"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alex Pereira's coach says Sergei Pavlovich is a better matchup than Ciryl Gane.\nPereira or Pavlovich? 👇\n\nGlover Teixeira says Pavlovich stays planted where Gane moved, and the UFC 335 heavyweight co-main on Dec. 12 in Las Vegas won't reach round five. Pereira is coming off a TKO loss to Gane and still wants a third UFC title. UFC news.\n\nWho wins?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "AlexPereira",
+    "SergeiPavlovich"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Pereira or Pavlovich?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 335 · HEAVYWEIGHT",
+    "kicker": "NOT GOING 5",
+    "hook": "Pereira vs Pavlovich",
+    "left": [
+      {
+        "name": "Alex Pereira",
+        "file": "01-alex-pereira-in-the-oval-office-while-president-donald-j-tru"
+      }
+    ],
+    "right": [
+      {
+        "name": "Sergei Pavlovich"
+      }
+    ],
+    "story": "Teixeira says Pavlovich's planted style suits Poatan better than Gane's movement did.",
+    "chips": [
+      "UFC 335 · DEC. 12",
+      "CO-MAIN EVENT",
+      "3RD TITLE GOAL"
+    ],
+    "question": "Pereira or Pavlovich?",
+    "options": [
+      "PEREIRA",
+      "PAVLOVICH"
+    ]
+  }
+}
