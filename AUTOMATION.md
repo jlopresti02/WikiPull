@@ -305,7 +305,8 @@ is Leben vs. Akiyama (Oct 8, 7 PM). It is now the default (see below).
 
 **v2 + punch effects is the default format (user request, Oct 9 AM).**
 From the Oct 9 9 AM run on, **every automated news Reel and Trial Reel
-uses `"format": "v2"`** (results/DWCS carousels stay as they are). The
+uses `"format": "v2"`** (results/DWCS carousels stay as they are,
+and hard news uses the serious format below). The
 v2 renderer now adds, by default, the style the user asked for:
 - **Color-wheel backgrounds**: each photo column gets a bright,
   MrBeast-style sunburst background in the hue opposite the photo's own
@@ -319,6 +320,35 @@ v2 renderer now adds, by default, the style the user asked for:
   right after the boom; smaller whoosh + hit at each later beat.
 Leave these on. `"v2": {"fx": false}` turns them off for one post (only if
 the user asks).
+
+**Serious format (user request, Oct 9 PM).** For hard news, where the
+punchy v2 Reel would be in poor taste: someone shot, badly hurt or
+killed, a serious illness or hospitalization, a death in the sport, an
+arrest or a tragedy in a fighter's life. These use `"format": "serious"`
+instead of v2 (`reel_serious.py`): a muted, mostly desaturated photo of
+the person on a dark ground with a slow push-in, a small kicker
+("REPORTED") and a plain headline sentence, then 2-4 short facts fading
+in one at a time, then a centered respectful closing line ("Wishing Tim
+Kennedy a full recovery."). About 10.5 s, a soft synthesized pad
+instead of music, no sound effects, no shake, no color bursts, no
+"YOUR PICK" card, no follow card. The first frame shows the photo and
+headline at once.
+- Post file: the usual `headline` (1-3 words, plain: "KENNEDY WOUNDED",
+  not "SHOT UP!"), `visual` with the person's photo, caption, 5 hashtags,
+  sources, and a `"serious"` block: `kicker`, `title` (3-8 word plain
+  sentence), `facts` (2-4 own-words facts, worded as reports where
+  they're reports), `closing`, optional `closing_sub` (e.g. thoughts for
+  someone else hurt or killed). No `question`, no `follow_card`, no
+  `music_pool`.
+- Caption: plain and factual, no hype words, at most one emoji (🙏 or
+  none), no two-option question and no 👇; end with the same respectful
+  line. Schedule with **no first comment** (`firstCommentText` "").
+- Schedule as a regular `REEL` in the next open slot (it's news people
+  should see now), same spacing and quiet-hour rules. Stories the user
+  asks for don't count toward the 10.
+- Ledger post entry: `"style": "serious"`.
+- Death of a fighter: same format, `kicker` "RIP" is fine only if it's
+  confirmed by an official source; never post on an unconfirmed death.
 
 Writing a v2 post:
 - Keep everything else in the post file as usual (headline, `visual` as a

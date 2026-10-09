@@ -312,7 +312,12 @@ def main():
                 continue
             changed = resolve_visual(spec)
             changed = resolve_v2(spec) or changed
-            changed = resolve_music(spec) or changed
+            if spec.get("format") == "serious":
+                # serious Reels make their own quiet pad unless "music" is named
+                spec["reel"] = True
+                changed = True
+            else:
+                changed = resolve_music(spec) or changed
             if changed:
                 spec_path.write_text(json.dumps(spec, indent=2, ensure_ascii=False) + "\n")
             render(spec_path)

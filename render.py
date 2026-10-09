@@ -501,6 +501,12 @@ def render(spec_path):
                 credit_extra.append(sub["credit"])
         make_reel_v2(spec, out, *cuts)
         print(f"Rendered posts/{name}/reel.mp4 (format v2)")
+    elif spec.get("format") == "serious":
+        # Calm news format for hard stories (reel_serious.py): muted photo,
+        # plain facts, a respectful closing line; no poll, no effects.
+        from reel_serious import make_reel_serious
+        make_reel_serious(spec, out, cut if kind == "fighter" else None)
+        print(f"Rendered posts/{name}/reel.mp4 (format serious)")
     elif spec.get("reel"):
         make_reel(Scene(REEL, words, bg, cut, kind, graphic), out, spec)
         print(f"Rendered posts/{name}/reel.mp4")

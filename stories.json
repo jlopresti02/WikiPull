@@ -18,9 +18,16 @@
     "https://www.sherdog.com/news/news/Former-UFC-fighter-Tim-Kennedy-reportedly-shot-in-deadly-Congo-ambush-203143",
     "https://www.nzherald.co.nz/nz/nzsas-veteran-justin-conaglen-linked-to-congo-ambush-that-wounded-green-beret-mma-star-tim-kennedy/premium/NTEYWX3XSRGYTAA6PBW5MNCSDE/"
    ],
-   "held_for_user": true,
-   "note": "Not auto-posted (Oct 9 1 PM run): serious-injury story with a death; the default v2 format (boom/shake, 'YOUR PICK' card) would sensationalize it. Post only if the user asks, plainly (v2 fx off).",
-   "posts": []
+   "note": "Held by the 1 PM run (v2 too loud); user asked for a new respectful 'serious' format, posted in it.",
+   "posts": [
+    {
+     "post": "2026-10-09-1330-kennedy-wounded",
+     "kind": "new",
+     "format": "reel",
+     "style": "serious",
+     "requested_by_user": true
+    }
+   ]
   },
   {
    "id": "hokit-rips-volkov-teases-205",

@@ -1,0 +1,26 @@
+{
+  "story_id": "tim-kennedy-reportedly-shot-congo-ambush",
+  "headline": "Kennedy Wounded",
+  "format": "serious",
+  "visual": [
+    {"type": "fighter", "name": "Tim Kennedy (fighter)"},
+    {"type": "fighter", "name": "Tim Kennedy"},
+    {"type": "mystery"}
+  ],
+  "color": "#111111",
+  "caption": "Former UFC middleweight Tim Kennedy was reportedly shot in an ambush in the Democratic Republic of the Congo on Sept. 17.\nPer reports, he was flown back to the U.S. and is in stable condition. A member of his team, former New Zealand SAS soldier Justin Conaglen, was reportedly killed. Details of the mission have not been confirmed.\n\nWishing Tim Kennedy a full recovery. Our thoughts are with Justin Conaglen's family and friends.",
+  "hashtags": ["MMANews", "UFC", "TimKennedy", "MMA", "UFCNews"],
+  "sources": ["Sherdog", "NZ Herald", "MMA Weekly"],
+  "serious": {
+    "tag": "NEWS UPDATE",
+    "kicker": "REPORTED",
+    "title": "Tim Kennedy wounded in Congo ambush",
+    "facts": [
+      "Former UFC middleweight reportedly shot in an ambush in the DR Congo on Sept. 17",
+      "Flown back to the U.S.; his condition is reported as stable",
+      "A teammate, former NZ SAS soldier Justin Conaglen, was reportedly killed"
+    ],
+    "closing": "Wishing Tim Kennedy a full recovery.",
+    "closing_sub": "Our thoughts are with the family and friends of Justin Conaglen."
+  }
+}
