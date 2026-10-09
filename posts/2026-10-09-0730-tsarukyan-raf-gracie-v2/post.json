@@ -61,6 +61,24 @@
     "options": [
       "ARMAN",
       "GRACIE"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png",
+      "credit": "inFocus media / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/neiman-gracie/cutouts/01-marcio-macarrao-stambowsky-neiman-gracie-deborah-gracie.png",
+      "credit": "MacarraBJJ / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png",
+    "credit": "inFocus media / CC BY 3.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
