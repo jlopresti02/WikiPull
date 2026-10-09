@@ -25,7 +25,10 @@
      "post": "2026-10-09-1821-pereira-no-round-5",
      "kind": "new",
      "format": "reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-09T19:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7414529096020835274",
+     "image": "v2: Alex Pereira (Wikimedia, White House) vs Sergei Pavlovich (Wikimedia)"
     }
    ]
   },
@@ -55,7 +58,8 @@
      "post": "2026-10-09-1822-bonfim-misses-weight",
      "kind": "new",
      "format": "trial_reel",
-     "style": "v2"
+     "style": "v2",
+     "held": "not scheduled: no Ismael Bonfim photo (silhouette) and the auto-fetched 'Francisco Prado' image is a different person (images/francisco-prado/cutouts/01-perito-...)"
     }
    ]
   },
@@ -206,8 +210,12 @@
     {
      "post": "2026-10-09-1820-allen-easier-route",
      "kind": "new",
-     "format": "reel",
-     "style": "v2"
+     "format": "trial_reel",
+     "style": "v2",
+     "scheduled_for": "2026-10-09T19:30:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=514475779255780421",
+     "image": "v2: silhouette (no Brendan Allen photo) vs Dricus du Plessis (Wikimedia)",
+     "note": "queued as reel; rendered with Allen silhouette so scheduled as TRIAL_REEL; swap when an Allen photo is added"
     }
    ]
   },
