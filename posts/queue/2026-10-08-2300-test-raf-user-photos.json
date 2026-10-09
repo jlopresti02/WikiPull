@@ -1,0 +1,54 @@
+{
+  "story_id": "test-raf-chimaev-covington-user-photos",
+  "headline": "Chimaev vs Covington",
+  "format": "v2",
+  "v2": {
+    "tag": "RAF ABU DHABI",
+    "kicker": "UFC RIVALS. NO STRIKES.",
+    "hook": "Chimaev vs Covington on the mat",
+    "highlight": "on the mat",
+    "left": [
+      {
+        "name": "Khamzat Chimaev",
+        "file": "02-user-khamzat-chimaev-octagon.jpg"
+      }
+    ],
+    "right": [
+      {
+        "name": "Colby Covington",
+        "file": "06-user-colby-covington-octagon.jpg"
+      }
+    ],
+    "story": "Covington defends his RAF cruiserweight crossover title against Khamzat Chimaev in a pure wrestling match.",
+    "chips": [
+      "COVINGTON: 5-0 IN RAF",
+      "NOV 14",
+      "ETIHAD ARENA"
+    ],
+    "question": "Who wins on the mat?",
+    "options": [
+      "CHIMAEV",
+      "COVINGTON"
+    ]
+  },
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Khamzat Chimaev",
+      "file": "02-user-khamzat-chimaev-octagon.jpg"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "TEST RENDER ONLY - not for posting.",
+  "hashtags": [
+    "RAF"
+  ],
+  "sources": [
+    "MMA News",
+    "Bloody Elbow"
+  ],
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_start": 164.75,
+  "question": "Who wins on the mat?",
+  "follow_card": true
+}
