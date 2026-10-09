@@ -1,0 +1,65 @@
+{
+  "story_id": "brendan-allen-ddp-easier-usman-fight",
+  "headline": "Easier Route",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Brendan Allen",
+      "file": "drive-brendan-allen"
+    },
+    {
+      "type": "fighter",
+      "name": "Dricus du Plessis",
+      "file": "01-img-dricus-duplessis-cropped"
+    },
+    {
+      "type": "mystery",
+      "headline": "Allen vs DDP"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Brendan Allen says Dricus du Plessis ducked him for Kamaru Usman.\nAllen or DDP? 👇\n\nAllen says their January fight fell apart and DDP picked the easier Usman matchup instead, which he won in July. Allen (27-7) headlines UFC Vegas 122 against Christian Leroy Duncan on Saturday in Las Vegas. UFC middleweight news.\n\nWho's right?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "BrendanAllen",
+    "DricusDuPlessis"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Allen or DDP?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "DUCKED HIM?",
+    "hook": "Allen vs DDP",
+    "left": [
+      {
+        "name": "Brendan Allen",
+        "file": "drive-brendan-allen"
+      }
+    ],
+    "right": [
+      {
+        "name": "Dricus du Plessis",
+        "file": "01-img-dricus-duplessis-cropped"
+      }
+    ],
+    "story": "Allen says DDP passed on him and took the easier Usman fight instead.",
+    "chips": [
+      "ALLEN 27-7",
+      "UFC VEGAS 122 · SAT",
+      "VS. LEROY DUNCAN"
+    ],
+    "question": "Allen or DDP?",
+    "options": [
+      "ALLEN",
+      "DDP"
+    ]
+  }
+}
