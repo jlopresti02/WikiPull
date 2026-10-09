@@ -24,8 +24,13 @@ A post file opts in with "format": "v2" and a "v2" block:
       "question": "Can Leben do it again?",     # defaults to the post's "question"
       "options": ["YES", "NO WAY"],
       "prompt": "Drop it in the comments...",   # optional line under the options
-      "accent": "#FFC21A"                       # optional
+      "accent": "#FFC21A",                      # optional
+      "prop": {"type": "cheeseburger", "side": "left"}  # optional drawn prop
     }
+
+"prop" (Oct 9, user request) pops a drawn graphic into one photo column at
+the hit, for lighthearted stories (a big weight miss gets a cheeseburger).
+Types: "cheeseburger". "side": "left" or "right" (default left).
 
 make_posts.py resolves "left" and "right" to cutouts (stored as
 "left_subject" / "right_subject"); a side with no photo gets the
@@ -334,6 +339,65 @@ def outlined(cut, stroke=9):
     return out.crop((0, 0, out.width, pad + cut.height))
 
 
+def draw_cheeseburger(size):
+    """A cartoon cheeseburger drawn with PIL (no outside art), RGBA."""
+    S = size * 3
+    img = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    ol = (40, 22, 10, 255)
+    lw = max(4, S // 60)
+    x0, x1 = int(S * 0.08), int(S * 0.92)
+    # bottom bun
+    d.rounded_rectangle([x0 + S * 0.02, S * 0.74, x1 - S * 0.02, S * 0.90], radius=int(S * 0.07),
+                        fill=(214, 140, 52, 255), outline=ol, width=lw)
+    # patty
+    d.rounded_rectangle([x0 - S * 0.02, S * 0.58, x1 + S * 0.02, S * 0.76], radius=int(S * 0.08),
+                        fill=(110, 58, 28, 255), outline=ol, width=lw)
+    # cheese with drips
+    pts = [(x0 - S * 0.04, S * 0.56), (x1 + S * 0.04, S * 0.56), (x1 + S * 0.01, S * 0.62),
+           (S * 0.74, S * 0.62), (S * 0.68, S * 0.73), (S * 0.62, S * 0.62), (S * 0.40, S * 0.62),
+           (S * 0.33, S * 0.71), (S * 0.27, S * 0.62), (x0 - S * 0.01, S * 0.62)]
+    d.polygon(pts, fill=(255, 196, 30, 255), outline=ol)
+    d.line(pts + [pts[0]], fill=ol, width=lw, joint="curve")
+    # lettuce (wavy)
+    wave_pts = []
+    n = 14
+    for i in range(n + 1):
+        x = x0 - S * 0.03 + (x1 - x0 + S * 0.06) * i / n
+        y = S * 0.53 + (S * 0.03 if i % 2 else 0)
+        wave_pts.append((x, y))
+    d.polygon([(x0 - S * 0.03, S * 0.49), (x1 + S * 0.03, S * 0.49)] + wave_pts[::-1],
+              fill=(92, 190, 60, 255), outline=ol)
+    # top bun
+    d.chord([x0, S * 0.12, x1, S * 0.82], 180, 360, fill=(226, 150, 58, 255), outline=ol, width=lw)
+    d.rectangle([x0 + lw, S * 0.44, x1 - lw, S * 0.50], fill=(226, 150, 58, 255))
+    d.line([x0, S * 0.50, x1, S * 0.50], fill=ol, width=lw)
+    # shine + sesame seeds
+    d.arc([x0 + S * 0.08, S * 0.18, x1 - S * 0.30, S * 0.70], 200, 250, fill=(255, 220, 160, 255), width=lw * 2)
+    rnd = random.Random(3)
+    for _ in range(11):
+        sx = rnd.uniform(S * 0.22, S * 0.78)
+        sy = rnd.uniform(S * 0.22, S * 0.40)
+        a = rnd.uniform(-40, 40)
+        seed = Image.new("RGBA", (int(S * 0.06), int(S * 0.035)), (0, 0, 0, 0))
+        ImageDraw.Draw(seed).ellipse([0, 0, seed.width - 1, seed.height - 1], fill=(255, 244, 214, 255))
+        seed = seed.rotate(a, expand=True, resample=Image.BICUBIC)
+        img.alpha_composite(seed, (int(sx), int(sy)))
+    img = img.resize((size, size), Image.LANCZOS)
+    # white sticker outline + soft shadow
+    a = img.getchannel("A")
+    grown = a.filter(ImageFilter.MaxFilter(13))
+    out = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    sticker = Image.new("RGBA", img.size, (255, 255, 255, 0))
+    sticker.putalpha(grown)
+    out.alpha_composite(sticker)
+    out.alpha_composite(img)
+    return out
+
+
+PROPS = {"cheeseburger": draw_cheeseburger}
+
+
 def ease_out_back(x, k=1.6):
     x = min(1.0, max(0.0, x))
     return 1 + (k + 1) * (x - 1) ** 3 + k * (x - 1) ** 2
@@ -377,6 +441,12 @@ class V2:
         self.card, self.card_h = self._context_card()
         self.chips_layer = self._chips_layer()
         self.question_frame = self._question_frame()
+        prop = v.get("prop")
+        self.prop = None
+        if prop and PROPS.get(prop.get("type")):
+            size = int(prop.get("size", 300))
+            self.prop = (PROPS[prop["type"]](size + 24).rotate(-12, expand=True, resample=Image.BICUBIC),
+                         0 if prop.get("side", "left") == "left" else 1)
 
     # photos with VS badge, at a zoom factor; dim = 0..1 (0.45 = 55% opacity)
     def photos(self, zoom=1.0, dim=0.0, slide=1.0, badge=1.0):
@@ -393,6 +463,14 @@ class V2:
             py = PHOTO_H - ch  # bottoms on the accent bar
             panel.alpha_composite(c, (px, py)) if px > -cw and px < self.col_w else None
             img.alpha_composite(panel, (x0, PHOTO_TOP))
+        if self.prop and badge > 0.01:
+            pimg, side = self.prop
+            sc = badge * zoom
+            pw, ph = max(1, int(pimg.width * sc)), max(1, int(pimg.height * sc))
+            p = pimg.resize((pw, ph), Image.LANCZOS)
+            cx = (self.col_w - 170) if side == 0 else (self.col_w + 8 + 170)
+            cy = PHOTO_TOP + PHOTO_H - 190
+            img.alpha_composite(p, (cx - pw // 2, cy - ph // 2))
         if dim > 0:
             shade = Image.new("RGBA", (W, PHOTO_H), BG + (int(255 * dim),))
             img.alpha_composite(shade, (0, PHOTO_TOP))

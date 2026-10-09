@@ -60,6 +60,14 @@
      "format": "trial_reel",
      "style": "v2",
      "held": "not scheduled: no Ismael Bonfim photo (silhouette) and the auto-fetched 'Francisco Prado' image is a different person (images/francisco-prado/cutouts/01-perito-...)"
+    },
+    {
+     "post": "2026-10-09-1900-bonfim-burger",
+     "kind": "new",
+     "format": "trial_reel",
+     "style": "v2",
+     "requested_by_user": true,
+     "note": "re-do of the held 1822 post with the user's Bonfim photo and a drawn cheeseburger (user request)"
     }
    ]
   },

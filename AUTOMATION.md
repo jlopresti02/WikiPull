@@ -364,6 +364,12 @@ Writing a v2 post:
   SIGNED"). `hook`: 2-4 words ("Colby vs Prates"). `story`: one own-words
   sentence. `chips`: 2-3 short facts (records, date, event). `options`:
   two 1-2 word answers matching the question.
+- **Props (Oct 9, user request)**: for lighthearted stories a drawn
+  graphic can fill one column instead of a person (`"right": [{"prop":
+  "cheeseburger"}]`) or pop in as a small sticker over a column
+  (`"v2": {"prop": {"type": "cheeseburger", "side": "left"}}`). Only
+  "cheeseburger" exists so far (first used for Bonfim's 7.5 lb miss). Keep
+  props out of serious stories.
 - Mark these in the ledger post entry with `"style": "v2"` so their
   views can be compared with default-format posts.
 

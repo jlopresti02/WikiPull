@@ -488,11 +488,13 @@ def render(spec_path):
     credit_extra = []
     if spec.get("reel") and spec.get("format") == "v2":
         # Reel format v2 (reel_v2.py): two fighters, story card, pick card.
-        from reel_v2 import make_reel_v2
+        from reel_v2 import make_reel_v2, PROPS
         cuts = []
         for side in ("left_subject", "right_subject"):
             sub = spec["v2"].get(side) or {}
-            if sub.get("image"):
+            if sub.get("prop") in PROPS:
+                cuts.append(PROPS[sub["prop"]](900))
+            elif sub.get("image"):
                 with Image.open(ROOT / sub["image"]) as im:
                     cuts.append(im.convert("RGBA"))
             else:

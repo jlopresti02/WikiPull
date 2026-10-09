@@ -182,6 +182,12 @@ def resolve_v2(spec):
         names = v2[side] if isinstance(v2[side], list) else [v2[side]]
         sub = None
         for opt in names:
+            if opt.get("prop"):
+                # a drawn graphic fills this column instead of a person
+                # (reel_v2.PROPS, e.g. "cheeseburger")
+                sub = {"kind": "graphic", "graphic": "prop", "prop": opt["prop"],
+                       "image": None, "credit": None}
+                break
             try:
                 sub = try_visual({"type": "fighter", **opt})
             except Exception as exc:
