@@ -29,7 +29,17 @@
     "options": [
       "CHIMAEV",
       "COVINGTON"
-    ]
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/khamzat-chimaev/cutouts/02-user-khamzat-chimaev-octagon.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/colby-covington/cutouts/06-user-colby-covington-octagon.png",
+      "credit": "WWIT MMA News"
+    }
   },
   "visual": [
     {
@@ -50,5 +60,10 @@
   "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
   "music_start": 164.75,
   "question": "Who wins on the mat?",
-  "follow_card": true
+  "follow_card": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/khamzat-chimaev/cutouts/02-user-khamzat-chimaev-octagon.png",
+    "credit": "WWIT MMA News"
+  }
 }
