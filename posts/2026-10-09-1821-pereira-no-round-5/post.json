@@ -58,6 +58,24 @@
     "options": [
       "PEREIRA",
       "PAVLOVICH"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
+      "credit": "The White House / Public domain"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png",
+      "credit": "Страна FM / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
+    "credit": "The White House / Public domain"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

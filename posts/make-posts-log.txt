@@ -1,22 +1,82 @@
-Searching Wikimedia Commons for: Tim Kennedy (fighter)
-  saved images/tim-kennedy-fighter/01-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.jpg  [CC BY 2.0]
-  saved images/tim-kennedy-fighter/02-robert-patrick-in-captain-uso-mode-with-ufc-fighter-tim-kenn.jpg  [CC BY 2.0]
-  saved images/tim-kennedy-fighter/03-ufc-fighter-tim-kennedy-supports-army-combatives-with-free-s.jpg  [Public domain]
-  saved images/tim-kennedy-fighter/04-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.jpg  [CC BY 2.0]
-  saved images/tim-kennedy-fighter/05-actor-matthew-lillard-actor-robert-patrick-former-nba-player.jpg  [CC BY 2.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-09 17:28:17.368924770 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Brendan Allen
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Brendan Allen
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Brendan Allen (fighter)
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Sergei Pavlovich
+  saved images/sergei-pavlovich/01-sergeipavlovich2018.png  [CC BY 3.0]
+  saved images/sergei-pavlovich/02-sergei-pavlovich-vs-alexander-volkov-face-off.png  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-09 22:11:56.291842157 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/tim-kennedy-fighter/cutouts/01-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.png
-  cutout images/tim-kennedy-fighter/cutouts/02-robert-patrick-in-captain-uso-mode-with-ufc-fighter-tim-kenn.png
-  cutout images/tim-kennedy-fighter/cutouts/03-ufc-fighter-tim-kennedy-supports-army-combatives-with-free-s.png
-  cutout images/tim-kennedy-fighter/cutouts/04-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.png
-  cutout images/tim-kennedy-fighter/cutouts/05-actor-matthew-lillard-actor-robert-patrick-former-nba-player.png
+  cutout images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png
+  cutout images/sergei-pavlovich/cutouts/02-sergei-pavlovich-vs-alexander-volkov-face-off.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Ismael Bonfim
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Francisco Prado
+  saved images/francisco-prado/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.jpg  [CC BY-SA 4.0]
+  saved images/francisco-prado/02-placa-coronel-francisco-prado-aguiar.jpg  [CC BY 3.0 br]
+  saved images/francisco-prado/03-maestro-de-hoogstratenn-san-francisco-prado.jpg  [Public domain]
+  saved images/francisco-prado/04-ribalta-san-francisco-prado.jpg  [Public domain]
+  saved images/francisco-prado/05-capitan-juventino-montiel-sosa-francisco-prado-perito-grafot.jpg  [CC BY-SA 4.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-09 22:14:03.239249358 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png
+  cutout images/francisco-prado/cutouts/02-placa-coronel-francisco-prado-aguiar.png
+  cutout images/francisco-prado/cutouts/03-maestro-de-hoogstratenn-san-francisco-prado.png
+  cutout images/francisco-prado/cutouts/04-ribalta-san-francisco-prado.png
+  cutout images/francisco-prado/cutouts/05-capitan-juventino-montiel-sosa-francisco-prado-perito-grafot.png
 Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Ismael Bonfim
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-09-1330-kennedy-wounded.json
-$ fetch.py Tim Kennedy (fighter) --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tim-kennedy-fighter
-Image: {'type': 'fighter', 'name': 'Tim Kennedy (fighter)'} -> fighter images/tim-kennedy-fighter/cutouts/01-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.png  headline: Kennedy Wounded
-Rendered posts/2026-10-09-1330-kennedy-wounded/post.png (fighter)
-Rendered posts/2026-10-09-1330-kennedy-wounded/reel.mp4 (format serious)
+== 2026-10-09-1820-allen-easier-route.json
+$ fetch.py Brendan Allen --count 5
+Image: {'type': 'fighter', 'name': 'Dricus du Plessis', 'file': '01-img-dricus-duplessis-cropped'} -> fighter images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png  headline: Easier Route
+$ fetch.py Brendan Allen --count 5
+$ fetch.py Brendan Allen (fighter) --count 5
+v2 left: silhouette
+v2 right: images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-09-1820-allen-easier-route/post.png (fighter)
+Rendered posts/2026-10-09-1820-allen-easier-route/reel.mp4 (format v2)
+
+== 2026-10-09-1821-pereira-no-round-5.json
+Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: No Round 5
+v2 left: images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png
+$ fetch.py Sergei Pavlovich --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sergei-pavlovich
+v2 right: images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-09-1821-pereira-no-round-5/post.png (fighter)
+Rendered posts/2026-10-09-1821-pereira-no-round-5/reel.mp4 (format v2)
+
+== 2026-10-09-1822-bonfim-misses-weight.json
+$ fetch.py Ismael Bonfim --count 5
+$ fetch.py Francisco Prado --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/francisco-prado
+Image: {'type': 'fighter', 'name': 'Francisco Prado'} -> fighter images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png  headline: 7.5 Pounds
+$ fetch.py Ismael Bonfim --count 5
+v2 left: silhouette
+v2 right: images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-09-1822-bonfim-misses-weight/post.png (fighter)
+Rendered posts/2026-10-09-1822-bonfim-misses-weight/reel.mp4 (format v2)

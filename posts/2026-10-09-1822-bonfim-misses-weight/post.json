@@ -57,6 +57,25 @@
     "options": [
       "FIGHT ON",
       "CANCEL"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png",
+      "credit": "Francisco Prado Mendoza / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png",
+    "credit": "Francisco Prado Mendoza / CC BY-SA 4.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }

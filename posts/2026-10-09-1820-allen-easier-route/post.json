@@ -61,6 +61,25 @@
     "options": [
       "ALLEN",
       "DDP"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png",
+      "credit": "User:Philippe3017 / CC0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png",
+    "credit": "User:Philippe3017 / CC0"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }
