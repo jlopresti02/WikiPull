@@ -427,6 +427,15 @@ class V2:
         self.col_w = (W - 8) // 2
         self.cuts = []
         for c in (left_cut, right_cut):
+            if c is not None and c.info.get("prop"):
+                # a drawn prop: whole, most of the column wide, lifted off the bar
+                c = c.crop(c.getbbox() or (0, 0, c.width, c.height))
+                sc = self.col_w * 0.86 / c.width
+                c = c.resize((int(c.width * sc), int(c.height * sc)), Image.LANCZOS)
+                lifted = Image.new("RGBA", (c.width, c.height + 230), (0, 0, 0, 0))
+                lifted.alpha_composite(c, (0, 0))
+                self.cuts.append(lifted)
+                continue
             self.cuts.append(fit_cut(c, self.col_w, PHOTO_H) if c is not None
                              else silhouette(self.col_w, PHOTO_H))
         if self.fx:

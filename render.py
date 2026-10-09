@@ -493,7 +493,9 @@ def render(spec_path):
         for side in ("left_subject", "right_subject"):
             sub = spec["v2"].get(side) or {}
             if sub.get("prop") in PROPS:
-                cuts.append(PROPS[sub["prop"]](900))
+                prop_img = PROPS[sub["prop"]](900)
+                prop_img.info["prop"] = True
+                cuts.append(prop_img)
             elif sub.get("image"):
                 with Image.open(ROOT / sub["image"]) as im:
                     cuts.append(im.convert("RGBA"))

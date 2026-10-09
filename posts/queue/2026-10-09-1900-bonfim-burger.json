@@ -1,0 +1,60 @@
+{
+  "story_id": "ufc-vegas-122-weigh-in-misses",
+  "headline": "7.5 Pounds",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ismael Bonfim",
+      "file": "drive-ismael-bonfim"
+    },
+    {
+      "type": "mystery",
+      "headline": "Bonfim 7.5 Over"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Ismael Bonfim missed weight by 7.5 pounds for UFC Vegas 122. 🍔\nFight on or cancel it? 👇\n\nThe lightweight came in at 163.5 for his bout with Francisco Prado, and Brendson Ribeiro and Ketlen Souza also missed. Main event fighters Brendan Allen and Christian Leroy Duncan both made weight. UFC weigh-in news.\n\nWhat should happen?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "IsmaelBonfim",
+    "FranciscoPrado"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Fight on or cancel?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC VEGAS 122 · LIGHTWEIGHT",
+    "kicker": "7.5 LBS HEAVY",
+    "hook": "Bonfim vs Burger",
+    "left": [
+      {
+        "name": "Ismael Bonfim",
+        "file": "drive-ismael-bonfim"
+      }
+    ],
+    "right": [
+      {
+        "prop": "cheeseburger"
+      }
+    ],
+    "story": "Bonfim weighed 163.5 for a 155-pound fight with Francisco Prado, one of three misses on the card.",
+    "chips": [
+      "163.5 LBS",
+      "3 FIGHTERS HEAVY",
+      "ALLEN 186 · DUNCAN 185"
+    ],
+    "question": "Fight on or cancel?",
+    "options": [
+      "FIGHT ON",
+      "CANCEL"
+    ]
+  }
+}
