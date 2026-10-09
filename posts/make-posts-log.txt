@@ -1,13 +1,22 @@
-[0;93m2026-10-09 13:47:39.747439979 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Tim Kennedy (fighter)
+  saved images/tim-kennedy-fighter/01-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.jpg  [CC BY 2.0]
+  saved images/tim-kennedy-fighter/02-robert-patrick-in-captain-uso-mode-with-ufc-fighter-tim-kenn.jpg  [CC BY 2.0]
+  saved images/tim-kennedy-fighter/03-ufc-fighter-tim-kennedy-supports-army-combatives-with-free-s.jpg  [Public domain]
+  saved images/tim-kennedy-fighter/04-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.jpg  [CC BY 2.0]
+  saved images/tim-kennedy-fighter/05-actor-matthew-lillard-actor-robert-patrick-former-nba-player.jpg  [CC BY 2.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-09 17:28:17.368924770 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/gabriel-almeida/cutouts/drive-gabriel-almeida.png
-Done: 1 new cutout(s).
+  cutout images/tim-kennedy-fighter/cutouts/01-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.png
+  cutout images/tim-kennedy-fighter/cutouts/02-robert-patrick-in-captain-uso-mode-with-ufc-fighter-tim-kenn.png
+  cutout images/tim-kennedy-fighter/cutouts/03-ufc-fighter-tim-kennedy-supports-army-combatives-with-free-s.png
+  cutout images/tim-kennedy-fighter/cutouts/04-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.png
+  cutout images/tim-kennedy-fighter/cutouts/05-actor-matthew-lillard-actor-robert-patrick-former-nba-player.png
+Done: 5 new cutout(s).
 
-== 2026-10-09-0922-burns-heel-hooked.json
-Image: {'type': 'fighter', 'name': 'Gilbert Burns', 'file': '01-gilbert-burns-2024'} -> fighter images/gilbert-burns/cutouts/01-gilbert-burns-2024.png  headline: Burns Tapped
-v2 left: images/gilbert-burns/cutouts/01-gilbert-burns-2024.png
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gabriel-almeida
-v2 right: images/gabriel-almeida/cutouts/drive-gabriel-almeida.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-09-0922-burns-heel-hooked/post.png (fighter)
-Rendered posts/2026-10-09-0922-burns-heel-hooked/reel.mp4 (format v2)
+== 2026-10-09-1330-kennedy-wounded.json
+$ fetch.py Tim Kennedy (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tim-kennedy-fighter
+Image: {'type': 'fighter', 'name': 'Tim Kennedy (fighter)'} -> fighter images/tim-kennedy-fighter/cutouts/01-ufc-fighter-tim-kennedy-with-a-soldier-at-camp-bondsteel-051.png  headline: Kennedy Wounded
+Rendered posts/2026-10-09-1330-kennedy-wounded/post.png (fighter)
+Rendered posts/2026-10-09-1330-kennedy-wounded/reel.mp4 (format serious)
