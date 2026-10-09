@@ -10,7 +10,8 @@
     {
       "type": "fighter",
       "name": "Neiman Gracie",
-      "headline": "Gracie vs Arman"
+      "headline": "Gracie vs Arman",
+      "file": "02-neimangracie-adxc"
     },
     {
       "type": "mystery",
@@ -48,7 +49,8 @@
     ],
     "right": [
       {
-        "name": "Neiman Gracie"
+        "name": "Neiman Gracie",
+        "file": "02-neimangracie-adxc"
       }
     ],
     "story": "UFC lightweight contender Arman Tsarukyan wrestles Neiman Gracie at RAF's first Abu Dhabi show.",
@@ -69,8 +71,8 @@
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/neiman-gracie/cutouts/01-marcio-macarrao-stambowsky-neiman-gracie-deborah-gracie.png",
-      "credit": "MacarraBJJ / CC BY-SA 4.0"
+      "image": "images/neiman-gracie/cutouts/02-neimangracie-adxc.png",
+      "credit": "Gjiujitsu / CC0"
     }
   },
   "subject": {
@@ -78,7 +80,7 @@
     "image": "images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png",
     "credit": "inFocus media / CC BY 3.0"
   },
-  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
-  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
-  "music_start": 168.5
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

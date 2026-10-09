@@ -1,19 +1,8 @@
-Searching Wikimedia Commons for: Neiman Gracie
-  saved images/neiman-gracie/01-marcio-macarrao-stambowsky-neiman-gracie-deborah-gracie.jpg  [CC BY-SA 4.0]
-  saved images/neiman-gracie/02-neimangracie-adxc.webp  [CC0]
-Done: 2 image(s) saved.
-[0;93m2026-10-09 02:35:31.138106709 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/neiman-gracie/cutouts/01-marcio-macarrao-stambowsky-neiman-gracie-deborah-gracie.png
-  cutout images/neiman-gracie/cutouts/02-neimangracie-adxc.png
-Done: 2 new cutout(s).
 
 == 2026-10-09-0730-tsarukyan-raf-gracie-v2.json
 Image: {'type': 'fighter', 'name': 'Arman Tsarukyan', 'headline': 'Tsarukyan Wrestles'} -> fighter images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png  headline: Tsarukyan Wrestles
 v2 left: images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png
-$ fetch.py Neiman Gracie --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/neiman-gracie
-v2 right: images/neiman-gracie/cutouts/01-marcio-macarrao-stambowsky-neiman-gracie-deborah-gracie.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+v2 right: images/neiman-gracie/cutouts/02-neimangracie-adxc.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
 Rendered posts/2026-10-09-0730-tsarukyan-raf-gracie-v2/post.png (fighter)
 Rendered posts/2026-10-09-0730-tsarukyan-raf-gracie-v2/reel.mp4 (format v2)
