@@ -1,0 +1,71 @@
+{
+  "story_id": "hokit-rips-volkov-teases-205",
+  "headline": "Never Happening",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Josh Hokit",
+      "file": "drive-josh-hokit-1"
+    },
+    {
+      "type": "fighter",
+      "name": [
+        "Alexander Volkov (fighter)",
+        "Alexander Volkov"
+      ],
+      "file": "02-alexander-volkov-in-m-1-cropped"
+    },
+    {
+      "type": "mystery",
+      "headline": "Hokit vs Volkov"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Josh Hokit says Alexander Volkov will never get his shot.\nHokit or Volkov? 👇\n\nAhead of his UFC heavyweight title fight with Ciryl Gane at UFC 334 at Madison Square Garden on Nov. 14, Hokit called Volkov boring and mocked his finishes, then teased a later move to light heavyweight. It was his answer to Volkov calling him mentally ill. UFC news.\n\nWho's right?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "JoshHokit",
+    "AlexanderVolkov"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Hokit or Volkov?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "PURE BORING?",
+    "hook": "Hokit vs Volkov",
+    "left": [
+      {
+        "name": "Josh Hokit",
+        "file": "drive-josh-hokit-1"
+      }
+    ],
+    "right": [
+      {
+        "name": "Alexander Volkov (fighter)",
+        "file": "02-alexander-volkov-in-m-1-cropped"
+      },
+      {
+        "name": "Alexander Volkov"
+      }
+    ],
+    "story": "Hokit fired back at Volkov's 'mentally ill' jab and says Volkov will never get the chance.",
+    "chips": [
+      "UFC 334 · NOV. 14",
+      "VS. GANE AT MSG",
+      "205 MOVE TEASED"
+    ],
+    "question": "Hokit or Volkov?",
+    "options": [
+      "HOKIT",
+      "VOLKOV"
+    ]
+  }
+}

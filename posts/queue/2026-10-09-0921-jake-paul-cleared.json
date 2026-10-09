@@ -1,0 +1,64 @@
+{
+  "story_id": "jake-paul-medically-cleared-eyes-ufc-stars",
+  "headline": "Paul Cleared",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Jake Paul"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    },
+    {
+      "type": "mystery",
+      "headline": "Paul Cleared"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Jake Paul is cleared to fight again, and Sean Strickland wants in.\nPaul or Strickland? 👇\n\nMVP's Nakisa Bidarian says Paul is medically cleared after the broken jaw from his knockout loss to Anthony Joshua. Paul then floated names like Conor McGregor and Strickland, and the UFC middleweight champ said he'd consider 205 for it. Boxing and MMA news.\n\nWho should Paul fight?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "Boxing",
+    "JakePaul",
+    "SeanStrickland"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Paul or Strickland?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "MVP · BOXING",
+    "kicker": "BACK IN BUSINESS",
+    "hook": "Paul vs Strickland?",
+    "left": [
+      {
+        "name": "Jake Paul"
+      }
+    ],
+    "right": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    ],
+    "story": "Paul is medically cleared after his broken jaw and has the UFC champ on his list.",
+    "chips": [
+      "JAW HEALED",
+      "MCGREGOR ON THE LIST",
+      "STRICKLAND: I'D DO 205"
+    ],
+    "question": "Paul or Strickland?",
+    "options": [
+      "PAUL",
+      "STRICKLAND"
+    ]
+  }
+}
