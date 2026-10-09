@@ -304,6 +304,27 @@ and a `"v2"` block (`tag`, `kicker`, `hook`, `left`, `right`, `story`,
 is Leben vs. Akiyama (Oct 8, 7 PM). Use it only when the user asks until
 they decide whether it replaces the default format.
 
+**v2 test day: Friday, Oct 9 (user request, Oct 8 10 PM run).** Every
+automated news Reel and Trial Reel scheduled to go out on Oct 9 (Eastern)
+uses `"format": "v2"`; results/DWCS carousels stay as they are. From
+Oct 10 on, go back to the default format unless the user says otherwise.
+Writing a v2 post:
+- Keep everything else in the post file as usual (headline, `visual` as a
+  fallback, caption, `question`, 5 hashtags, sources, `trial_reel`), and
+  add the `"v2"` block. `"seconds"` can be left out (v2 is 8 s).
+- `left` = the story's main person, `right` = the other side of the
+  conflict (opponent, the person they called out or answered). Use lists
+  with alternate names, and `"file"` to pick a photo, as in `visual`. For
+  a one-person story, put the most relevant second person on the right
+  (the rival, the champion they want), never Dana as a stand-in.
+- `tag`: promotion + division or event ("UFC · WELTERWEIGHT", "RAF ABU
+  DHABI"). `kicker`: 2-4 words of stakes ("TITLE SHOT NEXT?", "NOT
+  SIGNED"). `hook`: 2-4 words ("Colby vs Prates"). `story`: one own-words
+  sentence. `chips`: 2-3 short facts (records, date, event). `options`:
+  two 1-2 word answers matching the question.
+- Mark these in the ledger post entry with `"style": "v2"` so their
+  views can be compared with default-format posts.
+
 **Headline**: 1 to 3 punchy words, like a sports graphic ("BJP RETURNS",
 "TITLE SHOT", "OUT OF UFC 330"). Match it to the image that will be used
 (see Visual below). Make it emotional and specific, built on the conflict
