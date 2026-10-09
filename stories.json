@@ -25,7 +25,10 @@
      "kind": "new",
      "format": "reel",
      "style": "serious",
-     "requested_by_user": true
+     "requested_by_user": true,
+     "scheduled_for": "2026-10-09T13:45:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1392858521173969740",
+     "image": "serious: Tim Kennedy (Wikimedia, Camp Bondsteel 2016, muted)"
     }
    ]
   },
