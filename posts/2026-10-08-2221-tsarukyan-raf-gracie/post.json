@@ -1,0 +1,47 @@
+{
+  "story_id": "tsarukyan-vs-neiman-gracie-raf-abu-dhabi",
+  "headline": "Tsarukyan Wrestles",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Arman Tsarukyan",
+      "headline": "Tsarukyan Wrestles"
+    },
+    {
+      "type": "fighter",
+      "name": "Neiman Gracie",
+      "headline": "Gracie vs Arman"
+    },
+    {
+      "type": "mystery",
+      "headline": "Tsarukyan vs Gracie"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Arman Tsarukyan is taking on a Gracie in a wrestling match.\nArman or Gracie? 👇\n\nThe UFC lightweight contender faces Neiman Gracie at Real American Freestyle's first Abu Dhabi event on Nov. 14, the card headlined by Colby Covington vs. Khamzat Chimaev. Bella Mir was also added. RAF wrestling news.\n\nWho gets the takedown first?",
+  "hashtags": [
+    "Wrestling",
+    "RAF",
+    "RAFAbuDhabi",
+    "ArmanTsarukyan",
+    "NeimanGracie"
+  ],
+  "sources": [
+    "Yahoo Sports",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "seconds": 5,
+  "question": "Arman or Gracie?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png",
+    "credit": "inFocus media / CC BY 3.0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}

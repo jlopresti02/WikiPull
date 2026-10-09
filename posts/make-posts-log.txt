@@ -1,12 +1,40 @@
+Searching Wikimedia Commons for: Carlos Prates
+  saved images/carlos-prates/01-carlos-prates-2026.jpg  [CC BY 3.0]
+  saved images/carlos-prates/02-luiz-carlos-prates-sept-6th-2020.jpg  [CC0]
+  saved images/carlos-prates/03-2014-06-14-semin-rio-nacional-eleitoral-123-carlos-prates-ma.jpg  [CC BY 2.0]
+  saved images/carlos-prates/04-wpgs-20200911-belohorizonte-carlosprates-082.jpg  [CC BY-SA 4.0]
+  saved images/carlos-prates/05-wpgs-20200911-belohorizonte-carlosprates-135.jpg  [CC BY-SA 4.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-09 02:11:29.284525762 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/carlos-prates/cutouts/01-carlos-prates-2026.png
+  cutout images/carlos-prates/cutouts/02-luiz-carlos-prates-sept-6th-2020.png
+  cutout images/carlos-prates/cutouts/03-2014-06-14-semin-rio-nacional-eleitoral-123-carlos-prates-ma.png
+  cutout images/carlos-prates/cutouts/04-wpgs-20200911-belohorizonte-carlosprates-082.png
+  cutout images/carlos-prates/cutouts/05-wpgs-20200911-belohorizonte-carlosprates-135.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Arman Tsarukyan
+  saved images/arman-tsarukyan/01-arman-tsarukyan-2019.jpg  [CC BY 3.0]
+  saved images/arman-tsarukyan/02-arman-tsarukyan-2026.webp  [CC BY-SA 4.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-09 02:13:54.513111251 [W:onnxruntime:Default, device_discovery.cc:146 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png
+  cutout images/arman-tsarukyan/cutouts/02-arman-tsarukyan-2026.png
+Done: 2 new cutout(s).
 
-== 2026-10-08-1820-colby-truth-hurts.json
-Image: {'type': 'fighter', 'name': 'Colby Covington', 'file': '01-colby-covington-2023'} -> fighter images/colby-covington/cutouts/01-colby-covington-2023.png  headline: Truth Hurts
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-08-1820-colby-truth-hurts/post.png (fighter)
-Rendered posts/2026-10-08-1820-colby-truth-hurts/reel.mp4
+== 2026-10-08-2220-prates-easiest-fight.json
+$ fetch.py Carlos Prates --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/carlos-prates
+Image: {'type': 'fighter', 'name': 'Carlos Prates'} -> fighter images/carlos-prates/cutouts/01-carlos-prates-2026.png  headline: Easiest Fight?
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-08-2220-prates-easiest-fight/post.png (fighter)
+Rendered posts/2026-10-08-2220-prates-easiest-fight/reel.mp4
 
-== 2026-10-08-1821-costa-check-inbox.json
-Image: {'type': 'fighter', 'name': 'Paulo Costa', 'file': 'drive-paulo-costa'} -> fighter images/paulo-costa/cutouts/drive-paulo-costa.png  headline: Check Inbox
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-08-1821-costa-check-inbox/post.png (fighter)
-Rendered posts/2026-10-08-1821-costa-check-inbox/reel.mp4
+== 2026-10-08-2221-tsarukyan-raf-gracie.json
+$ fetch.py Arman Tsarukyan --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/arman-tsarukyan
+Image: {'type': 'fighter', 'name': 'Arman Tsarukyan', 'headline': 'Tsarukyan Wrestles'} -> fighter images/arman-tsarukyan/cutouts/01-arman-tsarukyan-2019.png  headline: Tsarukyan Wrestles
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-08-2221-tsarukyan-raf-gracie/post.png (fighter)
+Rendered posts/2026-10-08-2221-tsarukyan-raf-gracie/reel.mp4
