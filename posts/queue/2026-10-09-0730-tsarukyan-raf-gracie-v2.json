@@ -1,0 +1,68 @@
+{
+  "story_id": "tsarukyan-vs-neiman-gracie-raf-abu-dhabi",
+  "headline": "Tsarukyan Wrestles",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Arman Tsarukyan",
+      "headline": "Tsarukyan Wrestles"
+    },
+    {
+      "type": "fighter",
+      "name": "Neiman Gracie",
+      "headline": "Gracie vs Arman",
+      "file": "02-neimangracie-adxc"
+    },
+    {
+      "type": "mystery",
+      "headline": "Tsarukyan vs Gracie"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Arman Tsarukyan is taking on a Gracie in a wrestling match.\nArman or Gracie? 👇\n\nThe UFC lightweight contender faces Neiman Gracie at Real American Freestyle's first Abu Dhabi event on Nov. 14, the card headlined by Colby Covington vs. Khamzat Chimaev. Bella Mir was also added. RAF wrestling news.\n\nWho gets the takedown first?",
+  "hashtags": [
+    "Wrestling",
+    "RAF",
+    "RAFAbuDhabi",
+    "ArmanTsarukyan",
+    "NeimanGracie"
+  ],
+  "sources": [
+    "Yahoo Sports",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Arman or Gracie?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "RAF ABU DHABI",
+    "kicker": "UFC STAR ON THE MAT",
+    "hook": "Arman vs Gracie",
+    "left": [
+      {
+        "name": "Arman Tsarukyan",
+        "file": "01-arman-tsarukyan-2019"
+      }
+    ],
+    "right": [
+      {
+        "name": "Neiman Gracie",
+        "file": "02-neimangracie-adxc"
+      }
+    ],
+    "story": "UFC lightweight contender Arman Tsarukyan wrestles Neiman Gracie at RAF's first Abu Dhabi show.",
+    "chips": [
+      "NOV. 14",
+      "FREESTYLE WRESTLING",
+      "COLBY VS KHAMZAT CARD"
+    ],
+    "question": "Arman or Gracie?",
+    "options": [
+      "ARMAN",
+      "GRACIE"
+    ]
+  }
+}
