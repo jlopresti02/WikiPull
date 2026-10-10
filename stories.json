@@ -27,7 +27,10 @@
           "post": "2026-10-09-2230-prates-worst-nightmare",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-09T22:35:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7894978628209100772",
+          "image": "Carlos Prates + Islam Makhachev (Wikimedia)"
         }
       ]
     },
