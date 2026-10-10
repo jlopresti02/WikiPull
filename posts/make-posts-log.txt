@@ -1,8 +1,8 @@
 
-== 2026-10-09-1820-allen-easier-route.json
-Image: {'type': 'fighter', 'name': 'Brendan Allen', 'file': 'drive-brendan-allen'} -> fighter images/brendan-allen/cutouts/drive-brendan-allen.png  headline: Easier Route
-v2 left: images/brendan-allen/cutouts/drive-brendan-allen.png
-v2 right: images/dricus-du-plessis/cutouts/01-img-dricus-duplessis-cropped.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-09-1820-allen-easier-route/post.png (fighter)
-Rendered posts/2026-10-09-1820-allen-easier-route/reel.mp4 (format v2)
+== 2026-10-09-2230-prates-worst-nightmare.json
+Image: {'type': 'fighter', 'name': 'Carlos Prates', 'file': '01-carlos-prates-2026'} -> fighter images/carlos-prates/cutouts/01-carlos-prates-2026.png  headline: Worst Nightmare
+v2 left: images/carlos-prates/cutouts/01-carlos-prates-2026.png
+v2 right: images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-09-2230-prates-worst-nightmare/post.png (fighter)
+Rendered posts/2026-10-09-2230-prates-worst-nightmare/reel.mp4 (format v2)

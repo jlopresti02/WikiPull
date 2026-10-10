@@ -1,0 +1,80 @@
+{
+  "story_id": "prates-drunk-callout-makhachev-worst-nightmare",
+  "headline": "Worst Nightmare",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Carlos Prates",
+      "file": "01-carlos-prates-2026"
+    },
+    {
+      "type": "fighter",
+      "name": "Islam Makhachev",
+      "file": "01-islam-makhachev-2022-ufc-belt"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Carlos Prates just called out Islam Makhachev again, drink in hand 🥃\nPrates or Makhachev? 👇\n\nIn a bar video posted Friday, Prates called himself wrestling's worst nightmare while his coach Eric Albarracin vowed he'd dethrone the UFC welterweight champ. Neither man has a fight booked. UFC news.\n\nWho wins?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCWelterweight",
+    "CarlosPrates",
+    "IslamMakhachev"
+  ],
+  "sources": [
+    "MMA Sucka",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Prates or Makhachev?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · WELTERWEIGHT",
+    "kicker": "LIQUID COURAGE?",
+    "hook": "Prates vs Islam",
+    "left": [
+      {
+        "name": "Carlos Prates",
+        "file": "01-carlos-prates-2026"
+      }
+    ],
+    "right": [
+      {
+        "name": "Islam Makhachev",
+        "file": "01-islam-makhachev-2022-ufc-belt"
+      }
+    ],
+    "story": "Prates called out the champ from a bar, calling himself wrestling's worst nightmare.",
+    "chips": [
+      "PRATES 24-7",
+      "ISLAM 29-1 · CHAMP",
+      "NO FIGHT BOOKED"
+    ],
+    "question": "Prates or Makhachev?",
+    "options": [
+      "Prates",
+      "Makhachev"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
+      "credit": "Sexto Round / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png",
+      "credit": "Новости ННТ / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
+    "credit": "Sexto Round / CC BY 3.0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
+}
