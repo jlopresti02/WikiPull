@@ -1,7 +1,8 @@
 # WWIT MMA News automation
 
 This is the runbook the scheduled task follows. It runs 4 times a day
-(9 AM, 1 PM, 6 PM and 10 PM Eastern), every day except Saturday. It turns new MMA news
+(9 AM, 1 PM, 6 PM and 10 PM Eastern), every day, Saturdays included (since Oct 10,
+user request). It turns new MMA news
 into Instagram Reels for **@wwitmma** and schedules them through Metricool.
 Edit this file to change how the automation behaves; the task reads it fresh
 every run.
@@ -35,9 +36,10 @@ PFL, ONE Championship (its own search every run; see the ONE section
 below) and others, fight announcements and bookings,
 injuries and withdrawals, results from events happening now, weigh-ins,
 contracts and signings, notable callouts or controversies). Cover
-everything since the previous run: about 4 to 11 hours, and on the Sunday
-9 AM run everything since Friday 10 PM (all of Saturday, including any
-Saturday-night event results). Use `stories.json` and recent `posts/`
+everything since the previous run: about 4 to 11 hours (the 9 AM run
+covers everything since 10 PM the night before, including any late event
+results). On fight nights, cover weigh-in fallout and early prelim results
+as they land. Use `stories.json` and recent `posts/`
 folders to see what's already covered. Prefer reputable MMA outlets and official sources.
 
 Also run a separate **adjacent combat sports sweep** over the same window
@@ -623,7 +625,7 @@ entry in `stories.json`, commit and push.
 ### 6b. Results carousels (after every UFC event)
 
 The first run after a UFC event finishes (usually the Sunday 9 AM run for
-a Saturday card) also makes one **results carousel**: every result from
+a Saturday card, since the Saturday 10 PM run comes before the main card ends) also makes one **results carousel**: every result from
 the card in one swipeable post, the kind of post people save and share.
 Make it before the Reels, and schedule it **first** (the Reels follow it
 in the usual 30-minute slots). Only one per event: check `stories.json`
