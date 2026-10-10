@@ -1,0 +1,28 @@
+{
+  "story_id": "jon-jones-likely-wont-fight-again",
+  "headline": "Done?",
+  "visual": [
+    {"type": "fighter", "name": "Jon Jones", "file": "01-jon-jones-being-interviewed"},
+    {"type": "fighter", "name": "Tom Aspinall"}
+  ],
+  "color": "#d2202f",
+  "caption": "Jon Jones says he most likely won't fight again, but he isn't closing the door 👀\nRetired or back? 👇\n\nReplying to a fan on X, the former UFC heavyweight champion said he's still in the drug-testing pool and you never know what the future holds. His last fight was the win over Stipe Miocic at UFC 309. MMA news.\n\nWould you want to see him back?",
+  "hashtags": ["MMANews", "UFC", "UFCHeavyweight", "JonJones", "BonesJones"],
+  "sources": ["Last Word on MMA", "MiddleEasy", "Yahoo Sports"],
+  "music_pool": "espn",
+  "question": "Retired or back?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "DOOR STILL OPEN",
+    "hook": "Bones: Done?",
+    "left": [{"name": "Jon Jones", "file": "01-jon-jones-being-interviewed"}],
+    "right": [{"name": "Tom Aspinall"}, {"name": "Stipe Miocic"}, {"name": "Stipe Miočić"}],
+    "story": "Jones says he probably won't fight again, but he's still in the drug-testing pool.",
+    "chips": ["\"MORE THAN LIKELY\" DONE", "STILL DRUG TESTED", "LAST FIGHT: UFC 309"],
+    "question": "Retired or back?",
+    "options": ["Retired", "Back"]
+  }
+}

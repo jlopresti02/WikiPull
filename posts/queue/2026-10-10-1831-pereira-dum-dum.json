@@ -1,0 +1,28 @@
+{
+  "story_id": "pereira-hokit-ufc-334-main-event-spat",
+  "headline": "Dum Dum",
+  "visual": [
+    {"type": "fighter", "name": "Alex Pereira", "file": "drive-alex-pereira-3"},
+    {"type": "fighter", "name": "Josh Hokit", "file": "drive-josh-hokit-1"}
+  ],
+  "color": "#d2202f",
+  "caption": "Alex Pereira says nobody cares about Josh Hokit's title fight, and Hokit is firing back 🔥\nPereira or Hokit? 👇\n\nPereira asked why Kayla Harrison vs. Amanda Nunes isn't headlining UFC 334 over Ciryl Gane vs. Hokit. Hokit answered that Pereira lost his aura and hopes Sergei Pavlovich finishes him at UFC 335. UFC news.\n\nWho wins this war of words?",
+  "hashtags": ["MMANews", "UFC", "UFC334", "AlexPereira", "JoshHokit"],
+  "sources": ["LowKick MMA", "MMA Sucka", "Bloody Elbow"],
+  "music_pool": "espn",
+  "question": "Pereira or Hokit?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 334 · HEAVYWEIGHT",
+    "kicker": "WAR OF WORDS",
+    "hook": "Poatan vs Hokit",
+    "left": [{"name": "Alex Pereira", "file": "drive-alex-pereira-3"}],
+    "right": [{"name": "Josh Hokit", "file": "drive-josh-hokit-1"}],
+    "story": "Pereira says nobody's watching Hokit's title fight. Hokit says Pereira lost his aura.",
+    "chips": ["GANE VS HOKIT: UFC 334", "PEREIRA VS PAVLOVICH: UFC 335", "\"MY NAME DUM DUM\""],
+    "question": "Pereira or Hokit?",
+    "options": ["Pereira", "Hokit"]
+  }
+}

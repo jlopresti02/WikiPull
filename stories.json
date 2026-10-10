@@ -2,6 +2,124 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "chimaev-tells-strickland-stop-whining-injuries",
+      "title": "Khamzat Chimaev tells Sean Strickland to stop whining about injuries",
+      "people": [
+        "Khamzat Chimaev",
+        "Sean Strickland"
+      ],
+      "event": "",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "Strickland posted photos of a groin tear and AC joint separation, said boxing is more money and easier",
+        "Chimaev commented: this happens to all of us, don't be a b*tch, 'this is your champ?'",
+        "Strickland beat Chimaev by split decision at UFC 328 for the middleweight title"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/khamzat-chimaev-mocks-sean-strickland/",
+        "https://bloodyelbow.com/2026/10/10/khamzat-chimaev-tells-sean-strickland-to-stop-whining-about-his-injuries-happens-with-all-of-us/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-1830-chimaev-dont-whine",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "pereira-hokit-ufc-334-main-event-spat",
+      "title": "Pereira questions Gane vs Hokit headlining UFC 334; Hokit: 'My name Dum Dum'",
+      "people": [
+        "Alex Pereira",
+        "Josh Hokit",
+        "Ciryl Gane",
+        "Kayla Harrison",
+        "Amanda Nunes",
+        "Sergei Pavlovich"
+      ],
+      "event": "UFC 334 (Nov 14, MSG) / UFC 335 (Dec 12)",
+      "first_reported": "2026-10-09",
+      "facts": [
+        "Pereira on IG Stories: Harrison vs Nunes should be the UFC 334 main event, not Gane vs Hokit; no one is paying attention to it",
+        "Hokit on X: 'My name Dum Dum. You bring me Gum Gum?'; said Pereira lost his aura, not BMF worthy; hopes Pavlovich ends him",
+        "Oct 10: Hokit mocked Pereira for being co-main under the BMF title fight at UFC 335",
+        "Pereira vs Pavlovich is the five-round co-main of UFC 335"
+      ],
+      "sources": [
+        "https://www.lowkickmma.com/my-name-dum-dum-you-bring-me-gum-gum-josh-hokit-responds-after-alex-pereira-questions-ufc-334-main-event/",
+        "https://mmasucka.com/news/alex-pereira-has-found-a-new-way-to-mock-ciryl-gane-and-josh-hokit/",
+        "https://bloodyelbow.com/2026/10/10/josh-hokit-mocks-alex-pereira-for-being-co-main-event-to-the-bmf-title-as-war-of-words-continues/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-1831-pereira-dum-dum",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "jon-jones-likely-wont-fight-again",
+      "title": "Jon Jones says he more than likely won't fight again, still in testing pool",
+      "people": [
+        "Jon Jones",
+        "Tom Aspinall",
+        "Stipe Miocic"
+      ],
+      "event": "",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "On X, replying to a fan: 'More than likely, I won't fight again, but as of right now I'm still getting drug tested'",
+        "'Leaving doors open, you never know what the future holds'",
+        "Last fight: def. Stipe Miocic at UFC 309; retired June 2025"
+      ],
+      "sources": [
+        "https://lastwordonsports.com/mma/2026/10/10/jon-jones-ufc-future-uncertain/",
+        "https://middleeasy.com/mma-news/jon-jones-leaves-door-open-ufc-return-drug-testing-pool/",
+        "https://sports.yahoo.com/articles/jon-jones-admits-may-never-202610006.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-1832-jones-done",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "michael-page-signs-misfits-boxing",
+      "title": "Michael 'Venom' Page signs with Misfits Boxing after UFC exit",
+      "sport": "boxing",
+      "people": [
+        "Michael Page",
+        "KSI",
+        "Mams Taylor"
+      ],
+      "event": "Misfits 30, London, Oct 10",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "Announced in the ring at Misfits 30 in London with KSI",
+        "UFC did not re-sign Page after his Sept 2026 win at UFC Paris; went 5-1 in UFC; 26-3 MMA, 2-0 boxing",
+        "No opponent, date or terms announced"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-bellator-vet-michael-venom-213548681.html",
+        "https://www.lowkickmma.com/michael-page-misfits-boxing-signing/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-1833-mvp-misfits",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "pereira-streamer-confrontation-misfits-london",
       "title": "Streamer insults Alex Pereira to his face at Misfits weigh-ins; Goddard blasts him",
       "people": [
