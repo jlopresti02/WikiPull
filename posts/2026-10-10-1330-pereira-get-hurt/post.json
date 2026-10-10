@@ -9,7 +9,8 @@
     },
     {
       "type": "fighter",
-      "name": "Marc Goddard"
+      "name": "Sergei Pavlovich",
+      "file": "01-sergeipavlovich2018"
     }
   ],
   "color": "#d2202f",
@@ -43,10 +44,8 @@
     ],
     "right": [
       {
-        "name": "Marc Goddard"
-      },
-      {
-        "name": "Sergei Pavlovich"
+        "name": "Sergei Pavlovich",
+        "file": "01-sergeipavlovich2018"
       }
     ],
     "story": "A streamer insulted Pereira to his face and demanded a fight. His camp: you're gonna get hurt.",
@@ -67,8 +66,8 @@
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/marc-goddard/cutouts/01-tide-mill-storm.png",
-      "credit": "Marc Goddard / CC BY-SA 3.0"
+      "image": "images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png",
+      "credit": "Страна FM / CC BY 3.0"
     }
   },
   "subject": {
@@ -76,7 +75,7 @@
     "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
     "credit": "The White House / Public domain"
   },
-  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
-  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
-  "music_start": 164.75
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }

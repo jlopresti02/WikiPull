@@ -1,26 +1,8 @@
-Searching Wikimedia Commons for: Marc Goddard
-  No file names matched; falling back to looser results.
-  saved images/marc-goddard/01-tide-mill-storm.jpg  [CC BY-SA 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-10 17:19:04.377120920 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/marc-goddard/cutouts/01-tide-mill-storm.png
-Done: 1 new cutout(s).
 
 == 2026-10-10-1330-pereira-get-hurt.json
 Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Get Hurt
 v2 left: images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png
-$ fetch.py Marc Goddard --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/marc-goddard
-v2 right: images/marc-goddard/cutouts/01-tide-mill-storm.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+v2 right: images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
 Rendered posts/2026-10-10-1330-pereira-get-hurt/post.png (fighter)
 Rendered posts/2026-10-10-1330-pereira-get-hurt/reel.mp4 (format v2)
-
-== 2026-10-10-1331-strickland-sign-this.json
-Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Sign This
-v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
-v2 right: images/nassourdine-imavov/cutouts/02-nassourdine-imavov-2024.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-10-1331-strickland-sign-this/post.png (fighter)
-Rendered posts/2026-10-10-1331-strickland-sign-this/reel.mp4 (format v2)
