@@ -28,7 +28,10 @@
           "post": "2026-10-10-1330-pereira-get-hurt",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-10T14:05:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3694161534158878310",
+          "image": "Pereira cutout (left), Sergei Pavlovich (right)"
         }
       ]
     },
@@ -403,7 +406,10 @@
           "post": "2026-10-10-1331-strickland-sign-this",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-10T13:35:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4159128010356797586",
+          "image": "Strickland Drive photo with belt (left), Imavov (right)"
         }
       ]
     },
