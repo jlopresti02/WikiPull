@@ -1,81 +1,8 @@
-Searching Wikimedia Commons for: Tom Aspinall
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Stipe Miocic
-  saved images/stipe-miocic/01-stipe-miocic-48086643396-cropped.jpg  [CC BY 2.0]
-  saved images/stipe-miocic/02-stipe-miocic-in-cleveland-on-october-26-2016-cropped.jpg  [CC BY 2.0]
-  saved images/stipe-miocic/03-stipe-miocic-48086547846-cropped.jpg  [CC BY 2.0]
-  saved images/stipe-miocic/04-myles-garrett-and-stipe-miocic-48086798842.jpg  [CC BY 2.0]
-  saved images/stipe-miocic/05-stipe-miocic-48086682673.jpg  [CC BY 2.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-10 22:45:03.984306271 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/stipe-miocic/cutouts/01-stipe-miocic-48086643396-cropped.png
-  cutout images/stipe-miocic/cutouts/02-stipe-miocic-in-cleveland-on-october-26-2016-cropped.png
-  cutout images/stipe-miocic/cutouts/03-stipe-miocic-48086547846-cropped.png
-  cutout images/stipe-miocic/cutouts/04-myles-garrett-and-stipe-miocic-48086798842.png
-  cutout images/stipe-miocic/cutouts/05-stipe-miocic-48086682673.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Michael Page
-  saved images/michael-page/01-michael-page.png  [CC0]
-Done: 1 image(s) saved.
-[0;93m2026-10-10 22:46:37.501213048 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/michael-page/cutouts/01-michael-page.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: KSI
-  saved images/ksi/01-the-globular-cluster-47-tu.jpg  [CC BY 3.0]
-  saved images/ksi/02-ksi2019.jpg  [CC BY-SA 3.0]
-  saved images/ksi/03-jj-olatunji-ksi-1.jpg  [CC BY 3.0]
-  saved images/ksi/04-ksi-goes-shooting-crop.jpg  [CC BY 2.0]
-  saved images/ksi/05-iwan-cronk-next-to-ksi.jpg  [CC0]
-Done: 5 image(s) saved.
-[0;93m2026-10-10 22:47:03.331720925 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/ksi/cutouts/01-the-globular-cluster-47-tu.png
-  cutout images/ksi/cutouts/02-ksi2019.png
-  cutout images/ksi/cutouts/03-jj-olatunji-ksi-1.png
-  cutout images/ksi/cutouts/04-ksi-goes-shooting-crop.png
-  cutout images/ksi/cutouts/05-iwan-cronk-next-to-ksi.png
-Done: 5 new cutout(s).
-
-== 2026-10-10-1830-chimaev-dont-whine.json
-Image: {'type': 'fighter', 'name': 'Khamzat Chimaev'} -> fighter images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png  headline: Don't Whine
-v2 left: images/khamzat-chimaev/cutouts/01-adam-shamsiev-and-khamzat-chimaev.png
-v2 right: images/sean-strickland/cutouts/drive-sean-strickland.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-10-1830-chimaev-dont-whine/post.png (fighter)
-Rendered posts/2026-10-10-1830-chimaev-dont-whine/reel.mp4 (format v2)
-
-== 2026-10-10-1831-pereira-dum-dum.json
-Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': 'drive-alex-pereira-3'} -> fighter images/alex-pereira/cutouts/drive-alex-pereira-3.png  headline: Dum Dum
-v2 left: images/alex-pereira/cutouts/drive-alex-pereira-3.png
-v2 right: images/josh-hokit/cutouts/drive-josh-hokit-1.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-10-1831-pereira-dum-dum/post.png (fighter)
-Rendered posts/2026-10-10-1831-pereira-dum-dum/reel.mp4 (format v2)
-
-== 2026-10-10-1832-jones-done.json
-Image: {'type': 'fighter', 'name': 'Jon Jones', 'file': '01-jon-jones-being-interviewed'} -> fighter images/jon-jones/cutouts/01-jon-jones-being-interviewed.png  headline: Done?
-v2 left: images/jon-jones/cutouts/01-jon-jones-being-interviewed.png
-$ fetch.py Tom Aspinall --count 5
-$ fetch.py Stipe Miocic --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/stipe-miocic
-v2 right: images/stipe-miocic/cutouts/01-stipe-miocic-48086643396-cropped.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-10-1832-jones-done/post.png (fighter)
-Rendered posts/2026-10-10-1832-jones-done/reel.mp4 (format v2)
 
 == 2026-10-10-1833-mvp-misfits.json
-$ fetch.py Michael Page --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/michael-page
 Image: {'type': 'fighter', 'name': 'Michael Page', 'file': '01-michael-page'} -> fighter images/michael-page/cutouts/01-michael-page.png  headline: MVP To Misfits
 v2 left: images/michael-page/cutouts/01-michael-page.png
-$ fetch.py KSI --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ksi
-v2 right: images/ksi/cutouts/01-the-globular-cluster-47-tu.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
+v2 right: images/ksi/cutouts/03-jj-olatunji-ksi-1.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
 Rendered posts/2026-10-10-1833-mvp-misfits/post.png (fighter)
 Rendered posts/2026-10-10-1833-mvp-misfits/reel.mp4 (format v2)

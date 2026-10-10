@@ -9,7 +9,8 @@
     },
     {
       "type": "fighter",
-      "name": "KSI"
+      "name": "KSI",
+      "file": "03-jj-olatunji-ksi-1"
     }
   ],
   "color": "#6b2fd1",
@@ -33,7 +34,7 @@
   "format": "v2",
   "v2": {
     "tag": "MISFITS BOXING · LONDON",
-    "kicker": "UFC EXIT → MISFITS",
+    "kicker": "FROM UFC TO MISFITS",
     "hook": "MVP x KSI",
     "left": [
       {
@@ -43,10 +44,8 @@
     ],
     "right": [
       {
-        "name": "KSI"
-      },
-      {
-        "name": "KSI (YouTuber)"
+        "name": "KSI",
+        "file": "03-jj-olatunji-ksi-1"
       }
     ],
     "story": "Released by the UFC, MVP signed with KSI's Misfits Boxing at Misfits 30 in London.",
@@ -67,8 +66,8 @@
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/ksi/cutouts/01-the-globular-cluster-47-tu.png",
-      "credit": "ESO / CC BY 3.0"
+      "image": "images/ksi/cutouts/03-jj-olatunji-ksi-1.png",
+      "credit": "Gymshark / CC BY 3.0"
     }
   },
   "subject": {
@@ -76,7 +75,7 @@
     "image": "images/michael-page/cutouts/01-michael-page.png",
     "credit": "Amoby / CC0"
   },
-  "music": "music/action-sport/03-acrobat.mp3",
-  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
-  "music_start": 158.75
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }
