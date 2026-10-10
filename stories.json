@@ -24,7 +24,10 @@
           "post": "2026-10-10-1830-chimaev-dont-whine",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "image": "v2: Khamzat Chimaev (Wikimedia, with Adam Shamsiev) vs Sean Strickland (Drive drive-sean-strickland)",
+          "scheduled_for": "2026-10-10T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1543567059278710362"
         }
       ]
     },
@@ -57,7 +60,10 @@
           "post": "2026-10-10-1831-pereira-dum-dum",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "image": "v2: Alex Pereira (Drive drive-alex-pereira-3) vs Josh Hokit (Drive drive-josh-hokit-1)",
+          "scheduled_for": "2026-10-10T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2761154868572471997"
         }
       ]
     },
@@ -86,7 +92,10 @@
           "post": "2026-10-10-1832-jones-done",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "image": "v2: Jon Jones (Wikimedia) vs Stipe Miocic (Wikimedia; no Aspinall photo found)",
+          "scheduled_for": "2026-10-10T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7765111729349046335"
         }
       ]
     },
@@ -115,7 +124,10 @@
           "post": "2026-10-10-1833-mvp-misfits",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "image": "v2: Michael Page (Wikimedia, action shot) vs KSI (Wikimedia 03-jj-olatunji-ksi-1)",
+          "scheduled_for": "2026-10-10T20:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5979693338166735819"
         }
       ]
     },
