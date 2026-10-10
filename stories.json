@@ -2,6 +2,37 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "pereira-streamer-confrontation-misfits-london",
+      "title": "Streamer insults Alex Pereira to his face at Misfits weigh-ins; Goddard blasts him",
+      "people": [
+        "Alex Pereira",
+        "Maciej Płaczek",
+        "Marc Goddard",
+        "Plinio Cruz"
+      ],
+      "event": "Misfits Boxing weigh-ins, London",
+      "first_reported": "2026-10-09",
+      "facts": [
+        "Polish Kick streamer Maciej Płaczek (MaciejMP) approached Pereira at Misfits Boxing weigh-ins in London (Oct 9), demanded a UFC fight and called him a 'b*tch boy'",
+        "Pereira camp (per @HappyPunch clip): 'Are you okay? You're gonna get hurt for no reason. Go play somewhere else.' Security removed the streamer and cameraman",
+        "Referee Marc Goddard on X (Oct 9): 'What an absolute sh*t stain of a boy', called for zero tolerance for disrespect disguised as a prank",
+        "Pereira faces Sergei Pavlovich at UFC 335, Dec 12"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/veteran-referee-slams-streamer-who-called-alex-pereira-a-btch-in-viral-prank/",
+        "https://www.sickchirpse.com/streamer-calls-ufc-fighter-alex-pereira-a-b-at-misfits-boxing-weigh-ins-in-london/",
+        "https://bloodyelbow.com/2026/10/10/streamer-calls-out-alex-pereira-to-his-face-and-gets-put-in-his-place-youre-gonna-get-hurt/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-1330-pereira-get-hurt",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "prates-drunk-callout-makhachev-worst-nightmare",
       "title": "Carlos Prates calls out Islam Makhachev in bar video: 'wrestling's worst nightmare'",
       "people": [
@@ -338,14 +369,18 @@
         "'McGregor makes 30 million to fight for 30 second and they dont want to pay us a fraction of it'; 'kinda over it'",
         "Nothing decided; depends on UFC changing his pay. Expected to face Imavov next (Jan 2027 at earliest)",
         "Related: chimaev-offers-strickland-1m-rematch",
-        "UPDATE 2026-10-08: Jake Paul responded to Strickland's threat to vacate and box him, asking 'Are you out of contract?' (Sportskeeda, Bloody Elbow, Yahoo/Athlon)"
+        "UPDATE 2026-10-08: Jake Paul responded to Strickland's threat to vacate and box him, asking 'Are you out of contract?' (Sportskeeda, Bloody Elbow, Yahoo/Athlon)",
+        "UPDATE 2026-10-09/10: MMA Junkie's Mike Bohn reported Strickland signed a six-fight UFC deal before UFC 328, earning over $1M per fight ($400K/$400K rumors false); Strickland replied on X: 'Sign this or we wont do this lol they act like you have any power in this sport'"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/sean-strickland-ponders-vacating-ufc-220703822.html",
         "https://bloodyelbow.com/2026/10/07/sean-strickland-debating-not-re-signing-with-ufc-over-pay-dispute-im-kinda-over-it/",
         "https://bloodyelbow.com/2026/10/08/jake-paul-sends-message-to-sean-strickland-amid-ufc-pay-dispute-and-plan-to-vacate-his-title/",
         "https://www.sportskeeda.com/mma/news-are-contract-jake-paul-responds-sean-strickland-s-threats-leaving-ufc-fighting-the-problem-child",
-        "https://sports.yahoo.com/articles/jake-paul-responds-sean-strickland-005602347.html"
+        "https://sports.yahoo.com/articles/jake-paul-responds-sean-strickland-005602347.html",
+        "https://www.mmanews.com/article/sean-strickland-reported-six-fight-ufc-deal-exit-threat",
+        "https://www.lowkickmma.com/sean-strickland-says-ufc-forced-him-into-new-deal-before-ufc-328-title-fight/",
+        "https://bloodyelbow.com/2026/10/10/sean-strickland-claims-he-was-strong-armed-into-new-ufc-deal-amid-fresh-contract-talks/"
       ],
       "posts": [
         {
@@ -363,6 +398,12 @@
           "scheduled_for": "2026-10-08T13:30:00-04:00",
           "image": "fighter photo (Sean Strickland, Drive, with belt)",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2414605265603706006"
+        },
+        {
+          "post": "2026-10-10-1331-strickland-sign-this",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
         }
       ]
     },
