@@ -34,8 +34,8 @@
   "format": "v2",
   "v2": {
     "tag": "MISFITS · LONDON",
-    "kicker": "WRONG GUY",
-    "hook": "Streamer vs Poatan",
+    "kicker": "STREAMER TRIED IT",
+    "hook": "Poatan Unbothered",
     "left": [
       {
         "name": "Alex Pereira",
@@ -50,9 +50,9 @@
     ],
     "story": "A streamer insulted Pereira to his face and demanded a fight. His camp: you're gonna get hurt.",
     "chips": [
+      "NEXT: PAVLOVICH · UFC 335",
       "SECURITY STEPPED IN",
-      "GODDARD BLASTS STREAMER",
-      "PEREIRA NEXT: UFC 335"
+      "GODDARD BLASTS STREAMER"
     ],
     "question": "Brave or dumb?",
     "options": [
@@ -75,7 +75,7 @@
     "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
     "credit": "The White House / Public domain"
   },
-  "music": "music/news-intro/01-intro-a-new-song.mp3",
-  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
-  "music_start": 22.25
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

@@ -3,6 +3,6 @@
 Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Get Hurt
 v2 left: images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png
 v2 right: images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
 Rendered posts/2026-10-10-1330-pereira-get-hurt/post.png (fighter)
 Rendered posts/2026-10-10-1330-pereira-get-hurt/reel.mp4 (format v2)
