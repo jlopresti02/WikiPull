@@ -1,8 +1,21 @@
-
-== 2026-10-10-1330-pereira-get-hurt.json
-Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Get Hurt
-v2 left: images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png
-v2 right: images/sergei-pavlovich/cutouts/01-sergeipavlovich2018.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-10-1330-pereira-get-hurt/post.png (fighter)
-Rendered posts/2026-10-10-1330-pereira-get-hurt/reel.mp4 (format v2)
+[0;93m2026-10-10 22:08:11.008619494 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/alex-pereira/cutouts/drive-alex-pereira-2.png
+  cutout images/alex-pereira/cutouts/drive-alex-pereira-3.png
+  cutout images/alex-pereira/cutouts/drive-alex-pereira.png
+Done: 3 new cutout(s).
+[0;93m2026-10-10 22:09:50.197311595 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/sergei-pavlovich/cutouts/drive-sergei-pavlovich-2.png
+  cutout images/sergei-pavlovich/cutouts/drive-sergei-pavlovich-3.png
+  cutout images/sergei-pavlovich/cutouts/drive-sergei-pavlovich.png
+Done: 3 new cutout(s).
+Drive: saved images/sergei-pavlovich/drive-sergei-pavlovich.jpg
+Drive: saved images/sergei-pavlovich/drive-sergei-pavlovich-2.jpg
+Drive: saved images/sergei-pavlovich/drive-sergei-pavlovich-3.jpg
+Drive: saved images/alex-pereira/drive-alex-pereira.jpg
+Drive: saved images/alex-pereira/drive-alex-pereira-2.jpg
+Drive: saved images/alex-pereira/drive-alex-pereira-3.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/alex-pereira
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sergei-pavlovich
+Queue is empty.
