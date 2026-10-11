@@ -207,6 +207,74 @@ class Segmenter:
         return cv2.resize(pred, (w, h), interpolation=cv2.INTER_LINEAR)
 
 
+class PersonDetector:
+    """YOLO instance segmentation (ultralytics), used to pick the fighters:
+    every person gets their own mask, so the crowd, the referee and the cage
+    can be told apart from the two people we want."""
+
+    def __init__(self, model=None):
+        from ultralytics import YOLO
+        self.model = YOLO(model or os.environ.get("SKETCH_YOLO", "yolo11s-seg.pt"))
+
+    def people(self, rgb):
+        """[(mask bool HxW, box (x0,y0,x1,y1), conf)] for each person."""
+        h, w = rgb.shape[:2]
+        r = self.model.predict(rgb[..., ::-1], imgsz=640, conf=0.35, classes=[0], verbose=False,
+                               retina_masks=False)[0]
+        out = []
+        if r.masks is None:
+            return out
+        md = r.masks.data.cpu().numpy()
+        for i in range(len(md)):
+            m = cv2.resize(md[i], (w, h), interpolation=cv2.INTER_LINEAR) > 0.5
+            out.append((m, r.boxes.xyxy[i].cpu().numpy(), float(r.boxes.conf[i])))
+        return out
+
+
+def _iou(a, b):
+    x0, y0 = max(a[0], b[0]), max(a[1], b[1])
+    x1, y1 = min(a[2], b[2]), min(a[3], b[3])
+    inter = max(0, x1 - x0) * max(0, y1 - y0)
+    ua = (a[2] - a[0]) * (a[3] - a[1]) + (b[2] - b[0]) * (b[3] - b[1]) - inter
+    return inter / ua if ua > 0 else 0
+
+
+def select_fighters(frames, k, det):
+    """Per frame, the union mask of the k people most likely to be the
+    fighters: big, not in a dark shirt (the referee), and consistent with
+    who was picked in the previous frame."""
+    sel_masks, prev = [], []
+    for i, f in enumerate(frames):
+        people = det.people(f)
+        v = cv2.cvtColor(f, cv2.COLOR_RGB2HSV)[..., 2]
+        scored = []
+        for m, box, conf in people:
+            area = m.sum()
+            if area < 0.004 * m.size:
+                continue
+            # torso darkness: the referee wears a black shirt, fighters don't
+            ys = np.nonzero(m)[0]
+            top, bot = ys.min(), ys.max()
+            torso = m.copy()
+            torso[: int(top + 0.18 * (bot - top))] = False
+            torso[int(top + 0.55 * (bot - top)):] = False
+            dark = (v[torso] < 70).mean() if torso.any() else 0
+            sc = area * conf * (0.2 if dark > 0.55 else 1.0)
+            if prev and max(_iou(box, p) for p in prev) > 0.3:
+                sc *= 1.6
+            scored.append((sc, m, box))
+        scored.sort(key=lambda x: -x[0])
+        chosen = scored[:k]
+        union = np.zeros(f.shape[:2], bool)
+        for _, m, _ in chosen:
+            union |= m
+        sel_masks.append(union)
+        prev = [b for _, _, b in chosen] or prev
+        if i % 24 == 0:
+            print(f"sketch: picked fighters in {i + 1}/{len(frames)} frames ({len(people)} people seen)")
+    return np.stack(sel_masks)
+
+
 def keep_biggest(mask, k, min_frac=0.004, rgb=None):
     """Keep the k most fighter-like blobs (biggest, and not mostly dark: a
     referee in a black shirt scores low), drop the rest."""
@@ -227,7 +295,7 @@ def keep_biggest(mask, k, min_frac=0.004, rgb=None):
     return np.isin(lab, keep)
 
 
-def fighter_masks(frames, k, seg=None, priors=None):
+def fighter_masks(frames, k, seg=None, priors=None, strict=False):
     """Binary fighter masks per frame. `priors` (optional, same shape) limits
     each frame to blobs that overlap the fighters found in a first pass."""
     seg = seg or Segmenter()
@@ -249,10 +317,21 @@ def fighter_masks(frames, k, seg=None, priors=None):
         m = cv2.morphologyEx(m, cv2.MORPH_OPEN, kernel)
         m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, kernel, iterations=2)
         if priors is not None:
-            pr = cv2.dilate(priors[len(masks)].astype(np.uint8), np.ones((15, 15), np.uint8)).astype(bool)
-            n_, cc_, _, _ = cv2.connectedComponentsWithStats(m, 8)
-            hit = np.unique(cc_[pr & (cc_ > 0)])
-            m = np.isin(cc_, hit).astype(np.uint8)
+            g = priors[len(masks)].astype(np.uint8)
+            if strict:
+                # instance masks from the person detector: only keep the
+                # segmenter's pixels near the chosen fighters (no crowd, no
+                # cage, no referee); fall back to the detector's own mask
+                pr = cv2.dilate(g, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (21, 21))).astype(bool)
+                m = (m.astype(bool) & pr)
+                if m.sum() < 0.5 * g.sum():
+                    m = cv2.GaussianBlur(g * 255, (0, 0), 3) > 127
+                m = m.astype(np.uint8)
+            else:
+                pr = cv2.dilate(g, np.ones((15, 15), np.uint8)).astype(bool)
+                n_, cc_, _, _ = cv2.connectedComponentsWithStats(m, 8)
+                hit = np.unique(cc_[pr & (cc_ > 0)])
+                m = np.isin(cc_, hit).astype(np.uint8)
         m = keep_biggest(m, k, rgb=frames[len(masks)])
         m = fill_holes(m)
         masks.append(m)
@@ -359,7 +438,7 @@ def draw_frame(rgb, mask, scale, colors=True, line_px=3):
     return canvas
 
 
-def follow_boxes(masks, aspect, pad=0.07, smooth_s=0.8, fps=12, min_h_frac=0.45):
+def follow_boxes(masks, aspect, pad=0.12, smooth_s=0.8, fps=12, min_h_frac=0.45):
     """A crop box per frame that follows the fighters like a slow camera:
     the kept blobs' bounding box, gaps filled, smoothed over ~smooth_s
     seconds, padded and widened to the panel's aspect ratio (w/h)."""
@@ -375,6 +454,14 @@ def follow_boxes(masks, aspect, pad=0.07, smooth_s=0.8, fps=12, min_h_frac=0.45)
     idx = np.arange(n)
     for c in range(4):
         raw[:, c] = np.interp(idx, idx[ok], raw[ok, c])
+    # hold each edge at its widest over ~0.6 s so fast moves stay in frame
+    r_ = max(1, int(0.3 * fps))
+    held = raw.copy()
+    for i in range(n):
+        a, b = max(0, i - r_), min(n, i + r_ + 1)
+        held[i, 0], held[i, 1] = raw[a:b, 0].min(), raw[a:b, 1].min()
+        held[i, 2], held[i, 3] = raw[a:b, 2].max(), raw[a:b, 3].max()
+    raw = held
     cx, cy = (raw[:, 0] + raw[:, 2]) / 2, (raw[:, 1] + raw[:, 3]) / 2
     bw, bh = (raw[:, 2] - raw[:, 0]) * (1 + 2 * pad), (raw[:, 3] - raw[:, 1]) * (1 + 2 * pad)
     bh = np.maximum(bh, np.maximum(bw / aspect, min_h_frac * h))
@@ -553,25 +640,43 @@ def make_sketch_video(src, out_dir, cfg=None, music=None, music_start=0.0):
             th.append(t_)
         rows = [np.hstack(th[r * 4:(r + 1) * 4]) for r in range(3)]
         Image.fromarray(np.vstack(rows)).save(out_dir / "source.jpg", quality=80)
-        m_small = fighter_masks(small, k, seg)
-        if not m_small.any():
-            raise RuntimeError("no fighters found in the clip")
+        det = None
+        try:
+            det = PersonDetector()
+        except Exception as exc:  # ultralytics missing: segmentation only
+            print(f"sketch: person detector unavailable ({exc}); using segmentation only")
         proc_w = 720
         proc_h = int(round(proc_w * panel_h / panel_w / 2)) * 2
-        if cfg.get("crop"):  # manual fixed box, source pixels [x0, y0, x1, y1]
-            frames = read_frames(path, fps, start, end, proc_w=proc_w, crop=tuple(cfg["crop"]), out_h=proc_h)
+        big_w = min(src_w, 1440)
+        big = read_frames(path, fps, start, end, proc_w=big_w)
+        if det is not None:
+            guide_big = select_fighters(big, k, det)
+            m_small = np.stack([cv2.resize(g.astype(np.uint8), (small.shape[2], small.shape[1]),
+                                           interpolation=cv2.INTER_NEAREST).astype(bool) for g in guide_big])
         else:
-            boxes = follow_boxes(m_small, panel_w / panel_h, pad=float(cfg.get("pad", 0.07)), fps=fps)
-            # pass 2: re-read at a higher resolution and crop each frame to its box
-            big_w = min(src_w, 1440)
-            big = read_frames(path, fps, start, end, proc_w=big_w)
-            f = big_w / small.shape[2]
-            n_ = min(len(big), len(boxes))
-            frames = np.stack([crop_frame(big[i], boxes[i] * f, proc_w, proc_h) for i in range(n_)])
+            guide_big = None
+            m_small = fighter_masks(small, k, seg)
+        if not m_small.any():
+            raise RuntimeError("no fighters found in the clip")
+        n_ = min(len(big), len(m_small))
+        if cfg.get("crop"):  # manual fixed box, source pixels [x0, y0, x1, y1]
+            sx = big_w / src_w
+            boxes = np.tile(np.array(cfg["crop"], float) * sx / (big_w / small.shape[2]), (n_, 1))
+        else:
+            boxes = follow_boxes(m_small, panel_w / panel_h, pad=float(cfg.get("pad", 0.12)), fps=fps)
+        f = big_w / small.shape[2]
+        frames = np.stack([crop_frame(big[i], boxes[i] * f, proc_w, proc_h) for i in range(n_)])
+        if guide_big is not None:
+            priors = np.stack([crop_frame(guide_big[i].astype(np.uint8) * 255, boxes[i] * f, proc_w, proc_h) > 127
+                               for i in range(n_)])
+        else:
             priors = np.stack([crop_frame(m_small[i].astype(np.uint8) * 255, boxes[i], proc_w, proc_h) > 127
                                for i in range(n_)])
-            del big
-        masks = fighter_masks(frames, k, seg, priors if not cfg.get("crop") else None)
+        del big
+        if cfg.get("mirror"):
+            frames = frames[:, :, ::-1].copy()
+            priors = priors[:, :, ::-1].copy()
+        masks = fighter_masks(frames, k, seg, priors, strict=guide_big is not None)
         drawings = []
         for i, (fr, m) in enumerate(zip(frames, masks)):
             art = draw_frame(fr, m, panel_w / proc_w, cfg.get("colors", True))

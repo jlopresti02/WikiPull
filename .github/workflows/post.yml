@@ -46,6 +46,10 @@ jobs:
       - name: Install tools
         run: |
           pip install --quiet "rembg[cpu]" opencv-python-headless pillow numpy
+          if ls posts/queue/*.json >/dev/null 2>&1 && grep -lq '"format": "sketch"' posts/queue/*.json; then
+            pip install --quiet torch torchvision --index-url https://download.pytorch.org/whl/cpu
+            pip install --quiet ultralytics
+          fi
           which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
 
       - name: Fetch music
