@@ -1,19 +1,24 @@
-[0;93m2026-10-11 01:52:52.957768221 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-11 02:01:56.109791079 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 
-== 2026-10-10-2152-sketch-sketch-test-3.json
-Image: {'type': 'text'} -> none   headline: Sketch test 3
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-10-2152-sketch-sketch-test-3/post.png (none)
+== 2026-10-10-2201-sketch-sketch-test-4.json
+Image: {'type': 'text'} -> none   headline: Sketch test 4
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-10-2201-sketch-sketch-test-4/post.png (none)
 sketch: downloaded Drive video 1C1B2KrG7h65HZGVhVVT9lmVvnR5LXPi7 (28884 KB)
+sketch: downloading u2net_human_seg model
 sketch: 180 frames at 12 fps (15.0s)
-sketch: segmented 1/180 frames
-sketch: segmented 25/180 frames
-sketch: segmented 49/180 frames
-sketch: segmented 73/180 frames
-sketch: segmented 97/180 frames
-sketch: segmented 121/180 frames
-sketch: segmented 145/180 frames
-sketch: segmented 169/180 frames
+Creating new Ultralytics Settings v0.0.8 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/home/runner/.config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+Downloading https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo11s-seg.pt to 'yolo11s-seg.pt': 100% ━━━━━━━━━━━━ 19.7MB 107.3MB/s 0.2s
+sketch: picked fighters in 1/180 frames (1 people seen)
+sketch: picked fighters in 25/180 frames (4 people seen)
+sketch: picked fighters in 49/180 frames (4 people seen)
+sketch: picked fighters in 73/180 frames (3 people seen)
+sketch: picked fighters in 97/180 frames (7 people seen)
+sketch: picked fighters in 121/180 frames (6 people seen)
+sketch: picked fighters in 145/180 frames (2 people seen)
+sketch: picked fighters in 169/180 frames (3 people seen)
 sketch: segmented 1/180 frames
 sketch: segmented 25/180 frames
 sketch: segmented 49/180 frames
@@ -30,5 +35,5 @@ sketch: drew 97/180
 sketch: drew 121/180
 sketch: drew 145/180
 sketch: drew 169/180
-sketch: wrote /home/runner/work/WikiPull/WikiPull/posts/2026-10-10-2152-sketch-sketch-test-3/reel.mp4 (15.0s)
-Rendered posts/2026-10-10-2152-sketch-sketch-test-3/reel.mp4 (format sketch)
+sketch: wrote /home/runner/work/WikiPull/WikiPull/posts/2026-10-10-2201-sketch-sketch-test-4/reel.mp4 (15.0s)
+Rendered posts/2026-10-10-2201-sketch-sketch-test-4/reel.mp4 (format sketch)
