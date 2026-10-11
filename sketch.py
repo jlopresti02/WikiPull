@@ -479,13 +479,14 @@ def follow_boxes(masks, aspect, pad=0.12, smooth_s=0.8, fps=12, min_h_frac=0.45)
     return np.stack([cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2], 1)
 
 
-def crop_frame(frame, box, out_w, out_h):
-    """Crop `box` (may reach outside) from frame, white outside, resized."""
+def crop_frame(frame, box, out_w, out_h, fill=255):
+    """Crop `box` (may reach outside) from frame, resized; outside = `fill`
+    (white for pictures, 0 for masks)."""
     x0, y0, x1, y1 = box
     sx = out_w / (x1 - x0)
     M = np.array([[sx, 0, -x0 * sx], [0, out_h / (y1 - y0), -y0 * out_h / (y1 - y0)]], np.float32)
     return cv2.warpAffine(frame, M, (out_w, out_h), flags=cv2.INTER_AREA if sx < 1 else cv2.INTER_CUBIC,
-                          borderMode=cv2.BORDER_CONSTANT, borderValue=(255, 255, 255))
+                          borderMode=cv2.BORDER_CONSTANT, borderValue=(fill, fill, fill))
 
 
 # --------------------------------------------------------------- framing ---
@@ -669,10 +670,10 @@ def make_sketch_video(src, out_dir, cfg=None, music=None, music_start=0.0):
         f = big_w / small.shape[2]
         frames = np.stack([crop_frame(big[i], boxes[i] * f, proc_w, proc_h) for i in range(n_)])
         if guide_big is not None:
-            priors = np.stack([crop_frame(guide_big[i].astype(np.uint8) * 255, boxes[i] * f, proc_w, proc_h) > 127
+            priors = np.stack([crop_frame(guide_big[i].astype(np.uint8) * 255, boxes[i] * f, proc_w, proc_h, 0) > 127
                                for i in range(n_)])
         else:
-            priors = np.stack([crop_frame(m_small[i].astype(np.uint8) * 255, boxes[i], proc_w, proc_h) > 127
+            priors = np.stack([crop_frame(m_small[i].astype(np.uint8) * 255, boxes[i], proc_w, proc_h, 0) > 127
                                for i in range(n_)])
         del big
         if cfg.get("mirror"):
