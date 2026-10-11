@@ -1,0 +1,42 @@
+{
+  "story_id": "sketch-sketch-test-2",
+  "headline": "Sketch test 2",
+  "format": "sketch",
+  "visual": [
+    {
+      "type": "text"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Breaking down Sketch test 2 frame by frame ✏️\nWho had the better game plan? 👇\n\nFight breakdown, drawn by WWIT MMA. MMA news.",
+  "hashtags": [
+    "MMA",
+    "UFC",
+    "MMABreakdown",
+    "FightBreakdown",
+    "MMANews"
+  ],
+  "sources": [],
+  "music_pool": "espn",
+  "sketch": {
+    "video": "drive:1C1B2KrG7h65HZGVhVVT9lmVvnR5LXPi7",
+    "captions": [
+      "Watch the *distance*.",
+      "Then the *exchange*."
+    ],
+    "title": "Sketch test 2",
+    "tag": "TEST",
+    "fighters": 2,
+    "audio": "music"
+  },
+  "requested": true,
+  "reel": true,
+  "subject": {
+    "kind": "none",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}
