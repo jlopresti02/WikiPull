@@ -511,6 +511,12 @@ def render(spec_path):
         from reel_serious import make_reel_serious
         make_reel_serious(spec, out, cut if kind == "fighter" else None)
         print(f"Rendered posts/{name}/reel.mp4 (format serious)")
+    elif spec.get("format") == "sketch":
+        # Sketch breakdown Reel (sketch.py): a fight clip redrawn as ink
+        # line art in the WWIT frame, with phrase-by-phrase captions.
+        from sketch import make_reel_sketch
+        make_reel_sketch(spec, out)
+        print(f"Rendered posts/{name}/reel.mp4 (format sketch)")
     elif spec.get("reel"):
         make_reel(Scene(REEL, words, bg, cut, kind, graphic), out, spec)
         print(f"Rendered posts/{name}/reel.mp4")
@@ -523,7 +529,9 @@ def render(spec_path):
     if photo_credits:
         label = "📸 Photo: " if (kind == "fighter" or credit_extra) else "📸 Image: "
         lines.append(label + "; ".join(photo_credits))
-    if spec.get("reel") and spec.get("music_credit"):
+    if spec.get("footage_credit"):
+        lines.append("🎥 Footage: " + spec["footage_credit"])
+    if spec.get("reel") and spec.get("music_credit") and (spec.get("sketch") or {}).get("audio", "music") == "music":
         lines.append("🎵 Music: " + spec["music_credit"])
     tags = [t if t.startswith("#") else "#" + t for t in spec.get("hashtags", [])][:5]
     if tags:

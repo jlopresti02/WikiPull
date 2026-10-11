@@ -1,0 +1,105 @@
+name: Sketch video
+
+# Turn a fight clip into a hand-drawn breakdown Reel (sketch.py).
+# Actions tab -> Sketch video -> Run workflow. The finished Reel lands in
+# posts/<name>/reel.mp4 (+ cover.png, caption.txt), ready to schedule.
+# Clips can come from the Google Drive folder "Sketch Videos" (paste the
+# share link), from sketch/input/ in this repo, or from a direct video link.
+
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "Video: Drive share link / file id, repo path (sketch/input/clip.mp4) or https link"
+        required: true
+      captions:
+        description: "Captions, phrases separated by | ; *word* = highlight. e.g. Volk creates the *distance*. | Holloway is forced to *close*."
+        required: true
+      title:
+        description: "Line under the logo, e.g. VOLKANOVSKI VS HOLLOWAY 3"
+        required: false
+      tag:
+        description: "Box at top right, e.g. UFC 276"
+        required: false
+      start:
+        description: "Start time in seconds (optional)"
+        required: false
+      end:
+        description: "End time in seconds (optional, max 60 s after start)"
+        required: false
+      fighters:
+        description: "People to keep in the drawing (1-3)"
+        required: false
+        default: "2"
+      audio:
+        description: "music (ESPN pool), original (clip's own sound) or none"
+        required: false
+        default: "music"
+      caption:
+        description: "Instagram caption (optional; a default one is written from the title)"
+        required: false
+      footage_credit:
+        description: "Who the footage is from, shown in the caption (e.g. UFC)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-images  # shared with Make posts / Fetch images so pushes never race
+  cancel-in-progress: false
+
+jobs:
+  sketch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache segmentation model
+        uses: actions/cache@v4
+        with:
+          path: ~/.u2net
+          key: u2net-human-seg-v1
+
+      - name: Install tools
+        run: |
+          pip install --quiet onnxruntime opencv-python-headless pillow numpy "rembg[cpu]"
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+
+      - name: Write the post file
+        env:
+          VIDEO: ${{ inputs.video }}
+          CAPTIONS: ${{ inputs.captions }}
+          TITLE: ${{ inputs.title }}
+          TAG: ${{ inputs.tag }}
+          START: ${{ inputs.start }}
+          END: ${{ inputs.end }}
+          FIGHTERS: ${{ inputs.fighters }}
+          AUDIO: ${{ inputs.audio }}
+          CAPTION: ${{ inputs.caption }}
+          FOOTAGE: ${{ inputs.footage_credit }}
+        run: python sketch_queue.py
+
+      - name: Make posts
+        run: |
+          set -o pipefail
+          python make_posts.py 2>&1 | tee posts/make-posts-log.txt
+
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add -A posts music
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "Make posts"
+          git pull --rebase
+          git push

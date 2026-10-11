@@ -21,6 +21,10 @@ For each posts/queue/<name>.json:
   3. Render the post (render.py) into posts/<name>/.
   4. Remove the file from the queue; posts/<name>/post.json keeps a copy.
 
+Sketch post files ("format": "sketch", see sketch.py) turn a fight clip
+(Google Drive, the repo's sketch/input/ folder, or a link) into a
+hand-drawn breakdown Reel with captions.
+
 Carousel post files ("carousel": true, see carousel.py) skip steps 1-2:
 each slide looks up its own fighters (silhouette when there's no photo)
 and the slides are written as posts/<name>/slide-NN.jpg.
@@ -316,6 +320,10 @@ def main():
                 render_carousel(spec_path, get_cut)
                 spec_path.unlink()
                 continue
+            if spec.get("format") == "sketch":
+                # sketch Reels draw their own frames; post.png is just the headline
+                spec.setdefault("visual", [{"type": "text"}])
+                spec["reel"] = True
             changed = resolve_visual(spec)
             changed = resolve_v2(spec) or changed
             if spec.get("format") == "serious":

@@ -224,7 +224,9 @@ repo lists every Drive photo already brought in.
 1. **List the folder** with the Google Drive `search_files` tool:
    `parentId = '100IXlX0jQO1WqckSc6pW29d2ejaVPc_W'` (pageSize 100; follow
    `nextPageToken`). If it has subfolders named after people, list those
-   too; their files belong to that person.
+   too; their files belong to that person. **Skip the "Sketch Videos"
+   subfolder** (`1P_fotqf_0j_v1LQCJlkeYpRmQe_faD1D`): it holds fight clips
+   for sketch Reels, not photos (see "Sketch breakdown Reels" below).
 2. **Add new files** (any id not in `drive_images.json`) to its `files`
    list: `{"id", "name", "person"}`. Work out the person from the file
    name ("Joe_Rogan_3.JPG" is Joe Rogan, "Josh Hokit 1" is Josh Hokit) or
@@ -260,6 +262,50 @@ repo lists every Drive photo already brought in.
    `{"type": "fighter", "name": "Joe Rogan", "file": "drive-joe-rogan-3"}`.
    If a person has no cutouts yet (new name), leave out `"file"`; the
    workflow fetches and uses the first good photo.
+
+### 3c. Sketch breakdown Reels (added Oct 11, user request)
+
+`sketch.py` turns a fight clip into a hand-drawn breakdown Reel, modelled
+on the rotoscoped technique breakdowns some MMA accounts post: the fighters
+are redrawn as white figures with black ink outlines and flat black/colour
+gear on a white panel (crowd, cage and arena removed), inside the WWIT frame
+(dark header with "WWIT MMA BREAKDOWN", a title line and a tag box), with
+big captions under the panel that change phrase by phrase, key words in the
+accent colour. Free: it runs on CPU in GitHub Actions, no paid API.
+
+Clips come from:
+- the Drive folder **Sketch Videos** (`1P_fotqf_0j_v1LQCJlkeYpRmQe_faD1D`,
+  inside Gemini Images, already shared by link), or
+- `sketch/input/` in the repo, or any direct video link.
+
+The user can make one by hand: **Actions → Sketch video → Run workflow**
+(video link or path, captions separated by `|`, `*word*` to highlight,
+optional title, tag, start/end, audio). The Reel is committed to
+`posts/<name>/`.
+
+Each run, also list the Sketch Videos folder (`parentId =
+'1P_fotqf_0j_v1LQCJlkeYpRmQe_faD1D'`). For any video whose id isn't in
+`sketch/drive.json` (create it as `{"files": []}` if missing):
+1. Read its metadata. If the Drive **description** has captions (one phrase
+   per line), use them; otherwise write 2-4 short breakdown phrases from
+   the file name (e.g. "volkanovski holloway jab" → "Volkanovski creates the
+   *distance*." / "Holloway is forced to *close*."). Describe only what the
+   name or description says; never invent a result or a quote.
+2. Queue `posts/queue/<YYYY-MM-DD-HHMM>-sketch-<slug>.json` with
+   `"format": "sketch"` and a `"sketch"` block (`video`: `"drive:<id>"`,
+   `captions`, `title`, `tag`, optional `start`/`end`; see the top of
+   `sketch.py`), a short caption (first line names the fighters and the
+   moment, second line a two-option question with 👇), exactly 5 hashtags
+   (`MMA`, `UFC`, `MMABreakdown`, and fighter names), `"music_pool":
+   "espn"`, and `"footage_credit"` when the source is known (e.g. "UFC").
+3. Add `{"id", "name", "post"}` to `sketch/drive.json` in the same commit.
+4. Check the render (open frames of `reel.mp4`): the fighters must be
+   recognisable drawings; if the panel is empty or wrong, don't schedule it
+   and tell the user (try `"fighters": 1` or a `"crop"`).
+5. Schedule it as a regular `REEL` in the next open slot (evening slots
+   preferred), first comment = the question + " 👇 Drop your pick".
+   Sketch Reels are user requests: they **don't count** toward the daily 10.
+   Ledger post entry: `"style": "sketch"`.
 
 ### 4. Write the post file
 
