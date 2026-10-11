@@ -30,7 +30,10 @@
         {
           "post": "2026-10-11-0920-ufc-vegas-122-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-10-11T09:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3065288729096597526",
+          "image": "carousel: Brendan Allen (Drive) cover; silhouettes for Fili hook, Duncan, Herbert, Camilo"
         }
       ]
     },
@@ -60,7 +63,9 @@
           "kind": "new",
           "format": "reel",
           "style": "v2",
-          "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs Sean Strickland (Drive drive-sean-strickland)"
+          "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs Sean Strickland (Drive drive-sean-strickland)",
+          "scheduled_for": "2026-10-11T10:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-388650827291343532"
         }
       ]
     },
