@@ -1,0 +1,80 @@
+{
+  "story_id": "allen-tells-strickland-fight-or-vacate",
+  "headline": "Fight Or Vacate",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Brendan Allen",
+      "file": "drive-brendan-allen"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Brendan Allen just told Sean Strickland to fight him or give up the belt 😤\nAllen or Strickland? 👇\n\nFresh off a fifth-round choke of Christian Leroy Duncan at UFC Vegas 122, Allen called for the UFC middleweight champion, and said if Strickland won't fight, he should vacate so Allen and Nassourdine Imavov can fight for the title. He also took a shot at Dricus du Plessis. UFC news.\n\nDoes Allen deserve the shot?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "BrendanAllen",
+    "SeanStrickland"
+  ],
+  "sources": [
+    "LowKick MMA",
+    "Yahoo Sports"
+  ],
+  "music_pool": "espn",
+  "question": "Allen or Strickland?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "\"GO AHEAD AND VACATE\"",
+    "hook": "Allen vs Strickland",
+    "left": [
+      {
+        "name": "Brendan Allen",
+        "file": "drive-brendan-allen"
+      }
+    ],
+    "right": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    ],
+    "story": "Allen choked out Duncan, then told the champ: fight me or vacate so I can fight Imavov.",
+    "chips": [
+      "4 STRAIGHT UFC WINS",
+      "R5 CHOKE AT VEGAS 122",
+      "STRICKLAND IN PAY DISPUTE"
+    ],
+    "question": "Allen or Strickland?",
+    "options": [
+      "Allen",
+      "Strickland"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}

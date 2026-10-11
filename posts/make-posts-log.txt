@@ -1,20 +1,50 @@
-Searching Wikimedia Commons for: Plinio Cruz
+Searching Wikimedia Commons for: Andre Fili
+  saved images/andre-fili/01-andr-filipe-tavares-gomes.jpg  [CC BY-SA 3.0]
+  saved images/andre-fili/02-andre-gomes-nycfc-v-columbus-10-may-2026-65-cropped.jpg  [CC BY-SA 4.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-11 13:12:12.814188851 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/andre-fili/cutouts/01-andr-filipe-tavares-gomes.png
+  cutout images/andre-fili/cutouts/02-andre-gomes-nycfc-v-columbus-10-may-2026-65-cropped.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Christian Leroy Duncan
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Plinio Cruz
+Searching Wikimedia Commons for: Jai Herbert
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Matheus Camilo
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
 
-== 2026-10-10-2217-poatan-coach-ko.json
-$ fetch.py Plinio Cruz --count 5
-Image: {'type': 'fighter', 'name': 'Chase DeMoor'} -> fighter images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png  headline: Coach KO
-$ fetch.py Plinio Cruz --count 5
-v2 left: silhouette
-v2 right: images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-10-2217-poatan-coach-ko/post.png (fighter)
-Rendered posts/2026-10-10-2217-poatan-coach-ko/reel.mp4 (format v2)
+== 2026-10-11-0920-ufc-vegas-122-results.json
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-01.jpg (cover)
+$ fetch.py Andre Fili --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/andre-fili
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-02.jpg (hook)
+$ fetch.py Christian Leroy Duncan --count 5
+  no photo for ['Christian Leroy Duncan']: using the silhouette
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-03.jpg (result)
+$ fetch.py Jai Herbert --count 5
+  no photo for ['Jai Herbert']: using the silhouette
+$ fetch.py Matheus Camilo --count 5
+  no photo for ['Matheus Camilo']: using the silhouette
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-04.jpg (result)
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-05.jpg (list)
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-06.jpg (list)
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-07.jpg (bonuses)
+Rendered posts/2026-10-11-0920-ufc-vegas-122-results/slide-08.jpg (cta)
+
+== 2026-10-11-0921-allen-fight-or-vacate.json
+Image: {'type': 'fighter', 'name': 'Brendan Allen', 'file': 'drive-brendan-allen'} -> fighter images/brendan-allen/cutouts/drive-brendan-allen.png  headline: Fight Or Vacate
+v2 left: images/brendan-allen/cutouts/drive-brendan-allen.png
+v2 right: images/sean-strickland/cutouts/drive-sean-strickland.png
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-11-0921-allen-fight-or-vacate/post.png (fighter)
+Rendered posts/2026-10-11-0921-allen-fight-or-vacate/reel.mp4 (format v2)
