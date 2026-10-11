@@ -1,0 +1,80 @@
+{
+  "story_id": "allen-backs-strickland-pay-then-apologizes",
+  "headline": "Sorry, Hunter",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Brendan Allen",
+      "file": "drive-brendan-allen"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland-2"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Brendan Allen backed Sean Strickland on fighter pay, then said sorry to the UFC brass 😅\nUnderpaid or not? 👇\n\nAt the UFC Vegas 122 post-fight press conference, the No. 4 UFC middleweight praised Strickland for speaking up and said fighters are underpaid by the numbers. Seconds later he apologized to UFC executive Hunter Campbell, joking that he likes his paycheck. UFC news.\n\nWho's right on fighter pay?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "BrendanAllen",
+    "SeanStrickland"
+  ],
+  "sources": [
+    "MMA News",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Underpaid or not?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · FIGHTER PAY",
+    "kicker": "\"I LIKE MY PAYCHECK\"",
+    "hook": "Allen backs Strickland",
+    "left": [
+      {
+        "name": "Brendan Allen",
+        "file": "drive-brendan-allen"
+      }
+    ],
+    "right": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland-2"
+      }
+    ],
+    "story": "Allen said fighters are underpaid, then apologized to UFC exec Hunter Campbell on the spot.",
+    "chips": [
+      "UFC VEGAS 122 PRESSER",
+      "NO. 4 MIDDLEWEIGHT",
+      "STRICKLAND PAY DISPUTE"
+    ],
+    "question": "Underpaid or not?",
+    "options": [
+      "Underpaid",
+      "Paid fine"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/sean-strickland/cutouts/drive-sean-strickland-2.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
+}
