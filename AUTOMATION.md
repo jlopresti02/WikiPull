@@ -398,6 +398,12 @@ headline at once.
 - Death of a fighter: same format, `kicker` "RIP" is fine only if it's
   confirmed by an official source; never post on an unconfirmed death.
 
+**Side safe zone (Oct 11, user report).** In the Instagram app some Reels
+were cut off on the left: tall phones crop about 90-100 px off each side of a
+1080-wide Reel. All Reel renderers (v2, serious, sketch) now keep text at
+least 120 px from the left edge and 140 px from the right, and v2 nudges both
+photos toward the centre. Keep any new layout inside that zone.
+
 Writing a v2 post:
 - Keep everything else in the post file as usual (headline, `visual` as a
   fallback, caption, `question`, 5 hashtags, sources, `trial_reel`), and

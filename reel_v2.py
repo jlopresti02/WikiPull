@@ -85,7 +85,12 @@ CHIP_BG, CHIP_BORDER = (28, 30, 34), (58, 61, 68)
 DEFAULT_ACCENT = "#FFC21A"
 
 # Everything is laid out at 2x the 540x960 mockup.
-PAD_L, PAD_R = 56, 128          # right gutter keeps clear of Instagram's buttons
+# Side safe zone (Oct 11, user report: text was cut off on the left in the app).
+# Instagram fills tall phone screens by cropping ~90-100 px off each side of
+# a 1080-wide Reel, so nothing important sits within 120 px of the left edge;
+# the right gutter also keeps clear of Instagram's buttons.
+PAD_L, PAD_R = 120, 140
+PHOTO_INSET = 44                # photos nudged toward the centre, out of the cropped edges
 PHOTO_TOP, PHOTO_H = 176, 1000
 BAR_Y = 1176
 
@@ -468,7 +473,7 @@ class V2:
             cw, ch = int(cut.width * zoom), int(cut.height * zoom)
             c = cut.resize((cw, ch), Image.LANCZOS) if zoom != 1.0 else cut
             off = int((1 - slide) * self.col_w * 1.1) * (-1 if i == 0 else 1)
-            px = (self.col_w - cw) // 2 + off
+            px = (self.col_w - cw) // 2 + off + (PHOTO_INSET if i == 0 else -PHOTO_INSET)
             py = PHOTO_H - ch  # bottoms on the accent bar
             panel.alpha_composite(c, (px, py)) if px > -cw and px < self.col_w else None
             img.alpha_composite(panel, (x0, PHOTO_TOP))

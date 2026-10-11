@@ -511,7 +511,7 @@ def chrome(accent, title=None, tag=None):
         d.line([(x, 0), (x + HEADER_H, HEADER_H)], fill=(20, 20, 24), width=2)
         d.line([(x, PANEL_Y1), (x + (H - PANEL_Y1), H)], fill=(20, 20, 24), width=2)
     # logo
-    top, left = 112, 54
+    top, left = 112, 120          # side safe zone: Instagram crops the edges on tall phones
     f_box = anton(64)
     bw = int(spaced_width("WWIT", f_box, 2)) + 44
     bh = 96
@@ -525,7 +525,7 @@ def chrome(accent, title=None, tag=None):
     if tag:
         f_tag = barlow(34, 700)
         tw = spaced_width(tag.upper(), f_tag, 4)
-        x1 = W - 54
+        x1 = W - 140
         x0 = x1 - tw - 40
         d.rectangle([x0, top + 18, x1, top + 78], outline=accent, width=4)
         draw_spaced(d, (x0 + 20, top + 48 + cap(f_tag) / 2), tag.upper(), f_tag, accent, 4)
@@ -551,7 +551,7 @@ def caption_layer(text, accent, t_in):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     words = parse_caption(text)
     size = 88
-    max_w = W - 120
+    max_w = W - 260               # keep captions inside the side safe zone
     while True:
         f = barlow(size, 800)
         sp = f.getlength(" ")

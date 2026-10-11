@@ -57,7 +57,7 @@ WHITE = (244, 245, 247)
 SOFT = (196, 200, 208)
 MUTED = (140, 146, 156)
 RULE = (150, 162, 182)          # quiet slate blue, the only "accent"
-PAD_L, PAD_R = 72, 128          # right gutter keeps clear of Instagram's buttons
+PAD_L, PAD_R = 120, 140         # side safe zone (Instagram crops the edges on tall phones); right clears the buttons
 PHOTO_TOP, PHOTO_H = 150, 1150
 
 
