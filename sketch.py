@@ -472,7 +472,9 @@ def follow_boxes(masks, aspect, pad=0.12, smooth_s=0.8, fps=12, min_h_frac=0.45)
         k /= k.sum()
         return np.convolve(np.pad(a, r, mode="edge"), k, mode="valid")
     cx, cy, bh = blur(cx), blur(cy), blur(bh)
-    bh = np.minimum(bh, h * 1.0)
+    # never crop a fighter off: when they're far apart the box may grow past
+    # the frame's height (white above/below), but not much past its width
+    bh = np.minimum(bh, w * 1.05 / aspect)
     bw = bh * aspect
     return np.stack([cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2], 1)
 
