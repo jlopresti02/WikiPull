@@ -2,6 +2,35 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "allen-backs-strickland-pay-then-apologizes",
+      "title": "Brendan Allen says fighters are underpaid, backs Strickland's pay push, then apologizes to Hunter Campbell",
+      "people": [
+        "Brendan Allen",
+        "Sean Strickland",
+        "Hunter Campbell"
+      ],
+      "event": "UFC Vegas 122",
+      "first_reported": "2026-10-11",
+      "facts": [
+        "At the UFC Vegas 122 post-fight presser, Allen praised Strickland for speaking up on pay and said by the numbers 'we are underpaid', while adding he's happy with his own pay",
+        "Immediately apologized to UFC chief business officer Hunter Campbell: 'I ain't trying to get canceled... I like my paycheck'",
+        "Related: strickland-ponders-vacating-title-pay, allen-tells-strickland-fight-or-vacate"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/brendan-allen-sean-strickland-ufc-pay-apology",
+        "https://bloodyelbow.com/2026/10/11/we-are-underpaid-brendan-allen-apologizes-to-ufc-for-backing-sean-stricklands-pay-campaign/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-11-1330-allen-sorry-hunter",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs Sean Strickland (Drive drive-sean-strickland-2)"
+        }
+      ]
+    },
+    {
       "id": "ufc-vegas-122-results",
       "title": "UFC Vegas 122 results: Allen submits Duncan in R5",
       "people": [
