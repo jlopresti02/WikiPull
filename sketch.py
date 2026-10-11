@@ -501,6 +501,10 @@ def make_sketch_video(src, out_dir, cfg=None, music=None, music_start=0.0):
         if duration > 60:
             raise RuntimeError(f"clip is {duration:.0f}s; trim it to 60s or less with start/end")
         print(f"sketch: {len(small)} frames at {fps} fps ({duration:.1f}s)")
+        # contact sheet of the source (6 frames) so a reviewer can check the clip
+        picks = [small[int(i * (len(small) - 1) / 5)] for i in range(6)]
+        th = [cv2.resize(p_, (240, int(240 * p_.shape[0] / p_.shape[1]))) for p_ in picks]
+        Image.fromarray(np.hstack(th)).save(out_dir / "source.jpg", quality=80)
         m_small = fighter_masks(small, k, seg)
         if not m_small.any():
             raise RuntimeError("no fighters found in the clip")
