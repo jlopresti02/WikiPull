@@ -57,6 +57,25 @@
     "options": [
       "Yes",
       "No"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/andre-fili/cutouts/01-andr-filipe-tavares-gomes.png",
+      "credit": "Дмитрий Голубович / CC BY-SA 3.0"
+    },
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/andre-fili/cutouts/01-andr-filipe-tavares-gomes.png",
+    "credit": "Дмитрий Голубович / CC BY-SA 3.0"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

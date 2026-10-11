@@ -50,6 +50,25 @@
     "options": [
       "Retire",
       "Stay"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/michael-chiesa/cutouts/01-michael-chiesa-at-ufc-232.png",
+      "credit": "MMAnytt / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "none",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
