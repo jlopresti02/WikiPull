@@ -326,7 +326,9 @@ def main():
                 spec["reel"] = True
             changed = resolve_visual(spec)
             changed = resolve_v2(spec) or changed
-            if spec.get("format") == "serious":
+            if spec.get("format") == "sketch" and (spec.get("sketch") or {}).get("audio", "music") != "music":
+                pass  # clip's own sound or silence: no music to pick
+            elif spec.get("format") == "serious":
                 # serious Reels make their own quiet pad unless "music" is named
                 spec["reel"] = True
                 changed = True
