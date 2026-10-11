@@ -1,0 +1,55 @@
+{
+  "story_id": "niko-price-wins-retirement-fight-ufc-vegas-122",
+  "headline": "Last Dance",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Niko Price"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Niko Price got the send-off the UFC never gave him in Seattle 🔥\nRetire or stay? 👇\n\nPrice stopped Leon Shahbazyan with ground and pound in Round 1 at UFC Vegas 122 in what was billed as his retirement fight. Back in March he lost to Michael Chiesa on the night Chiesa retired and got no farewell of his own. UFC news.\n\nShould he hang them up?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "NikoPrice",
+    "Welterweight"
+  ],
+  "sources": [
+    "Sherdog",
+    "F4W",
+    "BoxingNews"
+  ],
+  "music_pool": "espn",
+  "question": "Retire or stay?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC VEGAS 122 · WELTERWEIGHT",
+    "kicker": "SEND-OFF WIN",
+    "hook": "Price: Last Dance",
+    "left": [
+      {
+        "name": "Niko Price"
+      }
+    ],
+    "right": [
+      {
+        "name": "Michael Chiesa"
+      }
+    ],
+    "story": "Snubbed at his first farewell, Price gets a Round 1 TKO in his retirement fight.",
+    "chips": [
+      "TKO R1 1:58",
+      "SNAPPED 4-FIGHT SKID",
+      "SEATTLE SNUB: NO FAREWELL"
+    ],
+    "question": "Retire or stay?",
+    "options": [
+      "Retire",
+      "Stay"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "story_id": "fili-head-kick-ko-kamaka-ufc-vegas-122",
+  "headline": "Lights Out",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Andre Fili"
+    },
+    {
+      "type": "fighter",
+      "name": "Kai Kamaka III"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Andre Fili just put Kai Kamaka III to sleep with a head kick 😳\nKO of the night or not? 👇\n\nFili landed a left hook into a head kick 22 seconds into Round 2 of their featherweight fight on the UFC Vegas 122 main card. UFC results, MMA news.\n\nWhere does it rank this year?",
+  "hashtags": [
+    "MMA",
+    "UFC",
+    "UFCVegas122",
+    "AndreFili",
+    "KaiKamaka"
+  ],
+  "sources": [
+    "Sherdog",
+    "F4W"
+  ],
+  "music_pool": "espn",
+  "question": "KO of the night?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC VEGAS 122 · FEATHERWEIGHT",
+    "kicker": "22 SECONDS INTO R2",
+    "hook": "Fili: Lights Out",
+    "left": [
+      {
+        "name": "Andre Fili"
+      }
+    ],
+    "right": [
+      {
+        "name": "Kai Kamaka III"
+      },
+      {
+        "name": "Kai Kamaka"
+      }
+    ],
+    "story": "A left hook, then a head kick: Fili flattens Kamaka early in Round 2.",
+    "chips": [
+      "KO (HEAD KICK)",
+      "R2 0:22",
+      "MAIN CARD"
+    ],
+    "question": "KO of the night?",
+    "options": [
+      "Yes",
+      "No"
+    ]
+  }
+}

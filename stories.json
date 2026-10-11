@@ -2,6 +2,88 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "niko-price-wins-retirement-fight-ufc-vegas-122",
+      "title": "Niko Price wins his retirement fight by R1 TKO after the UFC Seattle snub",
+      "people": [
+        "Niko Price",
+        "Leon Shahbazyan",
+        "Michael Chiesa"
+      ],
+      "event": "UFC Vegas 122",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "Price def. Leon Shahbazyan, TKO (punches) R1 1:58, billed as his retirement fight",
+        "He lost to Michael Chiesa at UFC Seattle in March 2026 on the night Chiesa retired and got no farewell",
+        "Had lost four straight; did not commit to retiring again right away per Yahoo/MMA Mania"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-122-Allen-vs-Duncan-playbyplay-results-round-scoring-203155",
+        "https://www.f4wonline.com/news/ufc/ufc-results/ufc-fight-night-290-live-results-brendan-allen-vs-christian-leroy-duncan/",
+        "https://boxingnews.com/news/niko-price-returns-retirement-ufc-vegas-122"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-2215-price-last-dance",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "fili-head-kick-ko-kamaka-ufc-vegas-122",
+      "title": "Andre Fili head-kick KO of Kai Kamaka III",
+      "people": [
+        "Andre Fili",
+        "Kai Kamaka III"
+      ],
+      "event": "UFC Vegas 122",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "Fili def. Kamaka, KO (head kick) R2 0:22, left hook then head kick"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-122-Allen-vs-Duncan-playbyplay-results-round-scoring-203155"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-2216-fili-head-kick",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "plinio-cruz-ko-debut-misfits-wants-demoor",
+      "sport": "boxing",
+      "title": "Pereira's coach Plinio Cruz wins Misfits debut by KO, still wants DeMoor",
+      "people": [
+        "Plinio Cruz",
+        "Gary Olive",
+        "Chase DeMoor",
+        "Alex Pereira"
+      ],
+      "event": "Misfits Boxing London, Oct 10",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "Cruz def. Gary Olive, TKO R2 0:58; Olive replaced Chase DeMoor on short notice",
+        "Cruz said he still wants DeMoor"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/boxing/live/misfits-boxing-live-results-joey-essex-vs-dapper-laughs-round-by-round-updates-highlights-for-todays-fight-130000636.html",
+        "https://www.fightmag.com/chase-demoor-withdraws-from-plinio-cruz-fight/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-10-2217-poatan-coach-ko",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "chimaev-tells-strickland-stop-whining-injuries",
       "title": "Khamzat Chimaev tells Sean Strickland to stop whining about injuries",
       "people": [
