@@ -735,8 +735,23 @@ Slides (2 to 10, Instagram's limit; aim for 7 or 8):
 6. **cta**: a question about what's next ("Who's next for the champ?"),
    with "Comment your pick" and "Follow @wwitmma for results".
 
-Fighters with no photo get the silhouette automatically, so the carousel
-always renders. No betting language anywhere (no odds, favorites or
+**Never post a results carousel with a missing image (user rule, Oct
+11).** No silhouettes, ever, in any carousel (results or DWCS):
+- The **cover and hook** must show someone with a real photo (Drive or
+  Wikimedia cutout in `images/<slug>/cutouts/`). Check before queueing; if
+  the night's best moment has no photo, build the hook around a winner who
+  does (or another moment). The renderer refuses a cover/hook with no photo,
+  so the carousel won't render and won't be scheduled.
+- **Result slides** draw only real photos: a winner with no photo gets a
+  clean text-only slide (no silhouette, no lone loser photo).
+- Before scheduling, open every slide and check each face is the right
+  person (Wikimedia once matched footballer Andre Gomes for Andre Fili).
+  A wrong face counts as a missing image: remove it (delete the wrong
+  `images/<slug>/` folder) and re-render before scheduling.
+- If any slide still shows a silhouette or a wrong person, don't schedule
+  the carousel; fix it first, and tell the user who needs a photo.
+
+No betting language anywhere (no odds, favorites or
 underdogs; "surprise" not "upset").
 
 Caption: first line names the main event result; then 2 to 3 short
@@ -779,8 +794,8 @@ moment).
      a great backstory, like Dana's own runner earning a deal).
   3. **result** slides, one per fighter who got a contract: winner, loser,
      method and time; the label says "UFC contract ✓" plus weight class.
-     List alternate name spellings so a photo is found; the silhouette
-     fills in automatically when there's none.
+     List alternate name spellings so a photo is found; with none, the
+     slide is text only (never a silhouette; see step 6b).
   4. **list**: every result from the night, contract or not (winner, loser,
      short method).
   5. **cta**: "Who'll make noise in the UFC first?" with "Comment your

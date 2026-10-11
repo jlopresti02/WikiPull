@@ -26,8 +26,9 @@ A carousel post file has "carousel": true and a list of slides:
     }
 
 Fighters are looked up the same way as Reel photos (WikiPull cutouts);
-anyone without a photo gets the silhouette graphic, so a slide always
-renders. Names in "fighter", "winner" and "loser" can be a list of
+no silhouettes are ever drawn (user rule, Oct 11): a result slide whose
+winner has no photo is text only, and a cover/hook without a real photo
+stops the render so the carousel isn't scheduled. Names in "fighter", "winner" and "loser" can be a list of
 alternates: ["Bobby Green", "King Green"].
 
 Output goes to posts/<post name>/:
@@ -118,7 +119,12 @@ def slide_feature(spec, bg, get_cut):
     if not 1 <= len(words) <= 4:
         raise ValueError("cover/hook titles must be 1 to 4 words")
     cut, credit = get_cut(spec.get("fighter"))
-    kind = "fighter" if cut is not None else "graphic"
+    if cut is None:
+        # user rule (Oct 11): a results carousel never goes out with a missing
+        # image, so a cover/hook without a real photo stops the render
+        raise ValueError(f"no photo for the {spec.get('type')} slide "
+                         f"({spec.get('fighter')}): pick a fighter who has one")
+    kind = "fighter"
     scene = Scene(POST, words, bg, cut, kind, "mystery")
     img = scene.frame().convert("RGBA")
     d = ImageDraw.Draw(img)
@@ -154,7 +160,9 @@ def slide_result(spec, bg, get_cut):
     d = ImageDraw.Draw(img)
     fg = ink(bg)
     winner, loser = names(spec["winner"]), names(spec["loser"])
-    y = 165
+    wc, wcred = get_cut(winner)
+    lc, lcred = get_cut(loser) if wc is not None else (None, None)
+    y = 165 if wc is not None else 430  # text-only: center the block
     if spec.get("label"):
         lab = spec["label"].upper()
         size = fit_size(lab, W - 160, 40)
@@ -168,21 +176,19 @@ def slide_result(spec, bg, get_cut):
     top = y
     bottom = H - 150
     credits = []
-    wc, wcred = get_cut(winner)
-    lc, lcred = get_cut(loser)
     room = bottom - top + 120  # cutouts may run behind the method pill
-    if lc is not None:
-        place(img, lc, W * 0.76, H, 600, room * 0.78, gray=True)
-        if lcred:
-            credits.append(lcred)
-    else:
-        place(img, mystery_graphic((40, 40, 40)), W * 0.72, H - 40, 440, room * 0.7, gray=True)
+    # No silhouettes (user rule, Oct 11): draw only real photos. Without the
+    # winner's photo the slide is text only (a lone loser photo would mislead).
     if wc is not None:
-        place(img, wc, W * 0.38, H, 900, room)
+        if lc is not None:
+            place(img, lc, W * 0.76, H, 600, room * 0.78, gray=True)
+            if lcred:
+                credits.append(lcred)
+            place(img, wc, W * 0.38, H, 900, room)
+        else:
+            place(img, wc, W / 2, H, 900, room)
         if wcred:
             credits.append(wcred)
-    else:
-        place(img, mystery_graphic(bg), W * 0.36, H - 40, 600, room * 0.9)
     d = ImageDraw.Draw(img)
     method = spec.get("method", "").upper()
     if spec.get("detail"):
