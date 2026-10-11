@@ -2,6 +2,63 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "dana-white-strickland-cant-beat-opetaia",
+      "title": "Dana White says Sean Strickland could not beat Zuffa Boxing champ Jai Opetaia",
+      "people": [
+        "Sean Strickland",
+        "Jai Opetaia",
+        "Dana White"
+      ],
+      "event": "",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "On Nina Drama's stream at Power Slap 24 (Oct 9), Dana called Strickland 'a tough guy' who 'has hands' but said crossovers rarely go well",
+        "Asked if Strickland could realistically beat Opetaia: 'No.'",
+        "Dana said there's a good chance Opetaia fights Deontay Wilder next",
+        "Strickland had said he'd go to Zuffa and beat its cruiserweight champ 'easy' amid his UFC pay dispute; no deal or release",
+        "Related: strickland-ponders-vacating-title-pay, chimaev-tells-strickland-stop-whining-injuries"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/dana-white-reacts-sean-strickland-jai-opetaia-boxing",
+        "https://www.worldboxingnews.com/sean-strickland-dana-white-boxing-ban/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-11-1830-dana-strickland-no",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "meerschaert-retires-ufc-vegas-122",
+      "title": "Gerald Meerschaert retires after UFC Vegas 122 loss to Julius Walker",
+      "people": [
+        "Gerald Meerschaert",
+        "Julius Walker",
+        "Anderson Silva"
+      ],
+      "event": "UFC Vegas 122",
+      "first_reported": "2026-10-11",
+      "facts": [
+        "Walker stopped him with ground strikes R2 3:35; sixth straight loss",
+        "Retired in the Octagon at 38, 37-23 after 60 pro fights, 12-15 in the UFC",
+        "12 finishes, most in UFC middleweight history (Anderson Silva 11)"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/gerald-meerschaert-retires-ufc-vegas-122-60-fights"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-11-1831-meerschaert-retires",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "allen-backs-strickland-pay-then-apologizes",
       "title": "Brendan Allen says fighters are underpaid, backs Strickland's pay push, then apologizes to Hunter Campbell",
       "people": [

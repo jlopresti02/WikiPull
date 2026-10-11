@@ -1,0 +1,28 @@
+{
+  "story_id": "dana-white-strickland-cant-beat-opetaia",
+  "headline": "Dana: No",
+  "visual": [
+    {"type": "fighter", "name": "Sean Strickland", "file": "drive-sean-strickland"},
+    {"type": "fighter", "name": "Jai Opetaia"}
+  ],
+  "color": "#d2202f",
+  "caption": "Dana White doesn't think Sean Strickland can beat boxing champ Jai Opetaia.\nStrickland or Opetaia? 👇\n\nThe UFC middleweight champion has talked about leaving MMA to box Zuffa Boxing's cruiserweight champ amid his pay dispute. Dana called Strickland a tough guy with hands, but when asked if he could win, his answer was a flat no. UFC news.\n\nWould you watch it?",
+  "hashtags": ["MMANews", "UFC", "ZuffaBoxing", "SeanStrickland", "JaiOpetaia"],
+  "sources": ["MiddleEasy", "World Boxing News"],
+  "music_pool": "espn",
+  "question": "Strickland or Opetaia?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · ZUFFA BOXING",
+    "kicker": "DANA SAYS \"NO\"",
+    "hook": "Strickland vs Opetaia?",
+    "left": [{"name": "Sean Strickland", "file": "drive-sean-strickland"}],
+    "right": [{"name": "Jai Opetaia"}],
+    "story": "Asked if Strickland could beat the Zuffa Boxing champ, Dana White answered with one word: no.",
+    "chips": ["UFC MIDDLEWEIGHT CHAMP", "ZUFFA CRUISERWEIGHT CHAMP", "STRICKLAND PAY DISPUTE"],
+    "question": "Strickland or Opetaia?",
+    "options": ["Strickland", "Opetaia"]
+  }
+}

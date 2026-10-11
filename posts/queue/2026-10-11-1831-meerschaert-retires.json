@@ -1,0 +1,29 @@
+{
+  "story_id": "meerschaert-retires-ufc-vegas-122",
+  "headline": "GM3 Retires",
+  "visual": [
+    {"type": "fighter", "name": "Gerald Meerschaert"},
+    {"type": "fighter", "name": "Anderson Silva"}
+  ],
+  "color": "#f5c518",
+  "caption": "Gerald Meerschaert walked away after 60 pro fights, holding a record Anderson Silva doesn't.\nLegend or not? 👇\n\nAfter Julius Walker stopped him at UFC Vegas 122, the 38-year-old retired in the Octagon at 37-23. His 12 finishes are the most in UFC middleweight history, one more than Silva. MMA news.\n\nBest GM3 moment?",
+  "hashtags": ["MMANews", "UFC", "UFCVegas122", "GeraldMeerschaert", "AndersonSilva"],
+  "sources": ["MMA News"],
+  "music_pool": "espn",
+  "question": "Legend or not?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "60 FIGHTS. DONE.",
+    "hook": "GM3 retires",
+    "left": [{"name": "Gerald Meerschaert"}],
+    "right": [{"name": "Anderson Silva"}],
+    "story": "Meerschaert retired after UFC Vegas 122 with the most finishes in UFC middleweight history.",
+    "chips": ["37-23 PRO RECORD", "12 UFC MW FINISHES", "1 MORE THAN SILVA"],
+    "question": "Legend or not?",
+    "options": ["Legend", "Not quite"]
+  }
+}
