@@ -17,9 +17,7 @@
     {
       "type": "hook",
       "title": "Head Kick KO",
-      "fighter": [
-        "Andre Fili"
-      ],
+      "fighter": [],
       "kicker": "22 seconds into R2",
       "subtitle": "Fili KO R2 0:22"
     },
@@ -154,7 +152,6 @@
   ],
   "slide_count": 8,
   "photo_credits": [
-    "WWIT MMA News",
-    "Дмитрий Голубович / CC BY-SA 3.0"
+    "WWIT MMA News"
   ]
 }
