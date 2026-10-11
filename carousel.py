@@ -223,6 +223,8 @@ def slide_list(spec, bg, get_cut):
             method = r[2].upper() if len(r) > 2 else ""
             line = f"{win}"
             sub = f"DEF. {lose}" + (f"  ·  {method}" if method else "")
+            if "DRAW" in method or "NO CONTEST" in method:  # no winner
+                line, sub = f"{win} VS {lose}", method
             text_center(d, W / 2, y, line, fit_size(line, W - 160, big), fg)
             text_center(d, W / 2, y + cap_height(big) + gap, sub,
                         fit_size(sub, W - 160, small), dim)

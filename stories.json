@@ -2,6 +2,69 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-vegas-122-results",
+      "title": "UFC Vegas 122 results: Allen submits Duncan in R5",
+      "people": [
+        "Brendan Allen",
+        "Christian Leroy Duncan",
+        "Jai Herbert",
+        "Matheus Camilo",
+        "Andre Fili",
+        "Otari Tanzilovi",
+        "Alice Pereira"
+      ],
+      "event": "UFC Vegas 122",
+      "first_reported": "2026-10-10",
+      "facts": [
+        "Allen def. Christian Leroy Duncan, RNC R5 2:46 (4 straight UFC wins)",
+        "Herbert def. Camilo UD; Godinez def. Souza UD; Fili KO (head kick) R2 0:22; Tanzilovi TKO R2 2:39",
+        "Prelims: Walker, Prado, Price, Ribeiro, Frye, Alice Pereira winners; Gatto vs Kareckaite majority draw",
+        "$100K bonuses: Allen, Fili, Tanzilovi, Alice Pereira"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-122-Allen-vs-Duncan-playbyplay-results-round-scoring-203155",
+        "https://www.sherdog.com/news/news/UFC-Vegas-122-bonuses-Brendan-Allen-3-more-earn-36100000-203157",
+        "https://sports.yahoo.com/mma/article/ufc-vegas-122-results-brendan-allen-stops-christian-leroy-duncan-with-late-choke-calls-out-ex-champ-030151648.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-11-0920-ufc-vegas-122-results",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
+    },
+    {
+      "id": "allen-tells-strickland-fight-or-vacate",
+      "title": "Brendan Allen tells Sean Strickland to fight him or vacate after UFC Vegas 122 win",
+      "people": [
+        "Brendan Allen",
+        "Sean Strickland",
+        "Nassourdine Imavov",
+        "Dricus du Plessis"
+      ],
+      "event": "UFC Vegas 122",
+      "first_reported": "2026-10-11",
+      "facts": [
+        "After submitting Duncan, Allen asked for the champion and jabbed du Plessis for 'running'",
+        "Backstage: Strickland should fight him or vacate so Allen and Imavov fight for the belt",
+        "Strickland is in a pay dispute and talking boxing"
+      ],
+      "sources": [
+        "https://www.lowkickmma.com/go-ahead-and-vacate-brendan-allen-fires-warning-to-sean-strickland-after-ufc-vegas-122-victory/",
+        "https://sports.yahoo.com/mma/article/ufc-vegas-122-results-brendan-allen-stops-christian-leroy-duncan-with-late-choke-calls-out-ex-champ-030151648.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-11-0921-allen-fight-or-vacate",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs Sean Strickland (Drive drive-sean-strickland)"
+        }
+      ]
+    },
+    {
       "id": "niko-price-wins-retirement-fight-ufc-vegas-122",
       "title": "Niko Price wins his retirement fight by R1 TKO after the UFC Seattle snub",
       "people": [
