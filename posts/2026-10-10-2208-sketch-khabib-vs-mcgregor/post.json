@@ -1,0 +1,45 @@
+{
+  "story_id": "sketch-khabib-vs-mcgregor",
+  "headline": "Khabib vs McGregor",
+  "format": "sketch",
+  "visual": [
+    {
+      "type": "text"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Breaking down Khabib vs McGregor frame by frame ✏️\nWho had the better game plan? 👇\n\nFight breakdown, drawn by WWIT MMA. MMA news.",
+  "hashtags": [
+    "MMA",
+    "UFC",
+    "MMABreakdown",
+    "FightBreakdown",
+    "MMANews"
+  ],
+  "sources": [],
+  "music_pool": "espn",
+  "sketch": {
+    "video": "drive:1C1B2KrG7h65HZGVhVVT9lmVvnR5LXPi7",
+    "captions": [
+      "Khabib keeps walking Conor *down*.",
+      "Conor looks for the *counter*.",
+      "Khabib closes into the *clinch*."
+    ],
+    "title": "Khabib vs McGregor",
+    "tag": "UFC 229",
+    "end": 15.0,
+    "fighters": 2,
+    "audio": "music"
+  },
+  "requested": true,
+  "footage_credit": "UFC",
+  "reel": true,
+  "subject": {
+    "kind": "none",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}
