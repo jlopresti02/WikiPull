@@ -1,45 +1,4 @@
-[0;93m2026-10-11 02:16:58.779593848 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/khamzat-chimaev/cutouts/drive-khamzat-chimaev-2.png
-  cutout images/khamzat-chimaev/cutouts/drive-khamzat-chimaev-champ.png
-  cutout images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png
-Done: 3 new cutout(s).
-[0;93m2026-10-11 02:18:55.368535965 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/tommy-mcmillen/cutouts/drive-tommy-mcmillen.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Niko Price
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Niko Price
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Michael Chiesa
-  saved images/michael-chiesa/01-michael-chiesa-at-ufc-232.jpg  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-11 02:19:30.174011989 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/michael-chiesa/cutouts/01-michael-chiesa-at-ufc-232.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Andre Fili
-  saved images/andre-fili/01-andr-filipe-tavares-gomes.jpg  [CC BY-SA 3.0]
-  saved images/andre-fili/02-andre-gomes-nycfc-v-columbus-10-may-2026-65-cropped.jpg  [CC BY-SA 4.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-11 02:20:26.160358762 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/andre-fili/cutouts/01-andr-filipe-tavares-gomes.png
-  cutout images/andre-fili/cutouts/02-andre-gomes-nycfc-v-columbus-10-may-2026-65-cropped.png
-Done: 2 new cutout(s).
-Searching Wikimedia Commons for: Kai Kamaka III
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Kai Kamaka
+Searching Wikimedia Commons for: Plinio Cruz
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
@@ -49,65 +8,13 @@ Searching Wikimedia Commons for: Plinio Cruz
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Chase DeMoor
-  saved images/chase-demoor/01-chase-demoor-2024-cropped.jpg  [CC BY-SA 4.0]
-  saved images/chase-demoor/02-chase-demoor-zay-wilson-2024314173303-2024-11-09-fame-fighti.jpg  [CC BY-SA 4.0]
-  saved images/chase-demoor/03-chase-demoor-zay-wilson-2024314173303-2024-11-09-fame-fighti.jpg  [CC BY-SA 4.0]
-  saved images/chase-demoor/04-chase-demoor-2024314173214-2024-11-09-fame-fighting-2-sven-1.jpg  [CC BY-SA 4.0]
-  saved images/chase-demoor/05-chase-demoor-2024314173217-2024-11-09-fame-fighting-2-sven-1.jpg  [CC BY-SA 4.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-11 02:21:46.036908875 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png
-  cutout images/chase-demoor/cutouts/02-chase-demoor-zay-wilson-2024314173303-2024-11-09-fame-fighti.png
-  cutout images/chase-demoor/cutouts/03-chase-demoor-zay-wilson-2024314173303-2024-11-09-fame-fighti.png
-  cutout images/chase-demoor/cutouts/04-chase-demoor-2024314173214-2024-11-09-fame-fighting-2-sven-1.png
-  cutout images/chase-demoor/cutouts/05-chase-demoor-2024314173217-2024-11-09-fame-fighting-2-sven-1.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Plinio Cruz
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Drive: saved images/khamzat-chimaev/drive-khamzat-chimaev.jpg
-Drive: saved images/khamzat-chimaev/drive-khamzat-chimaev-2.jpg
-Drive: saved images/khamzat-chimaev/drive-khamzat-chimaev-champ.jpg
-Drive: saved images/tommy-mcmillen/drive-tommy-mcmillen.webp
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/khamzat-chimaev
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tommy-mcmillen
-
-== 2026-10-10-2215-price-last-dance.json
-$ fetch.py Niko Price --count 5
-Image: {'type': 'text'} -> none   headline: Last Dance
-$ fetch.py Niko Price --count 5
-v2 left: silhouette
-$ fetch.py Michael Chiesa --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/michael-chiesa
-v2 right: images/michael-chiesa/cutouts/01-michael-chiesa-at-ufc-232.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-10-2215-price-last-dance/post.png (none)
-Rendered posts/2026-10-10-2215-price-last-dance/reel.mp4 (format v2)
-
-== 2026-10-10-2216-fili-head-kick.json
-$ fetch.py Andre Fili --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/andre-fili
-Image: {'type': 'fighter', 'name': 'Andre Fili'} -> fighter images/andre-fili/cutouts/01-andr-filipe-tavares-gomes.png  headline: Lights Out
-v2 left: images/andre-fili/cutouts/01-andr-filipe-tavares-gomes.png
-$ fetch.py Kai Kamaka III --count 5
-$ fetch.py Kai Kamaka --count 5
-v2 right: silhouette
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-10-2216-fili-head-kick/post.png (fighter)
-Rendered posts/2026-10-10-2216-fili-head-kick/reel.mp4 (format v2)
 
 == 2026-10-10-2217-poatan-coach-ko.json
 $ fetch.py Plinio Cruz --count 5
-$ fetch.py Chase DeMoor --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/chase-demoor
 Image: {'type': 'fighter', 'name': 'Chase DeMoor'} -> fighter images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png  headline: Coach KO
 $ fetch.py Plinio Cruz --count 5
 v2 left: silhouette
 v2 right: images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
 Rendered posts/2026-10-10-2217-poatan-coach-ko/post.png (fighter)
 Rendered posts/2026-10-10-2217-poatan-coach-ko/reel.mp4 (format v2)
