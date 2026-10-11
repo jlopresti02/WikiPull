@@ -305,8 +305,12 @@ def resolve_music(spec):
 
 
 def main():
-    sync_drive()
-    specs = sorted(QUEUE.glob("*.json")) if QUEUE.is_dir() else []
+    if len(sys.argv) > 1:
+        # just the named post files (the Sketch video workflow renders its own)
+        specs = [Path(a) for a in sys.argv[1:]]
+    else:
+        sync_drive()
+        specs = sorted(QUEUE.glob("*.json")) if QUEUE.is_dir() else []
     if not specs:
         print("Queue is empty.")
         return

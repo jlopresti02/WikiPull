@@ -46,7 +46,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: fetch-images  # shared with Make posts / Fetch images so pushes never race
+  # its own group: sharing Make posts' group let a news push cancel a
+  # waiting sketch run. Only this run's post file is rendered, and the
+  # commit step rebases, so the two never clash.
+  group: sketch-${{ github.run_id }}
   cancel-in-progress: false
 
 jobs:
@@ -86,23 +89,27 @@ jobs:
           AUDIO: ${{ inputs.audio }}
           CAPTION: ${{ inputs.caption }}
           FOOTAGE: ${{ inputs.footage_credit }}
-        run: python sketch_queue.py
+        run: echo "SPEC=$(python sketch_queue.py)" >> "$GITHUB_ENV"
 
       - name: Make posts
         run: |
           set -o pipefail
-          python make_posts.py 2>&1 | tee posts/make-posts-log.txt
+          python make_posts.py "$SPEC" 2>&1 | tee posts/sketch-log.txt
 
       - name: Commit
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          # a failed render leaves nothing in the queue (see sketch-log.txt)
+          [ -n "$SPEC" ] && rm -f "$SPEC"
           git add -A posts music
           if git diff --cached --quiet; then
             echo "Nothing new to commit."
             exit 0
           fi
-          git commit -m "Make posts"
-          git pull --rebase
-          git push
+          git commit -m "Make posts (sketch)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase && git push && break
+            sleep 10
+          done
