@@ -127,12 +127,22 @@ def _download(url, dest):
 
 
 def probe(path):
+    """(width, height, duration) as displayed, i.e. after rotation metadata
+    (phone screen recordings of a landscape video are often stored rotated)."""
     out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
-                          "stream=width,height:format=duration", "-of", "json", str(path)],
-                         capture_output=True, text=True, check=True).stdout
+                          "stream=width,height:stream_side_data=rotation:stream_tags=rotate:format=duration",
+                          "-of", "json", str(path)], capture_output=True, text=True, check=True).stdout
     j = json.loads(out)
     s = j["streams"][0]
-    return int(s["width"]), int(s["height"]), float(j["format"]["duration"])
+    w, h = int(s["width"]), int(s["height"])
+    rot = 0
+    for sd in s.get("side_data_list", []) or []:
+        if "rotation" in sd:
+            rot = int(float(sd["rotation"]))
+    rot = rot or int(float((s.get("tags") or {}).get("rotate", 0) or 0))
+    if abs(rot) % 180 == 90:
+        w, h = h, w
+    return w, h, float(j["format"]["duration"])
 
 
 def has_audio(path):
@@ -197,18 +207,29 @@ class Segmenter:
         return cv2.resize(pred, (w, h), interpolation=cv2.INTER_LINEAR)
 
 
-def keep_biggest(mask, k, min_frac=0.004):
-    """Keep the k biggest blobs of a binary mask (the fighters), drop the rest."""
+def keep_biggest(mask, k, min_frac=0.004, rgb=None):
+    """Keep the k most fighter-like blobs (biggest, and not mostly dark: a
+    referee in a black shirt scores low), drop the rest."""
     n, lab, stats, _ = cv2.connectedComponentsWithStats(mask.astype(np.uint8), 8)
     if n <= 1:
         return mask.astype(bool)
-    areas = stats[1:, cv2.CC_STAT_AREA]
-    order = np.argsort(areas)[::-1]
+    areas = stats[1:, cv2.CC_STAT_AREA].astype(float)
+    score = areas.copy()
+    if rgb is not None:
+        v = cv2.cvtColor(rgb, cv2.COLOR_RGB2HSV)[..., 2]
+        dark = v < 70
+        for i in range(1, n):
+            frac = dark[lab == i].mean() if areas[i - 1] else 0
+            if frac > 0.5:
+                score[i - 1] *= 0.25
+    order = np.argsort(score)[::-1]
     keep = [i + 1 for i in order[:k] if areas[i] >= min_frac * mask.size]
     return np.isin(lab, keep)
 
 
-def fighter_masks(frames, k, seg=None):
+def fighter_masks(frames, k, seg=None, priors=None):
+    """Binary fighter masks per frame. `priors` (optional, same shape) limits
+    each frame to blobs that overlap the fighters found in a first pass."""
     seg = seg or Segmenter()
     probs = []
     for i, f in enumerate(frames):
@@ -227,7 +248,12 @@ def fighter_masks(frames, k, seg=None):
         m = (p > 0.5).astype(np.uint8)
         m = cv2.morphologyEx(m, cv2.MORPH_OPEN, kernel)
         m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, kernel, iterations=2)
-        m = keep_biggest(m, k)
+        if priors is not None:
+            pr = cv2.dilate(priors[len(masks)].astype(np.uint8), np.ones((15, 15), np.uint8)).astype(bool)
+            n_, cc_, _, _ = cv2.connectedComponentsWithStats(m, 8)
+            hit = np.unique(cc_[pr & (cc_ > 0)])
+            m = np.isin(cc_, hit).astype(np.uint8)
+        m = keep_biggest(m, k, rgb=frames[len(masks)])
         m = fill_holes(m)
         masks.append(m)
     return np.stack(masks)
@@ -333,27 +359,44 @@ def draw_frame(rgb, mask, scale, colors=True, line_px=3):
     return canvas
 
 
-def stable_box(masks, pad=0.08, aspect=1.0):
-    """One crop box for the whole clip (so the camera doesn't jump), with the
-    panel's aspect ratio (w/h)."""
+def follow_boxes(masks, aspect, pad=0.07, smooth_s=0.8, fps=12, min_h_frac=0.45):
+    """A crop box per frame that follows the fighters like a slow camera:
+    the kept blobs' bounding box, gaps filled, smoothed over ~smooth_s
+    seconds, padded and widened to the panel's aspect ratio (w/h)."""
     n, h, w = masks.shape
-    boxes = []
-    for m in masks:
+    raw = np.full((n, 4), np.nan)
+    for i, m in enumerate(masks):
         ys, xs = np.nonzero(m)
-        if len(xs):
-            boxes.append((xs.min(), ys.min(), xs.max(), ys.max()))
-    if not boxes:
-        return 0, 0, w, h
-    b = np.array(boxes)
-    x0, y0 = np.percentile(b[:, 0], 5), np.percentile(b[:, 1], 5)
-    x1, y1 = np.percentile(b[:, 2], 95), np.percentile(b[:, 3], 95)
-    bw, bh = (x1 - x0) * (1 + 2 * pad), (y1 - y0) * (1 + 2 * pad)
-    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
-    if bw / bh > aspect:
-        bh = bw / aspect
-    else:
-        bw = bh * aspect
-    return cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2
+        if len(xs) > 0.002 * m.size:
+            raw[i] = (np.percentile(xs, 1), np.percentile(ys, 1), np.percentile(xs, 99), np.percentile(ys, 99))
+    ok = ~np.isnan(raw[:, 0])
+    if not ok.any():
+        return np.tile([0, 0, w, h], (n, 1)).astype(float)
+    idx = np.arange(n)
+    for c in range(4):
+        raw[:, c] = np.interp(idx, idx[ok], raw[ok, c])
+    cx, cy = (raw[:, 0] + raw[:, 2]) / 2, (raw[:, 1] + raw[:, 3]) / 2
+    bw, bh = (raw[:, 2] - raw[:, 0]) * (1 + 2 * pad), (raw[:, 3] - raw[:, 1]) * (1 + 2 * pad)
+    bh = np.maximum(bh, np.maximum(bw / aspect, min_h_frac * h))
+    sig = max(1.0, smooth_s * fps / 2)
+    def blur(a):
+        r = int(3 * sig)
+        k = np.exp(-0.5 * (np.arange(-r, r + 1) / sig) ** 2)
+        k /= k.sum()
+        return np.convolve(np.pad(a, r, mode="edge"), k, mode="valid")
+    cx, cy, bh = blur(cx), blur(cy), blur(bh)
+    bh = np.minimum(bh, h * 1.0)
+    bw = bh * aspect
+    return np.stack([cx - bw / 2, cy - bh / 2, cx + bw / 2, cy + bh / 2], 1)
+
+
+def crop_frame(frame, box, out_w, out_h):
+    """Crop `box` (may reach outside) from frame, white outside, resized."""
+    x0, y0, x1, y1 = box
+    sx = out_w / (x1 - x0)
+    M = np.array([[sx, 0, -x0 * sx], [0, out_h / (y1 - y0), -y0 * out_h / (y1 - y0)]], np.float32)
+    return cv2.warpAffine(frame, M, (out_w, out_h), flags=cv2.INTER_AREA if sx < 1 else cv2.INTER_CUBIC,
+                          borderMode=cv2.BORDER_CONSTANT, borderValue=(255, 255, 255))
 
 
 # --------------------------------------------------------------- framing ---
@@ -502,25 +545,33 @@ def make_sketch_video(src, out_dir, cfg=None, music=None, music_start=0.0):
             raise RuntimeError(f"clip is {duration:.0f}s; trim it to 60s or less with start/end")
         print(f"sketch: {len(small)} frames at {fps} fps ({duration:.1f}s)")
         # contact sheet of the source (6 frames) so a reviewer can check the clip
-        picks = [small[int(i * (len(small) - 1) / 5)] for i in range(6)]
-        th = [cv2.resize(p_, (240, int(240 * p_.shape[0] / p_.shape[1]))) for p_ in picks]
-        Image.fromarray(np.hstack(th)).save(out_dir / "source.jpg", quality=80)
+        idxs = [int(i * (len(small) - 1) / 11) for i in range(12)]
+        th = []
+        for i_ in idxs:
+            t_ = cv2.resize(small[i_], (320, int(320 * small.shape[1] / small.shape[2])))
+            cv2.putText(t_, f"{(start or 0) + i_ / fps:.1f}s", (8, 28), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 0), 2)
+            th.append(t_)
+        rows = [np.hstack(th[r * 4:(r + 1) * 4]) for r in range(3)]
+        Image.fromarray(np.vstack(rows)).save(out_dir / "source.jpg", quality=80)
         m_small = fighter_masks(small, k, seg)
         if not m_small.any():
             raise RuntimeError("no fighters found in the clip")
-        bx = stable_box(m_small, pad=float(cfg.get("pad", 0.07)), aspect=panel_w / panel_h)
-        f = src_w / small.shape[2]
-        crop = tuple(v * f for v in bx)
-        if cfg.get("crop"):  # manual override, source pixels [x0, y0, x1, y1]
-            crop = tuple(cfg["crop"])
-
-        # pass 2: re-read just that box at drawing resolution and draw it
         proc_w = 720
         proc_h = int(round(proc_w * panel_h / panel_w / 2)) * 2
-        frames = read_frames(path, fps, start, end, proc_w=proc_w, crop=crop, out_h=proc_h)
-        if cfg.get("mirror"):
-            frames = frames[:, :, ::-1].copy()
-        masks = fighter_masks(frames, k, seg)
+        if cfg.get("crop"):  # manual fixed box, source pixels [x0, y0, x1, y1]
+            frames = read_frames(path, fps, start, end, proc_w=proc_w, crop=tuple(cfg["crop"]), out_h=proc_h)
+        else:
+            boxes = follow_boxes(m_small, panel_w / panel_h, pad=float(cfg.get("pad", 0.07)), fps=fps)
+            # pass 2: re-read at a higher resolution and crop each frame to its box
+            big_w = min(src_w, 1440)
+            big = read_frames(path, fps, start, end, proc_w=big_w)
+            f = big_w / small.shape[2]
+            n_ = min(len(big), len(boxes))
+            frames = np.stack([crop_frame(big[i], boxes[i] * f, proc_w, proc_h) for i in range(n_)])
+            priors = np.stack([crop_frame(m_small[i].astype(np.uint8) * 255, boxes[i], proc_w, proc_h) > 127
+                               for i in range(n_)])
+            del big
+        masks = fighter_masks(frames, k, seg, priors if not cfg.get("crop") else None)
         drawings = []
         for i, (fr, m) in enumerate(zip(frames, masks)):
             art = draw_frame(fr, m, panel_w / proc_w, cfg.get("colors", True))
