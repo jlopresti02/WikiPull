@@ -25,8 +25,12 @@
         {
           "post": "2026-10-10-2215-price-last-dance",
           "kind": "new",
-          "format": "reel",
-          "style": "v2"
+          "format": "trial_reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-10T22:40:00-04:00",
+          "image": "silhouette (Niko Price) + Michael Chiesa photo",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8569638710358554515",
+          "note": "moved to Trial Reel: no Price photo"
         }
       ]
     },
@@ -45,14 +49,8 @@
       "sources": [
         "https://www.sherdog.com/news/news/UFC-Vegas-122-Allen-vs-Duncan-playbyplay-results-round-scoring-203155"
       ],
-      "posts": [
-        {
-          "post": "2026-10-10-2216-fili-head-kick",
-          "kind": "new",
-          "format": "trial_reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held": "not scheduled: photo fetch matched the wrong person (footballer Andre Gomes); no Andre Fili or Kai Kamaka photo"
     },
     {
       "id": "plinio-cruz-ko-debut-misfits-wants-demoor",
@@ -79,7 +77,10 @@
           "post": "2026-10-10-2217-poatan-coach-ko",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-10T23:10:00-04:00",
+          "image": "silhouette (Plinio Cruz) + Chase DeMoor photo",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6408630271234623741"
         }
       ]
     },
