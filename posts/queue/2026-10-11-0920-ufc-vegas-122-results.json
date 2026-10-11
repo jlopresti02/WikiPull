@@ -1,0 +1,153 @@
+{
+  "carousel": true,
+  "story_id": "ufc-vegas-122-results",
+  "headline": "UFC Vegas 122 Results",
+  "color": "#d2202f",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "Vegas 122 Results",
+      "fighter": [
+        "Brendan Allen"
+      ],
+      "file": "drive-brendan-allen",
+      "kicker": "Late choke",
+      "subtitle": "Allen def. Duncan"
+    },
+    {
+      "type": "hook",
+      "title": "Head Kick KO",
+      "fighter": [],
+      "kicker": "22 seconds into R2",
+      "subtitle": "Fili KO R2 0:22"
+    },
+    {
+      "type": "result",
+      "label": "Main event · Middleweight",
+      "winner": [
+        "Brendan Allen"
+      ],
+      "loser": [
+        "Christian Leroy Duncan"
+      ],
+      "method": "Rear-naked choke",
+      "detail": "R5 2:46"
+    },
+    {
+      "type": "result",
+      "label": "Co-main · Lightweight",
+      "winner": [
+        "Jai Herbert"
+      ],
+      "loser": [
+        "Matheus Camilo"
+      ],
+      "method": "Unanimous decision",
+      "detail": "R3"
+    },
+    {
+      "type": "list",
+      "title": "Main Card",
+      "rows": [
+        [
+          "Lupita Godinez",
+          "Ketlen Souza",
+          "Dec"
+        ],
+        [
+          "Andre Fili",
+          "Kai Kamaka III",
+          "KO R2"
+        ],
+        [
+          "Otari Tanzilovi",
+          "Malcolm Wellmaker",
+          "TKO R2"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Prelims",
+      "rows": [
+        [
+          "Julius Walker",
+          "Gerald Meerschaert",
+          "TKO R2"
+        ],
+        [
+          "Francisco Prado",
+          "Ismael Bonfim",
+          "TKO R1"
+        ],
+        [
+          "Niko Price",
+          "Leon Shahbazyan",
+          "TKO R1"
+        ],
+        [
+          "Brendson Ribeiro",
+          "Felipe Franco",
+          "Sub R1"
+        ],
+        [
+          "Allen Frye",
+          "R.J. Harris",
+          "KO R1"
+        ],
+        [
+          "Alice Pereira",
+          "Darya Zheleznyakova",
+          "TKO R1"
+        ],
+        [
+          "Melissa Gatto",
+          "Ernesta Kareckaite",
+          "Majority draw"
+        ]
+      ]
+    },
+    {
+      "type": "bonuses",
+      "title": "$100K Bonuses",
+      "rows": [
+        [
+          "Performance of the Night",
+          "Brendan Allen"
+        ],
+        [
+          "Performance of the Night",
+          "Andre Fili"
+        ],
+        [
+          "Performance of the Night",
+          "Otari Tanzilovi"
+        ],
+        [
+          "Performance of the Night",
+          "Alice Pereira"
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Who should Allen fight next?",
+      "lines": [
+        "Comment your pick",
+        "Follow @wwitmma for results"
+      ]
+    }
+  ],
+  "caption": "Brendan Allen choked out Christian Leroy Duncan late in round 5 to win the UFC Vegas 122 main event. 🔥\nBest finish: Fili or Tanzilovi? 👇\n\nThe rear-naked choke at 2:46 of the fifth made it four straight UFC wins for Allen. Jai Herbert outpointed Matheus Camilo in the co-main, and Andre Fili and Otari Tanzilovi both finished with head kicks. Allen, Fili, Tanzilovi and Alice Pereira each took home $100K bonuses.\n\nSwipe for the full UFC Vegas 122 results. Who's next for Allen?",
+  "hashtags": [
+    "UFCVegas122",
+    "UFC",
+    "MMANews",
+    "BrendanAllen",
+    "UFCResults"
+  ],
+  "sources": [
+    "Sherdog",
+    "Yahoo Sports"
+  ]
+}
