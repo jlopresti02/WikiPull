@@ -27,7 +27,10 @@
           "post": "2026-10-11-1830-dana-strickland-no",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "image": "v2: Sean Strickland (Drive drive-sean-strickland) vs Dana White (Wikimedia 01-dana-white-in-june-2025-cropped); Opetaia had no photo",
+          "scheduled_for": "2026-10-11T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5028588121554437377"
         }
       ]
     },
@@ -49,14 +52,8 @@
       "sources": [
         "https://www.mmanews.com/article/gerald-meerschaert-retires-ufc-vegas-122-60-fights"
       ],
-      "posts": [
-        {
-          "post": "2026-10-11-1831-meerschaert-retires",
-          "kind": "new",
-          "format": "trial_reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held": "2026-10-11 6 PM run: rendered but not scheduled; Wikimedia matched wrong people for Julius Walker (Civil War general) and Anderson Silva (no usable face). Needs a Julius Walker photo in Drive."
     },
     {
       "id": "allen-backs-strickland-pay-then-apologizes",
