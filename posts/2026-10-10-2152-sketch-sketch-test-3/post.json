@@ -1,0 +1,43 @@
+{
+  "story_id": "sketch-sketch-test-3",
+  "headline": "Sketch test 3",
+  "format": "sketch",
+  "visual": [
+    {
+      "type": "text"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Breaking down Sketch test 3 frame by frame ✏️\nWho had the better game plan? 👇\n\nFight breakdown, drawn by WWIT MMA. MMA news.",
+  "hashtags": [
+    "MMA",
+    "UFC",
+    "MMABreakdown",
+    "FightBreakdown",
+    "MMANews"
+  ],
+  "sources": [],
+  "music_pool": "espn",
+  "sketch": {
+    "video": "drive:1C1B2KrG7h65HZGVhVVT9lmVvnR5LXPi7",
+    "captions": [
+      "Watch the *distance*.",
+      "Then the *exchange*."
+    ],
+    "title": "Sketch test 3",
+    "tag": "TEST",
+    "end": 15.0,
+    "fighters": 2,
+    "audio": "music"
+  },
+  "requested": true,
+  "reel": true,
+  "subject": {
+    "kind": "none",
+    "image": null,
+    "credit": null
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
+}
