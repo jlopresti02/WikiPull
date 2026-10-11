@@ -1,48 +1,27 @@
-Searching Wikimedia Commons for: Jai Opetaia
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Gerald Meerschaert
-  saved images/gerald-meerschaert/01-geraldmeerschaert.png  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-11 22:17:55.314678805 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Julius Walker
+  saved images/julius-walker/01-julius-walker-adams-portrait.jpg  [Public domain]
+  saved images/julius-walker/02-julius-walker-adams.jpg  [Public domain]
+Done: 2 image(s) saved.
+[0;93m2026-10-11 22:24:16.501064238 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/gerald-meerschaert/cutouts/01-geraldmeerschaert.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Anderson Silva
-  saved images/anderson-silva/01-dilma-rousseff-with-anderson-silva.jpg  [CC BY-SA 2.0]
-  saved images/anderson-silva/02-anderson-silva-vs-thales-leites-ufc-97.jpg  [CC BY 2.0]
-  saved images/anderson-silva/03-chris-weidman-knock-out-anderson-silva-at-ufc-162.jpg  [Public domain]
-  saved images/anderson-silva/04-anderson-silva.jpg  [CC BY 3.0]
-  saved images/anderson-silva/05-marcos-alexandre-e-anderson-silva.png  [CC BY 4.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-11 22:19:12.995202194 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/anderson-silva/cutouts/01-dilma-rousseff-with-anderson-silva.png
-  cutout images/anderson-silva/cutouts/02-anderson-silva-vs-thales-leites-ufc-97.png
-  cutout images/anderson-silva/cutouts/03-chris-weidman-knock-out-anderson-silva-at-ufc-162.png
-  cutout images/anderson-silva/cutouts/04-anderson-silva.png
-  cutout images/anderson-silva/cutouts/05-marcos-alexandre-e-anderson-silva.png
-Done: 5 new cutout(s).
+  cutout images/julius-walker/cutouts/01-julius-walker-adams-portrait.png
+  cutout images/julius-walker/cutouts/02-julius-walker-adams.png
+Done: 2 new cutout(s).
 
 == 2026-10-11-1830-dana-strickland-no.json
 Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Dana: No
 v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
-$ fetch.py Jai Opetaia --count 5
-v2 right: silhouette
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
 Rendered posts/2026-10-11-1830-dana-strickland-no/post.png (fighter)
 Rendered posts/2026-10-11-1830-dana-strickland-no/reel.mp4 (format v2)
 
 == 2026-10-11-1831-meerschaert-retires.json
-$ fetch.py Gerald Meerschaert --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gerald-meerschaert
 Image: {'type': 'fighter', 'name': 'Gerald Meerschaert'} -> fighter images/gerald-meerschaert/cutouts/01-geraldmeerschaert.png  headline: GM3 Retires
 v2 left: images/gerald-meerschaert/cutouts/01-geraldmeerschaert.png
-$ fetch.py Anderson Silva --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/anderson-silva
-v2 right: images/anderson-silva/cutouts/01-dilma-rousseff-with-anderson-silva.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+$ fetch.py Julius Walker --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/julius-walker
+v2 right: images/julius-walker/cutouts/01-julius-walker-adams-portrait.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
 Rendered posts/2026-10-11-1831-meerschaert-retires/post.png (fighter)
 Rendered posts/2026-10-11-1831-meerschaert-retires/reel.mp4 (format v2)

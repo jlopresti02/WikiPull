@@ -8,7 +8,7 @@
     },
     {
       "type": "fighter",
-      "name": "Anderson Silva"
+      "name": "Julius Walker"
     }
   ],
   "color": "#f5c518",
@@ -18,7 +18,7 @@
     "UFC",
     "UFCVegas122",
     "GeraldMeerschaert",
-    "AndersonSilva"
+    "JuliusWalker"
   ],
   "sources": [
     "MMA News"
@@ -40,7 +40,7 @@
     ],
     "right": [
       {
-        "name": "Anderson Silva"
+        "name": "Julius Walker"
       }
     ],
     "story": "Meerschaert retired after UFC Vegas 122 with the most finishes in UFC middleweight history.",
@@ -61,8 +61,8 @@
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/anderson-silva/cutouts/01-dilma-rousseff-with-anderson-silva.png",
-      "credit": "Dilma Rousseff / CC BY-SA 2.0"
+      "image": "images/julius-walker/cutouts/01-julius-walker-adams-portrait.png",
+      "credit": "Unknown authorUnknown author / Public domain"
     }
   },
   "subject": {
@@ -70,7 +70,7 @@
     "image": "images/gerald-meerschaert/cutouts/01-geraldmeerschaert.png",
     "credit": "Show Me The Money / CC BY 3.0"
   },
-  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
-  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
-  "music_start": 108.75
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

@@ -9,6 +9,11 @@
     },
     {
       "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    },
+    {
+      "type": "fighter",
       "name": "Jai Opetaia"
     }
   ],
@@ -42,7 +47,8 @@
     ],
     "right": [
       {
-        "name": "Jai Opetaia"
+        "name": "Dana White",
+        "file": "01-dana-white-in-june-2025-cropped"
       }
     ],
     "story": "Asked if Strickland could beat the Zuffa Boxing champ, Dana White answered with one word: no.",
@@ -62,10 +68,9 @@
       "credit": "WWIT MMA News"
     },
     "right_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
+      "kind": "fighter",
+      "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+      "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
     }
   },
   "subject": {
@@ -73,7 +78,7 @@
     "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/news-intro/01-intro-a-new-song.mp3",
-  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
-  "music_start": 22.25
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
