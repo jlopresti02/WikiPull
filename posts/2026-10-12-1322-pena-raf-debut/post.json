@@ -4,19 +4,17 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Julianna Peña"
+      "name": "Julianna Peña",
+      "file": "drive-julianna-pe-a-headshot"
     },
     {
       "type": "fighter",
-      "name": "Julianna Pena"
-    },
-    {
-      "type": "fighter",
-      "name": "Diana Avsaragova"
+      "name": "Diana Avsaragova",
+      "file": "drive-avsaragova"
     }
   ],
   "color": "#6b2fd1",
-  "caption": "Julianna Peña is back, but on the wrestling mats, the same night Kayla Harrison fights Amanda Nunes 🤼‍♀️\nCan Peña win, yes or no? 👇\n\nThe former UFC bantamweight champ faces Diana Avsaragova in a freestyle wrestling match at RAF Abu Dhabi on Nov. 14, her first action since losing the belt to Harrison. Harrison vs. Nunes co-headlines UFC 334 at MSG that night. MMA news.\n\nWho wins on the mats?",
+  "caption": "Julianna Peña is back, but on the wrestling mats, the same night Kayla Harrison fights Amanda Nunes 🤼‍♀️\nPeña or Avsaragova? 👇\n\nThe former UFC bantamweight champ faces Diana Avsaragova in a freestyle wrestling match at RAF Abu Dhabi on Nov. 14, her first action since losing the belt to Harrison. Harrison vs. Nunes co-headlines UFC 334 at MSG that night. MMA news.\n\nWho wins on the mats?",
   "hashtags": [
     "Wrestling",
     "RAF",
@@ -29,56 +27,55 @@
     "MMA News"
   ],
   "music_pool": "espn",
-  "question": "Can Peña win?",
+  "question": "Peña or Avsaragova?",
   "follow_card": true,
   "reel": true,
   "trial_reel": true,
   "format": "v2",
   "v2": {
     "tag": "RAF ABU DHABI · NOV 14",
-    "kicker": "SAME NIGHT AS HARRISON",
-    "hook": "Peña Returns",
+    "kicker": "SAME NIGHT AS UFC 334",
+    "hook": "Peña vs Avsaragova",
     "left": [
       {
-        "name": "Julianna Peña"
-      },
-      {
-        "name": "Julianna Pena"
+        "name": "Julianna Peña",
+        "file": "drive-julianna-pe-a-headshot"
       }
     ],
     "right": [
       {
-        "name": "Kayla Harrison"
+        "name": "Diana Avsaragova",
+        "file": "drive-avsaragova"
       }
     ],
-    "story": "Peña wrestles Diana Avsaragova at RAF Abu Dhabi, the same night Kayla Harrison fights Amanda Nunes.",
+    "story": "Peña's first action since losing her UFC belt is a freestyle wrestling match in Abu Dhabi.",
     "chips": [
       "FORMER UFC CHAMP",
       "FREESTYLE WRESTLING",
       "NOV 14 · ETIHAD ARENA"
     ],
-    "question": "Can Peña win?",
+    "question": "Peña or Avsaragova?",
     "options": [
-      "Yes",
-      "No"
+      "Peña",
+      "Avsaragova"
     ],
     "left_subject": {
       "kind": "fighter",
-      "image": "images/julianna-pe-a/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png",
-      "credit": "MMAnytt / CC BY 3.0"
+      "image": "images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png",
+      "credit": "WWIT MMA News"
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/kayla-harrison/cutouts/01-kayla-harrison-rio-2016c.png",
-      "credit": "Agência Brasil Fotografias / CC BY 2.0"
+      "image": "images/diana-avsaragova/cutouts/drive-avsaragova.png",
+      "credit": "WWIT MMA News"
     }
   },
   "subject": {
     "kind": "fighter",
-    "image": "images/julianna-pe-a/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png",
-    "credit": "MMAnytt / CC BY 3.0"
+    "image": "images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
-  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
-  "music_start": 156.25
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

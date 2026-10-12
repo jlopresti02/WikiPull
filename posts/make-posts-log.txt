@@ -1,33 +1,16 @@
-[0;93m2026-10-12 18:22:05.457394386 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/diana-avsaragova/cutouts/drive-avsaragova.png
-Done: 1 new cutout(s).
-[0;93m2026-10-12 18:23:19.163398121 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png
-  cutout images/jorge-masvidal/cutouts/drive-jorge-masvidal.png
-Done: 2 new cutout(s).
-[0;93m2026-10-12 18:24:08.033647036 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/julianna-pe-a/cutouts/drive-julianna-pe-a-champ.png
-  cutout images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png
-  cutout images/julianna-pe-a/cutouts/drive-julianna-pe-a.png
-Done: 3 new cutout(s).
-[0;93m2026-10-12 18:25:18.722959798 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/leon-edwards/cutouts/drive-leon-edwards-champion.png
-  cutout images/leon-edwards/cutouts/drive-leon-edwards.png
-Done: 2 new cutout(s).
-Drive: saved images/diana-avsaragova/drive-avsaragova.jpg
-Drive: saved images/julianna-pe-a/drive-julianna-pe-a-headshot.jpg
-Drive: saved images/julianna-pe-a/drive-julianna-pe-a.jpg
-Drive: saved images/julianna-pe-a/drive-julianna-pe-a-champ.jpg
-Drive: saved images/leon-edwards/drive-leon-edwards.jpg
-Drive: saved images/leon-edwards/drive-leon-edwards-champion.jpg
-Drive: saved images/jorge-masvidal/drive-jorge-masvidal.jpg
-Drive: saved images/jorge-masvidal/drive-jorge-masvidal-looks-at-camera.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/diana-avsaragova
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/jorge-masvidal
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/julianna-pe-a
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/leon-edwards
-Queue is empty.
+
+== 2026-10-12-1322-pena-raf-debut.json
+Image: {'type': 'fighter', 'name': 'Julianna Peña', 'file': 'drive-julianna-pe-a-headshot'} -> fighter images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png  headline: Peña Returns
+v2 left: images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png
+v2 right: images/diana-avsaragova/cutouts/drive-avsaragova.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-12-1322-pena-raf-debut/post.png (fighter)
+Rendered posts/2026-10-12-1322-pena-raf-debut/reel.mp4 (format v2)
+
+== 2026-10-12-1406-masvidal-looking-good.json
+Image: {'type': 'fighter', 'name': 'Jorge Masvidal', 'file': 'drive-jorge-masvidal-looks-at-camera'} -> fighter images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png  headline: Gamebred Back?
+v2 left: images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png
+v2 right: images/leon-edwards/cutouts/drive-leon-edwards-champion.png
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-12-1406-masvidal-looking-good/post.png (fighter)
+Rendered posts/2026-10-12-1406-masvidal-looking-good/reel.mp4 (format v2)

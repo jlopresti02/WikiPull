@@ -4,11 +4,13 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Jorge Masvidal"
+      "name": "Jorge Masvidal",
+      "file": "drive-jorge-masvidal-looks-at-camera"
     },
     {
       "type": "fighter",
-      "name": "Leon Edwards"
+      "name": "Leon Edwards",
+      "file": "drive-leon-edwards-champion"
     },
     {
       "type": "mystery",
@@ -16,7 +18,7 @@
     }
   ],
   "color": "#1f3fbf",
-  "caption": "Jorge Masvidal says his UFC comeback talks are looking good, and news could come soon 👀\nLeon Edwards or someone new? 👇\n\nThe 41-year-old former BMF champ, out since 2023, told Home of Fight he's been talking to the UFC and wants the right event. He says it's not about money; in August he called a Leon Edwards rematch \"definitely a prospect.\" UFC news.\n\nWho should Gamebred face?",
+  "caption": "Jorge Masvidal says his UFC comeback talks are looking good, and news could come soon 👀\nLeon Edwards or someone new? 👇\n\nThe 41-year-old former BMF champ, out since 2023, told Home of Fight he's been talking to the UFC and wants the right event. He says it's not about money; in August he said a Leon Edwards fight is \"definitely a prospect.\" UFC news.\n\nWho should Gamebred face?",
   "hashtags": [
     "MMANews",
     "UFC",
@@ -40,12 +42,14 @@
     "hook": "Masvidal Comeback?",
     "left": [
       {
-        "name": "Jorge Masvidal"
+        "name": "Jorge Masvidal",
+        "file": "drive-jorge-masvidal-looks-at-camera"
       }
     ],
     "right": [
       {
-        "name": "Leon Edwards"
+        "name": "Leon Edwards",
+        "file": "drive-leon-edwards-champion"
       }
     ],
     "story": "Masvidal says UFC talks are looking good and there might be news sooner than later.",
@@ -61,21 +65,21 @@
     ],
     "left_subject": {
       "kind": "fighter",
-      "image": "images/jorge-masvidal/cutouts/01-jorge-masvidal-2022.png",
-      "credit": "Miami Beach Police Department / Public domain"
+      "image": "images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png",
+      "credit": "WWIT MMA News"
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/leon-edwards/cutouts/01-leon-edwards-2021.png",
-      "credit": "James English / CC BY 3.0"
+      "image": "images/leon-edwards/cutouts/drive-leon-edwards-champion.png",
+      "credit": "WWIT MMA News"
     }
   },
   "subject": {
     "kind": "fighter",
-    "image": "images/jorge-masvidal/cutouts/01-jorge-masvidal-2022.png",
-    "credit": "Miami Beach Police Department / Public domain"
+    "image": "images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/03-acrobat.mp3",
-  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
-  "music_start": 158.75
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }
