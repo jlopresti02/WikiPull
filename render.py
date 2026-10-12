@@ -517,6 +517,12 @@ def render(spec_path):
         from sketch import make_reel_sketch
         make_reel_sketch(spec, out)
         print(f"Rendered posts/{name}/reel.mp4 (format sketch)")
+    elif spec.get("format") == "pause":
+        # Pause Challenge Reel (pause.py): a 2 s loop of a clip with the
+        # outline of the fighter's shape on the one perfect frame.
+        from pause import make_reel_pause
+        make_reel_pause(spec, out)
+        print(f"Rendered posts/{name}/reel.mp4 (format pause)")
     elif spec.get("reel"):
         make_reel(Scene(REEL, words, bg, cut, kind, graphic), out, spec)
         print(f"Rendered posts/{name}/reel.mp4")
@@ -531,7 +537,7 @@ def render(spec_path):
         lines.append(label + "; ".join(photo_credits))
     if spec.get("footage_credit"):
         lines.append("🎥 Footage: " + spec["footage_credit"])
-    if spec.get("reel") and spec.get("music_credit") and (spec.get("sketch") or {}).get("audio", "music") == "music":
+    if spec.get("reel") and spec.get("music_credit") and (spec.get("sketch") or spec.get("pause") or {}).get("audio", "music") == "music":
         lines.append("🎵 Music: " + spec["music_credit"])
     tags = [t if t.startswith("#") else "#" + t for t in spec.get("hashtags", [])][:5]
     if tags:

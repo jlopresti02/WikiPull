@@ -23,7 +23,9 @@ For each posts/queue/<name>.json:
 
 Sketch post files ("format": "sketch", see sketch.py) turn a fight clip
 (Google Drive, the repo's sketch/input/ folder, or a link) into a
-hand-drawn breakdown Reel with captions.
+hand-drawn breakdown Reel with captions. Pause-challenge post files
+("format": "pause", see pause.py) loop a 2-second moment of a clip with
+an outline of the fighter's shape on one frame ("pause it when he fits").
 
 Carousel post files ("carousel": true, see carousel.py) skip steps 1-2:
 each slide looks up its own fighters (silhouette when there's no photo)
@@ -324,13 +326,15 @@ def main():
                 render_carousel(spec_path, get_cut)
                 spec_path.unlink()
                 continue
-            if spec.get("format") == "sketch":
-                # sketch Reels draw their own frames; post.png is just the headline
+            if spec.get("format") in ("sketch", "pause"):
+                # sketch and pause-challenge Reels draw their own frames;
+                # post.png is just the headline
                 spec.setdefault("visual", [{"type": "text"}])
                 spec["reel"] = True
             changed = resolve_visual(spec)
             changed = resolve_v2(spec) or changed
-            if spec.get("format") == "sketch" and (spec.get("sketch") or {}).get("audio", "music") != "music":
+            clip_cfg = spec.get("sketch") or spec.get("pause") or {}
+            if spec.get("format") in ("sketch", "pause") and clip_cfg.get("audio", "music") != "music":
                 pass  # clip's own sound or silence: no music to pick
             elif spec.get("format") == "serious":
                 # serious Reels make their own quiet pad unless "music" is named

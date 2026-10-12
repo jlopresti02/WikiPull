@@ -307,6 +307,46 @@ Each run, also list the Sketch Videos folder (`parentId =
    Sketch Reels are user requests: they **don't count** toward the daily 10.
    Ledger post entry: `"style": "sketch"`.
 
+### 3d. Pause Challenge Reels (added Oct 12, user request)
+
+`pause.py` makes "pause it when he fits the outline" Reels: a ~2 second
+moment from a fight (a KO, a head kick, a slam) plays on an endless loop,
+and a dashed outline shows the exact shape the fighter makes on ONE frame
+(the "perfect frame"). Viewers try to pause on that frame and screenshot
+it, so they replay it again and again. Three looks, chosen with
+`"style"`: `"footage"` (the real clip with the outline on top; the
+user's starting point), `"cutout"` (the fighters cut out onto a v2
+colour-burst background) and `"sketch"` (the fighters redrawn in ink on
+white, red outline). Instagram rejects Reels under 3 seconds, so the
+2-second loop is written 4 times (8 s); the loops are identical, so it
+still plays as one endless loop.
+
+The user picks the clip and the moment. They upload the clip to the
+**Sketch Videos** Drive folder and say which second is the perfect frame
+(e.g. "the head kick lands at 0:07.2") and which fighter makes the shape.
+Then:
+1. Queue `posts/queue/<YYYY-MM-DD-HHMM>-pause-<slug>.json` with
+   `"format": "pause"`, a `"headline"` (1-3 words, e.g. "Pause It"), and a
+   `"pause"` block: `video` (`"drive:<id>"`), `moment` (seconds),
+   `fighter` (`"left"`, `"right"`, `"biggest"` or `[x, y]` as 0-1 fractions
+   of the frame), `style`, `title` ("KHABIB VS MCGREGOR"), `tag` ("UFC
+   229"), optional `before`/`after` (default 1.4 s / 0.6 s around the
+   moment), `who` ("SHE" for women's fights), `audio` (`"music"` default,
+   `"original"` or `"none"`). Also a short caption (first line names the
+   fighters and the moment; second line "Can you pause it in the outline?
+   👇"), exactly 5 hashtags (`MMA`, `UFC`, `PauseChallenge`, the event and a
+   fighter), `"music_pool": "espn"`, and `"footage_credit"` (e.g. "UFC").
+   Add `{"id", "name", "post"}` to `sketch/drive.json` in the same commit.
+2. Check the render before scheduling: open `posts/<name>/check.png` (the
+   perfect frame: the fighter must sit exactly inside the outline, and it
+   must be the right fighter) and `source.jpg` (the loop's frames). If the
+   outline is on the wrong person, re-queue with `"fighter"` set the other
+   way or as `[x, y]`; if the moment is off, adjust `moment`.
+3. Schedule as a regular `REEL` (evening slots preferred), first comment
+   "Can you pause it in the outline? 👇 Drop your screenshot". Like sketch
+   Reels these are user requests and **don't count** toward the daily 10.
+   Ledger post entry: `"style": "pause-<style>"`.
+
 ### 4. Write the post file
 
 Create `posts/queue/<YYYY-MM-DD-HHMM>-<short-slug>.json`:
