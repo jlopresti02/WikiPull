@@ -2,6 +2,96 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "jon-jones-regrets-missing-white-house-card",
+   "title": "Jon Jones: missing the UFC White House card is one of the big regrets of my life",
+   "people": [
+    "Jon Jones",
+    "Dana White",
+    "Alex Pereira"
+   ],
+   "event": "UFC Freedom 250",
+   "first_reported": "2026-10-12",
+   "facts": [
+    "Jones told The Schmo that missing UFC Freedom 250 (June 14, White House) is one of the biggest regrets of his life; one of the few nights he thought 'I should have been there'",
+    "In March he said he was lowballed and asked for his release after Dana White said he was never considered",
+    "Pereira vs Gane was the co-main (interim HW title)",
+    "Jones' last fight: UFC 309 (Nov 2024) vs Miocic; says he'd be happy never to fight again",
+    "Related: jon-jones-likely-wont-fight-again"
+   ],
+   "sources": [
+    "https://mmanews.com/article/jon-jones-regret-missing-ufc-white-house-card"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-12-1320-jones-big-regret",
+     "kind": "new",
+     "format": "reel",
+     "style": "v2"
+    }
+   ]
+  },
+  {
+   "id": "lopes-oliveira-who-goes-down-first-ufc-335",
+   "title": "Diego Lopes wants a war with Charles Oliveira at UFC 335: 'Let's see who goes down first'",
+   "people": [
+    "Diego Lopes",
+    "Charles Oliveira",
+    "Justin Gaethje"
+   ],
+   "event": "UFC 335",
+   "first_reported": "2026-10-12",
+   "facts": [
+    "Lopes told MMA Fighting he wants to throw down with Oliveira: 'Let's see who goes down first'",
+    "Calls Oliveira 'definitely' the hardest matchup of his career",
+    "Would like to defend the BMF belt, 'and if it's against Justin Gaethje, even better'",
+    "UFC first offered him Dan Hooker at UFC Paris; Benoit Saint Denis was also considered",
+    "Related: oliveira-vs-lopes-bmf-ufc-335, lopes-ufc-told-him-skip-hooker-parnasse"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/diego-lopes-welcomes-bmf-style-130000642.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-12-1321-lopes-goes-down-first",
+     "kind": "new",
+     "format": "reel",
+     "style": "v2"
+    }
+   ]
+  },
+  {
+   "id": "pena-vs-avsaragova-raf-abu-dhabi",
+   "title": "Julianna Peña vs. Diana Avsaragova, freestyle wrestling at RAF Abu Dhabi (Nov 14)",
+   "people": [
+    "Julianna Peña",
+    "Diana Avsaragova",
+    "Kayla Harrison",
+    "Amanda Nunes"
+   ],
+   "event": "RAF Abu Dhabi",
+   "sport": "wrestling",
+   "first_reported": "2026-10-12",
+   "facts": [
+    "Announced Oct 12: Peña vs Avsaragova, freestyle wrestling, middleweight, non-title, RAF Abu Dhabi, Nov 14, Etihad Arena (FOX Nation)",
+    "Peña's first action since losing the UFC bantamweight title to Harrison at UFC 316 (June 2025)",
+    "Same night as UFC 334 at MSG, where Harrison vs Nunes is the co-main",
+    "Avsaragova is 6-2 in MMA (Bellator, PFL), signed with RAF in May; pulled out of RAF 12 title bout vs Kennedy Blades through illness",
+    "Card also has Chimaev vs Covington, Tsarukyan vs Neiman Gracie, Umar Nurmagomedov vs Faber, Blades vs Bella Mir"
+   ],
+   "sources": [
+    "https://sports.yahoo.com/articles/julianna-pen-books-raf-match-125044533.html",
+    "https://www.mmanews.com/article/julianna-pena-diana-avsaragova-raf-abu-dhabi"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-12-1322-pena-raf-debut",
+     "kind": "new",
+     "format": "trial_reel",
+     "style": "v2"
+    }
+   ]
+  },
+  {
    "id": "allen-fought-through-staph-ufc-vegas-122",
    "title": "Belal Muhammad: Brendan Allen fought through a staph infection at UFC Vegas 122",
    "people": [

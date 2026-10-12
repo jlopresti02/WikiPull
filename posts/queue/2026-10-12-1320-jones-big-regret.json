@@ -1,0 +1,61 @@
+{
+  "story_id": "jon-jones-regrets-missing-white-house-card",
+  "headline": "Big Regret",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Jon Jones",
+      "file": "drive-jon-jones-champion"
+    },
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "drive-alex-pereira"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Jon Jones admits missing the UFC White House card is one of the biggest regrets of his life 😬\nJones' fault or Dana's? 👇\n\nJones told The Schmo that June's UFC Freedom 250 was one of the few nights he felt he should have been in there. He said he was lowballed for that card, while Dana White said he was never considered. Alex Pereira, once linked to a Jones fight, faced Ciryl Gane in the co-main. UFC news.\n\nWill Bones ever fight again?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCWhiteHouse",
+    "JonJones",
+    "AlexPereira"
+  ],
+  "sources": [
+    "MMA News"
+  ],
+  "music_pool": "espn",
+  "question": "Jones or Dana?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "\"ONE OF MY BIG REGRETS\"",
+    "hook": "Jones on the White House",
+    "left": [
+      {
+        "name": "Jon Jones",
+        "file": "drive-jon-jones-champion"
+      }
+    ],
+    "right": [
+      {
+        "name": "Alex Pereira",
+        "file": "drive-alex-pereira"
+      }
+    ],
+    "story": "Jones says missing the UFC White House card is one of the biggest regrets of his life.",
+    "chips": [
+      "UFC FREEDOM 250",
+      "LAST FIGHT: UFC 309",
+      "PEREIRA GOT THE SPOT"
+    ],
+    "question": "Jones or Dana?",
+    "options": [
+      "Jones",
+      "Dana"
+    ]
+  }
+}
