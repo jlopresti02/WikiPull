@@ -1,16 +1,28 @@
+Searching Wikimedia Commons for: Plinio Cruz
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Plinio Cruz
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-12-1322-pena-raf-debut.json
-Image: {'type': 'fighter', 'name': 'Julianna Peña', 'file': 'drive-julianna-pe-a-headshot'} -> fighter images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png  headline: Peña Returns
-v2 left: images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png
-v2 right: images/diana-avsaragova/cutouts/drive-avsaragova.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-12-1322-pena-raf-debut/post.png (fighter)
-Rendered posts/2026-10-12-1322-pena-raf-debut/reel.mp4 (format v2)
+== 2026-10-12-1900-jones-steveson-gsp.json
+Image: {'type': 'fighter', 'name': 'Gable Steveson', 'file': '01-gablesteveson'} -> fighter images/gable-steveson/cutouts/01-gablesteveson.png  headline: Like GSP?
+v2 left: images/gable-steveson/cutouts/01-gablesteveson.png
+v2 right: images/jon-jones/cutouts/drive-jon-jones-champion.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-12-1900-jones-steveson-gsp/post.png (fighter)
+Rendered posts/2026-10-12-1900-jones-steveson-gsp/reel.mp4 (format v2)
 
-== 2026-10-12-1406-masvidal-looking-good.json
-Image: {'type': 'fighter', 'name': 'Jorge Masvidal', 'file': 'drive-jorge-masvidal-looks-at-camera'} -> fighter images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png  headline: Gamebred Back?
-v2 left: images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png
-v2 right: images/leon-edwards/cutouts/drive-leon-edwards-champion.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-12-1406-masvidal-looking-good/post.png (fighter)
-Rendered posts/2026-10-12-1406-masvidal-looking-good/reel.mp4 (format v2)
+== 2026-10-12-1901-cruz-demoor-dms.json
+$ fetch.py Plinio Cruz --count 5
+Image: {'type': 'fighter', 'name': 'Chase DeMoor', 'headline': 'DeMoor DMs'} -> fighter images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png  headline: DeMoor DMs
+$ fetch.py Plinio Cruz --count 5
+v2 left: silhouette
+v2 right: images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-12-1901-cruz-demoor-dms/post.png (fighter)
+Rendered posts/2026-10-12-1901-cruz-demoor-dms/reel.mp4 (format v2)

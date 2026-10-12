@@ -1,0 +1,82 @@
+{
+  "story_id": "plinio-cruz-ko-debut-misfits-wants-demoor",
+  "headline": "DeMoor DMs",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Plinio Cruz"
+    },
+    {
+      "type": "fighter",
+      "name": "Chase DeMoor",
+      "headline": "DeMoor DMs"
+    },
+    {
+      "type": "mystery",
+      "headline": "Cruz vs DeMoor"
+    }
+  ],
+  "color": "#0f8a5f",
+  "trial_reel": true,
+  "caption": "UPDATE: Alex Pereira's coach Plinio Cruz just leaked Chase DeMoor's DMs, and he wants DeMoor in the ring 😤\nCruz or DeMoor? 👇\n\nAfter Cruz stopped DeMoor's coach Gary Olive in round 2 at Misfits Boxing in London, DeMoor messaged that he was \"embarrassed\" for him. Cruz fired back, telling DeMoor to reschedule and fight him. MMA news.\n\nShould this fight happen?",
+  "hashtags": [
+    "MMANews",
+    "MisfitsBoxing",
+    "PlinioCruz",
+    "ChaseDeMoor",
+    "AlexPereira"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Cruz or DeMoor?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "MISFITS BOXING",
+    "kicker": "DMs LEAKED",
+    "hook": "Cruz vs DeMoor",
+    "left": [
+      {
+        "name": "Plinio Cruz"
+      }
+    ],
+    "right": [
+      {
+        "name": "Chase DeMoor"
+      }
+    ],
+    "story": "DeMoor DM'd that he was embarrassed for Cruz; Cruz told him to reschedule and fight.",
+    "chips": [
+      "CRUZ TKO R2",
+      "OLIVE REPLACED DEMOOR",
+      "LONDON"
+    ],
+    "question": "Cruz or DeMoor?",
+    "options": [
+      "Cruz",
+      "DeMoor"
+    ],
+    "left_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png",
+      "credit": "Sven Mandel / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/chase-demoor/cutouts/01-chase-demoor-2024-cropped.png",
+    "credit": "Sven Mandel / CC BY-SA 4.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
+}
