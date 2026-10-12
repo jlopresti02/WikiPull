@@ -24,7 +24,10 @@
      "post": "2026-10-11-2226-wilfredo-gomez-dies",
      "kind": "new",
      "format": "trial_reel",
-     "style": "serious"
+     "style": "serious",
+     "scheduled_for": "2026-10-11T23:25:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6408956059563307025",
+     "image": "serious: Wilfredo Gómez (Wikimedia, KO magazine April 1983, Bill Apter, public domain)"
     }
    ]
   },
@@ -53,7 +56,10 @@
      "post": "2026-10-11-2225-goddard-point-call",
      "kind": "new",
      "format": "trial_reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-11T22:55:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=98453673960425085",
+     "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs silhouette (no photo of Marc Goddard or Christian Leroy Duncan; Wikimedia matched a tide mill for Goddard, removed). Rendered at commit 976ea7b; queue file as of 5103538 (right: Tom Aspinall, none found). A Herb Dean version was rendered and not used (face would read as Goddard/Duncan)."
     }
    ]
   },

@@ -9,7 +9,7 @@
     },
     {
       "type": "fighter",
-      "name": "Herb Dean"
+      "name": "Tom Aspinall"
     }
   ],
   "color": "#1f3fbf",
@@ -43,7 +43,7 @@
     ],
     "right": [
       {
-        "name": "Herb Dean"
+        "name": "Tom Aspinall"
       }
     ],
     "story": "Ref Marc Goddard says he warned Duncan twice before taking a point for poking Allen's eye.",
@@ -63,9 +63,10 @@
       "credit": "WWIT MMA News"
     },
     "right_subject": {
-      "kind": "fighter",
-      "image": "images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png",
-      "credit": "MMAnytt / CC BY 3.0"
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
     }
   },
   "subject": {
@@ -73,7 +74,7 @@
     "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/sports/01-sport-is-cool.mp3",
-  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
-  "music_start": 160.5
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
