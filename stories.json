@@ -26,7 +26,10 @@
      "kind": "new",
      "format": "reel",
      "style": "v2",
-     "note": "Posted at the user's request after the 1 PM run"
+     "note": "Posted at the user's request after the 1 PM run",
+     "scheduled_for": "2026-10-12T15:00:00-04:00",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2817477095017826602",
+     "image": "v2: Jorge Masvidal (Wikimedia) vs Leon Edwards (Wikimedia)"
     }
    ]
   },
