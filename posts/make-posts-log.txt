@@ -1,15 +1,64 @@
-[0;93m2026-10-12 17:09:00.938766049 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Julianna Peña
+  saved images/julianna-pe-a/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.jpg  [CC BY 3.0]
+  saved images/julianna-pe-a/02-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.jpg  [CC BY 3.0]
+  saved images/julianna-pe-a/03-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269.jpg  [CC BY 3.0]
+  saved images/julianna-pe-a/04-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.jpg  [CC BY 3.0]
+  saved images/julianna-pe-a/05-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.jpg  [CC BY 3.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-12 17:14:37.032890918 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/jon-jones/cutouts/drive-jon-jones-champion.png
-  cutout images/jon-jones/cutouts/drive-jon-jones-duck.png
-  cutout images/jon-jones/cutouts/drive-jon-jones-goat.png
-  cutout images/jon-jones/cutouts/drive-jon-jones-normal.png
-  cutout images/jon-jones/cutouts/drive-unc.png
+  cutout images/julianna-pe-a/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png
+  cutout images/julianna-pe-a/cutouts/02-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png
+  cutout images/julianna-pe-a/cutouts/03-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269.png
+  cutout images/julianna-pe-a/cutouts/04-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.png
+  cutout images/julianna-pe-a/cutouts/05-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.png
 Done: 5 new cutout(s).
-Drive: saved images/jon-jones/drive-jon-jones-goat.jpg
-Drive: saved images/jon-jones/drive-jon-jones-normal.jpg
-Drive: saved images/jon-jones/drive-unc.jpg
-Drive: saved images/jon-jones/drive-jon-jones-champion.jpg
-Drive: saved images/jon-jones/drive-jon-jones-duck.webp
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/jon-jones
-Queue is empty.
+Searching Wikimedia Commons for: Diana Avsaragova
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Kayla Harrison
+  saved images/kayla-harrison/01-kayla-harrison-rio-2016c.jpg  [CC BY 2.0]
+  saved images/kayla-harrison/02-kayla-harrison-rio-2016-cropped.jpg  [CC BY 3.0 br]
+  saved images/kayla-harrison/03-kayla-harrison-rio-2016b.jpg  [CC BY 2.0]
+  saved images/kayla-harrison/04-judoca-kayla-harrison-ouro-na-rio-2016-28889815006.jpg  [CC BY 2.0]
+  saved images/kayla-harrison/05-kayla-harrison.jpg  [CC BY-SA 3.0]
+Done: 5 image(s) saved.
+[0;93m2026-10-12 17:16:56.275632290 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/kayla-harrison/cutouts/01-kayla-harrison-rio-2016c.png
+  cutout images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png
+  cutout images/kayla-harrison/cutouts/03-kayla-harrison-rio-2016b.png
+  cutout images/kayla-harrison/cutouts/04-judoca-kayla-harrison-ouro-na-rio-2016-28889815006.png
+  cutout images/kayla-harrison/cutouts/05-kayla-harrison.png
+Done: 5 new cutout(s).
+
+== 2026-10-12-1320-jones-big-regret.json
+Image: {'type': 'fighter', 'name': 'Jon Jones', 'file': 'drive-jon-jones-champion'} -> fighter images/jon-jones/cutouts/drive-jon-jones-champion.png  headline: Big Regret
+v2 left: images/jon-jones/cutouts/drive-jon-jones-champion.png
+v2 right: images/alex-pereira/cutouts/drive-alex-pereira.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-12-1320-jones-big-regret/post.png (fighter)
+Rendered posts/2026-10-12-1320-jones-big-regret/reel.mp4 (format v2)
+
+== 2026-10-12-1321-lopes-goes-down-first.json
+Image: {'type': 'fighter', 'name': 'Diego Lopes', 'file': '01-diego-lopes-2025'} -> fighter images/diego-lopes/cutouts/01-diego-lopes-2025.png  headline: Who Drops?
+v2 left: images/diego-lopes/cutouts/01-diego-lopes-2025.png
+v2 right: images/charles-oliveira/cutouts/05-charles-oliveira-ufc-51605147518.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-12-1321-lopes-goes-down-first/post.png (fighter)
+Rendered posts/2026-10-12-1321-lopes-goes-down-first/reel.mp4 (format v2)
+
+== 2026-10-12-1322-pena-raf-debut.json
+$ fetch.py Julianna Peña --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/julianna-pe-a
+Image: {'type': 'fighter', 'name': 'Julianna Peña'} -> fighter images/julianna-pe-a/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png  headline: Peña Returns
+v2 left: images/julianna-pe-a/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png
+$ fetch.py Diana Avsaragova --count 5
+$ fetch.py Kayla Harrison --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/kayla-harrison
+v2 right: images/kayla-harrison/cutouts/01-kayla-harrison-rio-2016c.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-12-1322-pena-raf-debut/post.png (fighter)
+Rendered posts/2026-10-12-1322-pena-raf-debut/reel.mp4 (format v2)

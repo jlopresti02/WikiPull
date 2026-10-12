@@ -1,0 +1,79 @@
+{
+  "story_id": "lopes-oliveira-who-goes-down-first-ufc-335",
+  "headline": "Who Drops?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Diego Lopes",
+      "file": "01-diego-lopes-2025"
+    },
+    {
+      "type": "fighter",
+      "name": "Charles Oliveira",
+      "file": "05-charles-oliveira-ufc-51605147518"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Diego Lopes wants a straight-up war with Charles Oliveira for the BMF belt 🔥\nLopes or Oliveira? 👇\n\nLopes told MMA Fighting he plans to throw down and see who goes down first at UFC 335, and called Do Bronx the toughest test of his career. If he wins, he'd love to defend the BMF title against Justin Gaethje. UFC news.\n\nWho takes it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "DiegoLopes",
+    "CharlesOliveira"
+  ],
+  "sources": [
+    "MMA Fighting"
+  ],
+  "music_pool": "espn",
+  "question": "Lopes or Oliveira?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 335 · BMF TITLE",
+    "kicker": "WHO DROPS FIRST?",
+    "hook": "Lopes vs Oliveira",
+    "left": [
+      {
+        "name": "Diego Lopes",
+        "file": "01-diego-lopes-2025"
+      }
+    ],
+    "right": [
+      {
+        "name": "Charles Oliveira",
+        "file": "05-charles-oliveira-ufc-51605147518"
+      }
+    ],
+    "story": "Lopes wants a slugfest with Do Bronx: \"Let's see who goes down first.\"",
+    "chips": [
+      "BMF TITLE",
+      "UFC 335 HEADLINER",
+      "LOPES: TOUGHEST TEST"
+    ],
+    "question": "Lopes or Oliveira?",
+    "options": [
+      "Lopes",
+      "Oliveira"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/diego-lopes/cutouts/01-diego-lopes-2025.png",
+      "credit": "Sexto Round / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/charles-oliveira/cutouts/05-charles-oliveira-ufc-51605147518.png",
+      "credit": "Renan Silva / Public domain"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/diego-lopes/cutouts/01-diego-lopes-2025.png",
+    "credit": "Sexto Round / CC BY 3.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
+}
