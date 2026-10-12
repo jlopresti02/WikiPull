@@ -20,16 +20,8 @@
     "https://sports.yahoo.com/videos/ufc-vegas-122-brendson-ribeiro-233200408.html"
    ],
    "user_request": true,
-   "posts": [
-    {
-     "post": "2026-10-11-2245-ribeiro-missing-brother",
-     "kind": "new",
-     "format": "reel",
-     "style": "serious",
-     "user_request": true
-    }
-   ],
-   "held": "2026-10-11 10 PM run: rendered text-only (no Brendson Ribeiro photo on Wikimedia); not scheduled until a photo is added to Drive"
+   "posts": [],
+   "dropped": "2026-10-11: user decided not to post (too little information: no brother's name or town, no photo)"
   },
   {
    "id": "wilfredo-gomez-dies-at-69",
