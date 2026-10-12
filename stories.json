@@ -28,7 +28,8 @@
      "style": "serious",
      "user_request": true
     }
-   ]
+   ],
+   "held": "2026-10-11 10 PM run: rendered text-only (no Brendson Ribeiro photo on Wikimedia); not scheduled until a photo is added to Drive"
   },
   {
    "id": "wilfredo-gomez-dies-at-69",
@@ -88,7 +89,7 @@
      "style": "v2",
      "scheduled_for": "2026-10-11T22:55:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=98453673960425085",
-     "image": "v2: Brendan Allen (Drive drive-brendan-allen) vs silhouette (no photo of Marc Goddard or Christian Leroy Duncan; Wikimedia matched a tide mill for Goddard, removed). Rendered at commit 976ea7b; queue file as of 5103538 (right: Tom Aspinall, none found). A Herb Dean version was rendered and not used (face would read as Goddard/Duncan)."
+     "image": "v2: Marc Goddard (Drive drive-mark-goddard) vs Christian Leroy Duncan (Drive drive-cristian-leroy-duncan); swapped in from silhouette at commit 394581c"
     }
    ]
   },
