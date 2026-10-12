@@ -1,15 +1,16 @@
 {
   "story_id": "goddard-explains-duncan-point-deduction-ufc-vegas-122",
-  "headline": "Eye Poke Point",
+  "headline": "Fair Call?",
   "visual": [
     {
       "type": "fighter",
-      "name": "Brendan Allen",
-      "file": "drive-brendan-allen"
+      "name": "Marc Goddard",
+      "file": "drive-mark-goddard"
     },
     {
       "type": "fighter",
-      "name": "Tom Aspinall"
+      "name": "Christian Leroy Duncan",
+      "file": "drive-cristian-leroy-duncan"
     }
   ],
   "color": "#1f3fbf",
@@ -18,8 +19,8 @@
     "MMANews",
     "UFC",
     "UFCVegas122",
-    "BrendanAllen",
-    "MarcGoddard"
+    "MarcGoddard",
+    "ChristianLeroyDuncan"
   ],
   "sources": [
     "MMA Junkie",
@@ -37,16 +38,17 @@
     "hook": "Goddard docks Duncan",
     "left": [
       {
-        "name": "Brendan Allen",
-        "file": "drive-brendan-allen"
+        "name": "Marc Goddard",
+        "file": "drive-mark-goddard"
       }
     ],
     "right": [
       {
-        "name": "Tom Aspinall"
+        "name": "Christian Leroy Duncan",
+        "file": "drive-cristian-leroy-duncan"
       }
     ],
-    "story": "Ref Marc Goddard says he warned Duncan twice before taking a point for poking Allen's eye.",
+    "story": "Ref Marc Goddard says he warned Duncan twice before taking a point for poking Brendan Allen's eye.",
     "chips": [
       "WARNED IN ROUND 1",
       "CARDS WOULD BE TIED",
@@ -56,25 +58,6 @@
     "options": [
       "Fair",
       "Harsh"
-    ],
-    "left_subject": {
-      "kind": "fighter",
-      "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
-      "credit": "WWIT MMA News"
-    },
-    "right_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
-    }
-  },
-  "subject": {
-    "kind": "fighter",
-    "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
-    "credit": "WWIT MMA News"
-  },
-  "music": "music/action-sport/03-acrobat.mp3",
-  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
-  "music_start": 158.75
+    ]
+  }
 }
