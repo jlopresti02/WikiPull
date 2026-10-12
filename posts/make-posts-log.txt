@@ -1,27 +1,38 @@
-Searching Wikimedia Commons for: Julius Walker
-  saved images/julius-walker/01-julius-walker-adams-portrait.jpg  [Public domain]
-  saved images/julius-walker/02-julius-walker-adams.jpg  [Public domain]
-Done: 2 image(s) saved.
-[0;93m2026-10-11 22:24:16.501064238 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Marc Goddard
+  No file names matched; falling back to looser results.
+  saved images/marc-goddard/01-tide-mill-storm.jpg  [CC BY-SA 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-10-12 02:25:01.644219563 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/julius-walker/cutouts/01-julius-walker-adams-portrait.png
-  cutout images/julius-walker/cutouts/02-julius-walker-adams.png
-Done: 2 new cutout(s).
+  cutout images/marc-goddard/cutouts/01-tide-mill-storm.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Christian Leroy Duncan
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Wilfredo Gómez
+  saved images/wilfredo-g-mez/01-wilfredo-g-mez-in-ko-magazine-april-1983-issue.jpg  [Public domain]
+Done: 1 image(s) saved.
+[0;93m2026-10-12 02:26:08.703071743 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/wilfredo-g-mez/cutouts/01-wilfredo-g-mez-in-ko-magazine-april-1983-issue.png
+Done: 1 new cutout(s).
 
-== 2026-10-11-1830-dana-strickland-no.json
-Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Dana: No
-v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
-v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-11-1830-dana-strickland-no/post.png (fighter)
-Rendered posts/2026-10-11-1830-dana-strickland-no/reel.mp4 (format v2)
+== 2026-10-11-2225-goddard-point-call.json
+$ fetch.py Marc Goddard --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/marc-goddard
+Image: {'type': 'fighter', 'name': 'Marc Goddard'} -> fighter images/marc-goddard/cutouts/01-tide-mill-storm.png  headline: Fair Call?
+v2 left: images/marc-goddard/cutouts/01-tide-mill-storm.png
+$ fetch.py Christian Leroy Duncan --count 5
+v2 right: images/brendan-allen/cutouts/drive-brendan-allen.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-11-2225-goddard-point-call/post.png (fighter)
+Rendered posts/2026-10-11-2225-goddard-point-call/reel.mp4 (format v2)
 
-== 2026-10-11-1831-meerschaert-retires.json
-Image: {'type': 'fighter', 'name': 'Gerald Meerschaert'} -> fighter images/gerald-meerschaert/cutouts/01-geraldmeerschaert.png  headline: GM3 Retires
-v2 left: images/gerald-meerschaert/cutouts/01-geraldmeerschaert.png
-$ fetch.py Julius Walker --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/julius-walker
-v2 right: images/julius-walker/cutouts/01-julius-walker-adams-portrait.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-11-1831-meerschaert-retires/post.png (fighter)
-Rendered posts/2026-10-11-1831-meerschaert-retires/reel.mp4 (format v2)
+== 2026-10-11-2226-wilfredo-gomez-dies.json
+$ fetch.py Wilfredo Gómez --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/wilfredo-g-mez
+Image: {'type': 'fighter', 'name': 'Wilfredo Gómez'} -> fighter images/wilfredo-g-mez/cutouts/01-wilfredo-g-mez-in-ko-magazine-april-1983-issue.png  headline: Bazooka Gómez
+Rendered posts/2026-10-11-2226-wilfredo-gomez-dies/post.png (fighter)
+Rendered posts/2026-10-11-2226-wilfredo-gomez-dies/reel.mp4 (format serious)

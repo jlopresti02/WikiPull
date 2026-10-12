@@ -3,13 +3,28 @@
   "headline": "Bazooka Gómez",
   "format": "serious",
   "visual": [
-    {"type": "fighter", "name": "Wilfredo Gómez"},
-    {"type": "fighter", "name": "Wilfredo Gomez"}
+    {
+      "type": "fighter",
+      "name": "Wilfredo Gómez"
+    },
+    {
+      "type": "fighter",
+      "name": "Wilfredo Gomez"
+    }
   ],
   "color": "#111111",
   "caption": "Puerto Rican boxing legend Wilfredo \"Bazooka\" Gómez has died at 69.\nHis son confirmed the news after Gómez spent about two weeks in hospital with respiratory complications. The Hall of Famer won world titles in three divisions and made 17 straight super bantamweight title defenses, all by knockout.\n\nRest in peace, Bazooka. 🙏",
-  "hashtags": ["Boxing", "BoxingNews", "WilfredoGomez", "PuertoRico", "BoxingLegend"],
-  "sources": ["Boxing247", "MiddleEasy"],
+  "hashtags": [
+    "Boxing",
+    "BoxingNews",
+    "WilfredoGomez",
+    "PuertoRico",
+    "BoxingLegend"
+  ],
+  "sources": [
+    "Boxing247",
+    "MiddleEasy"
+  ],
   "trial_reel": true,
   "serious": {
     "tag": "BOXING",
@@ -22,5 +37,10 @@
     ],
     "closing": "Rest in peace, Bazooka."
   },
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/wilfredo-g-mez/cutouts/01-wilfredo-g-mez-in-ko-magazine-april-1983-issue.png",
+    "credit": "Bill Apter / Public domain"
+  }
 }
