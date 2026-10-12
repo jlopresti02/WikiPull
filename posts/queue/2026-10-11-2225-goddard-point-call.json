@@ -1,0 +1,61 @@
+{
+  "story_id": "goddard-explains-duncan-point-deduction-ufc-vegas-122",
+  "headline": "Eye Poke Point",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Brendan Allen",
+      "file": "drive-brendan-allen"
+    },
+    {
+      "type": "fighter",
+      "name": "Tom Aspinall"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Referee Marc Goddard is standing by the point he took from Christian Leroy Duncan for poking Brendan Allen in the eye at UFC Vegas 122.\nFair or harsh? 👇\n\nGoddard says he warned Duncan in round 1 and again before round 2. Without the deduction the cards would have been tied before Allen's round 5 submission, and CSAC's Andy Foster wants stricter eye-poke penalties after what happened to Tom Aspinall. UFC news.\n\nShould refs take points faster?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "BrendanAllen",
+    "MarcGoddard"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "MiddleEasy"
+  ],
+  "music_pool": "espn",
+  "question": "Fair or harsh?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC VEGAS 122 · MAIN EVENT",
+    "kicker": "EYE POKE CRACKDOWN",
+    "hook": "Goddard docks Duncan",
+    "left": [
+      {
+        "name": "Brendan Allen",
+        "file": "drive-brendan-allen"
+      }
+    ],
+    "right": [
+      {
+        "name": "Tom Aspinall"
+      }
+    ],
+    "story": "Ref Marc Goddard says he warned Duncan twice before taking a point for poking Allen's eye.",
+    "chips": [
+      "WARNED IN ROUND 1",
+      "CARDS WOULD BE TIED",
+      "CSAC CITES ASPINALL"
+    ],
+    "question": "Fair or harsh?",
+    "options": [
+      "Fair",
+      "Harsh"
+    ]
+  }
+}
