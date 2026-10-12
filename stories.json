@@ -27,9 +27,10 @@
      "kind": "new",
      "format": "trial_reel",
      "style": "v2",
-     "scheduled_for": "2026-10-12T09:45:00-04:00",
+     "scheduled_for": "2026-10-12T10:15:00-04:00",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7931263794704858992",
-     "image": "v2: Brendan Allen (Drive) vs Belal Muhammad (Wikimedia)"
+     "image": "v2: Brendan Allen (Drive) vs Belal Muhammad (Drive, drive-belal-muhammad)",
+     "note": "Moved from 9:45 to 10:15 AM to swap in the Drive photo of Belal the user added"
     }
    ]
   },
