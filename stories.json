@@ -2,6 +2,35 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "brendson-ribeiro-missing-brother-plea",
+   "title": "Brendson Ribeiro asks for help finding his missing brother after UFC Vegas 122 win",
+   "people": [
+    "Brendson Ribeiro"
+   ],
+   "event": "UFC Vegas 122",
+   "first_reported": "2026-10-11",
+   "facts": [
+    "Brother (on father's side, name not given) disappeared April 27 in Ribeiro's hometown in northern Brazil; nearly six months without answers",
+    "Ribeiro: 'the authorities have not said anything. My family has no voice there.' Asked the governor, mayor or authorities for help",
+    "Family believes he is likely dead and wants closure",
+    "Ribeiro beat Felipe Franco by submission in under two minutes, snapping a four-fight skid"
+   ],
+   "sources": [
+    "https://middleeasy.com/mma-news/brendson-ribeiro-pleads-help-find-missing-brother-ufc-vegas-122-win/",
+    "https://sports.yahoo.com/videos/ufc-vegas-122-brendson-ribeiro-233200408.html"
+   ],
+   "user_request": true,
+   "posts": [
+    {
+     "post": "2026-10-11-2245-ribeiro-missing-brother",
+     "kind": "new",
+     "format": "reel",
+     "style": "serious",
+     "user_request": true
+    }
+   ]
+  },
+  {
    "id": "wilfredo-gomez-dies-at-69",
    "title": "Boxing Hall of Famer Wilfredo 'Bazooka' Gómez dies at 69",
    "sport": "boxing",
