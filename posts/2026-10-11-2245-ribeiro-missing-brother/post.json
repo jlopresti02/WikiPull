@@ -3,12 +3,24 @@
   "headline": "Ribeiro's Plea",
   "format": "serious",
   "visual": [
-    {"type": "fighter", "name": "Brendson Ribeiro"}
+    {
+      "type": "fighter",
+      "name": "Brendson Ribeiro"
+    }
   ],
   "color": "#111111",
   "caption": "UFC fighter Brendson Ribeiro used his UFC Vegas 122 win to ask for help finding his missing brother.\nRibeiro says his brother disappeared on April 27 in his hometown in northern Brazil, and the family has had no answers in nearly six months. He asked the governor, the mayor and local authorities to help them learn what happened. The family fears the worst and says it just wants closure.\n\nWe hope Ribeiro's family gets the answers they deserve. 🙏",
-  "hashtags": ["MMANews", "UFC", "UFCVegas122", "BrendsonRibeiro", "Brazil"],
-  "sources": ["MMA Junkie", "MiddleEasy"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "BrendsonRibeiro",
+    "Brazil"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "MiddleEasy"
+  ],
   "serious": {
     "tag": "UFC NEWS",
     "kicker": "HELP NEEDED",
@@ -20,5 +32,10 @@
     ],
     "closing": "We hope the family gets the answers they deserve."
   },
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "none",
+    "image": null,
+    "credit": null
+  }
 }

@@ -1,8 +1,11 @@
+Searching Wikimedia Commons for: Brendson Ribeiro
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-11-2225-goddard-point-call.json
-Image: {'type': 'fighter', 'name': 'Marc Goddard', 'file': 'drive-mark-goddard'} -> fighter images/marc-goddard/cutouts/drive-mark-goddard.png  headline: Fair Call?
-v2 left: images/marc-goddard/cutouts/drive-mark-goddard.png
-v2 right: images/christian-leroy-duncan/cutouts/drive-cristian-leroy-duncan.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-11-2225-goddard-point-call/post.png (fighter)
-Rendered posts/2026-10-11-2225-goddard-point-call/reel.mp4 (format v2)
+== 2026-10-11-2245-ribeiro-missing-brother.json
+$ fetch.py Brendson Ribeiro --count 5
+Image: {'type': 'text'} -> none   headline: Ribeiro's Plea
+Rendered posts/2026-10-11-2245-ribeiro-missing-brother/post.png (none)
+Rendered posts/2026-10-11-2245-ribeiro-missing-brother/reel.mp4 (format serious)
