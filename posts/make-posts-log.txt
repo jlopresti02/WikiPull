@@ -1,7 +1,25 @@
-[0;93m2026-10-12 13:12:39.200501258 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Belal Muhammad
+  saved images/belal-muhammad/01-belal-muhammad-ufc.jpg  [CC BY-SA 4.0]
+  saved images/belal-muhammad/02-abu-belal-muhammad-shafiul-huq-meets-abdul-hamid-bangabhaban.jpg  [Public domain]
+  saved images/belal-muhammad/03-farewell-call-of-outgoing-chief-of-army-staff-abu-belal-muha.jpg  [Public domain]
+  saved images/belal-muhammad/04-abu-belal-muhammad-shafiul-haq-farewell-call-sheikh-hasina-2.jpg  [Public domain]
+  saved images/belal-muhammad/05-abu-belal-muhammad-shafiul-huq-meeting-md-abdul-hamid-at-ban.jpg  [Public domain]
+Done: 5 image(s) saved.
+[0;93m2026-10-12 13:26:01.959915216 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/brendson-ribeiro/cutouts/drive-brendson-ribeiro.png
-Done: 1 new cutout(s).
-Drive: saved images/brendson-ribeiro/drive-brendson-ribeiro.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/brendson-ribeiro
-Queue is empty.
+  cutout images/belal-muhammad/cutouts/01-belal-muhammad-ufc.png
+  cutout images/belal-muhammad/cutouts/02-abu-belal-muhammad-shafiul-huq-meets-abdul-hamid-bangabhaban.png
+  cutout images/belal-muhammad/cutouts/03-farewell-call-of-outgoing-chief-of-army-staff-abu-belal-muha.png
+  cutout images/belal-muhammad/cutouts/04-abu-belal-muhammad-shafiul-haq-farewell-call-sheikh-hasina-2.png
+  cutout images/belal-muhammad/cutouts/05-abu-belal-muhammad-shafiul-huq-meeting-md-abdul-hamid-at-ban.png
+Done: 5 new cutout(s).
+
+== 2026-10-12-0920-allen-fought-sick.json
+Image: {'type': 'fighter', 'name': 'Brendan Allen', 'file': 'drive-brendan-allen'} -> fighter images/brendan-allen/cutouts/drive-brendan-allen.png  headline: Fought Sick
+v2 left: images/brendan-allen/cutouts/drive-brendan-allen.png
+$ fetch.py Belal Muhammad --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/belal-muhammad
+v2 right: images/belal-muhammad/cutouts/01-belal-muhammad-ufc.png
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-12-0920-allen-fought-sick/post.png (fighter)
+Rendered posts/2026-10-12-0920-allen-fought-sick/reel.mp4 (format v2)
