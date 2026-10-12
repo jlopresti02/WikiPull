@@ -91,8 +91,13 @@ DEFAULT_ACCENT = "#FFC21A"
 # the right gutter also keeps clear of Instagram's buttons.
 PAD_L, PAD_R = 120, 140
 PHOTO_INSET = 44                # photos nudged toward the centre, out of the cropped edges
-PHOTO_TOP, PHOTO_H = 176, 1000
+# Top safe zone (Oct 12, user report: the WWIT MMA NEWS tagline was hidden
+# under Instagram's top bar and gradient). Keep the brand bar below ~220 px
+# and make it bigger; the photo columns start under it.
+HEADER_TOP, HEADER_H = 236, 84
 BAR_Y = 1176
+PHOTO_TOP = HEADER_TOP + HEADER_H + 36
+PHOTO_H = BAR_Y - PHOTO_TOP
 
 BARLOW_URL = "https://github.com/google/fonts/raw/main/ofl/barlowcondensed/BarlowCondensed-{w}.ttf"
 WEIGHTS = {500: "Medium", 600: "SemiBold", 700: "Bold", 800: "ExtraBold"}
@@ -216,15 +221,15 @@ def fit_lines(text, make_font, size, max_w, max_lines, min_size=24):
 # ---- pieces -------------------------------------------------------------
 
 def draw_header(d, accent, tag=None):
-    top = 56
-    f_box = anton(44)
+    top = HEADER_TOP
+    f_box = anton(54)
     box_txt = "WWIT"
-    bw = int(spaced_width(box_txt, f_box, 2)) + 40
-    bh = 72
+    bw = int(spaced_width(box_txt, f_box, 2)) + 44
+    bh = HEADER_H
     d.rectangle([PAD_L, top, PAD_L + bw, top + bh], fill=accent)
     base = top + bh / 2 + cap(f_box) / 2
-    draw_spaced(d, (PAD_L + 20, base), box_txt, f_box, INK, 2)
-    f_lab = barlow(40, 700)
+    draw_spaced(d, (PAD_L + 22, base), box_txt, f_box, INK, 2)
+    f_lab = barlow(50, 800)
     draw_spaced(d, (PAD_L + bw + 16, top + bh / 2 + cap(f_lab) / 2), "MMA NEWS", f_lab, WHITE, 6)
     if tag:
         f_tag = barlow(32, 700)

@@ -444,6 +444,11 @@ were cut off on the left: tall phones crop about 90-100 px off each side of a
 least 120 px from the left edge and 140 px from the right, and v2 nudges both
 photos toward the centre. Keep any new layout inside that zone.
 
+**Top safe zone (Oct 12, user report).** The WWIT MMA NEWS tagline sat under
+Instagram's top bar and gradient and looked cut off/blurred. The v2 and serious
+renderers now draw a bigger brand bar starting at y = 236 (of 1920), with the
+photos starting below it. Keep logos and text out of the top ~220 px.
+
 Writing a v2 post:
 - Keep everything else in the post file as usual (headline, `visual` as a
   fallback, caption, `question`, 5 hashtags, sources, `trial_reel`), and

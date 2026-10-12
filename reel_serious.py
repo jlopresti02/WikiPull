@@ -58,7 +58,7 @@ SOFT = (196, 200, 208)
 MUTED = (140, 146, 156)
 RULE = (150, 162, 182)          # quiet slate blue, the only "accent"
 PAD_L, PAD_R = 120, 140         # side safe zone (Instagram crops the edges on tall phones); right clears the buttons
-PHOTO_TOP, PHOTO_H = 150, 1150
+PHOTO_TOP, PHOTO_H = 340, 960  # starts under the header, which sits below Instagram's top bar (Oct 12)
 
 
 def ease(x):
@@ -127,14 +127,14 @@ class Serious:
     def _header(self):
         layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         d = ImageDraw.Draw(layer)
-        top, bh = 60, 64
-        f_box = barlow(40, 800)
+        top, bh = 236, 72  # below Instagram's top bar (Oct 12)
+        f_box = barlow(46, 800)
         box = "WWIT"
         bw = int(spaced_width(box, f_box, 3)) + 36
         d.rectangle([PAD_L, top, PAD_L + bw, top + bh], fill=WHITE)
         draw_spaced(d, (PAD_L + 18, top + bh / 2 + cap(f_box) / 2), box, f_box, BG, 3)
-        f_lab = barlow(36, 600)
-        draw_spaced(d, (PAD_L + bw + 16, top + bh / 2 + cap(f_lab) / 2), "MMA NEWS", f_lab, SOFT, 6)
+        f_lab = barlow(44, 700)
+        draw_spaced(d, (PAD_L + bw + 16, top + bh / 2 + cap(f_lab) / 2), "MMA NEWS", f_lab, WHITE, 6)
         f_tag = barlow(30, 600)
         tw = spaced_width(self.tag, f_tag, 5)
         right = W - PAD_R
