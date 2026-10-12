@@ -27,7 +27,10 @@
      "post": "2026-10-12-1900-jones-steveson-gsp",
      "kind": "new",
      "format": "reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-12T19:15:00-04:00",
+     "image": "fighter photos (Gable Steveson, Jon Jones)",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4241798478660352589"
     }
    ]
   },
@@ -520,7 +523,10 @@
      "post": "2026-10-12-1901-cruz-demoor-dms",
      "kind": "update",
      "format": "trial_reel",
-     "style": "v2"
+     "style": "v2",
+     "scheduled_for": "2026-10-12T19:45:00-04:00",
+     "image": "silhouette (Plinio Cruz) + Chase DeMoor photo",
+     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1836908602614856426"
     }
    ]
   },
