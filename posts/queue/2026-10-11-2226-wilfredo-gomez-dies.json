@@ -1,0 +1,26 @@
+{
+  "story_id": "wilfredo-gomez-dies-at-69",
+  "headline": "Bazooka Gómez",
+  "format": "serious",
+  "visual": [
+    {"type": "fighter", "name": "Wilfredo Gómez"},
+    {"type": "fighter", "name": "Wilfredo Gomez"}
+  ],
+  "color": "#111111",
+  "caption": "Puerto Rican boxing legend Wilfredo \"Bazooka\" Gómez has died at 69.\nHis son confirmed the news after Gómez spent about two weeks in hospital with respiratory complications. The Hall of Famer won world titles in three divisions and made 17 straight super bantamweight title defenses, all by knockout.\n\nRest in peace, Bazooka. 🙏",
+  "hashtags": ["Boxing", "BoxingNews", "WilfredoGomez", "PuertoRico", "BoxingLegend"],
+  "sources": ["Boxing247", "MiddleEasy"],
+  "trial_reel": true,
+  "serious": {
+    "tag": "BOXING",
+    "kicker": "REMEMBERING",
+    "title": "Wilfredo Gómez dies at 69",
+    "facts": [
+      "Puerto Rican Hall of Famer, world champion in three divisions",
+      "17 straight super bantamweight title defenses, all by KO",
+      "His son confirmed the news; he had been in hospital with respiratory complications"
+    ],
+    "closing": "Rest in peace, Bazooka."
+  },
+  "reel": true
+}

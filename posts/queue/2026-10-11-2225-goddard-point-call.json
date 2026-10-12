@@ -1,0 +1,30 @@
+{
+  "story_id": "goddard-explains-duncan-point-deduction-ufc-vegas-122",
+  "headline": "Fair Call?",
+  "visual": [
+    {"type": "fighter", "name": "Marc Goddard"},
+    {"type": "fighter", "name": "Christian Leroy Duncan"},
+    {"type": "fighter", "name": "Herb Dean"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "Referee Marc Goddard is standing by the point he took from Christian Leroy Duncan in the UFC Vegas 122 main event.\nFair or harsh? 👇\n\nGoddard says he warned Duncan about extended fingers in round 1 and again before round 2, then deducted a point when the eye poke landed. Without it, the cards would have been tied before Brendan Allen's round 5 submission. UFC news.\n\nShould refs take points faster for eye pokes?",
+  "hashtags": ["MMANews", "UFC", "UFCVegas122", "MarcGoddard", "ChristianLeroyDuncan"],
+  "sources": ["MMA Junkie", "MiddleEasy"],
+  "music_pool": "espn",
+  "question": "Fair or harsh?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC VEGAS 122 · MAIN EVENT",
+    "kicker": "POINT DEDUCTED",
+    "hook": "Goddard explains",
+    "left": [{"name": "Marc Goddard"}],
+    "right": [{"name": "Christian Leroy Duncan"}, {"name": "Brendan Allen", "file": "drive-brendan-allen"}],
+    "story": "Goddard says he warned Duncan twice before taking a point for the eye poke.",
+    "chips": ["WARNED IN ROUND 1", "CARDS WOULD BE TIED", "ALLEN WON BY SUB R5"],
+    "question": "Fair or harsh?",
+    "options": ["Fair", "Harsh"]
+  }
+}
