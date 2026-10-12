@@ -1,9 +1,8 @@
-[0;93m2026-10-12 13:35:56.158025680 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/belal-muhammad/cutouts/drive-belal-muhammad-champ.png
-  cutout images/belal-muhammad/cutouts/drive-belal-muhammad.png
-Done: 2 new cutout(s).
-Drive: saved images/belal-muhammad/drive-belal-muhammad.jpg
-Drive: saved images/belal-muhammad/drive-belal-muhammad-champ.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/belal-muhammad
-Queue is empty.
+
+== 2026-10-12-0920-allen-fought-sick.json
+Image: {'type': 'fighter', 'name': 'Brendan Allen', 'file': 'drive-brendan-allen'} -> fighter images/brendan-allen/cutouts/drive-brendan-allen.png  headline: Fought Sick
+v2 left: images/brendan-allen/cutouts/drive-brendan-allen.png
+v2 right: images/belal-muhammad/cutouts/drive-belal-muhammad.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-12-0920-allen-fought-sick/post.png (fighter)
+Rendered posts/2026-10-12-0920-allen-fought-sick/reel.mp4 (format v2)
