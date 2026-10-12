@@ -2,6 +2,36 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "jones-steveson-back-training-gsp-serra",
+   "title": "Jon Jones says Gable Steveson is back training after 12-second KO, compares it to GSP vs. Serra",
+   "people": [
+    "Gable Steveson",
+    "Jon Jones",
+    "Sean Sharaf"
+   ],
+   "event": "UFC 331 aftermath",
+   "first_reported": "2026-10-12",
+   "facts": [
+    "Jones told The Schmo Steveson is 'doing great' and 'right back to training'",
+    "Compared it to GSP's loss to Matt Serra: all great fighters have losses",
+    "Jones: 'as a team, we need to add a lot more sparring'",
+    "Sean Sharaf KO'd Steveson in 12 seconds at UFC 331 (Sept), his first MMA loss"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/gable-steveson-update-legend-jon-jones/",
+    "https://sports.yahoo.com/articles/gable-steveson-provided-ufc-legend-203734921.html",
+    "https://www.mmanews.com/article/jon-jones-gable-steveson-bounce-back-sparring"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-12-1900-jones-steveson-gsp",
+     "kind": "new",
+     "format": "reel",
+     "style": "v2"
+    }
+   ]
+  },
+  {
    "id": "masvidal-ufc-comeback-looking-good",
    "title": "Jorge Masvidal says UFC comeback talks are 'looking good', news could come 'sooner than later'",
    "people": [
@@ -467,11 +497,14 @@
    "first_reported": "2026-10-10",
    "facts": [
     "Cruz def. Gary Olive, TKO R2 0:58; Olive replaced Chase DeMoor on short notice",
-    "Cruz said he still wants DeMoor"
+    "Cruz said he still wants DeMoor",
+    "Oct 12 (Sherdog): Cruz posted DeMoor's DM: 'I'm embarrassed for you... But good fight, I guess'",
+    "Cruz replied telling DeMoor to reschedule and fight him"
    ],
    "sources": [
     "https://sports.yahoo.com/boxing/live/misfits-boxing-live-results-joey-essex-vs-dapper-laughs-round-by-round-updates-highlights-for-todays-fight-130000636.html",
-    "https://www.fightmag.com/chase-demoor-withdraws-from-plinio-cruz-fight/"
+    "https://www.fightmag.com/chase-demoor-withdraws-from-plinio-cruz-fight/",
+    "https://www.sherdog.com/news/news/Alex-Pereiras-coach-rips-Chase-DeMoor-after-beating-his-coach-203167"
    ],
    "posts": [
     {
@@ -482,6 +515,12 @@
      "scheduled_for": "2026-10-10T23:10:00-04:00",
      "image": "silhouette (Plinio Cruz) + Chase DeMoor photo",
      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6408630271234623741"
+    },
+    {
+     "post": "2026-10-12-1901-cruz-demoor-dms",
+     "kind": "update",
+     "format": "trial_reel",
+     "style": "v2"
     }
    ]
   },
