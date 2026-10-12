@@ -2,6 +2,35 @@
  "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
  "stories": [
   {
+   "id": "masvidal-ufc-comeback-looking-good",
+   "title": "Jorge Masvidal says UFC comeback talks are 'looking good', news could come 'sooner than later'",
+   "people": [
+    "Jorge Masvidal",
+    "Leon Edwards"
+   ],
+   "event": "",
+   "first_reported": "2026-10-12",
+   "facts": [
+    "Masvidal (41, last UFC fight 2023 vs Burns) told Home of Fight: 'I've been talking to the UFC, and things are looking good. So there might be some news sooner than later'",
+    "Says 'It's definitely not about money'; wants the right opportunity and the right event",
+    "No opponent or event named; in Aug (MMA Junkie interview) he said Leon Edwards is 'definitely a prospect' for his return"
+   ],
+   "sources": [
+    "https://heavy.com/sports/ufc/jorge-masvidal-provides-latest-update-comeback/",
+    "https://www.mmamania.com/ufc-news/478513/jorge-masvidal-says-things-are-looking-good-for-ufc-comeback-i-do-wanna-fight",
+    "https://sports.yahoo.com/articles/jorge-masvidal-eyes-1-opponent-212917637.html"
+   ],
+   "posts": [
+    {
+     "post": "2026-10-12-1406-masvidal-looking-good",
+     "kind": "new",
+     "format": "reel",
+     "style": "v2",
+     "note": "Posted at the user's request after the 1 PM run"
+    }
+   ]
+  },
+  {
    "id": "jon-jones-regrets-missing-white-house-card",
    "title": "Jon Jones: missing the UFC White House card is one of the big regrets of my life",
    "people": [
