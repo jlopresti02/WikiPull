@@ -1,30 +1,33 @@
-Searching Wikimedia Commons for: Jorge Masvidal
-  saved images/jorge-masvidal/01-jorge-masvidal-2022.png  [Public domain]
-  saved images/jorge-masvidal/02-jorge-masvidal-2023.jpg  [CC BY 3.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-12 18:06:59.609977283 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-12 18:22:05.457394386 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/jorge-masvidal/cutouts/01-jorge-masvidal-2022.png
-  cutout images/jorge-masvidal/cutouts/02-jorge-masvidal-2023.png
-Done: 2 new cutout(s).
-Searching Wikimedia Commons for: Leon Edwards
-  saved images/leon-edwards/01-leon-edwards-2021.png  [CC BY 3.0]
-  saved images/leon-edwards/02-yves-leon-edwards-the-third.jpg  [CC0]
-Done: 2 image(s) saved.
-[0;93m2026-10-12 18:08:39.973384063 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  cutout images/diana-avsaragova/cutouts/drive-avsaragova.png
+Done: 1 new cutout(s).
+[0;93m2026-10-12 18:23:19.163398121 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/leon-edwards/cutouts/01-leon-edwards-2021.png
-  cutout images/leon-edwards/cutouts/02-yves-leon-edwards-the-third.png
+  cutout images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png
+  cutout images/jorge-masvidal/cutouts/drive-jorge-masvidal.png
 Done: 2 new cutout(s).
-
-== 2026-10-12-1406-masvidal-looking-good.json
-$ fetch.py Jorge Masvidal --count 5
+[0;93m2026-10-12 18:24:08.033647036 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/julianna-pe-a/cutouts/drive-julianna-pe-a-champ.png
+  cutout images/julianna-pe-a/cutouts/drive-julianna-pe-a-headshot.png
+  cutout images/julianna-pe-a/cutouts/drive-julianna-pe-a.png
+Done: 3 new cutout(s).
+[0;93m2026-10-12 18:25:18.722959798 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/leon-edwards/cutouts/drive-leon-edwards-champion.png
+  cutout images/leon-edwards/cutouts/drive-leon-edwards.png
+Done: 2 new cutout(s).
+Drive: saved images/diana-avsaragova/drive-avsaragova.jpg
+Drive: saved images/julianna-pe-a/drive-julianna-pe-a-headshot.jpg
+Drive: saved images/julianna-pe-a/drive-julianna-pe-a.jpg
+Drive: saved images/julianna-pe-a/drive-julianna-pe-a-champ.jpg
+Drive: saved images/leon-edwards/drive-leon-edwards.jpg
+Drive: saved images/leon-edwards/drive-leon-edwards-champion.jpg
+Drive: saved images/jorge-masvidal/drive-jorge-masvidal.jpg
+Drive: saved images/jorge-masvidal/drive-jorge-masvidal-looks-at-camera.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/diana-avsaragova
 $ cutout.py /home/runner/work/WikiPull/WikiPull/images/jorge-masvidal
-Image: {'type': 'fighter', 'name': 'Jorge Masvidal'} -> fighter images/jorge-masvidal/cutouts/01-jorge-masvidal-2022.png  headline: Gamebred Back?
-v2 left: images/jorge-masvidal/cutouts/01-jorge-masvidal-2022.png
-$ fetch.py Leon Edwards --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/julianna-pe-a
 $ cutout.py /home/runner/work/WikiPull/WikiPull/images/leon-edwards
-v2 right: images/leon-edwards/cutouts/01-leon-edwards-2021.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-12-1406-masvidal-looking-good/post.png (fighter)
-Rendered posts/2026-10-12-1406-masvidal-looking-good/reel.mp4 (format v2)
+Queue is empty.
