@@ -34,7 +34,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "BOXING · WELTERWEIGHT",
+    "tag": "BOXING",
     "kicker": "GARCIA STEPS IN",
     "hook": "Garcia Defends Benn",
     "left": [
@@ -75,7 +75,7 @@
     "image": "images/ryan-garcia/cutouts/01-ryan-garcia.png",
     "credit": "Ryan Garcia / CC BY-SA 4.0"
   },
-  "music": "music/action-sport/03-acrobat.mp3",
-  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
-  "music_start": 158.75
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

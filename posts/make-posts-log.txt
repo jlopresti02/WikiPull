@@ -1,70 +1,22 @@
-Searching Wikimedia Commons for: Damian Pinas
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Damian Pinas
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Francisco Prado
-  saved images/francisco-prado/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.jpg  [CC BY-SA 4.0]
-  saved images/francisco-prado/02-placa-coronel-francisco-prado-aguiar.jpg  [CC BY 3.0 br]
-  saved images/francisco-prado/03-maestro-de-hoogstratenn-san-francisco-prado.jpg  [Public domain]
-  saved images/francisco-prado/04-ribalta-san-francisco-prado.jpg  [Public domain]
-  saved images/francisco-prado/05-capitan-juventino-montiel-sosa-francisco-prado-perito-grafot.jpg  [CC BY-SA 4.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-13 02:23:00.580702213 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png
-  cutout images/francisco-prado/cutouts/02-placa-coronel-francisco-prado-aguiar.png
-  cutout images/francisco-prado/cutouts/03-maestro-de-hoogstratenn-san-francisco-prado.png
-  cutout images/francisco-prado/cutouts/04-ribalta-san-francisco-prado.png
-  cutout images/francisco-prado/cutouts/05-capitan-juventino-montiel-sosa-francisco-prado-perito-grafot.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Ryan Garcia
-  saved images/ryan-garcia/01-ryan-garcia.jpg  [CC BY-SA 4.0]
-  saved images/ryan-garcia/02-ryan-garc-a.png  [CC BY 3.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-13 02:24:40.968479585 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/ryan-garcia/cutouts/01-ryan-garcia.png
-  cutout images/ryan-garcia/cutouts/02-ryan-garc-a.png
-Done: 2 new cutout(s).
 Searching Wikimedia Commons for: Conor Benn
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
 
-== 2026-10-12-2220-pinas-sees-a-hole.json
-$ fetch.py Damian Pinas --count 5
-Image: {'type': 'fighter', 'name': 'Brendan Allen', 'file': 'drive-brendan-allen'} -> fighter images/brendan-allen/cutouts/drive-brendan-allen.png  headline: See The Hole
-$ fetch.py Damian Pinas --count 5
-v2 left: silhouette
-v2 right: images/brendan-allen/cutouts/drive-brendan-allen.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-12-2220-pinas-sees-a-hole/post.png (fighter)
-Rendered posts/2026-10-12-2220-pinas-sees-a-hole/reel.mp4 (format v2)
-
 == 2026-10-12-2221-bonfim-cut.json
 Image: {'type': 'fighter', 'name': 'Ismael Bonfim', 'file': 'drive-ismael-bonfim'} -> fighter images/ismael-bonfim/cutouts/drive-ismael-bonfim.png  headline: Bonfim Cut
 v2 left: images/ismael-bonfim/cutouts/drive-ismael-bonfim.png
-$ fetch.py Francisco Prado --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/francisco-prado
-v2 right: images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+v2 right: silhouette
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
 Rendered posts/2026-10-12-2221-bonfim-cut/post.png (fighter)
 Rendered posts/2026-10-12-2221-bonfim-cut/reel.mp4 (format v2)
 
 == 2026-10-12-2222-garcia-defends-benn.json
-$ fetch.py Ryan Garcia --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ryan-garcia
 Image: {'type': 'fighter', 'name': 'Ryan Garcia'} -> fighter images/ryan-garcia/cutouts/01-ryan-garcia.png  headline: Don't Disrespect
 v2 left: images/ryan-garcia/cutouts/01-ryan-garcia.png
 $ fetch.py Conor Benn --count 5
 v2 right: silhouette
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
 Rendered posts/2026-10-12-2222-garcia-defends-benn/post.png (fighter)
 Rendered posts/2026-10-12-2222-garcia-defends-benn/reel.mp4 (format v2)

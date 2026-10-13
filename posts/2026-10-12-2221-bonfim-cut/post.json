@@ -42,7 +42,7 @@
     ],
     "right": [
       {
-        "name": "Francisco Prado"
+        "prop": "cheeseburger"
       }
     ],
     "story": "After a third UFC weight miss and a first-round TKO loss to Prado, Bonfim is off the roster.",
@@ -62,9 +62,11 @@
       "credit": "WWIT MMA News"
     },
     "right_subject": {
-      "kind": "fighter",
-      "image": "images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png",
-      "credit": "Francisco Prado Mendoza / CC BY-SA 4.0"
+      "kind": "graphic",
+      "graphic": "prop",
+      "prop": "cheeseburger",
+      "image": null,
+      "credit": null
     }
   },
   "subject": {
@@ -72,7 +74,7 @@
     "image": "images/ismael-bonfim/cutouts/drive-ismael-bonfim.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
-  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
-  "music_start": 156.25
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }
