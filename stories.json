@@ -24,7 +24,10 @@
           "post": "2026-10-13-1330-makhachev-prates-toronto",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T13:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2624347798008710698",
+          "image": "Makhachev (Wikimedia) vs Prates (Wikimedia)"
         }
       ]
     },
