@@ -1,0 +1,28 @@
+{
+  "story_id": "pereira-dares-valter-walker-spar-purse",
+  "headline": "Catch My Foot",
+  "visual": [
+    {"type": "fighter", "name": "Alex Pereira", "file": "drive-alex-pereira-3"},
+    {"type": "fighter", "name": "Valter Walker"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "Alex Pereira just dared Valter Walker to spar him, with a purse on the line 💰\nPoatan or Walker? 👇\n\nPereira says he'll fly Walker to Las Vegas, and if Walker catches his foot he'll pay him his last fight purse. Walker, who has five straight leg-lock wins, had said Pereira would struggle with Sergei Pavlovich at UFC 335. MMA news.\n\nWould Walker take it?",
+  "hashtags": ["MMANews", "UFC", "UFC335", "AlexPereira", "ValterWalker"],
+  "sources": ["Sherdog", "Bloody Elbow"],
+  "music_pool": "espn",
+  "question": "Poatan or Walker?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "SPARRING DARE",
+    "hook": "Catch My Foot",
+    "left": [{"name": "Alex Pereira", "file": "drive-alex-pereira-3"}],
+    "right": [{"name": "Valter Walker"}],
+    "story": "Pereira will pay Walker his last purse if Walker catches his foot in sparring.",
+    "chips": ["WALKER: 5 STRAIGHT LEG LOCKS", "PEREIRA VS PAVLOVICH · DEC 12"],
+    "question": "Poatan or Walker?",
+    "options": ["Poatan", "Walker"]
+  }
+}
