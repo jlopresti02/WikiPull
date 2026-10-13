@@ -1,0 +1,80 @@
+{
+  "story_id": "ketlen-vieira-suspended-after-cyborg-fight",
+  "headline": "Suspended",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ketlen Vieira"
+    },
+    {
+      "type": "fighter",
+      "name": "Cris Cyborg"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Ketlen Vieira is suspended six months after a failed test from her PFL title fight with Cris Cyborg 🚫\nFair or too light? 👇\n\nVieira, who lost to Cyborg by decision at PFL Tampa in August, says it was medication for a long-standing knee injury and she never meant to break the rules. PFL news, MMA news.\n\nWhat's your take?",
+  "hashtags": [
+    "MMANews",
+    "PFL",
+    "PFLTampa",
+    "KetlenVieira",
+    "CrisCyborg"
+  ],
+  "sources": [
+    "Sherdog",
+    "Yahoo Sports"
+  ],
+  "music_pool": "espn",
+  "question": "Fair or too light?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "PFL · WOMEN'S MMA",
+    "kicker": "FAILED TEST",
+    "hook": "Vieira Suspended",
+    "left": [
+      {
+        "name": "Ketlen Vieira"
+      }
+    ],
+    "right": [
+      {
+        "name": "Cris Cyborg"
+      },
+      {
+        "name": "Cristiane Justino"
+      }
+    ],
+    "story": "Vieira got six months after a positive test from her title fight with Cyborg.",
+    "chips": [
+      "6-MONTH SUSPENSION",
+      "VIEIRA: KNEE MEDICATION"
+    ],
+    "question": "Fair or too light?",
+    "options": [
+      "Fair",
+      "Too light"
+    ],
+    "left_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png",
+      "credit": "Kevin Paul / CC BY 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png",
+    "credit": "Kevin Paul / CC BY 4.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
+}

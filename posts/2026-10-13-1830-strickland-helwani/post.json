@@ -1,0 +1,78 @@
+{
+  "story_id": "strickland-blasts-helwani-biased-weak",
+  "headline": "No. 1 Hater",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    },
+    {
+      "type": "fighter",
+      "name": "Ariel Helwani"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Sean Strickland just went after Ariel Helwani, calling him his number one hater 😤\nStrickland or Helwani? 👇\n\nThe UFC middleweight champ says he won't fight or sign until his pay is sorted, and blasted Helwani's coverage of it on X. Helwani says he never called Strickland a bum. UFC news.\n\nWho's right?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "SeanStrickland",
+    "ArielHelwani",
+    "UFCNews"
+  ],
+  "sources": [
+    "Athlon Sports",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Strickland or Helwani?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "PAY WAR GETS PERSONAL",
+    "hook": "Strickland vs Helwani",
+    "left": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    ],
+    "right": [
+      {
+        "name": "Ariel Helwani"
+      }
+    ],
+    "story": "Strickland called Helwani the most biased man online over his pay standoff coverage.",
+    "chips": [
+      "NO FIGHT UNTIL PAY IS FIXED",
+      "HELWANI: NEVER CALLED HIM A BUM"
+    ],
+    "question": "Strickland or Helwani?",
+    "options": [
+      "Strickland",
+      "Helwani"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
+}
