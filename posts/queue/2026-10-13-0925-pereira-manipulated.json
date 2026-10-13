@@ -1,0 +1,60 @@
+{
+  "story_id": "pereira-says-ufc-dc-manipulated-fans-gane-hokit",
+  "headline": "Manipulated",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "01-alex-pereira-in-the-oval-office-while-president-donald-j-tru"
+    },
+    {
+      "type": "fighter",
+      "name": "Daniel Cormier"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alex Pereira says the UFC and Daniel Cormier manipulated fans into wanting Gane vs. Hokit 🤨\nPereira or DC? 👇\n\nPoatan says he was told a fan poll backed the UFC 334 main event but never saw it, and that DC hyped the fight before it was even announced. Pereira faces Sergei Pavlovich at UFC 335 on Dec. 12. UFC news.\n\nIs he right?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "AlexPereira",
+    "DanielCormier"
+  ],
+  "sources": [
+    "LowKickMMA",
+    "NY Fights"
+  ],
+  "music_pool": "espn",
+  "question": "Pereira or DC?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 334",
+    "kicker": "FANS PLAYED?",
+    "hook": "Pereira vs DC",
+    "left": [
+      {
+        "name": "Alex Pereira",
+        "file": "01-alex-pereira-in-the-oval-office-while-president-donald-j-tru"
+      }
+    ],
+    "right": [
+      {
+        "name": "Daniel Cormier"
+      }
+    ],
+    "story": "Pereira says the UFC and DC pushed fans into wanting Gane vs. Hokit.",
+    "chips": [
+      "UFC 334 · NOV 14",
+      "'NEVER SAW THE POLL'",
+      "NEXT: PAVLOVICH DEC 12"
+    ],
+    "question": "Pereira or DC?",
+    "options": [
+      "Pereira",
+      "DC"
+    ]
+  }
+}
