@@ -74,6 +74,10 @@ def try_visual(v):
         if any(not (folder / "cutouts" / (p.stem + ".png")).exists() for p in photos):
             run("cutout.py", str(folder))
         cuts = sorted((folder / "cutouts").glob("*.png")) if (folder / "cutouts").is_dir() else []
+        # Drive image bank photos first; Wikimedia only when there are none
+        # (user rule, Oct 13).
+        cuts = [c for c in cuts if c.stem.startswith("drive-")] + \
+               [c for c in cuts if not c.stem.startswith("drive-")]
         if not cuts:
             return None
         if v.get("file"):

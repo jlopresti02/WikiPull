@@ -241,10 +241,13 @@ repo lists every Drive photo already brought in.
    ("is the folder shared by link?"), tell the user in the final report
    that the folder needs to be shared as "anyone with the link can view",
    and carry on with the other photos.
-4. **Pick the best photo for each post.** For every person you're about
-   to show, look at all of their cutouts, Drive and Wikimedia alike
-   (`images/<slug>/cutouts/*.png`; open them with Read). Choose the one
-   that suits *this* post best:
+4. **Pick the best photo for each post. Drive photos first (user rule,
+   Oct 13): if a person has any Drive photo (`drive-*` cutouts), use one
+   of those; use a Wikimedia photo only when they have no Drive photo at
+   all.** (`make_posts.py` also tries `drive-*` cutouts first when a visual
+   has no `"file"`.) Among that person's Drive photos (or, with none,
+   their Wikimedia ones), look at the cutouts (`images/<slug>/cutouts/*.png`;
+   open them with Read) and choose the one that suits *this* post best:
    - the face is clear, large and in focus, one person, not cut off oddly;
    - the expression fits the story: intense or serious for feuds,
      call-outs and fight news; smiling for wins, signings and good news;
