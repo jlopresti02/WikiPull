@@ -31,7 +31,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC 334 · HEAVYWEIGHT",
+    "tag": "UFC 334",
     "kicker": "FANS PLAYED?",
     "hook": "Pereira vs DC",
     "left": [
@@ -72,7 +72,7 @@
     "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
     "credit": "The White House / Public domain"
   },
-  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
-  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
-  "music_start": 168.5
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

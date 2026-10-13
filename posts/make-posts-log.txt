@@ -1,115 +1,16 @@
-Searching Wikimedia Commons for: Daniel Cormier
-  saved images/daniel-cormier/01-daniel-cormier-taking-a-picture-with-a-fan.jpg  [CC BY-SA 4.0]
-  saved images/daniel-cormier/02-daniel-cormier-promoting-ea-ufc-5.jpg  [CC BY 3.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-13 13:25:45.259670853 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/daniel-cormier/cutouts/01-daniel-cormier-taking-a-picture-with-a-fan.png
-  cutout images/daniel-cormier/cutouts/02-daniel-cormier-promoting-ea-ufc-5.png
-Done: 2 new cutout(s).
-Searching Wikimedia Commons for: Amanda Nunes
-  saved images/amanda-nunes/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.jpg  [CC BY 3.0]
-  saved images/amanda-nunes/02-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.jpg  [CC BY 3.0]
-  saved images/amanda-nunes/03-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269.jpg  [CC BY 3.0]
-  saved images/amanda-nunes/04-amanda-nunes-ufc-2023.png  [CC BY 3.0]
-  saved images/amanda-nunes/05-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.jpg  [CC BY 3.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-13 13:27:46.932172892 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/amanda-nunes/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.png
-  cutout images/amanda-nunes/cutouts/02-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.png
-  cutout images/amanda-nunes/cutouts/03-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269.png
-  cutout images/amanda-nunes/cutouts/04-amanda-nunes-ufc-2023.png
-  cutout images/amanda-nunes/cutouts/05-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-y.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Dan Hooker
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Brian Ortega
-  saved images/brian-ortega/01-brian-ortega-on-mmanytt.jpg  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-13 13:30:03.259110341 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/brian-ortega/cutouts/01-brian-ortega-on-mmanytt.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Dan Hooker
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Amir Khan (boxer)
-  saved images/amir-khan-boxer/01-cm-shehbaz-with-boxer-amir-khan-26567068622.jpg  [CC BY 2.0]
-Done: 1 image(s) saved.
-[0;93m2026-10-13 13:31:12.443365052 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/amir-khan-boxer/cutouts/01-cm-shehbaz-with-boxer-amir-khan-26567068622.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Manny Pacquiao
-  saved images/manny-pacquiao/01-manny-pacman-pacquiao-1.jpg  [CC BY-SA 3.0]
-  saved images/manny-pacquiao/02-manny-pacquiao-at-87th-ncaa-cropped.jpg  [CC BY 2.0]
-  saved images/manny-pacquiao/03-pacquiao-and-didal-cropped.jpg  [Public domain]
-  saved images/manny-pacquiao/04-manny-pacquiao-cropped.jpg  [CC BY-SA 3.0]
-  saved images/manny-pacquiao/05-manny-pacquiao-with-harry-reid-and-daniel-inouye-cropped.jpg  [Public domain]
-Done: 5 image(s) saved.
-[0;93m2026-10-13 13:31:46.836952626 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/manny-pacquiao/cutouts/01-manny-pacman-pacquiao-1.png
-  cutout images/manny-pacquiao/cutouts/02-manny-pacquiao-at-87th-ncaa-cropped.png
-  cutout images/manny-pacquiao/cutouts/03-pacquiao-and-didal-cropped.png
-  cutout images/manny-pacquiao/cutouts/04-manny-pacquiao-cropped.png
-  cutout images/manny-pacquiao/cutouts/05-manny-pacquiao-with-harry-reid-and-daniel-inouye-cropped.png
-Done: 5 new cutout(s).
 
 == 2026-10-13-0925-pereira-manipulated.json
 Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': '01-alex-pereira-in-the-oval-office-while-president-donald-j-tru'} -> fighter images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png  headline: Manipulated
 v2 left: images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png
-$ fetch.py Daniel Cormier --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/daniel-cormier
 v2 right: images/daniel-cormier/cutouts/01-daniel-cormier-taking-a-picture-with-a-fan.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
 Rendered posts/2026-10-13-0925-pereira-manipulated/post.png (fighter)
 Rendered posts/2026-10-13-0925-pereira-manipulated/reel.mp4 (format v2)
 
 == 2026-10-13-0926-harrison-im-back.json
 Image: {'type': 'fighter', 'name': 'Kayla Harrison', 'file': '03-kayla-harrison-rio-2016b'} -> fighter images/kayla-harrison/cutouts/03-kayla-harrison-rio-2016b.png  headline: I'm Back
 v2 left: images/kayla-harrison/cutouts/03-kayla-harrison-rio-2016b.png
-$ fetch.py Amanda Nunes --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/amanda-nunes
 v2 right: images/amanda-nunes/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
 Rendered posts/2026-10-13-0926-harrison-im-back/post.png (fighter)
 Rendered posts/2026-10-13-0926-harrison-im-back/reel.mp4 (format v2)
-
-== 2026-10-13-0927-hooker-ortega-qatar.json
-$ fetch.py Dan Hooker --count 5
-$ fetch.py Brian Ortega --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/brian-ortega
-Image: {'type': 'fighter', 'name': 'Brian Ortega'} -> fighter images/brian-ortega/cutouts/01-brian-ortega-on-mmanytt.png  headline: Qatar Clash
-$ fetch.py Dan Hooker --count 5
-v2 left: silhouette
-v2 right: images/brian-ortega/cutouts/01-brian-ortega-on-mmanytt.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-13-0927-hooker-ortega-qatar/post.png (fighter)
-Rendered posts/2026-10-13-0927-hooker-ortega-qatar/reel.mp4 (format v2)
-
-== 2026-10-13-0928-mvp-paid-more.json
-Image: {'type': 'fighter', 'name': 'Michael Page'} -> fighter images/michael-page/cutouts/01-michael-page.png  headline: Paid More
-v2 left: images/michael-page/cutouts/01-michael-page.png
-v2 right: images/ksi/cutouts/03-jj-olatunji-ksi-1.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-13-0928-mvp-paid-more/post.png (fighter)
-Rendered posts/2026-10-13-0928-mvp-paid-more/reel.mp4 (format v2)
-
-== 2026-10-13-0929-khan-pacquiao-talks.json
-$ fetch.py Amir Khan (boxer) --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/amir-khan-boxer
-Image: {'type': 'fighter', 'name': 'Amir Khan (boxer)'} -> fighter images/amir-khan-boxer/cutouts/01-cm-shehbaz-with-boxer-amir-khan-26567068622.png  headline: Dream Fight?
-v2 left: images/amir-khan-boxer/cutouts/01-cm-shehbaz-with-boxer-amir-khan-26567068622.png
-$ fetch.py Manny Pacquiao --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/manny-pacquiao
-v2 right: images/manny-pacquiao/cutouts/01-manny-pacman-pacquiao-1.png
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-13-0929-khan-pacquiao-talks/post.png (fighter)
-Rendered posts/2026-10-13-0929-khan-pacquiao-talks/reel.mp4 (format v2)

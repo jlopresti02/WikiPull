@@ -30,7 +30,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC 334 · BANTAMWEIGHT",
+    "tag": "UFC 334",
     "kicker": "NECK SURGERY",
     "hook": "Harrison vs Nunes",
     "left": [
@@ -71,7 +71,7 @@
     "image": "images/kayla-harrison/cutouts/03-kayla-harrison-rio-2016b.png",
     "credit": "Agência Brasil Fotografias / CC BY 2.0"
   },
-  "music": "music/action-sport/01-crystals.mp3",
-  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
-  "music_start": 164.0
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }
