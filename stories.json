@@ -24,7 +24,10 @@
           "kind": "new",
           "format": "trial_reel",
           "style": "v2",
-          "note": "user added his photos after the cap skip; counts as user request"
+          "note": "user added his photos after the cap skip; counts as user request",
+          "scheduled_for": "2026-10-13T00:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3270564619920978575",
+          "image": "Quillan Salkilld Drive photo + Mateusz Gamrot Wikimedia"
         }
       ]
     },
