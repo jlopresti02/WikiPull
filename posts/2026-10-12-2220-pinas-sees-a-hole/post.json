@@ -4,7 +4,8 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Damian Pinas"
+      "name": "Damian Pinas",
+      "file": "drive-damian-pinas-2"
     },
     {
       "type": "fighter",
@@ -17,7 +18,7 @@
     }
   ],
   "color": "#d2202f",
-  "caption": "Damian Pinas says he already sees the hole in Brendan Allen's game 👀\nAllen or Pinas? 👇\n\nThe Baba Yaga, riding three straight first-round UFC KOs, praised Allen's fifth-round submission of Christian Leroy Duncan at UFC Vegas 122, then floated #AllenVsPinas for 2027. Allen has won four straight at middleweight. UFC news.\n\nWho takes it?",
+  "caption": "Damian Pinas says he already sees the hole in Brendan Allen's game 👀\nAllen or Pinas? 👇\n\nThe Baba Yaga, riding three straight first-round UFC KOs, praised Allen's fifth-round submission of Christian Leroy Duncan at UFC Vegas 122, then floated Allen vs. Pinas for 2027. Allen has won four straight at middleweight. UFC news.\n\nWho takes it?",
   "hashtags": [
     "MMANews",
     "UFC",
@@ -39,7 +40,8 @@
     "hook": "Pinas vs Allen?",
     "left": [
       {
-        "name": "Damian Pinas"
+        "name": "Damian Pinas",
+        "file": "drive-damian-pinas-2"
       }
     ],
     "right": [
@@ -60,10 +62,9 @@
       "Pinas"
     ],
     "left_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
+      "kind": "fighter",
+      "image": "images/damian-pinas/cutouts/drive-damian-pinas-2.png",
+      "credit": "WWIT MMA News"
     },
     "right_subject": {
       "kind": "fighter",
@@ -73,10 +74,10 @@
   },
   "subject": {
     "kind": "fighter",
-    "image": "images/brendan-allen/cutouts/drive-brendan-allen.png",
+    "image": "images/damian-pinas/cutouts/drive-damian-pinas-2.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/01-crystals.mp3",
-  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
-  "music_start": 164.0
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }
