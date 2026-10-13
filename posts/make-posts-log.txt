@@ -1,16 +1,19 @@
+Searching Wikimedia Commons for: Mateusz Gamrot
+  saved images/mateusz-gamrot/01-mateusz-gamrot.jpg  [CC BY 3.0]
+  saved images/mateusz-gamrot/02-mateusz-gamrot-cropped.jpg  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-13 02:47:29.170060412 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/mateusz-gamrot/cutouts/01-mateusz-gamrot.png
+  cutout images/mateusz-gamrot/cutouts/02-mateusz-gamrot-cropped.png
+Done: 2 new cutout(s).
 
-== 2026-10-12-2220-pinas-sees-a-hole.json
-Image: {'type': 'fighter', 'name': 'Damian Pinas', 'file': 'drive-damian-pinas-2'} -> fighter images/damian-pinas/cutouts/drive-damian-pinas-2.png  headline: See The Hole
-v2 left: images/damian-pinas/cutouts/drive-damian-pinas-2.png
-v2 right: images/brendan-allen/cutouts/drive-brendan-allen.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-12-2220-pinas-sees-a-hole/post.png (fighter)
-Rendered posts/2026-10-12-2220-pinas-sees-a-hole/reel.mp4 (format v2)
-
-== 2026-10-12-2222-garcia-defends-benn.json
-Image: {'type': 'fighter', 'name': 'Ryan Garcia'} -> fighter images/ryan-garcia/cutouts/01-ryan-garcia.png  headline: Don't Disrespect
-v2 left: images/ryan-garcia/cutouts/01-ryan-garcia.png
-v2 right: images/conor-benn/cutouts/drive-conor-benn.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-12-2222-garcia-defends-benn/post.png (fighter)
-Rendered posts/2026-10-12-2222-garcia-defends-benn/reel.mp4 (format v2)
+== 2026-10-12-2250-salkilld-reporting-for-duty.json
+Image: {'type': 'fighter', 'name': 'Quillan Salkilld', 'file': 'drive-quillan-salkilld'} -> fighter images/quillan-salkilld/cutouts/drive-quillan-salkilld.png  headline: Reporting For Duty
+v2 left: images/quillan-salkilld/cutouts/drive-quillan-salkilld.png
+$ fetch.py Mateusz Gamrot --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/mateusz-gamrot
+v2 right: images/mateusz-gamrot/cutouts/01-mateusz-gamrot.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-12-2250-salkilld-reporting-for-duty/post.png (fighter)
+Rendered posts/2026-10-12-2250-salkilld-reporting-for-duty/reel.mp4 (format v2)

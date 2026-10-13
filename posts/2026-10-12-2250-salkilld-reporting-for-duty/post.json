@@ -1,0 +1,82 @@
+{
+  "story_id": "salkilld-eyes-ufc-sydney-feb-2027",
+  "headline": "Reporting For Duty",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Quillan Salkilld",
+      "file": "drive-quillan-salkilld"
+    },
+    {
+      "type": "flag",
+      "country": "Australia",
+      "headline": "Sydney Bound"
+    }
+  ],
+  "color": "#1f3fbf",
+  "trial_reel": true,
+  "caption": "🇦🇺 Quillan Salkilld wants in on UFC Sydney after six straight wins 🔥\nTitle run or step up? 👇\n\nThe Australian lightweight posted \"Reporting for duty\" as the UFC heads back to Sydney on Feb. 7 at Afterpay Arena. His last two wins were finishes of Beneil Dariush and Mateusz Gamrot. UFC news.\n\nWho should he face?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCSydney",
+    "QuillanSalkilld",
+    "Lightweight"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Title run or step up?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC SYDNEY",
+    "kicker": "6 STRAIGHT WINS",
+    "hook": "Salkilld Wants Sydney",
+    "left": [
+      {
+        "name": "Quillan Salkilld",
+        "file": "drive-quillan-salkilld"
+      }
+    ],
+    "right": [
+      {
+        "name": "Mateusz Gamrot"
+      },
+      {
+        "name": "Beneil Dariush"
+      }
+    ],
+    "story": "After finishing Dariush and Gamrot, Salkilld is eyeing a home fight in Sydney on Feb. 7.",
+    "chips": [
+      "6 STRAIGHT",
+      "FEB 7",
+      "AFTERPAY ARENA"
+    ],
+    "question": "Title run or step up?",
+    "options": [
+      "Title run",
+      "Step up"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/quillan-salkilld/cutouts/drive-quillan-salkilld.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/mateusz-gamrot/cutouts/01-mateusz-gamrot.png",
+      "credit": "Roger Gor / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/quillan-salkilld/cutouts/drive-quillan-salkilld.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}
