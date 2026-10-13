@@ -1,0 +1,58 @@
+{
+  "story_id": "michael-page-signs-misfits-boxing",
+  "headline": "Paid More",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Michael Page"
+    },
+    {
+      "type": "money"
+    }
+  ],
+  "color": "#111111",
+  "caption": "UPDATE: Michael 'Venom' Page says his Misfits deal pays more than his entire UFC run 💰\nUFC or Misfits? 👇\n\nMVP told Ariel Helwani it's a three-fight, 18-month deal paying seven figures per fight, and said the UFC puts entertainment ahead of merit. No opponent is set yet. MMA news.\n\nWho should he fight first?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "MisfitsBoxing",
+    "MichaelPage",
+    "Boxing"
+  ],
+  "sources": [
+    "MiddleEasy"
+  ],
+  "music_pool": "espn",
+  "question": "UFC or Misfits?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "MISFITS BOXING",
+    "kicker": "BIGGER CHECK",
+    "hook": "MVP vs UFC pay",
+    "left": [
+      {
+        "name": "Michael Page"
+      }
+    ],
+    "right": [
+      {
+        "name": "KSI",
+        "file": "03-jj-olatunji-ksi-1"
+      }
+    ],
+    "story": "Page says three Misfits fights pay more than his whole UFC career.",
+    "chips": [
+      "3 FIGHTS · 18 MONTHS",
+      "7 FIGURES PER FIGHT",
+      "WENT 5-1 IN UFC"
+    ],
+    "question": "UFC or Misfits?",
+    "options": [
+      "UFC",
+      "Misfits"
+    ]
+  }
+}

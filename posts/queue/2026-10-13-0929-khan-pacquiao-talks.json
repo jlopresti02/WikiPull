@@ -1,0 +1,66 @@
+{
+  "story_id": "amir-khan-pacquiao-comeback-talks",
+  "headline": "Dream Fight?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Amir Khan (boxer)"
+    },
+    {
+      "type": "fighter",
+      "name": "Amir Khan"
+    },
+    {
+      "type": "fighter",
+      "name": "Manny Pacquiao"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Amir Khan says a comeback fight with Manny Pacquiao is in the works 🥊\nKhan or Pacquiao? 👇\n\nKhan, 39, told Metro there's strong interest and Pacquiao, 47, is happy with it, but nothing is signed and there's no date. The two nearly fought back in 2017. Boxing news.\n\nWould you watch?",
+  "hashtags": [
+    "Boxing",
+    "BoxingNews",
+    "AmirKhan",
+    "MannyPacquiao",
+    "KhanPacquiao"
+  ],
+  "sources": [
+    "Metro",
+    "SPORTbible"
+  ],
+  "music_pool": "espn",
+  "question": "Khan or Pacquiao?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "BOXING",
+    "kicker": "IN TALKS",
+    "hook": "Khan vs Pacquiao",
+    "left": [
+      {
+        "name": "Amir Khan (boxer)"
+      },
+      {
+        "name": "Amir Khan"
+      }
+    ],
+    "right": [
+      {
+        "name": "Manny Pacquiao"
+      }
+    ],
+    "story": "Khan says there's strong interest in a Pacquiao fight, though nothing is signed.",
+    "chips": [
+      "KHAN 39 · PACQUIAO 47",
+      "NO DATE YET",
+      "NEARLY FOUGHT IN 2017"
+    ],
+    "question": "Khan or Pacquiao?",
+    "options": [
+      "Khan",
+      "Pacquiao"
+    ]
+  }
+}

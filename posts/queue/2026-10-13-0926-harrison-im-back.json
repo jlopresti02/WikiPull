@@ -1,0 +1,59 @@
+{
+  "story_id": "kayla-harrison-neck-surgery-im-back-nunes",
+  "headline": "I'm Back",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Kayla Harrison",
+      "file": "03-kayla-harrison-rio-2016b"
+    },
+    {
+      "type": "fighter",
+      "name": "Amanda Nunes"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "Kayla Harrison opens up about her neck surgery and says she's back for Amanda Nunes 💪\nHarrison or Nunes? 👇\n\nHarrison says she had a two-level cervical fusion and wondered if she'd ever feel like herself again. Now she's training for Nunes at UFC 334 at Madison Square Garden on Nov. 14. MMA news.\n\nWho wins it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "KaylaHarrison",
+    "AmandaNunes"
+  ],
+  "sources": [
+    "MiddleEasy"
+  ],
+  "music_pool": "espn",
+  "question": "Harrison or Nunes?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 334 · BANTAMWEIGHT",
+    "kicker": "NECK SURGERY",
+    "hook": "Harrison vs Nunes",
+    "left": [
+      {
+        "name": "Kayla Harrison",
+        "file": "03-kayla-harrison-rio-2016b"
+      }
+    ],
+    "right": [
+      {
+        "name": "Amanda Nunes"
+      }
+    ],
+    "story": "Harrison says she's back after neck fusion surgery and ready for Nunes.",
+    "chips": [
+      "2-LEVEL NECK FUSION",
+      "UFC 334 · NOV 14",
+      "MSG"
+    ],
+    "question": "Harrison or Nunes?",
+    "options": [
+      "Harrison",
+      "Nunes"
+    ]
+  }
+}

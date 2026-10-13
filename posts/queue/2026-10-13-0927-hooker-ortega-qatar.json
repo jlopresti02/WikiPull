@@ -1,0 +1,64 @@
+{
+  "story_id": "hooker-vs-ortega-ufc-qatar",
+  "headline": "Qatar Clash",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dan Hooker"
+    },
+    {
+      "type": "fighter",
+      "name": "Brian Ortega"
+    },
+    {
+      "type": "flag",
+      "country": "Qatar",
+      "headline": "UFC Qatar"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "🇶🇦 Dan Hooker vs. Brian Ortega is official for UFC Qatar on Nov. 21 🔥\nHooker or Ortega? 👇\n\nThe UFC finalized the Doha card, with Jiri Prochazka vs. unbeaten Navajo Stirling on top and Aljamain Sterling vs. Kevin Vallejos as the co-main. Kyoji Horiguchi vs. Asu Almabayev is also set. UFC news, fight announcement.\n\nWho takes it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCQatar",
+    "DanHooker",
+    "BrianOrtega"
+  ],
+  "sources": [
+    "UFC.com",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Hooker or Ortega?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC QATAR · NOV 21",
+    "kicker": "IT'S OFFICIAL",
+    "hook": "Hooker vs Ortega",
+    "left": [
+      {
+        "name": "Dan Hooker"
+      }
+    ],
+    "right": [
+      {
+        "name": "Brian Ortega"
+      }
+    ],
+    "story": "Hooker vs. Ortega joins Prochazka vs. Stirling on the UFC Qatar card in Doha.",
+    "chips": [
+      "NOV 21 · DOHA",
+      "MAIN: PROCHAZKA VS STIRLING",
+      "CO-MAIN: STERLING VS VALLEJOS"
+    ],
+    "question": "Hooker or Ortega?",
+    "options": [
+      "Hooker",
+      "Ortega"
+    ]
+  }
+}

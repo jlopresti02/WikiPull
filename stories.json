@@ -2,6 +2,136 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "pereira-says-ufc-dc-manipulated-fans-gane-hokit",
+      "title": "Pereira says UFC and Daniel Cormier 'manipulated' fans into backing Gane vs Hokit",
+      "people": [
+        "Alex Pereira",
+        "Daniel Cormier",
+        "Hunter Campbell",
+        "Ciryl Gane",
+        "Josh Hokit"
+      ],
+      "event": "UFC 334 (Nov 14, MSG)",
+      "first_reported": "2026-10-12",
+      "facts": [
+        "Interview with Laerte Viana: Pereira says Hunter Campbell told him a fan poll favored Gane vs Hokit; he never saw it",
+        "Says UFC used influencers incl. DC to hype the fight before it was announced; 'it's all kind of manipulated'; DC 'has opinions that don't make sense'",
+        "Wants Nunes vs Harrison as UFC 334 headliner; Pereira faces Pavlovich at UFC 335 Dec 12",
+        "Related: pereira-hokit-ufc-334-main-event-spat"
+      ],
+      "sources": [
+        "https://www.lowkickmma.com/alex-pereira-says-daniel-cormier-makes-no-sense-accuses-dc-ufc-of-pushing-ciryl-gane-vs-josh-hokit/",
+        "https://nyfights.com/featured/alex-pereira-accuses-ufc-334"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-0925-pereira-manipulated",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "kayla-harrison-neck-surgery-im-back-nunes",
+      "title": "Kayla Harrison details neck fusion surgery, says she's back for Nunes at UFC 334",
+      "people": [
+        "Kayla Harrison",
+        "Amanda Nunes"
+      ],
+      "event": "UFC 334 (Nov 14, MSG)",
+      "first_reported": "2026-10-12",
+      "facts": [
+        "Deep Waters podcast: had a two-level cervical fusion about two weeks before the original Nunes date",
+        "Questioned if she'd feel like herself again; says 'I'm back', training for Nunes at UFC 334"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/kayla-harrison-questioned-if-she-would-ever-feel-like-herself-after-neck-surgery/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-0926-harrison-im-back",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "hooker-vs-ortega-ufc-qatar",
+      "title": "Dan Hooker vs Brian Ortega official for UFC Qatar (Nov 21); full card announced",
+      "people": [
+        "Dan Hooker",
+        "Brian Ortega",
+        "Kyoji Horiguchi",
+        "Asu Almabayev"
+      ],
+      "event": "UFC Fight Night Qatar, Nov 21, Doha",
+      "first_reported": "2026-10-12",
+      "facts": [
+        "UFC.com announced full card: Prochazka vs Stirling main, Sterling vs Vallejos co-main",
+        "Also: Hooker vs Ortega, Almabayev vs Horiguchi, Cannonier vs Aliskerov, Gaziev vs Teixeira, Abdullayev vs Matthews, Aleksandre Topuria vs Luna, Albazi vs Costa rematch"
+      ],
+      "sources": [
+        "https://www.ufc.com/news/former-champion-jiri-prochazka-takes-undefeated-navajo-stirling-ufc-returns-doha-november-21",
+        "https://www.sherdog.com/news/news/Jiri-Prochazka-vs-unbeaten-Navajo-Stirling-headlines-UFC-Qatar-203016"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-0927-hooker-ortega-qatar",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "amir-khan-pacquiao-comeback-talks",
+      "title": "Amir Khan says comeback fight with Manny Pacquiao in talks (report)",
+      "sport": "boxing",
+      "people": [
+        "Amir Khan",
+        "Manny Pacquiao"
+      ],
+      "event": "",
+      "first_reported": "2026-10-12",
+      "facts": [
+        "Khan (39) told Metro there's 'strong interest' and 'Manny is happy'; nothing signed, no date",
+        "Not on Fury vs Joshua undercard (Dec 11); the two nearly fought in 2017"
+      ],
+      "sources": [
+        "https://www.sportbible.com/boxing/amir-khan-manny-pacquiao-tyson-fury-anthony-joshua-583883-20261012"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-0929-khan-pacquiao-talks",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "sawada-vs-nikolakakos-one-samurai-6-atomweight-title",
+      "title": "Chihiro Sawada vs Anastasia Nikolakakos for vacant ONE women's atomweight MMA title (ONE Samurai 6, Dec 2)",
+      "people": [
+        "Chihiro Sawada",
+        "Anastasia Nikolakakos"
+      ],
+      "event": "ONE Samurai 6, Yokohama Buntai, Dec 2",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Vacant ONE women's atomweight MMA world title; Sawada 12-1, Nikolakakos 7-0",
+        "A Sawada win would make her the first Japanese woman to hold a ONE world title",
+        "Held at 9 AM run: no photos in image bank yet (user asked to add)"
+      ],
+      "sources": [
+        "https://www.onefc.com/news/chihiro-sawada-anastasia-nikolakakos-to-clash-for-vacant-womens-atomweight-mma-world-title-at-one-samurai-6/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "salkilld-eyes-ufc-sydney-feb-2027",
       "title": "Quillan Salkilld eyes UFC Sydney return after six straight wins",
       "people": [
@@ -731,11 +861,13 @@
       "facts": [
         "Announced in the ring at Misfits 30 in London with KSI",
         "UFC did not re-sign Page after his Sept 2026 win at UFC Paris; went 5-1 in UFC; 26-3 MMA, 2-0 boxing",
-        "No opponent, date or terms announced"
+        "No opponent, date or terms announced",
+        "UPDATE 2026-10-12: On The Ariel Helwani Show, Page said the 3-fight, 18-month exclusive Misfits deal (seven figures per fight) pays more than his entire UFC run; floated names Till, Tommy Fury, Ferguson, Diaz (none confirmed); said UFC puts entertainment over merit"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/ufc-bellator-vet-michael-venom-213548681.html",
-        "https://www.lowkickmma.com/michael-page-misfits-boxing-signing/"
+        "https://www.lowkickmma.com/michael-page-misfits-boxing-signing/",
+        "https://middleeasy.com/boxing/michael-page-three-fight-misfits-deal-pays-more-than-entire-ufc-run/"
       ],
       "posts": [
         {
@@ -746,6 +878,12 @@
           "image": "v2: Michael Page (Wikimedia, action shot) vs KSI (Wikimedia 03-jj-olatunji-ksi-1)",
           "scheduled_for": "2026-10-10T20:30:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5979693338166735819"
+        },
+        {
+          "post": "2026-10-13-0928-mvp-paid-more",
+          "kind": "update",
+          "format": "trial_reel",
+          "style": "v2"
         }
       ]
     },
