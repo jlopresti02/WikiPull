@@ -1,0 +1,80 @@
+{
+  "story_id": "makhachev-vs-prates-ufc-336-toronto-report",
+  "headline": "Prates Next",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Islam Makhachev",
+      "file": "01-islam-makhachev-2022-ufc-belt"
+    },
+    {
+      "type": "fighter",
+      "name": "Carlos Prates",
+      "file": "01-carlos-prates-2026"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Islam Makhachev vs. Carlos Prates is reportedly being lined up for UFC 336 in Toronto 🏆\nIslam or Prates? 👇\n\nPer MMA reporter Álvaro Colmenero, the UFC welterweight title fight is targeted for Jan. 30 at Scotiabank Arena, though nothing is official yet. Prates has knocked out all seven of his UFC opponents. UFC news.\n\nWho takes it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC336",
+    "IslamMakhachev",
+    "CarlosPrates"
+  ],
+  "sources": [
+    "NY Fights",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Islam or Prates?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 336 · WELTERWEIGHT",
+    "kicker": "TITLE FIGHT TARGETED",
+    "hook": "Islam vs Prates",
+    "left": [
+      {
+        "name": "Islam Makhachev",
+        "file": "01-islam-makhachev-2022-ufc-belt"
+      }
+    ],
+    "right": [
+      {
+        "name": "Carlos Prates",
+        "file": "01-carlos-prates-2026"
+      }
+    ],
+    "story": "Makhachev vs. Prates is reportedly aimed at UFC 336 in Toronto. Not official yet.",
+    "chips": [
+      "JAN 30 · TORONTO (REPORT)",
+      "PRATES: 7 UFC KOs",
+      "WELTERWEIGHT TITLE"
+    ],
+    "question": "Islam or Prates?",
+    "options": [
+      "Islam",
+      "Prates"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png",
+      "credit": "Новости ННТ / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
+      "credit": "Sexto Round / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png",
+    "credit": "Новости ННТ / CC BY 3.0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}

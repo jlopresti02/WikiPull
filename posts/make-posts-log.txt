@@ -1,7 +1,8 @@
-[0;93m2026-10-13 17:09:19.200998216 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/dan-hooker/cutouts/drive-dan-hooker.png
-Done: 1 new cutout(s).
-Drive: saved images/dan-hooker/drive-dan-hooker.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/dan-hooker
-Queue is empty.
+
+== 2026-10-13-1330-makhachev-prates-toronto.json
+Image: {'type': 'fighter', 'name': 'Islam Makhachev', 'file': '01-islam-makhachev-2022-ufc-belt'} -> fighter images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png  headline: Prates Next
+v2 left: images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png
+v2 right: images/carlos-prates/cutouts/01-carlos-prates-2026.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-13-1330-makhachev-prates-toronto/post.png (fighter)
+Rendered posts/2026-10-13-1330-makhachev-prates-toronto/reel.mp4 (format v2)
