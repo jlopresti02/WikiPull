@@ -28,7 +28,10 @@
           "post": "2026-10-13-0925-pereira-manipulated",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T10:15:00-04:00",
+          "image": "v2: Alex Pereira (Wikimedia, suit) vs Daniel Cormier (Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=495399601611360125"
         }
       ]
     },
@@ -53,7 +56,10 @@
           "post": "2026-10-13-0926-harrison-im-back",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T10:45:00-04:00",
+          "image": "v2: Kayla Harrison (Wikimedia 03, smiling) vs Amanda Nunes (Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6955763591838518134"
         }
       ]
     },
@@ -81,7 +87,10 @@
           "post": "2026-10-13-0927-hooker-ortega-qatar",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T12:15:00-04:00",
+          "image": "v2: silhouette (Dan Hooker, no photo) vs Brian Ortega (Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5604721514652219385"
         }
       ]
     },
@@ -107,7 +116,10 @@
           "post": "2026-10-13-0929-khan-pacquiao-talks",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T11:45:00-04:00",
+          "image": "v2: Amir Khan (Wikimedia, group photo) vs Manny Pacquiao (Wikimedia)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2445119473750001562"
         }
       ]
     },
@@ -883,7 +895,10 @@
           "post": "2026-10-13-0928-mvp-paid-more",
           "kind": "update",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T11:15:00-04:00",
+          "image": "v2: Michael Page (Wikimedia) vs KSI (Wikimedia 03)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4606939974637998051"
         }
       ]
     },
