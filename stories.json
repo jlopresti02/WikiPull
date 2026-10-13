@@ -54,7 +54,10 @@
           "post": "2026-10-13-1830-strickland-helwani",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2634022052576145475",
+          "image": "drive photo (Strickland) + silhouette right (Helwani)"
         }
       ]
     },
@@ -70,20 +73,15 @@
       "facts": [
         "Six-month suspension after positive test from her August PFL Tampa title fight vs Cyborg (lost by decision, missed weight by 7 lb)",
         "Vieira says she took medication for a long-standing knee injury and stopped it once the fight came up; no intent to break rules",
-        "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing"
+        "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing",
+        "Oct 13 6 PM run: rendered 2026-10-13-1832-vieira-suspended but held (no Vieira photo; left side silhouette). Re-queue once a Vieira photo is added."
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Exclusive-Ketlen-Vieira-suspended-6-months-after-positive-test-following-Cyborg-fight-203196",
         "https://sports.yahoo.com/articles/ketlen-vieira-releases-statement-6-143000290.html"
       ],
-      "posts": [
-        {
-          "post": "2026-10-13-1832-vieira-suspended",
-          "kind": "new",
-          "format": "trial_reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_evening": true
     },
     {
       "id": "pereira-dares-valter-walker-spar-purse",
@@ -108,7 +106,10 @@
           "post": "2026-10-13-1831-pereira-dares-walker",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-13T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1165291943288195396",
+          "image": "drive photo (Pereira) + silhouette right (Walker)"
         }
       ]
     },
