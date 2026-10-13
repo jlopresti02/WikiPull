@@ -467,8 +467,12 @@ Writing a v2 post:
   graphic can fill one column instead of a person (`"right": [{"prop":
   "cheeseburger"}]`) or pop in as a small sticker over a column
   (`"v2": {"prop": {"type": "cheeseburger", "side": "left"}}`). Only
-  "cheeseburger" exists so far (first used for Bonfim's 7.5 lb miss). Keep
-  props out of serious stories.
+  "cheeseburger" and "scale" exist (cheeseburger first used for Bonfim's
+  7.5 lb miss; "scale" is the weigh-in scale photo the user added to Drive
+  on Oct 12, `images/scale`). User (Oct 12): keep the cheeseburger in
+  rotation for weight-miss stories now and in the future; the scale is
+  there when it fits better (e.g. a straight weigh-in story, or to avoid
+  using the burger twice in a row). Keep props out of serious stories.
 - Mark these in the ledger post entry with `"style": "v2"` so their
   views can be compared with default-format posts.
 

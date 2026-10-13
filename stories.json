@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "salkilld-eyes-ufc-sydney-feb-2027",
+      "title": "Quillan Salkilld eyes UFC Sydney return after six straight wins",
+      "people": [
+        "Quillan Salkilld"
+      ],
+      "event": "UFC Fight Night Sydney (Feb 7, 2027, Afterpay Arena)",
+      "first_reported": "2026-10-12",
+      "user_requested": true,
+      "facts": [
+        "Australian lightweight, six straight UFC wins since DWCS",
+        "Last two wins: finishes of Beneil Dariush and Mateusz Gamrot",
+        "Posted 'Reporting for duty #feb' on X Oct 11; UFC returns to Sydney Feb 7 at Afterpay Arena"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Quillan-Salkilld-eyes-UFC-Sydney-return-after-six-straight-wins-203173"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-12-2250-salkilld-reporting-for-duty",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2",
+          "note": "user added his photos after the cap skip; counts as user request"
+        }
+      ]
+    },
+    {
       "id": "ryan-garcia-defends-conor-benn",
       "title": "Ryan Garcia defends Conor Benn after interviewer mocks his KO loss",
       "people": [
@@ -27,7 +54,7 @@
           "style": "v2",
           "scheduled_for": "2026-10-12T23:10:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-430334880226455843",
-          "image": "Ryan Garcia Wikimedia photo; Conor Benn silhouette"
+          "image": "Ryan Garcia Wikimedia + Conor Benn Drive photo"
         }
       ]
     },
@@ -52,14 +79,13 @@
         {
           "post": "2026-10-12-2220-pinas-sees-a-hole",
           "kind": "new",
-          "format": "trial_reel",
+          "format": "reel",
           "style": "v2",
           "scheduled_for": "2026-10-12T23:40:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1449651123361528988",
-          "image": "Damian Pinas silhouette; Brendan Allen Drive photo"
+          "image": "Damian Pinas + Brendan Allen Drive photos"
         }
-      ],
-      "image": "silhouette (Pinas), Brendan Allen Drive photo"
+      ]
     },
     {
       "id": "jones-steveson-back-training-gsp-serra",
