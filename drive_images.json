@@ -1,344 +1,349 @@
 {
- "folder_id": "100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
- "folder_url": "https://drive.google.com/drive/folders/100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
- "note": "The user's Google Drive image bank. Each run lists the folder and adds new files here (id, name, person, optional credit). The Make posts workflow downloads them into images/<person>/drive-<name>.<ext> and cuts them out. Set \"skip\": true to ignore a file.",
- "files": [
-  {
-   "id": "1KbT-5IgXArELx3INDmqOkOmYBnOifmrx",
-   "name": "Joe_Rogan.JPG",
-   "person": "Joe Rogan"
-  },
-  {
-   "id": "1BM8NyEYr5BcatJgQJMXFuO9eEKgaqmq-",
-   "name": "Joe_Rogan_.JPG",
-   "person": "Joe Rogan"
-  },
-  {
-   "id": "1jviBXoxmTtGHvhqVsnD8GqkEXAfz-an7",
-   "name": "Joe_Rogan_3.JPG",
-   "person": "Joe Rogan"
-  },
-  {
-   "id": "1RoshENs-vzsWL8bqr3VZLJCFl52cAbOD",
-   "name": "Joe_Rogan_4.JPG",
-   "person": "Joe Rogan"
-  },
-  {
-   "id": "1CFlJJfwg76ZyuFP6VOyMDpg6XPl3L1Cm",
-   "name": "Josh Hokit 1",
-   "person": "Josh Hokit"
-  },
-  {
-   "id": "1MEWKAiN2aE9hA_cX_hQ-4AseEgdbFdO5",
-   "name": "Josh Hokit 2",
-   "person": "Josh Hokit"
-  },
-  {
-   "id": "1lCo9ZSDQDYzjX58XK3rIC49kXrFWSm0i",
-   "name": "Anthony Smith.JPG",
-   "person": "Anthony Smith (fighter)"
-  },
-  {
-   "id": "1xZSmvrfeoQYrNWJHw8f8NJot6VYSHTum",
-   "name": "Shamil Erd.WEBP",
-   "person": "Shamil Erdogan"
-  },
-  {
-   "id": "1hq1c7wjBkB4fVoE7uRQBM5peCmE26mhT",
-   "name": "payton talbott",
-   "person": "Payton Talbott"
-  },
-  {
-   "id": "17Vm3EM3WFswtgYtsSmm8291Hg6CYzcFr",
-   "name": "Bobby Green AKA King Green",
-   "person": "Bobby Green (fighter)"
-  },
-  {
-   "id": "131XIenOvEwHQcsuTXQoqo9jwA_09vhaJ",
-   "name": "roman kopylov",
-   "person": "Roman Kopylov"
-  },
-  {
-   "id": "1zz5N55hRRIdqgwwFxEpZqrIVBhcO5VYE",
-   "name": "Wang Cong.png",
-   "person": "Wang Cong"
-  },
-  {
-   "id": "1RAn7PlFvwnz9OSATmKgUzcDVuXnbPpZc",
-   "name": "Esteban Ribovics",
-   "person": "Esteban Ribovics"
-  },
-  {
-   "id": "1Bsyabo7iHXSglNj6UfjyHw1JxNOALGw0",
-   "name": "raoni barcelos",
-   "person": "Raoni Barcelos"
-  },
-  {
-   "id": "1N7aL-_gAN3OZoo3KGYV-IidmIxGdX9ca",
-   "name": "sean strickland",
-   "person": "Sean Strickland"
-  },
-  {
-   "id": "1prKxDkKVHoLwDQNK-P163tHlyYhauSWU",
-   "name": "sean strickland 2",
-   "person": "Sean Strickland"
-  },
-  {
-   "id": "1ejH1fwMVI-5Rsbw3f6gwPADxg5VJsTnA",
-   "name": "sean strickland 3",
-   "person": "Sean Strickland",
-   "skip": true,
-   "note": "Sean Strickland earlier in his career, with hair (confirmed by user 2026-10-04); good for funny/lighthearted stories"
-  },
-  {
-   "id": "1AoTCtdUzcF5Pas1V8VXRzjCdV1IhyhJL",
-   "name": "sean strickland funny",
-   "person": "Sean Strickland",
-   "note": "Playful image (Strickland as a scorpion); use for funny/lighthearted stories"
-  },
-  {
-   "id": "1r4cz0l8Nrh_c6ty9USC2zFwHxATlOWQE",
-   "name": "Anthony Wint",
-   "person": "Anthony Wint"
-  },
-  {
-   "id": "1ztpAn9XpXJ24__gbdX5pnyl1Fc-Ou_R_",
-   "name": "Anthony Wint NY Jets",
-   "person": "Anthony Wint"
-  },
-  {
-   "id": "1r_3DWELsf9jNf0MoouC6TuJ89HvlY5ZF",
-   "name": "sean sharif",
-   "person": "Sean Sharaf"
-  },
-  {
-   "id": "14bwoTEbAOYn7Dg0DWLVH7ox5pqlWE9ch",
-   "name": "Paulo Costa",
-   "person": "Paulo Costa"
-  },
-  {
-   "id": "1W5Hp1pKwvP925EOdVJn0EEkvTGO1QgYp",
-   "name": "alexander volkanovski champ",
-   "person": "Alexander Volkanovski"
-  },
-  {
-   "id": "1hXZstw2JTDt5MxeoKnVkqg7z7WCWGJ_E",
-   "name": "alexander volkanovski cook",
-   "person": "Alexander Volkanovski",
-   "note": "cooking photo; playful, for lighthearted stories"
-  },
-  {
-   "id": "1gMUm6RCtHIAU_fpjLGtxbD7juzjjnrsU",
-   "name": "arnold allen",
-   "person": "Arnold Allen"
-  },
-  {
-   "id": "1EBBwqKAPaue8dsW8PDTX3HOnf-I0dgOF",
-   "name": "arnold allen 2",
-   "person": "Arnold Allen"
-  },
-  {
-   "id": "1lYJYW3_dPUCWMzaNW5Kc6j1wZ30WDnwk",
-   "name": "ismael bonfim",
-   "person": "Ismael Bonfim"
-  },
-  {
-   "id": "1jLHvuwUeiHB6VP1cN_ro_MMRi6oYMuZ8",
-   "name": "Brendan Allen",
-   "person": "Brendan Allen"
-  },
-  {
-   "id": "1-GKKR0mjOTDHhb1VqpR7gSzUXLJ9Df1f",
-   "name": "sergei pavlovich",
-   "person": "Sergei Pavlovich"
-  },
-  {
-   "id": "1dbSAK6k0nyBNRWqwHCnexXLUUV1NsJ8c",
-   "name": "sergei pavlovich 2",
-   "person": "Sergei Pavlovich"
-  },
-  {
-   "id": "1M4Le49qqPHwZXjFb39MQJ96B99dny1Lo",
-   "name": "sergei pavlovich 3",
-   "person": "Sergei Pavlovich"
-  },
-  {
-   "id": "1MKIrWEVqvHBCSmSWXJnSbPFNvkfmi1sr",
-   "name": "alex pereira",
-   "person": "Alex Pereira"
-  },
-  {
-   "id": "1XKXL4wNzfu1e03RePsiDwoohQaeDOGCr",
-   "name": "alex pereira 2",
-   "person": "Alex Pereira"
-  },
-  {
-   "id": "1GRsY9MyWS5lk9s6AvFv693_HWzjyODJG",
-   "name": "alex pereira 3",
-   "person": "Alex Pereira"
-  },
-  {
-   "id": "16V_8cxe3Xj7sTrFml824KxztfB0eI0Ln",
-   "name": "khamzat chimaev",
-   "person": "Khamzat Chimaev"
-  },
-  {
-   "id": "17jPyHO_uZa2mmUlh4k_wdZQ8KW9FA9R9",
-   "name": "khamzat chimaev 2",
-   "person": "Khamzat Chimaev"
-  },
-  {
-   "id": "1nf4JWLhzggUMtg3LU_JTAN32FUXfJonE",
-   "name": "khamzat chimaev champ",
-   "person": "Khamzat Chimaev"
-  },
-  {
-   "id": "1aJ-NvwjKkcxCTHskZXTo4K9EmUk6VlA-",
-   "name": "tommy mcmillen",
-   "person": "Tommy McMillen"
-  },
-  {
-   "id": "1eitIN-K84JXDBwGykexUMIFO_30QLP-V",
-   "name": "mark goddard",
-   "person": "Marc Goddard"
-  },
-  {
-   "id": "1-vGYQx5gD1if3oFWNebWQbHL0PVlp4Sm",
-   "name": "mark goddard 2",
-   "person": "Marc Goddard"
-  },
-  {
-   "id": "1B_5NVJj8VzE0cVnYE3mBXC96ULkvE2FF",
-   "name": "cristian leroy duncan",
-   "person": "Christian Leroy Duncan"
-  },
-  {
-   "id": "1diY4ylhlJkI_v1ZYIbQWrhMHrxWkseQi",
-   "name": "Brendson Ribeiro",
-   "person": "Brendson Ribeiro"
-  },
-  {
-   "id": "1YEwHBCqrEwSmdZy7dtHbAVVbAEDJdjU5",
-   "name": "belal muhammad",
-   "person": "Belal Muhammad"
-  },
-  {
-   "id": "1DErk5Y3WLObPiU7tQUIWHn5wnMLQ2kS9",
-   "name": "belal muhammad champ",
-   "person": "Belal Muhammad"
-  },
-  {
-   "id": "1sXsh31oYqR55dRvZMtSrlE5Tejvxbqxq",
-   "name": "jon jones GOAT",
-   "person": "Jon Jones"
-  },
-  {
-   "id": "10Izie81kd01OMgAHh81l11bz5p1SUaY8",
-   "name": "jon jones normal",
-   "person": "Jon Jones"
-  },
-  {
-   "id": "1bDj5VpuHBd4vqlOBdgan1hq_jsbbfjwc",
-   "name": "jon jones old/washed/unc",
-   "person": "Jon Jones",
-   "note": "older/'washed' look; playful, for lighthearted or retirement-teasing stories"
-  },
-  {
-   "id": "17wcd6BP62keY6i_2wEATGdG7sH4Ix84G",
-   "name": "jon jones champion",
-   "person": "Jon Jones"
-  },
-  {
-   "id": "1nPR9hKpMIetU1K4A0wRhI249v6FA5-w8",
-   "name": "jon jones duck",
-   "person": "Jon Jones",
-   "note": "playful 'duck' image; for funny stories about Jones ducking fights"
-  },
-  {
-   "id": "19cKEC_xT2UxJ97QcrzlCgojUL3lCZ-bQ",
-   "name": "Avsaragova",
-   "person": "Diana Avsaragova"
-  },
-  {
-   "id": "1OqoOpw0GJVJ2sOQykc_tIFltq0KSJbZ9",
-   "name": "julianna peña headshot",
-   "person": "Julianna Peña"
-  },
-  {
-   "id": "1I1j3UB3iM42iyB4EnHlyP5_6Exs7XQxY",
-   "name": "julianna peña",
-   "person": "Julianna Peña"
-  },
-  {
-   "id": "1MkfRYmYsBuP7w9-57p8gO0PgpOnTI-t3",
-   "name": "julianna peña champ ",
-   "person": "Julianna Peña"
-  },
-  {
-   "id": "1OOKovgQJaq5k64W8zGTcgtLpA0zsCOKI",
-   "name": "leon edwards",
-   "person": "Leon Edwards"
-  },
-  {
-   "id": "1AN0OajKw1hlCr8WWwQ61AkIBvLB6iJHm",
-   "name": "leon edwards champion",
-   "person": "Leon Edwards"
-  },
-  {
-   "id": "1p_CALC4Y2uA8m2JR1K7rGMeuGUTC-Rf7",
-   "name": "jorge masvidal",
-   "person": "Jorge Masvidal"
-  },
-  {
-   "id": "1WrYsb3zpg2TE_obP7XMogAMg-swD6AK0",
-   "name": "jorge masvidal looks at camera",
-   "person": "Jorge Masvidal"
-  },
-  {
-   "id": "16RddSwzHWWfWq4kwiB-QEs_NOJ6iRJeq",
-   "name": "Scale",
-   "person": "Scale",
-   "note": "prop: weigh-in scale graphic for weight-miss stories (v2 prop type 'scale'), not a person"
-  },
-  {
-   "id": "1TD14vNfULhzg3bhfd1UkmxnTeImZAc_s",
-   "name": "Francisco Prado",
-   "person": "Francisco Prado"
-  },
-  {
-   "id": "1EJ70SGYV77w4qlzkZTFxjGduytAAO2kp",
-   "name": "conor benn",
-   "person": "Conor Benn"
-  },
-  {
-   "id": "1fxLHLTE6ixzts0srzvQhu6rUl3PLV3bU",
-   "name": "damian pinas 2",
-   "person": "Damian Pinas"
-  },
-  {
-   "id": "1N5kWkqD051yorn8bL1nXV3Vmfdgv3sBj",
-   "name": "damian pinas",
-   "person": "Damian Pinas"
-  },
-  {
-   "id": "1McEiUb_ZDKyC5kYgmgvtg_CFBhkyU5sc",
-   "name": "quillan salkilld",
-   "person": "Quillan Salkilld"
-  },
-  {
-   "id": "10QULNFEHg8XxhY5xQm_XLO7UC-pNWbUc",
-   "name": "quillan salkilld 3",
-   "person": "Quillan Salkilld"
-  },
-  {
-   "id": "1F6PjoQAvo1kbRDxVjGvqOsuLZ5TYFzIJ",
-   "name": "quillan salkilld 2",
-   "person": "Quillan Salkilld"
-  },
-  {
-   "id": "1M21Cm1dROZm-x4yWKmMpl3svY0V0f5Y1",
-   "name": "quillan salkilld 4",
-   "person": "Quillan Salkilld"
-  }
- ]
+  "folder_id": "100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
+  "folder_url": "https://drive.google.com/drive/folders/100IXlX0jQO1WqckSc6pW29d2ejaVPc_W",
+  "note": "The user's Google Drive image bank. Each run lists the folder and adds new files here (id, name, person, optional credit). The Make posts workflow downloads them into images/<person>/drive-<name>.<ext> and cuts them out. Set \"skip\": true to ignore a file.",
+  "files": [
+    {
+      "id": "1KbT-5IgXArELx3INDmqOkOmYBnOifmrx",
+      "name": "Joe_Rogan.JPG",
+      "person": "Joe Rogan"
+    },
+    {
+      "id": "1BM8NyEYr5BcatJgQJMXFuO9eEKgaqmq-",
+      "name": "Joe_Rogan_.JPG",
+      "person": "Joe Rogan"
+    },
+    {
+      "id": "1jviBXoxmTtGHvhqVsnD8GqkEXAfz-an7",
+      "name": "Joe_Rogan_3.JPG",
+      "person": "Joe Rogan"
+    },
+    {
+      "id": "1RoshENs-vzsWL8bqr3VZLJCFl52cAbOD",
+      "name": "Joe_Rogan_4.JPG",
+      "person": "Joe Rogan"
+    },
+    {
+      "id": "1CFlJJfwg76ZyuFP6VOyMDpg6XPl3L1Cm",
+      "name": "Josh Hokit 1",
+      "person": "Josh Hokit"
+    },
+    {
+      "id": "1MEWKAiN2aE9hA_cX_hQ-4AseEgdbFdO5",
+      "name": "Josh Hokit 2",
+      "person": "Josh Hokit"
+    },
+    {
+      "id": "1lCo9ZSDQDYzjX58XK3rIC49kXrFWSm0i",
+      "name": "Anthony Smith.JPG",
+      "person": "Anthony Smith (fighter)"
+    },
+    {
+      "id": "1xZSmvrfeoQYrNWJHw8f8NJot6VYSHTum",
+      "name": "Shamil Erd.WEBP",
+      "person": "Shamil Erdogan"
+    },
+    {
+      "id": "1hq1c7wjBkB4fVoE7uRQBM5peCmE26mhT",
+      "name": "payton talbott",
+      "person": "Payton Talbott"
+    },
+    {
+      "id": "17Vm3EM3WFswtgYtsSmm8291Hg6CYzcFr",
+      "name": "Bobby Green AKA King Green",
+      "person": "Bobby Green (fighter)"
+    },
+    {
+      "id": "131XIenOvEwHQcsuTXQoqo9jwA_09vhaJ",
+      "name": "roman kopylov",
+      "person": "Roman Kopylov"
+    },
+    {
+      "id": "1zz5N55hRRIdqgwwFxEpZqrIVBhcO5VYE",
+      "name": "Wang Cong.png",
+      "person": "Wang Cong"
+    },
+    {
+      "id": "1RAn7PlFvwnz9OSATmKgUzcDVuXnbPpZc",
+      "name": "Esteban Ribovics",
+      "person": "Esteban Ribovics"
+    },
+    {
+      "id": "1Bsyabo7iHXSglNj6UfjyHw1JxNOALGw0",
+      "name": "raoni barcelos",
+      "person": "Raoni Barcelos"
+    },
+    {
+      "id": "1N7aL-_gAN3OZoo3KGYV-IidmIxGdX9ca",
+      "name": "sean strickland",
+      "person": "Sean Strickland"
+    },
+    {
+      "id": "1prKxDkKVHoLwDQNK-P163tHlyYhauSWU",
+      "name": "sean strickland 2",
+      "person": "Sean Strickland"
+    },
+    {
+      "id": "1ejH1fwMVI-5Rsbw3f6gwPADxg5VJsTnA",
+      "name": "sean strickland 3",
+      "person": "Sean Strickland",
+      "skip": true,
+      "note": "Sean Strickland earlier in his career, with hair (confirmed by user 2026-10-04); good for funny/lighthearted stories"
+    },
+    {
+      "id": "1AoTCtdUzcF5Pas1V8VXRzjCdV1IhyhJL",
+      "name": "sean strickland funny",
+      "person": "Sean Strickland",
+      "note": "Playful image (Strickland as a scorpion); use for funny/lighthearted stories"
+    },
+    {
+      "id": "1r4cz0l8Nrh_c6ty9USC2zFwHxATlOWQE",
+      "name": "Anthony Wint",
+      "person": "Anthony Wint"
+    },
+    {
+      "id": "1ztpAn9XpXJ24__gbdX5pnyl1Fc-Ou_R_",
+      "name": "Anthony Wint NY Jets",
+      "person": "Anthony Wint"
+    },
+    {
+      "id": "1r_3DWELsf9jNf0MoouC6TuJ89HvlY5ZF",
+      "name": "sean sharif",
+      "person": "Sean Sharaf"
+    },
+    {
+      "id": "14bwoTEbAOYn7Dg0DWLVH7ox5pqlWE9ch",
+      "name": "Paulo Costa",
+      "person": "Paulo Costa"
+    },
+    {
+      "id": "1W5Hp1pKwvP925EOdVJn0EEkvTGO1QgYp",
+      "name": "alexander volkanovski champ",
+      "person": "Alexander Volkanovski"
+    },
+    {
+      "id": "1hXZstw2JTDt5MxeoKnVkqg7z7WCWGJ_E",
+      "name": "alexander volkanovski cook",
+      "person": "Alexander Volkanovski",
+      "note": "cooking photo; playful, for lighthearted stories"
+    },
+    {
+      "id": "1gMUm6RCtHIAU_fpjLGtxbD7juzjjnrsU",
+      "name": "arnold allen",
+      "person": "Arnold Allen"
+    },
+    {
+      "id": "1EBBwqKAPaue8dsW8PDTX3HOnf-I0dgOF",
+      "name": "arnold allen 2",
+      "person": "Arnold Allen"
+    },
+    {
+      "id": "1lYJYW3_dPUCWMzaNW5Kc6j1wZ30WDnwk",
+      "name": "ismael bonfim",
+      "person": "Ismael Bonfim"
+    },
+    {
+      "id": "1jLHvuwUeiHB6VP1cN_ro_MMRi6oYMuZ8",
+      "name": "Brendan Allen",
+      "person": "Brendan Allen"
+    },
+    {
+      "id": "1-GKKR0mjOTDHhb1VqpR7gSzUXLJ9Df1f",
+      "name": "sergei pavlovich",
+      "person": "Sergei Pavlovich"
+    },
+    {
+      "id": "1dbSAK6k0nyBNRWqwHCnexXLUUV1NsJ8c",
+      "name": "sergei pavlovich 2",
+      "person": "Sergei Pavlovich"
+    },
+    {
+      "id": "1M4Le49qqPHwZXjFb39MQJ96B99dny1Lo",
+      "name": "sergei pavlovich 3",
+      "person": "Sergei Pavlovich"
+    },
+    {
+      "id": "1MKIrWEVqvHBCSmSWXJnSbPFNvkfmi1sr",
+      "name": "alex pereira",
+      "person": "Alex Pereira"
+    },
+    {
+      "id": "1XKXL4wNzfu1e03RePsiDwoohQaeDOGCr",
+      "name": "alex pereira 2",
+      "person": "Alex Pereira"
+    },
+    {
+      "id": "1GRsY9MyWS5lk9s6AvFv693_HWzjyODJG",
+      "name": "alex pereira 3",
+      "person": "Alex Pereira"
+    },
+    {
+      "id": "16V_8cxe3Xj7sTrFml824KxztfB0eI0Ln",
+      "name": "khamzat chimaev",
+      "person": "Khamzat Chimaev"
+    },
+    {
+      "id": "17jPyHO_uZa2mmUlh4k_wdZQ8KW9FA9R9",
+      "name": "khamzat chimaev 2",
+      "person": "Khamzat Chimaev"
+    },
+    {
+      "id": "1nf4JWLhzggUMtg3LU_JTAN32FUXfJonE",
+      "name": "khamzat chimaev champ",
+      "person": "Khamzat Chimaev"
+    },
+    {
+      "id": "1aJ-NvwjKkcxCTHskZXTo4K9EmUk6VlA-",
+      "name": "tommy mcmillen",
+      "person": "Tommy McMillen"
+    },
+    {
+      "id": "1eitIN-K84JXDBwGykexUMIFO_30QLP-V",
+      "name": "mark goddard",
+      "person": "Marc Goddard"
+    },
+    {
+      "id": "1-vGYQx5gD1if3oFWNebWQbHL0PVlp4Sm",
+      "name": "mark goddard 2",
+      "person": "Marc Goddard"
+    },
+    {
+      "id": "1B_5NVJj8VzE0cVnYE3mBXC96ULkvE2FF",
+      "name": "cristian leroy duncan",
+      "person": "Christian Leroy Duncan"
+    },
+    {
+      "id": "1diY4ylhlJkI_v1ZYIbQWrhMHrxWkseQi",
+      "name": "Brendson Ribeiro",
+      "person": "Brendson Ribeiro"
+    },
+    {
+      "id": "1YEwHBCqrEwSmdZy7dtHbAVVbAEDJdjU5",
+      "name": "belal muhammad",
+      "person": "Belal Muhammad"
+    },
+    {
+      "id": "1DErk5Y3WLObPiU7tQUIWHn5wnMLQ2kS9",
+      "name": "belal muhammad champ",
+      "person": "Belal Muhammad"
+    },
+    {
+      "id": "1sXsh31oYqR55dRvZMtSrlE5Tejvxbqxq",
+      "name": "jon jones GOAT",
+      "person": "Jon Jones"
+    },
+    {
+      "id": "10Izie81kd01OMgAHh81l11bz5p1SUaY8",
+      "name": "jon jones normal",
+      "person": "Jon Jones"
+    },
+    {
+      "id": "1bDj5VpuHBd4vqlOBdgan1hq_jsbbfjwc",
+      "name": "jon jones old/washed/unc",
+      "person": "Jon Jones",
+      "note": "older/'washed' look; playful, for lighthearted or retirement-teasing stories"
+    },
+    {
+      "id": "17wcd6BP62keY6i_2wEATGdG7sH4Ix84G",
+      "name": "jon jones champion",
+      "person": "Jon Jones"
+    },
+    {
+      "id": "1nPR9hKpMIetU1K4A0wRhI249v6FA5-w8",
+      "name": "jon jones duck",
+      "person": "Jon Jones",
+      "note": "playful 'duck' image; for funny stories about Jones ducking fights"
+    },
+    {
+      "id": "19cKEC_xT2UxJ97QcrzlCgojUL3lCZ-bQ",
+      "name": "Avsaragova",
+      "person": "Diana Avsaragova"
+    },
+    {
+      "id": "1OqoOpw0GJVJ2sOQykc_tIFltq0KSJbZ9",
+      "name": "julianna peña headshot",
+      "person": "Julianna Peña"
+    },
+    {
+      "id": "1I1j3UB3iM42iyB4EnHlyP5_6Exs7XQxY",
+      "name": "julianna peña",
+      "person": "Julianna Peña"
+    },
+    {
+      "id": "1MkfRYmYsBuP7w9-57p8gO0PgpOnTI-t3",
+      "name": "julianna peña champ ",
+      "person": "Julianna Peña"
+    },
+    {
+      "id": "1OOKovgQJaq5k64W8zGTcgtLpA0zsCOKI",
+      "name": "leon edwards",
+      "person": "Leon Edwards"
+    },
+    {
+      "id": "1AN0OajKw1hlCr8WWwQ61AkIBvLB6iJHm",
+      "name": "leon edwards champion",
+      "person": "Leon Edwards"
+    },
+    {
+      "id": "1p_CALC4Y2uA8m2JR1K7rGMeuGUTC-Rf7",
+      "name": "jorge masvidal",
+      "person": "Jorge Masvidal"
+    },
+    {
+      "id": "1WrYsb3zpg2TE_obP7XMogAMg-swD6AK0",
+      "name": "jorge masvidal looks at camera",
+      "person": "Jorge Masvidal"
+    },
+    {
+      "id": "16RddSwzHWWfWq4kwiB-QEs_NOJ6iRJeq",
+      "name": "Scale",
+      "person": "Scale",
+      "note": "prop: weigh-in scale graphic for weight-miss stories (v2 prop type 'scale'), not a person"
+    },
+    {
+      "id": "1TD14vNfULhzg3bhfd1UkmxnTeImZAc_s",
+      "name": "Francisco Prado",
+      "person": "Francisco Prado"
+    },
+    {
+      "id": "1EJ70SGYV77w4qlzkZTFxjGduytAAO2kp",
+      "name": "conor benn",
+      "person": "Conor Benn"
+    },
+    {
+      "id": "1fxLHLTE6ixzts0srzvQhu6rUl3PLV3bU",
+      "name": "damian pinas 2",
+      "person": "Damian Pinas"
+    },
+    {
+      "id": "1N5kWkqD051yorn8bL1nXV3Vmfdgv3sBj",
+      "name": "damian pinas",
+      "person": "Damian Pinas"
+    },
+    {
+      "id": "1McEiUb_ZDKyC5kYgmgvtg_CFBhkyU5sc",
+      "name": "quillan salkilld",
+      "person": "Quillan Salkilld"
+    },
+    {
+      "id": "10QULNFEHg8XxhY5xQm_XLO7UC-pNWbUc",
+      "name": "quillan salkilld 3",
+      "person": "Quillan Salkilld"
+    },
+    {
+      "id": "1F6PjoQAvo1kbRDxVjGvqOsuLZ5TYFzIJ",
+      "name": "quillan salkilld 2",
+      "person": "Quillan Salkilld"
+    },
+    {
+      "id": "1M21Cm1dROZm-x4yWKmMpl3svY0V0f5Y1",
+      "name": "quillan salkilld 4",
+      "person": "Quillan Salkilld"
+    },
+    {
+      "id": "1rDn7wdXiAvgy91X-RMnSBarQ-ceP9KOA",
+      "name": "Dan hooker",
+      "person": "Dan Hooker"
+    }
+  ]
 }
