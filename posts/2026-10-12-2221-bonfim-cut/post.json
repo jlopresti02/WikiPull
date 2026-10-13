@@ -1,0 +1,78 @@
+{
+  "story_id": "ufc-vegas-122-weigh-in-misses",
+  "headline": "Bonfim Cut",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ismael Bonfim",
+      "file": "drive-ismael-bonfim"
+    },
+    {
+      "type": "mystery",
+      "headline": "Bonfim Cut"
+    }
+  ],
+  "color": "#0f8a5f",
+  "trial_reel": true,
+  "caption": "UPDATE: Ismael Bonfim has been released by the UFC after his 7.5-pound weight miss at UFC Vegas 122 😬\nFair or harsh? 👇\n\nIt was his third weight miss in the UFC, and Francisco Prado stopped him in round 1. The lightweight leaves 2-5 in the promotion, but says his story doesn't end here. UFC news.\n\nWhere should he land next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas122",
+    "IsmaelBonfim",
+    "Lightweight"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Fair or harsh?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · LIGHTWEIGHT",
+    "kicker": "RELEASED",
+    "hook": "Bonfim Cut",
+    "left": [
+      {
+        "name": "Ismael Bonfim",
+        "file": "drive-ismael-bonfim"
+      }
+    ],
+    "right": [
+      {
+        "name": "Francisco Prado"
+      }
+    ],
+    "story": "After a third UFC weight miss and a first-round TKO loss to Prado, Bonfim is off the roster.",
+    "chips": [
+      "7.5 LB OVER",
+      "3RD MISS",
+      "2-5 IN UFC"
+    ],
+    "question": "Fair or harsh?",
+    "options": [
+      "Fair",
+      "Harsh"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/ismael-bonfim/cutouts/drive-ismael-bonfim.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/francisco-prado/cutouts/01-perito-grafotecnico-experto-lima-dactiloscopia-polic-a-crimi.png",
+      "credit": "Francisco Prado Mendoza / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/ismael-bonfim/cutouts/drive-ismael-bonfim.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}

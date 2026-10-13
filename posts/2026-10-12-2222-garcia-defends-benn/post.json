@@ -1,0 +1,81 @@
+{
+  "story_id": "ryan-garcia-defends-conor-benn",
+  "headline": "Don't Disrespect",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Ryan Garcia"
+    },
+    {
+      "type": "fighter",
+      "name": "Conor Benn"
+    },
+    {
+      "type": "mystery",
+      "headline": "Garcia Steps In"
+    }
+  ],
+  "color": "#6b2fd1",
+  "trial_reel": true,
+  "caption": "Ryan Garcia knocked Conor Benn out, and now he's defending him 🥊\nClass or cap? 👇\n\nAfter an interviewer told Benn he got stretched out, the WBC welterweight champ called the question disrespectful on X. Garcia stopped Benn in round 2 in Las Vegas last month. Boxing news.\n\nWas the interviewer out of line?",
+  "hashtags": [
+    "Boxing",
+    "WBC",
+    "RyanGarcia",
+    "ConorBenn",
+    "BoxingNews"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Class or cap?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "BOXING · WELTERWEIGHT",
+    "kicker": "GARCIA STEPS IN",
+    "hook": "Garcia Defends Benn",
+    "left": [
+      {
+        "name": "Ryan Garcia"
+      }
+    ],
+    "right": [
+      {
+        "name": "Conor Benn"
+      }
+    ],
+    "story": "Garcia blasted an interviewer for mocking Benn's knockout loss to him.",
+    "chips": [
+      "GARCIA TKO R2",
+      "WBC TITLE",
+      "LAS VEGAS"
+    ],
+    "question": "Class or cap?",
+    "options": [
+      "Class",
+      "Cap"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/ryan-garcia/cutouts/01-ryan-garcia.png",
+      "credit": "Ryan Garcia / CC BY-SA 4.0"
+    },
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/ryan-garcia/cutouts/01-ryan-garcia.png",
+    "credit": "Ryan Garcia / CC BY-SA 4.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
+}
