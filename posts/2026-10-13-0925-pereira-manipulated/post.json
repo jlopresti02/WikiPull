@@ -55,6 +55,24 @@
     "options": [
       "Pereira",
       "DC"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
+      "credit": "The White House / Public domain"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/daniel-cormier/cutouts/01-daniel-cormier-taking-a-picture-with-a-fan.png",
+      "credit": "X2o / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alex-pereira/cutouts/01-alex-pereira-in-the-oval-office-while-president-donald-j-tru.png",
+    "credit": "The White House / Public domain"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }

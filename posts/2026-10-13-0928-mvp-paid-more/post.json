@@ -53,6 +53,24 @@
     "options": [
       "UFC",
       "Misfits"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/michael-page/cutouts/01-michael-page.png",
+      "credit": "Amoby / CC0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/ksi/cutouts/03-jj-olatunji-ksi-1.png",
+      "credit": "Gymshark / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/michael-page/cutouts/01-michael-page.png",
+    "credit": "Amoby / CC0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

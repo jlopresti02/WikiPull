@@ -54,6 +54,24 @@
     "options": [
       "Harrison",
       "Nunes"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/kayla-harrison/cutouts/03-kayla-harrison-rio-2016b.png",
+      "credit": "Agência Brasil Fotografias / CC BY 2.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/amanda-nunes/cutouts/01-ceremonial-weigh-ins-amanda-nunes-vs-julianna-pe-a-ufc-269-c.png",
+      "credit": "MMAnytt / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/kayla-harrison/cutouts/03-kayla-harrison-rio-2016b.png",
+    "credit": "Agência Brasil Fotografias / CC BY 2.0"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }
