@@ -32,7 +32,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC 336 · WELTERWEIGHT",
+    "tag": "UFC 336",
     "kicker": "TITLE FIGHT TARGETED",
     "hook": "Islam vs Prates",
     "left": [
@@ -74,7 +74,7 @@
     "image": "images/islam-makhachev/cutouts/01-islam-makhachev-2022-ufc-belt.png",
     "credit": "Новости ННТ / CC BY 3.0"
   },
-  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
-  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
-  "music_start": 108.75
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
