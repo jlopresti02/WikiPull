@@ -2,6 +2,135 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "makhachev-vs-prates-ufc-336-toronto-report",
+      "title": "Makhachev vs. Prates reportedly targeted for UFC 336 (Jan 30, Toronto) for the welterweight title",
+      "people": [
+        "Islam Makhachev",
+        "Carlos Prates"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Reported by Álvaro Colmenero on X Oct 13; targeted Jan 30, 2027 at Scotiabank Arena, Toronto",
+        "Not officially confirmed by the UFC",
+        "Would be Makhachev's second welterweight title defense; Prates 24-7, KO'd all 7 UFC opponents"
+      ],
+      "sources": [
+        "https://nyfights.com/featured/islam-makhachev-vs-carlos-prates-ufc-336-2/",
+        "https://bloodyelbow.com/2026/10/13/islam-makhachev-is-reportedly-set-to-headline-the-first-numbered-ufc-event-of-2027/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-1330-makhachev-prates-toronto",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "strickland-blasts-helwani-biased-weak",
+      "title": "Sean Strickland calls Ariel Helwani the 'most biased weak man on the internet' amid UFC pay standoff",
+      "people": [
+        "Sean Strickland",
+        "Ariel Helwani"
+      ],
+      "event": null,
+      "first_reported": "2026-10-12",
+      "held_for_evening": true,
+      "facts": [
+        "Strickland X posts Oct 12 night: Helwani is his 'number 1 hater', 'most biased weak man on the internet', 'Dana called it day 1'",
+        "Helwani's show covered Strickland's pay dispute; Strickland says he won't fight or sign until it's figured out",
+        "Helwani: 'Never said that he wasn't a good fighter. Never said that he was a bum.'"
+      ],
+      "sources": [
+        "https://athlonsports.com/mma/ufc-sean-strickland-blasts-ariel-helwani-biased-weak",
+        "https://bloodyelbow.com/2026/10/13/sean-strickland-explodes-on-journalist-as-he-continues-to-defend-ufc-boycott-due-to-pay/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "ketlen-vieira-suspended-after-cyborg-fight",
+      "title": "Ketlen Vieira suspended six months after failed drug test following PFL loss to Cris Cyborg",
+      "people": [
+        "Ketlen Vieira",
+        "Cris Cyborg"
+      ],
+      "event": "PFL Tampa",
+      "first_reported": "2026-10-13",
+      "held_for_evening": true,
+      "facts": [
+        "Six-month suspension after positive test from her August PFL Tampa title fight vs Cyborg (lost by decision, missed weight by 7 lb)",
+        "Vieira says she took medication for a long-standing knee injury and stopped it once the fight came up; no intent to break rules",
+        "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Exclusive-Ketlen-Vieira-suspended-6-months-after-positive-test-following-Cyborg-fight-203196",
+        "https://sports.yahoo.com/articles/ketlen-vieira-releases-statement-6-143000290.html"
+      ],
+      "posts": []
+    },
+    {
+      "id": "pereira-dares-valter-walker-spar-purse",
+      "title": "Alex Pereira dares Valter Walker to spar, offers his last purse if Walker catches his foot",
+      "people": [
+        "Alex Pereira",
+        "Valter Walker"
+      ],
+      "event": "UFC 335",
+      "first_reported": "2026-10-13",
+      "held_for_evening": true,
+      "facts": [
+        "Pereira (to Laerte Viana): invited Walker to train and 'he ran off'; will fly him first class to Las Vegas",
+        "'If he beats me, if he catches my foot, I'll pay him the amount of his last fight purse'",
+        "Walker had said Pereira would struggle vs Pavlovich; Walker has five straight leg-lock wins; Pereira vs Pavlovich co-main UFC 335 Dec 12"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Alex-Pereira-challenges-Valter-Walker-to-spar-offers-pursesized-reward-203190",
+        "https://bloodyelbow.com/2026/10/13/fans-turn-on-alex-pereira-after-he-issues-public-challenge-to-ufc-heavyweight-to-spar-for-entire-purse/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "harrison-rousey-cardio-kickboxing",
+      "title": "Kayla Harrison says Ronda Rousey 'dominated women from cardio-kickboxing classes', stands by prime-vs-prime take",
+      "people": [
+        "Kayla Harrison",
+        "Ronda Rousey"
+      ],
+      "event": null,
+      "first_reported": "2026-10-13",
+      "held_for_evening": true,
+      "facts": [
+        "Headline-level only so far (article bodies not readable this run); verify quotes before posting"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-news/478739/kayla-harrison-ronda-rousey-dominated-women-from-cardio-kickboxing-classes",
+        "https://bloodyelbow.com/2026/10/13/kayla-harrison-stands-her-ground-in-ronda-rousey-prime-vs-prime-debate-dont-be-disrespectful/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "moreno-vs-charles-johnson-ufc-335",
+      "title": "Brandon Moreno vs. Charles Johnson set for UFC 335 (Dec 12)",
+      "people": [
+        "Brandon Moreno",
+        "Charles Johnson"
+      ],
+      "event": "UFC 335",
+      "first_reported": "2026-10-13",
+      "held_for_evening": true,
+      "facts": [
+        "Flyweight bout added to UFC 335, Dec 12; card also has Pereira vs Pavlovich and Lopes vs Oliveira",
+        "Routine booking: Trial Reel if posted"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/10/13/brandon-moreno-lands-charles-johnson-at-ufc-335/",
+        "https://www.mmamania.com/ufc-news/478748/brandon-moreno-vs-charles-johnson-set-for-ufc-335"
+      ],
+      "posts": []
+    },
+    {
       "id": "pereira-says-ufc-dc-manipulated-fans-gane-hokit",
       "title": "Pereira says UFC and Daniel Cormier 'manipulated' fans into backing Gane vs Hokit",
       "people": [
