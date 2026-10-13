@@ -24,7 +24,10 @@
           "post": "2026-10-12-2222-garcia-defends-benn",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-12T23:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-430334880226455843",
+          "image": "Ryan Garcia Wikimedia photo; Conor Benn silhouette"
         }
       ]
     },
@@ -50,7 +53,10 @@
           "post": "2026-10-12-2220-pinas-sees-a-hole",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-12T23:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1449651123361528988",
+          "image": "Damian Pinas silhouette; Brendan Allen Drive photo"
         }
       ],
       "image": "silhouette (Pinas), Brendan Allen Drive photo"
@@ -858,7 +864,10 @@
           "post": "2026-10-12-2221-bonfim-cut",
           "kind": "update",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-12T22:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8791446907272607627",
+          "image": "Ismael Bonfim Drive photo + cheeseburger prop"
         }
       ]
     },
