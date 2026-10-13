@@ -30,7 +30,7 @@ A post file opts in with "format": "v2" and a "v2" block:
 
 "prop" (Oct 9, user request) pops a drawn graphic into one photo column at
 the hit, for lighthearted stories (a big weight miss gets a cheeseburger).
-Types: "cheeseburger". "side": "left" or "right" (default left).
+Types: "cheeseburger", "scale" (the Drive weigh-in scale photo). "side": "left" or "right" (default left).
 
 make_posts.py resolves "left" and "right" to cutouts (stored as
 "left_subject" / "right_subject"); a side with no photo gets the
@@ -405,7 +405,23 @@ def draw_cheeseburger(size):
     return out
 
 
-PROPS = {"cheeseburger": draw_cheeseburger}
+def draw_scale(size):
+    """The weigh-in scale from the Drive image bank (images/scale, user upload
+    Oct 12), cut out, `size` px wide, RGBA. For weight-miss stories."""
+    from pathlib import Path
+    root = Path(__file__).resolve().parent / "images" / "scale"
+    src = root / "cutouts" / "drive-scale.png"
+    if not src.exists():
+        src = next(iter(sorted(root.glob("drive-scale.*"))), None)
+    if src is None:
+        return draw_cheeseburger(size)
+    im = Image.open(src).convert("RGBA")
+    im = im.crop(im.getbbox() or (0, 0, im.width, im.height))
+    sc = size / im.width
+    return im.resize((size, max(1, int(im.height * sc))), Image.LANCZOS)
+
+
+PROPS = {"cheeseburger": draw_cheeseburger, "scale": draw_scale}
 
 
 def ease_out_back(x, k=1.6):
