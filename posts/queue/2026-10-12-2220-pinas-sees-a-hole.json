@@ -1,0 +1,29 @@
+{
+  "story_id": "pinas-sees-hole-in-allen-game-2027",
+  "headline": "See The Hole",
+  "visual": [
+    {"type": "fighter", "name": "Damian Pinas"},
+    {"type": "fighter", "name": "Brendan Allen", "file": "drive-brendan-allen"},
+    {"type": "mystery", "headline": "Pinas vs Allen?"}
+  ],
+  "color": "#d2202f",
+  "caption": "Damian Pinas says he already sees the hole in Brendan Allen's game 👀\nAllen or Pinas? 👇\n\nThe Baba Yaga, riding three straight first-round UFC KOs, praised Allen's fifth-round submission of Christian Leroy Duncan at UFC Vegas 122, then floated #AllenVsPinas for 2027. Allen has won four straight at middleweight. UFC news.\n\nWho takes it?",
+  "hashtags": ["MMANews", "UFC", "UFCVegas122", "BrendanAllen", "DamianPinas"],
+  "sources": ["Sherdog"],
+  "music_pool": "espn",
+  "question": "Allen or Pinas?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "2027 CALLOUT",
+    "hook": "Pinas vs Allen?",
+    "left": [{"name": "Damian Pinas"}],
+    "right": [{"name": "Brendan Allen", "file": "drive-brendan-allen"}],
+    "story": "Pinas says he was impressed by Allen, but still sees a path to beating him in 2027.",
+    "chips": ["PINAS 11-1", "3 STRAIGHT R1 KOs", "ALLEN 4 STRAIGHT"],
+    "question": "Allen or Pinas?",
+    "options": ["Allen", "Pinas"]
+  }
+}
