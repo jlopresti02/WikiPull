@@ -25,7 +25,9 @@
           "kind": "new",
           "format": "reel",
           "style": "v2",
-          "image": "v2: Jon Jones (Drive champion) vs Josh Hokit (Drive 1)"
+          "image": "v2: Jon Jones (Drive champion) vs Josh Hokit (Drive 1)",
+          "scheduled_for": "2026-10-13T22:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=62068122865454291"
         }
       ]
     },
@@ -52,7 +54,9 @@
           "kind": "new",
           "format": "reel",
           "style": "v2",
-          "image": "v2: Paulo Costa (Drive) vs Magomed Ankalaev (Wikimedia); Ulberg Wikimedia result was a wrong person, deleted"
+          "image": "v2: Paulo Costa (Drive) vs Magomed Ankalaev (Wikimedia); Ulberg Wikimedia result was a wrong person, deleted",
+          "scheduled_for": "2026-10-13T23:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8997488672596707677"
         }
       ]
     },
