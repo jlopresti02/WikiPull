@@ -1,0 +1,64 @@
+{
+  "story_id": "dana-wanted-fury-joshua-white-house-announcement",
+  "headline": "Plan Blocked",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    },
+    {
+      "type": "fighter",
+      "name": "Tyson Fury"
+    },
+    {
+      "type": "fighter",
+      "name": "Anthony Joshua"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Dana White wanted to announce Tyson Fury vs. Anthony Joshua at the UFC White House card, but it fell apart behind the scenes.\nCardiff or MSG? 👇\n\nWhite told Pat McAfee the heavyweight boxing fight is set for Dec. 11 at Principality Stadium in Cardiff, with Zuffa Boxing promoting, after Joshua's side won the push for a UK venue. Boxing news.\n\nWho wins it?",
+  "hashtags": [
+    "Boxing",
+    "ZuffaBoxing",
+    "FuryJoshua",
+    "TysonFury",
+    "AnthonyJoshua"
+  ],
+  "sources": [
+    "MMA Fighting",
+    "The Pat McAfee Show"
+  ],
+  "music_pool": "espn",
+  "question": "Cardiff or MSG?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "ZUFFA BOXING",
+    "kicker": "WHITE HOUSE PLAN",
+    "hook": "Fury vs Joshua",
+    "left": [
+      {
+        "name": "Dana White",
+        "file": "01-dana-white-in-june-2025-cropped"
+      }
+    ],
+    "right": [
+      {
+        "name": "Tyson Fury"
+      }
+    ],
+    "story": "Dana wanted to reveal Fury-Joshua at the White House card, but the venue fight got in the way.",
+    "chips": [
+      "DEC 11 · CARDIFF",
+      "ZUFFA PROMOTING"
+    ],
+    "question": "Cardiff or MSG?",
+    "options": [
+      "Cardiff",
+      "MSG"
+    ]
+  }
+}
