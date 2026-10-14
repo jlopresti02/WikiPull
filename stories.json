@@ -2,6 +2,61 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "jones-says-hokit-could-beat-gane-ufc-334",
+      "title": "Jon Jones says Josh Hokit could beat Ciryl Gane at UFC 334, but a Gane win helps his own legacy",
+      "people": [
+        "Jon Jones",
+        "Josh Hokit",
+        "Ciryl Gane"
+      ],
+      "event": "UFC 334, Nov 14, Madison Square Garden",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Jones to The Schmo: Hokit 'looks great', 'very well could win'",
+        "Catch: a Gane win makes Jones' brand look better (Jones submitted Gane for the HW title in 2023); 'may the best man win'",
+        "Gane 14-2 defends HW title vs unbeaten Hokit 10-0; Hokit trains at Jackson-Wink"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Jon-Jones-says-Josh-Hokit-can-beat-Ciryl-Gane-but-theres-a-catch-203194"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-2220-jones-hokit-could-win",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "image": "v2: Jon Jones (Drive champion) vs Josh Hokit (Drive 1)"
+        }
+      ]
+    },
+    {
+      "id": "costa-will-fight-somewhere-end-of-year",
+      "title": "Paulo Costa says 'nothing from the UFC', vows to fight somewhere at the end of the year",
+      "people": [
+        "Paulo Costa"
+      ],
+      "event": "none (UFC contract standoff)",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Costa on X Oct 12: nothing from the UFC; he'll fight at an event at the end of the year, 'in my prime', will 'fight somewhere'",
+        "Dispute over last fight on UFC contract and five-round fights without extra pay",
+        "Wanted an interim LHW title fight while Carlos Ulberg recovers; off wins over Kopylov and Murzakanov",
+        "Related: costa-offers-strickland-solution, costa-calls-ufc-dana-incompetent"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Paulo-Costa-says-hell-fight-somewhere-this-year-amid-UFC-standoff-203186"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-13-2221-costa-fighting-somewhere",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "image": "v2: Paulo Costa (Drive) vs Carlos Ulberg/Ankalaev (Wikimedia)"
+        }
+      ]
+    },
+    {
       "id": "makhachev-vs-prates-ufc-336-toronto-report",
       "title": "Makhachev vs. Prates reportedly targeted for UFC 336 (Jan 30, Toronto) for the welterweight title",
       "people": [
@@ -74,7 +129,8 @@
         "Six-month suspension after positive test from her August PFL Tampa title fight vs Cyborg (lost by decision, missed weight by 7 lb)",
         "Vieira says she took medication for a long-standing knee injury and stopped it once the fight came up; no intent to break rules",
         "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing",
-        "Oct 13 6 PM run: rendered 2026-10-13-1832-vieira-suspended but held (no Vieira photo; left side silhouette). Re-queue once a Vieira photo is added."
+        "Oct 13 6 PM run: rendered 2026-10-13-1832-vieira-suspended but held (no Vieira photo; left side silhouette). Re-queue once a Vieira photo is added.",
+        "Oct 13 10 PM run: still no Vieira photo in Drive; still held"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Exclusive-Ketlen-Vieira-suspended-6-months-after-positive-test-following-Cyborg-fight-203196",
@@ -286,7 +342,8 @@
       "facts": [
         "Vacant ONE women's atomweight MMA world title; Sawada 12-1, Nikolakakos 7-0",
         "A Sawada win would make her the first Japanese woman to hold a ONE world title",
-        "Held at 9 AM run: no photos in image bank yet (user asked to add)"
+        "Held at 9 AM run: no photos in image bank yet (user asked to add)",
+        "Oct 13 10 PM run: still no Sawada/Nikolakakos photos; still held"
       ],
       "sources": [
         "https://www.onefc.com/news/chihiro-sawada-anastasia-nikolakakos-to-clash-for-vacant-womens-atomweight-mma-world-title-at-one-samurai-6/"
