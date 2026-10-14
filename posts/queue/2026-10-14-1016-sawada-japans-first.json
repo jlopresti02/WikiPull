@@ -1,0 +1,61 @@
+{
+  "story_id": "sawada-vs-nikolakakos-one-samurai-6-atomweight-title",
+  "headline": "Japan's First?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Chihiro Sawada",
+      "file": "drive-chihiro-sawada"
+    },
+    {
+      "type": "fighter",
+      "name": "Anastasia Nikolakakos",
+      "file": "drive-anastasia-nikolakakos"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Chihiro Sawada is one win from becoming the first Japanese woman to hold a ONE world title.\nSawada or Nikolakakos? 👇\n\nSawada (12-1) meets unbeaten Anastasia Nikolakakos (7-0) for the vacant ONE women's atomweight MMA title at ONE Samurai 6 on Dec. 2 at Yokohama Buntai. ONE Championship title fight news.\n\nWho takes the belt?",
+  "hashtags": [
+    "MMA",
+    "ONEChampionship",
+    "ONESamurai6",
+    "ChihiroSawada",
+    "AnastasiaNikolakakos"
+  ],
+  "sources": [
+    "ONE Championship"
+  ],
+  "music_pool": "espn",
+  "question": "Sawada or Nikolakakos?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "ONE · ATOMWEIGHT",
+    "kicker": "VACANT TITLE",
+    "hook": "Sawada vs Nikolakakos",
+    "left": [
+      {
+        "name": "Chihiro Sawada",
+        "file": "drive-chihiro-sawada"
+      }
+    ],
+    "right": [
+      {
+        "name": "Anastasia Nikolakakos",
+        "file": "drive-anastasia-nikolakakos"
+      }
+    ],
+    "story": "A Sawada win makes her the first Japanese woman to hold a ONE world title.",
+    "chips": [
+      "SAWADA 12-1 VS 7-0",
+      "DEC 2 · YOKOHAMA"
+    ],
+    "question": "Sawada or Nikolakakos?",
+    "options": [
+      "Sawada",
+      "Nikolakakos"
+    ]
+  }
+}
