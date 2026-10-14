@@ -420,6 +420,13 @@
       "id": "1h8E5jBdUAT7w820_XvmxIrhaIUIq4E9X",
       "name": "Ketlen Vieira",
       "person": "Ketlen Vieira"
+    },
+    {
+      "id": "1OqM37EM4QJm8wDCG1F8YNg58EGEUM_6u",
+      "name": "Khabib coach",
+      "person": "",
+      "skip": true,
+      "note": "Added Oct 14; name doesn't say who (Javier Mendez? Abdulmanap Nurmagomedov?). Rename in Drive to the person's name to use it."
     }
   ]
 }
