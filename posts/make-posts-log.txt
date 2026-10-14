@@ -1,7 +1,11 @@
-[0;93m2026-10-14 17:32:05.478457283 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-14 22:10:45.434401207 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/khabib-nurmagomedov/cutouts/drive-khabib-as-coach.png
-Done: 1 new cutout(s).
-Drive: saved images/khabib-nurmagomedov/drive-khabib-as-coach.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/khabib-nurmagomedov
+  cutout images/daniel-cormier/cutouts/drive-daniel-cormier-double-champ.png
+  cutout images/daniel-cormier/cutouts/drive-daniel-cormier-eating.png
+  cutout images/daniel-cormier/cutouts/drive-daniel-cormier.png
+Done: 3 new cutout(s).
+Drive: saved images/daniel-cormier/drive-daniel-cormier-double-champ.jpg
+Drive: saved images/daniel-cormier/drive-daniel-cormier.webp
+Drive: saved images/daniel-cormier/drive-daniel-cormier-eating.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/daniel-cormier
 Queue is empty.
