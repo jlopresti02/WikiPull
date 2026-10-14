@@ -1,19 +1,54 @@
-Searching Wikimedia Commons for: Magomed Ankalaev
-  saved images/magomed-ankalaev/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.jpg  [CC BY 3.0]
-  saved images/magomed-ankalaev/02-magomed-ankalaev-at-ufc-fight-night-136.png  [CC BY 3.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-14 02:18:53.172888781 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-14 13:10:02.269312056 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png
-  cutout images/magomed-ankalaev/cutouts/02-magomed-ankalaev-at-ufc-fight-night-136.png
+  cutout images/ariel-helwani/cutouts/drive-ariel-helwani-2.png
+  cutout images/ariel-helwani/cutouts/drive-ariel-helwani.png
 Done: 2 new cutout(s).
-
-== 2026-10-13-2221-costa-fighting-somewhere.json
-Image: {'type': 'fighter', 'name': 'Paulo Costa', 'file': 'drive-paulo-costa'} -> fighter images/paulo-costa/cutouts/drive-paulo-costa.png  headline: Nothing From UFC
-v2 left: images/paulo-costa/cutouts/drive-paulo-costa.png
-$ fetch.py Magomed Ankalaev --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/magomed-ankalaev
-v2 right: images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-13-2221-costa-fighting-somewhere/post.png (fighter)
-Rendered posts/2026-10-13-2221-costa-fighting-somewhere/reel.mp4 (format v2)
+[0;93m2026-10-14 13:11:35.832943241 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/charles-oliveira/cutouts/drive-charles-oliveira-bmf.png
+  cutout images/charles-oliveira/cutouts/drive-charles-oliveira-champ.png
+  cutout images/charles-oliveira/cutouts/drive-charles-oliveira.png
+Done: 3 new cutout(s).
+[0;93m2026-10-14 13:12:47.044599875 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/diego-lopes/cutouts/drive-diego-lopes.png
+Done: 1 new cutout(s).
+[0;93m2026-10-14 13:13:15.073740006 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/joaquin-buckley/cutouts/drive-joaquin-buckley.png
+Done: 1 new cutout(s).
+[0;93m2026-10-14 13:13:42.021853800 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/josh-hokit/cutouts/drive-josh-hokit-1.png
+  cutout images/josh-hokit/cutouts/drive-josh-hokit-3.png
+Done: 2 new cutout(s).
+[0;93m2026-10-14 13:14:29.829359344 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/mike-malott/cutouts/drive-mike-malott.png
+Done: 1 new cutout(s).
+[0;93m2026-10-14 13:14:56.734805544 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/valter-walker/cutouts/drive-valter-walker-2.png
+  cutout images/valter-walker/cutouts/drive-valter-walker-3.png
+  cutout images/valter-walker/cutouts/drive-valter-walker.png
+Done: 3 new cutout(s).
+Drive: saved images/ariel-helwani/drive-ariel-helwani.jpg
+Drive: saved images/ariel-helwani/drive-ariel-helwani-2.webp
+Drive: saved images/valter-walker/drive-valter-walker.webp
+Drive: saved images/valter-walker/drive-valter-walker-2.jpg
+Drive: saved images/valter-walker/drive-valter-walker-3.jpg
+Drive: saved images/diego-lopes/drive-diego-lopes.jpg
+Drive: saved images/joaquin-buckley/drive-joaquin-buckley.jpg
+Drive: saved images/mike-malott/drive-mike-malott.jpg
+Drive: saved images/charles-oliveira/drive-charles-oliveira-champ.jpg
+Drive: saved images/charles-oliveira/drive-charles-oliveira.jpg
+Drive: saved images/charles-oliveira/drive-charles-oliveira-bmf.jpg
+Drive: saved images/josh-hokit/drive-josh-hokit-3.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ariel-helwani
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/charles-oliveira
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/diego-lopes
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/joaquin-buckley
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/josh-hokit
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/mike-malott
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/valter-walker
+Queue is empty.
