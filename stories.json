@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "jean-silva-doubts-makhachev-five-rounds-prates",
+      "title": "Jean Silva doubts Islam Makhachev can survive 5 rounds with teammate Carlos Prates",
+      "people": [
+        "Jean Silva",
+        "Islam Makhachev",
+        "Carlos Prates"
+      ],
+      "event": "UFC 336 (reported target, Jan 30, Toronto)",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Silva to MMA Fighting: 'the moment he lands his hand, the fight is over'; doubts Makhachev goes five rounds without taking a big shot",
+        "Not posted: skipped for the Oct 14 daily cap (10 used) at the 6 PM run; ties to makhachev-vs-prates-ufc-336-toronto-report"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Jean-Silva-doubts-Islam-Makhachev-can-survive-5-rounds-with-Carlos-Prates-203205",
+        "https://www.lowkickmma.com/jean-silva-sees-carlos-prates-knocking-out-islam-makhachev/"
+      ],
+      "posts": []
+    },
+    {
       "id": "ketlen-vieira-suspended-after-cyborg-fight",
       "title": "Ketlen Vieira suspended six months after failed drug test following PFL loss to Cris Cyborg",
       "people": [
@@ -286,7 +306,9 @@
           "post": "2026-10-14-1833-volkanovski-dana-pays",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T21:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6431873340980968407"
         }
       ]
     },
@@ -321,7 +343,9 @@
           "post": "2026-10-14-1830-dana-pereira-paranoid",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2232026887018557741"
         }
       ]
     },
@@ -350,7 +374,9 @@
           "post": "2026-10-14-1831-oliveira-gaethje-retire",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T20:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3873317694436654687"
         }
       ]
     },
@@ -378,7 +404,9 @@
           "post": "2026-10-14-1832-buckley-pretty-face",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T21:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4431700901961220956"
         }
       ]
     },
