@@ -62,7 +62,10 @@
           "post": "2026-10-14-0931-dana-strickland-not-true",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T10:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8586066576022421421",
+          "image": "v2: Dana White (Wikimedia 02, London 2015) vs Strickland (drive-sean-strickland, with belt)"
         }
       ]
     },
@@ -97,7 +100,10 @@
         {
           "post": "2026-10-14-0930-dwcs-s10-finale",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-10-14T12:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3544131722223568278",
+          "image": "carousel: Dana White on cover and hook (no Sundell photo); result slides text-only; wrong Wikimedia Gregory Foster removed (.nophoto)"
         }
       ]
     },
@@ -122,7 +128,10 @@
           "post": "2026-10-14-0932-masvidal-dean-times-up",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T11:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7892867983568909833",
+          "image": "v2: Masvidal (drive-jorge-masvidal-looks-at-camera) vs Herb Dean (Wikimedia 01)"
         }
       ]
     },
@@ -147,7 +156,10 @@
           "post": "2026-10-14-0933-barnett-mvp-bold-lie",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T11:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8644155296863765159",
+          "image": "v2: Josh Barnett (Wikimedia 2010) vs Michael Page (Wikimedia 01)"
         }
       ]
     },
@@ -176,7 +188,10 @@
           "post": "2026-10-14-0934-dana-fury-joshua-blocked",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-14T12:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6660446158795356715",
+          "image": "v2: Dana White (Wikimedia 01, June 2025) vs Tyson Fury (Wikimedia 01)"
         }
       ]
     },
