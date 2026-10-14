@@ -18,18 +18,6 @@ Searching Wikimedia Commons for: Douglas Da Lapa
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Gregory Foster
-  saved images/gregory-foster/01-professor-gregory-foster-by-william-orpen.jpg  [Public domain]
-Done: 1 image(s) saved.
-[0;93m2026-10-14 13:37:50.647362245 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/gregory-foster/cutouts/01-professor-gregory-foster-by-william-orpen.png
-Done: 1 new cutout(s).
-Searching Wikimedia Commons for: Jason Asher
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
 
 == 2026-10-14-0930-dwcs-s10-finale.json
 Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-01.jpg (cover)
@@ -44,10 +32,11 @@ $ fetch.py Douglas da Lapa --count 5
 $ fetch.py Douglas Da Lapa --count 5
   no photo for ['Douglas da Lapa', 'Douglas Da Lapa']: using the silhouette
 Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-05.jpg (result)
-$ fetch.py Gregory Foster --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gregory-foster
-$ fetch.py Jason Asher --count 5
-  no photo for ['Jason Asher']: using the silhouette
+  no photo for ['Gregory Foster']: using the silhouette
 Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-06.jpg (result)
 Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-07.jpg (list)
 Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-08.jpg (cta)
+
+== 2026-10-14-0934-dana-fury-joshua-blocked.json
+!! 2026-10-14-0934-dana-fury-joshua-blocked.json not rendered: Expecting value: line 1 column 1 (char 0)
+1 post(s) failed; they stay in posts/queue/.

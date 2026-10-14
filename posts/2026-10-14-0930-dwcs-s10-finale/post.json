@@ -24,7 +24,7 @@
     },
     {
       "type": "result",
-      "label": "Women's bantamweight · UFC contract ✓",
+      "label": "Women's bantamweight · UFC contract",
       "winner": [
         "Smilla Sundell"
       ],
@@ -36,7 +36,7 @@
     },
     {
       "type": "result",
-      "label": "Welterweight · UFC contract ✓",
+      "label": "Welterweight · UFC contract",
       "winner": [
         "Luis Francischinelli"
       ],
@@ -46,7 +46,7 @@
     },
     {
       "type": "result",
-      "label": "Middleweight · UFC contract ✓",
+      "label": "Middleweight · UFC contract",
       "winner": [
         "Douglas da Lapa",
         "Douglas Da Lapa"
@@ -57,7 +57,7 @@
     },
     {
       "type": "result",
-      "label": "Lightweight · UFC contract ✓",
+      "label": "Lightweight · UFC contract",
       "winner": [
         "Gregory Foster"
       ],
@@ -122,7 +122,6 @@
   "question": "Right call or not?",
   "slide_count": 8,
   "photo_credits": [
-    "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0",
-    "William Orpen / Public domain"
+    "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
   ]
 }
