@@ -1,0 +1,59 @@
+{
+  "story_id": "oliveira-tells-gaethje-decide-retirement",
+  "headline": "Retire?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Charles Oliveira",
+      "file": "drive-charles-oliveira-bmf"
+    },
+    {
+      "type": "fighter",
+      "name": "Justin Gaethje"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Charles Oliveira says Justin Gaethje has a retirement decision to make.\nOliveira or Gaethje? 👇\n\nThe BMF champ says Gaethje won't top his White House payday and should decide if he's done. Oliveira faces Diego Lopes at UFC 335 on Dec 12 and says a win makes him the No. 1 lightweight contender.\n\nShould Gaethje hang them up?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "CharlesOliveira",
+    "JustinGaethje"
+  ],
+  "sources": [
+    "Sherdog",
+    "Yahoo Sports"
+  ],
+  "music_pool": "espn",
+  "question": "Oliveira or Gaethje?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · LIGHTWEIGHT",
+    "kicker": "DECIDE NOW",
+    "hook": "Oliveira vs Gaethje",
+    "left": [
+      {
+        "name": "Charles Oliveira",
+        "file": "drive-charles-oliveira-bmf"
+      }
+    ],
+    "right": [
+      {
+        "name": "Justin Gaethje"
+      }
+    ],
+    "story": "Oliveira says Gaethje won't beat his White House purse and must decide if he's retiring.",
+    "chips": [
+      "UFC 335 · DEC 12",
+      "VS DIEGO LOPES"
+    ],
+    "question": "Oliveira or Gaethje?",
+    "options": [
+      "Oliveira",
+      "Gaethje"
+    ]
+  }
+}

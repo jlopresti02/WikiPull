@@ -281,8 +281,14 @@
         "https://sports.yahoo.com/articles/video-alexander-volkanovski-goes-full-160000410.html",
         "https://bloodyelbow.com/2026/10/14/watch-alexander-volkanovskis-latest-skit-mocks-ufc-fighter-pay-ahead-of-ufc-333-return/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-14-1833-volkanovski-dana-pays",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "cormier-denies-pereira-ufc-claim",
@@ -294,7 +300,6 @@
       ],
       "event": "UFC 334 / UFC 335",
       "first_reported": "2026-10-13",
-      "held_for_evening": true,
       "facts": [
         "Cormier: 'I was not told by the UFC to promote this as the fight to happen'; hopes their five-year friendship survives",
         "GOAT dispute: Cormier says he told Pereira beating Gane would put him 'in the discussion', not yet GOAT",
@@ -311,7 +316,14 @@
         "https://nyfights.com/news/dana-white-dismisses-alex-pereira-daniel-cormier-conspiracy/",
         "https://bloodyelbow.com/2026/10/14/dana-white-reacts-to-alex-pereiras-paranoid-theory-about-daniel-cormier-and-the-ufc-334-main-event/"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-14-1830-dana-pereira-paranoid",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "oliveira-tells-gaethje-decide-retirement",
@@ -323,7 +335,6 @@
       ],
       "event": "UFC 335 (Dec 12)",
       "first_reported": "2026-10-14",
-      "held_for_evening": true,
       "facts": [
         "Oliveira (BMF champ) headlines vs Diego Lopes at UFC 335, Dec 12",
         "Says Gaethje 'is not going to make more money in his next fight than he made at the White House' and must decide whether he's retiring",
@@ -334,7 +345,14 @@
         "https://sports.yahoo.com/articles/charles-oliveira-justin-gaethje-not-130000398.html",
         "https://www.sherdog.com/news/news/Charles-Oliveira-eyes-UFC-title-shot-wants-answers-from-Justin-Gaethje-203202"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-14-1831-oliveira-gaethje-retire",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "malott-warns-buckley-ufc-edmonton",
@@ -345,7 +363,6 @@
       ],
       "event": "UFC Edmonton, Oct 17",
       "first_reported": "2026-10-13",
-      "held_for_evening": true,
       "facts": [
         "Fight-week trash talk ahead of Saturday's UFC Edmonton (BJPenn); verify quotes before posting",
         "User added Drive photos of both (drive-mike-malott, drive-joaquin-buckley) on Oct 13 night",
@@ -356,7 +373,14 @@
         "https://www.bjpenn.com/",
         "https://sports.yahoo.com/articles/joaquin-buckley-mike-malott-just-202027321.html"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-14-1832-buckley-pretty-face",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "jones-says-hokit-could-beat-gane-ufc-334",

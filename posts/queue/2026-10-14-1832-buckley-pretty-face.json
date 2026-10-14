@@ -1,0 +1,62 @@
+{
+  "story_id": "malott-warns-buckley-ufc-edmonton",
+  "headline": "Pretty Face",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Joaquin Buckley",
+      "file": "drive-joaquin-buckley"
+    },
+    {
+      "type": "fighter",
+      "name": "Mike Malott",
+      "file": "drive-mike-malott"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Joaquin Buckley says Mike Malott is just a pretty face before Saturday's UFC Edmonton main event.\nBuckley or Malott? 👇\n\nMalott warned Buckley ahead of the welterweight fight in his home country. Buckley says he hasn't even studied Malott and promises the fight won't reach the judges.\n\nWho gets the finish?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCEdmonton",
+    "JoaquinBuckley",
+    "MikeMalott"
+  ],
+  "sources": [
+    "Yahoo Sports",
+    "MMA Junkie",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Buckley or Malott?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC EDMONTON · OCT 17",
+    "kicker": "NO SCOUTING REPORT",
+    "hook": "Buckley vs Malott",
+    "left": [
+      {
+        "name": "Joaquin Buckley",
+        "file": "drive-joaquin-buckley"
+      }
+    ],
+    "right": [
+      {
+        "name": "Mike Malott",
+        "file": "drive-mike-malott"
+      }
+    ],
+    "story": "Buckley says Malott is just a pretty face and the fight won't go to the judges.",
+    "chips": [
+      "MAIN EVENT · SATURDAY",
+      "WELTERWEIGHT"
+    ],
+    "question": "Buckley or Malott?",
+    "options": [
+      "Buckley",
+      "Malott"
+    ]
+  }
+}

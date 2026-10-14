@@ -1,0 +1,61 @@
+{
+  "story_id": "volkanovski-skit-mocks-dana-pay-ufc-333",
+  "headline": "Dana Pays?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alexander Volkanovski",
+      "file": "drive-alexander-volkanovski-cook"
+    },
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Alexander Volkanovski just took a shot at Dana White's pay in a comedy skit 😂\nFunny or too far? 👇\n\nIn the bit, his agent character jokes that a flop movie still made more than what Dana pays. Volk headlines UFC 333 against Movsar Evloev on Oct 24 as the fighter pay debate keeps growing.\n\nIs Volk right?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "AlexanderVolkanovski",
+    "DanaWhite"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "Yahoo Sports"
+  ],
+  "music_pool": "espn",
+  "question": "Funny or too far?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 333 · OCT 24",
+    "kicker": "PAY JOKE",
+    "hook": "Volk vs Dana",
+    "left": [
+      {
+        "name": "Alexander Volkanovski",
+        "file": "drive-alexander-volkanovski-cook"
+      }
+    ],
+    "right": [
+      {
+        "name": "Dana White",
+        "file": "01-dana-white-in-june-2025-cropped"
+      }
+    ],
+    "story": "Volk's skit says a flop movie still made more than what Dana pays.",
+    "chips": [
+      "VS EVLOEV · OCT 24",
+      "FIGHTER PAY DEBATE"
+    ],
+    "question": "Funny or too far?",
+    "options": [
+      "Funny",
+      "Too far"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "story_id": "cormier-denies-pereira-ufc-claim",
+  "headline": "Paranoid",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "02-dana-white-london-2015-cropped"
+    },
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "drive-alex-pereira-3"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "UPDATE: Dana White just called Alex Pereira paranoid over his UFC conspiracy claim.\nDana or Pereira? 👇\n\nPereira said the UFC and Daniel Cormier steered fans toward Gane vs. Hokit. White says he has never told DC what to say, and Cormier also denied it. UFC news.\n\nIs Poatan right to be suspicious?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "AlexPereira",
+    "DanaWhite",
+    "DanielCormier"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "NY Fights",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Dana or Pereira?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "DANA FIRES BACK",
+    "hook": "Dana vs Pereira",
+    "left": [
+      {
+        "name": "Dana White",
+        "file": "02-dana-white-london-2015-cropped"
+      }
+    ],
+    "right": [
+      {
+        "name": "Alex Pereira",
+        "file": "drive-alex-pereira-3"
+      }
+    ],
+    "story": "Dana says fighters are paranoid and he never tells Cormier what to say.",
+    "chips": [
+      "CORMIER DENIES IT TOO",
+      "PEREIRA VS PAVLOVICH DEC 12"
+    ],
+    "question": "Dana or Pereira?",
+    "options": [
+      "Dana",
+      "Pereira"
+    ]
+  }
+}
