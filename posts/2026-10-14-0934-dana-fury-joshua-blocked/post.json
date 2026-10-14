@@ -36,7 +36,7 @@
   "trial_reel": true,
   "format": "v2",
   "v2": {
-    "tag": "ZUFFA BOXING · HEAVYWEIGHT",
+    "tag": "ZUFFA BOXING",
     "kicker": "WHITE HOUSE PLAN",
     "hook": "Fury vs Joshua",
     "left": [
@@ -76,7 +76,7 @@
     "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
     "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
   },
-  "music": "music/action-sport/01-crystals.mp3",
-  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
-  "music_start": 164.0
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
 }
