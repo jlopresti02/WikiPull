@@ -3,58 +3,51 @@ Searching Wikimedia Commons for: Smilla Sundell
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Josh Barnett
-  saved images/josh-barnett/01-josh-barnett-2010.jpg  [CC BY-SA 3.0]
-  saved images/josh-barnett/02-joshbarnett-bbpromo.jpg  [CC BY 2.5]
-  saved images/josh-barnett/03-josh-barnett-in-april-2024.jpg  [CC BY 2.0]
-  saved images/josh-barnett/04-josh-barnett-by-gage-skidmore.jpg  [CC BY-SA 3.0]
-  saved images/josh-barnett/05-josh-barnett-cropped.jpg  [CC BY-SA 3.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-14 13:31:13.415740523 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Luis Francischinelli
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Douglas da Lapa
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Douglas Da Lapa
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Gregory Foster
+  saved images/gregory-foster/01-professor-gregory-foster-by-william-orpen.jpg  [Public domain]
+Done: 1 image(s) saved.
+[0;93m2026-10-14 13:37:50.647362245 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/josh-barnett/cutouts/01-josh-barnett-2010.png
-  cutout images/josh-barnett/cutouts/02-joshbarnett-bbpromo.png
-  cutout images/josh-barnett/cutouts/03-josh-barnett-in-april-2024.png
-  cutout images/josh-barnett/cutouts/04-josh-barnett-by-gage-skidmore.png
-  cutout images/josh-barnett/cutouts/05-josh-barnett-cropped.png
-Done: 5 new cutout(s).
+  cutout images/gregory-foster/cutouts/01-professor-gregory-foster-by-william-orpen.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Jason Asher
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
 == 2026-10-14-0930-dwcs-s10-finale.json
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-01.jpg (cover)
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-02.jpg (hook)
 $ fetch.py Smilla Sundell --count 5
   no photo for ['Smilla Sundell']: using the silhouette
-!! 2026-10-14-0930-dwcs-s10-finale.json not rendered: no photo for the cover slide (['Smilla Sundell']): pick a fighter who has one
-
-== 2026-10-14-0931-dana-strickland-not-true.json
-Image: {'type': 'fighter', 'name': 'Dana White', 'file': '02-dana-white-london-2015-cropped'} -> fighter images/dana-white/cutouts/02-dana-white-london-2015-cropped.png  headline: Not True
-v2 left: images/dana-white/cutouts/02-dana-white-london-2015-cropped.png
-v2 right: images/sean-strickland/cutouts/drive-sean-strickland.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-14-0931-dana-strickland-not-true/post.png (fighter)
-Rendered posts/2026-10-14-0931-dana-strickland-not-true/reel.mp4 (format v2)
-
-== 2026-10-14-0932-masvidal-dean-times-up.json
-Image: {'type': 'fighter', 'name': 'Jorge Masvidal', 'file': 'drive-jorge-masvidal-looks-at-camera'} -> fighter images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png  headline: Time's Up
-v2 left: images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png
-v2 right: images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-14-0932-masvidal-dean-times-up/post.png (fighter)
-Rendered posts/2026-10-14-0932-masvidal-dean-times-up/reel.mp4 (format v2)
-
-== 2026-10-14-0933-barnett-mvp-bold-lie.json
-$ fetch.py Josh Barnett --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/josh-barnett
-Image: {'type': 'fighter', 'name': 'Josh Barnett'} -> fighter images/josh-barnett/cutouts/01-josh-barnett-2010.png  headline: Bold Lie?
-v2 left: images/josh-barnett/cutouts/01-josh-barnett-2010.png
-v2 right: images/michael-page/cutouts/01-michael-page.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-14-0933-barnett-mvp-bold-lie/post.png (fighter)
-Rendered posts/2026-10-14-0933-barnett-mvp-bold-lie/reel.mp4 (format v2)
-
-== 2026-10-14-0934-dana-fury-joshua-blocked.json
-Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Plan Blocked
-v2 left: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-v2 right: images/tyson-fury/cutouts/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-14-0934-dana-fury-joshua-blocked/post.png (fighter)
-Rendered posts/2026-10-14-0934-dana-fury-joshua-blocked/reel.mp4 (format v2)
-1 post(s) failed; they stay in posts/queue/.
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-03.jpg (result)
+$ fetch.py Luis Francischinelli --count 5
+  no photo for ['Luis Francischinelli']: using the silhouette
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-04.jpg (result)
+$ fetch.py Douglas da Lapa --count 5
+$ fetch.py Douglas Da Lapa --count 5
+  no photo for ['Douglas da Lapa', 'Douglas Da Lapa']: using the silhouette
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-05.jpg (result)
+$ fetch.py Gregory Foster --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gregory-foster
+$ fetch.py Jason Asher --count 5
+  no photo for ['Jason Asher']: using the silhouette
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-06.jpg (result)
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-07.jpg (list)
+Rendered posts/2026-10-14-0930-dwcs-s10-finale/slide-08.jpg (cta)
