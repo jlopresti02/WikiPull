@@ -1,65 +1,28 @@
-Searching Wikimedia Commons for: Ariel Helwani
+Searching Wikimedia Commons for: Carlos Ulberg
   No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Valter Walker
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Ketlen Vieira
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Cris Cyborg
-  saved images/cris-cyborg/01-cris-cyborg-sdcc-2023.jpg  [CC BY 4.0]
-  saved images/cris-cyborg/02-cris-cyborg.jpg  [CC BY 2.0]
-  saved images/cris-cyborg/03-cristiane-cyborg-santos-40618979464.jpg  [CC BY 2.0]
-  saved images/cris-cyborg/04-cris-cyborg-cropped-032121.jpg  [CC BY-SA 4.0]
-  saved images/cris-cyborg/05-vergil-ortiz-jr-and-cris-cyborg-031621.jpg  [CC BY-SA 4.0]
-Done: 5 image(s) saved.
-[0;93m2026-10-13 22:16:18.869891749 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+  saved images/carlos-ulberg/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.jpg  [Public domain]
+  saved images/carlos-ulberg/02-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.jpg  [Public domain]
+Done: 2 image(s) saved.
+[0;93m2026-10-14 02:14:16.848232194 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png
-  cutout images/cris-cyborg/cutouts/02-cris-cyborg.png
-  cutout images/cris-cyborg/cutouts/03-cristiane-cyborg-santos-40618979464.png
-  cutout images/cris-cyborg/cutouts/04-cris-cyborg-cropped-032121.png
-  cutout images/cris-cyborg/cutouts/05-vergil-ortiz-jr-and-cris-cyborg-031621.png
-Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Ketlen Vieira
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
+  cutout images/carlos-ulberg/cutouts/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png
+  cutout images/carlos-ulberg/cutouts/02-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png
+Done: 2 new cutout(s).
 
-== 2026-10-13-1830-strickland-helwani.json
-Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: No. 1 Hater
-v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
-$ fetch.py Ariel Helwani --count 5
-v2 right: silhouette
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-13-1830-strickland-helwani/post.png (fighter)
-Rendered posts/2026-10-13-1830-strickland-helwani/reel.mp4 (format v2)
+== 2026-10-13-2220-jones-hokit-could-win.json
+Image: {'type': 'fighter', 'name': 'Jon Jones', 'file': 'drive-jon-jones-champion'} -> fighter images/jon-jones/cutouts/drive-jon-jones-champion.png  headline: Hokit Could Win
+v2 left: images/jon-jones/cutouts/drive-jon-jones-champion.png
+v2 right: images/josh-hokit/cutouts/drive-josh-hokit-1.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-13-2220-jones-hokit-could-win/post.png (fighter)
+Rendered posts/2026-10-13-2220-jones-hokit-could-win/reel.mp4 (format v2)
 
-== 2026-10-13-1831-pereira-dares-walker.json
-Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': 'drive-alex-pereira-3'} -> fighter images/alex-pereira/cutouts/drive-alex-pereira-3.png  headline: Catch My Foot
-v2 left: images/alex-pereira/cutouts/drive-alex-pereira-3.png
-$ fetch.py Valter Walker --count 5
-v2 right: silhouette
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-13-1831-pereira-dares-walker/post.png (fighter)
-Rendered posts/2026-10-13-1831-pereira-dares-walker/reel.mp4 (format v2)
-
-== 2026-10-13-1832-vieira-suspended.json
-$ fetch.py Ketlen Vieira --count 5
-$ fetch.py Cris Cyborg --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/cris-cyborg
-Image: {'type': 'fighter', 'name': 'Cris Cyborg'} -> fighter images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png  headline: Suspended
-$ fetch.py Ketlen Vieira --count 5
-v2 left: silhouette
-v2 right: images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-13-1832-vieira-suspended/post.png (fighter)
-Rendered posts/2026-10-13-1832-vieira-suspended/reel.mp4 (format v2)
+== 2026-10-13-2221-costa-fighting-somewhere.json
+Image: {'type': 'fighter', 'name': 'Paulo Costa', 'file': 'drive-paulo-costa'} -> fighter images/paulo-costa/cutouts/drive-paulo-costa.png  headline: Nothing From UFC
+v2 left: images/paulo-costa/cutouts/drive-paulo-costa.png
+$ fetch.py Carlos Ulberg --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/carlos-ulberg
+v2 right: images/carlos-ulberg/cutouts/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-13-2221-costa-fighting-somewhere/post.png (fighter)
+Rendered posts/2026-10-13-2221-costa-fighting-somewhere/reel.mp4 (format v2)

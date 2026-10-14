@@ -1,0 +1,79 @@
+{
+  "story_id": "jones-says-hokit-could-beat-gane-ufc-334",
+  "headline": "Hokit Could Win",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Jon Jones",
+      "file": "drive-jon-jones-champion"
+    },
+    {
+      "type": "fighter",
+      "name": "Josh Hokit",
+      "file": "drive-josh-hokit-1"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Jon Jones thinks Josh Hokit could take Ciryl Gane's heavyweight title, but he's not rooting for it 👀\nHokit or Gane? 👇\n\nJones told The Schmo that Hokit looks great, yet a Gane win makes his own 2023 submission of Gane look better. UFC 334 is Nov. 14 at Madison Square Garden. UFC news.\n\nWho leaves with the belt?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "JonJones",
+    "JoshHokit"
+  ],
+  "sources": [
+    "Sherdog",
+    "The Schmo"
+  ],
+  "music_pool": "espn",
+  "question": "Hokit or Gane?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 334 · HEAVYWEIGHT",
+    "kicker": "JONES HAS A CATCH",
+    "hook": "Jones on Hokit",
+    "left": [
+      {
+        "name": "Jon Jones",
+        "file": "drive-jon-jones-champion"
+      }
+    ],
+    "right": [
+      {
+        "name": "Josh Hokit",
+        "file": "drive-josh-hokit-1"
+      }
+    ],
+    "story": "Jones says Hokit could beat Gane, but a Gane win helps Jones' own legacy.",
+    "chips": [
+      "GANE 14-2 VS HOKIT 10-0",
+      "NOV 14 · MSG"
+    ],
+    "question": "Hokit or Gane?",
+    "options": [
+      "Hokit",
+      "Gane"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/jon-jones/cutouts/drive-jon-jones-champion.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/josh-hokit/cutouts/drive-josh-hokit-1.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/jon-jones/cutouts/drive-jon-jones-champion.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
+}
