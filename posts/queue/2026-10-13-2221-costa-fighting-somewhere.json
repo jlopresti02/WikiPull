@@ -1,0 +1,59 @@
+{
+  "story_id": "costa-will-fight-somewhere-end-of-year",
+  "headline": "Nothing From UFC",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Paulo Costa",
+      "file": "drive-paulo-costa"
+    },
+    {
+      "type": "fighter",
+      "name": "Magomed Ankalaev"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Paulo Costa says he's heard nothing from the UFC, and he's fighting before the year ends anyway 😤\nUFC or elsewhere? 👇\n\nCosta posted on X that he'll be on an event at the end of the year, still in a standoff over the last fight on his UFC contract and five-round pay. He wanted an interim light heavyweight title shot. MMA news.\n\nWhere does he end up?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "PauloCosta",
+    "UFCNews",
+    "LightHeavyweight"
+  ],
+  "sources": [
+    "Sherdog",
+    "Paulo Costa on X"
+  ],
+  "music_pool": "espn",
+  "question": "UFC or elsewhere?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · 205",
+    "kicker": "UFC STANDOFF",
+    "hook": "Costa's Ultimatum",
+    "left": [
+      {
+        "name": "Paulo Costa",
+        "file": "drive-paulo-costa"
+      }
+    ],
+    "right": [
+      {
+        "name": "Magomed Ankalaev"
+      }
+    ],
+    "story": "Costa says the UFC hasn't called, and he'll fight somewhere by year's end.",
+    "chips": [
+      "1 FIGHT LEFT ON DEAL",
+      "WANTED INTERIM TITLE"
+    ],
+    "question": "UFC or elsewhere?",
+    "options": [
+      "UFC",
+      "Elsewhere"
+    ]
+  }
+}
