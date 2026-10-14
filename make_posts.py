@@ -65,6 +65,10 @@ def try_visual(v):
     t = v.get("type")
     if t == "fighter":
         folder = ROOT / "images" / slugify(v["name"])
+        # images/<slug>/.nophoto marks a name whose Wikimedia match is the
+        # wrong person: skip it (text-only slide / next visual) instead of re-fetching.
+        if (folder / ".nophoto").exists():
+            return None
         if not first_image(folder):
             run("fetch.py", v["name"], "--count", "5")
         # Cut out any photo that doesn't have a cutout yet (e.g. one just
