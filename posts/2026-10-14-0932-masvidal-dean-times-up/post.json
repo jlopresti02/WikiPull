@@ -58,6 +58,24 @@
     "options": [
       "Agree",
       "Disagree"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/herb-dean/cutouts/01-herb-dean-interview-with-mmanytt.png",
+      "credit": "MMAnytt / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

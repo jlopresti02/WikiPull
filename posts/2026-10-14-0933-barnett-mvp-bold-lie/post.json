@@ -52,6 +52,24 @@
     "options": [
       "Real",
       "Hype"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/josh-barnett/cutouts/01-josh-barnett-2010.png",
+      "credit": "Toglenn / CC BY-SA 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/michael-page/cutouts/01-michael-page.png",
+      "credit": "Amoby / CC0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/josh-barnett/cutouts/01-josh-barnett-2010.png",
+    "credit": "Toglenn / CC BY-SA 3.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
