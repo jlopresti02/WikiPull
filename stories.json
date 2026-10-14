@@ -2,6 +2,72 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ketlen-vieira-suspended-after-cyborg-fight",
+      "title": "Ketlen Vieira suspended six months after failed drug test following PFL loss to Cris Cyborg",
+      "people": [
+        "Ketlen Vieira",
+        "Cris Cyborg"
+      ],
+      "event": "PFL Tampa",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Six-month suspension after positive test from her August PFL Tampa title fight vs Cyborg (lost by decision, missed weight by 7 lb)",
+        "Vieira says she took medication for a long-standing knee injury and stopped it once the fight came up; no intent to break rules",
+        "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing",
+        "Oct 13 6 PM run: rendered 2026-10-13-1832-vieira-suspended but held (no Vieira photo; left side silhouette). Re-queue once a Vieira photo is added.",
+        "Oct 13 10 PM run: still no Vieira photo in Drive; still held",
+        "Oct 14 9 AM run: still no photo in Drive; still held",
+        "Oct 14: user added a Vieira photo to Drive; re-queued and scheduled"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Exclusive-Ketlen-Vieira-suspended-6-months-after-positive-test-following-Cyborg-fight-203196",
+        "https://sports.yahoo.com/articles/ketlen-vieira-releases-statement-6-143000290.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-14-1015-vieira-suspended",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-14T13:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2032108067553625433",
+          "image": "v2: Vieira (drive-ketlen-vieira) vs Cris Cyborg (Wikimedia 01)"
+        }
+      ]
+    },
+    {
+      "id": "sawada-vs-nikolakakos-one-samurai-6-atomweight-title",
+      "title": "Chihiro Sawada vs Anastasia Nikolakakos for vacant ONE women's atomweight MMA title (ONE Samurai 6, Dec 2)",
+      "people": [
+        "Chihiro Sawada",
+        "Anastasia Nikolakakos"
+      ],
+      "event": "ONE Samurai 6, Yokohama Buntai, Dec 2",
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Vacant ONE women's atomweight MMA world title; Sawada 12-1, Nikolakakos 7-0",
+        "A Sawada win would make her the first Japanese woman to hold a ONE world title",
+        "Held at 9 AM run: no photos in image bank yet (user asked to add)",
+        "Oct 13 10 PM run: still no Sawada/Nikolakakos photos; still held",
+        "Oct 14 9 AM run: still no photo in Drive; still held",
+        "Oct 14: user added Sawada and Nikolakakos photos to Drive; scheduled"
+      ],
+      "sources": [
+        "https://www.onefc.com/news/chihiro-sawada-anastasia-nikolakakos-to-clash-for-vacant-womens-atomweight-mma-world-title-at-one-samurai-6/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-14-1016-sawada-japans-first",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-14T13:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=441824808095336800",
+          "image": "v2: Sawada (drive) vs Nikolakakos (drive)"
+        }
+      ]
+    },
+    {
       "id": "strickland-ponders-vacating-title-pay",
       "title": "Sean Strickland ponders vacating UFC middleweight title / not re-signing over pay",
       "people": [
@@ -381,31 +447,6 @@
       ]
     },
     {
-      "id": "ketlen-vieira-suspended-after-cyborg-fight",
-      "title": "Ketlen Vieira suspended six months after failed drug test following PFL loss to Cris Cyborg",
-      "people": [
-        "Ketlen Vieira",
-        "Cris Cyborg"
-      ],
-      "event": "PFL Tampa",
-      "first_reported": "2026-10-13",
-      "facts": [
-        "Six-month suspension after positive test from her August PFL Tampa title fight vs Cyborg (lost by decision, missed weight by 7 lb)",
-        "Vieira says she took medication for a long-standing knee injury and stopped it once the fight came up; no intent to break rules",
-        "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing",
-        "Oct 13 6 PM run: rendered 2026-10-13-1832-vieira-suspended but held (no Vieira photo; left side silhouette). Re-queue once a Vieira photo is added.",
-        "Oct 13 10 PM run: still no Vieira photo in Drive; still held",
-        "Oct 14 9 AM run: still no photo in Drive; still held"
-      ],
-      "sources": [
-        "https://www.sherdog.com/news/news/Exclusive-Ketlen-Vieira-suspended-6-months-after-positive-test-following-Cyborg-fight-203196",
-        "https://sports.yahoo.com/articles/ketlen-vieira-releases-statement-6-143000290.html"
-      ],
-      "posts": [],
-      "held_for_evening": true,
-      "held_for_photo": true
-    },
-    {
       "id": "pereira-dares-valter-walker-spar-purse",
       "title": "Alex Pereira dares Valter Walker to spar, offers his last purse if Walker catches his foot",
       "people": [
@@ -595,29 +636,6 @@
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2445119473750001562"
         }
       ]
-    },
-    {
-      "id": "sawada-vs-nikolakakos-one-samurai-6-atomweight-title",
-      "title": "Chihiro Sawada vs Anastasia Nikolakakos for vacant ONE women's atomweight MMA title (ONE Samurai 6, Dec 2)",
-      "people": [
-        "Chihiro Sawada",
-        "Anastasia Nikolakakos"
-      ],
-      "event": "ONE Samurai 6, Yokohama Buntai, Dec 2",
-      "first_reported": "2026-10-13",
-      "facts": [
-        "Vacant ONE women's atomweight MMA world title; Sawada 12-1, Nikolakakos 7-0",
-        "A Sawada win would make her the first Japanese woman to hold a ONE world title",
-        "Held at 9 AM run: no photos in image bank yet (user asked to add)",
-        "Oct 13 10 PM run: still no Sawada/Nikolakakos photos; still held",
-        "Oct 14 9 AM run: still no photo in Drive; still held"
-      ],
-      "sources": [
-        "https://www.onefc.com/news/chihiro-sawada-anastasia-nikolakakos-to-clash-for-vacant-womens-atomweight-mma-world-title-at-one-samurai-6/"
-      ],
-      "held_for_evening": true,
-      "posts": [],
-      "held_for_photo": true
     },
     {
       "id": "salkilld-eyes-ufc-sydney-feb-2027",
