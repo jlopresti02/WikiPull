@@ -1,0 +1,57 @@
+{
+  "story_id": "barnett-doubts-page-misfits-pay",
+  "headline": "Bold Lie?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Josh Barnett"
+    },
+    {
+      "type": "fighter",
+      "name": "Michael Page"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Josh Barnett isn't buying Michael 'Venom' Page's Misfits payday.\nReal or hype? 👇\n\nBarnett questioned Page's claim that his three-fight Misfits Boxing deal pays seven figures a fight, more than his whole UFC run, and warned the promotion could run dry like past MMA leagues. MMA news.\n\nWould you take the deal?",
+  "hashtags": [
+    "MMANews",
+    "MisfitsBoxing",
+    "MichaelPage",
+    "JoshBarnett",
+    "MVP"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Real or hype?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "MISFITS · BOXING",
+    "kicker": "PAY CLAIM DOUBTED",
+    "hook": "Barnett vs MVP",
+    "left": [
+      {
+        "name": "Josh Barnett"
+      }
+    ],
+    "right": [
+      {
+        "name": "Michael Page"
+      }
+    ],
+    "story": "Barnett doubts Page's seven-figure Misfits claim and warns the promotion could run out of money.",
+    "chips": [
+      "3-FIGHT MISFITS DEAL",
+      "SEVEN FIGURES A FIGHT?"
+    ],
+    "question": "Real or hype?",
+    "options": [
+      "Real",
+      "Hype"
+    ]
+  }
+}

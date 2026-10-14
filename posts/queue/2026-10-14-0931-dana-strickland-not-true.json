@@ -1,0 +1,61 @@
+{
+  "story_id": "strickland-ponders-vacating-title-pay",
+  "headline": "Not True",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "02-dana-white-london-2015-cropped"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "UPDATE: Dana White just fired back at Sean Strickland over UFC pay.\nDana or Strickland? 👇\n\nAfter the Contender Series finale, White said the UFC middleweight champion signed a new contract in May and the purse number Strickland posted isn't accurate. White added he hasn't spoken to Strickland directly. UFC news.\n\nDoes Strickland fight Imavov next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCMiddleweight",
+    "SeanStrickland",
+    "DanaWhite"
+  ],
+  "sources": [
+    "Sherdog",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Dana or Strickland?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "DANA FIRES BACK",
+    "hook": "Dana vs Strickland",
+    "left": [
+      {
+        "name": "Dana White",
+        "file": "02-dana-white-london-2015-cropped"
+      }
+    ],
+    "right": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    ],
+    "story": "Dana says Strickland signed a new deal in May and the pay figure he shared isn't real.",
+    "chips": [
+      "NEW CONTRACT IN MAY",
+      "IMAVOV REMATCH NEXT?"
+    ],
+    "question": "Dana or Strickland?",
+    "options": [
+      "Dana",
+      "Strickland"
+    ]
+  }
+}

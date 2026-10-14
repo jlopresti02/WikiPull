@@ -1,0 +1,63 @@
+{
+  "story_id": "masvidal-says-herb-dean-time-is-done",
+  "headline": "Time's Up",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Jorge Masvidal",
+      "file": "drive-jorge-masvidal-looks-at-camera"
+    },
+    {
+      "type": "fighter",
+      "name": "Herb Dean"
+    },
+    {
+      "type": "fighter",
+      "name": "Marc Goddard"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Jorge Masvidal says referee Herb Dean's time in the cage is over.\nAgree or not? 👇\n\nOn the Deep Waters podcast, Masvidal said Dean now looks nervous when he works UFC fights, after criticism of his Bobby Green vs. Esteban Ribovics stoppage at UFC 332. UFC news and MMA referee debate.\n\nShould Dean step back?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "HerbDean",
+    "JorgeMasvidal",
+    "UFC332"
+  ],
+  "sources": [
+    "MMA News",
+    "MMA Mania"
+  ],
+  "music_pool": "espn",
+  "question": "Agree or not?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · OFFICIATING",
+    "kicker": "REF UNDER FIRE",
+    "hook": "Masvidal vs Dean",
+    "left": [
+      {
+        "name": "Jorge Masvidal",
+        "file": "drive-jorge-masvidal-looks-at-camera"
+      }
+    ],
+    "right": [
+      {
+        "name": "Herb Dean"
+      }
+    ],
+    "story": "Masvidal says Herb Dean looks nervous in the cage and his time as a top ref is done.",
+    "chips": [
+      "GREEN-RIBOVICS STOPPAGE",
+      "DEEP WATERS PODCAST"
+    ],
+    "question": "Agree or not?",
+    "options": [
+      "Agree",
+      "Disagree"
+    ]
+  }
+}

@@ -2,6 +2,251 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "strickland-ponders-vacating-title-pay",
+      "title": "Sean Strickland ponders vacating UFC middleweight title / not re-signing over pay",
+      "people": [
+        "Sean Strickland",
+        "Jake Paul",
+        "Conor McGregor"
+      ],
+      "event": "",
+      "first_reported": "2026-10-07",
+      "facts": [
+        "Posted on X he may vacate, move to 205 to get out of contract early and box Jake Paul",
+        "'McGregor makes 30 million to fight for 30 second and they dont want to pay us a fraction of it'; 'kinda over it'",
+        "Nothing decided; depends on UFC changing his pay. Expected to face Imavov next (Jan 2027 at earliest)",
+        "Related: chimaev-offers-strickland-1m-rematch",
+        "UPDATE 2026-10-08: Jake Paul responded to Strickland's threat to vacate and box him, asking 'Are you out of contract?' (Sportskeeda, Bloody Elbow, Yahoo/Athlon)",
+        "UPDATE 2026-10-09/10: MMA Junkie's Mike Bohn reported Strickland signed a six-fight UFC deal before UFC 328, earning over $1M per fight ($400K/$400K rumors false); Strickland replied on X: 'Sign this or we wont do this lol they act like you have any power in this sport'",
+        "UPDATE 2026-10-14: Dana White's first response (DWCS Week 10 presser, Oct 13): Strickland 'just signed a new contract in May' and 'the number that he claimed he made is not true'; hasn't spoken to him; 'when isn't Sean Strickland upset about something?'"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/sean-strickland-ponders-vacating-ufc-220703822.html",
+        "https://bloodyelbow.com/2026/10/07/sean-strickland-debating-not-re-signing-with-ufc-over-pay-dispute-im-kinda-over-it/",
+        "https://bloodyelbow.com/2026/10/08/jake-paul-sends-message-to-sean-strickland-amid-ufc-pay-dispute-and-plan-to-vacate-his-title/",
+        "https://www.sportskeeda.com/mma/news-are-contract-jake-paul-responds-sean-strickland-s-threats-leaving-ufc-fighting-the-problem-child",
+        "https://sports.yahoo.com/articles/jake-paul-responds-sean-strickland-005602347.html",
+        "https://www.mmanews.com/article/sean-strickland-reported-six-fight-ufc-deal-exit-threat",
+        "https://www.lowkickmma.com/sean-strickland-says-ufc-forced-him-into-new-deal-before-ufc-328-title-fight/",
+        "https://bloodyelbow.com/2026/10/10/sean-strickland-claims-he-was-strong-armed-into-new-ufc-deal-amid-fresh-contract-talks/",
+        "https://www.sherdog.com/news/news/Dana-White-fires-back-at-Sean-Strickland-over-UFC-pay-cites-new-deal-203206",
+        "https://bloodyelbow.com/2026/10/14/dana-white-addresses-sean-stricklands-ufc-pay-dispute-for-the-first-time/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-07-1831-strickland-vacate",
+          "kind": "new",
+          "format": "reel",
+          "image": "Strickland (drive, with belt)",
+          "scheduled_for": "2026-10-07T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4415320362528687834"
+        },
+        {
+          "post": "2026-10-08-1320-paul-out-of-contract",
+          "kind": "update",
+          "format": "trial_reel",
+          "scheduled_for": "2026-10-08T13:30:00-04:00",
+          "image": "fighter photo (Sean Strickland, Drive, with belt)",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2414605265603706006"
+        },
+        {
+          "post": "2026-10-10-1331-strickland-sign-this",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-10T13:35:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4159128010356797586",
+          "image": "Strickland Drive photo with belt (left), Imavov (right)"
+        },
+        {
+          "post": "2026-10-14-0931-dana-strickland-not-true",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "dwcs-s10-week-10",
+      "title": "DWCS Season 10 finale (Week 10): 4 contracts; Dana White outvoted on Smilla Sundell",
+      "people": [
+        "Smilla Sundell",
+        "Aline Pereira",
+        "Luis Francischinelli",
+        "Douglas da Lapa",
+        "Gregory Foster",
+        "Dana White"
+      ],
+      "event": "Dana White's Contender Series S10 Week 10 (Oct 13, UFC Apex)",
+      "first_reported": "2026-10-14",
+      "facts": [
+        "Sundell def. Aline Pereira (Alex Pereira's sister) UD 29-28 x3, WBW, contract; Dana said he was outvoted (wanted her to get more experience), Mick Maynard overruled",
+        "Francischinelli def. Will Rentz TKO R1 2:18 (WW, contract)",
+        "Douglas da Lapa def. Davi Cabral TKO R3 0:19 (MW, contract)",
+        "Gregory Foster def. Jason Asher UD (LW, contract)",
+        "Erick Visconde def. Ilias Bulaid UD (FW, no contract)",
+        "Season 10: 46 contracts (ties 2025 record)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dana-White-gets-outvoted-as-4-fighters-earn-UFC-deals-at-DWCS-finale-203203",
+        "https://www.mmanews.com/article/contender-series-season-10-episode-10-highlights",
+        "https://sports.yahoo.com/articles/dwcs-season-10-week-10-020159642.html",
+        "https://www.lowkickmma.com/smilla-sundell-dominates-aline-pereira-to-earn-ufc-contract-in-dwcs-season-10-finale/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-14-0930-dwcs-s10-finale",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
+    },
+    {
+      "id": "masvidal-says-herb-dean-time-is-done",
+      "title": "Jorge Masvidal says Herb Dean's 'time is done' as a referee",
+      "people": [
+        "Jorge Masvidal",
+        "Herb Dean"
+      ],
+      "event": null,
+      "first_reported": "2026-10-13",
+      "facts": [
+        "Said on the Deep Waters podcast; points to Dean looking nervous in the cage",
+        "Context: Dean's Bobby Green vs Esteban Ribovics stoppage at UFC 332 and a missed illegal knee on DWCS Sept 29"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/jorge-masvidal-herb-dean-time-is-done"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-14-0932-masvidal-dean-times-up",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "barnett-doubts-page-misfits-pay",
+      "title": "Josh Barnett questions Michael Page's seven-figure Misfits pay claim, warns Misfits could collapse",
+      "people": [
+        "Josh Barnett",
+        "Michael Page"
+      ],
+      "event": null,
+      "first_reported": "2026-10-14",
+      "facts": [
+        "Barnett on X (Oct 13): Page is either telling a bold lie for publicity or Misfits is overpaying; warns it could go the way of EliteXC, Affliction, IFL, WSOF",
+        "Related: michael-page-signs-misfits-boxing"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Josh-Barnett-warns-Misfits-could-collapse-after-Michael-Page-pay-claim-203208"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-14-0933-barnett-mvp-bold-lie",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "dana-wanted-fury-joshua-white-house-announcement",
+      "title": "Dana White wanted to announce Fury vs Joshua at UFC Freedom 250 (White House), blocked behind the scenes",
+      "people": [
+        "Dana White",
+        "Tyson Fury",
+        "Anthony Joshua"
+      ],
+      "event": "Fury vs Joshua, Dec 11, Principality Stadium, Cardiff",
+      "first_reported": "2026-10-13",
+      "sport": "boxing",
+      "facts": [
+        "White told Pat McAfee he wanted to announce it at the White House card; 'a lot of f*ckery' got in the way",
+        "Set for Dec 11 at Principality Stadium, Cardiff; Zuffa promoting and producing; White says basically sold out",
+        "Joshua/Hearn wanted UK; White wanted MSG",
+        "Related: dana-white-hearn-fury-joshua-feud"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/dana-white-wanted-announce-tyson-200000123.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-14-0934-dana-fury-joshua-blocked",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "cormier-denies-pereira-ufc-claim",
+      "title": "Daniel Cormier denies UFC told him to push Gane vs Hokit; hopes Pereira friendship survives",
+      "people": [
+        "Daniel Cormier",
+        "Alex Pereira"
+      ],
+      "event": "UFC 334 / UFC 335",
+      "first_reported": "2026-10-13",
+      "held_for_evening": true,
+      "facts": [
+        "Cormier: 'I was not told by the UFC to promote this as the fight to happen'; hopes their five-year friendship survives",
+        "GOAT dispute: Cormier says he told Pereira beating Gane would put him 'in the discussion', not yet GOAT",
+        "Cormier on X: Pereira is right to fight again; Hokit should fight for the belt",
+        "Update to pereira-says-ufc-dc-manipulated-fans-gane-hokit; Pereira vs Pavlovich UFC 335 Dec 12",
+        "Held at 9 AM run for the evening (reaction story); post as UPDATE, v2 Cormier (01) vs Pereira (drive-alex-pereira-3)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/daniel-cormier-responds-alex-pereira-230000978.html",
+        "https://www.sherdog.com/news/news/Daniel-Cormier-denies-Alex-Pereiras-UFC-claim-hopes-friendship-survives-203204"
+      ],
+      "posts": []
+    },
+    {
+      "id": "oliveira-tells-gaethje-decide-retirement",
+      "title": "Charles Oliveira: Gaethje won't make more than his White House purse, needs to decide on retiring; says UFC 335 win makes him No. 1 contender",
+      "people": [
+        "Charles Oliveira",
+        "Justin Gaethje",
+        "Diego Lopes"
+      ],
+      "event": "UFC 335 (Dec 12)",
+      "first_reported": "2026-10-14",
+      "held_for_evening": true,
+      "facts": [
+        "Oliveira (BMF champ) headlines vs Diego Lopes at UFC 335, Dec 12",
+        "Says Gaethje 'is not going to make more money in his next fight than he made at the White House' and must decide whether he's retiring",
+        "Argues a win puts him ahead of Arman Tsarukyan for a title shot; cites his 2022 submission of Gaethje",
+        "Held at 9 AM run for the evening; v2 Oliveira (drive-charles-oliveira-bmf) vs Gaethje"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/charles-oliveira-justin-gaethje-not-130000398.html",
+        "https://www.sherdog.com/news/news/Charles-Oliveira-eyes-UFC-title-shot-wants-answers-from-Justin-Gaethje-203202"
+      ],
+      "posts": []
+    },
+    {
+      "id": "malott-warns-buckley-ufc-edmonton",
+      "title": "Mike Malott warns Joaquin Buckley ahead of UFC Edmonton (Oct 17)",
+      "people": [
+        "Mike Malott",
+        "Joaquin Buckley"
+      ],
+      "event": "UFC Edmonton, Oct 17",
+      "first_reported": "2026-10-13",
+      "held_for_evening": true,
+      "facts": [
+        "Fight-week trash talk ahead of Saturday's UFC Edmonton (BJPenn); verify quotes before posting",
+        "User added Drive photos of both (drive-mike-malott, drive-joaquin-buckley) on Oct 13 night",
+        "Held at 9 AM run for the evening"
+      ],
+      "sources": [
+        "https://www.bjpenn.com/"
+      ],
+      "posts": []
+    },
+    {
       "id": "jones-says-hokit-could-beat-gane-ufc-334",
       "title": "Jon Jones says Josh Hokit could beat Ciryl Gane at UFC 334, but a Gane win helps his own legacy",
       "people": [
@@ -134,7 +379,8 @@
         "Vieira says she took medication for a long-standing knee injury and stopped it once the fight came up; no intent to break rules",
         "Vieira says the PFL gave her the six-month period; Cyborg thanked the Mohegan Tribe athletic regulator for testing",
         "Oct 13 6 PM run: rendered 2026-10-13-1832-vieira-suspended but held (no Vieira photo; left side silhouette). Re-queue once a Vieira photo is added.",
-        "Oct 13 10 PM run: still no Vieira photo in Drive; still held"
+        "Oct 13 10 PM run: still no Vieira photo in Drive; still held",
+        "Oct 14 9 AM run: still no photo in Drive; still held"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Exclusive-Ketlen-Vieira-suspended-6-months-after-positive-test-following-Cyborg-fight-203196",
@@ -348,7 +594,8 @@
         "Vacant ONE women's atomweight MMA world title; Sawada 12-1, Nikolakakos 7-0",
         "A Sawada win would make her the first Japanese woman to hold a ONE world title",
         "Held at 9 AM run: no photos in image bank yet (user asked to add)",
-        "Oct 13 10 PM run: still no Sawada/Nikolakakos photos; still held"
+        "Oct 13 10 PM run: still no Sawada/Nikolakakos photos; still held",
+        "Oct 14 9 AM run: still no photo in Drive; still held"
       ],
       "sources": [
         "https://www.onefc.com/news/chihiro-sawada-anastasia-nikolakakos-to-clash-for-vacant-womens-atomweight-mma-world-title-at-one-samurai-6/"
@@ -1278,7 +1525,8 @@
       "facts": [
         "Reportedly shot three times in the leg in a Sept 17 ambush in the Democratic Republic of the Congo while on a three-man team; flown to the US, condition described as stable",
         "Former New Zealand SAS soldier Justin Conaglen reportedly killed; a third team member wounded",
-        "Purpose of the mission unconfirmed (Sherdog citing MMA Weekly and NZ Herald)"
+        "Purpose of the mission unconfirmed (Sherdog citing MMA Weekly and NZ Herald)",
+        "2026-10-14: Sherdog reports he is recovering at Walter Reed; not posted (modest update)"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Former-UFC-fighter-Tim-Kennedy-reportedly-shot-in-deadly-Congo-ambush-203143",
@@ -1480,62 +1728,6 @@
           "scheduled_for": "2026-10-08T20:30:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8378533174350362910",
           "image": "fighter photo (Paulo Costa, Drive)"
-        }
-      ]
-    },
-    {
-      "id": "strickland-ponders-vacating-title-pay",
-      "title": "Sean Strickland ponders vacating UFC middleweight title / not re-signing over pay",
-      "people": [
-        "Sean Strickland",
-        "Jake Paul",
-        "Conor McGregor"
-      ],
-      "event": "",
-      "first_reported": "2026-10-07",
-      "facts": [
-        "Posted on X he may vacate, move to 205 to get out of contract early and box Jake Paul",
-        "'McGregor makes 30 million to fight for 30 second and they dont want to pay us a fraction of it'; 'kinda over it'",
-        "Nothing decided; depends on UFC changing his pay. Expected to face Imavov next (Jan 2027 at earliest)",
-        "Related: chimaev-offers-strickland-1m-rematch",
-        "UPDATE 2026-10-08: Jake Paul responded to Strickland's threat to vacate and box him, asking 'Are you out of contract?' (Sportskeeda, Bloody Elbow, Yahoo/Athlon)",
-        "UPDATE 2026-10-09/10: MMA Junkie's Mike Bohn reported Strickland signed a six-fight UFC deal before UFC 328, earning over $1M per fight ($400K/$400K rumors false); Strickland replied on X: 'Sign this or we wont do this lol they act like you have any power in this sport'"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/sean-strickland-ponders-vacating-ufc-220703822.html",
-        "https://bloodyelbow.com/2026/10/07/sean-strickland-debating-not-re-signing-with-ufc-over-pay-dispute-im-kinda-over-it/",
-        "https://bloodyelbow.com/2026/10/08/jake-paul-sends-message-to-sean-strickland-amid-ufc-pay-dispute-and-plan-to-vacate-his-title/",
-        "https://www.sportskeeda.com/mma/news-are-contract-jake-paul-responds-sean-strickland-s-threats-leaving-ufc-fighting-the-problem-child",
-        "https://sports.yahoo.com/articles/jake-paul-responds-sean-strickland-005602347.html",
-        "https://www.mmanews.com/article/sean-strickland-reported-six-fight-ufc-deal-exit-threat",
-        "https://www.lowkickmma.com/sean-strickland-says-ufc-forced-him-into-new-deal-before-ufc-328-title-fight/",
-        "https://bloodyelbow.com/2026/10/10/sean-strickland-claims-he-was-strong-armed-into-new-ufc-deal-amid-fresh-contract-talks/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-07-1831-strickland-vacate",
-          "kind": "new",
-          "format": "reel",
-          "image": "Strickland (drive, with belt)",
-          "scheduled_for": "2026-10-07T19:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4415320362528687834"
-        },
-        {
-          "post": "2026-10-08-1320-paul-out-of-contract",
-          "kind": "update",
-          "format": "trial_reel",
-          "scheduled_for": "2026-10-08T13:30:00-04:00",
-          "image": "fighter photo (Sean Strickland, Drive, with belt)",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2414605265603706006"
-        },
-        {
-          "post": "2026-10-10-1331-strickland-sign-this",
-          "kind": "update",
-          "format": "reel",
-          "style": "v2",
-          "scheduled_for": "2026-10-10T13:35:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4159128010356797586",
-          "image": "Strickland Drive photo with belt (left), Imavov (right)"
         }
       ]
     },
