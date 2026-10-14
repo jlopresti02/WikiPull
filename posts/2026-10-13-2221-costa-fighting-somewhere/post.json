@@ -9,10 +9,6 @@
     },
     {
       "type": "fighter",
-      "name": "Carlos Ulberg"
-    },
-    {
-      "type": "fighter",
       "name": "Magomed Ankalaev"
     }
   ],
@@ -35,7 +31,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC · LIGHT HEAVYWEIGHT",
+    "tag": "UFC · 205",
     "kicker": "UFC STANDOFF",
     "hook": "Costa's Ultimatum",
     "left": [
@@ -45,9 +41,6 @@
       }
     ],
     "right": [
-      {
-        "name": "Carlos Ulberg"
-      },
       {
         "name": "Magomed Ankalaev"
       }
@@ -69,8 +62,8 @@
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/carlos-ulberg/cutouts/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png",
-      "credit": "The White House / Public domain"
+      "image": "images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png",
+      "credit": "MMAnytt / CC BY 3.0"
     }
   },
   "subject": {
@@ -78,7 +71,7 @@
     "image": "images/paulo-costa/cutouts/drive-paulo-costa.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
-  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
-  "music_start": 164.75
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

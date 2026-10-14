@@ -1,28 +1,19 @@
-Searching Wikimedia Commons for: Carlos Ulberg
-  No file names matched; falling back to looser results.
-  saved images/carlos-ulberg/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.jpg  [Public domain]
-  saved images/carlos-ulberg/02-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.jpg  [Public domain]
+Searching Wikimedia Commons for: Magomed Ankalaev
+  saved images/magomed-ankalaev/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.jpg  [CC BY 3.0]
+  saved images/magomed-ankalaev/02-magomed-ankalaev-at-ufc-fight-night-136.png  [CC BY 3.0]
 Done: 2 image(s) saved.
-[0;93m2026-10-14 02:14:16.848232194 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-14 02:18:53.172888781 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/carlos-ulberg/cutouts/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png
-  cutout images/carlos-ulberg/cutouts/02-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png
+  cutout images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png
+  cutout images/magomed-ankalaev/cutouts/02-magomed-ankalaev-at-ufc-fight-night-136.png
 Done: 2 new cutout(s).
-
-== 2026-10-13-2220-jones-hokit-could-win.json
-Image: {'type': 'fighter', 'name': 'Jon Jones', 'file': 'drive-jon-jones-champion'} -> fighter images/jon-jones/cutouts/drive-jon-jones-champion.png  headline: Hokit Could Win
-v2 left: images/jon-jones/cutouts/drive-jon-jones-champion.png
-v2 right: images/josh-hokit/cutouts/drive-josh-hokit-1.png
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-13-2220-jones-hokit-could-win/post.png (fighter)
-Rendered posts/2026-10-13-2220-jones-hokit-could-win/reel.mp4 (format v2)
 
 == 2026-10-13-2221-costa-fighting-somewhere.json
 Image: {'type': 'fighter', 'name': 'Paulo Costa', 'file': 'drive-paulo-costa'} -> fighter images/paulo-costa/cutouts/drive-paulo-costa.png  headline: Nothing From UFC
 v2 left: images/paulo-costa/cutouts/drive-paulo-costa.png
-$ fetch.py Carlos Ulberg --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/carlos-ulberg
-v2 right: images/carlos-ulberg/cutouts/01-motorcycle-stunts-on-the-south-lawn-of-the-white-house-ahead.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+$ fetch.py Magomed Ankalaev --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/magomed-ankalaev
+v2 right: images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
 Rendered posts/2026-10-13-2221-costa-fighting-somewhere/post.png (fighter)
 Rendered posts/2026-10-13-2221-costa-fighting-somewhere/reel.mp4 (format v2)
