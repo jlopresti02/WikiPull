@@ -57,6 +57,24 @@
     "options": [
       "Dana",
       "Pereira"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/dana-white/cutouts/02-dana-white-london-2015-cropped.png",
+      "credit": "Andrius Petrucenia / CC BY-SA 2.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/alex-pereira/cutouts/drive-alex-pereira-3.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/dana-white/cutouts/02-dana-white-london-2015-cropped.png",
+    "credit": "Andrius Petrucenia / CC BY-SA 2.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

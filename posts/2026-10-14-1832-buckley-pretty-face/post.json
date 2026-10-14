@@ -57,6 +57,24 @@
     "options": [
       "Buckley",
       "Malott"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/joaquin-buckley/cutouts/drive-joaquin-buckley.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/mike-malott/cutouts/drive-mike-malott.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/joaquin-buckley/cutouts/drive-joaquin-buckley.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }

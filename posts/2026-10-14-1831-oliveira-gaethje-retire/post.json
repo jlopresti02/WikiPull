@@ -54,6 +54,24 @@
     "options": [
       "Oliveira",
       "Gaethje"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/charles-oliveira/cutouts/drive-charles-oliveira-bmf.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/justin-gaethje/cutouts/01-justin-gaethje-in-the-oval-office-while-president-donald-j-t.png",
+      "credit": "The White House / Public domain"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/charles-oliveira/cutouts/drive-charles-oliveira-bmf.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }

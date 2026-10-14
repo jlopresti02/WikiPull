@@ -1,11 +1,47 @@
-[0;93m2026-10-14 22:10:45.434401207 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Justin Gaethje
+  saved images/justin-gaethje/01-justin-gaethje-in-the-oval-office-while-president-donald-j-t.jpg  [Public domain]
+  saved images/justin-gaethje/02-justin-gaethje-at-press-conference.png  [CC BY-SA 4.0]
+  saved images/justin-gaethje/03-damien-harris-interviewing-justin-gaethje-with-cbs-sports.jpg  [CC BY-SA 4.0]
+  saved images/justin-gaethje/04-justin-gaethje-meeting-with-the-florida-gators-football-team.jpg  [CC BY-SA 4.0]
+Done: 4 image(s) saved.
+[0;93m2026-10-14 22:31:35.347333143 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/daniel-cormier/cutouts/drive-daniel-cormier-double-champ.png
-  cutout images/daniel-cormier/cutouts/drive-daniel-cormier-eating.png
-  cutout images/daniel-cormier/cutouts/drive-daniel-cormier.png
-Done: 3 new cutout(s).
-Drive: saved images/daniel-cormier/drive-daniel-cormier-double-champ.jpg
-Drive: saved images/daniel-cormier/drive-daniel-cormier.webp
-Drive: saved images/daniel-cormier/drive-daniel-cormier-eating.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/daniel-cormier
-Queue is empty.
+  cutout images/justin-gaethje/cutouts/01-justin-gaethje-in-the-oval-office-while-president-donald-j-t.png
+  cutout images/justin-gaethje/cutouts/02-justin-gaethje-at-press-conference.png
+  cutout images/justin-gaethje/cutouts/03-damien-harris-interviewing-justin-gaethje-with-cbs-sports.png
+  cutout images/justin-gaethje/cutouts/04-justin-gaethje-meeting-with-the-florida-gators-football-team.png
+Done: 4 new cutout(s).
+
+== 2026-10-14-1830-dana-pereira-paranoid.json
+Image: {'type': 'fighter', 'name': 'Dana White', 'file': '02-dana-white-london-2015-cropped'} -> fighter images/dana-white/cutouts/02-dana-white-london-2015-cropped.png  headline: Paranoid
+v2 left: images/dana-white/cutouts/02-dana-white-london-2015-cropped.png
+v2 right: images/alex-pereira/cutouts/drive-alex-pereira-3.png
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-14-1830-dana-pereira-paranoid/post.png (fighter)
+Rendered posts/2026-10-14-1830-dana-pereira-paranoid/reel.mp4 (format v2)
+
+== 2026-10-14-1831-oliveira-gaethje-retire.json
+Image: {'type': 'fighter', 'name': 'Charles Oliveira', 'file': 'drive-charles-oliveira-bmf'} -> fighter images/charles-oliveira/cutouts/drive-charles-oliveira-bmf.png  headline: Retire?
+v2 left: images/charles-oliveira/cutouts/drive-charles-oliveira-bmf.png
+$ fetch.py Justin Gaethje --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/justin-gaethje
+v2 right: images/justin-gaethje/cutouts/01-justin-gaethje-in-the-oval-office-while-president-donald-j-t.png
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-14-1831-oliveira-gaethje-retire/post.png (fighter)
+Rendered posts/2026-10-14-1831-oliveira-gaethje-retire/reel.mp4 (format v2)
+
+== 2026-10-14-1832-buckley-pretty-face.json
+Image: {'type': 'fighter', 'name': 'Joaquin Buckley', 'file': 'drive-joaquin-buckley'} -> fighter images/joaquin-buckley/cutouts/drive-joaquin-buckley.png  headline: Pretty Face
+v2 left: images/joaquin-buckley/cutouts/drive-joaquin-buckley.png
+v2 right: images/mike-malott/cutouts/drive-mike-malott.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-14-1832-buckley-pretty-face/post.png (fighter)
+Rendered posts/2026-10-14-1832-buckley-pretty-face/reel.mp4 (format v2)
+
+== 2026-10-14-1833-volkanovski-dana-pays.json
+Image: {'type': 'fighter', 'name': 'Alexander Volkanovski', 'file': 'drive-alexander-volkanovski-cook'} -> fighter images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-cook.png  headline: Dana Pays?
+v2 left: images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-cook.png
+v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-14-1833-volkanovski-dana-pays/post.png (fighter)
+Rendered posts/2026-10-14-1833-volkanovski-dana-pays/reel.mp4 (format v2)
