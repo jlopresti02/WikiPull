@@ -170,8 +170,8 @@ use them freely for anything that isn't a top story.
 - **Trial Reel**, any of these:
   - Weaker MMA posts: lesser-known fighters with no hook, routine
     bookings and card additions, updates with a modest new fact.
-  - Any post whose image isn't the story's own person: silhouette,
-    flag, venue or money graphic.
+  - Any post whose image isn't the story's own person: flag, venue or
+    money graphic (never a silhouette; see step 4, Visual C.5).
   - Business and cross-sport stories, even with a big name: promoter
     spats, broadcast deals, a UFC figure talking about boxing ("PR War",
     Dana vs Eddie Hearn over a boxing match: 30 views as a regular Reel).
@@ -539,47 +539,52 @@ results, business):
    topic).
 4. **Money graphic**, money stories only (purses, bonuses, contracts,
    fines, betting): `{"type": "money"}`, after all the people above.
-5. **Silhouette backup** for fighter stories when no photo of anyone in
-   the story works: `{"type": "mystery"}` with the fighter's **last name in
-   the headline** ("MCGHEE'S NEW FOE"). It beat the Dana stand-in on views
-   (132 vs 68 average), so it's the fallback instead of a stand-in face.
-   Post silhouette Reels as **Trial Reels** (`"trial_reel": true`).
+5. **No silhouettes (user rule, Oct 13).** Never post with a silhouette
+   in place of a real photo. The only exception is a story that is
+   *about* a mystery or unknown person: an unnamed opponent ("mystery
+   opponent TBA"), an unidentified fan or attacker, a "who is it?"
+   tease. Then `{"type": "mystery"}` is fine, as a Trial Reel. In every
+   other case, a missing photo means the post is **held**, not posted.
 
-After the Reels are rendered (step 6), check each post's
-`posts/<name>/post.json`: if `subject.kind` is `"none"` (text only),
-**don't schedule it**. Tell the user it was held back for having no
-image, and name the person whose photo would fix it so they can add one
-to the image bank.
+**No-silhouette check (user rule, Oct 13).** Before queueing, make sure
+every person on screen has a photo: a Drive or Wikimedia cutout in
+`images/<slug>/cutouts/`, or a new name the workflow can fetch. For v2,
+if the second person has no photo, put another relevant person who does
+on the right (the rival, the champion, the opponent), or hold the post.
+After the Reels are rendered (step 6), open each post's
+`posts/<name>/post.json` and check `subject` and, for v2,
+`v2.left_subject` and `v2.right_subject`. If any of them is `"kind":
+"none"` or `"graphic": "mystery"`, or shows the wrong person, **don't
+schedule it**, unless the story is about a mystery or unknown person
+(see 5 above). Instead, fix it if a better second person with a photo
+exists, and re-queue. Otherwise hold it: keep the ledger entry with
+`"held_for_photo": true`, tell the user it was held, and name the
+person whose photo would fix it so they can add one to the image bank.
 
-**Photo-needed alerts** (requested 2026-10-04). Right after the Reels
-render, and before scheduling, check every post's `post.json`. If
-`subject.kind` is `"graphic"` with `"graphic": "mystery"` (silhouette)
-or `"none"`, or the photo used is not the person the story is about,
-send the user a **PushNotification** (status "proactive") straight
-away, separate from the end-of-run alert, so they can add a photo while
-there's still time. One notification per run covering every such post,
-under 200 characters, naming who needs a photo, the headline and the
-time it's scheduled for, and saying where to put it, e.g.
-"Photo needed: Esteban Ribovics ('Blame The AC?', 2:25 PM) and Raoni
-Barcelos (2:55 PM). Add to Gemini Images in Drive to replace the silhouette."
-For a held-back text-only post, say it's held until a photo is added.
-Schedule silhouette posts at the end of the run's slots so there is as
-much time as possible to swap them.
+**Photo-needed alerts** (requested 2026-10-04; updated Oct 13). Right
+after the Reels render, and before scheduling, if the no-silhouette
+check above held any post, send the user a **PushNotification** (status
+"proactive") straight away, separate from the end-of-run alert, so they
+can add a photo while the story is still fresh. One notification per
+run covering every held post, under 200 characters, naming who needs a
+photo and the headline, and saying where to put it, e.g. "Photo needed:
+Ketlen Vieira ('Suspended'), held until a photo is added to Gemini
+Images in Drive."
 
-**Swap silhouettes when a photo arrives.** At the start of every run
-(and whenever the user asks), check Metricool's waiting posts and
-`stories.json` for posts that went out to Metricool with a silhouette
-(`"image"` says silhouette) and haven't published yet. If the Drive
-folder now has a photo of that person: add it to `drive_images.json`,
-re-queue the post (its original queue file from git history plus
-`"file": "drive-<slug>"` on the person's visual entry) in one push, wait
-for the Make posts commit, check the new `post.png`, then update the
-Metricool post (`updateScheduledPost`, same caption from the new
-`caption.txt`, media and cover pinned to the new commit). If the post
-is due within about 10 minutes, first move it 30 minutes later (keeping
-the 30-minute spacing) so the silhouette version never goes out. Record
-the new image and time in `stories.json`. Held-back text-only posts get
-rendered and scheduled the same way once a photo is added.
+**Post held stories when a photo arrives.** At the start of every run
+(and whenever the user asks), check `stories.json` for entries with
+`"held_for_photo": true` (or older held entries whose facts say they
+were held for a photo). If the Drive folder now has a photo of that
+person: add it to `drive_images.json`, re-queue the post (its original
+queue file from git history plus `"file": "drive-<slug>"` on the
+person's visual and v2 entries) in one push, wait for the Make posts
+commit, run the no-silhouette check again, then schedule it in the next
+open slot (it counts toward the daily 10 like any news post). Drop the
+flag and record the image and time in `stories.json`. Drop held stories
+that have gone stale (more than about 2 days old, or overtaken by newer
+news). Also check Metricool's waiting posts: if any post with a
+silhouette is still waiting (from before this rule), swap in a photo
+with `updateScheduledPost`, or delete it from the queue and tell the user.
 
 Example for a replacement story:
 
@@ -588,8 +593,7 @@ Example for a replacement story:
 "visual": [
   {"type": "fighter", "name": "Marcus McGhee"},
   {"type": "fighter", "name": "Anthony Romero"},
-  {"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"},
-  {"type": "mystery"}
+  {"type": "fighter", "name": "Bernardo Sopaj", "headline": "Sopaj Out"}
 ]
 ```
 
@@ -865,5 +869,5 @@ moment).
 ### 7. Report
 
 Send one short SendUserMessage: which posts were scheduled (headline, time,
-which image type was used, and Reel, Trial Reel or carousel), any that were pushed to later slots, which were held back for having no photo, which silhouettes are still waiting for a photo (person and time), which
+which image type was used, and Reel, Trial Reel or carousel), any that were pushed to later slots, which were held back for having no photo (and whose photo would fix them), which
 stories were skipped as repeats, and any failures. If there were no posts, say so in one line.

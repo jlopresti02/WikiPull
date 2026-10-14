@@ -141,7 +141,8 @@
         "https://sports.yahoo.com/articles/ketlen-vieira-releases-statement-6-143000290.html"
       ],
       "posts": [],
-      "held_for_evening": true
+      "held_for_evening": true,
+      "held_for_photo": true
     },
     {
       "id": "pereira-dares-valter-walker-spar-purse",
@@ -353,7 +354,8 @@
         "https://www.onefc.com/news/chihiro-sawada-anastasia-nikolakakos-to-clash-for-vacant-womens-atomweight-mma-world-title-at-one-samurai-6/"
       ],
       "held_for_evening": true,
-      "posts": []
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "salkilld-eyes-ufc-sydney-feb-2027",
