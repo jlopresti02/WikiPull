@@ -58,6 +58,24 @@
     "options": [
       "Fair",
       "Too light"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/ketlen-vieira/cutouts/drive-ketlen-vieira.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png",
+      "credit": "Kevin Paul / CC BY 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/ketlen-vieira/cutouts/drive-ketlen-vieira.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

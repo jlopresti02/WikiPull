@@ -1,8 +1,34 @@
+[0;93m2026-10-14 14:34:12.537370653 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/anastasia-nikolakakos/cutouts/drive-anastasia-nikolakakos.png
+Done: 1 new cutout(s).
+[0;93m2026-10-14 14:35:15.081557794 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/chihiro-sawada/cutouts/drive-chihiro-sawada.png
+Done: 1 new cutout(s).
+[0;93m2026-10-14 14:35:39.512565702 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/ketlen-vieira/cutouts/drive-ketlen-vieira.png
+Done: 1 new cutout(s).
+Drive: saved images/anastasia-nikolakakos/drive-anastasia-nikolakakos.jpg
+Drive: saved images/chihiro-sawada/drive-chihiro-sawada.jpg
+Drive: saved images/ketlen-vieira/drive-ketlen-vieira.jpg
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/anastasia-nikolakakos
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/chihiro-sawada
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ketlen-vieira
 
-== 2026-10-14-0934-dana-fury-joshua-blocked.json
-Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Plan Blocked
-v2 left: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-v2 right: images/tyson-fury/cutouts/01-tyson-fury-at-place-bell-laval-quebec-canada-dec-16-2017-cro.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-14-0934-dana-fury-joshua-blocked/post.png (fighter)
-Rendered posts/2026-10-14-0934-dana-fury-joshua-blocked/reel.mp4 (format v2)
+== 2026-10-14-1015-vieira-suspended.json
+Image: {'type': 'fighter', 'name': 'Ketlen Vieira', 'file': 'drive-ketlen-vieira'} -> fighter images/ketlen-vieira/cutouts/drive-ketlen-vieira.png  headline: Suspended
+v2 left: images/ketlen-vieira/cutouts/drive-ketlen-vieira.png
+v2 right: images/cris-cyborg/cutouts/01-cris-cyborg-sdcc-2023.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-14-1015-vieira-suspended/post.png (fighter)
+Rendered posts/2026-10-14-1015-vieira-suspended/reel.mp4 (format v2)
+
+== 2026-10-14-1016-sawada-japans-first.json
+Image: {'type': 'fighter', 'name': 'Chihiro Sawada', 'file': 'drive-chihiro-sawada'} -> fighter images/chihiro-sawada/cutouts/drive-chihiro-sawada.png  headline: Japan's First?
+v2 left: images/chihiro-sawada/cutouts/drive-chihiro-sawada.png
+v2 right: images/anastasia-nikolakakos/cutouts/drive-anastasia-nikolakakos.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-14-1016-sawada-japans-first/post.png (fighter)
+Rendered posts/2026-10-14-1016-sawada-japans-first/reel.mp4 (format v2)
