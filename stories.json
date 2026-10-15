@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "dana-open-to-rakhmonov-vs-morales",
+      "title": "Dana White leaves the door open for Shavkat Rakhmonov vs. Michael Morales (19-0 vs 19-0)",
+      "people": [
+        "Dana White",
+        "Shavkat Rakhmonov",
+        "Michael Morales"
+      ],
+      "event": "UFC welterweight title picture",
+      "first_reported": "2026-10-15",
+      "facts": [
+        "Asked about the welterweight title picture, Dana White did not rule out Rakhmonov vs Morales (Sherdog, Oct 15)",
+        "Not booked; follows Rakhmonov's '19-0 VS 19-0' tease (Oct 6) and Morales naming Rakhmonov his 2027 'final boss' (Oct 4)",
+        "Related: rakhmonov-teases-morales-19-0-vs-19-0, morales-january-return-title-shot-plan",
+        "Held at Oct 15 6 PM run for Oct 16 evening (Oct 15 already past the 4/day reach-recovery cap); post only if it still stands up"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dana-White-leaves-door-open-for-Shavkat-Rakhmonov-vs-Michael-Morales-203223"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "hokit-fires-back-at-bruce-buffer-class",
       "title": "Josh Hokit fires back at Bruce Buffer after Buffer tells him to show some class",
       "people": [
@@ -147,7 +169,8 @@
         "Manager Ali Abdelaziz pushed for a new deal in August; brother Javid was released earlier and joined the PFL",
         "Held Oct 15 9 AM: no photo of Farid Basharat (v2 left rendered as silhouette); needs a Drive photo. Queue file: posts/queue/2026-10-15-0931-basharat-unbeaten-gone.json in commit e7aceb1",
         "User added Drive photo (drive-farid-basharat) Oct 15 ~9:30 AM; posted with Petr Yan (bantamweight champ) on the right after Wikimedia matched the wrong person for Ali Abdelaziz",
-        "Oct 15 ~12:19 PM: Basharat confirmed the exit himself: 'I am no longer with the UFC', leaves with a stainless record, says the organisation 'isn't what it used to be', calls himself the best bantamweight in the world (Cageside). Not posted as an update at 1 PM (modest new fact, daytime limit)"
+        "Oct 15 ~12:19 PM: Basharat confirmed the exit himself: 'I am no longer with the UFC', leaves with a stainless record, says the organisation 'isn't what it used to be', calls himself the best bantamweight in the world (Cageside). Not posted as an update at 1 PM (modest new fact, daytime limit)",
+        "Oct 15 6 PM run: Basharat statement (says he never declined a fight; UFC 'isn't what it used to be') judged a repeat of the 12:19 PM fact; not posted"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
