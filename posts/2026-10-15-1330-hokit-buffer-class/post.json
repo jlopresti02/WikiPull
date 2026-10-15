@@ -1,0 +1,77 @@
+{
+  "story_id": "hokit-fires-back-at-bruce-buffer-class",
+  "headline": "No Class?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Josh Hokit",
+      "file": "drive-josh-hokit-3"
+    },
+    {
+      "type": "fighter",
+      "name": "Bruce Buffer"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Josh Hokit just fired back at Bruce Buffer for telling him to show some class.\nHokit or Buffer? 👇\n\nThe unbeaten UFC heavyweight title challenger says he only talks trash inside the Octagon, and that other fighters on the roster have real criminal records. Hokit (10-0) meets Ciryl Gane for the title at UFC 334 at Madison Square Garden on Nov 14.\n\nShould Hokit tone it down?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "JoshHokit",
+    "BruceBuffer"
+  ],
+  "sources": [
+    "Sherdog",
+    "MMA Mania"
+  ],
+  "music_pool": "espn",
+  "question": "Hokit or Buffer?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "NOT CLASSY ENOUGH?",
+    "hook": "Hokit vs Buffer",
+    "left": [
+      {
+        "name": "Josh Hokit",
+        "file": "drive-josh-hokit-3"
+      }
+    ],
+    "right": [
+      {
+        "name": "Bruce Buffer"
+      }
+    ],
+    "story": "Buffer told Hokit to show some class. Hokit says he only trash talks in the Octagon.",
+    "chips": [
+      "HOKIT 10-0",
+      "UFC 334 · NOV 14"
+    ],
+    "question": "Hokit or Buffer?",
+    "options": [
+      "Hokit",
+      "Buffer"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/josh-hokit/cutouts/drive-josh-hokit-3.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/bruce-buffer/cutouts/01-bruce-buffer-ufc.png",
+      "credit": "VoiceColombia / CC0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/josh-hokit/cutouts/drive-josh-hokit-3.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
+}
