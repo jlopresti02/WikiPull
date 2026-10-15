@@ -69,14 +69,24 @@
         "Contract ran out after UFC 329 win over John Garza and was not renewed (reported by Guilherme Cruz)",
         "16-0 pro, 7-0 UFC, ranked bantamweight; now a free agent",
         "Manager Ali Abdelaziz pushed for a new deal in August; brother Javid was released earlier and joined the PFL",
-        "Held Oct 15 9 AM: no photo of Farid Basharat (v2 left rendered as silhouette); needs a Drive photo. Queue file: posts/queue/2026-10-15-0931-basharat-unbeaten-gone.json in commit e7aceb1"
+        "Held Oct 15 9 AM: no photo of Farid Basharat (v2 left rendered as silhouette); needs a Drive photo. Queue file: posts/queue/2026-10-15-0931-basharat-unbeaten-gone.json in commit e7aceb1",
+        "User added Drive photo (drive-farid-basharat) Oct 15 ~9:30 AM; posted with Petr Yan (bantamweight champ) on the right after Wikimedia matched the wrong person for Ali Abdelaziz"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
         "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": [
+        {
+          "post": "2026-10-15-0931-basharat-unbeaten-gone",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-15T10:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=650487170409383269",
+          "image": "drive-farid-basharat vs drive-petr-yan-champ"
+        }
+      ]
     },
     {
       "id": "pimblett-calls-topuria-damaged-goods",
