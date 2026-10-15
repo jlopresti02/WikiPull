@@ -4,11 +4,8 @@
   "visual": [
     {
       "type": "fighter",
-      "name": "Farid Basharat"
-    },
-    {
-      "type": "fighter",
-      "name": "Javid Basharat"
+      "name": "Farid Basharat",
+      "file": "drive-farid-basharat"
     },
     {
       "type": "fighter",
@@ -41,13 +38,11 @@
     "hook": "Basharat Out",
     "left": [
       {
-        "name": "Farid Basharat"
+        "name": "Farid Basharat",
+        "file": "drive-farid-basharat"
       }
     ],
     "right": [
-      {
-        "name": "Javid Basharat"
-      },
       {
         "name": "Ali Abdelaziz"
       }
@@ -64,10 +59,9 @@
       "Fair"
     ],
     "left_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
+      "kind": "fighter",
+      "image": "images/farid-basharat/cutouts/drive-farid-basharat.png",
+      "credit": "WWIT MMA News"
     },
     "right_subject": {
       "kind": "fighter",
@@ -77,10 +71,10 @@
   },
   "subject": {
     "kind": "fighter",
-    "image": "images/ali-abdelaziz/cutouts/01-ali-abdelaziz.png",
-    "credit": "Sgt. Christian Brown / Public domain"
+    "image": "images/farid-basharat/cutouts/drive-farid-basharat.png",
+    "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/03-acrobat.mp3",
-  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
-  "music_start": 158.75
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }
