@@ -1,0 +1,28 @@
+{
+  "story_id": "harrison-says-she-beats-prime-rousey",
+  "headline": "Armbar Me?",
+  "visual": [
+    {"type": "fighter", "name": "Kayla Harrison", "file": "02-kayla-harrison-rio-2016-cropped"},
+    {"type": "fighter", "name": "Ronda Rousey", "file": "02-ronda-rousey"}
+  ],
+  "color": "#d2202f",
+  "caption": "Kayla Harrison says she'd beat a prime Ronda Rousey.\nKayla or Ronda? 👇\n\nThe UFC bantamweight champ said on the Deep Waters podcast that Rousey ran through women new to MMA, though she credits her for paving the way. Rousey beat Harrison twice in judo when Kayla was 15; Harrison now defends her title against Amanda Nunes at UFC 334 at MSG on Nov 14.\n\nWho wins at their best?",
+  "hashtags": ["MMANews", "UFC", "UFC334", "KaylaHarrison", "RondaRousey"],
+  "sources": ["Sherdog", "Deep Waters podcast"],
+  "music_pool": "espn",
+  "question": "Kayla or Ronda?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · BANTAMWEIGHT",
+    "kicker": "PRIME VS PRIME",
+    "hook": "Harrison vs Rousey",
+    "left": [{"name": "Kayla Harrison", "file": "02-kayla-harrison-rio-2016-cropped"}],
+    "right": [{"name": "Ronda Rousey", "file": "02-ronda-rousey"}],
+    "story": "Harrison says she'd beat prime Rousey, who beat her twice in judo when Kayla was 15.",
+    "chips": ["UFC 334 · NOV 14", "VS AMANDA NUNES"],
+    "question": "Kayla or Ronda?",
+    "options": ["Kayla", "Ronda"]
+  }
+}
