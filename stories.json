@@ -2,6 +2,77 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "hokit-fires-back-at-bruce-buffer-class",
+      "title": "Josh Hokit fires back at Bruce Buffer after Buffer tells him to show some class",
+      "people": [
+        "Josh Hokit",
+        "Bruce Buffer",
+        "Ciryl Gane"
+      ],
+      "event": "UFC 334 (Nov 14, MSG)",
+      "first_reported": "2026-10-15",
+      "facts": [
+        "Buffer (to Kick streamer N3on) called Hokit's Michelle Obama remarks after UFC Freedom 250 disrespectful, told him to show some class; Dana White also criticized the remarks (Sherdog)",
+        "Hokit on X: he talks trash in the Octagon, but others on the roster have actual criminal records; he has none; 'gladiator business'",
+        "Hokit (10-0) vs Ciryl Gane for the heavyweight title at UFC 334, Nov 14, MSG"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Josh-Hokit-fires-back-at-Bruce-Buffer-over-UFC-role-model-criticism-203221",
+        "https://www.mmamania.com/ufc-news/479264/im-not-classy-enough-josh-hokit-responds-to-bruce-buffers-criticism"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-15-1330-hokit-buffer-class",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "cejudo-says-pereira-spoiled-skipped-line",
+      "title": "Henry Cejudo says Alex Pereira is 'spoiled' and has skipped the line at heavyweight",
+      "people": [
+        "Henry Cejudo",
+        "Alex Pereira"
+      ],
+      "event": "UFC 335 (Dec 12)",
+      "first_reported": "2026-10-15",
+      "facts": [
+        "On his podcast with Kamaru Usman, responding to Pereira's claim the UFC focus-grouped Gane vs Hokit",
+        "'You've skipped the line long enough'; says Pereira needs 2-3 more wins before a heavyweight title shot; names Volkov and Blaydes as more deserving",
+        "Pereira faces Sergei Pavlovich at UFC 335, Dec 12",
+        "Held at 1 PM run for the evening (daytime limit 6 reached)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/henry-cejudo-thinks-alex-pereira-170000691.html"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "pettis-to-box-neeraj-goyat-india",
+      "title": "Anthony Pettis to box Neeraj Goyat in India on an MVP card, Jan 23, 2027",
+      "people": [
+        "Anthony Pettis",
+        "Neeraj Goyat"
+      ],
+      "event": "Goyat vs. Pettis (Jan 23, 2027, India)",
+      "first_reported": "2026-10-15",
+      "sport": "boxing",
+      "facts": [
+        "Six rounds at 154 lbs, promoted by Jake Paul's Most Valuable Promotions",
+        "Host city (Hyderabad, Visakhapatnam or Chennai) to be decided in November",
+        "Held at 1 PM run for the evening as the adjacent-sports Trial Reel"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Former-UFC-champion-Anthony-Pettis-set-to-box-Neeraj-Goyat-in-India-203228",
+        "https://fightnews.com/mvps-neeraj-goyat-vs-anthony-pettis-january-23/198367"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "volkanovski-wants-gaethje-lightweight-superfight",
       "title": "Volkanovski pitches a lightweight title super fight with Justin Gaethje after UFC 333",
       "people": [
@@ -70,11 +141,13 @@
         "16-0 pro, 7-0 UFC, ranked bantamweight; now a free agent",
         "Manager Ali Abdelaziz pushed for a new deal in August; brother Javid was released earlier and joined the PFL",
         "Held Oct 15 9 AM: no photo of Farid Basharat (v2 left rendered as silhouette); needs a Drive photo. Queue file: posts/queue/2026-10-15-0931-basharat-unbeaten-gone.json in commit e7aceb1",
-        "User added Drive photo (drive-farid-basharat) Oct 15 ~9:30 AM; posted with Petr Yan (bantamweight champ) on the right after Wikimedia matched the wrong person for Ali Abdelaziz"
+        "User added Drive photo (drive-farid-basharat) Oct 15 ~9:30 AM; posted with Petr Yan (bantamweight champ) on the right after Wikimedia matched the wrong person for Ali Abdelaziz",
+        "Oct 15 ~12:19 PM: Basharat confirmed the exit himself: 'I am no longer with the UFC', leaves with a stainless record, says the organisation 'isn't what it used to be', calls himself the best bantamweight in the world (Cageside). Not posted as an update at 1 PM (modest new fact, daytime limit)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
-        "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/"
+        "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/",
+        "https://cagesidepress.com/2026/10/15/undefeated-farid-basharat-confirms-ufc-departure/"
       ],
       "posts": [
         {
