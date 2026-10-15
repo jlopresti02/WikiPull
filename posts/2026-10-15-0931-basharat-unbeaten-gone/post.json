@@ -9,7 +9,8 @@
     },
     {
       "type": "fighter",
-      "name": "Ali Abdelaziz"
+      "name": "Petr Yan",
+      "file": "drive-petr-yan-champ"
     }
   ],
   "color": "#111111",
@@ -44,7 +45,8 @@
     ],
     "right": [
       {
-        "name": "Ali Abdelaziz"
+        "name": "Petr Yan",
+        "file": "drive-petr-yan-champ"
       }
     ],
     "story": "The UFC didn't renew unbeaten Farid Basharat, so he's now a free agent.",
@@ -65,8 +67,8 @@
     },
     "right_subject": {
       "kind": "fighter",
-      "image": "images/ali-abdelaziz/cutouts/01-ali-abdelaziz.png",
-      "credit": "Sgt. Christian Brown / Public domain"
+      "image": "images/petr-yan/cutouts/drive-petr-yan-champ.png",
+      "credit": "WWIT MMA News"
     }
   },
   "subject": {
@@ -74,7 +76,7 @@
     "image": "images/farid-basharat/cutouts/drive-farid-basharat.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
-  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
-  "music_start": 164.75
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
 }
