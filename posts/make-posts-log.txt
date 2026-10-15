@@ -1,56 +1,16 @@
-[0;93m2026-10-15 02:06:27.683053072 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-cooking-with-volk.png
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-funny-emo.png
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-no-belt.png
-  cutout images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-street-fighter.png
-Done: 5 new cutout(s).
-[0;93m2026-10-15 02:09:34.680239451 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/islam-makhachev/cutouts/drive-double-champ-1.png
-  cutout images/islam-makhachev/cutouts/drive-double-champ-2.png
-  cutout images/islam-makhachev/cutouts/drive-funny.png
-  cutout images/islam-makhachev/cutouts/drive-islam-makhachev.png
-Done: 4 new cutout(s).
-[0;93m2026-10-15 02:11:06.404514370 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/justin-gaethje/cutouts/drive-justin-gaethje-belt.png
-Done: 1 new cutout(s).
-[0;93m2026-10-15 02:11:32.803096639 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png
-  cutout images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-double-flag.png
-  cutout images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
-Done: 3 new cutout(s).
-[0;93m2026-10-15 02:12:35.883799351 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/movsar-evloev/cutouts/drive-movsar-evloev.png
-Done: 1 new cutout(s).
-[0;93m2026-10-15 02:13:01.893703821 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/petr-yan/cutouts/drive-petr-yan-champ.png
-  cutout images/petr-yan/cutouts/drive-petr-yan.png
-Done: 2 new cutout(s).
-Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-cooking-with-volk.jpg
-Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-street-fighter.png
-Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-no-belt.jpg
-Drive: saved images/alexander-volkanovski/drive-alexander-volkanovski-funny-emo.jpg
-Drive: saved images/movsar-evloev/drive-movsar-evloev.jpg
-Drive: saved images/petr-yan/drive-petr-yan.jpg
-Drive: saved images/merab-dvalishvili/drive-merab-dvalishvili-champ.jpg
-Drive: saved images/merab-dvalishvili/drive-merab-dvalishvili-double-flag.jpg
-Drive: saved images/merab-dvalishvili/drive-merab-dvalishvili.jpg
-Drive: saved images/petr-yan/drive-petr-yan-champ.jpg
-Drive: saved images/islam-makhachev/drive-double-champ-2.jpg
-Drive: saved images/islam-makhachev/drive-double-champ-1.jpg
-Drive: saved images/islam-makhachev/drive-islam-makhachev.jpg
-Drive: saved images/islam-makhachev/drive-funny.jpg
-Drive: saved images/justin-gaethje/drive-justin-gaethje-belt.jpg
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/alexander-volkanovski
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/islam-makhachev
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/justin-gaethje
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/merab-dvalishvili
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/movsar-evloev
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/petr-yan
-Queue is empty.
+
+== 2026-10-14-2230-merab-ten-seconds.json
+Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png  headline: 10 Seconds
+v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
+v2 right: images/petr-yan/cutouts/drive-petr-yan-champ.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-14-2230-merab-ten-seconds/post.png (fighter)
+Rendered posts/2026-10-14-2230-merab-ten-seconds/reel.mp4 (format v2)
+
+== 2026-10-14-2231-harrison-armbar-me.json
+Image: {'type': 'fighter', 'name': 'Kayla Harrison', 'file': '02-kayla-harrison-rio-2016-cropped'} -> fighter images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png  headline: Armbar Me?
+v2 left: images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png
+v2 right: images/ronda-rousey/cutouts/02-ronda-rousey.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-14-2231-harrison-armbar-me/post.png (fighter)
+Rendered posts/2026-10-14-2231-harrison-armbar-me/reel.mp4 (format v2)
