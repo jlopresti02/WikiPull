@@ -2,6 +2,112 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "volkanovski-wants-gaethje-lightweight-superfight",
+      "title": "Volkanovski pitches a lightweight title super fight with Justin Gaethje after UFC 333",
+      "people": [
+        "Alexander Volkanovski",
+        "Justin Gaethje"
+      ],
+      "event": "UFC 333 (Oct 24, Abu Dhabi)",
+      "first_reported": "2026-10-15",
+      "facts": [
+        "On the 'Who The Fook Are These Guys?' podcast Volkanovski floated a super fight for Gaethje's lightweight title",
+        "Must first defend featherweight title vs Movsar Evloev at UFC 333, Oct 24, Abu Dhabi",
+        "Bloody Elbow framed it as a fight that 'ends in two retirements'; invitation only, not a booking; Arman Tsarukyan also chasing Gaethje",
+        "Held at 9 AM run for the evening (Oct 15 daytime limit); v2 Volkanovski (drive) vs Gaethje (drive-justin-gaethje-belt)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/alexander-volkanovski-justin-gaethje-lightweight-title-superfight",
+        "https://bloodyelbow.com/2026/10/15/alexander-volkanovski-wants-super-fight-that-ends-in-two-retirements-after-ufc-333-title-defense/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "covington-vs-danis-hype-rome-grappling",
+      "title": "Colby Covington vs Dillon Danis submission-only grappling rematch at Hype Rome, Nov 3",
+      "people": [
+        "Colby Covington",
+        "Dillon Danis"
+      ],
+      "event": "Hype Rome (Nov 3)",
+      "first_reported": "2026-10-14",
+      "sport": "grappling",
+      "facts": [
+        "Submission-only grappling match, Hype event in Rome, Nov 3",
+        "Covington beat Danis 14-4 at RAF 7",
+        "Danis faces Arman Tsarukyan at RAF 14 on Oct 23",
+        "Covington reportedly also has a Nov 14 match with Khamzat Chimaev in Abu Dhabi"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/colby-covington-dillon-danis-hype-rome-submission-only",
+        "https://bloodyelbow.com/2026/10/14/colby-covington-set-to-take-on-dillon-danis-just-days-before-khamzat-chimaev-match/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-15-0932-covington-danis-again",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "ufc-lets-unbeaten-farid-basharat-go",
+      "title": "UFC lets unbeaten bantamweight Farid Basharat (16-0, 7-0 UFC) go; now a free agent",
+      "people": [
+        "Farid Basharat",
+        "Javid Basharat",
+        "Ali Abdelaziz"
+      ],
+      "event": null,
+      "first_reported": "2026-10-14",
+      "facts": [
+        "Contract ran out after UFC 329 win over John Garza and was not renewed (reported by Guilherme Cruz)",
+        "16-0 pro, 7-0 UFC, ranked bantamweight; now a free agent",
+        "Manager Ali Abdelaziz pushed for a new deal in August; brother Javid was released earlier and joined the PFL"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
+        "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-15-0931-basharat-unbeaten-gone",
+          "kind": "new",
+          "format": "trial_reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "pimblett-calls-topuria-damaged-goods",
+      "title": "Paddy Pimblett calls Ilia Topuria 'damaged goods' after Gaethje loss",
+      "people": [
+        "Paddy Pimblett",
+        "Ilia Topuria"
+      ],
+      "event": null,
+      "first_reported": "2026-10-15",
+      "facts": [
+        "Pimblett (All Out Fighting): doesn't think Topuria will ever be the same when he comes back after losing the title to Gaethje at UFC Freedom 250",
+        "Pimblett (MMA Mania): 'There's only Ilia Topuria left, really'",
+        "Related: pimblett-wants-tuf-vs-topuria"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Paddy-Pimblett-calls-Ilia-Topuria-damaged-goods-after-Justin-Gaethje-loss-203224",
+        "https://www.sportskeeda.com/mma/news-damaged-goods-paddy-pimblett-explains-ilia-topuria-returns-ufc"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-15-0930-pimblett-damaged-goods",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "merab-knew-yan-rematch-lost-ufc-333",
       "title": "Merab Dvalishvili: knew the Yan rematch was lost after one stuffed takedown; Yan says pressure makes diamonds ahead of UFC 333 trilogy",
       "people": [
