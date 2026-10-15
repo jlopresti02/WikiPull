@@ -48,7 +48,10 @@
           "post": "2026-10-15-0932-covington-danis-again",
           "kind": "new",
           "format": "trial_reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-15T10:10:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4013174459460240053",
+          "image": "01-colby-covington-2023 vs 01-dillon-danis-weigh-in-2023-cropped (Wikimedia)"
         }
       ]
     },
@@ -65,20 +68,15 @@
       "facts": [
         "Contract ran out after UFC 329 win over John Garza and was not renewed (reported by Guilherme Cruz)",
         "16-0 pro, 7-0 UFC, ranked bantamweight; now a free agent",
-        "Manager Ali Abdelaziz pushed for a new deal in August; brother Javid was released earlier and joined the PFL"
+        "Manager Ali Abdelaziz pushed for a new deal in August; brother Javid was released earlier and joined the PFL",
+        "Held Oct 15 9 AM: no photo of Farid Basharat (v2 left rendered as silhouette); needs a Drive photo. Queue file: posts/queue/2026-10-15-0931-basharat-unbeaten-gone.json in commit e7aceb1"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
         "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/"
       ],
-      "posts": [
-        {
-          "post": "2026-10-15-0931-basharat-unbeaten-gone",
-          "kind": "new",
-          "format": "trial_reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "pimblett-calls-topuria-damaged-goods",
@@ -103,7 +101,10 @@
           "post": "2026-10-15-0930-pimblett-damaged-goods",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-15T09:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7093469343607534030",
+          "image": "01-ufc-star-paddy-the-baddy-pimblett (Wikimedia) vs 02-ilia-topuria-orbeliani-palace-cropped (Wikimedia)"
         }
       ]
     },
