@@ -14,6 +14,26 @@ every run.
 - Repo: **jlopresti02/WikiPull** (public; Metricool pulls videos from it)
 - Music: the ESPN-style pool, `"music_pool": "espn"` (rotates automatically)
 
+## Reach recovery mode (user decision, Oct 15) — overrides the cap rules below
+
+Views collapsed on Oct 14: a median of about 140 views per Reel Oct 9-13,
+then 5-93 on every post from Oct 14 on, star stories included (Pereira
+25, Volkanovski 13), while watch time and 3-second view rate stayed
+normal. That points to Instagram cutting the account's distribution, not
+weaker stories. So, until the user says otherwise (review on Oct 19):
+- **Cap: 4 automated news posts per day**, not 10. Oct 15 already had 6,
+  so nothing more goes out Oct 15; the cap applies from Oct 16.
+- **Evening only**: schedule them between 7 PM and 12:30 AM (the 9 AM and
+  1 PM runs still sweep, brief and hold the best stories for the evening
+  with `held_for_evening`; the 6 PM and 10 PM runs pick the best 4).
+- **Star + conflict stories only**, as regular Reels. **No Trial Reels**:
+  no adjacent-sports posts and no ONE Trial Reels while this is on.
+- The breaking-news exception still applies (it can go past 4).
+- Carousels (6b/6c) and user requests are unchanged and don't count.
+- Each run, pull Metricool Reels views (`getAnalyticsDataByMetrics`,
+  IGRE02/IGRE23/IGRE24/IGRE28) and say in the report whether views per
+  Reel are recovering.
+
 ## Requested stories (one-time)
 
 Post these on the next run even if they fall outside the sweep window,
