@@ -1,0 +1,81 @@
+{
+  "story_id": "covington-vs-danis-hype-rome-grappling",
+  "headline": "Round 2",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Colby Covington",
+      "file": "01-colby-covington-2023"
+    },
+    {
+      "type": "fighter",
+      "name": "Dillon Danis"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Colby Covington and Dillon Danis are running it back, submission-only this time.\nColby or Danis? 👇\n\nThe pair meet in a grappling match at Hype in Rome on Nov 3, after Covington beat Danis 14-4 in wrestling at RAF 7. Danis also faces Arman Tsarukyan at RAF 14 on Oct 23.\n\nDoes Danis get revenge?",
+  "hashtags": [
+    "MMANews",
+    "Grappling",
+    "Hype",
+    "ColbyCovington",
+    "DillonDanis"
+  ],
+  "sources": [
+    "MiddleEasy",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Colby or Danis?",
+  "follow_card": true,
+  "reel": true,
+  "trial_reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "HYPE ROME · GRAPPLING",
+    "kicker": "SUB-ONLY REMATCH",
+    "hook": "Colby vs Danis 2",
+    "left": [
+      {
+        "name": "Colby Covington",
+        "file": "01-colby-covington-2023"
+      }
+    ],
+    "right": [
+      {
+        "name": "Dillon Danis"
+      },
+      {
+        "name": "Arman Tsarukyan"
+      }
+    ],
+    "story": "Covington beat Danis 14-4 at RAF 7. Now it's submission-only in Rome.",
+    "chips": [
+      "NOV 3 · ROME",
+      "RAF 7: COLBY 14-4"
+    ],
+    "question": "Colby or Danis?",
+    "options": [
+      "Colby",
+      "Danis"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/colby-covington/cutouts/01-colby-covington-2023.png",
+      "credit": "Gage Skidmore from Surprise, AZ, United States of America / CC BY-SA 2.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/dillon-danis/cutouts/01-dillon-danis-weigh-in-2023-cropped.png",
+      "credit": "Ghazi Twaissi / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/colby-covington/cutouts/01-colby-covington-2023.png",
+    "credit": "Gage Skidmore from Surprise, AZ, United States of America / CC BY-SA 2.0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
+}

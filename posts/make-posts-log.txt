@@ -1,16 +1,70 @@
+Searching Wikimedia Commons for: Farid Basharat
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Javid Basharat
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Ali Abdelaziz
+  saved images/ali-abdelaziz/01-ali-abdelaziz.jpg  [Public domain]
+Done: 1 image(s) saved.
+[0;93m2026-10-15 13:24:45.586620259 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/ali-abdelaziz/cutouts/01-ali-abdelaziz.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Farid Basharat
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Javid Basharat
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Dillon Danis
+  saved images/dillon-danis/01-dillon-danis-weigh-in-2023-cropped.jpg  [CC BY-SA 4.0]
+  saved images/dillon-danis/02-dillon-danis-weigh-in-2023.jpg  [CC BY-SA 4.0]
+  saved images/dillon-danis/03-dillon-danis-2023.jpg  [CC BY-SA 4.0]
+Done: 3 image(s) saved.
+[0;93m2026-10-15 13:25:48.329302057 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/dillon-danis/cutouts/01-dillon-danis-weigh-in-2023-cropped.png
+  cutout images/dillon-danis/cutouts/02-dillon-danis-weigh-in-2023.png
+  cutout images/dillon-danis/cutouts/03-dillon-danis-2023.png
+Done: 3 new cutout(s).
 
-== 2026-10-14-2230-merab-ten-seconds.json
-Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png  headline: 10 Seconds
-v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
-v2 right: images/petr-yan/cutouts/drive-petr-yan-champ.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-14-2230-merab-ten-seconds/post.png (fighter)
-Rendered posts/2026-10-14-2230-merab-ten-seconds/reel.mp4 (format v2)
+== 2026-10-15-0930-pimblett-damaged-goods.json
+Image: {'type': 'fighter', 'name': 'Paddy Pimblett', 'file': '01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped'} -> fighter images/paddy-pimblett/cutouts/01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped.png  headline: Damaged Goods
+v2 left: images/paddy-pimblett/cutouts/01-ufc-star-paddy-the-baddy-pimblett-tells-his-story-cropped.png
+v2 right: images/ilia-topuria/cutouts/02-ilia-topuria-at-the-orbeliani-palace-cropped.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-15-0930-pimblett-damaged-goods/post.png (fighter)
+Rendered posts/2026-10-15-0930-pimblett-damaged-goods/reel.mp4 (format v2)
 
-== 2026-10-14-2231-harrison-armbar-me.json
-Image: {'type': 'fighter', 'name': 'Kayla Harrison', 'file': '02-kayla-harrison-rio-2016-cropped'} -> fighter images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png  headline: Armbar Me?
-v2 left: images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png
-v2 right: images/ronda-rousey/cutouts/02-ronda-rousey.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-14-2231-harrison-armbar-me/post.png (fighter)
-Rendered posts/2026-10-14-2231-harrison-armbar-me/reel.mp4 (format v2)
+== 2026-10-15-0931-basharat-unbeaten-gone.json
+$ fetch.py Farid Basharat --count 5
+$ fetch.py Javid Basharat --count 5
+$ fetch.py Ali Abdelaziz --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ali-abdelaziz
+Image: {'type': 'fighter', 'name': 'Ali Abdelaziz'} -> fighter images/ali-abdelaziz/cutouts/01-ali-abdelaziz.png  headline: 16-0 & Gone
+$ fetch.py Farid Basharat --count 5
+v2 left: silhouette
+$ fetch.py Javid Basharat --count 5
+v2 right: images/ali-abdelaziz/cutouts/01-ali-abdelaziz.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-15-0931-basharat-unbeaten-gone/post.png (fighter)
+Rendered posts/2026-10-15-0931-basharat-unbeaten-gone/reel.mp4 (format v2)
+
+== 2026-10-15-0932-covington-danis-again.json
+Image: {'type': 'fighter', 'name': 'Colby Covington', 'file': '01-colby-covington-2023'} -> fighter images/colby-covington/cutouts/01-colby-covington-2023.png  headline: Round 2
+v2 left: images/colby-covington/cutouts/01-colby-covington-2023.png
+$ fetch.py Dillon Danis --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/dillon-danis
+v2 right: images/dillon-danis/cutouts/01-dillon-danis-weigh-in-2023-cropped.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-15-0932-covington-danis-again/post.png (fighter)
+Rendered posts/2026-10-15-0932-covington-danis-again/reel.mp4 (format v2)
