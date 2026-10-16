@@ -15,7 +15,8 @@
       "facts": [
         "Announced during UFC 332 broadcast",
         "Moreno vs. Charles Johnson also added",
-        "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'"
+        "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'",
+        "Oct 16 6 PM run: 'Rich Kid?' v2 rendered with a silhouette for Joe Pyfer (no Wikimedia photo under 'Joe Pyfer'/'Joseph Pyfer'); held for a Pyfer photo in Drive. Queue file: posts/queue/2026-10-16-1830-nickal-rich-kid.json (commit 504794b)"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
@@ -33,14 +34,9 @@
           "image": "fighter photo (Bo Nickal)",
           "scheduled_for": "2026-10-04T00:40:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
-        },
-        {
-          "post": "2026-10-16-1830-nickal-rich-kid",
-          "kind": "update",
-          "format": "reel",
-          "style": "v2"
         }
-      ]
+      ],
+      "held_for_photo": true
     },
     {
       "id": "strickland-edmonton-trash-can-chased",
@@ -107,21 +103,16 @@
         "Adesanya is on a four-fight skid, finished in his last three, most recently a second-round KO loss to Joe Pyfer; would return after nearly 10 months",
         "Adesanya has left City Kickboxing/Eugene Bareman and now trains with Volkanovski and Mauricio Ruffy; says he isn't retiring",
         "Magomedov lost to Michael Page in 2025, then won two straight, last a decision over Michel Pereira at UFC Baku",
-        "Found at Oct 15 10 PM run; held for Oct 16 evening (Oct 15 past the 4/day reach-recovery cap). Neither fighter has a Drive photo; workflow would fetch Wikimedia"
+        "Found at Oct 15 10 PM run; held for Oct 16 evening (Oct 15 past the 4/day reach-recovery cap). Neither fighter has a Drive photo; workflow would fetch Wikimedia",
+        "Oct 16 6 PM run: 'Izzy Returns?' rendered but the Wikimedia 'Sharabutdin Magomedov' photo showed the wrong person (ginger beard, beanie); removed images/shara-magomedov and held for a real Shara Magomedov photo in Drive. Queue file: posts/queue/2026-10-16-1832-izzy-vs-bullet.json (commit 504794b)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/15/israel-adesanyas-return-reportedly-set-for-ufc-saudi-arabia-main-event-against-17-1-middleweight/",
         "https://mmasucka.com/news/israel-adesanya-reportedly-has-new-ufc-opponent-after-joe-pyfer-loss/",
         "https://www.mmamania.com/latest-news/479374/report-israel-adesanya-vs-shara-bullet-targeted-for-ufc-saudi-arabia-main-event-on-dec-5"
       ],
-      "posts": [
-        {
-          "post": "2026-10-16-1832-izzy-vs-bullet",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "dana-open-to-rakhmonov-vs-morales",
