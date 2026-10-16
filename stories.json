@@ -2,6 +2,50 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "strickland-edmonton-trash-can-chased",
+      "title": "Sean Strickland calls downtown Edmonton a 'trash can', gets slapped and chased while filming homeless people before UFC Edmonton",
+      "people": [
+        "Sean Strickland"
+      ],
+      "event": "UFC Edmonton (Oct 17)",
+      "first_reported": "2026-10-16",
+      "facts": [
+        "In Edmonton for Saturday's UFC Edmonton card, Strickland called the downtown a 'trash can' over open drug use and voiced support for Alberta separatism (#FreeAlberta) (Western Standard, Daily Hive, MMA Sucka)",
+        "Video shows him slapped and chased by a man after filming homeless people downtown (Bloody Elbow, MMA Weekly, Oct 16); Strickland said 'I almost died' (EssentiallySports)",
+        "Found at Oct 16 1 PM run; held for the evening. Sensitive: frame as Strickland vs Edmonton/backlash, never mock homeless people or addiction; v2 left Strickland (Drive photo, not the funny ones). Right column needs a relevant person with a photo (e.g. Mike Malott, Canadian headliner) or hold"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/16/watch-sean-strickland-get-slapped-and-chased-for-filming-homeless-people-ahead-of-ufc-edmonton/",
+        "https://www.mmaweekly.com/news/sean-strickland-chased-down-by-homeless-canadian-over-filming",
+        "https://www.westernstandard.news/news/zombies-everywhere-ufc-champion-sean-strickland-calls-edmonton-a-trash-can-over-open-drug-use/77854",
+        "https://dailyhive.com/edmonton/sean-strickland-harsh-words-edmonton-visit-ufc-event"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "valter-walker-back-to-tire-shop-pereira",
+      "title": "Valter Walker vows to send Alex Pereira 'back to the tire shop'",
+      "people": [
+        "Valter Walker",
+        "Alex Pereira"
+      ],
+      "event": "UFC heavyweight",
+      "first_reported": "2026-10-16",
+      "facts": [
+        "Walker answered Pereira's sparring/purse dare with a first-round KO prediction and 'back to the tire shop' (Bloody Elbow, MMA Sucka, Oct 16)",
+        "New reply in the feud from pereira-dares-valter-walker-spar-purse (Oct 13 post); counts as an update (Walker's clapback). Not booked; Pereira faces Sergei Pavlovich at UFC 335, Dec 12",
+        "Also Oct 16: Pavlovich promised to 'surprise' Pereira at UFC 335 (Bloody Elbow) — can fold into a chip",
+        "Found at Oct 16 1 PM run; held for the evening. Photos: images/valter-walker, images/alex-pereira"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/16/alex-pereiras-new-feud-grows-as-16-1-ufc-heavyweight-promises-to-send-him-back-to-the-tire-shop/",
+        "https://mmasucka.com/news/back-to-the-tire-shop-valter-walker-fires-brutal-warning-at-alex-pereira-after-predicting-first-roun/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "adesanya-vs-shara-bullet-ufc-saudi-arabia-report",
       "title": "Israel Adesanya vs. Shara Magomedov reportedly targeted for UFC Saudi Arabia main event, Dec 5",
       "people": [
