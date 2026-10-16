@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "adesanya-vs-shara-bullet-ufc-saudi-arabia-report",
+      "title": "Israel Adesanya vs. Shara Magomedov reportedly targeted for UFC Saudi Arabia main event, Dec 5",
+      "people": [
+        "Israel Adesanya",
+        "Shara Magomedov"
+      ],
+      "event": "UFC Saudi Arabia (Dec 5)",
+      "first_reported": "2026-10-15",
+      "facts": [
+        "First reported by Ariel Helwani (per MMA Sucka); reported, not official",
+        "Adesanya is on a four-fight skid, finished in his last three, most recently a second-round KO loss to Joe Pyfer; would return after nearly 10 months",
+        "Adesanya has left City Kickboxing/Eugene Bareman and now trains with Volkanovski and Mauricio Ruffy; says he isn't retiring",
+        "Magomedov lost to Michael Page in 2025, then won two straight, last a decision over Michel Pereira at UFC Baku",
+        "Found at Oct 15 10 PM run; held for Oct 16 evening (Oct 15 past the 4/day reach-recovery cap). Neither fighter has a Drive photo; workflow would fetch Wikimedia"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/15/israel-adesanyas-return-reportedly-set-for-ufc-saudi-arabia-main-event-against-17-1-middleweight/",
+        "https://mmasucka.com/news/israel-adesanya-reportedly-has-new-ufc-opponent-after-joe-pyfer-loss/",
+        "https://www.mmamania.com/latest-news/479374/report-israel-adesanya-vs-shara-bullet-targeted-for-ufc-saudi-arabia-main-event-on-dec-5"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "dana-open-to-rakhmonov-vs-morales",
       "title": "Dana White leaves the door open for Shavkat Rakhmonov vs. Michael Morales (19-0 vs 19-0)",
       "people": [
