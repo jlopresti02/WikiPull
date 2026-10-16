@@ -74,7 +74,8 @@
         "Walker answered Pereira's sparring/purse dare with a first-round KO prediction and 'back to the tire shop' (Bloody Elbow, MMA Sucka, Oct 16)",
         "New reply in the feud from pereira-dares-valter-walker-spar-purse (Oct 13 post); counts as an update (Walker's clapback). Not booked; Pereira faces Sergei Pavlovich at UFC 335, Dec 12",
         "Also Oct 16: Pavlovich promised to 'surprise' Pereira at UFC 335 (Bloody Elbow) — can fold into a chip",
-        "Found at Oct 16 1 PM run; held for the evening. Photos: images/valter-walker, images/alex-pereira"
+        "Found at Oct 16 1 PM run; held for the evening. Photos: images/valter-walker, images/alex-pereira",
+        "Walker's record is 16-1 (Bloody Elbow headline); caption corrected from 'unbeaten' before scheduling"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/16/alex-pereiras-new-feud-grows-as-16-1-ufc-heavyweight-promises-to-send-him-back-to-the-tire-shop/",
@@ -85,7 +86,9 @@
           "post": "2026-10-16-1831-walker-tire-shop",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-16T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2975387885462440366"
         }
       ]
     },
