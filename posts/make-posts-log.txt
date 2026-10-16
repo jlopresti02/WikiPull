@@ -1,19 +1,58 @@
-Searching Wikimedia Commons for: Bruce Buffer
-  saved images/bruce-buffer/01-bruce-buffer-ufc.png  [CC0]
-  saved images/bruce-buffer/02-bruce-buffer-s-introduction-card-2012.jpg  [CC BY-SA 2.0]
+Searching Wikimedia Commons for: Joe Pyfer
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Joseph Pyfer
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Israel Adesanya
+  saved images/israel-adesanya/01-israel-adesanya-at-ufc-230.jpg  [CC BY 3.0]
+  saved images/israel-adesanya/02-israel-adesanya-with-father-femi-adesanya-in-2014.jpg  [CC BY-SA 4.0]
 Done: 2 image(s) saved.
-[0;93m2026-10-15 17:32:11.274418228 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-10-16 22:09:01.648997731 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/bruce-buffer/cutouts/01-bruce-buffer-ufc.png
-  cutout images/bruce-buffer/cutouts/02-bruce-buffer-s-introduction-card-2012.png
+  cutout images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png
+  cutout images/israel-adesanya/cutouts/02-israel-adesanya-with-father-femi-adesanya-in-2014.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Shara Magomedov
+  saved images/shara-magomedov/01-sharabutdin-magomedov-2024.png  [CC BY 3.0]
+  saved images/shara-magomedov/02-sharabutdin-magomedov-vs-antonio-tr-coli-face-off.png  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-16 22:10:35.286712427 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/shara-magomedov/cutouts/01-sharabutdin-magomedov-2024.png
+  cutout images/shara-magomedov/cutouts/02-sharabutdin-magomedov-vs-antonio-tr-coli-face-off.png
 Done: 2 new cutout(s).
 
-== 2026-10-15-1330-hokit-buffer-class.json
-Image: {'type': 'fighter', 'name': 'Josh Hokit', 'file': 'drive-josh-hokit-3'} -> fighter images/josh-hokit/cutouts/drive-josh-hokit-3.png  headline: No Class?
-v2 left: images/josh-hokit/cutouts/drive-josh-hokit-3.png
-$ fetch.py Bruce Buffer --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/bruce-buffer
-v2 right: images/bruce-buffer/cutouts/01-bruce-buffer-ufc.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-15-1330-hokit-buffer-class/post.png (fighter)
-Rendered posts/2026-10-15-1330-hokit-buffer-class/reel.mp4 (format v2)
+== 2026-10-16-1830-nickal-rich-kid.json
+Image: {'type': 'fighter', 'name': 'Bo Nickal', 'file': '03-bo-nickal-2024'} -> fighter images/bo-nickal/cutouts/03-bo-nickal-2024.png  headline: Rich Kid?
+v2 left: images/bo-nickal/cutouts/03-bo-nickal-2024.png
+$ fetch.py Joe Pyfer --count 5
+$ fetch.py Joseph Pyfer --count 5
+v2 right: silhouette
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-16-1830-nickal-rich-kid/post.png (fighter)
+Rendered posts/2026-10-16-1830-nickal-rich-kid/reel.mp4 (format v2)
+
+== 2026-10-16-1831-walker-tire-shop.json
+Image: {'type': 'fighter', 'name': 'Valter Walker', 'file': 'drive-valter-walker-3'} -> fighter images/valter-walker/cutouts/drive-valter-walker-3.png  headline: Tire Shop
+v2 left: images/valter-walker/cutouts/drive-valter-walker-3.png
+v2 right: images/alex-pereira/cutouts/drive-alex-pereira-3.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-16-1831-walker-tire-shop/post.png (fighter)
+Rendered posts/2026-10-16-1831-walker-tire-shop/reel.mp4 (format v2)
+
+== 2026-10-16-1832-izzy-vs-bullet.json
+$ fetch.py Israel Adesanya --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/israel-adesanya
+Image: {'type': 'fighter', 'name': 'Israel Adesanya'} -> fighter images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png  headline: Izzy Returns?
+v2 left: images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png
+$ fetch.py Shara Magomedov --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/shara-magomedov
+v2 right: images/shara-magomedov/cutouts/01-sharabutdin-magomedov-2024.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-16-1832-izzy-vs-bullet/post.png (fighter)
+Rendered posts/2026-10-16-1832-izzy-vs-bullet/reel.mp4 (format v2)

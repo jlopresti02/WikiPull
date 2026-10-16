@@ -58,6 +58,25 @@
     "options": [
       "Nickal",
       "Pyfer"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/bo-nickal/cutouts/03-bo-nickal-2024.png",
+      "credit": "Chamatkar Sandhu / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/bo-nickal/cutouts/03-bo-nickal-2024.png",
+    "credit": "Chamatkar Sandhu / CC BY 3.0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }

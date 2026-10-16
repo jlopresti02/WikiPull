@@ -60,6 +60,24 @@
     "options": [
       "Izzy",
       "Shara"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png",
+      "credit": "MMMAnytt / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/shara-magomedov/cutouts/01-sharabutdin-magomedov-2024.png",
+      "credit": "Sexto Round / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png",
+    "credit": "MMMAnytt / CC BY 3.0"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }
