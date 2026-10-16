@@ -2,6 +2,47 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "nickal-vs-pyfer-ufc-335",
+      "title": "Bo Nickal vs. Joe Pyfer booked for UFC 335",
+      "people": [
+        "Bo Nickal",
+        "Joe Pyfer",
+        "Brandon Moreno",
+        "Charles Johnson"
+      ],
+      "event": "UFC 335, Dec 12, 2026",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Announced during UFC 332 broadcast",
+        "Moreno vs. Charles Johnson also added",
+        "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
+        "https://bleacherreport.com/articles/25506336-ufc-335-fight-card-reveals-charles-oliveira-vs-diego-lopes-bmf-title-pereira-pavlovich-more",
+        "https://www.mmanews.com/article/bo-nickals-ufc-335-fight-gets-moved",
+        "https://sports.yahoo.com/articles/yoink-bo-nickal-vs-joe-110452143.html",
+        "https://athlonsports.com/mma/ufc-335-bo-nickal-joe-pyfer",
+        "https://bloodyelbow.com/2026/10/16/bo-nickal-announces-his-ufc-335-fight-with-joe-pyfer-has-been-postponed-until-february/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2225-nickal-vs-pyfer",
+          "kind": "new",
+          "format": "trial_reel",
+          "image": "fighter photo (Bo Nickal)",
+          "scheduled_for": "2026-10-04T00:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
+        },
+        {
+          "post": "2026-10-16-1830-nickal-rich-kid",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "strickland-edmonton-trash-can-chased",
       "title": "Sean Strickland calls downtown Edmonton a 'trash can', gets slapped and chased while filming homeless people before UFC Edmonton",
       "people": [
@@ -12,7 +53,8 @@
       "facts": [
         "In Edmonton for Saturday's UFC Edmonton card, Strickland called the downtown a 'trash can' over open drug use and voiced support for Alberta separatism (#FreeAlberta) (Western Standard, Daily Hive, MMA Sucka)",
         "Video shows him slapped and chased by a man after filming homeless people downtown (Bloody Elbow, MMA Weekly, Oct 16); Strickland said 'I almost died' (EssentiallySports)",
-        "Found at Oct 16 1 PM run; held for the evening. Sensitive: frame as Strickland vs Edmonton/backlash, never mock homeless people or addiction; v2 left Strickland (Drive photo, not the funny ones). Right column needs a relevant person with a photo (e.g. Mike Malott, Canadian headliner) or hold"
+        "Found at Oct 16 1 PM run; held for the evening. Sensitive: frame as Strickland vs Edmonton/backlash, never mock homeless people or addiction; v2 left Strickland (Drive photo, not the funny ones). Right column needs a relevant person with a photo (e.g. Mike Malott, Canadian headliner) or hold",
+        "Oct 16 6 PM run: still held for the 10 PM run (4th evening slot); post only if it still stands up and can be framed without mocking homeless people"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/16/watch-sean-strickland-get-slapped-and-chased-for-filming-homeless-people-ahead-of-ufc-edmonton/",
@@ -42,8 +84,14 @@
         "https://bloodyelbow.com/2026/10/16/alex-pereiras-new-feud-grows-as-16-1-ufc-heavyweight-promises-to-send-him-back-to-the-tire-shop/",
         "https://mmasucka.com/news/back-to-the-tire-shop-valter-walker-fires-brutal-warning-at-alex-pereira-after-predicting-first-roun/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-16-1831-walker-tire-shop",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "adesanya-vs-shara-bullet-ufc-saudi-arabia-report",
@@ -66,8 +114,14 @@
         "https://mmasucka.com/news/israel-adesanya-reportedly-has-new-ufc-opponent-after-joe-pyfer-loss/",
         "https://www.mmamania.com/latest-news/479374/report-israel-adesanya-vs-shara-bullet-targeted-for-ufc-saudi-arabia-main-event-on-dec-5"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-16-1832-izzy-vs-bullet",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "dana-open-to-rakhmonov-vs-morales",
@@ -83,12 +137,12 @@
         "Asked about the welterweight title picture, Dana White did not rule out Rakhmonov vs Morales (Sherdog, Oct 15)",
         "Not booked; follows Rakhmonov's '19-0 VS 19-0' tease (Oct 6) and Morales naming Rakhmonov his 2027 'final boss' (Oct 4)",
         "Related: rakhmonov-teases-morales-19-0-vs-19-0, morales-january-return-title-shot-plan",
-        "Held at Oct 15 6 PM run for Oct 16 evening (Oct 15 already past the 4/day reach-recovery cap); post only if it still stands up"
+        "Held at Oct 15 6 PM run for Oct 16 evening (Oct 15 already past the 4/day reach-recovery cap); post only if it still stands up",
+        "Oct 16 6 PM run: dropped as stale (held since Oct 15; 4/day reach-recovery cap went to fresher stories)"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Dana-White-leaves-door-open-for-Shavkat-Rakhmonov-vs-Michael-Morales-203223"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -136,12 +190,12 @@
         "'You've skipped the line long enough'; says Pereira needs 2-3 more wins before a heavyweight title shot; names Volkov and Blaydes as more deserving",
         "Pereira faces Sergei Pavlovich at UFC 335, Dec 12",
         "Held at 1 PM run for the evening (daytime limit 6 reached)",
-        "Oct 15: day already at 6 posts under the new 4/day reach-recovery cap; may still post Oct 16 evening if it holds up"
+        "Oct 15: day already at 6 posts under the new 4/day reach-recovery cap; may still post Oct 16 evening if it holds up",
+        "Oct 16 6 PM run: dropped as stale (held since Oct 15; 4/day reach-recovery cap went to fresher stories)"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/henry-cejudo-thinks-alex-pereira-170000691.html"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -180,13 +234,13 @@
         "Must first defend featherweight title vs Movsar Evloev at UFC 333, Oct 24, Abu Dhabi",
         "Bloody Elbow framed it as a fight that 'ends in two retirements'; invitation only, not a booking; Arman Tsarukyan also chasing Gaethje",
         "Held at 9 AM run for the evening (Oct 15 daytime limit); v2 Volkanovski (drive) vs Gaethje (drive-justin-gaethje-belt)",
-        "Oct 15: day already at 6 posts under the new 4/day reach-recovery cap; may still post Oct 16 evening if it holds up"
+        "Oct 15: day already at 6 posts under the new 4/day reach-recovery cap; may still post Oct 16 evening if it holds up",
+        "Oct 16 6 PM run: dropped as stale (held since Oct 15; 4/day reach-recovery cap went to fresher stories)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/alexander-volkanovski-justin-gaethje-lightweight-title-superfight",
         "https://bloodyelbow.com/2026/10/15/alexander-volkanovski-wants-super-fight-that-ends-in-two-retirements-after-ufc-333-title-defense/"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -3675,36 +3729,6 @@
           "image": "fighter photo (Roman Kopylov, user upload)",
           "scheduled_for": "2026-10-04T02:40:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=9181348136481933692"
-        }
-      ]
-    },
-    {
-      "id": "nickal-vs-pyfer-ufc-335",
-      "title": "Bo Nickal vs. Joe Pyfer booked for UFC 335",
-      "people": [
-        "Bo Nickal",
-        "Joe Pyfer",
-        "Brandon Moreno",
-        "Charles Johnson"
-      ],
-      "event": "UFC 335, Dec 12, 2026",
-      "first_reported": "2026-10-03",
-      "facts": [
-        "Announced during UFC 332 broadcast",
-        "Moreno vs. Charles Johnson also added"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
-        "https://bleacherreport.com/articles/25506336-ufc-335-fight-card-reveals-charles-oliveira-vs-diego-lopes-bmf-title-pereira-pavlovich-more"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-03-2225-nickal-vs-pyfer",
-          "kind": "new",
-          "format": "trial_reel",
-          "image": "fighter photo (Bo Nickal)",
-          "scheduled_for": "2026-10-04T00:40:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
         }
       ]
     },

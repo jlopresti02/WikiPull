@@ -1,0 +1,63 @@
+{
+  "story_id": "nickal-vs-pyfer-ufc-335",
+  "headline": "Rich Kid?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Bo Nickal",
+      "file": "03-bo-nickal-2024"
+    },
+    {
+      "type": "fighter",
+      "name": "Joe Pyfer"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Bo Nickal says his Joe Pyfer fight just got pulled from UFC 335 and turned into a main event, and Pyfer is already firing back.\nNickal or Pyfer? 👇\n\nPer Nickal, the middleweight grudge match moves to a UFC card in Cleveland in February; the UFC hasn't announced it yet. Pyfer answered online by calling it poor kid vs. rich kid.\n\nWho gets their hand raised?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCCleveland",
+    "BoNickal",
+    "JoePyfer"
+  ],
+  "sources": [
+    "MMA News",
+    "MMA Mania",
+    "Athlon Sports"
+  ],
+  "music_pool": "espn",
+  "question": "Nickal or Pyfer?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "POOR KID VS RICH KID",
+    "hook": "Nickal vs Pyfer",
+    "left": [
+      {
+        "name": "Bo Nickal",
+        "file": "03-bo-nickal-2024"
+      }
+    ],
+    "right": [
+      {
+        "name": "Joe Pyfer"
+      },
+      {
+        "name": "Joseph Pyfer"
+      }
+    ],
+    "story": "Nickal says the fight left UFC 335 to headline Cleveland in February. Pyfer fired back right away.",
+    "chips": [
+      "NOW: FEB · CLEVELAND",
+      "PER NICKAL · NOT OFFICIAL"
+    ],
+    "question": "Nickal or Pyfer?",
+    "options": [
+      "Nickal",
+      "Pyfer"
+    ]
+  }
+}

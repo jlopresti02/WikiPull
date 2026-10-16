@@ -1,0 +1,65 @@
+{
+  "story_id": "adesanya-vs-shara-bullet-ufc-saudi-arabia-report",
+  "headline": "Izzy Returns?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Israel Adesanya"
+    },
+    {
+      "type": "fighter",
+      "name": "Shara Magomedov"
+    },
+    {
+      "type": "fighter",
+      "name": "Sharabutdin Magomedov"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Israel Adesanya is reportedly coming back against Shara Bullet in a UFC Saudi Arabia main event.\nIzzy or Shara? 👇\n\nPer Ariel Helwani, the UFC is targeting the middleweight fight for Dec 5; it isn't official yet. Adesanya has lost four straight, most recently to Joe Pyfer, while Magomedov is 17-1.\n\nCan Izzy turn it around?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCSaudiArabia",
+    "IsraelAdesanya",
+    "SharaBullet"
+  ],
+  "sources": [
+    "MMA Mania",
+    "Bloody Elbow",
+    "MMA Sucka"
+  ],
+  "music_pool": "espn",
+  "question": "Izzy or Shara?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "REPORTED MAIN EVENT",
+    "hook": "Izzy vs Bullet",
+    "left": [
+      {
+        "name": "Israel Adesanya"
+      }
+    ],
+    "right": [
+      {
+        "name": "Shara Magomedov"
+      },
+      {
+        "name": "Sharabutdin Magomedov"
+      }
+    ],
+    "story": "Adesanya is reportedly set to end his losing skid against Shara Bullet in Saudi Arabia.",
+    "chips": [
+      "DEC 5 · REPORTED",
+      "SHARA 17-1"
+    ],
+    "question": "Izzy or Shara?",
+    "options": [
+      "Izzy",
+      "Shara"
+    ]
+  }
+}

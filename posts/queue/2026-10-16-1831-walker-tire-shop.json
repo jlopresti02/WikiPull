@@ -1,0 +1,61 @@
+{
+  "story_id": "valter-walker-back-to-tire-shop-pereira",
+  "headline": "Tire Shop",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Valter Walker",
+      "file": "drive-valter-walker-3"
+    },
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "drive-alex-pereira-3"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "UPDATE: Valter Walker just told Alex Pereira he'd send him back to the tire shop.\nWalker or Pereira? 👇\n\nThe unbeaten UFC heavyweight answered Pereira's sparring dare by predicting a first-round knockout. Pereira is booked against Sergei Pavlovich at UFC 335 on Dec 12, so this one isn't happening yet.\n\nShould the UFC book it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "AlexPereira",
+    "ValterWalker"
+  ],
+  "sources": [
+    "Bloody Elbow",
+    "MMA Sucka"
+  ],
+  "music_pool": "espn",
+  "question": "Walker or Pereira?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "FIRST-ROUND KO?",
+    "hook": "Walker vs Poatan",
+    "left": [
+      {
+        "name": "Valter Walker",
+        "file": "drive-valter-walker-3"
+      }
+    ],
+    "right": [
+      {
+        "name": "Alex Pereira",
+        "file": "drive-alex-pereira-3"
+      }
+    ],
+    "story": "Pereira dared Walker to spar for his purse. Walker says he'd send Poatan back to the tire shop.",
+    "chips": [
+      "NOT BOOKED",
+      "PEREIRA VS PAVLOVICH · DEC 12"
+    ],
+    "question": "Walker or Pereira?",
+    "options": [
+      "Walker",
+      "Pereira"
+    ]
+  }
+}
