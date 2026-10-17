@@ -2,6 +2,121 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "cejudo-says-khabib-couldnt-make-it-wrestling",
+      "title": "Henry Cejudo discredits Khabib Nurmagomedov's wrestling, says 'he couldn't make it'",
+      "people": [
+        "Henry Cejudo",
+        "Khabib Nurmagomedov"
+      ],
+      "event": "No fight (feud/commentary)",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "Cejudo (Olympic freestyle gold) questioned Khabib's wrestling credentials, claiming 'he couldn't make it' (Bloody Elbow, Oct 17); article body not readable at 1 PM run, confirm exact context/quote before writing",
+        "Related: Khabib told BJPenn he's in his wrestling 'prime' years after retiring",
+        "Found at Oct 17 1 PM run; held for the evening (reach recovery). Suggested v2: left Henry Cejudo (Wikimedia 03-henry-cejudo used Oct 16), right Khabib Nurmagomedov (images/khabib-nurmagomedov)"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/17/henry-cejudo-discredits-khabib-nurmagomedovs-wrestling-acumen-claiming-he-couldnt-make-it/"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "belal-trolls-leon-edwards-wrestling-cornering",
+      "title": "Belal Muhammad trolls Leon Edwards: 'My wrestling better than Leon's'",
+      "people": [
+        "Belal Muhammad",
+        "Leon Edwards"
+      ],
+      "event": "UFC welterweight (no fight booked)",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "On X (Oct 17) Belal posted a photo of Edwards grappling with Christian Leroy Duncan, whom Belal's teammate Brendan Allen submitted at UFC Vegas 122: 'My wrestling better than Leon's. My cornering better than Leon's.' and 'Even my bald patch is better than Leon's' (MMA Sucka, Oct 17)",
+        "Belal has lost three straight (Della Maddalena, Garry, Bonfim) and lost an RAF wrestling match to Colby Covington by tech fall; Edwards is on a three-fight skid (Belal, Sean Brady, Carlos Prates KO). Neither has a fight booked",
+        "Found at Oct 17 1 PM run; held for the evening. Suggested v2: left Belal Muhammad, right Leon Edwards"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/belal-muhammad-trolls-leon-edwards-as-ufc-rivalry-rages-on/"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "hokit-lists-four-reasons-pereira-spoiled",
+      "title": "Josh Hokit lists four points to prove Alex Pereira is 'spoiled'",
+      "people": [
+        "Josh Hokit",
+        "Alex Pereira"
+      ],
+      "event": "UFC heavyweight feud",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "Hokit laid out four points to argue Pereira is 'spoiled' (Bloody Elbow, Oct 17); echoes Cejudo's 'spoiled, skipped the line' claim (cejudo-says-pereira-spoiled-skipped-line). Article body not read; confirm the four points before writing",
+        "Feud has been posted many times (hokit-pereira-witchcraft-claims, pereira-hokit-ufc-334-main-event-spat, pereira-says-ufc-dc-manipulated-fans-gane-hokit); only post if the four points add a genuinely new angle; lower priority than Cejudo/Khabib and Belal/Leon",
+        "Found at Oct 17 1 PM run; held for the evening"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/17/josh-hokit-lists-four-points-to-prove-that-ufc-rival-alex-pereira-is-spoiled/"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "volkanovski-post-retirement-plans-topuria-cooking",
+      "title": "Alexander Volkanovski details post-retirement career plans, cooking series with Ilia Topuria and Dagestan hunting trip with Islam Makhachev",
+      "people": [
+        "Alexander Volkanovski",
+        "Ilia Topuria",
+        "Islam Makhachev"
+      ],
+      "event": "No fight",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "Bloody Elbow (Oct 17): Volkanovski detailed plans for a big career change after retiring; MMA Sucka (Oct 17): plans to reunite with Topuria for a new cooking series and a hunting trip with Makhachev in Dagestan",
+        "Not posted: lighthearted, no conflict (reach recovery = star + conflict only). Drive has 'cooking with volk' photo if ever used"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/17/alexander-volkanovski-details-plan-for-huge-career-change-after-retiring-from-the-ufc/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "jaqueline-amorim-six-month-suspension-tainted-supplement",
+      "title": "Jaqueline Amorim suspended six months after failed UFC drug test (tainted supplement)",
+      "people": [
+        "Jaqueline Amorim"
+      ],
+      "event": "UFC anti-doping",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "Ranked strawweight Amorim got a six-month suspension; violation tied to a tainted supplement (MMA Weekly, Yahoo, Bloody Elbow Oct 17)",
+        "Not posted: lesser-known, no conflict (reach recovery mode)"
+      ],
+      "sources": [
+        "https://www.mmaweekly.com/news/tainted-supplement-lands-ranked-ufc-fighter-a-six-month-suspension",
+        "https://bloodyelbow.com/2026/10/17/ranked-ufc-contender-handed-six-month-suspension-after-failing-drug-test/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "garbrandt-books-match-different-sport",
+      "title": "Cody Garbrandt books a match in a different sport after losing 8 of his last 12",
+      "people": [
+        "Cody Garbrandt"
+      ],
+      "event": "Adjacent sport (details unconfirmed)",
+      "first_reported": "2026-10-17",
+      "sport": "unknown",
+      "facts": [
+        "Headline only (Bloody Elbow, Oct 17); sport and opponent not confirmed at 1 PM run",
+        "Not posted: adjacent sports/Trial Reels paused in reach recovery mode"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/17/ex-ufc-champion-cody-garbrandt-books-match-in-a-different-sport-after-losing-8-of-his-last-12-fights/"
+      ],
+      "posts": []
+    },
+    {
       "id": "oliveira-says-garry-showed-prates-how-to-beat-makhachev",
       "title": "Charles Oliveira says Ian Machado Garry showed Carlos Prates how to beat Islam Makhachev",
       "people": [
@@ -15,7 +130,8 @@
       "facts": [
         "Oliveira (Garry's training partner) said Garry's UFC 330 fight with Makhachev gave Prates the blueprint to beat the welterweight champion (Sherdog, Oct 16)",
         "Related: jean-silva-doubts-makhachev-five-rounds-prates",
-        "Found at Oct 17 9 AM run; held for the evening (reach recovery: evening only). Suggested v2: left Charles Oliveira, right Islam Makhachev; check details before writing"
+        "Found at Oct 17 9 AM run; held for the evening (reach recovery: evening only). Suggested v2: left Charles Oliveira, right Islam Makhachev; check details before writing",
+        "Oct 17 1 PM run: still held for the evening"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/list"
