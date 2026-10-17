@@ -1,0 +1,60 @@
+{
+  "story_id": "oliveira-says-garry-showed-prates-how-to-beat-makhachev",
+  "headline": "The Blueprint",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Charles Oliveira",
+      "file": "drive-charles-oliveira"
+    },
+    {
+      "type": "fighter",
+      "name": "Islam Makhachev",
+      "file": "drive-double-champ-1"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Charles Oliveira thinks Islam Makhachev can be beaten, and he says the map already exists.\nMakhachev or Prates? 👇\n\nOliveira says Ian Machado Garry's UFC 330 fight with Makhachev showed Carlos Prates how to take the welterweight title. Do Bronx is Garry's training partner, so he's seen the plan up close.\n\nDoes Prates crack the code?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCNews",
+    "CharlesOliveira",
+    "IslamMakhachev"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Makhachev or Prates?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · WELTERWEIGHT",
+    "kicker": "CHAMP CAN BE BEAT?",
+    "hook": "Oliveira on Islam",
+    "left": [
+      {
+        "name": "Charles Oliveira",
+        "file": "drive-charles-oliveira"
+      }
+    ],
+    "right": [
+      {
+        "name": "Islam Makhachev",
+        "file": "drive-double-champ-1"
+      }
+    ],
+    "story": "Oliveira says Garry's fight with Makhachev gave Carlos Prates the blueprint to beat him.",
+    "chips": [
+      "UFC 330",
+      "WELTERWEIGHT TITLE"
+    ],
+    "question": "Makhachev or Prates?",
+    "options": [
+      "Makhachev",
+      "Prates"
+    ]
+  }
+}

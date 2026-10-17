@@ -1,0 +1,28 @@
+{
+  "story_id": "belal-trolls-leon-edwards-wrestling-cornering",
+  "headline": "Better Than Leon",
+  "visual": [
+    {"type": "fighter", "name": "Belal Muhammad", "file": "drive-belal-muhammad"},
+    {"type": "fighter", "name": "Leon Edwards", "file": "drive-leon-edwards"}
+  ],
+  "color": "#d2202f",
+  "caption": "Belal Muhammad just took another shot at Leon Edwards, and this one got personal.\nBelal or Leon? 👇\n\nOn X, the former UFC welterweight champ claimed his wrestling, his cornering and even his bald patch are better than Leon's. Both men are on three-fight skids with no fight booked, so a trilogy suddenly makes sense.\n\nRun it back a third time?",
+  "hashtags": ["MMANews", "UFC", "UFCNews", "BelalMuhammad", "LeonEdwards"],
+  "sources": ["MMA Sucka"],
+  "music_pool": "espn",
+  "question": "Belal or Leon?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · WELTERWEIGHT",
+    "kicker": "RIVALRY REIGNITES",
+    "hook": "Belal vs Leon",
+    "left": [{"name": "Belal Muhammad", "file": "drive-belal-muhammad"}],
+    "right": [{"name": "Leon Edwards", "file": "drive-leon-edwards"}],
+    "story": "Belal says his wrestling, his cornering and even his bald patch beat Leon's.",
+    "chips": ["BOTH ON 3-FIGHT SKIDS", "NO FIGHT BOOKED"],
+    "question": "Belal or Leon?",
+    "options": ["Belal", "Leon"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "story_id": "cejudo-says-khabib-couldnt-make-it-wrestling",
+  "headline": "Couldn't Make It",
+  "visual": [
+    {"type": "fighter", "name": "Henry Cejudo", "file": "03-henry-cejudo"},
+    {"type": "fighter", "name": "Khabib Nurmagomedov", "file": "drive-khabib-as-coach"}
+  ],
+  "color": "#6b2fd1",
+  "caption": "Henry Cejudo is questioning Khabib Nurmagomedov's wrestling.\nCejudo or Khabib? 👇\n\nThe Olympic gold medalist reportedly said fighters who can't make it in wrestling turn to sambo, and named the unbeaten former UFC lightweight champion. Khabib recently said he's in his wrestling prime even after retiring from MMA.\n\nWho wins on the mats?",
+  "hashtags": ["MMANews", "UFC", "UFCNews", "HenryCejudo", "KhabibNurmagomedov"],
+  "sources": ["Bloody Elbow", "MMA Sucka"],
+  "music_pool": "espn",
+  "question": "Cejudo or Khabib?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · WRESTLING BEEF",
+    "kicker": "OLYMPIAN VS EAGLE",
+    "hook": "Cejudo vs Khabib",
+    "left": [{"name": "Henry Cejudo", "file": "03-henry-cejudo"}],
+    "right": [{"name": "Khabib Nurmagomedov", "file": "drive-khabib-as-coach"}],
+    "story": "Cejudo says those who can't make it in wrestling turn to sambo, and named Khabib.",
+    "chips": ["OLYMPIC GOLD 2008", "KHABIB 29-0"],
+    "question": "Cejudo or Khabib?",
+    "options": ["Cejudo", "Khabib"]
+  }
+}
