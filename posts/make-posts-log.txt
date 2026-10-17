@@ -1,8 +1,24 @@
 
-== 2026-10-16-2230-buckley-snubs-dana.json
-Image: {'type': 'fighter', 'name': 'Joaquin Buckley', 'file': 'drive-joaquin-buckley'} -> fighter images/joaquin-buckley/cutouts/drive-joaquin-buckley.png  headline: Snubbed
-v2 left: images/joaquin-buckley/cutouts/drive-joaquin-buckley.png
-v2 right: images/mike-malott/cutouts/drive-mike-malott.png
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-16-2230-buckley-snubs-dana/post.png (fighter)
-Rendered posts/2026-10-16-2230-buckley-snubs-dana/reel.mp4 (format v2)
+== 2026-10-17-1830-belal-trolls-leon.json
+Image: {'type': 'fighter', 'name': 'Belal Muhammad', 'file': 'drive-belal-muhammad'} -> fighter images/belal-muhammad/cutouts/drive-belal-muhammad.png  headline: Better Than Leon
+v2 left: images/belal-muhammad/cutouts/drive-belal-muhammad.png
+v2 right: images/leon-edwards/cutouts/drive-leon-edwards.png
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-17-1830-belal-trolls-leon/post.png (fighter)
+Rendered posts/2026-10-17-1830-belal-trolls-leon/reel.mp4 (format v2)
+
+== 2026-10-17-1831-cejudo-khabib-sambo.json
+Image: {'type': 'fighter', 'name': 'Henry Cejudo', 'file': '03-henry-cejudo'} -> fighter images/henry-cejudo/cutouts/03-henry-cejudo.png  headline: Couldn't Make It
+v2 left: images/henry-cejudo/cutouts/03-henry-cejudo.png
+v2 right: images/khabib-nurmagomedov/cutouts/drive-khabib-as-coach.png
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-10-17-1831-cejudo-khabib-sambo/post.png (fighter)
+Rendered posts/2026-10-17-1831-cejudo-khabib-sambo/reel.mp4 (format v2)
+
+== 2026-10-17-1832-oliveira-blueprint.json
+Image: {'type': 'fighter', 'name': 'Charles Oliveira', 'file': 'drive-charles-oliveira'} -> fighter images/charles-oliveira/cutouts/drive-charles-oliveira.png  headline: The Blueprint
+v2 left: images/charles-oliveira/cutouts/drive-charles-oliveira.png
+v2 right: images/islam-makhachev/cutouts/drive-double-champ-1.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-17-1832-oliveira-blueprint/post.png (fighter)
+Rendered posts/2026-10-17-1832-oliveira-blueprint/reel.mp4 (format v2)
