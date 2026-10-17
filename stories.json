@@ -2,6 +2,66 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "oliveira-says-garry-showed-prates-how-to-beat-makhachev",
+      "title": "Charles Oliveira says Ian Machado Garry showed Carlos Prates how to beat Islam Makhachev",
+      "people": [
+        "Charles Oliveira",
+        "Ian Machado Garry",
+        "Carlos Prates",
+        "Islam Makhachev"
+      ],
+      "event": "UFC welterweight title picture",
+      "first_reported": "2026-10-16",
+      "facts": [
+        "Oliveira (Garry's training partner) said Garry's UFC 330 fight with Makhachev gave Prates the blueprint to beat the welterweight champion (Sherdog, Oct 16)",
+        "Related: jean-silva-doubts-makhachev-five-rounds-prates",
+        "Found at Oct 17 9 AM run; held for the evening (reach recovery: evening only). Suggested v2: left Charles Oliveira, right Islam Makhachev; check details before writing"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/list"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "haggerty-tko-akimoto-one-samurai-4",
+      "title": "Jonathan Haggerty stops Hiroki Akimoto to keep ONE bantamweight kickboxing title at ONE Samurai 4",
+      "people": [
+        "Jonathan Haggerty",
+        "Hiroki Akimoto"
+      ],
+      "event": "ONE Samurai 4 (Oct 17, Tokyo)",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "Haggerty def. Akimoto by TKO (corner stoppage) 0:42 R3, Ariake Arena, Tokyo; third defense of the ONE bantamweight kickboxing title; $100,000 bonus (onefc.com)",
+        "Co-main: Nadaka Yoshinari def. Rifdean Masdor by head-kick TKO 0:58 R2, keeps ONE atomweight Muay Thai title (myKhel)",
+        "Not posted: reach recovery mode (no ONE Trial Reels while it's on)"
+      ],
+      "sources": [
+        "https://www.onefc.com/news/one-samurai-4-main-event-result-jonathan-haggerty-defends-bantamweight-kickboxing-crown-in-style-against-hiroki-akimoto/",
+        "https://www.mykhel.com/more-sports/one-samurai-4-results-two-one-world-titles-defended-two-devastating-finishes-for-jonathan-haggerty-456659.html"
+      ],
+      "posts": []
+    },
+    {
+      "id": "bishop-beats-carmouche-pfl-chicago-title",
+      "title": "Jena Bishop beats Liz Carmouche in their rematch to win the PFL women's flyweight title at PFL Chicago",
+      "people": [
+        "Jena Bishop",
+        "Liz Carmouche"
+      ],
+      "event": "PFL Chicago (Oct 16)",
+      "first_reported": "2026-10-16",
+      "facts": [
+        "Bishop survived Carmouche to win the PFL title in a revenge fight (Sherdog, Oct 16)",
+        "Not posted: reach recovery mode (star + conflict UFC stories only, evening only)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/list"
+      ],
+      "posts": []
+    },
+    {
       "id": "buckley-snubs-dana-malott-ufc-edmonton-faceoffs",
       "title": "Joaquin Buckley snubs handshakes from Dana White and Mike Malott at UFC Edmonton faceoffs",
       "people": [
@@ -166,12 +226,14 @@
         "Adesanya has left City Kickboxing/Eugene Bareman and now trains with Volkanovski and Mauricio Ruffy; says he isn't retiring",
         "Magomedov lost to Michael Page in 2025, then won two straight, last a decision over Michel Pereira at UFC Baku",
         "Found at Oct 15 10 PM run; held for Oct 16 evening (Oct 15 past the 4/day reach-recovery cap). Neither fighter has a Drive photo; workflow would fetch Wikimedia",
-        "Oct 16 6 PM run: 'Izzy Returns?' rendered but the Wikimedia 'Sharabutdin Magomedov' photo showed the wrong person (ginger beard, beanie); removed images/shara-magomedov and held for a real Shara Magomedov photo in Drive. Queue file: posts/queue/2026-10-16-1832-izzy-vs-bullet.json (commit 504794b)"
+        "Oct 16 6 PM run: 'Izzy Returns?' rendered but the Wikimedia 'Sharabutdin Magomedov' photo showed the wrong person (ginger beard, beanie); removed images/shara-magomedov and held for a real Shara Magomedov photo in Drive. Queue file: posts/queue/2026-10-16-1832-izzy-vs-bullet.json (commit 504794b)",
+        "UPDATE Oct 17 9 AM run: Bloody Elbow (Oct 16) relays a report that the Dec 5 Middle East event is 'highly' likely to be canceled; not confirmed by UFC. Still held for a Shara Magomedov photo; evening runs can post it as an update if the cancellation is confirmed or the photo arrives"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/15/israel-adesanyas-return-reportedly-set-for-ufc-saudi-arabia-main-event-against-17-1-middleweight/",
         "https://mmasucka.com/news/israel-adesanya-reportedly-has-new-ufc-opponent-after-joe-pyfer-loss/",
-        "https://www.mmamania.com/latest-news/479374/report-israel-adesanya-vs-shara-bullet-targeted-for-ufc-saudi-arabia-main-event-on-dec-5"
+        "https://www.mmamania.com/latest-news/479374/report-israel-adesanya-vs-shara-bullet-targeted-for-ufc-saudi-arabia-main-event-on-dec-5",
+        "https://bloodyelbow.com/2026/10/16/israel-adesanyas-ufc-return-event-in-the-middle-east-highly-likely-to-be-canceled-report-claims/"
       ],
       "posts": [],
       "held_for_photo": true
