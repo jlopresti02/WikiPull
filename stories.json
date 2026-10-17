@@ -25,7 +25,9 @@
           "post": "2026-10-17-1831-cejudo-khabib-sambo",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-17T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7449481362356485340"
         }
       ]
     },
@@ -51,7 +53,9 @@
           "post": "2026-10-17-1830-belal-trolls-leon",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-17T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1943313572262819809"
         }
       ]
     },
@@ -155,7 +159,9 @@
           "post": "2026-10-17-1832-oliveira-blueprint",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-17T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=6255038420902629300"
         }
       ]
     },
