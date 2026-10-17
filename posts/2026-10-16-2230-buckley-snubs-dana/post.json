@@ -31,7 +31,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC EDMONTON · WELTERWEIGHT",
+    "tag": "UFC EDMONTON",
     "kicker": "NO HANDSHAKE",
     "hook": "Buckley vs Malott",
     "left": [
@@ -72,7 +72,7 @@
     "image": "images/joaquin-buckley/cutouts/drive-joaquin-buckley.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
-  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
-  "music_start": 156.25
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }
