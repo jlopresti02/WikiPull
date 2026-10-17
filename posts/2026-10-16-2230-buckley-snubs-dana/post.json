@@ -1,0 +1,78 @@
+{
+  "story_id": "buckley-snubs-dana-malott-ufc-edmonton-faceoffs",
+  "headline": "Snubbed",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Joaquin Buckley",
+      "file": "drive-joaquin-buckley"
+    },
+    {
+      "type": "fighter",
+      "name": "Mike Malott",
+      "file": "drive-mike-malott"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Joaquin Buckley just left Dana White and Mike Malott hanging at the UFC Edmonton faceoffs.\nBuckley or Malott? 👇\n\nBuckley ignored handshakes from both the UFC CEO and his opponent and just stared Malott down. The welterweights headline UFC Edmonton on Saturday after both made weight.\n\nWho wins it?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCEdmonton",
+    "JoaquinBuckley",
+    "MikeMalott"
+  ],
+  "sources": [
+    "MMA Junkie"
+  ],
+  "music_pool": "espn",
+  "question": "Buckley or Malott?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC EDMONTON · WELTERWEIGHT",
+    "kicker": "NO HANDSHAKE",
+    "hook": "Buckley vs Malott",
+    "left": [
+      {
+        "name": "Joaquin Buckley",
+        "file": "drive-joaquin-buckley"
+      }
+    ],
+    "right": [
+      {
+        "name": "Mike Malott",
+        "file": "drive-mike-malott"
+      }
+    ],
+    "story": "Buckley ignored handshakes from Dana White and Malott at the faceoffs and just stared him down.",
+    "chips": [
+      "MAIN EVENT · SATURDAY",
+      "BOTH MADE WEIGHT"
+    ],
+    "question": "Buckley or Malott?",
+    "options": [
+      "Buckley",
+      "Malott"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/joaquin-buckley/cutouts/drive-joaquin-buckley.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/mike-malott/cutouts/drive-mike-malott.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/joaquin-buckley/cutouts/drive-joaquin-buckley.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}
