@@ -2,8 +2,56 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "jasudavicius-wants-natalia-silva-title-toronto",
+      "title": "Jasudavicius beats Blanchfield, wants Natalia Silva title fight in Toronto; Dana says 'Absolutely'",
+      "people": [
+        "Jasmine Jasudavicius",
+        "Natalia Silva",
+        "Erin Blanchfield",
+        "Dana White"
+      ],
+      "event": "UFC Edmonton / UFC 336 Toronto (Jan 30, 2027)",
+      "first_reported": "2026-10-18",
+      "facts": [
+        "Jasudavicius def. Blanchfield UD 29-28 x3 in the UFC Edmonton co-main",
+        "Post-fight: 'Title fight in Toronto, baby'; says she is the best women's grappler in the division and Blanchfield underestimated her",
+        "Dana White, asked if she is in the title mix vs champion Natalia Silva: 'Absolutely', 'she looked great tonight'",
+        "Would be a rematch: Silva beat Jasudavicius in 2022. Reports conflict on Shevchenko's status; CBS names Grasso as an alternative challenger"
+      ],
+      "sources": [
+        "https://heavy.com/sports/ufc/dana-white-jasmine-jasudavicius-ufc-edmonton/",
+        "https://cagesidepress.com/2026/10/18/ufc-edmonton-jasmine-jasudavicius-here-for-a-purpose-reacts-to-title-fight-possibility/",
+        "https://www.sherdog.com/news/news/Jasmine-Jasudavicius-eyes-Natalia-Silva-title-rematch-in-Toronto-203216"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "malott-eyes-della-maddalena-toronto-january",
+      "title": "Malott after Buckley KO: wants top 5, open to Jack Della Maddalena, 'expect me' in Toronto",
+      "people": [
+        "Mike Malott",
+        "Jack Della Maddalena",
+        "Joaquin Buckley"
+      ],
+      "event": "UFC 336 Toronto (Jan 30, 2027)",
+      "first_reported": "2026-10-18",
+      "facts": [
+        "Malott asked for a top-10, ideally top-5 opponent after KO'ing Buckley (5 straight wins; expected to take Buckley's No. 10 spot)",
+        "At the presser he welcomed the idea of Jack Della Maddalena when a reporter suggested it; no fight offered",
+        "On a Toronto card in January: 'Expect me to be there'",
+        "'I might be soft-spoken, but I'm f---ing hard-hitting'"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/mike-malott-january-return-jack-della-maddalena-toronto",
+        "https://www.cbssports.com/ufc/news/ufc-fight-night-results-live-updates-joaquin-buckley-mike-malott/live/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "ufc-edmonton-buckley-malott-fight-night",
-      "title": "UFC Edmonton fight night (Buckley vs Malott) results in progress",
+      "title": "UFC Edmonton fight night (Buckley vs Malott) results",
       "people": [
         "Joaquin Buckley",
         "Mike Malott",
@@ -17,13 +65,24 @@
       "facts": [
         "Oct 17 10 PM run (UFC.com live pages, ~8:35 PM ET): all 7 prelims ended inside the distance: Boser def. Diniz TKO R3 4:26; Galanti def. Leblanc RNC R1 1:26; Faglier def. Mahjoub TKO R2 2:11; Cerminara def. Stiller TKO R1 4:46; Koslow def. Anheliger RNC R3 4:31; Chandler def. Croden kimura R1 4:52; You def. Chovancek kimura R3 4:19",
         "Main card opener: Mandel Nallo def. Nate Landwehr TKO (strikes) R2 0:47",
-        "Co-main Blanchfield vs Jasudavicius and main event Buckley vs Malott not finished at the 10 PM run; nothing posted (reach recovery cap 4/4 effectively, evening slot would need results before 12:30 AM). Results carousel due at the Oct 18 9 AM run (step 6b)"
+        "Co-main Blanchfield vs Jasudavicius and main event Buckley vs Malott not finished at the 10 PM run; nothing posted (reach recovery cap 4/4 effectively, evening slot would need results before 12:30 AM). Results carousel due at the Oct 18 9 AM run (step 6b)",
+        "Final (Sherdog play-by-play, CBS): Malott def. Buckley KO (knee and punch) R2 2:32, 5th straight win; Jasudavicius def. Blanchfield UD 29-28 x3; Perez def. Nelson KO R1 0:27; Barriault def. Daukaus TKO R1 4:28; Cuamba def. Jourdain neck crank R2 2:48; Nallo def. Landwehr TKO R2 0:47. 12 of 13 bouts finished. Performance bonuses ($100K per Sherdog/MMA Mania headlines): Malott, Barriault, Nallo, Faglier"
       ],
       "sources": [
         "https://www.ufc.com/news/ufc-edmonton-results-buckley-vs-malott",
-        "https://www.ufc.com/news/ufc-edmonton-prelim-results-buckley-vs-malott"
+        "https://www.ufc.com/news/ufc-edmonton-prelim-results-buckley-vs-malott",
+        "https://www.sherdog.com/news/news/UFC-Edmonton-Buckley-vs-Malott-playbyplay-results-round-scoring-203257",
+        "https://www.cbssports.com/ufc/news/ufc-fight-night-results-live-updates-joaquin-buckley-mike-malott/live/",
+        "https://www.mmamania.com/ufc-bonuses-and-awards/479945/official-ufc-edmonton-post-fight-bonus-winners-results-paramount-buckley-malott",
+        "https://middleeasy.com/mma-news/ufc-edmonton-bonuses-malott-barriault-nallo-faglier"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-18-0920-ufc-edmonton-results",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
     },
     {
       "id": "cejudo-says-khabib-couldnt-make-it-wrestling",
@@ -240,11 +299,14 @@
       "facts": [
         "At the ceremonial faceoffs Buckley (21-8) ignored extended hands from Malott (14-2-1) and Dana White and stared Malott down (MMA Junkie, Oct 16)",
         "Entire card made weight (Sherdog, BJPenn)",
-        "Related: malott-warns-buckley-ufc-edmonton"
+        "Related: malott-warns-buckley-ufc-edmonton",
+        "UPDATE (Oct 18): Malott KO'd Buckley R2 2:32; Buckley now winless in 3. At the post-fight presser Dana joked he told Hunter Campbell 'Cut him' as soon as Buckley lost, then said he was joking and has no problem with Buckley ('however you're dealing with fight week is your business'). Buckley also gave a silent cageside interview on Paramount+ before the fight."
       ],
       "sources": [
         "https://sports.yahoo.com/articles/ufc-edmonton-video-joaquin-buckley-235004654.html",
-        "https://www.sherdog.com/news/news/UFC-Edmonton-weighin-results-All-fighters-make-weight-203253"
+        "https://www.sherdog.com/news/news/UFC-Edmonton-weighin-results-All-fighters-make-weight-203253",
+        "https://bloodyelbow.com/2026/10/18/cut-him-dana-white-playfully-reacts-to-joaquin-buckley-refusing-to-shake-his-hand-before-ko-loss/",
+        "https://www.essentiallysports.com/ufc-mma-news-dana-white-breaks-silence-on-joaquin-buckley-problems-rumors-after-ufc-edmonton-ko/"
       ],
       "posts": [
         {
@@ -256,7 +318,8 @@
           "scheduled_for": "2026-10-16T22:25:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3636302032317071418"
         }
-      ]
+      ],
+      "held_for_evening": true
     },
     {
       "id": "cejudo-says-allen-wife-sent-hostile-texts",
@@ -573,12 +636,14 @@
         "Held Oct 15 9 AM: no photo of Farid Basharat (v2 left rendered as silhouette); needs a Drive photo. Queue file: posts/queue/2026-10-15-0931-basharat-unbeaten-gone.json in commit e7aceb1",
         "User added Drive photo (drive-farid-basharat) Oct 15 ~9:30 AM; posted with Petr Yan (bantamweight champ) on the right after Wikimedia matched the wrong person for Ali Abdelaziz",
         "Oct 15 ~12:19 PM: Basharat confirmed the exit himself: 'I am no longer with the UFC', leaves with a stainless record, says the organisation 'isn't what it used to be', calls himself the best bantamweight in the world (Cageside). Not posted as an update at 1 PM (modest new fact, daytime limit)",
-        "Oct 15 6 PM run: Basharat statement (says he never declined a fight; UFC 'isn't what it used to be') judged a repeat of the 12:19 PM fact; not posted"
+        "Oct 15 6 PM run: Basharat statement (says he never declined a fight; UFC 'isn't what it used to be') judged a repeat of the 12:19 PM fact; not posted",
+        "UPDATE (Oct 18, Edmonton presser): Dana White on Basharat's release: 'If you're 16-0 with seven wins in the UFC, and don't get re-signed, there's definitely a reason'; said such calls can come down to fighters being hard to work with or turning down fights. Basharat had said the UFC 'isn't what it once was'."
       ],
       "sources": [
         "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
         "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/",
-        "https://cagesidepress.com/2026/10/15/undefeated-farid-basharat-confirms-ufc-departure/"
+        "https://cagesidepress.com/2026/10/15/undefeated-farid-basharat-confirms-ufc-departure/",
+        "https://cagesidepress.com/2026/10/18/dana-white-addresses-basharat-release-reason/"
       ],
       "posts": [
         {
@@ -590,7 +655,8 @@
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=650487170409383269",
           "image": "drive-farid-basharat vs drive-petr-yan-champ"
         }
-      ]
+      ],
+      "held_for_evening": true
     },
     {
       "id": "pimblett-calls-topuria-damaged-goods",
