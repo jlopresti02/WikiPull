@@ -20,8 +20,14 @@
       "sources": [
         "https://middleeasy.com/mma-news/dakota-ditcheva-liz-carmouche-jena-bishop-title-matchup/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-18-1832-ditcheva-wants-bishop",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "jasudavicius-wants-natalia-silva-title-toronto",
@@ -45,8 +51,14 @@
         "https://cagesidepress.com/2026/10/18/ufc-edmonton-jasmine-jasudavicius-here-for-a-purpose-reacts-to-title-fight-possibility/",
         "https://www.sherdog.com/news/news/Jasmine-Jasudavicius-eyes-Natalia-Silva-title-rematch-in-Toronto-203216"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-18-1831-jasudavicius-wants-silva",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "malott-eyes-della-maddalena-toronto-january",
@@ -71,8 +83,14 @@
         "https://cagesidepress.com/2026/10/17/ufc-336-announced-for-toronto-on-january-30/",
         "https://www.sherdog.com/news/news/UFC-Edmonton-bonuses-Mike-Malott-3-more-earn-36100000-203259"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-18-1833-malott-wants-top-5",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "ufc-edmonton-buckley-malott-fight-night",
@@ -328,14 +346,17 @@
         "Entire card made weight (Sherdog, BJPenn)",
         "Related: malott-warns-buckley-ufc-edmonton",
         "UPDATE (Oct 18): Malott KO'd Buckley R2 2:32; Buckley now winless in 3. At the post-fight presser Dana joked he told Hunter Campbell 'Cut him' as soon as Buckley lost, then said he was joking and has no problem with Buckley ('however you're dealing with fight week is your business'). Buckley also gave a silent cageside interview on Paramount+ before the fight.",
-        "Oct 18 1 PM run: Buckley (3 straight UFC losses: Usman, Brady, Malott) said pre-fight he'd like to try Dirty Boxing, Karate Combat or Zuffa Boxing; plans gym visits after the loss (MiddleEasy)"
+        "Oct 18 1 PM run: Buckley (3 straight UFC losses: Usman, Brady, Malott) said pre-fight he'd like to try Dirty Boxing, Karate Combat or Zuffa Boxing; plans gym visits after the loss (MiddleEasy)",
+        "Oct 18 6 PM run: Buckley IG Stories statement ('fight didn't go my way', KO looked 'like something out of AI', plugs Kick channel) (MMA Junkie, Heavy). Not posted: daily cap of 4 used by stronger/fresher stories; Dana 'Cut him' angle dropped as stale."
       ],
       "sources": [
         "https://sports.yahoo.com/articles/ufc-edmonton-video-joaquin-buckley-235004654.html",
         "https://www.sherdog.com/news/news/UFC-Edmonton-weighin-results-All-fighters-make-weight-203253",
         "https://bloodyelbow.com/2026/10/18/cut-him-dana-white-playfully-reacts-to-joaquin-buckley-refusing-to-shake-his-hand-before-ko-loss/",
         "https://www.essentiallysports.com/ufc-mma-news-dana-white-breaks-silence-on-joaquin-buckley-problems-rumors-after-ufc-edmonton-ko/",
-        "https://middleeasy.com/mma-news/joaquin-buckley-gym-visits-ufc-edmonton-loss/"
+        "https://middleeasy.com/mma-news/joaquin-buckley-gym-visits-ufc-edmonton-loss/",
+        "https://sports.yahoo.com/articles/ufc-edmonton-pre-fight-silence-152029737.html",
+        "https://heavy.com/sports/ufc/joaquin-buckley-issues-statement-ufc-edmonton/"
       ],
       "posts": [
         {
@@ -347,8 +368,7 @@
           "scheduled_for": "2026-10-16T22:25:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3636302032317071418"
         }
-      ],
-      "held_for_evening": true
+      ]
     },
     {
       "id": "cejudo-says-allen-wife-sent-hostile-texts",
@@ -667,14 +687,16 @@
         "Oct 15 ~12:19 PM: Basharat confirmed the exit himself: 'I am no longer with the UFC', leaves with a stainless record, says the organisation 'isn't what it used to be', calls himself the best bantamweight in the world (Cageside). Not posted as an update at 1 PM (modest new fact, daytime limit)",
         "Oct 15 6 PM run: Basharat statement (says he never declined a fight; UFC 'isn't what it used to be') judged a repeat of the 12:19 PM fact; not posted",
         "UPDATE (Oct 18, Edmonton presser): Dana White on Basharat's release: 'If you're 16-0 with seven wins in the UFC, and don't get re-signed, there's definitely a reason'; said such calls can come down to fighters being hard to work with or turning down fights. Basharat had said the UFC 'isn't what it once was'.",
-        "Oct 18 1 PM run: Basharat YouTube video (Oct 17) says the UFC's finish-first approach rewards spectacle and risks the sport's credibility; says he got no opponent, date or offer for ~3 months after UFC 329 and never turned a fight down; talking to other promotions (MiddleEasy). Can pair with Dana's 'definitely a reason' line as one evening update"
+        "Oct 18 1 PM run: Basharat YouTube video (Oct 17) says the UFC's finish-first approach rewards spectacle and risks the sport's credibility; says he got no opponent, date or offer for ~3 months after UFC 329 and never turned a fight down; talking to other promotions (MiddleEasy). Can pair with Dana's 'definitely a reason' line as one evening update",
+        "UPDATE (Oct 18 ~5:48 PM, MiddleEasy): Basharat video answers Dana's 'definitely a reason' line: says he 'definitely didn't turn nobody down', invites UFC staff/nutrition/physio team to speak on his conduct, cites taking a re-assigned opponent at UFC 308. Posted 6 PM run as update (Basharat vs Dana)."
       ],
       "sources": [
         "https://middleeasy.com/mma-news/farid-basharat-ufc-contract-ends-free-agency",
         "https://www.givemesport.com/ufc-release-undefeated-title-contender-dana-white-farid-basharat/",
         "https://cagesidepress.com/2026/10/15/undefeated-farid-basharat-confirms-ufc-departure/",
         "https://cagesidepress.com/2026/10/18/dana-white-addresses-basharat-release-reason/",
-        "https://middleeasy.com/mma-news/farid-basharat-ufc-finishes-sport-credibility-free-agency-video/"
+        "https://middleeasy.com/mma-news/farid-basharat-ufc-finishes-sport-credibility-free-agency-video/",
+        "https://middleeasy.com/mma-news/farid-basharat-rejects-dana-white-ufc-exit-suggestions"
       ],
       "posts": [
         {
@@ -685,9 +707,14 @@
           "scheduled_for": "2026-10-15T10:40:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=650487170409383269",
           "image": "drive-farid-basharat vs drive-petr-yan-champ"
+        },
+        {
+          "post": "2026-10-18-1830-basharat-fires-back",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
         }
-      ],
-      "held_for_evening": true
+      ]
     },
     {
       "id": "pimblett-calls-topuria-damaged-goods",

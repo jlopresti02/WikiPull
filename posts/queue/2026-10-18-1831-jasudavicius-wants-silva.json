@@ -1,0 +1,28 @@
+{
+  "story_id": "jasudavicius-wants-natalia-silva-title-toronto",
+  "headline": "Title In Toronto",
+  "visual": [
+    {"type": "fighter", "name": "Jasmine Jasudavicius"},
+    {"type": "fighter", "name": ["Natalia Silva", "Natália Silva"], "file": "02-natalia-silva-ufc"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "Jasmine Jasudavicius just beat Erin Blanchfield and wants Natalia Silva's belt in Toronto.\nJasudavicius or Silva? 👇\n\nAfter her UFC Edmonton decision win, the Canadian called for a flyweight title fight at UFC 336 in January, and Dana White said she's 'absolutely' in the mix. Silva beat her back in 2022.\n\nDoes she get her rematch?",
+  "hashtags": ["MMANews", "UFC", "UFCEdmonton", "JasmineJasudavicius", "NataliaSilva"],
+  "sources": ["Cageside Press", "Sherdog", "Heavy"],
+  "music_pool": "espn",
+  "question": "Jasudavicius or Silva?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · FLYWEIGHT",
+    "kicker": "TITLE SHOT NEXT?",
+    "hook": "Jas vs Silva",
+    "left": [{"name": "Jasmine Jasudavicius"}],
+    "right": [{"name": ["Natalia Silva", "Natália Silva"], "file": "02-natalia-silva-ufc"}],
+    "story": "Fresh off beating Blanchfield, Jasudavicius wants the champ in Toronto. Dana: 'Absolutely.'",
+    "chips": ["UFC 336 · TORONTO · JAN 30", "SILVA WON IN 2022"],
+    "question": "Jasudavicius or Silva?",
+    "options": ["Jasmine", "Silva"]
+  }
+}
