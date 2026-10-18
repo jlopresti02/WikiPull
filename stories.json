@@ -51,7 +51,10 @@
           "post": "2026-10-18-1831-jasudavicius-wants-silva",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-18T19:30:00-04:00",
+          "image": "01-jasmine-jasudavicius-in-2023-01 vs 01-nat-lia-silva-2025",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=4368782331390412276"
         }
       ]
     },
@@ -83,7 +86,10 @@
           "post": "2026-10-18-1833-malott-wants-top-5",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-18T20:00:00-04:00",
+          "image": "drive-mike-malott vs drive-joaquin-buckley",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4139548054431382967"
         }
       ]
     },
@@ -707,7 +713,10 @@
           "post": "2026-10-18-1830-basharat-fires-back",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-18T19:00:00-04:00",
+          "image": "drive-farid-basharat vs 01-dana-white-in-june-2025-cropped",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7797011782020476998"
         }
       ]
     },
