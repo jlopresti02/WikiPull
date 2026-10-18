@@ -9,31 +9,32 @@
     },
     {
       "type": "fighter",
-      "name": "Jack Della Maddalena"
+      "name": "Joaquin Buckley",
+      "file": "drive-joaquin-buckley"
     }
   ],
   "color": "#d2202f",
-  "caption": "Mike Malott just KO'd Joaquin Buckley and now he wants a top-5 welterweight.\nMalott or JDM? 👇\n\nAt the UFC Edmonton presser, Malott welcomed the idea of Jack Della Maddalena and said to expect him on the UFC 336 card in Toronto in January. Nothing is offered yet.\n\nWho should he get next?",
+  "caption": "Mike Malott just KO'd Joaquin Buckley and now he wants a top-5 welterweight.\nTop 5 next or too soon? 👇\n\nAt the UFC Edmonton presser, Malott said he's open to Jack Della Maddalena and told fans to expect him on the UFC 336 card in Toronto in January. Buckley has now lost three straight.\n\nWho should Malott get next?",
   "hashtags": [
     "MMANews",
     "UFC",
     "UFCEdmonton",
     "MikeMalott",
-    "JackDellaMaddalena"
+    "JoaquinBuckley"
   ],
   "sources": [
     "MiddleEasy",
     "CBS Sports"
   ],
   "music_pool": "espn",
-  "question": "Malott or JDM?",
+  "question": "Top 5 next?",
   "follow_card": true,
   "reel": true,
   "format": "v2",
   "v2": {
     "tag": "UFC · WELTERWEIGHT",
-    "kicker": "AIMING HIGH",
-    "hook": "Malott vs JDM?",
+    "kicker": "BUCKLEY KO'D",
+    "hook": "Malott Rising",
     "left": [
       {
         "name": "Mike Malott",
@@ -42,18 +43,19 @@
     ],
     "right": [
       {
-        "name": "Jack Della Maddalena"
+        "name": "Joaquin Buckley",
+        "file": "drive-joaquin-buckley"
       }
     ],
-    "story": "After knocking out Buckley, Malott wants a top-5 name and is open to Della Maddalena.",
+    "story": "After knocking out Buckley, Malott wants a top-5 name next and is open to Della Maddalena.",
     "chips": [
       "5 STRAIGHT WINS",
       "UFC 336 · TORONTO · JAN 30"
     ],
-    "question": "Malott or JDM?",
+    "question": "Top 5 next?",
     "options": [
-      "Malott",
-      "JDM"
+      "Top 5",
+      "Too soon"
     ],
     "left_subject": {
       "kind": "fighter",
@@ -61,10 +63,9 @@
       "credit": "WWIT MMA News"
     },
     "right_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
+      "kind": "fighter",
+      "image": "images/joaquin-buckley/cutouts/drive-joaquin-buckley.png",
+      "credit": "WWIT MMA News"
     }
   },
   "subject": {
@@ -72,7 +73,7 @@
     "image": "images/mike-malott/cutouts/drive-mike-malott.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
-  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
-  "music_start": 156.25
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

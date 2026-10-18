@@ -8,11 +8,8 @@
     },
     {
       "type": "fighter",
-      "name": [
-        "Natalia Silva",
-        "Natália Silva"
-      ],
-      "file": "02-natalia-silva-ufc"
+      "name": "Natalia Silva",
+      "file": "01-nat-lia-silva-2025"
     }
   ],
   "color": "#1f3fbf",
@@ -45,11 +42,8 @@
     ],
     "right": [
       {
-        "name": [
-          "Natalia Silva",
-          "Natália Silva"
-        ],
-        "file": "02-natalia-silva-ufc"
+        "name": "Natalia Silva",
+        "file": "01-nat-lia-silva-2025"
       }
     ],
     "story": "Fresh off beating Blanchfield, Jasudavicius wants the champ in Toronto. Dana: 'Absolutely.'",
@@ -68,10 +62,9 @@
       "credit": "MM-eh / CC BY 3.0"
     },
     "right_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
+      "kind": "fighter",
+      "image": "images/natalia-silva/cutouts/01-nat-lia-silva-2025.png",
+      "credit": "Sexto Round / CC BY 3.0"
     }
   },
   "subject": {
@@ -79,7 +72,7 @@
     "image": "images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png",
     "credit": "MM-eh / CC BY 3.0"
   },
-  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
-  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
-  "music_start": 168.5
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }

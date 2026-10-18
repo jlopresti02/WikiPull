@@ -1,63 +1,16 @@
-Searching Wikimedia Commons for: Dakota Ditcheva
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Jena Bishop
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Dakota Ditcheva
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Jena Bishop
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Jack Della Maddalena
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-
-== 2026-10-18-1830-basharat-fires-back.json
-Image: {'type': 'fighter', 'name': 'Farid Basharat', 'file': 'drive-farid-basharat'} -> fighter images/farid-basharat/cutouts/drive-farid-basharat.png  headline: Never Ducked
-v2 left: images/farid-basharat/cutouts/drive-farid-basharat.png
-v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-18-1830-basharat-fires-back/post.png (fighter)
-Rendered posts/2026-10-18-1830-basharat-fires-back/reel.mp4 (format v2)
 
 == 2026-10-18-1831-jasudavicius-wants-silva.json
 Image: {'type': 'fighter', 'name': 'Jasmine Jasudavicius'} -> fighter images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png  headline: Title In Toronto
 v2 left: images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png
-  v2 right {'name': ['Natalia Silva', 'Natália Silva'], 'file': '02-natalia-silva-ufc'} failed: 'list' object has no attribute 'lower'
-v2 right: silhouette
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+v2 right: images/natalia-silva/cutouts/01-nat-lia-silva-2025.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
 Rendered posts/2026-10-18-1831-jasudavicius-wants-silva/post.png (fighter)
 Rendered posts/2026-10-18-1831-jasudavicius-wants-silva/reel.mp4 (format v2)
-
-== 2026-10-18-1832-ditcheva-wants-bishop.json
-$ fetch.py Dakota Ditcheva --count 5
-$ fetch.py Jena Bishop --count 5
-Image: {'type': 'text'} -> none   headline: Carmouche Who?
-$ fetch.py Dakota Ditcheva --count 5
-v2 left: silhouette
-$ fetch.py Jena Bishop --count 5
-v2 right: silhouette
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-18-1832-ditcheva-wants-bishop/post.png (none)
-Rendered posts/2026-10-18-1832-ditcheva-wants-bishop/reel.mp4 (format v2)
 
 == 2026-10-18-1833-malott-wants-top-5.json
 Image: {'type': 'fighter', 'name': 'Mike Malott', 'file': 'drive-mike-malott'} -> fighter images/mike-malott/cutouts/drive-mike-malott.png  headline: Top 5 Next
 v2 left: images/mike-malott/cutouts/drive-mike-malott.png
-$ fetch.py Jack Della Maddalena --count 5
-v2 right: silhouette
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+v2 right: images/joaquin-buckley/cutouts/drive-joaquin-buckley.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
 Rendered posts/2026-10-18-1833-malott-wants-top-5/post.png (fighter)
 Rendered posts/2026-10-18-1833-malott-wants-top-5/reel.mp4 (format v2)
