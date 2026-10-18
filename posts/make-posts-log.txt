@@ -1,29 +1,63 @@
-Searching Wikimedia Commons for: Jasmine Jasudavicius
-  saved images/jasmine-jasudavicius/01-jasmine-jasudavicius-in-2023-01.png  [CC BY 3.0]
-  saved images/jasmine-jasudavicius/02-jasmine-jasudavicius-in-2023-02.png  [CC BY 3.0]
-Done: 2 image(s) saved.
-[0;93m2026-10-18 13:18:55.384464082 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png
-  cutout images/jasmine-jasudavicius/cutouts/02-jasmine-jasudavicius-in-2023-02.png
-Done: 2 new cutout(s).
-Searching Wikimedia Commons for: Erin Blanchfield
+Searching Wikimedia Commons for: Dakota Ditcheva
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Jena Bishop
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Dakota Ditcheva
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Jena Bishop
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Jack Della Maddalena
   No file names matched; falling back to looser results.
   No file names matched; falling back to looser results.
   No openly licensed images found.
 Done: 0 image(s) saved.
 
-== 2026-10-18-0920-ufc-edmonton-results.json
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-01.jpg (cover)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-02.jpg (hook)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-03.jpg (result)
-$ fetch.py Jasmine Jasudavicius --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/jasmine-jasudavicius
-$ fetch.py Erin Blanchfield --count 5
-  no photo for ['Erin Blanchfield']: using the silhouette
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-04.jpg (result)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-05.jpg (list)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-06.jpg (list)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-07.jpg (list)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-08.jpg (bonuses)
-Rendered posts/2026-10-18-0920-ufc-edmonton-results/slide-09.jpg (cta)
+== 2026-10-18-1830-basharat-fires-back.json
+Image: {'type': 'fighter', 'name': 'Farid Basharat', 'file': 'drive-farid-basharat'} -> fighter images/farid-basharat/cutouts/drive-farid-basharat.png  headline: Never Ducked
+v2 left: images/farid-basharat/cutouts/drive-farid-basharat.png
+v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-18-1830-basharat-fires-back/post.png (fighter)
+Rendered posts/2026-10-18-1830-basharat-fires-back/reel.mp4 (format v2)
+
+== 2026-10-18-1831-jasudavicius-wants-silva.json
+Image: {'type': 'fighter', 'name': 'Jasmine Jasudavicius'} -> fighter images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png  headline: Title In Toronto
+v2 left: images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png
+  v2 right {'name': ['Natalia Silva', 'Natália Silva'], 'file': '02-natalia-silva-ufc'} failed: 'list' object has no attribute 'lower'
+v2 right: silhouette
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-18-1831-jasudavicius-wants-silva/post.png (fighter)
+Rendered posts/2026-10-18-1831-jasudavicius-wants-silva/reel.mp4 (format v2)
+
+== 2026-10-18-1832-ditcheva-wants-bishop.json
+$ fetch.py Dakota Ditcheva --count 5
+$ fetch.py Jena Bishop --count 5
+Image: {'type': 'text'} -> none   headline: Carmouche Who?
+$ fetch.py Dakota Ditcheva --count 5
+v2 left: silhouette
+$ fetch.py Jena Bishop --count 5
+v2 right: silhouette
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-18-1832-ditcheva-wants-bishop/post.png (none)
+Rendered posts/2026-10-18-1832-ditcheva-wants-bishop/reel.mp4 (format v2)
+
+== 2026-10-18-1833-malott-wants-top-5.json
+Image: {'type': 'fighter', 'name': 'Mike Malott', 'file': 'drive-mike-malott'} -> fighter images/mike-malott/cutouts/drive-mike-malott.png  headline: Top 5 Next
+v2 left: images/mike-malott/cutouts/drive-mike-malott.png
+$ fetch.py Jack Della Maddalena --count 5
+v2 right: silhouette
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-18-1833-malott-wants-top-5/post.png (fighter)
+Rendered posts/2026-10-18-1833-malott-wants-top-5/reel.mp4 (format v2)

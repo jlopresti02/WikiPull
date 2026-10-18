@@ -1,0 +1,78 @@
+{
+  "story_id": "malott-eyes-della-maddalena-toronto-january",
+  "headline": "Top 5 Next",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Mike Malott",
+      "file": "drive-mike-malott"
+    },
+    {
+      "type": "fighter",
+      "name": "Jack Della Maddalena"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Mike Malott just KO'd Joaquin Buckley and now he wants a top-5 welterweight.\nMalott or JDM? 👇\n\nAt the UFC Edmonton presser, Malott welcomed the idea of Jack Della Maddalena and said to expect him on the UFC 336 card in Toronto in January. Nothing is offered yet.\n\nWho should he get next?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCEdmonton",
+    "MikeMalott",
+    "JackDellaMaddalena"
+  ],
+  "sources": [
+    "MiddleEasy",
+    "CBS Sports"
+  ],
+  "music_pool": "espn",
+  "question": "Malott or JDM?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · WELTERWEIGHT",
+    "kicker": "AIMING HIGH",
+    "hook": "Malott vs JDM?",
+    "left": [
+      {
+        "name": "Mike Malott",
+        "file": "drive-mike-malott"
+      }
+    ],
+    "right": [
+      {
+        "name": "Jack Della Maddalena"
+      }
+    ],
+    "story": "After knocking out Buckley, Malott wants a top-5 name and is open to Della Maddalena.",
+    "chips": [
+      "5 STRAIGHT WINS",
+      "UFC 336 · TORONTO · JAN 30"
+    ],
+    "question": "Malott or JDM?",
+    "options": [
+      "Malott",
+      "JDM"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/mike-malott/cutouts/drive-mike-malott.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/mike-malott/cutouts/drive-mike-malott.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}

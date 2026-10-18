@@ -1,0 +1,79 @@
+{
+  "story_id": "ufc-lets-unbeaten-farid-basharat-go",
+  "headline": "Never Ducked",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Farid Basharat",
+      "file": "drive-farid-basharat"
+    },
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "UPDATE: Farid Basharat is firing back at Dana White over his UFC exit.\nBasharat or Dana? 👇\n\nDana said a 16-0 fighter who doesn't get re-signed is gone for a reason. Basharat, now an MMA free agent, says he never turned down a UFC opponent and told the UFC staff to vouch for how he worked.\n\nWho's telling the truth?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCNews",
+    "FaridBasharat",
+    "DanaWhite"
+  ],
+  "sources": [
+    "MiddleEasy",
+    "Cageside Press"
+  ],
+  "music_pool": "espn",
+  "question": "Basharat or Dana?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · BANTAMWEIGHT",
+    "kicker": "16-0 AND CUT",
+    "hook": "Basharat vs Dana",
+    "left": [
+      {
+        "name": "Farid Basharat",
+        "file": "drive-farid-basharat"
+      }
+    ],
+    "right": [
+      {
+        "name": "Dana White",
+        "file": "01-dana-white-in-june-2025-cropped"
+      }
+    ],
+    "story": "Dana hinted there's a reason he wasn't re-signed. Basharat says he never turned a fight down.",
+    "chips": [
+      "16-0 PRO · 7-0 UFC",
+      "NOW A FREE AGENT"
+    ],
+    "question": "Basharat or Dana?",
+    "options": [
+      "Basharat",
+      "Dana"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/farid-basharat/cutouts/drive-farid-basharat.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+      "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/farid-basharat/cutouts/drive-farid-basharat.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}
