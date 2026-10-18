@@ -15,19 +15,14 @@
         "Unbeaten Ditcheva says Liz Carmouche is no longer the fight to make after Carmouche lost to Jena Bishop at PFL Chicago",
         "Wants Bishop instead: easier to market and would be her first career rematch; targeting Feb/Mar 2027, nothing booked",
         "Says she's cleared to resume boxing training",
-        "Found at Oct 18 1 PM run; held for evening (reach-recovery mode). No Drive photo of Ditcheva or Bishop; workflow would fetch Wikimedia; check the no-silhouette rule after render"
+        "Found at Oct 18 1 PM run; held for evening (reach-recovery mode). No Drive photo of Ditcheva or Bishop; workflow would fetch Wikimedia; check the no-silhouette rule after render",
+        "Oct 18 6 PM run: rendered with silhouettes (no Wikimedia photos of Ditcheva or Bishop); held for photo. Queue file in commit 9c61086. Needs Drive photos of Dakota Ditcheva and Jena Bishop."
       ],
       "sources": [
         "https://middleeasy.com/mma-news/dakota-ditcheva-liz-carmouche-jena-bishop-title-matchup/"
       ],
-      "posts": [
-        {
-          "post": "2026-10-18-1832-ditcheva-wants-bishop",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "jasudavicius-wants-natalia-silva-title-toronto",
