@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-edmonton-buckley-malott-fight-night",
+      "title": "UFC Edmonton fight night (Buckley vs Malott) results in progress",
+      "people": [
+        "Joaquin Buckley",
+        "Mike Malott",
+        "Erin Blanchfield",
+        "Jasmine Jasudavicius",
+        "Mandel Nallo",
+        "Tanner Boser"
+      ],
+      "event": "UFC Edmonton (Oct 17, Rogers Place)",
+      "first_reported": "2026-10-17",
+      "facts": [
+        "Oct 17 10 PM run (UFC.com live pages, ~8:35 PM ET): all 7 prelims ended inside the distance: Boser def. Diniz TKO R3 4:26; Galanti def. Leblanc RNC R1 1:26; Faglier def. Mahjoub TKO R2 2:11; Cerminara def. Stiller TKO R1 4:46; Koslow def. Anheliger RNC R3 4:31; Chandler def. Croden kimura R1 4:52; You def. Chovancek kimura R3 4:19",
+        "Main card opener: Mandel Nallo def. Nate Landwehr TKO (strikes) R2 0:47",
+        "Co-main Blanchfield vs Jasudavicius and main event Buckley vs Malott not finished at the 10 PM run; nothing posted (reach recovery cap 4/4 effectively, evening slot would need results before 12:30 AM). Results carousel due at the Oct 18 9 AM run (step 6b)"
+      ],
+      "sources": [
+        "https://www.ufc.com/news/ufc-edmonton-results-buckley-vs-malott",
+        "https://www.ufc.com/news/ufc-edmonton-prelim-results-buckley-vs-malott"
+      ],
+      "posts": []
+    },
+    {
       "id": "cejudo-says-khabib-couldnt-make-it-wrestling",
       "title": "Henry Cejudo discredits Khabib Nurmagomedov's wrestling, says 'he couldn't make it'",
       "people": [
