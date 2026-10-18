@@ -80,7 +80,9 @@
         {
           "post": "2026-10-18-0920-ufc-edmonton-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-10-18T09:35:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=108475772432633578"
         }
       ]
     },
