@@ -2,6 +2,93 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "evloev-defends-zero-finishes-ufc-333",
+      "title": "Movsar Evloev defends his zero-finish UFC record days before challenging Volkanovski",
+      "people": [
+        "Movsar Evloev",
+        "Alexander Volkanovski"
+      ],
+      "event": "UFC 333 (Oct 24, Abu Dhabi)",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Evloev (20-0) has 10 UFC wins, all by decision",
+        "Told MMA Fighting he has zero UFC finishes but is still in the UFC and fighting for the title; says real MMA fans appreciate tactics, skill and wrestling",
+        "Challenges featherweight champ Volkanovski in the UFC 333 main event, Oct 24, Etihad Arena",
+        "Related: johnson-adesanya-rip-evloev-no-finishes (Oct 5, critics' side). This is his own answer = new angle",
+        "Found at Oct 19 9 AM run; held for evening (reach-recovery mode). Rank 1. Pair with Alves warning if only one Evloev post fits"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/10-UFC-wins-zero-finishes-Movsar-Evloev-defends-his-fighting-style-203271"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "thiago-alves-warns-volkanovski-changing-of-guard",
+      "title": "Evloev coach Thiago Alves predicts a 'changing of the guard' against Volkanovski",
+      "people": [
+        "Thiago Alves",
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333 (Oct 24, Abu Dhabi)",
+      "first_reported": "2026-10-18",
+      "facts": [
+        "Thiago Alves, now an ATT coach on Evloev's team, praised Volkanovski as an all-time great but said Evloev will impose his will",
+        "Called Evloev too physical, young, strong and skilled; predicted a dominant win and a changing of the guard",
+        "Evloev is 32 and 20-0; Volkanovski is 38",
+        "Found at Oct 19 9 AM run; held for evening (reach-recovery mode). Rank 2; consider merging into the Evloev post (v2 left Volkanovski, right Evloev)"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/changing-of-the-guard-movsar-evloevs-coach-thiago-alves-warns-alexander-volkanovski-before-ufc-333/"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "merab-decision-machine-yan-trilogy",
+      "title": "Merab Dvalishvili calls himself a 'decision machine' before the Yan trilogy",
+      "people": [
+        "Merab Dvalishvili",
+        "Petr Yan"
+      ],
+      "event": "UFC 333 (Oct 24, Abu Dhabi)",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Asked by a fan how he beats Petr Yan, Merab said there are three ways to win and he is a 'decision machine' (Instagram clip)",
+        "16 of his 21 career wins are decisions; UFC finishes: TKO of Marlon Moraes (2021), submission of Sean O'Malley",
+        "Yan vs. Merab 3 for the bantamweight title is the UFC 333 co-main",
+        "Found at Oct 19 9 AM run; held for evening (reach-recovery mode). Rank 3"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-calls-himself-a-decision-machine-before-Yan-trilogy-203272"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "mokaev-blames-tko-paramount-basharat-exit",
+      "title": "Muhammad Mokaev calls Dana White's Basharat explanation 'BS', blames TKO and Paramount",
+      "people": [
+        "Muhammad Mokaev",
+        "Farid Basharat",
+        "Dana White"
+      ],
+      "event": "UFC roster cuts",
+      "first_reported": "2026-10-18",
+      "facts": [
+        "Dana suggested at the UFC Edmonton presser that matchmaking trouble or declined fights explain why unbeaten Farid Basharat wasn't re-signed",
+        "Mokaev (released after beating Manel Kape in July 2024) posted on X Oct 18 calling it a bullsh*t answer; says he doesn't blame Dana but TKO and Paramount",
+        "Related: ufc-lets-unbeaten-farid-basharat-go (already 2 posts). New voice, weaker; rank 4, drop first if over cap. Check a Mokaev photo exists (no local cutouts yet)",
+        "Found at Oct 19 9 AM run; held for evening (reach-recovery mode)."
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Muhammad-Mokaev-blames-TKO-Paramount-not-Dana-White-for-UFC-exits-203273"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
       "id": "dana-jokes-strickland-let-into-canada",
       "title": "Dana White jokes he can't believe Canada let Sean Strickland in, after Strickland's Alberta rally speech",
       "people": [
@@ -48,7 +135,8 @@
         "Says she's cleared to resume boxing training",
         "Found at Oct 18 1 PM run; held for evening (reach-recovery mode). No Drive photo of Ditcheva or Bishop; workflow would fetch Wikimedia; check the no-silhouette rule after render",
         "Oct 18 6 PM run: rendered with silhouettes (no Wikimedia photos of Ditcheva or Bishop); held for photo. Queue file in commit 9c61086. Needs Drive photos of Dakota Ditcheva and Jena Bishop.",
-        "Oct 18 10 PM run: still no Drive photo of Ditcheva or Bishop; stays held (drop after ~Oct 20 if no photo)"
+        "Oct 18 10 PM run: still no Drive photo of Ditcheva or Bishop; stays held (drop after ~Oct 20 if no photo)",
+        "Oct 19 9 AM run: still no Drive photo; stays held until ~Oct 20"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/dakota-ditcheva-liz-carmouche-jena-bishop-title-matchup/"
@@ -446,7 +534,8 @@
         "Announced during UFC 332 broadcast",
         "Moreno vs. Charles Johnson also added",
         "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'",
-        "Oct 16 6 PM run: 'Rich Kid?' v2 rendered with a silhouette for Joe Pyfer (no Wikimedia photo under 'Joe Pyfer'/'Joseph Pyfer'); held for a Pyfer photo in Drive. Queue file: posts/queue/2026-10-16-1830-nickal-rich-kid.json (commit 504794b)"
+        "Oct 16 6 PM run: 'Rich Kid?' v2 rendered with a silhouette for Joe Pyfer (no Wikimedia photo under 'Joe Pyfer'/'Joseph Pyfer'); held for a Pyfer photo in Drive. Queue file: posts/queue/2026-10-16-1830-nickal-rich-kid.json (commit 504794b)",
+        "Oct 19 9 AM run: dropped from held list as stale (>2 days, no photo added)"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
@@ -465,8 +554,7 @@
           "scheduled_for": "2026-10-04T00:40:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
         }
-      ],
-      "held_for_photo": true
+      ]
     },
     {
       "id": "strickland-edmonton-trash-can-chased",
@@ -538,7 +626,8 @@
         "Magomedov lost to Michael Page in 2025, then won two straight, last a decision over Michel Pereira at UFC Baku",
         "Found at Oct 15 10 PM run; held for Oct 16 evening (Oct 15 past the 4/day reach-recovery cap). Neither fighter has a Drive photo; workflow would fetch Wikimedia",
         "Oct 16 6 PM run: 'Izzy Returns?' rendered but the Wikimedia 'Sharabutdin Magomedov' photo showed the wrong person (ginger beard, beanie); removed images/shara-magomedov and held for a real Shara Magomedov photo in Drive. Queue file: posts/queue/2026-10-16-1832-izzy-vs-bullet.json (commit 504794b)",
-        "UPDATE Oct 17 9 AM run: Bloody Elbow (Oct 16) relays a report that the Dec 5 Middle East event is 'highly' likely to be canceled; not confirmed by UFC. Still held for a Shara Magomedov photo; evening runs can post it as an update if the cancellation is confirmed or the photo arrives"
+        "UPDATE Oct 17 9 AM run: Bloody Elbow (Oct 16) relays a report that the Dec 5 Middle East event is 'highly' likely to be canceled; not confirmed by UFC. Still held for a Shara Magomedov photo; evening runs can post it as an update if the cancellation is confirmed or the photo arrives",
+        "Oct 19 9 AM run: dropped from held list as stale (>2 days, no photo added)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/15/israel-adesanyas-return-reportedly-set-for-ufc-saudi-arabia-main-event-against-17-1-middleweight/",
@@ -546,8 +635,7 @@
         "https://www.mmamania.com/latest-news/479374/report-israel-adesanya-vs-shara-bullet-targeted-for-ufc-saudi-arabia-main-event-on-dec-5",
         "https://bloodyelbow.com/2026/10/16/israel-adesanyas-ufc-return-event-in-the-middle-east-highly-likely-to-be-canceled-report-claims/"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": []
     },
     {
       "id": "dana-open-to-rakhmonov-vs-morales",
