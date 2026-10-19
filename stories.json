@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "dana-jokes-strickland-let-into-canada",
+      "title": "Dana White jokes he can't believe Canada let Sean Strickland in, after Strickland's Alberta rally speech",
+      "people": [
+        "Sean Strickland",
+        "Dana White"
+      ],
+      "event": "UFC Edmonton (Oct 17) post-fight press conference",
+      "first_reported": "2026-10-18",
+      "facts": [
+        "At the UFC Edmonton post-fight presser, Dana: 'How the hell did you guys even let him in this country?' and joked that if he can get in, anybody can",
+        "Strickland appeared outside the Alberta Legislature in a 'Republic of Alberta' hoodie and gave a speech backing the independence movement (rally Oct 17); also cornered Melissa Croden at UFC Edmonton",
+        "Dana: 'There's absolutely no issues with his contract. He just signed his contract in May'; hasn't seen Strickland",
+        "Related: strickland-edmonton-trash-can-chased (not posted), strickland-ponders-vacating-title-pay. Framed as a Dana-vs-Strickland jab; political topic kept neutral, homeless-filming incident left out"
+      ],
+      "sources": [
+        "https://nyfights.com/featured/dana-white-takes-a-dig-at-sean-strickland/",
+        "https://bloodyelbow.com/2026/10/18/dana-white-reacts-as-sean-strickland-gives-speech-at-rally-in-canada-how-did-you-let-him-in/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-18-2230-dana-strickland-canada",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "ditcheva-wants-bishop-not-carmouche",
       "title": "Dakota Ditcheva says the Carmouche fight is off the table, wants new PFL champ Jena Bishop",
       "people": [

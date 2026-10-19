@@ -1,0 +1,61 @@
+{
+  "story_id": "dana-jokes-strickland-let-into-canada",
+  "headline": "Let Him In?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    },
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Dana White took a shot at Sean Strickland after his wild week in Canada.\nFunny or harsh? 👇\n\nAt the UFC Edmonton press conference, Dana joked he has no idea how Canada let the UFC middleweight champion into the country. Strickland's trip included a speech at an Alberta independence rally, and Dana added there are no issues with the contract he signed in May.\n\nWhat's Strickland's comeback?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCEdmonton",
+    "SeanStrickland",
+    "DanaWhite"
+  ],
+  "sources": [
+    "NY Fights",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Funny or harsh?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "DANA'S CANADA DIG",
+    "hook": "Dana vs Strickland",
+    "left": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    ],
+    "right": [
+      {
+        "name": "Dana White",
+        "file": "01-dana-white-in-june-2025-cropped"
+      }
+    ],
+    "story": "Strickland's Canada trip included an Alberta rally speech. Dana joked he can't believe they let him in.",
+    "chips": [
+      "UFC EDMONTON PRESSER",
+      "CONTRACT: 'NO ISSUES'"
+    ],
+    "question": "Funny or harsh?",
+    "options": [
+      "Funny",
+      "Harsh"
+    ]
+  }
+}
