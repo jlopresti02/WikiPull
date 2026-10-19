@@ -31,7 +31,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC 333 · BANTAMWEIGHT",
+    "tag": "UFC 333",
     "kicker": "TRILOGY SATURDAY",
     "hook": "Merab vs Yan 3",
     "left": [
@@ -72,7 +72,7 @@
     "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/news-intro/01-intro-a-new-song.mp3",
-  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
-  "music_start": 22.25
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }

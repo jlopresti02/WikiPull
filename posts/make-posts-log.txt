@@ -3,7 +3,7 @@
 Image: {'type': 'fighter', 'name': 'Alexander Volkanovski', 'file': 'drive-alexander-volkanovski-champ'} -> fighter images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png  headline: Finish Him?
 v2 left: images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
 v2 right: images/movsar-evloev/cutouts/drive-movsar-evloev.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
 Rendered posts/2026-10-19-1830-volk-evloev-finish/post.png (fighter)
 Rendered posts/2026-10-19-1830-volk-evloev-finish/reel.mp4 (format v2)
 
@@ -11,6 +11,6 @@ Rendered posts/2026-10-19-1830-volk-evloev-finish/reel.mp4 (format v2)
 Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png  headline: Decision Machine
 v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
 v2 right: images/petr-yan/cutouts/drive-petr-yan-champ.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
 Rendered posts/2026-10-19-1831-merab-decision-machine/post.png (fighter)
 Rendered posts/2026-10-19-1831-merab-decision-machine/reel.mp4 (format v2)

@@ -33,7 +33,7 @@
   "reel": true,
   "format": "v2",
   "v2": {
-    "tag": "UFC 333 · FEATHERWEIGHT",
+    "tag": "UFC 333",
     "kicker": "TITLE FIGHT SATURDAY",
     "hook": "Volk vs Evloev",
     "left": [
@@ -74,7 +74,7 @@
     "image": "images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png",
     "credit": "WWIT MMA News"
   },
-  "music": "music/sports/03-blood-sport-war.mp3",
-  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
-  "music_start": 8.5
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
 }
