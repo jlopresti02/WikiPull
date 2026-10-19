@@ -1,0 +1,78 @@
+{
+  "story_id": "merab-decision-machine-yan-trilogy",
+  "headline": "Decision Machine",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Merab Dvalishvili",
+      "file": "drive-merab-dvalishvili"
+    },
+    {
+      "type": "fighter",
+      "name": "Petr Yan",
+      "file": "drive-petr-yan-champ"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "Merab Dvalishvili calls himself a 'decision machine' ahead of his third fight with Petr Yan.\nMerab or Yan? 👇\n\nAsked by a fan how he beats the UFC bantamweight champion, Merab said there are three ways to win, and 16 of his 21 career wins came on the cards. Yan vs. Dvalishvili 3 for the title is the UFC 333 co-main event this Saturday in Abu Dhabi.\n\nWho takes the trilogy?",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "MerabDvalishvili",
+    "PetrYan"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Merab or Yan?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 333 · BANTAMWEIGHT",
+    "kicker": "TRILOGY SATURDAY",
+    "hook": "Merab vs Yan 3",
+    "left": [
+      {
+        "name": "Merab Dvalishvili",
+        "file": "drive-merab-dvalishvili"
+      }
+    ],
+    "right": [
+      {
+        "name": "Petr Yan",
+        "file": "drive-petr-yan-champ"
+      }
+    ],
+    "story": "Merab says there are three ways to win, and he's a decision machine. Yan defends the belt Saturday.",
+    "chips": [
+      "16 OF 21 WINS ON THE CARDS",
+      "UFC 333 CO-MAIN"
+    ],
+    "question": "Merab or Yan?",
+    "options": [
+      "Merab",
+      "Yan"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/petr-yan/cutouts/drive-petr-yan-champ.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
+}
