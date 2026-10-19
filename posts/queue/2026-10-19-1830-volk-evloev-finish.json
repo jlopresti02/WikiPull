@@ -1,0 +1,28 @@
+{
+  "story_id": "volkanovski-predicts-wild-finish-evloev",
+  "headline": "Finish Him?",
+  "visual": [
+    {"type": "fighter", "name": "Alexander Volkanovski", "file": "drive-alexander-volkanovski-champ"},
+    {"type": "fighter", "name": "Movsar Evloev", "file": "drive-movsar-evloev"}
+  ],
+  "color": "#d2202f",
+  "caption": "Alexander Volkanovski says he'll finish unbeaten Movsar Evloev in 'pretty wild fashion' at UFC 333.\nVolk or Evloev? 👇\n\nEvloev (20-0) has won all 10 of his UFC fights on the scorecards and says real fans appreciate skill and wrestling. The featherweight title fight headlines UFC 333 in Abu Dhabi this Saturday, Oct 24.\n\nWho keeps the belt?",
+  "hashtags": ["MMANews", "UFC", "UFC333", "AlexanderVolkanovski", "MovsarEvloev"],
+  "sources": ["Sherdog", "MMA Junkie", "MMA Fighting"],
+  "music_pool": "espn",
+  "question": "Volk or Evloev?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 333 · FEATHERWEIGHT",
+    "kicker": "TITLE FIGHT SATURDAY",
+    "hook": "Volk vs Evloev",
+    "left": [{"name": "Alexander Volkanovski", "file": "drive-alexander-volkanovski-champ"}],
+    "right": [{"name": "Movsar Evloev", "file": "drive-movsar-evloev"}],
+    "story": "Volk predicts a wild finish. Evloev, 0 finishes in 10 UFC wins, says decisions still win titles.",
+    "chips": ["EVLOEV 20-0", "OCT 24 · ABU DHABI"],
+    "question": "Volk or Evloev?",
+    "options": ["Volk", "Evloev"]
+  }
+}

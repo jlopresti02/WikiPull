@@ -2,6 +2,41 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "oliveira-grief-ruled-out-tsarukyan-september",
+      "title": "Charles Oliveira says grief over teammate Allan Nascimento's death ruled out a September Tsarukyan fight",
+      "people": [
+        "Charles Oliveira",
+        "Arman Tsarukyan"
+      ],
+      "event": "UFC 335 (Dec, vs Diego Lopes)",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Ag Fight interview (Oct 17), via MiddleEasy Oct 19: wouldn't have fought in September regardless of opponent, money or title shot, while grieving Allan Nascimento",
+        "Asked for December, got Diego Lopes; dedicates it to Nascimento",
+        "Oct 19 6 PM run: not posted (grief story, poor fit for punchy v2; no conflict)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/charles-oliveira-allan-nascimento-grief-arman-tsarukyan"
+      ],
+      "posts": []
+    },
+    {
+      "id": "police-officer-slams-spectator-ufc-edmonton",
+      "title": "Video appears to show a police officer slamming a spectator at UFC Edmonton",
+      "people": [],
+      "event": "UFC Edmonton (Oct 17)",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Social media video from Rogers Place appears to show an officer lift and slam a man during a crowd altercation; man appears to lose consciousness",
+        "No official police or UFC response in the report",
+        "Oct 19 6 PM run: not posted (no fighter, serious incident, no official statement)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Video-shows-police-officer-slamming-spectator-at-UFC-Edmonton-203275"
+      ],
+      "posts": []
+    },
+    {
       "id": "volkanovski-predicts-wild-finish-evloev",
       "title": "Volkanovski predicts a 'wild' finish of unbeaten Movsar Evloev at UFC 333",
       "people": [
@@ -14,13 +49,21 @@
         "Volkanovski (28-4) told MMA Junkie he can't see Evloev outgrappling him for 25 minutes; Evloev would need to land something big to win",
         "Predicted he finishes Evloev inside five rounds in 'pretty wild fashion'",
         "Evloev (20-0) has won all 10 UFC fights by decision; title fight headlines UFC 333, Oct 24, Etihad Arena, Abu Dhabi",
-        "Found at Oct 19 1 PM run; held for evening (reach-recovery mode). Rank 1: best paired with evloev-defends-zero-finishes-ufc-333 as ONE v2 post (left Volkanovski, right Evloev: 'he'll finish you' vs 'decisions win titles')"
+        "Found at Oct 19 1 PM run; held for evening (reach-recovery mode). Rank 1: best paired with evloev-defends-zero-finishes-ufc-333 as ONE v2 post (left Volkanovski, right Evloev: 'he'll finish you' vs 'decisions win titles')",
+        "Oct 19 6 PM run: posted as one v2 Volk vs Evloev Reel merged with evloev-defends-zero-finishes-ufc-333 (and Alves angle)"
       ],
       "sources": [
-        "https://www.sherdog.com/news/news/Alexander-Volkanovski-predicts-wild-finish-of-200-Movsar-Evloev-203269"
+        "https://www.sherdog.com/news/news/Alexander-Volkanovski-predicts-wild-finish-of-200-Movsar-Evloev-203269",
+        "https://www.sherdog.com/news/news/10-UFC-wins-zero-finishes-Movsar-Evloev-defends-his-fighting-style-203271"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-19-1830-volk-evloev-finish",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "buckley-livestream-comeback-three-losses",
@@ -55,13 +98,13 @@
         "Challenges featherweight champ Volkanovski in the UFC 333 main event, Oct 24, Etihad Arena",
         "Related: johnson-adesanya-rip-evloev-no-finishes (Oct 5, critics' side). This is his own answer = new angle",
         "Found at Oct 19 9 AM run; held for evening (reach-recovery mode). Rank 1. Pair with Alves warning if only one Evloev post fits",
-        "Oct 19 1 PM run: Volkanovski predicted a wild finish of Evloev (new entry volkanovski-predicts-wild-finish-evloev); merge both into one Volk vs Evloev post"
+        "Oct 19 1 PM run: Volkanovski predicted a wild finish of Evloev (new entry volkanovski-predicts-wild-finish-evloev); merge both into one Volk vs Evloev post",
+        "Oct 19 6 PM run: merged into 2026-10-19-1830-volk-evloev-finish (see volkanovski-predicts-wild-finish-evloev); don't post separately"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/10-UFC-wins-zero-finishes-Movsar-Evloev-defends-his-fighting-style-203271"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": []
     },
     {
       "id": "thiago-alves-warns-volkanovski-changing-of-guard",
@@ -77,13 +120,13 @@
         "Thiago Alves, now an ATT coach on Evloev's team, praised Volkanovski as an all-time great but said Evloev will impose his will",
         "Called Evloev too physical, young, strong and skilled; predicted a dominant win and a changing of the guard",
         "Evloev is 32 and 20-0; Volkanovski is 38",
-        "Found at Oct 19 9 AM run; held for evening (reach-recovery mode). Rank 2; consider merging into the Evloev post (v2 left Volkanovski, right Evloev)"
+        "Found at Oct 19 9 AM run; held for evening (reach-recovery mode). Rank 2; consider merging into the Evloev post (v2 left Volkanovski, right Evloev)",
+        "Oct 19 6 PM run: merged into 2026-10-19-1830-volk-evloev-finish (see volkanovski-predicts-wild-finish-evloev); don't post separately"
       ],
       "sources": [
         "https://mmasucka.com/news/changing-of-the-guard-movsar-evloevs-coach-thiago-alves-warns-alexander-volkanovski-before-ufc-333/"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": []
     },
     {
       "id": "merab-decision-machine-yan-trilogy",
@@ -103,8 +146,14 @@
       "sources": [
         "https://www.sherdog.com/news/news/Merab-Dvalishvili-calls-himself-a-decision-machine-before-Yan-trilogy-203272"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": [
+        {
+          "post": "2026-10-19-1831-merab-decision-machine",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "mokaev-blames-tko-paramount-basharat-exit",
@@ -121,7 +170,8 @@
         "Mokaev (released after beating Manel Kape in July 2024) posted on X Oct 18 calling it a bullsh*t answer; says he doesn't blame Dana but TKO and Paramount",
         "Related: ufc-lets-unbeaten-farid-basharat-go (already 2 posts). New voice, weaker; rank 4, drop first if over cap. Check a Mokaev photo exists (no local cutouts yet)",
         "Found at Oct 19 9 AM run; held for evening (reach-recovery mode).",
-        "Oct 19 1 PM run: Javid Basharat (Sherdog Oct 19) says the family waited 3 months and Farid learned of his UFC exit when everyone else did; Farid says Dana made assumptions, not facts, and he never turned down fights. Same Basharat saga (already 2 posts), still rank 4"
+        "Oct 19 1 PM run: Javid Basharat (Sherdog Oct 19) says the family waited 3 months and Farid learned of his UFC exit when everyone else did; Farid says Dana made assumptions, not facts, and he never turned down fights. Same Basharat saga (already 2 posts), still rank 4",
+        "Oct 19 6 PM run: still held for the 10 PM run (3rd Basharat-saga post, weakest; drop if anything better lands). Day has 2 of 4 used"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Muhammad-Mokaev-blames-TKO-Paramount-not-Dana-White-for-UFC-exits-203273",
@@ -792,11 +842,13 @@
         "Bloody Elbow framed it as a fight that 'ends in two retirements'; invitation only, not a booking; Arman Tsarukyan also chasing Gaethje",
         "Held at 9 AM run for the evening (Oct 15 daytime limit); v2 Volkanovski (drive) vs Gaethje (drive-justin-gaethje-belt)",
         "Oct 15: day already at 6 posts under the new 4/day reach-recovery cap; may still post Oct 16 evening if it holds up",
-        "Oct 16 6 PM run: dropped as stale (held since Oct 15; 4/day reach-recovery cap went to fresher stories)"
+        "Oct 16 6 PM run: dropped as stale (held since Oct 15; 4/day reach-recovery cap went to fresher stories)",
+        "Oct 19: Volk repeated the double-retirement super fight idea to MMA Junkie (Heavy, Oct 19); same pitch, not a new fact, not posted"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/alexander-volkanovski-justin-gaethje-lightweight-title-superfight",
-        "https://bloodyelbow.com/2026/10/15/alexander-volkanovski-wants-super-fight-that-ends-in-two-retirements-after-ufc-333-title-defense/"
+        "https://bloodyelbow.com/2026/10/15/alexander-volkanovski-wants-super-fight-that-ends-in-two-retirements-after-ufc-333-title-defense/",
+        "https://heavy.com/sports/ufc/alexander-volkanovski-justin-gaethje-double-retirement/"
       ],
       "posts": []
     },
