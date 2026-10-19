@@ -61,7 +61,10 @@
           "post": "2026-10-19-1830-volk-evloev-finish",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-19T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2547611248386356105",
+          "image": "v2: Alexander Volkanovski (drive-alexander-volkanovski-champ) vs Movsar Evloev (drive-movsar-evloev)"
         }
       ]
     },
@@ -151,7 +154,10 @@
           "post": "2026-10-19-1831-merab-decision-machine",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-19T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2244970759360853158",
+          "image": "v2: Merab Dvalishvili (drive-merab-dvalishvili) vs Petr Yan (drive-petr-yan-champ)"
         }
       ]
     },
