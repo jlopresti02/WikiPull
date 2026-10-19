@@ -56,6 +56,24 @@
     "options": [
       "Funny",
       "Harsh"
-    ]
-  }
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png",
+      "credit": "Press Service of the President of the Republic of Azerbaijan / CC BY 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/sean-strickland/cutouts/drive-sean-strickland.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
 }

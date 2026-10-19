@@ -1,16 +1,8 @@
 
-== 2026-10-18-1831-jasudavicius-wants-silva.json
-Image: {'type': 'fighter', 'name': 'Jasmine Jasudavicius'} -> fighter images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png  headline: Title In Toronto
-v2 left: images/jasmine-jasudavicius/cutouts/01-jasmine-jasudavicius-in-2023-01.png
-v2 right: images/natalia-silva/cutouts/01-nat-lia-silva-2025.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-10-18-1831-jasudavicius-wants-silva/post.png (fighter)
-Rendered posts/2026-10-18-1831-jasudavicius-wants-silva/reel.mp4 (format v2)
-
-== 2026-10-18-1833-malott-wants-top-5.json
-Image: {'type': 'fighter', 'name': 'Mike Malott', 'file': 'drive-mike-malott'} -> fighter images/mike-malott/cutouts/drive-mike-malott.png  headline: Top 5 Next
-v2 left: images/mike-malott/cutouts/drive-mike-malott.png
-v2 right: images/joaquin-buckley/cutouts/drive-joaquin-buckley.png
-Music: music/sports/01-sport-is-cool.mp3 from 160.5s
-Rendered posts/2026-10-18-1833-malott-wants-top-5/post.png (fighter)
-Rendered posts/2026-10-18-1833-malott-wants-top-5/reel.mp4 (format v2)
+== 2026-10-18-2230-dana-strickland-canada.json
+Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Let Him In?
+v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
+v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
+Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
+Rendered posts/2026-10-18-2230-dana-strickland-canada/post.png (fighter)
+Rendered posts/2026-10-18-2230-dana-strickland-canada/reel.mp4 (format v2)
