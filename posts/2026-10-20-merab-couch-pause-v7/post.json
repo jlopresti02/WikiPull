@@ -1,0 +1,12 @@
+{
+  "story_id": "merab-couch-pause-challenge-v7",
+  "format": "pause",
+  "trial_reel": true,
+  "requested_by_user": true,
+  "variant": {
+    "headline": "99% WILL MISS THIS",
+    "frames_per_crossing": 30,
+    "accent": "#f2c230",
+    "subtitle": "pause when the cage drops on Merab"
+  }
+}

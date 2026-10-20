@@ -1,0 +1,12 @@
+{
+  "story_id": "merab-couch-pause-challenge-v10",
+  "format": "pause",
+  "trial_reel": true,
+  "requested_by_user": true,
+  "variant": {
+    "headline": "CAN YOU TRAP MERAB?",
+    "frames_per_crossing": 20,
+    "accent": "#f2c230",
+    "subtitle": "pause the second the cage hits the couch"
+  }
+}

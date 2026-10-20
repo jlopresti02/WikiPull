@@ -1,0 +1,12 @@
+{
+  "story_id": "merab-couch-pause-challenge-v20",
+  "format": "pause",
+  "trial_reel": true,
+  "requested_by_user": true,
+  "variant": {
+    "headline": "ONLY 1% CAN CATCH MERAB",
+    "frames_per_crossing": 20,
+    "accent": "#e0362c",
+    "subtitle": "PAUSE WHEN THE CAGE DROPS"
+  }
+}
