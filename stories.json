@@ -2,6 +2,72 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "jake-paul-asks-ufc-release-jones-ngannou",
+      "title": "Jake Paul asks the UFC to release Jon Jones for a Ngannou fight; Ngannou: 'Freedom isn't free'",
+      "people": [
+        "Jon Jones",
+        "Francis Ngannou",
+        "Jake Paul"
+      ],
+      "event": "Jones UFC contract / possible MVP superfight",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Jake Paul posted on X Oct 19, citing Shakur Stevenson's exit from Zuffa Boxing, asking the UFC to let Jon Jones go so fans get Jones vs. Ngannou",
+        "Ngannou quoted Paul's post: 'Freedom isn't free; it's not given, but it's taken' (MiddleEasy, Oct 19)",
+        "Jones shared Paul's request himself on X, per La Sueur (Oct 20); no release, contract or fight is confirmed",
+        "Background: Jones said in May he was focused on getting out of his UFC contract to make a Ngannou fight (MMA News)",
+        "Found at Oct 20 9 AM run; held for evening (reach-recovery mode). Rank 1. Ngannou has no local cutout; workflow fetches Wikimedia, check no-silhouette after render"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/francis-ngannou-jake-paul-jon-jones-ufc-release-push",
+        "https://lasueur.com/jon-jones-relance-choc-impossible-francis-ngannou-20-10-2026",
+        "https://www.mmanews.com/article/jake-paul-jon-jones-francis-ngannou-ufc-release"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "oliveira-rejects-brawl-only-bmf-lopes",
+      "title": "Charles Oliveira rejects brawl-only BMF expectations before Diego Lopes fight",
+      "people": [
+        "Charles Oliveira",
+        "Diego Lopes"
+      ],
+      "event": "UFC 335, Dec 12, 2026, T-Mobile Arena, Las Vegas",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Oliveira told MMA Fighting the BMF belt doesn't mean he has to stand and brawl: 'I'm a MMA fighter'",
+        "Says he'd rather give the belt back than fight recklessly if that were the requirement (per MiddleEasy paraphrase)",
+        "Defends the BMF title vs. Diego Lopes (lightweight debut) in the UFC 335 main event, Dec 12, Las Vegas",
+        "Related: oliveira-vs-lopes-bmf-ufc-335 (Oct 3 Reel) and oliveira-grief-ruled-out-tsarukyan-september. New angle (BMF ultimatum). Found at Oct 20 9 AM run; held for evening, rank 2"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/charles-oliveira-bmf-full-mma-conditional-belt-return-oct19"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "malott-staph-ufc-edmonton-buckley-act",
+      "title": "Mike Malott says he had staph during UFC Edmonton fight week, calls Buckley's weigh-in demeanor an act",
+      "people": [
+        "Mike Malott",
+        "Joaquin Buckley"
+      ],
+      "event": "UFC Edmonton aftermath / UFC 336 Toronto",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "On The Ariel Helwani Show, Malott said he had a staph infection during UFC Edmonton fight week; says he's fine now",
+        "On Buckley's weigh-in behaviour: 'I know you're putting on an act'",
+        "Ready for UFC 336 in Toronto in January; wouldn't call out Michael Morales, will take whoever matchmakers offer",
+        "Logged at Oct 20 9 AM run; not held (Malott already 3 posts this week; weaker than the held stories). Post only if the evening has room"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/mike-malott-staph-ufc-edmonton-fight-week"
+      ],
+      "posts": []
+    },
+    {
       "id": "mendez-backs-usman-nurmagomedov-promotion-choice",
       "title": "Javier Mendez says he'll back Usman Nurmagomedov's choice of next promotion",
       "people": [
@@ -105,7 +171,8 @@
         "Predicted he finishes Evloev inside five rounds in 'pretty wild fashion'",
         "Evloev (20-0) has won all 10 UFC fights by decision; title fight headlines UFC 333, Oct 24, Etihad Arena, Abu Dhabi",
         "Found at Oct 19 1 PM run; held for evening (reach-recovery mode). Rank 1: best paired with evloev-defends-zero-finishes-ufc-333 as ONE v2 post (left Volkanovski, right Evloev: 'he'll finish you' vs 'decisions win titles')",
-        "Oct 19 6 PM run: posted as one v2 Volk vs Evloev Reel merged with evloev-defends-zero-finishes-ufc-333 (and Alves angle)"
+        "Oct 19 6 PM run: posted as one v2 Volk vs Evloev Reel merged with evloev-defends-zero-finishes-ufc-333 (and Alves angle)",
+        "Oct 20 9 AM run: UFC 333 Embedded Ep. 1 out Oct 19 ('I just take their zeros', MMA Weekly); no new fact beyond Oct 19 Reel, not posted"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Alexander-Volkanovski-predicts-wild-finish-of-200-Movsar-Evloev-203269",
@@ -233,7 +300,8 @@
         "Found at Oct 19 9 AM run; held for evening (reach-recovery mode).",
         "Oct 19 1 PM run: Javid Basharat (Sherdog Oct 19) says the family waited 3 months and Farid learned of his UFC exit when everyone else did; Farid says Dana made assumptions, not facts, and he never turned down fights. Same Basharat saga (already 2 posts), still rank 4",
         "Oct 19 6 PM run: still held for the 10 PM run (3rd Basharat-saga post, weakest; drop if anything better lands). Day has 2 of 4 used",
-        "Oct 19 10 PM run: queued as v2 Reel 2026-10-19-2215-mokaev-calls-bs, but no Mokaev photo on Wikimedia or Drive (rendered a silhouette), so NOT scheduled; held for photo. Drop after ~Oct 20 if none"
+        "Oct 19 10 PM run: queued as v2 Reel 2026-10-19-2215-mokaev-calls-bs, but no Mokaev photo on Wikimedia or Drive (rendered a silhouette), so NOT scheduled; held for photo. Drop after ~Oct 20 if none",
+        "Oct 20 9 AM run: still no Mokaev photo in Drive; stays held through today's evening runs, then drop"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Muhammad-Mokaev-blames-TKO-Paramount-not-Dana-White-for-UFC-exits-203273",
@@ -292,13 +360,13 @@
         "Oct 18 10 PM run: still no Drive photo of Ditcheva or Bishop; stays held (drop after ~Oct 20 if no photo)",
         "Oct 19 9 AM run: still no Drive photo; stays held until ~Oct 20",
         "Oct 19 1 PM run: still no Drive photo; stays held until ~Oct 20",
-        "Oct 19 10 PM run: still no Drive photo; drop after Oct 20 if none arrives"
+        "Oct 19 10 PM run: still no Drive photo; drop after Oct 20 if none arrives",
+        "Oct 20 9 AM run: still no Drive photo of Ditcheva or Bishop; dropped as stale (held since Oct 18)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/dakota-ditcheva-liz-carmouche-jena-bishop-title-matchup/"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": []
     },
     {
       "id": "jasudavicius-wants-natalia-silva-title-toronto",
