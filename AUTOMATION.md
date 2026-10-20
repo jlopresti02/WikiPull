@@ -659,7 +659,17 @@ Built for Instagram search and the Reels algorithm:
   without opening the caption: "Colby or Strickland? 👇", "Ban it or keep
   it? 👇", "Fair or not? 👇". Through Oct 2, 38 Reels got 0 comments with
   only an open question at the end; easy picks are easier to answer.
-- End with a short open question too ("Who takes it?").
+- **End with a hot take, not an open question (Oct 20).** Last line of the
+  written part: "🔥 Hot take: <one bold, defensible claim about the story>"
+  then the tagline **"Disagree? Tell me why you're wrong."** People either
+  agree or push back, and both are comments. Rules for the take: one
+  sentence, a real opinion or a plainly true statement the story supports
+  ("Figueiredo at 125 is a title fight, not a comeback."), never a
+  made-up fact, no insults or accusations about a real person, no betting
+  language. On sensitive stories (injuries, deaths, hospital updates,
+  legal trouble) skip the take and the tagline and close with a kind line.
+  Vary the tagline now and then ("Change my mind.", "Prove me wrong.");
+  "Disagree? Tell me why you're wrong." is the default.
 - Keep the written part (before sources and credits) under about 450
   characters. Use 1 or 2 emoji at most.
 
