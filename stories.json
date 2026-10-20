@@ -2,6 +2,61 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "mendez-backs-usman-nurmagomedov-promotion-choice",
+      "title": "Javier Mendez says he'll back Usman Nurmagomedov's choice of next promotion",
+      "people": [
+        "Usman Nurmagomedov",
+        "Javier Mendez"
+      ],
+      "event": "Free agency",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Mendez told MMA Junkie (via MiddleEasy, Oct 19) he's with Usman whatever promotion he picks; he's outside the decision",
+        "Ideally a UFC move would start with an adjustment fight before a title shot; says PFL still has appealing opponents",
+        "No signing or decision announced",
+        "Oct 19 10 PM run: not posted (no conflict, no news decision yet; post when Usman actually picks)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/javier-mendez-usman-future-october19/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "adrian-yanez-out-ufc-334-hospital",
+      "title": "Adrian Yanez confirms his UFC 334 withdrawal from a hospital bed",
+      "people": [
+        "Adrian Yanez"
+      ],
+      "event": "UFC 334",
+      "first_reported": "2026-10-18",
+      "facts": [
+        "Yanez out of his UFC 334 bout (Nov 14, MSG); confirmed in a post from a hospital bed and said he'll be back soon",
+        "Oct 19 10 PM run: not posted (lesser-known name, no conflict; reach-recovery mode is star + conflict only)"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/19/adrian-yanez-confirms-his-ufc-334-withdrawal-in-post-from-hospital-bed/",
+        "https://agentmma.com/news/91520-adrian-yanez-out-of-ufc-334-bout-on-november-14"
+      ],
+      "posts": []
+    },
+    {
+      "id": "volkanovski-teammate-collapses-assault-bike",
+      "title": "Volkanovski teammate collapses on assault bike in UFC 333 camp challenge",
+      "people": [
+        "Alexander Volkanovski"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Unnamed teammate collapsed during a 'Team Challenge' on Volkanovski's YouTube; Volk called it 'an absolute war'",
+        "Oct 19 10 PM run: not posted (no conflict; Volk already posted tonight)"
+      ],
+      "sources": [
+        "https://www.essentiallysports.com/ufc-mma-news-alexander-volkanovskis-absolute-war-with-teammate-ends-in-shocking-moment-ahead-of-ufc-333/"
+      ],
+      "posts": []
+    },
+    {
       "id": "oliveira-grief-ruled-out-tsarukyan-september",
       "title": "Charles Oliveira says grief over teammate Allan Nascimento's death ruled out a September Tsarukyan fight",
       "people": [
@@ -177,14 +232,21 @@
         "Related: ufc-lets-unbeaten-farid-basharat-go (already 2 posts). New voice, weaker; rank 4, drop first if over cap. Check a Mokaev photo exists (no local cutouts yet)",
         "Found at Oct 19 9 AM run; held for evening (reach-recovery mode).",
         "Oct 19 1 PM run: Javid Basharat (Sherdog Oct 19) says the family waited 3 months and Farid learned of his UFC exit when everyone else did; Farid says Dana made assumptions, not facts, and he never turned down fights. Same Basharat saga (already 2 posts), still rank 4",
-        "Oct 19 6 PM run: still held for the 10 PM run (3rd Basharat-saga post, weakest; drop if anything better lands). Day has 2 of 4 used"
+        "Oct 19 6 PM run: still held for the 10 PM run (3rd Basharat-saga post, weakest; drop if anything better lands). Day has 2 of 4 used",
+        "Oct 19 10 PM run: nothing stronger landed; posted as v2 Reel (left Mokaev, right Dana)"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Muhammad-Mokaev-blames-TKO-Paramount-not-Dana-White-for-UFC-exits-203273",
         "https://www.sherdog.com/news/news/Javid-Basharat-says-brother-learned-of-UFC-exit-with-everyone-else-203274"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": [
+        {
+          "post": "2026-10-19-2215-mokaev-calls-bs",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "dana-jokes-strickland-let-into-canada",
@@ -235,7 +297,8 @@
         "Oct 18 6 PM run: rendered with silhouettes (no Wikimedia photos of Ditcheva or Bishop); held for photo. Queue file in commit 9c61086. Needs Drive photos of Dakota Ditcheva and Jena Bishop.",
         "Oct 18 10 PM run: still no Drive photo of Ditcheva or Bishop; stays held (drop after ~Oct 20 if no photo)",
         "Oct 19 9 AM run: still no Drive photo; stays held until ~Oct 20",
-        "Oct 19 1 PM run: still no Drive photo; stays held until ~Oct 20"
+        "Oct 19 1 PM run: still no Drive photo; stays held until ~Oct 20",
+        "Oct 19 10 PM run: still no Drive photo; drop after Oct 20 if none arrives"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/dakota-ditcheva-liz-carmouche-jena-bishop-title-matchup/"

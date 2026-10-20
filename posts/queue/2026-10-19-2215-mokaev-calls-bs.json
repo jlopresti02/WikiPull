@@ -1,0 +1,28 @@
+{
+  "story_id": "mokaev-blames-tko-paramount-basharat-exit",
+  "headline": "Calls BS",
+  "visual": [
+    {"type": "fighter", "name": "Muhammad Mokaev"},
+    {"type": "fighter", "name": "Dana White", "file": "01-dana-white-in-june-2025-cropped"}
+  ],
+  "color": "#d2202f",
+  "caption": "Muhammad Mokaev isn't buying Dana White's reason for letting unbeaten Farid Basharat go.\nMokaev or Dana? 👇\n\nDana hinted at the UFC Edmonton presser that Basharat's exit came down to matchmaking. Mokaev, cut by the UFC in 2024 after a win, called that answer BS on X and pinned the UFC roster cuts on TKO and Paramount instead.\n\nWho's really behind the cuts?",
+  "hashtags": ["MMANews", "UFC", "UFCNews", "MuhammadMokaev", "FaridBasharat"],
+  "sources": ["Sherdog"],
+  "music_pool": "espn",
+  "question": "Mokaev or Dana?",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · ROSTER CUTS",
+    "kicker": "NOT BUYING IT",
+    "hook": "Mokaev vs Dana",
+    "left": [{"name": "Muhammad Mokaev"}],
+    "right": [{"name": "Dana White", "file": "01-dana-white-in-june-2025-cropped"}],
+    "story": "Dana hinted Basharat's exit was about matchmaking. Mokaev calls that BS and blames TKO and Paramount.",
+    "chips": ["BASHARAT 16-0, CUT", "MOKAEV CUT AFTER A WIN"],
+    "question": "Mokaev or Dana?",
+    "options": ["Mokaev", "Dana"]
+  }
+}
