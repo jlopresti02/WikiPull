@@ -25,7 +25,10 @@
           "post": "2026-10-20-1831-omalley-yan-surgery",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-20T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=789656287464605654",
+          "image": "01-sean-o-malley-in-2024 vs drive-petr-yan"
         }
       ]
     },
@@ -128,7 +131,10 @@
           "post": "2026-10-20-1832-ankalaev-lucky-punch",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-20T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7992871811295430422",
+          "image": "01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia vs drive-alex-pereira-3"
         }
       ]
     },
@@ -219,7 +225,10 @@
           "post": "2026-10-20-1830-free-jones-ngannou",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-20T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6679202108963598823",
+          "image": "drive-jon-jones-champion vs 01-francis-ngannou-photo"
         }
       ]
     },
