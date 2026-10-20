@@ -55,6 +55,24 @@
       "Release",
       "Keep"
     ],
-    "question": "Release Jones?"
-  }
+    "question": "Release Jones?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/jon-jones/cutouts/drive-jon-jones-champion.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/francis-ngannou/cutouts/01-francis-ngannou-photo.png",
+      "credit": "X2o / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/jon-jones/cutouts/drive-jon-jones-champion.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
 }

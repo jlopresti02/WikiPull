@@ -55,6 +55,24 @@
       "Lucky",
       "Legit"
     ],
-    "question": "Lucky or legit?"
-  }
+    "question": "Lucky or legit?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png",
+      "credit": "MMAnytt / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/alex-pereira/cutouts/drive-alex-pereira-3.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
 }

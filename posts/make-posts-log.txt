@@ -1,20 +1,39 @@
-Searching Wikimedia Commons for: Muhammad Mokaev
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Muhammad Mokaev
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Francis Ngannou
+  saved images/francis-ngannou/01-francis-ngannou-photo.jpg  [CC BY-SA 4.0]
+  saved images/francis-ngannou/02-francis-ngannou-2023-cropped.png  [CC BY 3.0]
+  saved images/francis-ngannou/03-supporters-du-quartier-o-a-grandit-francis-ngannou.jpg  [CC BY-SA 4.0]
+  saved images/francis-ngannou/04-mike-tyson-and-francis-ngannou-2023.png  [CC BY 3.0]
+Done: 4 image(s) saved.
+[0;93m2026-10-20 22:09:01.104216213 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/francis-ngannou/cutouts/01-francis-ngannou-photo.png
+  cutout images/francis-ngannou/cutouts/02-francis-ngannou-2023-cropped.png
+  cutout images/francis-ngannou/cutouts/03-supporters-du-quartier-o-a-grandit-francis-ngannou.png
+  cutout images/francis-ngannou/cutouts/04-mike-tyson-and-francis-ngannou-2023.png
+Done: 4 new cutout(s).
 
-== 2026-10-19-2215-mokaev-calls-bs.json
-$ fetch.py Muhammad Mokaev --count 5
-Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Calls BS
-$ fetch.py Muhammad Mokaev --count 5
-v2 left: silhouette
-v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-19-2215-mokaev-calls-bs/post.png (fighter)
-Rendered posts/2026-10-19-2215-mokaev-calls-bs/reel.mp4 (format v2)
+== 2026-10-20-1830-free-jones-ngannou.json
+Image: {'type': 'fighter', 'name': 'Jon Jones', 'file': 'drive-jon-jones-champion'} -> fighter images/jon-jones/cutouts/drive-jon-jones-champion.png  headline: Free Jones?
+v2 left: images/jon-jones/cutouts/drive-jon-jones-champion.png
+$ fetch.py Francis Ngannou --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/francis-ngannou
+v2 right: images/francis-ngannou/cutouts/01-francis-ngannou-photo.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-20-1830-free-jones-ngannou/post.png (fighter)
+Rendered posts/2026-10-20-1830-free-jones-ngannou/reel.mp4 (format v2)
+
+== 2026-10-20-1831-omalley-yan-surgery.json
+Image: {'type': 'fighter', 'name': "Sean O'Malley", 'file': '01-sean-o-malley-in-2024'} -> fighter images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png  headline: Red Flag?
+v2 left: images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png
+v2 right: images/petr-yan/cutouts/drive-petr-yan.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-20-1831-omalley-yan-surgery/post.png (fighter)
+Rendered posts/2026-10-20-1831-omalley-yan-surgery/reel.mp4 (format v2)
+
+== 2026-10-20-1832-ankalaev-lucky-punch.json
+Image: {'type': 'fighter', 'name': 'Magomed Ankalaev', 'file': '01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia'} -> fighter images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png  headline: Lucky Punch?
+v2 left: images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png
+v2 right: images/alex-pereira/cutouts/drive-alex-pereira-3.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-20-1832-ankalaev-lucky-punch/post.png (fighter)
+Rendered posts/2026-10-20-1832-ankalaev-lucky-punch/reel.mp4 (format v2)
