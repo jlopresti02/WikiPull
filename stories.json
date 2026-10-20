@@ -2,6 +2,85 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ankalaev-calls-pereira-ko-lucky-punch",
+      "title": "Magomed Ankalaev calls Alex Pereira's UFC 320 knockout a 'lucky punch', says their business isn't settled",
+      "people": [
+        "Magomed Ankalaev",
+        "Alex Pereira"
+      ],
+      "event": "Light heavyweight / UFC 320 aftermath",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "Ankalaev told Bostanov MMA the 80-second UFC 320 knockout loss to Pereira was a 'lucky punch' and suggested Pereira knew he was hurt going in",
+        "Said his business with Pereira 'isn't settled at all'",
+        "Manager Ali Abdelaziz had said Ankalaev should never have fought at UFC 320; a reported rib injury has not been independently confirmed (per MMA News)",
+        "Published Oct 19 1 PM ET but missed by earlier runs; found at Oct 20 1 PM run. Held for evening (reach-recovery mode), rank 3 after Jones/Paul/Ngannou and Oliveira BMF"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/magomed-ankalaev-still-cant-get-over-alex-pereira-loss"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "nickal-wants-covington-raf-crossover",
+      "title": "Bo Nickal questions RAF crossover rankings, says Colby Covington doesn't want to wrestle him",
+      "people": [
+        "Bo Nickal",
+        "Colby Covington"
+      ],
+      "event": "RAF crossover / Nickal vs Pyfer UFC 335",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "On The Ariel Helwani Show (Oct 19), Nickal said RAF should match him with MMA fighters, not full-time wrestlers; Covington is his pick",
+        "Says he offered to make 185 or 190 and accuses Covington of not wanting the match (Nickal's account); Covington leads RAF's first men's crossover rankings",
+        "Told Helwani the only MMA fighter who can compete with a real wrestler is him",
+        "Found at Oct 20 1 PM run; held for evening, rank 4 (alternate: Malott staph)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/bo-nickal-raf-crossover-rankings-colby-covington/",
+        "https://www.mmanews.com/article/raf-reveals-first-crossover-pound-pound-rankings"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
+      "id": "du-plessis-plans-light-heavyweight-after-title",
+      "title": "Dricus du Plessis wants middleweight title back, then a run at 205",
+      "people": [
+        "Dricus du Plessis"
+      ],
+      "event": "Middleweight",
+      "first_reported": "2026-10-19",
+      "facts": [
+        "On The Sias Du Plessis Show, says he wants his belt back and then to move up to light heavyweight, sure he can be champion there",
+        "No next opponent set",
+        "Oct 20 1 PM run: not posted (no conflict, no booking)"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/dricus-du-plessis-ufc-light-heavyweight-move"
+      ],
+      "posts": []
+    },
+    {
+      "id": "usman-song-ufc-333-fan-events",
+      "title": "Kamaru Usman and Song Yadong added to UFC 333 Abu Dhabi Showdown Week fan events",
+      "people": [
+        "Kamaru Usman",
+        "Song Yadong"
+      ],
+      "event": "UFC 333, Oct 24, Etihad Arena",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Usman, Jean Silva and Marwan Rahiki at Yas Mall Wednesday; Song, Mauricio Ruffy and Sean Sharaf at Yas Bay Friday; press conferences Thursday",
+        "Oct 20 1 PM run: not posted (fan-event logistics, no conflict)"
+      ],
+      "sources": [
+        "https://www.thenationalnews.com/sport/combat-sports/2026/10/20/ufc-in-abu-dhabi-kamaru-usman-and-song-yadong-added-to-showdown-week/"
+      ],
+      "posts": []
+    },
+    {
       "id": "jake-paul-asks-ufc-release-jones-ngannou",
       "title": "Jake Paul asks the UFC to release Jon Jones for a Ngannou fight; Ngannou: 'Freedom isn't free'",
       "people": [
@@ -301,14 +380,14 @@
         "Oct 19 1 PM run: Javid Basharat (Sherdog Oct 19) says the family waited 3 months and Farid learned of his UFC exit when everyone else did; Farid says Dana made assumptions, not facts, and he never turned down fights. Same Basharat saga (already 2 posts), still rank 4",
         "Oct 19 6 PM run: still held for the 10 PM run (3rd Basharat-saga post, weakest; drop if anything better lands). Day has 2 of 4 used",
         "Oct 19 10 PM run: queued as v2 Reel 2026-10-19-2215-mokaev-calls-bs, but no Mokaev photo on Wikimedia or Drive (rendered a silhouette), so NOT scheduled; held for photo. Drop after ~Oct 20 if none",
-        "Oct 20 9 AM run: still no Mokaev photo in Drive; stays held through today's evening runs, then drop"
+        "Oct 20 9 AM run: still no Mokaev photo in Drive; stays held through today's evening runs, then drop",
+        "Oct 20 1 PM run: dropped held_for_photo (stale, >2 days; no Drive photo added)"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Muhammad-Mokaev-blames-TKO-Paramount-not-Dana-White-for-UFC-exits-203273",
         "https://www.sherdog.com/news/news/Javid-Basharat-says-brother-learned-of-UFC-exit-with-everyone-else-203274"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": []
     },
     {
       "id": "dana-jokes-strickland-let-into-canada",
