@@ -1,16 +1,20 @@
+Searching Wikimedia Commons for: Muhammad Mokaev
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Muhammad Mokaev
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-19-1830-volk-evloev-finish.json
-Image: {'type': 'fighter', 'name': 'Alexander Volkanovski', 'file': 'drive-alexander-volkanovski-champ'} -> fighter images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png  headline: Finish Him?
-v2 left: images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
-v2 right: images/movsar-evloev/cutouts/drive-movsar-evloev.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-19-1830-volk-evloev-finish/post.png (fighter)
-Rendered posts/2026-10-19-1830-volk-evloev-finish/reel.mp4 (format v2)
-
-== 2026-10-19-1831-merab-decision-machine.json
-Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png  headline: Decision Machine
-v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
-v2 right: images/petr-yan/cutouts/drive-petr-yan-champ.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-19-1831-merab-decision-machine/post.png (fighter)
-Rendered posts/2026-10-19-1831-merab-decision-machine/reel.mp4 (format v2)
+== 2026-10-19-2215-mokaev-calls-bs.json
+$ fetch.py Muhammad Mokaev --count 5
+Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Calls BS
+$ fetch.py Muhammad Mokaev --count 5
+v2 left: silhouette
+v2 right: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-19-2215-mokaev-calls-bs/post.png (fighter)
+Rendered posts/2026-10-19-2215-mokaev-calls-bs/reel.mp4 (format v2)
