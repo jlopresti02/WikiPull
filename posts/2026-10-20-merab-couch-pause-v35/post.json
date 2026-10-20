@@ -1,0 +1,12 @@
+{
+  "story_id": "merab-couch-pause-challenge-v35",
+  "format": "pause",
+  "trial_reel": true,
+  "requested_by_user": true,
+  "variant": {
+    "headline": "PAUSE IT PERFECTLY",
+    "frames_per_crossing": 30,
+    "accent": "#ff7a1a",
+    "subtitle": "only 1% catch Merab"
+  }
+}

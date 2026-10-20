@@ -1,0 +1,12 @@
+{
+  "story_id": "merab-couch-pause-challenge-v24",
+  "format": "pause",
+  "trial_reel": true,
+  "requested_by_user": true,
+  "variant": {
+    "headline": "ONLY 1% CAN PAUSE PERFECTLY",
+    "frames_per_crossing": 20,
+    "accent": "#ff3fa4",
+    "subtitle": "pause when the cage traps Merab"
+  }
+}
