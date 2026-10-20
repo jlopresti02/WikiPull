@@ -233,20 +233,14 @@
         "Found at Oct 19 9 AM run; held for evening (reach-recovery mode).",
         "Oct 19 1 PM run: Javid Basharat (Sherdog Oct 19) says the family waited 3 months and Farid learned of his UFC exit when everyone else did; Farid says Dana made assumptions, not facts, and he never turned down fights. Same Basharat saga (already 2 posts), still rank 4",
         "Oct 19 6 PM run: still held for the 10 PM run (3rd Basharat-saga post, weakest; drop if anything better lands). Day has 2 of 4 used",
-        "Oct 19 10 PM run: nothing stronger landed; posted as v2 Reel (left Mokaev, right Dana)"
+        "Oct 19 10 PM run: queued as v2 Reel 2026-10-19-2215-mokaev-calls-bs, but no Mokaev photo on Wikimedia or Drive (rendered a silhouette), so NOT scheduled; held for photo. Drop after ~Oct 20 if none"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Muhammad-Mokaev-blames-TKO-Paramount-not-Dana-White-for-UFC-exits-203273",
         "https://www.sherdog.com/news/news/Javid-Basharat-says-brother-learned-of-UFC-exit-with-everyone-else-203274"
       ],
-      "posts": [
-        {
-          "post": "2026-10-19-2215-mokaev-calls-bs",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "dana-jokes-strickland-let-into-canada",
