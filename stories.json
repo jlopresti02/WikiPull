@@ -2,6 +2,109 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "omalley-yan-surgery-concern-ufc-333",
+      "title": "Sean O'Malley says Petr Yan's back surgery changes his view of Yan vs. Dvalishvili 3",
+      "people": [
+        "Sean O'Malley",
+        "Petr Yan",
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333, Oct 24, Etihad Arena, Abu Dhabi",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "In a YouTube episode with coach Tim Welch (published Oct 19), O'Malley said his biggest regret was getting surgery and fighting six or seven months later",
+        "Said Yan's back surgery 'really changes my thought process on this fight'; wants a five-round Yan rematch",
+        "Yan defends the bantamweight title vs. Dvalishvili in the UFC 333 co-main, Oct 24",
+        "Found at Oct 20 6 PM run; posted as evening Reel"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/sean-omalley-petr-yan-recovery-concern-ufc-333"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-20-1831-omalley-yan-surgery",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "belal-would-fight-malott-if-usman-wont-commit",
+      "title": "Belal Muhammad would fight Mike Malott if Kamaru Usman doesn't commit",
+      "people": [
+        "Belal Muhammad",
+        "Mike Malott",
+        "Kamaru Usman"
+      ],
+      "event": "Welterweight",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Oct 20 video and X post: Belal wants Usman but 'not going to sit there and wait'; would take Malott",
+        "Oct 20 rankings: Belal 7, Malott 8, Usman 11. No booking",
+        "Oct 20 6 PM run: not posted (Malott already 3 Reels this week; ranked below held stories). Candidate for 10 PM run"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/belal-muhammad-mike-malott-usman-conditional-fight-oct20"
+      ],
+      "posts": []
+    },
+    {
+      "id": "yan-shrugs-off-basharat-callout",
+      "title": "Petr Yan shrugs off released Farid Basharat's callout",
+      "people": [
+        "Petr Yan",
+        "Farid Basharat"
+      ],
+      "event": "Bantamweight / UFC 333 fight week",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Yan says he hasn't seen Basharat's fights; 'if they didn't re-sign him, there's got to be a reason'",
+        "Basharat (16-0) named Yan after his UFC release",
+        "Oct 20 6 PM run: not posted (Basharat already covered twice; Yan has a Reel tonight)"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/petr-yan-shrugs-off-farid-basharats-callout-following-ufc-release/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "mike-perry-leaves-bkfc-eyes-mma",
+      "title": "Mike Perry moving on from BKFC, eyes MMA return",
+      "people": [
+        "Mike Perry"
+      ],
+      "event": "BKFC / free agency",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "On The Ariel Helwani Show (Oct 20), Perry said he's leaving BKFC for at least a couple of years and sees MMA in his future",
+        "Says he has a partial labral tear, doctor favours healing over surgery; no promotion, opponent or date",
+        "Oct 20 6 PM run: not posted (no booking; no Trial Reels in reach-recovery mode)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/mike-perry-bkfc-departure-mma-return-helwani-oct20"
+      ],
+      "posts": []
+    },
+    {
+      "id": "felder-replaces-rogan-ufc-333-commentary",
+      "title": "Paul Felder replaces Joe Rogan on UFC 333 commentary",
+      "people": [
+        "Paul Felder",
+        "Joe Rogan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Per MMA Junkie via MMA News: Felder joins Jon Anik and Daniel Cormier in Abu Dhabi",
+        "Oct 20 6 PM run: not posted (broadcast logistics, no conflict)"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/who-replacing-joe-rogan-commentary-ufc-333-abu-dhabi"
+      ],
+      "posts": []
+    },
+    {
       "id": "ankalaev-calls-pereira-ko-lucky-punch",
       "title": "Magomed Ankalaev calls Alex Pereira's UFC 320 knockout a 'lucky punch', says their business isn't settled",
       "people": [
@@ -14,13 +117,20 @@
         "Ankalaev told Bostanov MMA the 80-second UFC 320 knockout loss to Pereira was a 'lucky punch' and suggested Pereira knew he was hurt going in",
         "Said his business with Pereira 'isn't settled at all'",
         "Manager Ali Abdelaziz had said Ankalaev should never have fought at UFC 320; a reported rib injury has not been independently confirmed (per MMA News)",
-        "Published Oct 19 1 PM ET but missed by earlier runs; found at Oct 20 1 PM run. Held for evening (reach-recovery mode), rank 3 after Jones/Paul/Ngannou and Oliveira BMF"
+        "Published Oct 19 1 PM ET but missed by earlier runs; found at Oct 20 1 PM run. Held for evening (reach-recovery mode), rank 3 after Jones/Paul/Ngannou and Oliveira BMF",
+        "Posted at Oct 20 6 PM run (evening Reel)"
       ],
       "sources": [
         "https://www.mmanews.com/article/magomed-ankalaev-still-cant-get-over-alex-pereira-loss"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": [
+        {
+          "post": "2026-10-20-1832-ankalaev-lucky-punch",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "nickal-wants-covington-raf-crossover",
@@ -35,7 +145,8 @@
         "On The Ariel Helwani Show (Oct 19), Nickal said RAF should match him with MMA fighters, not full-time wrestlers; Covington is his pick",
         "Says he offered to make 185 or 190 and accuses Covington of not wanting the match (Nickal's account); Covington leads RAF's first men's crossover rankings",
         "Told Helwani the only MMA fighter who can compete with a real wrestler is him",
-        "Found at Oct 20 1 PM run; held for evening, rank 4 (alternate: Malott staph)"
+        "Found at Oct 20 1 PM run; held for evening, rank 4 (alternate: Malott staph)",
+        "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/bo-nickal-raf-crossover-rankings-colby-covington/",
@@ -95,15 +206,22 @@
         "Ngannou quoted Paul's post: 'Freedom isn't free; it's not given, but it's taken' (MiddleEasy, Oct 19)",
         "Jones shared Paul's request himself on X, per La Sueur (Oct 20); no release, contract or fight is confirmed",
         "Background: Jones said in May he was focused on getting out of his UFC contract to make a Ngannou fight (MMA News)",
-        "Found at Oct 20 9 AM run; held for evening (reach-recovery mode). Rank 1. Ngannou has no local cutout; workflow fetches Wikimedia, check no-silhouette after render"
+        "Found at Oct 20 9 AM run; held for evening (reach-recovery mode). Rank 1. Ngannou has no local cutout; workflow fetches Wikimedia, check no-silhouette after render",
+        "Posted at Oct 20 6 PM run (evening Reel)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/francis-ngannou-jake-paul-jon-jones-ufc-release-push",
         "https://lasueur.com/jon-jones-relance-choc-impossible-francis-ngannou-20-10-2026",
         "https://www.mmanews.com/article/jake-paul-jon-jones-francis-ngannou-ufc-release"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": [
+        {
+          "post": "2026-10-20-1830-free-jones-ngannou",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "oliveira-rejects-brawl-only-bmf-lopes",
@@ -118,7 +236,8 @@
         "Oliveira told MMA Fighting the BMF belt doesn't mean he has to stand and brawl: 'I'm a MMA fighter'",
         "Says he'd rather give the belt back than fight recklessly if that were the requirement (per MiddleEasy paraphrase)",
         "Defends the BMF title vs. Diego Lopes (lightweight debut) in the UFC 335 main event, Dec 12, Las Vegas",
-        "Related: oliveira-vs-lopes-bmf-ufc-335 (Oct 3 Reel) and oliveira-grief-ruled-out-tsarukyan-september. New angle (BMF ultimatum). Found at Oct 20 9 AM run; held for evening, rank 2"
+        "Related: oliveira-vs-lopes-bmf-ufc-335 (Oct 3 Reel) and oliveira-grief-ruled-out-tsarukyan-september. New angle (BMF ultimatum). Found at Oct 20 9 AM run; held for evening, rank 2",
+        "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/charles-oliveira-bmf-full-mma-conditional-belt-return-oct19"

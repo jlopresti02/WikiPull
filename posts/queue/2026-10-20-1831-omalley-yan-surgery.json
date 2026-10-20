@@ -1,0 +1,61 @@
+{
+  "story_id": "omalley-yan-surgery-concern-ufc-333",
+  "headline": "Red Flag?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean O'Malley",
+      "file": "01-sean-o-malley-in-2024"
+    },
+    {
+      "type": "fighter",
+      "name": "Petr Yan",
+      "file": "drive-petr-yan"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Sean O'Malley says Petr Yan's back surgery changes how he sees Yan's title defense against Merab Dvalishvili.\nWorried for Yan or no? 👇\n\nO'Malley told coach Tim Welch his biggest regret was fighting months after his own surgery. Yan vs. Dvalishvili 3 for the UFC bantamweight title co-headlines UFC 333 in Abu Dhabi Saturday.\n\n🔥 Hot take: Ring rust after surgery is real, and Yan has to prove he's past it Saturday.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "SeanOMalley",
+    "PetrYan"
+  ],
+  "sources": [
+    "MiddleEasy",
+    "Tim Welch YouTube"
+  ],
+  "question": "Worried for Yan?",
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 333 · BANTAMWEIGHT",
+    "kicker": "SURGERY CONCERN",
+    "hook": "Suga on Yan",
+    "left": [
+      {
+        "name": "Sean O'Malley",
+        "file": "01-sean-o-malley-in-2024"
+      }
+    ],
+    "right": [
+      {
+        "name": "Petr Yan",
+        "file": "drive-petr-yan"
+      }
+    ],
+    "story": "O'Malley says Yan's back surgery changes his read on Yan vs. Merab 3 this Saturday.",
+    "chips": [
+      "YAN DEFENDS SATURDAY",
+      "UFC 333 CO-MAIN"
+    ],
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "question": "Worried for Yan?"
+  }
+}

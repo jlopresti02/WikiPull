@@ -1,0 +1,60 @@
+{
+  "story_id": "jake-paul-asks-ufc-release-jones-ngannou",
+  "headline": "Free Jones?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Jon Jones",
+      "file": "drive-jon-jones-champion"
+    },
+    {
+      "type": "fighter",
+      "name": "Francis Ngannou"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Jake Paul wants the UFC to release Jon Jones for a Francis Ngannou fight, and Jones shared the request himself.\nRelease him or keep him? 👇\n\nNgannou answered Paul's post with 'Freedom isn't free.' No release, contract or heavyweight superfight has been confirmed.\n\n🔥 Hot take: Jones vs. Ngannou is still the biggest heavyweight fight left in MMA.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "JonJones",
+    "FrancisNgannou",
+    "JakePaul"
+  ],
+  "sources": [
+    "MiddleEasy",
+    "MMA News",
+    "La Sueur"
+  ],
+  "question": "Release Jones?",
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "FREE JONES?",
+    "hook": "Jones vs Ngannou",
+    "left": [
+      {
+        "name": "Jon Jones",
+        "file": "drive-jon-jones-champion"
+      }
+    ],
+    "right": [
+      {
+        "name": "Francis Ngannou"
+      }
+    ],
+    "story": "Jake Paul asked the UFC to release Jones for Ngannou. Jones shared it. Ngannou: freedom isn't free.",
+    "chips": [
+      "NO RELEASE CONFIRMED",
+      "JONES SHARED THE POST"
+    ],
+    "options": [
+      "Release",
+      "Keep"
+    ],
+    "question": "Release Jones?"
+  }
+}
