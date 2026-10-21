@@ -1,0 +1,8 @@
+{
+  "story_id": "volk-hair-pause-challenge",
+  "format": "pause",
+  "trial_reel": true,
+  "variant": {"background": "blue", "wording": "w1", "colors": "hot"},
+  "question": "What frame did you get?",
+  "requested_by_user": true
+}
