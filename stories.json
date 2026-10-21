@@ -2,6 +2,135 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "aldo-says-ufc-should-cut-evloev-if-he-loses",
+      "title": "Jose Aldo says the UFC should cut Movsar Evloev if he loses at UFC 333",
+      "people": [
+        "Jose Aldo",
+        "Movsar Evloev",
+        "Alexander Volkanovski"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Per Bloody Elbow (Oct 20), Aldo said the UFC should release Evloev if he loses to Volkanovski at UFC 333, calling him a fighter who puts on boring fights (headline; article body could not be fetched this run)",
+        "Volkanovski vs. Evloev for the featherweight title headlines UFC 333, Oct 24, Abu Dhabi",
+        "Rank 1 of this run (star + conflict, fight week). Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/20/jose-aldo-implores-the-ufc-to-cut-movsar-evloev-if-he-loses-at-ufc-333-a-guy-who-puts-on-boring-fights/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "du-plessis-turned-down-lhw-tournament",
+      "title": "Dricus Du Plessis turned down a UFC offer to enter a light heavyweight tournament",
+      "people": [
+        "Dricus du Plessis"
+      ],
+      "event": "",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Per Bloody Elbow (Oct 20), Du Plessis says he turned down a UFC offer to take part in a light heavyweight tournament (headline; article body could not be fetched)",
+        "Related: du-plessis-plans-light-heavyweight-after-title (Oct 20, not posted). Rank 3. Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/20/dricus-du-plessis-turned-down-ufc-offer-to-take-part-in-light-heavyweight-tournament/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "pereira-considered-leaving-heavyweight-report",
+      "title": "Alex Pereira reportedly considered leaving heavyweight before UFC 335 booking",
+      "people": [
+        "Alex Pereira",
+        "Sergei Pavlovich"
+      ],
+      "event": "UFC 335",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Per Bloody Elbow (Oct 20), Pereira allegedly considered leaving heavyweight before his UFC 335 fight was booked (reported; body not fetched). Opponent per MMA Sucka: Sergei Pavlovich",
+        "Oct 21 9 AM run: logged, not held (soft 'allegedly' angle on a known booking)"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/20/alex-pereira-allegedly-considered-leaving-heavyweight-before-booking-ufc-335-matchup/",
+        "https://mmasucka.com/news/sergei-pavlovich-has-many-surprises-in-store-for-alex-pereira-at-ufc-335/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "michael-page-urges-fighter-union",
+      "title": "Michael Page urges MMA fighters to unite over pay",
+      "people": [
+        "Michael Page"
+      ],
+      "event": "",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "In an Oct 21 interview (per MiddleEasy), Page said fighters should organize collectively for better pay rather than complain alone; says fear of repercussions keeps fighters quiet. He did not announce a union",
+        "Oct 21 9 AM run: logged, not held (business story; Trial Reel material, but Trial Reels are off in reach recovery mode)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/michael-page-mma-fighters-union-pay-collective-action"
+      ],
+      "posts": []
+    },
+    {
+      "id": "merab-five-kilos-left-ufc-333",
+      "title": "Merab Dvalishvili says five kilos left in UFC 333 cut",
+      "people": [
+        "Merab Dvalishvili",
+        "Petr Yan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Oct 21 video on X: says he has cut 7 kg with 5 kg left, two days out from weigh-ins (MiddleEasy)",
+        "Oct 21 9 AM run: logged only (routine fight-week update); revisit if weigh-ins go wrong"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/merab-dvalishvili-five-kilos-weight-cut-ufc333"
+      ],
+      "posts": []
+    },
+    {
+      "id": "brooks-vs-wada-one-samurai-5",
+      "title": "Jarred Brooks vs. Tatsumitsu Wada booked for ONE SAMURAI 5",
+      "people": [
+        "Jarred Brooks",
+        "Tatsumitsu Wada"
+      ],
+      "event": "ONE SAMURAI 5",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "ONE announced Brooks vs. Wada at strawweight MMA for ONE SAMURAI 5, Nov 18, Tokyo; not a title fight (MiddleEasy, ONE)",
+        "Oct 21 9 AM run: logged only (routine ONE booking; Trial Reels off)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/jarred-brooks-tatsumitsu-wada-one-samurai5-november18"
+      ],
+      "posts": []
+    },
+    {
+      "id": "brendan-allen-stevewilldoit-sponsorship",
+      "title": "Brendan Allen gets about $200k sponsorship from SteveWillDoIt",
+      "people": [
+        "Brendan Allen"
+      ],
+      "event": "",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Per Bloody Elbow and MiddleEasy (Oct 20), Allen received nearly $200k in sponsorship, including a Cadillac, from SteveWillDoIt",
+        "Oct 21 9 AM run: logged only (money/business, no conflict)"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/20/ufc-middleweight-star-receives-almost-200k-from-dana-whites-friend-for-sponsorship/",
+        "https://middleeasy.com/mma-news/brendan-allen-cadillac-stevewilldoit-sponsor-bonus"
+      ],
+      "posts": []
+    },
+    {
       "id": "omalley-yan-surgery-concern-ufc-333",
       "title": "Sean O'Malley says Petr Yan's back surgery changes his view of Yan vs. Dvalishvili 3",
       "people": [
@@ -158,7 +287,8 @@
         "Told Helwani the only MMA fighter who can compete with a real wrestler is him",
         "Found at Oct 20 1 PM run; held for evening, rank 4 (alternate: Malott staph)",
         "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)",
-        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review"
+        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review",
+        "Oct 21 9 AM run: still held; posting paused pending user review; drop if not posted by Oct 21 10 PM run"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/bo-nickal-raf-crossover-rankings-colby-covington/",
@@ -255,7 +385,8 @@
         "Defends the BMF title vs. Diego Lopes (lightweight debut) in the UFC 335 main event, Dec 12, Las Vegas",
         "Related: oliveira-vs-lopes-bmf-ufc-335 (Oct 3 Reel) and oliveira-grief-ruled-out-tsarukyan-september. New angle (BMF ultimatum). Found at Oct 20 9 AM run; held for evening, rank 2",
         "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)",
-        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review"
+        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review",
+        "Oct 21 9 AM run: still held; posting paused pending user review; drop if not posted by Oct 21 10 PM run"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/charles-oliveira-bmf-full-mma-conditional-belt-return-oct19"
@@ -975,7 +1106,8 @@
         "Moreno vs. Charles Johnson also added",
         "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'",
         "Oct 16 6 PM run: 'Rich Kid?' v2 rendered with a silhouette for Joe Pyfer (no Wikimedia photo under 'Joe Pyfer'/'Joseph Pyfer'); held for a Pyfer photo in Drive. Queue file: posts/queue/2026-10-16-1830-nickal-rich-kid.json (commit 504794b)",
-        "Oct 19 9 AM run: dropped from held list as stale (>2 days, no photo added)"
+        "Oct 19 9 AM run: dropped from held list as stale (>2 days, no photo added)",
+        "UPDATE candidate Oct 21 9 AM run: Bloody Elbow (Oct 20) says Pyfer confirmed he turned down a replacement UFC 335 option to wait for Nickal in 2027 (headline; body not fetched). Rank 2 if posting resumes; needs a Pyfer photo (none in Drive)"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
@@ -983,7 +1115,8 @@
         "https://www.mmanews.com/article/bo-nickals-ufc-335-fight-gets-moved",
         "https://sports.yahoo.com/articles/yoink-bo-nickal-vs-joe-110452143.html",
         "https://athlonsports.com/mma/ufc-335-bo-nickal-joe-pyfer",
-        "https://bloodyelbow.com/2026/10/16/bo-nickal-announces-his-ufc-335-fight-with-joe-pyfer-has-been-postponed-until-february/"
+        "https://bloodyelbow.com/2026/10/16/bo-nickal-announces-his-ufc-335-fight-with-joe-pyfer-has-been-postponed-until-february/",
+        "https://bloodyelbow.com/2026/10/20/joe-pyfer-confirms-he-turned-down-replacement-ufc-335-option-to-wait-for-bo-nickal-clash-in-2027/"
       ],
       "posts": [
         {
