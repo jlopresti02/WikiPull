@@ -2,6 +2,95 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "evloev-calls-out-tsarukyan-territory",
+      "title": "Movsar Evloev calls out Arman Tsarukyan over a possible move to featherweight",
+      "people": [
+        "Movsar Evloev",
+        "Arman Tsarukyan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21), Evloev warned Tsarukyan against stepping into his 'territory' and said 'we'll fight' (article body could not be fetched)",
+        "Evloev challenges Volkanovski for the featherweight title at UFC 333, Oct 24, Abu Dhabi",
+        "Rank 1 this run (star + conflict, fight week). Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/movsar-evloev-calls-out-arman-tsarukyan-for-potentially-stepping-on-his-territory-well-fight/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "chimaev-title-or-nothing-pact",
+      "title": "Khamzat Chimaev has a 'title fight or nothing' pact with a middleweight friend",
+      "people": [
+        "Khamzat Chimaev"
+      ],
+      "event": "",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21), Chimaev and a middleweight he is friends with will only fight each other for a title; the other fighter not confirmed (body not fetched)",
+        "Rank 3. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/khamzat-chimaev-has-a-title-fight-or-nothing-pact-with-ufc-middleweight-he-is-friends-with/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "pereira-happy-ufc-contract-boxing-money",
+      "title": "Alex Pereira says he's happy with his UFC contract despite Zuffa Boxing paydays",
+      "people": [
+        "Alex Pereira",
+        "Sergei Pavlovich"
+      ],
+      "event": "UFC 335",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per MiddleEasy (Oct 21), Pereira told Ariel Helwani he has no issue with his UFC deal; said he could box for another $40 million 'but for what' and will step away when it's no longer his moment",
+        "Next: heavyweight bout vs. Sergei Pavlovich, UFC 335 co-main, Dec 12, Las Vegas. Related: pereira-considered-leaving-heavyweight-report",
+        "Rank 2. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/alex-pereira-happy-ufc-contract-boxing-paydays/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "dulatov-vs-chokheli-ufc-saudi-dec-5",
+      "title": "Islam Dulatov vs. Levan Chokheli reported for UFC Saudi Arabia, Dec 5",
+      "people": [
+        "Islam Dulatov",
+        "Levan Chokheli"
+      ],
+      "event": "UFC Saudi Arabia (Dec 5)",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per MiddleEasy citing Marcel Dorff (Oct 21), welterweight bout reported for Dec 5 at ANB Arena, Riyadh; not yet official",
+        "Routine booking. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/islam-dulatov-levan-chokheli-december-5-ufc-saudi-arabia/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "versace-model-fighter-ufc-saudi-return",
+      "title": "Versace model-turned fighter set to return at UFC Saudi Arabia",
+      "people": [],
+      "event": "UFC Saudi Arabia (Dec 5)",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21); fighter and opponent not confirmed (body not fetched). Prospect booking. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/versace-model-turned-fighter-set-to-return-at-ufc-saudi-arabia-against-fellow-prospect/"
+      ],
+      "posts": []
+    },
+    {
       "id": "yan-calls-omalley-title-option",
       "title": "Petr Yan calls Sean O'Malley a title option, leaves the pick to the UFC",
       "people": [
@@ -14,7 +103,8 @@
       "facts": [
         "Per MiddleEasy citing MMA Fighting (Oct 21), Yan called O'Malley a legitimate title option but said he fights whoever the UFC puts in front of him",
         "Yan defends vs. Dvalishvili at UFC 333, Oct 24, Abu Dhabi. Related: omalley-yan-surgery-concern-ufc-333",
-        "Rank 2 this run (star + stakes). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 2 this run (star + stakes). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 21 6 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/petr-yan-sean-omalley-title-option-ufc333"
@@ -105,7 +195,8 @@
         "Per Bloody Elbow (Oct 20), Aldo said the UFC should release Evloev if he loses to Volkanovski at UFC 333, calling him a fighter who puts on boring fights (headline; article body could not be fetched this run)",
         "Volkanovski vs. Evloev for the featherweight title headlines UFC 333, Oct 24, Abu Dhabi",
         "Rank 1 of this run (star + conflict, fight week). Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 21 1 PM run: still held for evening; posting paused pending user review"
+        "Oct 21 1 PM run: still held for evening; posting paused pending user review",
+        "Oct 21 6 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/jose-aldo-implores-the-ufc-to-cut-movsar-evloev-if-he-loses-at-ufc-333-a-guy-who-puts-on-boring-fights/"
@@ -124,7 +215,8 @@
       "facts": [
         "Per Bloody Elbow (Oct 20), Du Plessis says he turned down a UFC offer to take part in a light heavyweight tournament (headline; article body could not be fetched)",
         "Related: du-plessis-plans-light-heavyweight-after-title (Oct 20, not posted). Rank 3. Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 21 1 PM run: still held for evening; posting paused pending user review"
+        "Oct 21 1 PM run: still held for evening; posting paused pending user review",
+        "Oct 21 6 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/dricus-du-plessis-turned-down-ufc-offer-to-take-part-in-light-heavyweight-tournament/"
