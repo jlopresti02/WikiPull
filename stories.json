@@ -2,6 +2,96 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "yan-calls-omalley-title-option",
+      "title": "Petr Yan calls Sean O'Malley a title option, leaves the pick to the UFC",
+      "people": [
+        "Petr Yan",
+        "Sean O'Malley",
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per MiddleEasy citing MMA Fighting (Oct 21), Yan called O'Malley a legitimate title option but said he fights whoever the UFC puts in front of him",
+        "Yan defends vs. Dvalishvili at UFC 333, Oct 24, Abu Dhabi. Related: omalley-yan-surgery-concern-ufc-333",
+        "Rank 2 this run (star + stakes). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/petr-yan-sean-omalley-title-option-ufc333"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "makhachev-ufc-336-return-not-close",
+      "title": "Islam Makhachev's manager says a January UFC 336 return is not close yet",
+      "people": [
+        "Islam Makhachev"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21), Makhachev's manager said the desired UFC 336 return in January is 'not close to reality yet' (article body could not be fetched)",
+        "No booking or injury reported. Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/islam-makhachevs-manager-says-desired-ufc-336-return-in-january-is-not-close-to-reality-yet/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "mayweather-says-mcgregor-rematch-may-happen",
+      "title": "Floyd Mayweather believes a Conor McGregor rematch may happen despite Dana White",
+      "people": [
+        "Floyd Mayweather",
+        "Conor McGregor",
+        "Dana White"
+      ],
+      "event": "",
+      "sport": "boxing",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21), Mayweather believes a McGregor rematch could happen even though Dana White has shown no interest (body not fetched)",
+        "Boxing/business crossover: Trial Reel material, but Trial Reels are off in reach recovery mode. Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/floyd-mayweather-believes-conor-mcgregor-rematch-may-happen-despite-dana-whites-lack-of-interest/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "unified-rules-request-banned-strikes",
+      "title": "Formal request made to change MMA Unified Rules on currently banned strikes",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21), a formal request was made that could change the Unified Rules on currently banned strikes; who filed it and which strikes not confirmed (body not fetched)",
+        "Rules story (referee visual). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/mmas-unified-rules-could-be-changed-with-formal-request-made-over-currently-banned-strikes/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "jacobe-smith-short-notice-booking",
+      "title": "Jacobe Smith takes a short-notice UFC fight",
+      "people": [
+        "Jacobe Smith"
+      ],
+      "event": "",
+      "first_reported": "2026-10-20",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 20), Smith booked a short-notice fight against his toughest UFC opponent yet; opponent and date not confirmed this run",
+        "Routine booking. Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/20/jacobe-smith-books-short-notice-fight-against-toughest-ufc-opponent-yet/"
+      ],
+      "posts": []
+    },
+    {
       "id": "aldo-says-ufc-should-cut-evloev-if-he-loses",
       "title": "Jose Aldo says the UFC should cut Movsar Evloev if he loses at UFC 333",
       "people": [
@@ -14,7 +104,8 @@
       "facts": [
         "Per Bloody Elbow (Oct 20), Aldo said the UFC should release Evloev if he loses to Volkanovski at UFC 333, calling him a fighter who puts on boring fights (headline; article body could not be fetched this run)",
         "Volkanovski vs. Evloev for the featherweight title headlines UFC 333, Oct 24, Abu Dhabi",
-        "Rank 1 of this run (star + conflict, fight week). Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 1 of this run (star + conflict, fight week). Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 21 1 PM run: still held for evening; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/jose-aldo-implores-the-ufc-to-cut-movsar-evloev-if-he-loses-at-ufc-333-a-guy-who-puts-on-boring-fights/"
@@ -32,7 +123,8 @@
       "first_reported": "2026-10-20",
       "facts": [
         "Per Bloody Elbow (Oct 20), Du Plessis says he turned down a UFC offer to take part in a light heavyweight tournament (headline; article body could not be fetched)",
-        "Related: du-plessis-plans-light-heavyweight-after-title (Oct 20, not posted). Rank 3. Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Related: du-plessis-plans-light-heavyweight-after-title (Oct 20, not posted). Rank 3. Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 21 1 PM run: still held for evening; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/dricus-du-plessis-turned-down-ufc-offer-to-take-part-in-light-heavyweight-tournament/"
@@ -1323,12 +1415,14 @@
         "Held at 9 AM run for the evening (Oct 15 daytime limit); v2 Volkanovski (drive) vs Gaethje (drive-justin-gaethje-belt)",
         "Oct 15: day already at 6 posts under the new 4/day reach-recovery cap; may still post Oct 16 evening if it holds up",
         "Oct 16 6 PM run: dropped as stale (held since Oct 15; 4/day reach-recovery cap went to fresher stories)",
-        "Oct 19: Volk repeated the double-retirement super fight idea to MMA Junkie (Heavy, Oct 19); same pitch, not a new fact, not posted"
+        "Oct 19: Volk repeated the double-retirement super fight idea to MMA Junkie (Heavy, Oct 19); same pitch, not a new fact, not posted",
+        "Oct 21: Bloody Elbow says Volkanovski keeps pushing for the Gaethje super fight; no new fact, skipped as repeat"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/alexander-volkanovski-justin-gaethje-lightweight-title-superfight",
         "https://bloodyelbow.com/2026/10/15/alexander-volkanovski-wants-super-fight-that-ends-in-two-retirements-after-ufc-333-title-defense/",
-        "https://heavy.com/sports/ufc/alexander-volkanovski-justin-gaethje-double-retirement/"
+        "https://heavy.com/sports/ufc/alexander-volkanovski-justin-gaethje-double-retirement/",
+        "https://bloodyelbow.com/2026/10/21/alexander-volkanovski-risks-angering-dana-white-by-continuing-to-push-for-justin-gaethje-super-fight/"
       ],
       "posts": []
     },
