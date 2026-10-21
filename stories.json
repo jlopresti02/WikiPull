@@ -28,7 +28,9 @@
           "style": "v2",
           "scheduled_for": "2026-10-20T19:30:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=789656287464605654",
-          "image": "01-sean-o-malley-in-2024 vs drive-petr-yan"
+          "image": "01-sean-o-malley-in-2024 vs drive-petr-yan",
+          "status": "failed",
+          "failure": "Instagram rejected at publish time via Metricool: 'We restrict certain activity to protect our community' (action block). Not published."
         }
       ]
     },
@@ -45,7 +47,8 @@
       "facts": [
         "Oct 20 video and X post: Belal wants Usman but 'not going to sit there and wait'; would take Malott",
         "Oct 20 rankings: Belal 7, Malott 8, Usman 11. No booking",
-        "Oct 20 6 PM run: not posted (Malott already 3 Reels this week; ranked below held stories). Candidate for 10 PM run"
+        "Oct 20 6 PM run: not posted (Malott already 3 Reels this week; ranked below held stories). Candidate for 10 PM run",
+        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/belal-muhammad-mike-malott-usman-conditional-fight-oct20"
@@ -134,7 +137,9 @@
           "style": "v2",
           "scheduled_for": "2026-10-20T20:00:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7992871811295430422",
-          "image": "01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia vs drive-alex-pereira-3"
+          "image": "01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia vs drive-alex-pereira-3",
+          "status": "failed",
+          "failure": "Instagram rejected at publish time via Metricool: 'We restrict certain activity to protect our community' (action block). Not published."
         }
       ]
     },
@@ -152,7 +157,8 @@
         "Says he offered to make 185 or 190 and accuses Covington of not wanting the match (Nickal's account); Covington leads RAF's first men's crossover rankings",
         "Told Helwani the only MMA fighter who can compete with a real wrestler is him",
         "Found at Oct 20 1 PM run; held for evening, rank 4 (alternate: Malott staph)",
-        "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)"
+        "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)",
+        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/bo-nickal-raf-crossover-rankings-colby-covington/",
@@ -228,7 +234,9 @@
           "style": "v2",
           "scheduled_for": "2026-10-20T19:00:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6679202108963598823",
-          "image": "drive-jon-jones-champion vs 01-francis-ngannou-photo"
+          "image": "drive-jon-jones-champion vs 01-francis-ngannou-photo",
+          "status": "failed",
+          "failure": "Instagram rejected at publish time via Metricool: 'We restrict certain activity to protect our community' (action block). Not published."
         }
       ]
     },
@@ -246,7 +254,8 @@
         "Says he'd rather give the belt back than fight recklessly if that were the requirement (per MiddleEasy paraphrase)",
         "Defends the BMF title vs. Diego Lopes (lightweight debut) in the UFC 335 main event, Dec 12, Las Vegas",
         "Related: oliveira-vs-lopes-bmf-ufc-335 (Oct 3 Reel) and oliveira-grief-ruled-out-tsarukyan-september. New angle (BMF ultimatum). Found at Oct 20 9 AM run; held for evening, rank 2",
-        "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)"
+        "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)",
+        "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/charles-oliveira-bmf-full-mma-conditional-belt-return-oct19"
