@@ -341,7 +341,7 @@ POP_LEN = 14   # frames the bell pop-up stays up
 
 def paddy_layer():
     im = Image.open(ROOT / "images/paddy-pimblett/outside-fight-camp-cutout.png").convert("RGBA")
-    w = 560
+    w = 250
     return im.resize((w, int(w * im.height / im.width)), Image.LANCZOS)
 
 
@@ -359,10 +359,10 @@ def draw_popup(lay, f, paddy):
         sc = 1 + 0.02 * math.sin(k * 1.3)
     if sc < 0.25:
         return
-    cx, cy = W // 2, 1000
-    # burst behind
+    # Paddy takes over the mallet head (hammer rests on the pad while the bell rings)
+    cx, cy = CX, PAD_Y - 36 - 75
     d = ImageDraw.Draw(lay, "RGBA")
-    R = 420 * sc
+    R = 230 * sc
     for i in range(16):
         a0 = math.radians(i * 22.5 + k * 4)
         a1 = a0 + math.radians(11)
@@ -372,15 +372,15 @@ def draw_popup(lay, f, paddy):
     rot = p.rotate(-6 * math.sin(k * 0.9), resample=Image.BICUBIC, expand=True)
     lay.alpha_composite(rot, (int(cx - rot.width / 2), int(cy - rot.height / 2)))
     if sc > 0.6:
-        f1 = font(ANTON, int(96 * sc))
-        f2 = font(ANTON, int(64 * sc))
-        ty = cy - paddy.height * sc / 2 - 20
-        text_c(d, (cx, ty - 40 * sc), "PADDY THE BADDY", f1, (255, 214, 0), 9, (20, 10, 30))
-        by = cy + paddy.height * sc / 2 + 10
-        w2 = 300 * sc
-        d.rounded_rectangle((cx - w2, by - 45 * sc, cx + w2, by + 45 * sc), int(22 * sc),
-                            fill=(214, 32, 45), outline="white", width=6)
-        text_c(d, (cx, by), "OUTSIDE FIGHT CAMP", f2, "white", 4, (20, 10, 30))
+        f1 = font(ANTON, int(84 * sc))
+        f2 = font(ANTON, int(46 * sc))
+        ty = cy - paddy.height * sc / 2 - 60 * sc
+        text_c(d, (W // 2, ty), "PADDY THE BADDY", f1, (255, 214, 0), 8, (20, 10, 30))
+        bx, by = CX + 310, cy + 120
+        w2 = 190 * sc
+        d.rounded_rectangle((bx - w2, by - 36 * sc, bx + w2, by + 36 * sc), int(18 * sc),
+                            fill=(214, 32, 45), outline="white", width=5)
+        text_c(d, (bx, by), "OUTSIDE FIGHT CAMP", f2, "white", 3, (20, 10, 30))
 
 
 # ---------------------------------------------------------------- audio
