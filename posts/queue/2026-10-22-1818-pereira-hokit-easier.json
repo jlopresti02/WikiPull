@@ -1,0 +1,62 @@
+{
+  "story_id": "pereira-happy-ufc-contract-boxing-money",
+  "headline": "Easier Fight",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alex Pereira",
+      "file": "drive-alex-pereira-3"
+    },
+    {
+      "type": "fighter",
+      "name": "Josh Hokit",
+      "file": "drive-josh-hokit-1"
+    }
+  ],
+  "color": "#111111",
+  "caption": "Alex Pereira says Josh Hokit would have been a much easier fight than Sergei Pavlovich.\nAgree or disagree? 👇\n\nPereira told Ariel Helwani that Pavlovich is the more dangerous heavyweight, and that he's happy with his UFC contract. He meets Pavlovich in the UFC 335 co-main event on Dec. 12 in Las Vegas.\n\n🔥 Hot take: Pereira just gave Hokit even more fuel for their feud.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "AlexPereira",
+    "JoshHokit"
+  ],
+  "sources": [
+    "Sherdog",
+    "MiddleEasy",
+    "The Ariel Helwani Show"
+  ],
+  "question": "Agree or disagree?",
+  "v2": {
+    "tag": "UFC · HEAVYWEIGHT",
+    "kicker": "SHOTS FIRED",
+    "hook": "Pereira on Hokit",
+    "left": [
+      {
+        "name": "Alex Pereira",
+        "file": "drive-alex-pereira-3"
+      }
+    ],
+    "right": [
+      {
+        "name": "Josh Hokit",
+        "file": "drive-josh-hokit-1"
+      }
+    ],
+    "story": "Pereira says Hokit would be a much easier fight than his next foe, Sergei Pavlovich.",
+    "chips": [
+      "VS. PAVLOVICH DEC. 12",
+      "UFC 335 CO-MAIN"
+    ],
+    "options": [
+      "AGREE",
+      "DISAGREE"
+    ],
+    "question": "Agree or disagree?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}

@@ -1,0 +1,62 @@
+{
+  "story_id": "volkanovski-evloev-wrestling-not-enough",
+  "headline": "Not Enough",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alexander Volkanovski",
+      "file": "drive-alexander-volkanovski-champ"
+    },
+    {
+      "type": "fighter",
+      "name": "Movsar Evloev",
+      "file": "drive-movsar-evloev"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Alexander Volkanovski says Movsar Evloev's elite wrestling is not enough to beat him.\nVolk or Evloev? 👇\n\nAt UFC 333 media day, the featherweight champ even claimed he'd win a pure five-round wrestling match against the unbeaten 20-0 challenger. They headline UFC 333 in Abu Dhabi on Saturday.\n\n🔥 Hot take: If Evloev can't hold Volk down early, the belt stays in Australia.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "AlexanderVolkanovski",
+    "MovsarEvloev"
+  ],
+  "sources": [
+    "MMA Fighting",
+    "MMA News",
+    "BoxingNews"
+  ],
+  "question": "Volk or Evloev?",
+  "v2": {
+    "tag": "UFC 333 · 145",
+    "kicker": "WRESTLING WAR",
+    "hook": "Volk vs Evloev",
+    "left": [
+      {
+        "name": "Alexander Volkanovski",
+        "file": "drive-alexander-volkanovski-champ"
+      }
+    ],
+    "right": [
+      {
+        "name": "Movsar Evloev",
+        "file": "drive-movsar-evloev"
+      }
+    ],
+    "story": "Volkanovski says Evloev's wrestling isn't enough, and he'd even win a pure wrestling match.",
+    "chips": [
+      "EVLOEV 20-0",
+      "TITLE FIGHT SATURDAY"
+    ],
+    "options": [
+      "VOLK",
+      "EVLOEV"
+    ],
+    "question": "Volk or Evloev?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}

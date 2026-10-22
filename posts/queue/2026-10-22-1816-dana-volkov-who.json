@@ -1,0 +1,68 @@
+{
+  "story_id": "volkov-dana-didnt-recognize-ufc-333-presser",
+  "headline": "Who's That?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Dana White",
+      "file": "01-dana-white-in-june-2025-cropped"
+    },
+    {
+      "type": "fighter",
+      "name": [
+        "Alexander Volkov (fighter)",
+        "Alexander Volkov"
+      ],
+      "file": "02-alexander-volkov-in-m-1-cropped"
+    }
+  ],
+  "color": "#6b2fd1",
+  "caption": "Dana White didn't seem to recognize top-5 heavyweight Alexander Volkov at the UFC 333 press conference.\nAwkward or funny? 👇\n\nWhen Volkov spoke up from the crowd in Abu Dhabi, White asked how he could help until Alexander Volkanovski pointed out who it was. Volkov faces Rizvan Kuniev on the UFC 333 main card Saturday.\n\n🔥 Hot take: A top-5 heavyweight with 40 pro wins should never need an introduction.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "DanaWhite",
+    "AlexanderVolkov"
+  ],
+  "sources": [
+    "MMA Mania",
+    "Bloody Elbow",
+    "BoxingNews"
+  ],
+  "question": "Awkward or funny?",
+  "v2": {
+    "tag": "UFC 333 · HEAVYWEIGHT",
+    "kicker": "AWKWARD MOMENT",
+    "hook": "Dana vs Volkov",
+    "left": [
+      {
+        "name": "Dana White",
+        "file": "01-dana-white-in-june-2025-cropped"
+      }
+    ],
+    "right": [
+      {
+        "name": "Alexander Volkov (fighter)",
+        "file": "02-alexander-volkov-in-m-1-cropped"
+      },
+      {
+        "name": "Alexander Volkov"
+      }
+    ],
+    "story": "Dana didn't seem to know top-5 heavyweight Volkov at the presser until Volkanovski pointed him out.",
+    "chips": [
+      "VOLKOV: TOP-5 HW",
+      "VS. KUNIEV SATURDAY"
+    ],
+    "options": [
+      "AWKWARD",
+      "FUNNY"
+    ],
+    "question": "Awkward or funny?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}

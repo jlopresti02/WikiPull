@@ -2,6 +2,35 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "volkanovski-evloev-wrestling-not-enough",
+      "title": "Volkanovski says Evloev's wrestling isn't enough and he'd beat him in a pure wrestling match",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "At UFC 333 media day (Wed Oct 21, first reported by MMA Fighting; MMA News and FightBook Oct 22), Volkanovski called Evloev's wrestling elite but 'just not enough for me' and said he'd beat Evloev in a five-round no-strikes wrestling match",
+        "Also on UFC 333 Countdown (per BJPenn.com via BoxingNews): Evloev will want to shoot, Volk will force it to the feet, 'nothing he can do to stop that'",
+        "Evloev 20-0; title fight headlines UFC 333, Oct 24, Etihad Arena, Abu Dhabi",
+        "Oct 22 6 PM run: rank 1 (star + conflict, main event, fight week)"
+      ],
+      "sources": [
+        "https://www.mmanews.com/article/ufc-333-alexander-volkanovski-makes-stunning-claim",
+        "https://www.fightbookmma.com/alexander-volkanovski-movsar-evloev-wrestling-ufc-333-media-day/",
+        "https://boxingnews.com/news/volkanovski-evloev-ufc-333-wrestling"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-22-1815-volk-not-enough",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "volkov-dana-didnt-recognize-ufc-333-presser",
       "title": "Dana White appears not to recognize top-5 heavyweight Alexander Volkov at the UFC 333 press conference",
       "people": [
@@ -12,20 +41,27 @@
       ],
       "event": "UFC 333",
       "first_reported": "2026-10-22",
-      "held_for_evening": true,
       "facts": [
         "At the UFC 333 press conference in Abu Dhabi (Oct 22), Volkov, not on the dais, questioned White from the audience; White appeared not to recognize him and asked 'How can we help you?' (MMA Mania, BoxingNews, Bloody Elbow)",
         "Volkanovski identified Volkov from the stage; White then tried to laugh it off",
         "Volkov's question is not quoted in the reports; no source says a title shot was asked for or promised",
         "Volkov (40-11, top 5 HW) faces Rizvan Kuniev on the UFC 333 main card, Oct 24; related: dana-white-volkov-no-mans-land (Oct 2)",
-        "Rank 1 this run (Dana is the story + snubbed contender, fight week). v2: left Dana White, right Alexander Volkov. Oct 22 1 PM run: found and held for evening (reach recovery: 1 PM run sweeps and holds; posting resumed per user, 6 PM run picks the best 4)"
+        "Rank 1 this run (Dana is the story + snubbed contender, fight week). v2: left Dana White, right Alexander Volkov. Oct 22 1 PM run: found and held for evening (reach recovery: 1 PM run sweeps and holds; posting resumed per user, 6 PM run picks the best 4)",
+        "Oct 22 6 PM run: posted from the evening hold"
       ],
       "sources": [
         "https://www.mmamania.com/ufc-333-fight-card-start-time-live-stream-volkanovski-vs-evloev/480961/dana-white-doesnt-recognize-top-5-heavyweight-ufc-333-press-conference-how-can-we-help-you",
         "https://boxingnews.com/news/white-fails-recognize-heavyweight-ufc-333",
         "https://bloodyelbow.com/2026/10/22/dana-white-seemingly-didnt-recognize-top-5-heavyweight-in-awkward-ufc-333-press-conference-moment/"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-22-1816-dana-volkov-who",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "merab-much-better-than-yan-ufc-333",
@@ -36,17 +72,25 @@
       ],
       "event": "UFC 333",
       "first_reported": "2026-10-22",
-      "held_for_evening": true,
       "facts": [
         "In a prefight interview (Sherdog, Oct 22; UFC News on X, Oct 21), Dvalishvili said he's really hungry and believes he's much better than Yan and has to prove it",
         "Yan beat Dvalishvili by unanimous decision in their Dec 2025 rematch to take the bantamweight title; Dvalishvili won the 2023 first fight",
         "Trilogy for Yan's bantamweight title at UFC 333, Oct 24, Etihad Arena, Abu Dhabi. Also per Sherdog, Yan says he has 'figured out' Dvalishvili",
-        "Rank 2 this run (star + title stakes, fight week). Overlaps merab-drops-cameraman-ufc-333-open-workouts (held): post one Merab story, not both. Oct 22 1 PM run: found and held for evening (reach recovery: 1 PM run sweeps and holds; posting resumed per user, 6 PM run picks the best 4)"
+        "Rank 2 this run (star + title stakes, fight week). Overlaps merab-drops-cameraman-ufc-333-open-workouts (held): post one Merab story, not both. Oct 22 1 PM run: found and held for evening (reach recovery: 1 PM run sweeps and holds; posting resumed per user, 6 PM run picks the best 4)",
+        "Oct 22 6 PM run: posted from the evening hold"
       ],
       "sources": [
-        "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303"
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303",
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303#yan-figured-out-203292"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-22-1817-merab-yan-figured-out",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "nallo-explains-nose-pick-dana-handshake",
@@ -116,7 +160,8 @@
         "Per MiddleEasy citing MMA Fighting (Oct 22), Tsarukyan expects a UFC title fight early next year, nothing signed, and wants to stay at 155 rather than drop to 145",
         "Comes a day after Evloev warned him off featherweight (evloev-calls-out-tsarukyan-territory)",
         "Tsarukyan wrestles Dillon Danis at RAF 14, Oct 23, Las Vegas",
-        "Rank 1 this run (star + conflict). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 1 this run (star + conflict). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/arman-tsarukyan-early-2027-title-fight-stay-lightweight"
@@ -138,7 +183,8 @@
       "facts": [
         "Per MiddleEasy (Oct 22) citing a Prince St. Pizza interview (Oct 21), Jones said Cormier would have been seen as one of the greatest, and that Makhachev has much better striking than Khabib",
         "No booking",
-        "Rank 2 this run (star + rivalry angle). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 2 this run (star + rivalry angle). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/jon-jones-daniel-cormier-goat-islam-makhachev"
@@ -264,13 +310,13 @@
         "At the UFC 333 open workouts in Abu Dhabi (Oct 21), Dvalishvili took down a cameraman filming him (video, per MMA Mania/Yahoo)",
         "Dvalishvili faces Petr Yan in a trilogy for the bantamweight title at UFC 333, Oct 24",
         "Rank 1 this run (star + viral moment, fight week). Oct 21 10 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 22 9 AM run: still held; posting paused pending user review"
+        "Oct 22 9 AM run: still held; posting paused pending user review",
+        "Oct 22 6 PM run: dropped from the evening hold (reach-recovery cap of 4 used by stronger stories; going stale)"
       ],
       "sources": [
         "https://www.mmamania.com/ufc-333-fight-card-start-time-live-stream-volkanovski-vs-evloev/480867/cameraman-tries-film-ufc-333-open-workouts-gets-dropped-takedown-obsessed-merab-video",
         "https://sports.yahoo.com/articles/ufc-333-open-workout-highlight-161033974.html"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -378,12 +424,12 @@
         "Evloev challenges Volkanovski for the featherweight title at UFC 333, Oct 24, Abu Dhabi",
         "Rank 1 this run (star + conflict, fight week). Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 10 PM run: still held; posting paused pending user review",
-        "Oct 22 9 AM run: still held; posting paused pending user review"
+        "Oct 22 9 AM run: still held; posting paused pending user review",
+        "Oct 22 6 PM run: dropped from the evening hold (reach-recovery cap of 4 used by stronger stories; going stale)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/21/movsar-evloev-calls-out-arman-tsarukyan-for-potentially-stepping-on-his-territory-well-fight/"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -398,14 +444,14 @@
       "facts": [
         "Per Bloody Elbow headline (Oct 21), Chimaev and a middleweight he is friends with will only fight each other for a title; the other fighter not confirmed (body not fetched)",
         "Rank 3. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 22 9 AM run: friend confirmed as Brendan Allen. Per MiddleEasy (Oct 22) citing MMA Junkie Radio, Allen said they won't fight unless it's for gold; he expects to return to MMA around Feb-March. Both wrestle at RAF 14, Oct 23. Rank 3; held for evening; posting still paused"
+        "Oct 22 9 AM run: friend confirmed as Brendan Allen. Per MiddleEasy (Oct 22) citing MMA Junkie Radio, Allen said they won't fight unless it's for gold; he expects to return to MMA around Feb-March. Both wrestle at RAF 14, Oct 23. Rank 3; held for evening; posting still paused",
+        "Oct 22 6 PM run: dropped from the evening hold (reach-recovery cap of 4 used by stronger stories; going stale)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/21/khamzat-chimaev-has-a-title-fight-or-nothing-pact-with-ufc-middleweight-he-is-friends-with/",
         "https://middleeasy.com/mma-news/brendan-allen-khamzat-chimaev-title-fight-agreement"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": []
     },
     {
       "id": "pereira-happy-ufc-contract-boxing-money",
@@ -423,15 +469,22 @@
         "Oct 21 10 PM run: still held; posting paused pending user review",
         "Oct 22 9 AM run: related Bloody Elbow headline (Oct 21): Pereira gives a retirement update and refuses to be a 'stepping stone' for prospects (body not fetched). Still held; posting paused",
         "Oct 22 9 AM run: still held; posting paused pending user review",
-        "Oct 22 1 PM run: same Helwani interview (Sherdog, Oct 22): Pereira said 'Hokit would be a much easier fight for me', Pavlovich is more dangerous but a good technical fight; he was upset after being told he'd get Gane or Hokit; a talk with Hunter Campbell resolved it. Use this Hokit line as the hook (stronger conflict). Still held for evening"
+        "Oct 22 1 PM run: same Helwani interview (Sherdog, Oct 22): Pereira said 'Hokit would be a much easier fight for me', Pavlovich is more dangerous but a good technical fight; he was upset after being told he'd get Gane or Hokit; a talk with Hunter Campbell resolved it. Use this Hokit line as the hook (stronger conflict). Still held for evening",
+        "Oct 22 6 PM run: posted from the evening hold (hook: Pereira says Hokit would be a much easier fight than Pavlovich, Sherdog Oct 22)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/alex-pereira-happy-ufc-contract-boxing-paydays/",
         "https://bloodyelbow.com/2026/10/21/alex-pereira-provides-ufc-retirement-update-as-he-refuses-to-become-a-stepping-stone-for-prospects/",
         "https://www.sherdog.com/news/news/Alex-Pereira-says-Josh-Hokit-would-be-much-easier-fight-than-Sergei-Pavlovich-203293"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-22-1818-pereira-hokit-easier",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "dulatov-vs-chokheli-ufc-saudi-dec-5",
@@ -481,12 +534,12 @@
         "Rank 2 this run (star + stakes). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 6 PM run: still held; posting paused pending user review",
         "Oct 21 10 PM run: still held; posting paused pending user review",
-        "Oct 22 9 AM run: still held; posting paused pending user review"
+        "Oct 22 9 AM run: still held; posting paused pending user review",
+        "Oct 22 6 PM run: dropped from the evening hold (reach-recovery cap of 4 used by stronger stories; going stale)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/petr-yan-sean-omalley-title-option-ufc333"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -577,12 +630,12 @@
         "Oct 21 1 PM run: still held for evening; posting paused pending user review",
         "Oct 21 6 PM run: still held; posting paused pending user review",
         "Oct 21 10 PM run: still held; posting paused pending user review",
-        "Oct 22 9 AM run: still held; posting paused pending user review"
+        "Oct 22 9 AM run: still held; posting paused pending user review",
+        "Oct 22 6 PM run: dropped from the evening hold (reach-recovery cap of 4 used by stronger stories; going stale)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/jose-aldo-implores-the-ufc-to-cut-movsar-evloev-if-he-loses-at-ufc-333-a-guy-who-puts-on-boring-fights/"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
@@ -599,12 +652,12 @@
         "Oct 21 1 PM run: still held for evening; posting paused pending user review",
         "Oct 21 6 PM run: still held; posting paused pending user review",
         "Oct 21 10 PM run: still held; posting paused pending user review",
-        "Oct 22 9 AM run: still held; posting paused pending user review"
+        "Oct 22 9 AM run: still held; posting paused pending user review",
+        "Oct 22 6 PM run: dropped from the evening hold (reach-recovery cap of 4 used by stronger stories; going stale)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/dricus-du-plessis-turned-down-ufc-offer-to-take-part-in-light-heavyweight-tournament/"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {

@@ -1,0 +1,60 @@
+{
+  "story_id": "merab-much-better-than-yan-ufc-333",
+  "headline": "Figured Out?",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Merab Dvalishvili",
+      "file": "drive-merab-dvalishvili"
+    },
+    {
+      "type": "fighter",
+      "name": "Petr Yan",
+      "file": "drive-petr-yan-champ"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Merab Dvalishvili says he's much better than Petr Yan, while Yan says he has Merab figured out.\nMerab or Yan? 👇\n\nYan took the UFC bantamweight title from Dvalishvili by decision last December after Merab won their first fight. The trilogy co-headlines UFC 333 in Abu Dhabi on Saturday.\n\n🔥 Hot take: The trilogy winner is the best bantamweight of this era.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "MerabDvalishvili",
+    "PetrYan"
+  ],
+  "sources": [
+    "Sherdog"
+  ],
+  "question": "Merab or Yan?",
+  "v2": {
+    "tag": "UFC 333 · 135",
+    "kicker": "TRILOGY TALK",
+    "hook": "Merab vs Yan 3",
+    "left": [
+      {
+        "name": "Merab Dvalishvili",
+        "file": "drive-merab-dvalishvili"
+      }
+    ],
+    "right": [
+      {
+        "name": "Petr Yan",
+        "file": "drive-petr-yan-champ"
+      }
+    ],
+    "story": "Merab says he's much better than Yan; the champ says he has Merab figured out.",
+    "chips": [
+      "1-1 SO FAR",
+      "TITLE ON THE LINE"
+    ],
+    "options": [
+      "MERAB",
+      "YAN"
+    ],
+    "question": "Merab or Yan?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}
