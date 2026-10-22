@@ -2,6 +2,155 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "tsarukyan-stays-lightweight-early-2027-title",
+      "title": "Arman Tsarukyan expects an early-2027 title shot and plans to stay at lightweight",
+      "people": [
+        "Arman Tsarukyan",
+        "Movsar Evloev"
+      ],
+      "event": "",
+      "first_reported": "2026-10-22",
+      "held_for_evening": true,
+      "facts": [
+        "Per MiddleEasy citing MMA Fighting (Oct 22), Tsarukyan expects a UFC title fight early next year, nothing signed, and wants to stay at 155 rather than drop to 145",
+        "Comes a day after Evloev warned him off featherweight (evloev-calls-out-tsarukyan-territory)",
+        "Tsarukyan wrestles Dillon Danis at RAF 14, Oct 23, Las Vegas",
+        "Rank 1 this run (star + conflict). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/arman-tsarukyan-early-2027-title-fight-stay-lightweight"
+      ],
+      "posts": []
+    },
+    {
+      "id": "jon-jones-cormier-goat-makhachev-striking",
+      "title": "Jon Jones gives Daniel Cormier GOAT-level credit and says Makhachev out-strikes Khabib",
+      "people": [
+        "Jon Jones",
+        "Daniel Cormier",
+        "Islam Makhachev",
+        "Khabib Nurmagomedov"
+      ],
+      "event": "",
+      "first_reported": "2026-10-22",
+      "held_for_evening": true,
+      "facts": [
+        "Per MiddleEasy (Oct 22) citing a Prince St. Pizza interview (Oct 21), Jones said Cormier would have been seen as one of the greatest, and that Makhachev has much better striking than Khabib",
+        "No booking",
+        "Rank 2 this run (star + rivalry angle). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/jon-jones-daniel-cormier-goat-islam-makhachev"
+      ],
+      "posts": []
+    },
+    {
+      "id": "mvp-netflix-mma-future-uncertain-report",
+      "title": "Report: Netflix unlikely to carry another MVP MMA event soon",
+      "people": [
+        "Jake Paul",
+        "Francis Ngannou"
+      ],
+      "event": "",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per MiddleEasy (Oct 22) citing Blake Avignon's X post (Oct 21, unnamed sources), Netflix is unlikely to stream another MVP MMA card soon; a big Ngannou fight could change that",
+        "Business story, single unofficial source: Trial Reel material at most (Trial Reels off in reach recovery mode). Oct 22 9 AM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/jake-paul-mvp-netflix-mma-future-report"
+      ],
+      "posts": []
+    },
+    {
+      "id": "merab-possible-trilogy-outside-ufc",
+      "title": "Merab Dvalishvili could have another trilogy away from the UFC",
+      "people": [
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Bloody Elbow headline (Oct 21); article body could not be fetched, other party not confirmed",
+        "Merab fights Petr Yan in a trilogy at UFC 333, Oct 24. Rank 4. Oct 22 9 AM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/21/merab-dvalishvili-could-have-another-trilogy-match-away-from-the-ufc-after-facing-petr-yan-again/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "keita-backs-mma-vs-pico-ufc-333",
+      "title": "Losene Keita backs his MMA against Aaron Pico before UFC 333",
+      "people": [
+        "Losene Keita",
+        "Aaron Pico"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per MiddleEasy (Oct 22) citing an Oct 20 interview, Keita conceded Pico may be the better boxer or wrestler but backs his overall MMA; eyes 2027 title contention",
+        "Keita vs. Pico at UFC 333, Oct 24, Abu Dhabi. Oct 22 9 AM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/losene-keita-2027-title-contention-aaron-pico-wrestling"
+      ],
+      "posts": []
+    },
+    {
+      "id": "jandiroba-wants-dern-trilogy-2027",
+      "title": "Virna Jandiroba targets an early-2027 Mackenzie Dern trilogy",
+      "people": [
+        "Virna Jandiroba",
+        "Mackenzie Dern",
+        "Tatiana Suarez"
+      ],
+      "event": "UFC Vegas Nov 7",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per MiddleEasy citing Sherdog (Oct 22), Jandiroba wants Dern in Jan or Feb 2027 after facing Tatiana Suarez on Nov 7 at the UFC Apex; not booked. Oct 22 9 AM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/virna-jandiroba-early-2027-mackenzie-dern-trilogy-suarez"
+      ],
+      "posts": []
+    },
+    {
+      "id": "ghazali-open-to-yunusov-rematch",
+      "title": "Johan Ghazali open to facing Rustam Yunusov again",
+      "people": [
+        "Johan Ghazali",
+        "Rustam Yunusov"
+      ],
+      "event": "ONE Championship",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per MiddleEasy citing ONE Championship (Oct 22), Ghazali said he has no problem fighting Yunusov again if fans want it; no booking",
+        "ONE story but no booking or result: below the 'big ONE story' bar, and Trial Reels are off. Oct 22 9 AM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/interviews/johan-ghazali-rustam-yunusov-actor-response"
+      ],
+      "posts": []
+    },
+    {
+      "id": "bareman-volkanovski-gsp-versatility",
+      "title": "Eugene Bareman compares Volkanovski's versatility to GSP before UFC 333",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per MiddleEasy citing She Loves The Gloves (Oct 21-22), Bareman likened Volkanovski to GSP and picked a close Volkanovski decision over Evloev. Low conflict. Oct 22 9 AM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/eugene-bareman-volkanovski-versatility-gsp-ufc-333"
+      ],
+      "posts": []
+    },
+    {
       "id": "merab-drops-cameraman-ufc-333-open-workouts",
       "title": "Merab Dvalishvili takes down a cameraman at UFC 333 open workouts",
       "people": [
@@ -13,7 +162,8 @@
       "facts": [
         "At the UFC 333 open workouts in Abu Dhabi (Oct 21), Dvalishvili took down a cameraman filming him (video, per MMA Mania/Yahoo)",
         "Dvalishvili faces Petr Yan in a trilogy for the bantamweight title at UFC 333, Oct 24",
-        "Rank 1 this run (star + viral moment, fight week). Oct 21 10 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 1 this run (star + viral moment, fight week). Oct 21 10 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 22 9 AM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://www.mmamania.com/ufc-333-fight-card-start-time-live-stream-volkanovski-vs-evloev/480867/cameraman-tries-film-ufc-333-open-workouts-gets-dropped-takedown-obsessed-merab-video",
@@ -126,7 +276,8 @@
         "Per Bloody Elbow headline (Oct 21), Evloev warned Tsarukyan against stepping into his 'territory' and said 'we'll fight' (article body could not be fetched)",
         "Evloev challenges Volkanovski for the featherweight title at UFC 333, Oct 24, Abu Dhabi",
         "Rank 1 this run (star + conflict, fight week). Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 21 10 PM run: still held; posting paused pending user review"
+        "Oct 21 10 PM run: still held; posting paused pending user review",
+        "Oct 22 9 AM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/21/movsar-evloev-calls-out-arman-tsarukyan-for-potentially-stepping-on-his-territory-well-fight/"
@@ -138,18 +289,22 @@
       "id": "chimaev-title-or-nothing-pact",
       "title": "Khamzat Chimaev has a 'title fight or nothing' pact with a middleweight friend",
       "people": [
+        "Brendan Allen",
         "Khamzat Chimaev"
       ],
       "event": "",
       "first_reported": "2026-10-21",
       "facts": [
         "Per Bloody Elbow headline (Oct 21), Chimaev and a middleweight he is friends with will only fight each other for a title; the other fighter not confirmed (body not fetched)",
-        "Rank 3. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 3. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 22 9 AM run: friend confirmed as Brendan Allen. Per MiddleEasy (Oct 22) citing MMA Junkie Radio, Allen said they won't fight unless it's for gold; he expects to return to MMA around Feb-March. Both wrestle at RAF 14, Oct 23. Rank 3; held for evening; posting still paused"
       ],
       "sources": [
-        "https://bloodyelbow.com/2026/10/21/khamzat-chimaev-has-a-title-fight-or-nothing-pact-with-ufc-middleweight-he-is-friends-with/"
+        "https://bloodyelbow.com/2026/10/21/khamzat-chimaev-has-a-title-fight-or-nothing-pact-with-ufc-middleweight-he-is-friends-with/",
+        "https://middleeasy.com/mma-news/brendan-allen-khamzat-chimaev-title-fight-agreement"
       ],
-      "posts": []
+      "posts": [],
+      "held_for_evening": true
     },
     {
       "id": "pereira-happy-ufc-contract-boxing-money",
@@ -164,10 +319,13 @@
         "Per MiddleEasy (Oct 21), Pereira told Ariel Helwani he has no issue with his UFC deal; said he could box for another $40 million 'but for what' and will step away when it's no longer his moment",
         "Next: heavyweight bout vs. Sergei Pavlovich, UFC 335 co-main, Dec 12, Las Vegas. Related: pereira-considered-leaving-heavyweight-report",
         "Rank 2. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 21 10 PM run: still held; posting paused pending user review"
+        "Oct 21 10 PM run: still held; posting paused pending user review",
+        "Oct 22 9 AM run: related Bloody Elbow headline (Oct 21): Pereira gives a retirement update and refuses to be a 'stepping stone' for prospects (body not fetched). Still held; posting paused",
+        "Oct 22 9 AM run: still held; posting paused pending user review"
       ],
       "sources": [
-        "https://middleeasy.com/mma-news/alex-pereira-happy-ufc-contract-boxing-paydays/"
+        "https://middleeasy.com/mma-news/alex-pereira-happy-ufc-contract-boxing-paydays/",
+        "https://bloodyelbow.com/2026/10/21/alex-pereira-provides-ufc-retirement-update-as-he-refuses-to-become-a-stepping-stone-for-prospects/"
       ],
       "held_for_evening": true,
       "posts": []
@@ -219,7 +377,8 @@
         "Yan defends vs. Dvalishvili at UFC 333, Oct 24, Abu Dhabi. Related: omalley-yan-surgery-concern-ufc-333",
         "Rank 2 this run (star + stakes). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 6 PM run: still held; posting paused pending user review",
-        "Oct 21 10 PM run: still held; posting paused pending user review"
+        "Oct 21 10 PM run: still held; posting paused pending user review",
+        "Oct 22 9 AM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/petr-yan-sean-omalley-title-option-ufc333"
@@ -312,7 +471,8 @@
         "Rank 1 of this run (star + conflict, fight week). Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 1 PM run: still held for evening; posting paused pending user review",
         "Oct 21 6 PM run: still held; posting paused pending user review",
-        "Oct 21 10 PM run: still held; posting paused pending user review"
+        "Oct 21 10 PM run: still held; posting paused pending user review",
+        "Oct 22 9 AM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/jose-aldo-implores-the-ufc-to-cut-movsar-evloev-if-he-loses-at-ufc-333-a-guy-who-puts-on-boring-fights/"
@@ -333,7 +493,8 @@
         "Related: du-plessis-plans-light-heavyweight-after-title (Oct 20, not posted). Rank 3. Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 1 PM run: still held for evening; posting paused pending user review",
         "Oct 21 6 PM run: still held; posting paused pending user review",
-        "Oct 21 10 PM run: still held; posting paused pending user review"
+        "Oct 21 10 PM run: still held; posting paused pending user review",
+        "Oct 22 9 AM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/dricus-du-plessis-turned-down-ufc-offer-to-take-part-in-light-heavyweight-tournament/"
