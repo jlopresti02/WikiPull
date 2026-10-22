@@ -2,6 +2,107 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "volkov-dana-didnt-recognize-ufc-333-presser",
+      "title": "Dana White appears not to recognize top-5 heavyweight Alexander Volkov at the UFC 333 press conference",
+      "people": [
+        "Alexander Volkov",
+        "Dana White",
+        "Alexander Volkanovski",
+        "Rizvan Kuniev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "held_for_evening": true,
+      "facts": [
+        "At the UFC 333 press conference in Abu Dhabi (Oct 22), Volkov, not on the dais, questioned White from the audience; White appeared not to recognize him and asked 'How can we help you?' (MMA Mania, BoxingNews, Bloody Elbow)",
+        "Volkanovski identified Volkov from the stage; White then tried to laugh it off",
+        "Volkov's question is not quoted in the reports; no source says a title shot was asked for or promised",
+        "Volkov (40-11, top 5 HW) faces Rizvan Kuniev on the UFC 333 main card, Oct 24; related: dana-white-volkov-no-mans-land (Oct 2)",
+        "Rank 1 this run (Dana is the story + snubbed contender, fight week). v2: left Dana White, right Alexander Volkov. Oct 22 1 PM run: found and held for evening (reach recovery: 1 PM run sweeps and holds; posting resumed per user, 6 PM run picks the best 4)"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-333-fight-card-start-time-live-stream-volkanovski-vs-evloev/480961/dana-white-doesnt-recognize-top-5-heavyweight-ufc-333-press-conference-how-can-we-help-you",
+        "https://boxingnews.com/news/white-fails-recognize-heavyweight-ufc-333",
+        "https://bloodyelbow.com/2026/10/22/dana-white-seemingly-didnt-recognize-top-5-heavyweight-in-awkward-ufc-333-press-conference-moment/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "merab-much-better-than-yan-ufc-333",
+      "title": "Merab Dvalishvili says he's much better than Petr Yan before their UFC 333 trilogy",
+      "people": [
+        "Merab Dvalishvili",
+        "Petr Yan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "held_for_evening": true,
+      "facts": [
+        "In a prefight interview (Sherdog, Oct 22; UFC News on X, Oct 21), Dvalishvili said he's really hungry and believes he's much better than Yan and has to prove it",
+        "Yan beat Dvalishvili by unanimous decision in their Dec 2025 rematch to take the bantamweight title; Dvalishvili won the 2023 first fight",
+        "Trilogy for Yan's bantamweight title at UFC 333, Oct 24, Etihad Arena, Abu Dhabi. Also per Sherdog, Yan says he has 'figured out' Dvalishvili",
+        "Rank 2 this run (star + title stakes, fight week). Overlaps merab-drops-cameraman-ufc-333-open-workouts (held): post one Merab story, not both. Oct 22 1 PM run: found and held for evening (reach recovery: 1 PM run sweeps and holds; posting resumed per user, 6 PM run picks the best 4)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303"
+      ],
+      "posts": []
+    },
+    {
+      "id": "nallo-explains-nose-pick-dana-handshake",
+      "title": "Mandel Nallo explains his nose-pick gesture before a Dana White handshake",
+      "people": [
+        "Mandel Nallo",
+        "Dana White"
+      ],
+      "event": "UFC Edmonton",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "To Ariel Helwani (Oct 21), Nallo said his sons (5 and 7) asked him to pick his nose at the UFC Edmonton ceremonial weigh-ins; he pointed rather than touching and shook Dana's hand so as not to seem disrespectful (Sherdog)",
+        "Lesser-known fighter, light story; Trial Reels off in reach recovery. Oct 22 1 PM run: logged, not held"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-fighter-explains-nosepicking-moment-before-Dana-White-handshake-203295"
+      ],
+      "posts": []
+    },
+    {
+      "id": "nina-drama-evloev-hijab-interview",
+      "title": "Nina-Marie Daniele denies being forced to wear a hijab for a Movsar Evloev interview",
+      "people": [
+        "Nina-Marie Daniele",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per Sherdog (Oct 22), Daniele denied being 'forced' to wear a hijab for her Evloev interview and said she didn't mean to offend anyone",
+        "Religion-adjacent controversy, not a fighter conflict. Oct 22 1 PM run: logged, not posted"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Nina-Drama-denies-being-forced-to-wear-hijab-for-Movsar-Evloev-interview-203297"
+      ],
+      "posts": []
+    },
+    {
+      "id": "pico-too-out-of-control-ufc-333",
+      "title": "Aaron Pico says he was fighting too out of control before UFC 333",
+      "people": [
+        "Aaron Pico",
+        "Losene Keita"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per Sherdog (Oct 22), Pico said he had been fighting too out of control and is focused on experience over quick finishes; faces Losene Keita at UFC 333 (related: keita-backs-mma-vs-pico-ufc-333)",
+        "Low conflict. Oct 22 1 PM run: logged, not held"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Aaron-Pico-admits-he-was-fighting-too-out-of-control-before-UFC-333-203296"
+      ],
+      "posts": []
+    },
+    {
       "id": "tsarukyan-stays-lightweight-early-2027-title",
       "title": "Arman Tsarukyan expects an early-2027 title shot and plans to stay at lightweight",
       "people": [
@@ -321,11 +422,13 @@
         "Rank 2. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 10 PM run: still held; posting paused pending user review",
         "Oct 22 9 AM run: related Bloody Elbow headline (Oct 21): Pereira gives a retirement update and refuses to be a 'stepping stone' for prospects (body not fetched). Still held; posting paused",
-        "Oct 22 9 AM run: still held; posting paused pending user review"
+        "Oct 22 9 AM run: still held; posting paused pending user review",
+        "Oct 22 1 PM run: same Helwani interview (Sherdog, Oct 22): Pereira said 'Hokit would be a much easier fight for me', Pavlovich is more dangerous but a good technical fight; he was upset after being told he'd get Gane or Hokit; a talk with Hunter Campbell resolved it. Use this Hokit line as the hook (stronger conflict). Still held for evening"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/alex-pereira-happy-ufc-contract-boxing-paydays/",
-        "https://bloodyelbow.com/2026/10/21/alex-pereira-provides-ufc-retirement-update-as-he-refuses-to-become-a-stepping-stone-for-prospects/"
+        "https://bloodyelbow.com/2026/10/21/alex-pereira-provides-ufc-retirement-update-as-he-refuses-to-become-a-stepping-stone-for-prospects/",
+        "https://www.sherdog.com/news/news/Alex-Pereira-says-Josh-Hokit-would-be-much-easier-fight-than-Sergei-Pavlovich-203293"
       ],
       "held_for_evening": true,
       "posts": []
@@ -448,10 +551,12 @@
       "first_reported": "2026-10-20",
       "facts": [
         "Per Bloody Elbow headline (Oct 20), Smith booked a short-notice fight against his toughest UFC opponent yet; opponent and date not confirmed this run",
-        "Routine booking. Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Routine booking. Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 22 1 PM run: per Sherdog citing Marcel Dorff (X, Oct 20), Smith (13-0) reportedly faces UFC veteran Randy Brown at UFC Fight Night 292, Oct 31, Meta Apex (Moicano vs. Nolan headliner). Routine booking; not posted (Trial Reels off)"
       ],
       "sources": [
-        "https://bloodyelbow.com/2026/10/20/jacobe-smith-books-short-notice-fight-against-toughest-ufc-opponent-yet/"
+        "https://bloodyelbow.com/2026/10/20/jacobe-smith-books-short-notice-fight-against-toughest-ufc-opponent-yet/",
+        "https://www.sherdog.com/news/news/130-Jacobe-Smith-reportedly-draws-UFC-veteran-Randy-Brown-on-Halloween-203294"
       ],
       "posts": []
     },
@@ -3614,7 +3719,8 @@
         "Reportedly shot three times in the leg in a Sept 17 ambush in the Democratic Republic of the Congo while on a three-man team; flown to the US, condition described as stable",
         "Former New Zealand SAS soldier Justin Conaglen reportedly killed; a third team member wounded",
         "Purpose of the mission unconfirmed (Sherdog citing MMA Weekly and NZ Herald)",
-        "2026-10-14: Sherdog reports he is recovering at Walter Reed; not posted (modest update)"
+        "2026-10-14: Sherdog reports he is recovering at Walter Reed; not posted (modest update)",
+        "2026-10-22: Sherdog reports the ambush was linked to a mining revenue operation; not posted (no new fact about Kennedy himself)"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Former-UFC-fighter-Tim-Kennedy-reportedly-shot-in-deadly-Congo-ambush-203143",
