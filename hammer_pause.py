@@ -97,9 +97,9 @@ def text_c(d, xy, s, f, fill, stroke=0, sfill="black", anchor="mm"):
 
 
 def volkov_head(size):
-    im = Image.open(ROOT / "images/alexander-volkov-fighter/cutouts/01-alexander-volkov-in-m-1.png").convert("RGBA")
-    head = im.crop((290, 30, 640, 470))  # hair to chin
-    head = head.resize((size, int(size * 440 / 350)), Image.LANCZOS)
+    im = Image.open(ROOT / "images/alexander-volkov-fighter/ufc/volkov-ufc.png").convert("RGBA")
+    head = im.crop((135, 0, 335, 250))  # hair to chin (UFC roster photo)
+    head = head.resize((size, int(size * 250 / 200)), Image.LANCZOS)
     return head
 
 
