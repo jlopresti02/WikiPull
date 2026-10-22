@@ -1,0 +1,9 @@
+{
+  "story_id": "elmo-evloev-number-pause",
+  "format": "pause",
+  "trial_reel": true,
+  "question": "What number did you get?",
+  "phrase": "p1_classic",
+  "color": "purple_lime",
+  "requested_by_user": true
+}
