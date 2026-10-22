@@ -34,6 +34,13 @@ weaker stories. So, until the user says otherwise (review on Oct 19):
   IGRE02/IGRE23/IGRE24/IGRE28) and say in the report whether views per
   Reel are recovering.
 
+**Posting resumed (user, Oct 22 AM).** The pause after the Oct 20
+Instagram action block is over: the user said "resume". Schedule again
+under the reach recovery rules above (4 a day, 7 PM to 12:30 AM). The 6 PM
+run starts with the `held_for_evening` stories in `stories.json`. Don't
+re-pause on the old ledger notes; pause only if a new publish fails with
+an Instagram restriction, and tell the user if that happens.
+
 ## Requested stories (one-time)
 
 Post these on the next run even if they fall outside the sweep window,
