@@ -285,6 +285,7 @@ VERDICTS = {
     "close_early": [("SO CLOSE", "One frame short of the title shot")],
     "perfect": [("PERFECT!", "Volkov finally gets his shot")],
     "close_late": [("JUST LATE", "Right past him. Classic.")],
+    "bell": [("TOO HARD!", "You rang the bell and woke up Paddy")],
     "late": [("TOO LATE", "Bell rang, title went to someone else"),
              ("WAY LATE", "Pereira skipped the line again"),
              ("MISSED IT", "6'7\" and you still missed him")],
@@ -300,6 +301,8 @@ def verdict(f):
         return "close_early", 0
     if f == PERFECT + 1:
         return "close_late", 0
+    if 0 <= f - TOP < POP_LEN:
+        return "bell", 0
     if f < PERFECT:
         return "early", f
     return "late", f
@@ -311,7 +314,7 @@ def draw_verdict(lay, f):
     opts = VERDICTS[kind]
     big, small = opts[k % len(opts)]
     col = {"perfect": (40, 220, 90), "early": (60, 150, 255), "close_early": (60, 150, 255),
-           "late": (255, 60, 70), "close_late": (255, 60, 70), "wait": (255, 255, 255)}[kind]
+           "late": (255, 60, 70), "bell": (255, 214, 0), "close_late": (255, 60, 70), "wait": (255, 255, 255)}[kind]
     y = 1680
     d.rounded_rectangle((70, y - 70, W - 70, y + 150), 34, fill=(20, 14, 34, 225), outline=col, width=6)
     text_c(d, (W / 2, y), big, font(ANTON, 104), col, 6, (10, 6, 20))
@@ -331,6 +334,53 @@ def draw_target(lay, f):
         d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(60, 255, 120), width=10)
     else:
         dashed_rect(d, box, (255, 225, 0), 6)
+
+
+POP_LEN = 14   # frames the bell pop-up stays up
+
+
+def paddy_layer():
+    im = Image.open(ROOT / "images/paddy-pimblett/outside-fight-camp-cutout.png").convert("RGBA")
+    w = 560
+    return im.resize((w, int(w * im.height / im.width)), Image.LANCZOS)
+
+
+def draw_popup(lay, f, paddy):
+    """Ring the top bell -> Paddy pops up."""
+    k = f - TOP
+    if not 0 <= k < POP_LEN:
+        return
+    if k < 6:  # overshoot pop in
+        t = k / 5
+        sc = 0.15 + 0.85 * (1 + 2.2 * (t - 1) ** 3 + 1.2 * (t - 1) ** 2)
+    elif k >= POP_LEN - 2:  # snap out
+        sc = 1 - 0.45 * (k - (POP_LEN - 3))
+    else:
+        sc = 1 + 0.02 * math.sin(k * 1.3)
+    if sc < 0.25:
+        return
+    cx, cy = W // 2, 1000
+    # burst behind
+    d = ImageDraw.Draw(lay, "RGBA")
+    R = 420 * sc
+    for i in range(16):
+        a0 = math.radians(i * 22.5 + k * 4)
+        a1 = a0 + math.radians(11)
+        d.polygon([(cx, cy), (cx + R * math.cos(a0), cy + R * math.sin(a0)),
+                   (cx + R * math.cos(a1), cy + R * math.sin(a1))], fill=(255, 220, 0, 200))
+    p = paddy.resize((max(1, int(paddy.width * sc)), max(1, int(paddy.height * sc))), Image.LANCZOS)
+    rot = p.rotate(-6 * math.sin(k * 0.9), resample=Image.BICUBIC, expand=True)
+    lay.alpha_composite(rot, (int(cx - rot.width / 2), int(cy - rot.height / 2)))
+    if sc > 0.6:
+        f1 = font(ANTON, int(96 * sc))
+        f2 = font(ANTON, int(64 * sc))
+        ty = cy - paddy.height * sc / 2 - 20
+        text_c(d, (cx, ty - 40 * sc), "PADDY THE BADDY", f1, (255, 214, 0), 9, (20, 10, 30))
+        by = cy + paddy.height * sc / 2 + 10
+        w2 = 300 * sc
+        d.rounded_rectangle((cx - w2, by - 45 * sc, cx + w2, by + 45 * sc), int(22 * sc),
+                            fill=(214, 32, 45), outline="white", width=6)
+        text_c(d, (cx, by), "OUTSIDE FIGHT CAMP", f2, "white", 4, (20, 10, 30))
 
 
 # ---------------------------------------------------------------- audio
@@ -372,6 +422,7 @@ def render(out_dir, music="music/sports/01-sport-is-cool.mp3", music_start=160.5
     base = static_layer()
     tgt = target_panel()
     head = header_layer()
+    paddy = paddy_layer()
     frames = []
     for f in range(LOOP):
         im = base.copy()
@@ -384,6 +435,7 @@ def render(out_dir, music="music/sports/01-sport-is-cool.mp3", music_start=160.5
         draw_puck(im, f)
         draw_hammer(im, f)
         im.alpha_composite(head)
+        draw_popup(im, f, paddy)
         draw_verdict(im, f)
         frames.append(im.convert("RGB"))
     frames[PERFECT].save(out / "check.png")
