@@ -26,7 +26,9 @@
           "post": "2026-10-22-1815-volk-not-enough",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-22T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1373409167819489478"
         }
       ]
     },
@@ -59,7 +61,9 @@
           "post": "2026-10-22-1816-dana-volkov-who",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-22T20:45:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1880544311921783665"
         }
       ]
     },
@@ -81,14 +85,16 @@
       ],
       "sources": [
         "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303",
-        "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303#yan-figured-out-203292"
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-says-hes-much-better-than-Petr-Yan-despite-loss-203303"
       ],
       "posts": [
         {
           "post": "2026-10-22-1817-merab-yan-figured-out",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-22T21:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1167456076605702769"
         }
       ]
     },
@@ -482,7 +488,9 @@
           "post": "2026-10-22-1818-pereira-hokit-easier",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-22T22:15:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6924264476035887483"
         }
       ]
     },
