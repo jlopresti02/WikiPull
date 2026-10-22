@@ -2,6 +2,118 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "merab-drops-cameraman-ufc-333-open-workouts",
+      "title": "Merab Dvalishvili takes down a cameraman at UFC 333 open workouts",
+      "people": [
+        "Merab Dvalishvili",
+        "Petr Yan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "At the UFC 333 open workouts in Abu Dhabi (Oct 21), Dvalishvili took down a cameraman filming him (video, per MMA Mania/Yahoo)",
+        "Dvalishvili faces Petr Yan in a trilogy for the bantamweight title at UFC 333, Oct 24",
+        "Rank 1 this run (star + viral moment, fight week). Oct 21 10 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-333-fight-card-start-time-live-stream-volkanovski-vs-evloev/480867/cameraman-tries-film-ufc-333-open-workouts-gets-dropped-takedown-obsessed-merab-video",
+        "https://sports.yahoo.com/articles/ufc-333-open-workout-highlight-161033974.html"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "merab-declines-musumeci-grappling",
+      "title": "Merab Dvalishvili explains why he turned down a grappling match with Mikey Musumeci",
+      "people": [
+        "Merab Dvalishvili",
+        "Mikey Musumeci"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Middle Easy headline (Oct 21), Dvalishvili explained why he declined a grappling match with Mikey Musumeci (body not fetched)",
+        "Bloody Elbow (Oct 21): Dvalishvili could have another trilogy away from the UFC after facing Yan",
+        "Rank 3. Oct 21 10 PM run: logged; posting still paused"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/merab-dvalishvili-declines-mikey-musumeci-grappling",
+        "https://bloodyelbow.com/2026/10/21/merab-dvalishvili-could-have-another-trilogy-match-away-from-the-ufc-after-facing-petr-yan-again/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "poirier-backs-evloev-ground-control",
+      "title": "Dustin Poirier backs Evloev and warns him not to kickbox Volkanovski",
+      "people": [
+        "Dustin Poirier",
+        "Movsar Evloev",
+        "Alexander Volkanovski"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Middle Easy (Oct 21), Poirier backs Evloev at UFC 333 and warns him against kickboxing with Volkanovski, pointing to ground control",
+        "Rank 2. Oct 21 10 PM run: logged; posting still paused"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/dustin-poirier-movsar-evloev-volkanovski-ufc333-ground-control"
+      ],
+      "posts": []
+    },
+    {
+      "id": "volkanovski-evloev-past-sparring",
+      "title": "Volkanovski addresses past sparring sessions with Evloev",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Yahoo Sports (Oct 21), Volkanovski addressed sparring sessions he has had with Evloev before their UFC 333 title fight (details not fetched)",
+        "Related: volkanovski-gaethje superfight talk repeated at UFC 333 media (skipped as repeat, no new fact)",
+        "Rank 4. Oct 21 10 PM run: logged; posting still paused"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/alexander-volkanovski-addresses-sparring-sessions-120427298.html"
+      ],
+      "posts": []
+    },
+    {
+      "id": "erosa-retirement-plan-jeong-yeong-lee",
+      "title": "Julian Erosa sets retirement plan around his Jeong Yeong Lee fight",
+      "people": [
+        "Julian Erosa",
+        "Jeong Yeong Lee"
+      ],
+      "event": "UFC",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Middle Easy headline (Oct 21), Erosa has set a retirement plan tied to his fight with Jeong Yeong Lee (details not fetched)",
+        "Lesser-known name. Oct 21 10 PM run: logged; posting still paused"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/julian-erosa-retirement-jeong-yeong-lee-final-fight"
+      ],
+      "posts": []
+    },
+    {
+      "id": "lfa-flocombat-streaming-deal",
+      "title": "LFA signs a FloCombat streaming deal for 2026-2027",
+      "people": [],
+      "event": "LFA",
+      "first_reported": "2026-10-21",
+      "facts": [
+        "Per Middle Easy (Oct 21), LFA's events will stream on FloSports' FloCombat under a deal covering 2026-2027",
+        "Business story, no star. Oct 21 10 PM run: logged, not a post candidate"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/lfa-flocombat-flosports-streaming-deal-2026-2027"
+      ],
+      "posts": []
+    },
+    {
       "id": "evloev-calls-out-tsarukyan-territory",
       "title": "Movsar Evloev calls out Arman Tsarukyan over a possible move to featherweight",
       "people": [
@@ -13,7 +125,8 @@
       "facts": [
         "Per Bloody Elbow headline (Oct 21), Evloev warned Tsarukyan against stepping into his 'territory' and said 'we'll fight' (article body could not be fetched)",
         "Evloev challenges Volkanovski for the featherweight title at UFC 333, Oct 24, Abu Dhabi",
-        "Rank 1 this run (star + conflict, fight week). Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 1 this run (star + conflict, fight week). Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 21 10 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/21/movsar-evloev-calls-out-arman-tsarukyan-for-potentially-stepping-on-his-territory-well-fight/"
@@ -50,7 +163,8 @@
       "facts": [
         "Per MiddleEasy (Oct 21), Pereira told Ariel Helwani he has no issue with his UFC deal; said he could box for another $40 million 'but for what' and will step away when it's no longer his moment",
         "Next: heavyweight bout vs. Sergei Pavlovich, UFC 335 co-main, Dec 12, Las Vegas. Related: pereira-considered-leaving-heavyweight-report",
-        "Rank 2. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews"
+        "Rank 2. Oct 21 6 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
+        "Oct 21 10 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/alex-pereira-happy-ufc-contract-boxing-paydays/"
@@ -104,7 +218,8 @@
         "Per MiddleEasy citing MMA Fighting (Oct 21), Yan called O'Malley a legitimate title option but said he fights whoever the UFC puts in front of him",
         "Yan defends vs. Dvalishvili at UFC 333, Oct 24, Abu Dhabi. Related: omalley-yan-surgery-concern-ufc-333",
         "Rank 2 this run (star + stakes). Oct 21 1 PM run: logged; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 21 6 PM run: still held; posting paused pending user review"
+        "Oct 21 6 PM run: still held; posting paused pending user review",
+        "Oct 21 10 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/petr-yan-sean-omalley-title-option-ufc333"
@@ -196,7 +311,8 @@
         "Volkanovski vs. Evloev for the featherweight title headlines UFC 333, Oct 24, Abu Dhabi",
         "Rank 1 of this run (star + conflict, fight week). Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 1 PM run: still held for evening; posting paused pending user review",
-        "Oct 21 6 PM run: still held; posting paused pending user review"
+        "Oct 21 6 PM run: still held; posting paused pending user review",
+        "Oct 21 10 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/jose-aldo-implores-the-ufc-to-cut-movsar-evloev-if-he-loses-at-ufc-333-a-guy-who-puts-on-boring-fights/"
@@ -216,7 +332,8 @@
         "Per Bloody Elbow (Oct 20), Du Plessis says he turned down a UFC offer to take part in a light heavyweight tournament (headline; article body could not be fetched)",
         "Related: du-plessis-plans-light-heavyweight-after-title (Oct 20, not posted). Rank 3. Oct 21 9 AM run: found and held for evening; posting is paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 21 1 PM run: still held for evening; posting paused pending user review",
-        "Oct 21 6 PM run: still held; posting paused pending user review"
+        "Oct 21 6 PM run: still held; posting paused pending user review",
+        "Oct 21 10 PM run: still held; posting paused pending user review"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/20/dricus-du-plessis-turned-down-ufc-offer-to-take-part-in-light-heavyweight-tournament/"
@@ -472,14 +589,14 @@
         "Found at Oct 20 1 PM run; held for evening, rank 4 (alternate: Malott staph)",
         "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)",
         "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review",
-        "Oct 21 9 AM run: still held; posting paused pending user review; drop if not posted by Oct 21 10 PM run"
+        "Oct 21 9 AM run: still held; posting paused pending user review; drop if not posted by Oct 21 10 PM run",
+        "Oct 21 10 PM run: dropped as stale (not posted; posting still paused)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/bo-nickal-raf-crossover-rankings-colby-covington/",
         "https://www.mmanews.com/article/raf-reveals-first-crossover-pound-pound-rankings"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": []
     },
     {
       "id": "du-plessis-plans-light-heavyweight-after-title",
@@ -570,13 +687,13 @@
         "Related: oliveira-vs-lopes-bmf-ufc-335 (Oct 3 Reel) and oliveira-grief-ruled-out-tsarukyan-september. New angle (BMF ultimatum). Found at Oct 20 9 AM run; held for evening, rank 2",
         "Oct 20 6 PM run: still held for the 10 PM run (1 evening slot left under the 4/day cap)",
         "Oct 20 10 PM run: not posted; all three Oct 20 evening Reels failed with an Instagram activity restriction, so posting paused pending user review",
-        "Oct 21 9 AM run: still held; posting paused pending user review; drop if not posted by Oct 21 10 PM run"
+        "Oct 21 9 AM run: still held; posting paused pending user review; drop if not posted by Oct 21 10 PM run",
+        "Oct 21 10 PM run: dropped as stale (not posted; posting still paused)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/charles-oliveira-bmf-full-mma-conditional-belt-return-oct19"
       ],
-      "posts": [],
-      "held_for_evening": true
+      "posts": []
     },
     {
       "id": "malott-staph-ufc-edmonton-buckley-act",
