@@ -53,10 +53,28 @@
       "AGREE",
       "DISAGREE"
     ],
-    "question": "Agree or disagree?"
+    "question": "Agree or disagree?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/alex-pereira/cutouts/drive-alex-pereira-3.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/josh-hokit/cutouts/drive-josh-hokit-1.png",
+      "credit": "WWIT MMA News"
+    }
   },
   "music_pool": "espn",
   "follow_card": true,
   "reel": true,
-  "format": "v2"
+  "format": "v2",
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alex-pereira/cutouts/drive-alex-pereira-3.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

@@ -1,16 +1,32 @@
 
-== 2026-10-20-1831-omalley-yan-surgery.json
-Image: {'type': 'fighter', 'name': "Sean O'Malley", 'file': '01-sean-o-malley-in-2024'} -> fighter images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png  headline: Red Flag?
-v2 left: images/sean-o-malley/cutouts/01-sean-o-malley-in-2024.png
-v2 right: images/petr-yan/cutouts/drive-petr-yan.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-20-1831-omalley-yan-surgery/post.png (fighter)
-Rendered posts/2026-10-20-1831-omalley-yan-surgery/reel.mp4 (format v2)
+== 2026-10-22-1815-volk-not-enough.json
+Image: {'type': 'fighter', 'name': 'Alexander Volkanovski', 'file': 'drive-alexander-volkanovski-champ'} -> fighter images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png  headline: Not Enough
+v2 left: images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
+v2 right: images/movsar-evloev/cutouts/drive-movsar-evloev.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-10-22-1815-volk-not-enough/post.png (fighter)
+Rendered posts/2026-10-22-1815-volk-not-enough/reel.mp4 (format v2)
 
-== 2026-10-20-1832-ankalaev-lucky-punch.json
-Image: {'type': 'fighter', 'name': 'Magomed Ankalaev', 'file': '01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia'} -> fighter images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png  headline: Lucky Punch?
-v2 left: images/magomed-ankalaev/cutouts/01-magomed-ankalaev-at-ufc-fight-night-136-in-moscow-russia.png
-v2 right: images/alex-pereira/cutouts/drive-alex-pereira-3.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-20-1832-ankalaev-lucky-punch/post.png (fighter)
-Rendered posts/2026-10-20-1832-ankalaev-lucky-punch/reel.mp4 (format v2)
+== 2026-10-22-1816-dana-volkov-who.json
+Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Who's That?
+v2 left: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
+v2 right: images/alexander-volkov-fighter/cutouts/02-alexander-volkov-in-m-1-cropped.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-22-1816-dana-volkov-who/post.png (fighter)
+Rendered posts/2026-10-22-1816-dana-volkov-who/reel.mp4 (format v2)
+
+== 2026-10-22-1817-merab-yan-figured-out.json
+Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png  headline: Figured Out?
+v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
+v2 right: images/petr-yan/cutouts/drive-petr-yan-champ.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-22-1817-merab-yan-figured-out/post.png (fighter)
+Rendered posts/2026-10-22-1817-merab-yan-figured-out/reel.mp4 (format v2)
+
+== 2026-10-22-1818-pereira-hokit-easier.json
+Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': 'drive-alex-pereira-3'} -> fighter images/alex-pereira/cutouts/drive-alex-pereira-3.png  headline: Easier Fight
+v2 left: images/alex-pereira/cutouts/drive-alex-pereira-3.png
+v2 right: images/josh-hokit/cutouts/drive-josh-hokit-1.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-22-1818-pereira-hokit-easier/post.png (fighter)
+Rendered posts/2026-10-22-1818-pereira-hokit-easier/reel.mp4 (format v2)

@@ -53,10 +53,28 @@
       "VOLK",
       "EVLOEV"
     ],
-    "question": "Volk or Evloev?"
+    "question": "Volk or Evloev?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/movsar-evloev/cutouts/drive-movsar-evloev.png",
+      "credit": "WWIT MMA News"
+    }
   },
   "music_pool": "espn",
   "follow_card": true,
   "reel": true,
-  "format": "v2"
+  "format": "v2",
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/news-intro/01-intro-a-new-song.mp3",
+  "music_credit": "\"Intro - A new song\" by M Productions / CC BY-SA 3.0",
+  "music_start": 22.25
 }
