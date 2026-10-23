@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "raf-14-presser-brawl-tsarukyan-chimaev-danis",
+      "title": "Tsarukyan and Chimaev go after Dillon Danis at the RAF 14 press conference",
+      "people": [
+        "Arman Tsarukyan",
+        "Dillon Danis",
+        "Khamzat Chimaev"
+      ],
+      "event": "RAF 14",
+      "sport": "wrestling",
+      "first_reported": "2026-10-23",
+      "held_for_evening": true,
+      "facts": [
+        "At the RAF 14 press conference, Danis wore a T-shirt with a beardless picture of Chimaev and insulted him when asked about it (EssentiallySports, Oct 23 1:44 AM ET)",
+        "Tsarukyan, Danis's opponent, jumped up and charged at him, throwing a punch before security held him back; Chimaev tried to climb in to get at Danis and was stopped; the presser ended with no face-off",
+        "Follows the Chimaev-Danis brawl at RAF 10 in June; RAF 14 is tonight, Oct 23, Las Vegas: Tsarukyan vs Danis main event, Chimaev vs Robbie Lawler",
+        "UFC stars (Tsarukyan, Chimaev) in a fight-night brawl story: treat as an MMA star + conflict Reel, not an adjacent Trial Reel. Oct 23 9 AM run: found; reach recovery (evening only), held for the Oct 23 evening, rank 1. Overtakes tsarukyan-stays-lightweight-early-2027-title. Not a breaking-news exception (fight-week drama). 6 PM run: post before RAF 14 results land; if results are in by the 10 PM run, the result is the better angle"
+      ],
+      "sources": [
+        "https://www.essentiallysports.com/ufc-mma-news-ufc-fighters-turn-freestyle-wrestling-event-into-chaos-as-security-rushes-to-end-brawl/"
+      ],
+      "posts": []
+    },
+    {
       "id": "yan-vows-break-merab-nose-again-ufc-333",
       "title": "Petr Yan vows to break Merab Dvalishvili's nose again at UFC 333",
       "people": [
@@ -15,10 +38,12 @@
         "At the UFC 333 press conference, Yan said he will break Dvalishvili's nose one more time and that 'this machine' will be taken apart (MMA Fighting via Yahoo, Oct 22)",
         "Yan pointed to the grappling numbers: Merab landed 11 takedowns in their first fight but only 2 in the rematch",
         "Trilogy for the bantamweight title is Saturday Oct 24 at Etihad Arena, Abu Dhabi",
-        "Different angle from merab-much-better-than-yan-ufc-333 (Merab's side, posted Oct 22 9:30 PM). Oct 22 10 PM run: found; Oct 22 cap of 4 used and evening-only rule, so held for the Oct 23 evening; rank 1 (star + conflict, fight is 1 day out)"
+        "Different angle from merab-much-better-than-yan-ufc-333 (Merab's side, posted Oct 22 9:30 PM). Oct 22 10 PM run: found; Oct 22 cap of 4 used and evening-only rule, so held for the Oct 23 evening; rank 1 (star + conflict, fight is 1 day out)",
+        "Oct 23 9 AM run: both made weight in Abu Dhabi, Yan 135 and Dvalishvili 135 (Sherdog, MiddleEasy); still held for the Oct 23 evening, rank 2 (fight is tomorrow); add the weigh-in as a chip"
       ],
       "sources": [
-        "https://sports.yahoo.com/articles/petr-yan-promises-break-merab-160000126.html"
+        "https://sports.yahoo.com/articles/petr-yan-promises-break-merab-160000126.html",
+        "https://www.sherdog.com/news/news/UFC-333-weighin-results-Title-fights-set-Fighter-heavy-by-45-pounds-203308"
       ],
       "posts": []
     },
@@ -74,7 +99,8 @@
         "At UFC 333 media day (Wed Oct 21, first reported by MMA Fighting; MMA News and FightBook Oct 22), Volkanovski called Evloev's wrestling elite but 'just not enough for me' and said he'd beat Evloev in a five-round no-strikes wrestling match",
         "Also on UFC 333 Countdown (per BJPenn.com via BoxingNews): Evloev will want to shoot, Volk will force it to the feet, 'nothing he can do to stop that'",
         "Evloev 20-0; title fight headlines UFC 333, Oct 24, Etihad Arena, Abu Dhabi",
-        "Oct 22 6 PM run: rank 1 (star + conflict, main event, fight week)"
+        "Oct 22 6 PM run: rank 1 (star + conflict, main event, fight week)",
+        "Oct 23 weigh-ins: Volkanovski 144.5, Evloev 145, title fight on (Sherdog). Oct 23 9 AM run: on weight is not a new fact worth a post; logged only"
       ],
       "sources": [
         "https://www.mmanews.com/article/ufc-333-alexander-volkanovski-makes-stunning-claim",
@@ -221,14 +247,14 @@
       ],
       "event": "",
       "first_reported": "2026-10-22",
-      "held_for_evening": true,
       "facts": [
         "Per MiddleEasy citing MMA Fighting (Oct 22), Tsarukyan expects a UFC title fight early next year, nothing signed, and wants to stay at 155 rather than drop to 145",
         "Comes a day after Evloev warned him off featherweight (evloev-calls-out-tsarukyan-territory)",
         "Tsarukyan wrestles Dillon Danis at RAF 14, Oct 23, Las Vegas",
         "Rank 1 this run (star + conflict). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)",
-        "Oct 22 10 PM run: still held for the Oct 23 evening (Oct 22 cap used); 6 PM run to drop if stale or post-RAF 14 news overtakes it"
+        "Oct 22 10 PM run: still held for the Oct 23 evening (Oct 22 cap used); 6 PM run to drop if stale or post-RAF 14 news overtakes it",
+        "Oct 23 9 AM run: dropped from the hold; overtaken by the RAF 14 presser brawl (raf-14-presser-brawl-tsarukyan-chimaev-danis) and two days old"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/arman-tsarukyan-early-2027-title-fight-stay-lightweight"
@@ -252,7 +278,8 @@
         "No booking",
         "Rank 2 this run (star + rivalry angle). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
         "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)",
-        "Oct 22 10 PM run: still held for the Oct 23 evening (Oct 22 cap used); 6 PM run to drop if stale"
+        "Oct 22 10 PM run: still held for the Oct 23 evening (Oct 22 cap used); 6 PM run to drop if stale",
+        "Oct 23 9 AM run: still held, rank 3 behind the RAF 14 brawl and Yan; 6 PM run to drop if stale (2 days old)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/jon-jones-daniel-cormier-goat-islam-makhachev"
@@ -6365,10 +6392,12 @@
       "facts": [
         "Strawweight bout added per MMA Junkie",
         "Lucindo returns from 9-month mesterolone suspension; CSAD accepted contaminated supplement explanation",
-        "Caliari coming off sub win over Shauna Bannon in May"
+        "Caliari coming off sub win over Shauna Bannon in May",
+        "Oct 23 weigh-ins: Nicolle Caliari missed weight, 120.5 on her first attempt vs Iasmin Lucindo 115 (reported 4.5 lb over); bout goes ahead, Caliari fined a percentage of her purse (Sherdog, MiddleEasy). Oct 23 9 AM run: logged, not held (lesser-known names, no photos in the bank, reach recovery = star stories only)"
       ],
       "sources": [
-        "https://sports.yahoo.com/articles/ufc-333-adds-brazilian-strawweight-220130862.html"
+        "https://sports.yahoo.com/articles/ufc-333-adds-brazilian-strawweight-220130862.html",
+        "https://middleeasy.com/mma-news/ufc333-official-weighin-results-volkanovski-evloev-yan-caliari/"
       ],
       "posts": [
         {
