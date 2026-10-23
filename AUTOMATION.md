@@ -34,6 +34,25 @@ weaker stories. So, until the user says otherwise (review on Oct 19):
   IGRE02/IGRE23/IGRE24/IGRE28) and say in the report whether views per
   Reel are recovering.
 
+**Major news only (user request, Oct 23 PM) — overrides the story rules
+below.** Post fewer stories. A story qualifies only if it is one of:
+- **Major news**: a title change, a star's result, a champion vacating,
+  stripped or retiring, a big injury or withdrawal, a main event or title
+  fight falling apart, a major signing, release or business shake-up.
+- **A fight announcement**: a bout officially booked or reported by a
+  reputable outlet (ESPN, MMA Junkie, MMA Fighting, UFC.com...), with
+  a star or a ranked contender in it.
+- **A very possible projected fight**: a matchup that's clearly next,
+  e.g. a title shot both sides and the promotion are pointing to, the
+  winner of tonight's fight vs. the champion, an obvious rematch the UFC
+  is talking about.
+Fight-week trash talk, callouts with no booking in sight, interview quotes,
+presser antics and "X says Y about Z" stories **don't qualify on their own**
+any more, however big the names. Most days that means 1 to 3 posts, never
+more than the 4-a-day cap; a day with nothing that qualifies gets nothing.
+Sensitive stories (injuries, deaths, hospital updates, arrests) still use
+the serious format exactly as written below.
+
 **Posting resumed (user, Oct 22 AM).** The pause after the Oct 20
 Instagram action block is over: the user said "resume". Schedule again
 under the reach recovery rules above (4 a day, 7 PM to 12:30 AM). The 6 PM
@@ -478,6 +497,24 @@ photos toward the centre. Keep any new layout inside that zone.
 Instagram's top bar and gradient and looked cut off/blurred. The v2 and serious
 renderers now draw a bigger brand bar starting at y = 236 (of 1920), with the
 photos starting below it. Keep logos and text out of the top ~220 px.
+
+**Fast hook + hot take hook (user request, Oct 23 PM).** The opening hit
+of every v2 Reel is over within **0.25 s of the first frame** (photos snap
+in, boom, VS pop, headline slam, shake and flash all done by 0.25 s;
+music starts at 0.2 s). The big text under the photos is now the **hot
+take itself**, not "A vs B" (the `hook` field is only used for a post with
+no hot take). The kicker line above it stays. Power words in the take are
+set in a loud contrasting box (neon cyan, lime, red or magenta, whichever
+is furthest from that Reel's photo colours):
+- Mark them with asterisks in `"hot_take"` in the post file:
+  `"hot_take": "Danis is about to get *folded* on live TV."`. Keep the
+  caption's "🔥 Hot take:" line plain (no asterisks), since the caption
+  is posted as written.
+- One or two words, the verb that carries the take (FOLDED, DESTROYS,
+  SMASHES, EASILY, FRAUD). With no marks, the renderer boxes up to 2
+  words from its power-word list on its own.
+- Write the take so it reads in about 2 seconds: about 10 words or fewer,
+  it has to fit 3 lines under the photos.
 
 **Hot take end card (user request, Oct 23).** The last beat of every v2
 Reel (6-8 s) now shows the **hot take** instead of the "YOUR PICK"

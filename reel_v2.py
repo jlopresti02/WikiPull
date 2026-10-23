@@ -66,8 +66,34 @@ from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 #    hits when the story card lands and when the question appears.
 #  * Sound: a whoosh into a loud boom at the impact; the music starts right
 #    after the boom. Smaller whoosh + hit at each later beat.
-T_IMPACT = 0.35
-MUSIC_DELAY = 0.42
+#
+# Fast hook (Oct 23, user request): the whole impact (slide-in, hit, VS pop,
+# headline slam, shake, flash) is over within 0.25 s of the first frame.
+T_IMPACT = 0.12
+MUSIC_DELAY = 0.2
+IMPACT_END = 0.25
+
+# Hot take hook + highlighted power words (Oct 23, user request). When the
+# post has a hot take, the hook text under the photos is the take itself
+# (not "A vs B"), and its key words (FOLDED, DESTROYS...) sit in a loud
+# contrasting box. Mark them in the take with *asterisks* ("Danis gets
+# *folded* on live TV"); with no marks, words from POWER_WORDS are
+# highlighted automatically (2 at most). "v2": {"highlight": "#hex"} sets
+# the box colour.
+HIGHLIGHT_BG = "#00E5FF"
+# neon cyan, lime, red, magenta: the one furthest from the photo panels wins
+HIGHLIGHT_CHOICES = ["#00E5FF", "#9DFF00", "#FF1F3D", "#FF2BD6"]
+HIGHLIGHT_FG = (11, 11, 13)
+POWER_WORDS = {
+    "FOLD", "FOLDS", "FOLDED", "DESTROY", "DESTROYS", "DESTROYED", "SMASH", "SMASHES",
+    "SMASHED", "CRUSH", "CRUSHES", "CRUSHED", "MAUL", "MAULS", "MAULED", "DOMINATE",
+    "DOMINATES", "DOMINATED", "FINISH", "FINISHES", "FINISHED", "KO", "KOS", "KO'S",
+    "KNOCKS", "KNOCKOUT", "STARCH", "STARCHES", "SLEEP", "SLEEPS", "BREAK", "BREAKS",
+    "BROKEN", "EASILY", "ROBBED", "FRAUD", "SCARED", "DUCKING", "DUCKED", "OWNS",
+    "BULLY", "BULLIES", "EMBARRASS", "EMBARRASSES", "EXPOSED", "EXPOSES", "GOAT",
+    "NOBODY", "NEVER", "OVERRATED", "UNDERRATED", "WASHED", "RUNS", "QUITS", "DEAD",
+    "CHAMP", "RETIRE", "RETIRES",
+}
 
 ROOT = Path(__file__).resolve().parent
 FONTS = ROOT / "fonts"
@@ -218,6 +244,55 @@ def fit_lines(text, make_font, size, max_w, max_lines, min_size=24):
                 or size <= min_size:
             return f, balance(lines, f, max_w), size
         size = int(size * 0.94)
+
+
+def marked_tokens(text, auto=True, max_auto=2):
+    """Split a hot take into (WORD, highlighted) tokens. *word* (or *a few
+    words*) marks highlights; with no marks, up to max_auto POWER_WORDS are
+    highlighted."""
+    toks, on = [], False
+    for raw in text.upper().split():
+        start = raw.startswith("*")
+        w = raw.lstrip("*")
+        end = w.rstrip(".,!?;:'\"").endswith("*") or w.endswith("*")
+        if start:
+            on = True
+        hl = on
+        if end:
+            on = False
+        w = w.replace("*", "")
+        if w:
+            toks.append([w, hl])
+    if auto and not any(h for _, h in toks):
+        n = 0
+        for t in toks:
+            if t[0].strip(".,!?;:'\"\u2019") in POWER_WORDS and n < max_auto:
+                t[1] = True
+                n += 1
+    return [tuple(t) for t in toks]
+
+
+def draw_marked(d, x0, y, lines, tokens, f, lh, fill, hl_bg, hl_fg):
+    """Draw wrapped lines word by word; highlighted words get a solid box
+    in hl_bg with hl_fg text. Returns the baseline after the last line."""
+    it = iter(tokens)
+    sp = f.getlength(" ")
+    padx, pady = max(8, int(f.size * 0.1)), max(6, int(f.size * 0.08))
+    for line in lines:
+        x = x0
+        for word in line.split():
+            tok, hl = next(it, (word, False))
+            w = f.getlength(word)
+            if hl:
+                d.rectangle([x - padx, y - cap(f) - pady, x + w + padx, y + pady + 2], fill=hl_bg)
+                # dark text on light boxes (cyan, lime), white on red/magenta
+                lum = 0.299 * hl_bg[0] + 0.587 * hl_bg[1] + 0.114 * hl_bg[2]
+                d.text((x, y), word, font=f, fill=hl_fg if lum > 150 else WHITE, anchor="ls")
+            else:
+                d.text((x, y), word, font=f, fill=fill, anchor="ls")
+            x += w + sp
+        y += lh
+    return y
 
 
 # ---- pieces -------------------------------------------------------------
@@ -473,6 +548,8 @@ class V2:
         # Hot take end card (Oct 23, user request): when the post has a hot
         # take, the last beat shows it instead of the YOUR PICK question.
         self.hot_take, self.tagline = hot_take_of(spec)
+        self.take_tokens = marked_tokens(self.hot_take) if self.hot_take else []
+        self.take_plain = " ".join(w for w, _ in self.take_tokens)
         src = " · ".join(s.upper() for s in spec.get("sources", []))
         self.source = (f"SOURCE: {src}   ·   @WWITMMA" if src else "@WWITMMA")
 
@@ -498,6 +575,7 @@ class V2:
             self.hues = None
             self.panels = [Image.new("RGBA", (self.col_w, PHOTO_H), col + (255,))
                            for col in (COL_A, COL_B)]
+        self.hl_bg = self._pick_highlight(v.get("highlight"))
         self.text_hook = self._hook_layer()
         self.card, self.card_h = self._context_card()
         self.chips_layer = self._chips_layer()
@@ -508,6 +586,24 @@ class V2:
             size = int(prop.get("size", 300))
             self.prop = (PROPS[prop["type"]](size + 24).rotate(-12, expand=True, resample=Image.BICUBIC),
                          0 if prop.get("side", "left") == "left" else 1)
+
+    def _pick_highlight(self, forced):
+        """The power-word box colour: whichever loud colour is furthest in
+        hue from both photo panels and the accent, so it never blends in."""
+        if forced:
+            return hex_rgb(forced)
+        if not self.hues:
+            return hex_rgb(HIGHLIGHT_BG)
+        acc_h = colorsys.rgb_to_hsv(*[c / 255 for c in self.accent])[0]
+        avoid = list(self.hues) + [acc_h]
+        best, best_d = None, -1
+        for hx in HIGHLIGHT_CHOICES:
+            rgb = hex_rgb(hx)
+            h = colorsys.rgb_to_hsv(*[c / 255 for c in rgb])[0]
+            dmin = min(hue_dist(h, a) for a in avoid)
+            if dmin > best_d:
+                best, best_d = rgb, dmin
+        return best
 
     # photos with VS badge, at a zoom factor; dim = 0..1 (0.45 = 55% opacity)
     def photos(self, zoom=1.0, dim=0.0, slide=1.0, badge=1.0):
@@ -557,6 +653,13 @@ class V2:
             y += cap(fk)
             draw_spaced(d, (PAD_L, y), self.kicker, fk, self.accent, 6)
             y += 28
+        if self.hot_take:
+            # the hot take is the hook (Oct 23): up to 3 lines, power words boxed
+            f, lines, size = fit_lines(self.take_plain, anton, 112, max_w - 20, 3, min_size=60)
+            lh = size * 1.12
+            y += cap(f) + 6
+            draw_marked(d, PAD_L, y, lines, self.take_tokens, f, lh, WHITE, self.hl_bg, HIGHLIGHT_FG)
+            return layer
         f, lines, size = fit_lines(self.hook, anton, 124, max_w, 2)
         lh = size * 1.02
         y += cap(f)
@@ -686,12 +789,10 @@ class V2:
         y += cap(fk)
         draw_spaced(d, (PAD_L, y), "HOT TAKE", fk, self.accent, 6)
         y += 56
-        fq, lines, size = fit_lines(self.hot_take.upper(), anton, 120, max_w, 6, min_size=56)
-        lh = size * 1.02
+        fq, lines, size = fit_lines(self.take_plain, anton, 120, max_w - 20, 6, min_size=56)
+        lh = size * 1.1
         y += cap(fq)
-        for line in lines:
-            d.text((PAD_L, y), line, font=fq, fill=WHITE, anchor="ls")
-            y += lh
+        y = draw_marked(d, PAD_L, y, lines, self.take_tokens, fq, lh, WHITE, self.hl_bg, HIGHLIGHT_FG)
         y += 24 - lh + 72
         ft = anton(64)
         tl = wrap(self.tagline.upper(), ft, max_w - 56)[:2]
@@ -732,7 +833,7 @@ class V2:
             img = big.crop((x, y, x + W, y + H))
         # screen shake
         amp = 0.0
-        for t0, a0, dur in ((T_IMPACT, 30, 0.35), (T_CONTEXT + 0.35, 14, 0.2), (T_QUESTION, 14, 0.2)):
+        for t0, a0, dur in ((T_IMPACT, 30, IMPACT_END - T_IMPACT), (T_CONTEXT + 0.35, 14, 0.2), (T_QUESTION, 14, 0.2)):
             if t0 <= t < t0 + dur:
                 amp = max(amp, a0 * (1 - (t - t0) / dur))
         if amp > 0.5:
@@ -742,7 +843,7 @@ class V2:
             shaken.paste(img, (dx, dy))
             img = shaken
         # white flash on the hits
-        for t0, a0, dur in ((T_IMPACT, 0.6, 0.14), (T_QUESTION, 0.3, 0.1)):
+        for t0, a0, dur in ((T_IMPACT, 0.6, 0.1), (T_QUESTION, 0.3, 0.1)):
             if t0 <= t < t0 + dur:
                 a = a0 * (1 - (t - t0) / dur)
                 img = Image.blend(img, Image.new("RGB", (W, H), WHITE), a)
@@ -762,9 +863,9 @@ class V2:
             if self.fx:
                 # photos slide in, then the hit: VS pops, headline slams
                 slide = ease_out_back(t / T_IMPACT, 1.2) if t < T_IMPACT else 1.0
-                badge = ease_out_back((t - T_IMPACT) / 0.22, 2.4) if t >= T_IMPACT else 0.0
+                badge = ease_out_back((t - T_IMPACT) / 0.1, 2.4) if t >= T_IMPACT else 0.0
                 img = self.photos(zoom, slide=slide, badge=badge)
-                k_raw = (t - (T_IMPACT - 0.05)) / 0.2
+                k_raw = (t - (T_IMPACT - 0.05)) / 0.13
             else:
                 img = self.photos(zoom)
                 k_raw = t / 0.25
