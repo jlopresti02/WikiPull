@@ -2,6 +2,66 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "yan-vows-break-merab-nose-again-ufc-333",
+      "title": "Petr Yan vows to break Merab Dvalishvili's nose again at UFC 333",
+      "people": [
+        "Petr Yan",
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-22",
+      "held_for_evening": true,
+      "facts": [
+        "At the UFC 333 press conference, Yan said he will break Dvalishvili's nose one more time and that 'this machine' will be taken apart (MMA Fighting via Yahoo, Oct 22)",
+        "Yan pointed to the grappling numbers: Merab landed 11 takedowns in their first fight but only 2 in the rematch",
+        "Trilogy for the bantamweight title is Saturday Oct 24 at Etihad Arena, Abu Dhabi",
+        "Different angle from merab-much-better-than-yan-ufc-333 (Merab's side, posted Oct 22 9:30 PM). Oct 22 10 PM run: found; Oct 22 cap of 4 used and evening-only rule, so held for the Oct 23 evening; rank 1 (star + conflict, fight is 1 day out)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/petr-yan-promises-break-merab-160000126.html"
+      ],
+      "posts": []
+    },
+    {
+      "id": "lawler-bkfc-perry-talks-came-close",
+      "title": "Robbie Lawler says BKFC talks for a Mike Perry fight came close",
+      "people": [
+        "Robbie Lawler",
+        "Mike Perry",
+        "Khamzat Chimaev"
+      ],
+      "event": "RAF 14",
+      "sport": "bare knuckle",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Lawler told Ariel Helwani that BKFC talks about fighting Mike Perry got close but he chose not to go ahead; not closing doors but doesn't think bare knuckle will happen (MiddleEasy, Oct 22 10 PM ET)",
+        "Lawler wrestles Khamzat Chimaev at RAF 14 on Oct 23",
+        "Adjacent sports; Trial Reels off in reach recovery. Oct 22 10 PM run: logged, not held. Better angle: the RAF 14 Chimaev vs Lawler result on Oct 23"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/robbie-lawler-bkfc-mike-perry-talks"
+      ],
+      "posts": []
+    },
+    {
+      "id": "gnizditskiy-vs-satybaldiev-dec-5-report",
+      "title": "Ivan Gnizditskiy reportedly debuts against Uran Satybaldiev on Dec. 5",
+      "people": [
+        "Ivan Gnizditskiy",
+        "Uran Satybaldiev"
+      ],
+      "event": "UFC Saudi Arabia (Dec 5)",
+      "first_reported": "2026-10-22",
+      "facts": [
+        "Per Nolan King (two sources), unbeaten Gnizditskiy (7-0) debuts vs Satybaldiev (10-1) at light heavyweight Dec 5, expected in Riyadh; not announced by UFC (MiddleEasy)",
+        "Routine booking, lesser-known names. Oct 22 10 PM run: logged, not posted"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/ivan-gnizditskiy-uran-satybaldiev-december-5-ufc-debut"
+      ],
+      "posts": []
+    },
+    {
       "id": "volkanovski-evloev-wrestling-not-enough",
       "title": "Volkanovski says Evloev's wrestling isn't enough and he'd beat him in a pure wrestling match",
       "people": [
@@ -167,7 +227,8 @@
         "Comes a day after Evloev warned him off featherweight (evloev-calls-out-tsarukyan-territory)",
         "Tsarukyan wrestles Dillon Danis at RAF 14, Oct 23, Las Vegas",
         "Rank 1 this run (star + conflict). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)"
+        "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)",
+        "Oct 22 10 PM run: still held for the Oct 23 evening (Oct 22 cap used); 6 PM run to drop if stale or post-RAF 14 news overtakes it"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/arman-tsarukyan-early-2027-title-fight-stay-lightweight"
@@ -190,7 +251,8 @@
         "Per MiddleEasy (Oct 22) citing a Prince St. Pizza interview (Oct 21), Jones said Cormier would have been seen as one of the greatest, and that Makhachev has much better striking than Khabib",
         "No booking",
         "Rank 2 this run (star + rivalry angle). Oct 22 9 AM run: found and held for evening; posting still paused after the Oct 20 Instagram activity restriction until the user reviews",
-        "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)"
+        "Oct 22 6 PM run: not picked (cap of 4 for Oct 22 used); still held, re-check Oct 23 (Tsarukyan wrestles Danis at RAF 14 Oct 23)",
+        "Oct 22 10 PM run: still held for the Oct 23 evening (Oct 22 cap used); 6 PM run to drop if stale"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/jon-jones-daniel-cormier-goat-islam-makhachev"
