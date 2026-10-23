@@ -479,6 +479,20 @@ Instagram's top bar and gradient and looked cut off/blurred. The v2 and serious
 renderers now draw a bigger brand bar starting at y = 236 (of 1920), with the
 photos starting below it. Keep logos and text out of the top ~220 px.
 
+**Hot take end card (user request, Oct 23).** The last beat of every v2
+Reel (6-8 s) now shows the **hot take** instead of the "YOUR PICK"
+question and answer boxes: "HOT TAKE" in the accent colour, the take set
+big, then the tagline ("Disagree? Tell me why you're wrong.") in a
+coloured box. `reel_v2.py` reads it from the caption's "🔥 Hot take:"
+line and the tagline from the line after it, or from `"hot_take"` /
+`"hot_tagline"` in the post file (or its `v2` block) if set. So:
+- Every v2 news post needs a hot take in its caption (see Caption below).
+  Keep it **short enough to read in 2 seconds: about 12 words or fewer**.
+- A post with no hot take (sensitive stories skip it) falls back to the
+  old YOUR PICK question card, so still fill in `question` and `options`.
+- The caption's two-option question line and the first comment stay as
+  they are.
+
 Writing a v2 post:
 - Keep everything else in the post file as usual (headline, `visual` as a
   fallback, caption, `question`, 5 hashtags, sources, `trial_reel`), and

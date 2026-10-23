@@ -9,6 +9,8 @@ Built from the "WWIT Reel Format v2" mockup (approved Oct 8):
      fact chips underneath.
   3. Question (6-8 s): "YOUR PICK", the question, two answer boxes, a
      comment prompt and the source line; then the Reel loops to frame 1.
+     When the post has a hot take (Oct 23, user request), this beat shows
+     "HOT TAKE", the take and the tagline instead of the question.
 
 A post file opts in with "format": "v2" and a "v2" block:
 
@@ -434,6 +436,27 @@ def ease_out(x):
     return 1 - (1 - x) ** 3
 
 
+def hot_take_of(spec):
+    """The post's hot take and tagline: "v2.hot_take" / "hot_take" (and
+    "hot_tagline"), or else the "Hot take:" line of the caption and the
+    line after it. ("", "") when there is none (e.g. sensitive stories)."""
+    v = spec.get("v2", {})
+    take = v.get("hot_take") or spec.get("hot_take") or ""
+    tag = v.get("hot_tagline") or spec.get("hot_tagline") or ""
+    lines = [l.strip() for l in spec.get("caption", "").splitlines()]
+    for i, line in enumerate(lines):
+        low = line.lower()
+        if not take and "hot take:" in low:
+            take = line[low.index("hot take:") + len("hot take:"):].strip()
+            if not tag and i + 1 < len(lines):
+                tag = lines[i + 1]
+            break
+    take = "".join(ch for ch in take if ord(ch) < 0x2000 or ch in "\u2018\u2019\u201c\u201d\u2014\u2013").strip()
+    if not take:
+        return "", ""
+    return take, (tag or "Disagree? Tell me why you're wrong.")
+
+
 class V2:
     def __init__(self, spec, left_cut, right_cut):
         v = spec["v2"]
@@ -447,6 +470,9 @@ class V2:
         self.question = (v.get("question") or spec.get("question") or "").upper()
         self.options = [o.upper() for o in v.get("options", ["YES", "NO WAY"])][:2]
         self.prompt = v.get("prompt", "Drop it in the comments, then send this to the friend who'll argue.")
+        # Hot take end card (Oct 23, user request): when the post has a hot
+        # take, the last beat shows it instead of the YOUR PICK question.
+        self.hot_take, self.tagline = hot_take_of(spec)
         src = " · ".join(s.upper() for s in spec.get("sources", []))
         self.source = (f"SOURCE: {src}   ·   @WWITMMA" if src else "@WWITMMA")
 
@@ -588,6 +614,8 @@ class V2:
             y += ch + 20
 
     def _question_frame(self):
+        if self.hot_take:
+            return self._hot_take_frame()
         img = Image.new("RGBA", (W, H), BG + (255,))
         if self.fx:
             # faint color-wheel burst from the left fighter's hue
@@ -633,6 +661,56 @@ class V2:
             y += cap(fp)
             d.text((PAD_L, y), line, font=fp, fill=GREY_TEXT, anchor="ls")
             y += 18
+        fs = barlow(32, 600)
+        src = self.source
+        while spaced_width(src, fs, 2) > max_w and fs.size > 18:
+            fs = barlow(fs.size - 2, 600)
+        draw_spaced(d, (PAD_L, max(1520 + cap(fs), y + 60)), src, fs, GREY_SOURCE, 2)
+        return img
+
+    def _hot_take_frame(self):
+        """Last beat with a hot take: "HOT TAKE", the take set big, then the
+        tagline ("Disagree? Tell me why you're wrong.") in an accent box."""
+        img = Image.new("RGBA", (W, H), BG + (255,))
+        if self.fx:
+            glow = burst_panel(self.hues[0], W, H)
+            glow.putalpha(Image.radial_gradient("L").resize((W * 2, H * 2))
+                          .crop((W // 2, H // 2, W // 2 + W, H // 2 + H))
+                          .point(lambda v: int((255 - v) * 0.22)))
+            img.alpha_composite(glow)
+        d = ImageDraw.Draw(img)
+        draw_header(d, self.accent)
+        max_w = W - PAD_L - PAD_R
+        y = 400
+        fk = barlow(48, 800)
+        y += cap(fk)
+        draw_spaced(d, (PAD_L, y), "HOT TAKE", fk, self.accent, 6)
+        y += 56
+        fq, lines, size = fit_lines(self.hot_take.upper(), anton, 120, max_w, 6, min_size=56)
+        lh = size * 1.02
+        y += cap(fq)
+        for line in lines:
+            d.text((PAD_L, y), line, font=fq, fill=WHITE, anchor="ls")
+            y += lh
+        y += 24 - lh + 72
+        ft = anton(64)
+        tl = wrap(self.tagline.upper(), ft, max_w - 56)[:2]
+        while len(wrap(self.tagline.upper(), ft, max_w - 56)) > 2 and ft.size > 36:
+            ft = anton(ft.size - 4)
+            tl = wrap(self.tagline.upper(), ft, max_w - 56)[:2]
+        tlh = cap(ft) + 22
+        bh = 36 * 2 + tlh * len(tl) - 22
+        if self.fx:
+            d.rectangle([PAD_L, y, PAD_L + max_w, y + bh], fill=hsv_rgb(self.hues[1], 0.85, 0.85),
+                        outline=WHITE, width=6)
+        else:
+            d.rectangle([PAD_L, y, PAD_L + max_w, y + bh], outline=self.accent, width=6)
+        ty = y + 36
+        for line in tl:
+            ty += cap(ft)
+            d.text((PAD_L + 28, ty), line, font=ft, fill=WHITE, anchor="ls")
+            ty += 22
+        y += bh + 56
         fs = barlow(32, 600)
         src = self.source
         while spaced_width(src, fs, 2) > max_w and fs.size > 18:
