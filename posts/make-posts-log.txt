@@ -1,32 +1,16 @@
 
-== 2026-10-22-1815-volk-not-enough.json
-Image: {'type': 'fighter', 'name': 'Alexander Volkanovski', 'file': 'drive-alexander-volkanovski-champ'} -> fighter images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png  headline: Not Enough
-v2 left: images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
-v2 right: images/movsar-evloev/cutouts/drive-movsar-evloev.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-22-1815-volk-not-enough/post.png (fighter)
-Rendered posts/2026-10-22-1815-volk-not-enough/reel.mp4 (format v2)
+== 2026-10-23-1815-raf-presser-brawl.json
+Image: {'type': 'fighter', 'name': 'Arman Tsarukyan', 'file': '02-arman-tsarukyan-2026'} -> fighter images/arman-tsarukyan/cutouts/02-arman-tsarukyan-2026.png  headline: Chaos
+v2 left: images/arman-tsarukyan/cutouts/02-arman-tsarukyan-2026.png
+v2 right: images/dillon-danis/cutouts/01-dillon-danis-weigh-in-2023-cropped.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-23-1815-raf-presser-brawl/post.png (fighter)
+Rendered posts/2026-10-23-1815-raf-presser-brawl/reel.mp4 (format v2)
 
-== 2026-10-22-1816-dana-volkov-who.json
-Image: {'type': 'fighter', 'name': 'Dana White', 'file': '01-dana-white-in-june-2025-cropped'} -> fighter images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png  headline: Who's That?
-v2 left: images/dana-white/cutouts/01-dana-white-in-june-2025-cropped.png
-v2 right: images/alexander-volkov-fighter/cutouts/02-alexander-volkov-in-m-1-cropped.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-22-1816-dana-volkov-who/post.png (fighter)
-Rendered posts/2026-10-22-1816-dana-volkov-who/reel.mp4 (format v2)
-
-== 2026-10-22-1817-merab-yan-figured-out.json
-Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png  headline: Figured Out?
-v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
-v2 right: images/petr-yan/cutouts/drive-petr-yan-champ.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-22-1817-merab-yan-figured-out/post.png (fighter)
-Rendered posts/2026-10-22-1817-merab-yan-figured-out/reel.mp4 (format v2)
-
-== 2026-10-22-1818-pereira-hokit-easier.json
-Image: {'type': 'fighter', 'name': 'Alex Pereira', 'file': 'drive-alex-pereira-3'} -> fighter images/alex-pereira/cutouts/drive-alex-pereira-3.png  headline: Easier Fight
-v2 left: images/alex-pereira/cutouts/drive-alex-pereira-3.png
-v2 right: images/josh-hokit/cutouts/drive-josh-hokit-1.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-22-1818-pereira-hokit-easier/post.png (fighter)
-Rendered posts/2026-10-22-1818-pereira-hokit-easier/reel.mp4 (format v2)
+== 2026-10-23-1816-yan-break-nose.json
+Image: {'type': 'fighter', 'name': 'Petr Yan', 'file': 'drive-petr-yan'} -> fighter images/petr-yan/cutouts/drive-petr-yan.png  headline: Nose Again
+v2 left: images/petr-yan/cutouts/drive-petr-yan.png
+v2 right: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-double-flag.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-23-1816-yan-break-nose/post.png (fighter)
+Rendered posts/2026-10-23-1816-yan-break-nose/reel.mp4 (format v2)
