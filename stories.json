@@ -30,7 +30,9 @@
         {
           "post": "2026-10-24-1815-ufc-333-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-10-24T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1522257330175851521"
         }
       ]
     },
@@ -59,7 +61,10 @@
           "post": "2026-10-24-1816-volk-beats-evloev",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-24T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1542479140684870782",
+          "image": "drive-alexander-volkanovski-champ vs drive-movsar-evloev"
         }
       ]
     },
@@ -76,7 +81,8 @@
         "Unanimous decision 48-47 x3; Merab strong early, Yan took over late",
         "Fight of the Night",
         "Yan: 'Give me Song Yadong, give me King Kong, give me anybody'; Yahoo says Song Yadong or Sean O'Malley could be next",
-        "Merab: 'he's the better man'; Heavy headline says Merab wants Song Yadong"
+        "Merab: 'he's the better man'; Heavy headline says Merab wants Song Yadong",
+        "Oct 24 6 PM run: requested 8:00 PM and 8:30 PM for the Yan and Tsarukyan Reels, but Metricool saved them at 10:00 and 10:30 PM (an update to 8 PM also came back as 10 PM); left them there since both times are in the evening window. 10 PM run: place new posts after 10:30 PM. Day count Oct 24: 3 automated news Reels (carousel not counted)"
       ],
       "sources": [
         "https://www.espn.com/mma/ufc/story/_/id/50269828/petr-yan-completes-trilogy-gritty-win-merab-dvalishvili-defend-title",
@@ -88,7 +94,10 @@
           "post": "2026-10-24-1817-yan-beats-merab-trilogy",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-24T22:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-8993724830963118122",
+          "image": "drive-petr-yan-champ vs drive-merab-dvalishvili"
         }
       ]
     },
@@ -170,7 +179,10 @@
           "post": "2026-10-24-1818-tsarukyan-folds-danis",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-24T22:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4081763765805167857",
+          "image": "02-arman-tsarukyan-2026 vs 01-dillon-danis-weigh-in-2023-cropped"
         }
       ]
     },
