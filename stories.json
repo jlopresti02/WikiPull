@@ -26,7 +26,10 @@
           "post": "2026-10-23-2215-makhachev-out-336",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-23T22:20:00-04:00",
+          "image": "drive-islam-makhachev vs 01-carlos-prates-2026",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3251704084749566830"
         }
       ]
     },
