@@ -2,6 +2,97 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-333-results",
+      "title": "UFC 333 results (Abu Dhabi): Volkanovski stops Evloev, Yan beats Dvalishvili in trilogy",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev",
+        "Petr Yan",
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-24",
+      "facts": [
+        "Volkanovski def. Evloev TKO (punches) R2 (Heavy, ClutchPoints, MMA Junkie narrative; MMA Junkie's results list says R1 4:54, so time left off)",
+        "Yan def. Dvalishvili UD 48-47 x3",
+        "Kavanagh def. Temirov TKO R1 4:28; Volkov def. Kuniev UD; Pico def. Keita TKO R1 1:14",
+        "Prelims: Reyes KO Murzakanov R1 2:40 (head kick); Yakhyaev KO Krylov R1; Abus Magomedov sub (guillotine) Rowston R1; Dawson UD Aliev; Steele KO Gugnon R1 3:54; Lucindo UD Caliari; Thicknesse SD Chopurov; Vagaev UD Malkoun (DraftKings Network); Santos UD Oki",
+        "Bonuses: FOTN Yan vs Dvalishvili; POTN Volkanovski, Kavanagh; $25K finish bonuses Pico, Reyes, Yakhyaev, Magomedov, Steele",
+        "Oct 24 6 PM run: first run after the event -> results carousel (step 6b)"
+      ],
+      "sources": [
+        "https://www.ufc.com/news/ufc-333-volkanovski-vs-evloev-results",
+        "https://sports.yahoo.com/articles/ufc-333-results-alexander-volkvanovski-212641345.html",
+        "https://heavy.com/sports/ufc/ufc-333-bonuses-revealed-following-event/",
+        "https://dknetwork.draftkings.com/2026/10/24/ufc-333-alexander-volkanovski-vs-movsar-evloev-live-results-round-by-round-updates-highlights-and-winner-october-24-2026/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-24-1815-ufc-333-results",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
+    },
+    {
+      "id": "ufc-333-volkanovski-stops-evloev",
+      "title": "Volkanovski stops unbeaten Evloev in round 2 to retain featherweight title at UFC 333",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-24",
+      "facts": [
+        "TKO (punches) round 2, Abu Dhabi; Evloev's first career loss (was 20-0)",
+        "MMA Junkie: Volkanovski passed Jose Aldo's record of title fight victories with nine",
+        "Performance of the Night ($100K)",
+        "No post-fight callout or retirement talk found in reports as of 6 PM ET"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-333-results-alexander-volkvanovski-212641345.html",
+        "https://sports.yahoo.com/articles/alexander-volkanovski-stops-movsar-evloev-212412643.html",
+        "https://heavy.com/sports/ufc/ufc-333-bonuses-revealed-following-event/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-24-1816-volk-beats-evloev",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "ufc-333-yan-beats-dvalishvili-trilogy",
+      "title": "Petr Yan beats Merab Dvalishvili in trilogy to retain bantamweight title at UFC 333",
+      "people": [
+        "Petr Yan",
+        "Merab Dvalishvili"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-24",
+      "facts": [
+        "Unanimous decision 48-47 x3; Merab strong early, Yan took over late",
+        "Fight of the Night",
+        "Yan: 'Give me Song Yadong, give me King Kong, give me anybody'; Yahoo says Song Yadong or Sean O'Malley could be next",
+        "Merab: 'he's the better man'; Heavy headline says Merab wants Song Yadong"
+      ],
+      "sources": [
+        "https://www.espn.com/mma/ufc/story/_/id/50269828/petr-yan-completes-trilogy-gritty-win-merab-dvalishvili-defend-title",
+        "https://sports.yahoo.com/articles/ufc-333-results-petr-yan-204616062.html",
+        "https://www.thescore.com/mma/news/3633714/yan-edges-out-dvalishvili-in-trilogy-bout-to-retain-ufc-bantamweight-title"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-24-1817-yan-beats-merab-trilogy",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "makhachev-out-ufc-336-prates",
       "title": "Islam Makhachev reportedly withdraws from UFC 336 welterweight title fight vs Carlos Prates",
       "people": [
@@ -55,7 +146,8 @@
         "RAF 14 result (Oct 23, Las Vegas; reported Oct 24): Tsarukyan beat Danis 10-0 in the main event for the RAF middleweight crossover title, then stepped on Danis's chest after the match; fans piled on Danis online",
         "Chimaev beat Robbie Lawler 10-0 (ended late in the first period) and said he'd 'break the neck' of Colby Covington, his already-booked opponent for the RAF Abu Dhabi main event (Nov 14)",
         "Oct 24 9 AM run: genuinely new fact (the result) -> UPDATE Reel, held for the Oct 24 evening (reach recovery). Rank behind the UFC 333 title-fight results (Volkanovski vs Evloev, Dvalishvili vs Yan) if those land; v2 left Tsarukyan (drive/02-arman-tsarukyan-2026), right Danis. Drop if it feels stale by 10 PM",
-        "Oct 24 1 PM run: nothing new since 9 AM; still held for the Oct 24 evening. UFC 333 (Abu Dhabi) main card starts 2 PM ET, so the Volkanovski-Evloev and Yan-Dvalishvili title results should be in by the 6 PM run and rank ahead of this; the card ends before 6 PM, so the 6 PM run is the first run after the event (step 6b results carousel)"
+        "Oct 24 1 PM run: nothing new since 9 AM; still held for the Oct 24 evening. UFC 333 (Abu Dhabi) main card starts 2 PM ET, so the Volkanovski-Evloev and Yan-Dvalishvili title results should be in by the 6 PM run and rank ahead of this; the card ends before 6 PM, so the 6 PM run is the first run after the event (step 6b results carousel)",
+        "Oct 24 6 PM run: posted as UPDATE Reel (the result), ranked 3rd behind the UFC 333 title results; left Tsarukyan, right Danis"
       ],
       "sources": [
         "https://www.essentiallysports.com/ufc-mma-news-ufc-fighters-turn-freestyle-wrestling-event-into-chaos-as-security-rushes-to-end-brawl/",
@@ -73,9 +165,14 @@
           "style": "v2",
           "scheduled_for": "2026-10-23T19:00:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1260149044379564701"
+        },
+        {
+          "post": "2026-10-24-1818-tsarukyan-folds-danis",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
         }
-      ],
-      "held_for_evening": true
+      ]
     },
     {
       "id": "yan-vows-break-merab-nose-again-ufc-333",

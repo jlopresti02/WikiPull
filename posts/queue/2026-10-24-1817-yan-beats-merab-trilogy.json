@@ -1,0 +1,29 @@
+{
+  "story_id": "ufc-333-yan-beats-dvalishvili-trilogy",
+  "headline": "Yan 2-1",
+  "visual": [
+    {"type": "fighter", "name": "Petr Yan", "file": "drive-petr-yan-champ"},
+    {"type": "fighter", "name": "Merab Dvalishvili", "file": "drive-merab-dvalishvili"}
+  ],
+  "color": "#d2202f",
+  "caption": "Petr Yan beat Merab Dvalishvili again to win their trilogy and keep the UFC bantamweight title.\nYan's next: Song Yadong or O'Malley? 👇\n\nYan weathered Merab's early pressure and took over late for a unanimous decision, 48-47 on all three cards, at UFC 333 in Abu Dhabi. It won Fight of the Night, and Yan said he'll take anyone, naming Song Yadong.\n\n🔥 Hot take: Yan settled this rivalry. No fourth fight needed.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFC333", "PetrYan", "MerabDvalishvili"],
+  "sources": ["ESPN", "UFC.com", "Yahoo Sports"],
+  "question": "Song or O'Malley?",
+  "hot_take": "Yan *settled* this rivalry. No fourth fight needed.",
+  "v2": {
+    "tag": "UFC 333 · BANTAMWEIGHT",
+    "kicker": "TRILOGY SETTLED",
+    "hook": "Yan vs Merab",
+    "left": [{"name": "Petr Yan", "file": "drive-petr-yan-champ"}],
+    "right": [{"name": "Merab Dvalishvili", "file": "drive-merab-dvalishvili"}],
+    "story": "Yan survived Merab's early pressure and won the late rounds to keep the belt.",
+    "chips": ["UNANIMOUS DECISION", "48-47 X3", "FIGHT OF THE NIGHT"],
+    "options": ["SONG", "O'MALLEY"],
+    "question": "Song or O'Malley?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}

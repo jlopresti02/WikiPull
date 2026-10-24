@@ -1,0 +1,29 @@
+{
+  "story_id": "raf-14-presser-brawl-tsarukyan-chimaev-danis",
+  "headline": "Danis Folded",
+  "visual": [
+    {"type": "fighter", "name": "Arman Tsarukyan", "file": "02-arman-tsarukyan-2026"},
+    {"type": "fighter", "name": "Dillon Danis", "file": "01-dillon-danis-weigh-in-2023-cropped"}
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Arman Tsarukyan shut out Dillon Danis 10-0 at RAF 14, then stepped on his chest after the match.\nRespect or too far? 👇\n\nThe UFC lightweight contender won the RAF middleweight crossover title in Las Vegas a day after their press conference brawl. Khamzat Chimaev also beat Robbie Lawler 10-0 on the card.\n\n🔥 Hot take: Danis should stay out of the wrestling world.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "RAF", "RAF14", "ArmanTsarukyan", "DillonDanis"],
+  "sources": ["Yahoo Sports", "EssentiallySports"],
+  "question": "Respect or too far?",
+  "hot_take": "Danis should *stay out* of the wrestling world.",
+  "v2": {
+    "tag": "RAF 14 · LAS VEGAS",
+    "kicker": "SHUTOUT WIN",
+    "hook": "Arman vs Danis",
+    "left": [{"name": "Arman Tsarukyan", "file": "02-arman-tsarukyan-2026"}],
+    "right": [{"name": "Dillon Danis", "file": "01-dillon-danis-weigh-in-2023-cropped"}],
+    "story": "Tsarukyan beat Danis 10-0 for the RAF title, then stepped on his chest.",
+    "chips": ["10-0 WIN", "RAF CROSSOVER TITLE", "CHIMAEV BEAT LAWLER"],
+    "options": ["RESPECT", "TOO FAR"],
+    "question": "Respect or too far?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}
