@@ -1,0 +1,82 @@
+{
+  "story_id": "ufc-333-volkanovski-stops-evloev",
+  "headline": "Still King",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Alexander Volkanovski",
+      "file": "drive-alexander-volkanovski-champ"
+    },
+    {
+      "type": "fighter",
+      "name": "Movsar Evloev",
+      "file": "drive-movsar-evloev"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Alexander Volkanovski just handed Movsar Evloev his first loss to keep the UFC featherweight title.\nFeatherweight GOAT: Volk or Aldo? 👇\n\nThe champ finished the previously unbeaten Evloev with punches in round 2 at UFC 333 in Abu Dhabi. MMA Junkie says it's his ninth title-fight win, passing José Aldo's record, and it earned him a $100K bonus.\n\n🔥 Hot take: Volkanovski is the greatest featherweight of all time.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC333",
+    "AlexanderVolkanovski",
+    "MovsarEvloev"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "UFC.com",
+    "Heavy"
+  ],
+  "question": "Volk or Aldo?",
+  "hot_take": "Volkanovski is the *greatest* featherweight of all time.",
+  "v2": {
+    "tag": "UFC 333 · FEATHERWEIGHT",
+    "kicker": "9 TITLE WINS",
+    "hook": "Volk Retains",
+    "left": [
+      {
+        "name": "Alexander Volkanovski",
+        "file": "drive-alexander-volkanovski-champ"
+      }
+    ],
+    "right": [
+      {
+        "name": "Movsar Evloev",
+        "file": "drive-movsar-evloev"
+      }
+    ],
+    "story": "Volkanovski stopped the unbeaten Evloev with punches in round 2 to keep the belt.",
+    "chips": [
+      "TKO · ROUND 2",
+      "EVLOEV'S 1ST LOSS",
+      "PASSES ALDO"
+    ],
+    "options": [
+      "VOLK",
+      "ALDO"
+    ],
+    "question": "Volk or Aldo?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/movsar-evloev/cutouts/drive-movsar-evloev.png",
+      "credit": "WWIT MMA News"
+    }
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "subject": {
+    "kind": "fighter",
+    "image": "images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}
