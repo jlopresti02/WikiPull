@@ -2,6 +2,35 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "makhachev-out-ufc-336-prates",
+      "title": "Islam Makhachev reportedly withdraws from UFC 336 welterweight title fight vs Carlos Prates",
+      "people": [
+        "Islam Makhachev",
+        "Carlos Prates",
+        "Dana White"
+      ],
+      "event": "UFC 336 Toronto (Jan 30, 2027)",
+      "first_reported": "2026-10-23",
+      "facts": [
+        "Ag Fight reported on X (Oct 23) that welterweight champion Makhachev withdrew from his UFC 336 title defense vs No. 1 contender Carlos Prates, Jan 30, 2027, Scotiabank Arena, Toronto; reported via MMA Mania (Jesse Holland)",
+        "No reason given; no replacement named; Dana White neither confirmed nor denied, calling the report 'interesting'",
+        "Related: makhachev-ufc-336-return-not-close (Oct 21 manager comment). Found at Oct 23 10 PM run (missed by 6 PM run); major news under the Oct 23 rule"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-news/481183/islam-makhachev-withdraws-ufc-336-title-fight-carlos-prates",
+        "https://sports.yahoo.com/articles/islam-makhachev-withdraws-ufc-336-182215201.html",
+        "https://bloodyelbow.com/2026/10/23/dana-white-gives-tight-lipped-reaction-to-reportedly-cancelled-plans-for-islam-makhachev/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-23-2215-makhachev-out-336",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "raf-14-presser-brawl-tsarukyan-chimaev-danis",
       "title": "Tsarukyan and Chimaev go after Dillon Danis at the RAF 14 press conference",
       "people": [

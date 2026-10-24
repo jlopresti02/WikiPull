@@ -1,0 +1,29 @@
+{
+  "story_id": "makhachev-out-ufc-336-prates",
+  "headline": "Islam Out",
+  "visual": [
+    {"type": "fighter", "name": "Islam Makhachev", "file": "drive-islam-makhachev"},
+    {"type": "fighter", "name": "Carlos Prates", "file": "01-carlos-prates-2026"}
+  ],
+  "color": "#d2202f",
+  "caption": "Islam Makhachev has reportedly pulled out of his UFC 336 welterweight title defense against Carlos Prates.\nWait for Islam or interim belt? 👇\n\nAg Fight broke the news, no reason has been given yet, and Dana White only called the report \"interesting.\" UFC 336 is set for January 30 in Toronto, and there's no word yet on Prates' next opponent.\n\n🔥 Hot take: Prates deserves an interim title fight, not a long wait.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFC336", "IslamMakhachev", "CarlosPrates"],
+  "sources": ["Ag Fight", "MMA Mania"],
+  "question": "Wait or interim?",
+  "hot_take": "Prates *deserves* an interim title, not a long wait.",
+  "v2": {
+    "tag": "UFC 336 · WELTERWEIGHT",
+    "kicker": "TITLE FIGHT OFF",
+    "hook": "Islam Out",
+    "left": [{"name": "Islam Makhachev", "file": "drive-islam-makhachev"}],
+    "right": [{"name": "Carlos Prates", "file": "01-carlos-prates-2026"}],
+    "story": "Makhachev reportedly withdrew from his Jan. 30 title defense vs. Prates in Toronto.",
+    "chips": ["REPORTED: AG FIGHT", "REASON UNKNOWN", "JAN 30 · TORONTO"],
+    "options": ["WAIT", "INTERIM"],
+    "question": "Wait or interim?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}
