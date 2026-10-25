@@ -55,10 +55,28 @@
       "PRATES",
       "MORALES"
     ],
-    "question": "Prates or Morales?"
+    "question": "Prates or Morales?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
+      "credit": "Sexto Round / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png",
+      "credit": "Presidencia de la República del Ecuador / Public domain"
+    }
   },
   "music_pool": "espn",
   "follow_card": true,
   "reel": true,
-  "format": "v2"
+  "format": "v2",
+  "subject": {
+    "kind": "fighter",
+    "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
+    "credit": "Sexto Round / CC BY 3.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }

@@ -1,9 +1,8 @@
 
-== 2026-10-24-2215-prates-morales-interim.json
+== 2026-10-24-2216-prates-morales-interim.json
 Image: {'type': 'fighter', 'name': 'Carlos Prates', 'file': '01-carlos-prates-2026'} -> fighter images/carlos-prates/cutouts/01-carlos-prates-2026.png  headline: Interim Gold
 v2 left: images/carlos-prates/cutouts/01-carlos-prates-2026.png
-  v2 right {'name': ['Michael Morales (fighter)', 'Michael Morales'], 'file': '01-michael-morales-quito-27-de-mayo-del-2025-cropped'} failed: 'list' object has no attribute 'lower'
-v2 right: silhouette
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-10-24-2215-prates-morales-interim/post.png (fighter)
-Rendered posts/2026-10-24-2215-prates-morales-interim/reel.mp4 (format v2)
+v2 right: images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-10-24-2216-prates-morales-interim/post.png (fighter)
+Rendered posts/2026-10-24-2216-prates-morales-interim/reel.mp4 (format v2)
