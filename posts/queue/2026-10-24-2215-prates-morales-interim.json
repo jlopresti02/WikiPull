@@ -1,0 +1,29 @@
+{
+  "story_id": "makhachev-out-ufc-336-prates",
+  "headline": "Interim Gold",
+  "visual": [
+    {"type": "fighter", "name": "Carlos Prates", "file": "01-carlos-prates-2026"},
+    {"type": "fighter", "name": ["Michael Morales (fighter)", "Michael Morales"], "file": "01-michael-morales-quito-27-de-mayo-del-2025-cropped"}
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: With Islam Makhachev out, Carlos Prates now fights unbeaten Michael Morales for the interim UFC welterweight title.\nPrates or Morales? 👇\n\nThe UFC made it official during the UFC 333 broadcast: the fight lands at UFC 336 on January 30 in Toronto, with Joshua Van defending the flyweight title against Manel Kape on the same card. Dana White says Makhachev gave no reason for missing January.\n\n🔥 Hot take: Whoever wins this is a real problem for Makhachev.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFC336", "CarlosPrates", "MichaelMorales"],
+  "sources": ["Bleacher Report", "Heavy", "Yahoo Sports"],
+  "question": "Prates or Morales?",
+  "hot_take": "Whoever wins this is a real *problem* for Makhachev.",
+  "v2": {
+    "tag": "UFC 336 · WELTERWEIGHT",
+    "kicker": "INTERIM TITLE FIGHT",
+    "hook": "Prates vs Morales",
+    "left": [{"name": "Carlos Prates", "file": "01-carlos-prates-2026"}],
+    "right": [{"name": ["Michael Morales (fighter)", "Michael Morales"], "file": "01-michael-morales-quito-27-de-mayo-del-2025-cropped"}],
+    "story": "With Makhachev out, Prates and unbeaten Morales fight for the interim belt in Toronto.",
+    "chips": ["MORALES 19-0", "JAN 30 · TORONTO", "VAN VS KAPE ON CARD"],
+    "options": ["PRATES", "MORALES"],
+    "question": "Prates or Morales?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}

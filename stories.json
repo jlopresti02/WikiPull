@@ -107,19 +107,26 @@
       "people": [
         "Islam Makhachev",
         "Carlos Prates",
-        "Dana White"
+        "Dana White",
+        "Michael Morales",
+        "Joshua Van",
+        "Manel Kape"
       ],
       "event": "UFC 336 Toronto (Jan 30, 2027)",
       "first_reported": "2026-10-23",
       "facts": [
         "Ag Fight reported on X (Oct 23) that welterweight champion Makhachev withdrew from his UFC 336 title defense vs No. 1 contender Carlos Prates, Jan 30, 2027, Scotiabank Arena, Toronto; reported via MMA Mania (Jesse Holland)",
         "No reason given; no replacement named; Dana White neither confirmed nor denied, calling the report 'interesting'",
-        "Related: makhachev-ufc-336-return-not-close (Oct 21 manager comment). Found at Oct 23 10 PM run (missed by 6 PM run); major news under the Oct 23 rule"
+        "Related: makhachev-ufc-336-return-not-close (Oct 21 manager comment). Found at Oct 23 10 PM run (missed by 6 PM run); major news under the Oct 23 rule",
+        "UPDATE 2026-10-24: UFC announced during the UFC 333 broadcast that Carlos Prates vs Michael Morales (19-0) is now for the interim welterweight title at UFC 336, Jan 30, Scotiabank Arena, Toronto; Joshua Van vs Manel Kape flyweight title fight also on the card (BR, Heavy, Yahoo/NY Fights). Dana White said Makhachev gave no reason for not fighting in January; Anik said Makhachev likely returns May-July (Ramadan). Main/co-main order reported inconsistently. Missed by the 6 PM run; posted at the 10 PM run"
       ],
       "sources": [
         "https://www.mmamania.com/ufc-news/481183/islam-makhachev-withdraws-ufc-336-title-fight-carlos-prates",
         "https://sports.yahoo.com/articles/islam-makhachev-withdraws-ufc-336-182215201.html",
-        "https://bloodyelbow.com/2026/10/23/dana-white-gives-tight-lipped-reaction-to-reportedly-cancelled-plans-for-islam-makhachev/"
+        "https://bloodyelbow.com/2026/10/23/dana-white-gives-tight-lipped-reaction-to-reportedly-cancelled-plans-for-islam-makhachev/",
+        "https://bleacherreport.com/articles/25519773-carlos-prates-vs-michael-morales-headlines-ufc-336-card-after-islam-makhachev-rumors",
+        "https://heavy.com/sports/ufc/interim-title-fight-headlines-ufc-336/",
+        "https://sports.yahoo.com/articles/ufc-336-gets-massive-co-204308357.html"
       ],
       "posts": [
         {
@@ -130,6 +137,12 @@
           "scheduled_for": "2026-10-23T22:20:00-04:00",
           "image": "drive-islam-makhachev vs 01-carlos-prates-2026",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3251704084749566830"
+        },
+        {
+          "post": "2026-10-24-2215-prates-morales-interim",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
         }
       ]
     },
