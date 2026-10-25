@@ -9,10 +9,7 @@
     },
     {
       "type": "fighter",
-      "name": [
-        "Michael Morales (fighter)",
-        "Michael Morales"
-      ],
+      "name": "Michael Morales (fighter)",
       "file": "01-michael-morales-quito-27-de-mayo-del-2025-cropped"
     }
   ],
@@ -44,10 +41,7 @@
     ],
     "right": [
       {
-        "name": [
-          "Michael Morales (fighter)",
-          "Michael Morales"
-        ],
+        "name": "Michael Morales (fighter)",
         "file": "01-michael-morales-quito-27-de-mayo-del-2025-cropped"
       }
     ],
@@ -61,29 +55,10 @@
       "PRATES",
       "MORALES"
     ],
-    "question": "Prates or Morales?",
-    "left_subject": {
-      "kind": "fighter",
-      "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
-      "credit": "Sexto Round / CC BY 3.0"
-    },
-    "right_subject": {
-      "kind": "graphic",
-      "graphic": "mystery",
-      "image": null,
-      "credit": null
-    }
+    "question": "Prates or Morales?"
   },
   "music_pool": "espn",
   "follow_card": true,
   "reel": true,
-  "format": "v2",
-  "subject": {
-    "kind": "fighter",
-    "image": "images/carlos-prates/cutouts/01-carlos-prates-2026.png",
-    "credit": "Sexto Round / CC BY 3.0"
-  },
-  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
-  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
-  "music_start": 108.75
+  "format": "v2"
 }
