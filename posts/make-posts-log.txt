@@ -1,35 +1,9 @@
 
-== 2026-10-24-1815-ufc-333-results.json
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-01.jpg (cover)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-02.jpg (hook)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-03.jpg (result)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-04.jpg (result)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-05.jpg (list)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-06.jpg (list)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-07.jpg (list)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-08.jpg (bonuses)
-Rendered posts/2026-10-24-1815-ufc-333-results/slide-09.jpg (cta)
-
-== 2026-10-24-1816-volk-beats-evloev.json
-Image: {'type': 'fighter', 'name': 'Alexander Volkanovski', 'file': 'drive-alexander-volkanovski-champ'} -> fighter images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png  headline: Still King
-v2 left: images/alexander-volkanovski/cutouts/drive-alexander-volkanovski-champ.png
-v2 right: images/movsar-evloev/cutouts/drive-movsar-evloev.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-10-24-1816-volk-beats-evloev/post.png (fighter)
-Rendered posts/2026-10-24-1816-volk-beats-evloev/reel.mp4 (format v2)
-
-== 2026-10-24-1817-yan-beats-merab-trilogy.json
-Image: {'type': 'fighter', 'name': 'Petr Yan', 'file': 'drive-petr-yan-champ'} -> fighter images/petr-yan/cutouts/drive-petr-yan-champ.png  headline: Yan 2-1
-v2 left: images/petr-yan/cutouts/drive-petr-yan-champ.png
-v2 right: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-24-1817-yan-beats-merab-trilogy/post.png (fighter)
-Rendered posts/2026-10-24-1817-yan-beats-merab-trilogy/reel.mp4 (format v2)
-
-== 2026-10-24-1818-tsarukyan-folds-danis.json
-Image: {'type': 'fighter', 'name': 'Arman Tsarukyan', 'file': '02-arman-tsarukyan-2026'} -> fighter images/arman-tsarukyan/cutouts/02-arman-tsarukyan-2026.png  headline: Danis Folded
-v2 left: images/arman-tsarukyan/cutouts/02-arman-tsarukyan-2026.png
-v2 right: images/dillon-danis/cutouts/01-dillon-danis-weigh-in-2023-cropped.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-10-24-1818-tsarukyan-folds-danis/post.png (fighter)
-Rendered posts/2026-10-24-1818-tsarukyan-folds-danis/reel.mp4 (format v2)
+== 2026-10-24-2215-prates-morales-interim.json
+Image: {'type': 'fighter', 'name': 'Carlos Prates', 'file': '01-carlos-prates-2026'} -> fighter images/carlos-prates/cutouts/01-carlos-prates-2026.png  headline: Interim Gold
+v2 left: images/carlos-prates/cutouts/01-carlos-prates-2026.png
+  v2 right {'name': ['Michael Morales (fighter)', 'Michael Morales'], 'file': '01-michael-morales-quito-27-de-mayo-del-2025-cropped'} failed: 'list' object has no attribute 'lower'
+v2 right: silhouette
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-10-24-2215-prates-morales-interim/post.png (fighter)
+Rendered posts/2026-10-24-2215-prates-morales-interim/reel.mp4 (format v2)
