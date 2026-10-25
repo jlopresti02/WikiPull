@@ -2,6 +2,95 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "dana-blasts-makhachev-inactivity",
+      "title": "Dana White criticizes Islam Makhachev's inactivity after the UFC 336 title delay",
+      "people": [
+        "Dana White",
+        "Islam Makhachev",
+        "Carlos Prates",
+        "Michael Morales"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-10-25",
+      "facts": [
+        "Dana White criticized Makhachev's inactivity, noting he was first set to defend the welterweight title in January (Sherdog, Oct 25)",
+        "Quote story on an already-covered withdrawal (makhachev-out-ufc-336-prates); no new fact. Oct 25 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dana-White-blasts-Islam-Makhachevs-inactivity-after-UFC-title-delay-203340"
+      ],
+      "posts": []
+    },
+    {
+      "id": "shakur-stevenson-released-zuffa-boxing",
+      "title": "Dana White says Shakur Stevenson was granted his release from Zuffa Boxing",
+      "people": [
+        "Shakur Stevenson",
+        "Dana White"
+      ],
+      "event": "Zuffa Boxing",
+      "sport": "boxing",
+      "first_reported": "2026-10-25",
+      "facts": [
+        "White says he offered Stevenson his release from Zuffa Boxing (Sherdog, Oct 25)",
+        "Adjacent sports; Trial Reels off in reach recovery. Oct 25 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dana-White-explains-why-Shakur-Stevenson-got-release-UFC-fighters-seek-203336"
+      ],
+      "posts": []
+    },
+    {
+      "id": "volkanovski-sick-ufc-333",
+      "title": "Volkanovski says he was sick for UFC 333 and it would have been 'too easy' otherwise",
+      "people": [
+        "Alexander Volkanovski",
+        "Movsar Evloev"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-25",
+      "facts": [
+        "Post-fight quote (Sherdog, Oct 25); result already posted. Oct 25 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Alexander-Volkanovski-says-he-was-sick-at-UFC-333-Too-easy-otherwise-203333"
+      ],
+      "posts": []
+    },
+    {
+      "id": "yakhyaev-tkos-krylov-wants-top-5",
+      "title": "Unbeaten Abdul-Rakhman Yakhyaev TKOs Nikita Krylov at UFC 333, wants top 5",
+      "people": [
+        "Abdul-Rakhman Yakhyaev",
+        "Nikita Krylov"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-25",
+      "facts": [
+        "Yakhyaev (11-0) stopped Krylov in round 1 and asked for a top-5 opponent (Sherdog, Oct 25). Oct 25 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/articles/110-AbdulRakhman-Yakhyaev-wants-UFC-Top-5-after-Nikita-Krylov-TKO-203339"
+      ],
+      "posts": []
+    },
+    {
+      "id": "buckley-one-last-ufc-fight",
+      "title": "Joaquin Buckley plans one last UFC fight",
+      "people": [
+        "Joaquin Buckley"
+      ],
+      "event": "",
+      "first_reported": "2026-10-24",
+      "facts": [
+        "Buckley says he plans one more fight before retiring, citing his family after his latest knockout loss (Sherdog, Oct 24). Oct 25 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Joaquin-Buckley-plans-one-last-UFC-fight-after-grandmothers-plea-203324"
+      ],
+      "posts": []
+    },
+    {
       "id": "ufc-333-results",
       "title": "UFC 333 results (Abu Dhabi): Volkanovski stops Evloev, Yan beats Dvalishvili in trilogy",
       "people": [
