@@ -142,7 +142,10 @@
           "post": "2026-10-24-2216-prates-morales-interim",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-24T23:00:00-04:00",
+          "image": "01-carlos-prates-2026 vs 01-michael-morales-quito-27-de-mayo-del-2025-cropped",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7610352215077504097"
         }
       ]
     },
