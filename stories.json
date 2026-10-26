@@ -2,6 +2,56 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "pitbull-calls-out-lerone-murphy",
+      "title": "Patricio Pitbull calls out Lerone Murphy",
+      "people": [
+        "Patricio Freire",
+        "Lerone Murphy"
+      ],
+      "event": null,
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Callout with no booking (Heavy, Oct 26). Oct 26 6 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://heavy.com/sports/ufc/patricio-pitbull-calls-out-lerone-murphy"
+      ],
+      "posts": []
+    },
+    {
+      "id": "kade-ruotolo-ok-rae-yoon-one-fight-night-50",
+      "title": "Kade Ruotolo vs. Ok Rae Yoon added to ONE Fight Night 50",
+      "people": [
+        "Kade Ruotolo",
+        "Ok Rae Yoon"
+      ],
+      "event": "ONE Fight Night 50",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Bout added to ONE Fight Night 50 (Middle Easy, Oct 26). Oct 26 6 PM run: logged, not posted (ONE posts are Trial Reels, off under reach recovery)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/kade-ruotolo-ok-rae-yoon-abevi-dzhabrailov-one-fight-night-50/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "yan-rolls-royce-after-ufc-333",
+      "title": "Petr Yan promised a Rolls-Royce Cullinan after UFC 333 title defense",
+      "people": [
+        "Petr Yan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Sherdog (Oct 26). Oct 26 6 PM run: logged, not posted (not major news)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Petr-Yan-promised-RollsRoyce-Cullinan-after-UFC-333-title-defense-203351"
+      ],
+      "posts": []
+    },
+    {
       "id": "gassama-pfl-debut-lyon",
       "title": "Unbeaten French champion Bafode Gassama to make his PFL debut in Lyon",
       "people": [
@@ -116,10 +166,12 @@
       "first_reported": "2026-10-26",
       "facts": [
         "After retaining at UFC 333, Volkanovski again pushed a Gaethje superfight, calling it something he'd retire for (Last Word on Sports, Oct 26)",
-        "Oct 26 9 AM run: logged, not posted (callout/interview talk, no booking; major-news-only rule)"
+        "Oct 26 9 AM run: logged, not posted (callout/interview talk, no booking; major-news-only rule)",
+        "Volkanovski says he'd want a Topuria rematch if Gaethje retires (MMA Mania, Heavy, Oct 26). Oct 26 6 PM run: logged, not posted (callout talk, no booking)"
       ],
       "sources": [
-        "https://lastwordonsports.com/mma/2026/10/26/alexander-volkanovski-ufc-333-2/"
+        "https://lastwordonsports.com/mma/2026/10/26/alexander-volkanovski-ufc-333-2/",
+        "https://www.mmamania.com/ufc-news/482099/rematch-alex-volkanovski-ilia-topuria-do-over-justin-gaethje-retires-ufc"
       ],
       "posts": []
     },
@@ -136,7 +188,8 @@
       "facts": [
         "Makhachev told pound4padel.ru that Prates and Morales will decide the real contender and he'll fight the winner (via Last Word on Sports, Oct 26)",
         "Oct 26 9 AM run: logged, not posted (interview quote; interim bout already posted Oct 24)",
-        "Makhachev questions Prates and Morales' title-shot credentials (Sherdog, Oct 26); Morales warns Prates 'you're gonna need those lungs' (Sherdog, Oct 26). Oct 26 1 PM run: logged, not posted (major-news-only rule): quotes, interim bout already posted"
+        "Makhachev questions Prates and Morales' title-shot credentials (Sherdog, Oct 26); Morales warns Prates 'you're gonna need those lungs' (Sherdog, Oct 26). Oct 26 1 PM run: logged, not posted (major-news-only rule): quotes, interim bout already posted",
+        "Prates fires back at Morales over leaked DMs (MMA Sucka, Oct 26). Oct 26 6 PM run: logged, not posted (trash talk; interim bout already posted)"
       ],
       "sources": [
         "https://lastwordonsports.com/mma/2026/10/26/islam-makhachev-ufc-336/",
