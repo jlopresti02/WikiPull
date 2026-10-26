@@ -2,6 +2,93 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "gassama-pfl-debut-lyon",
+      "title": "Unbeaten French champion Bafode Gassama to make his PFL debut in Lyon",
+      "people": [
+        "Bafode Gassama"
+      ],
+      "event": "PFL Lyon",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Sherdog (Oct 26) reports unbeaten French champ Gassama will debut for PFL in Lyon",
+        "Oct 26 1 PM run: logged, not posted (major-news-only rule): not a star or ranked name"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Unbeaten-French-champ-Bafode-Gassama-to-make-PFL-debut-in-Lyon-203358"
+      ],
+      "posts": []
+    },
+    {
+      "id": "tsarukyan-wants-gsp-wrestling-match",
+      "title": "Arman Tsarukyan wants a wrestling match with Georges St-Pierre after RAF 14",
+      "people": [
+        "Arman Tsarukyan",
+        "Georges St-Pierre"
+      ],
+      "event": "RAF",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Callout with no booking (Sherdog, Oct 26). Oct 26 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Arman-Tsarukyan-wants-Georges-St-Pierre-wrestling-match-after-RAF-14-203357"
+      ],
+      "posts": []
+    },
+    {
+      "id": "khabib-hunter-campbell-photo",
+      "title": "Khabib Nurmagomedov photographed with UFC's Hunter Campbell, prompting speculation",
+      "people": [
+        "Khabib Nurmagomedov",
+        "Hunter Campbell"
+      ],
+      "event": null,
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Sherdog (Oct 26) explainer on a photo of Khabib with Campbell; no announcement. Oct 26 1 PM run: logged, not posted (major-news-only rule); post only if something is officially reported"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Khabib-Nurmagomedov-Hunter-Campbell-photo-What-is-known-203353"
+      ],
+      "posts": []
+    },
+    {
+      "id": "reyes-snaps-at-cormier-ufc-333",
+      "title": "Dominick Reyes snaps at Daniel Cormier over 'kid' comment; Jon Jones mocks Reyes",
+      "people": [
+        "Dominick Reyes",
+        "Daniel Cormier",
+        "Jon Jones"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Social-media spat (Sherdog, Oct 26). Oct 26 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dominick-Reyes-snaps-at-Daniel-Cormier-over-kid-comment-at-UFC-333-203354"
+      ],
+      "posts": []
+    },
+    {
+      "id": "pimblett-says-evloev-quit",
+      "title": "Paddy Pimblett says Movsar Evloev quit against Volkanovski",
+      "people": [
+        "Paddy Pimblett",
+        "Movsar Evloev",
+        "Alexander Volkanovski"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Quote story (Sherdog, Oct 26). Oct 26 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Paddy-Pimblett-says-Movsar-Evloev-quit-against-Alexander-Volkanovski-203350"
+      ],
+      "posts": []
+    },
+    {
       "id": "hooker-deleted-injury-update-ufc-qatar",
       "title": "Dan Hooker seemingly posts and deletes an injury update weeks out from his UFC Qatar return",
       "people": [
@@ -48,10 +135,13 @@
       "first_reported": "2026-10-26",
       "facts": [
         "Makhachev told pound4padel.ru that Prates and Morales will decide the real contender and he'll fight the winner (via Last Word on Sports, Oct 26)",
-        "Oct 26 9 AM run: logged, not posted (interview quote; interim bout already posted Oct 24)"
+        "Oct 26 9 AM run: logged, not posted (interview quote; interim bout already posted Oct 24)",
+        "Makhachev questions Prates and Morales' title-shot credentials (Sherdog, Oct 26); Morales warns Prates 'you're gonna need those lungs' (Sherdog, Oct 26). Oct 26 1 PM run: logged, not posted (major-news-only rule): quotes, interim bout already posted"
       ],
       "sources": [
-        "https://lastwordonsports.com/mma/2026/10/26/islam-makhachev-ufc-336/"
+        "https://lastwordonsports.com/mma/2026/10/26/islam-makhachev-ufc-336/",
+        "https://www.sherdog.com/news/news/Islam-Makhachev-questions-Prates-Morales-UFC-title-shot-credentials-203345",
+        "https://www.sherdog.com/news/news/Michael-Morales-warns-Carlos-Prates-Youre-gonna-need-those-lungs-203355"
       ],
       "posts": []
     },
