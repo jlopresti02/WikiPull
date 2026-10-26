@@ -2,6 +2,60 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "hooker-deleted-injury-update-ufc-qatar",
+      "title": "Dan Hooker seemingly posts and deletes an injury update weeks out from his UFC Qatar return",
+      "people": [
+        "Dan Hooker"
+      ],
+      "event": "UFC Qatar",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Bloody Elbow (Oct 26) reports Hooker appeared to post, then delete, an injury update weeks before his UFC Qatar return; no withdrawal confirmed",
+        "Oct 26 9 AM run: logged, not posted (unconfirmed; major-news-only rule). Post if a withdrawal or replacement is officially reported"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/26/dan-hooker-seemingly-posts-and-deletes-injury-update-weeks-out-from-ufc-qatar-return/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "volkanovski-gaethje-retirement-superfight",
+      "title": "Volkanovski doubles down on a Justin Gaethje superfight he'd 'retire for' after UFC 333",
+      "people": [
+        "Alexander Volkanovski",
+        "Justin Gaethje"
+      ],
+      "event": null,
+      "first_reported": "2026-10-26",
+      "facts": [
+        "After retaining at UFC 333, Volkanovski again pushed a Gaethje superfight, calling it something he'd retire for (Last Word on Sports, Oct 26)",
+        "Oct 26 9 AM run: logged, not posted (callout/interview talk, no booking; major-news-only rule)"
+      ],
+      "sources": [
+        "https://lastwordonsports.com/mma/2026/10/26/alexander-volkanovski-ufc-333-2/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "makhachev-explains-turning-down-prates",
+      "title": "Makhachev says he'll fight the Prates-Morales interim winner",
+      "people": [
+        "Islam Makhachev",
+        "Carlos Prates",
+        "Michael Morales"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-10-26",
+      "facts": [
+        "Makhachev told pound4padel.ru that Prates and Morales will decide the real contender and he'll fight the winner (via Last Word on Sports, Oct 26)",
+        "Oct 26 9 AM run: logged, not posted (interview quote; interim bout already posted Oct 24)"
+      ],
+      "sources": [
+        "https://lastwordonsports.com/mma/2026/10/26/islam-makhachev-ufc-336/"
+      ],
+      "posts": []
+    },
+    {
       "id": "ufc-dallas-january-2027",
       "title": "UFC returns to Dallas, Texas to open its 2027 calendar in January",
       "people": [],
@@ -29,10 +83,12 @@
       "first_reported": "2026-10-25",
       "facts": [
         "White said he and the matchmakers texted all night about O'Malley and Song Yadong as Yan's next challenger; no bout booked (MMA Sucka, Oct 25)",
-        "Not a new fact: the Oct 24 Yan Reel already asked 'Song Yadong or O'Malley?'. Oct 25 6 PM run: logged, not posted (major-news-only rule); post when one is actually booked"
+        "Not a new fact: the Oct 24 Yan Reel already asked 'Song Yadong or O'Malley?'. Oct 25 6 PM run: logged, not posted (major-news-only rule); post when one is actually booked",
+        "O'Malley says he'll fight Yan next even if the UFC books Song Yadong (Yahoo/MMA Junkie, Oct 26). Oct 26 9 AM run: not posted (callout, no booking)"
       ],
       "sources": [
-        "https://mmasucka.com/news/dana-white-sean-omalley-song-yadong-petr-yan-ufc-title-shot/"
+        "https://mmasucka.com/news/dana-white-sean-omalley-song-yadong-petr-yan-ufc-title-shot/",
+        "https://sports.yahoo.com/articles/sean-omalley-says-hell-fight-032142293.html"
       ],
       "posts": []
     },
