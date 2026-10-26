@@ -2,6 +2,21 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-dallas-january-2027",
+      "title": "UFC returns to Dallas, Texas to open its 2027 calendar in January",
+      "people": [],
+      "event": "UFC Dallas (Jan 2027)",
+      "first_reported": "2026-10-25",
+      "facts": [
+        "UFC will open 2027 with a January event in Dallas, its first Texas visit since UFC 277 in July 2022; no main event reported yet (MMA Junkie, Oct 25)",
+        "Oct 25 10 PM run: logged, not posted (major-news-only rule: location announcement with no star bout; Trial Reels off). Post when a star main event is booked"
+      ],
+      "sources": [
+        "https://mmajunkie.usatoday.com/story/sports/ufc/2026/10/25/ufc-returns-dallas-texas-first-event-january-2027/92433337007/"
+      ],
+      "posts": []
+    },
+    {
       "id": "dana-yan-next-omalley-or-song",
       "title": "Dana White says Petr Yan's next challenger is O'Malley or Song Yadong, undecided",
       "people": [
