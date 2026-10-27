@@ -2,6 +2,158 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "askhabov-win-overturned-12-month-suspension",
+      "title": "Ex-UFC fighter Khusein Askhabov loses win, gets 12-month suspension",
+      "people": [
+        "Khusein Askhabov"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Win overturned to a loss with a 12-month suspension (Sherdog, Oct 27); ex-UFC, not a star. Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/ExUFC-fighter-Khusein-Askhabov-loses-win-gets-12month-suspension-203374"
+      ],
+      "posts": []
+    },
+    {
+      "id": "pereira-ranked-above-pavlovich-rankings",
+      "title": "Pereira ranked above next foe Pavlovich after post-UFC 333 rankings update",
+      "people": [
+        "Alex Pereira",
+        "Sergei Pavlovich",
+        "Alexander Volkov"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Rankings quirk; Pereira vs. Pavlovich at UFC 335 already in ledger (Bloody Elbow, MMA Mania, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/27/alex-pereira-strangely-now-ranked-higher-than-next-foe-sergei-pavlovich-due-to-post-ufc-333-updates"
+      ],
+      "posts": []
+    },
+    {
+      "id": "pereira-expects-pavlovich-wrestle-ufc-335",
+      "title": "Pereira expects Pavlovich to wrestle at UFC 335",
+      "people": [
+        "Alex Pereira",
+        "Sergei Pavlovich"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Interview quote, no new fact (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Alex-Pereira-expects-Sergei-Pavlovich-to-turn-to-wrestling-at-UFC-335-203370"
+      ],
+      "posts": []
+    },
+    {
+      "id": "adesanya-questions-pereira-heavyweight",
+      "title": "Adesanya questions Pereira's heavyweight gamble",
+      "people": [
+        "Israel Adesanya",
+        "Alex Pereira"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Opinion piece (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Israel-Adesanya-questions-Alex-Pereiras-UFC-335-heavyweight-gamble-203363"
+      ],
+      "posts": []
+    },
+    {
+      "id": "erosa-retiring-after-ufc-vegas-123",
+      "title": "Julian Erosa says he'll retire after UFC Vegas 123",
+      "people": [
+        "Julian Erosa"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Retirement plan, not a star (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Longtime-Octagon-vet-says-hell-retire-at-UFC-Vegas-123-win-or-lose-203372"
+      ],
+      "posts": []
+    },
+    {
+      "id": "shaidullaev-wants-volkanovski",
+      "title": "Unbeaten Rajabali Shaidullaev wants Volkanovski",
+      "people": [
+        "Rajabali Shaidullaev",
+        "Alexander Volkanovski"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Callout, no booking (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Undefeated-200-PFL-Rizin-champ-wants-Alexander-Volkanovski-203371"
+      ],
+      "posts": []
+    },
+    {
+      "id": "king-green-livestream-car-crash",
+      "title": "King Green in a car crash caught on livestream",
+      "people": [
+        "Bobby Green"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "No injury reported; sensitive, not major (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/King-Green-involved-in-car-crash-caught-on-livestream-203359"
+      ],
+      "posts": []
+    },
+    {
+      "id": "omalley-picks-song-over-merab",
+      "title": "O'Malley picks Yadong Song to KO Merab",
+      "people": [
+        "Sean O'Malley",
+        "Song Yadong",
+        "Merab Dvalishvili"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Prediction quote (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Sean-OMalley-picks-Yadong-Song-to-KO-Merab-Dvalishvili-in-3-rounds-203367"
+      ],
+      "posts": []
+    },
+    {
+      "id": "mendez-names-makhachev-fights-before-retirement",
+      "title": "Javier Mendez names 3 fights he wants for Makhachev",
+      "people": [
+        "Islam Makhachev",
+        "Javier Mendez"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Coach quote (Sherdog, Oct 27). Oct 27 1 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Islam-Makhachevs-coach-names-3-fights-he-wants-before-retirement-203368"
+      ],
+      "posts": []
+    },
+    {
       "id": "pitbull-calls-out-lerone-murphy",
       "title": "Patricio Pitbull calls out Lerone Murphy",
       "people": [
