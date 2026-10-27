@@ -2,6 +2,58 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "merab-machine-never-breaks-after-yan-loss",
+      "title": "Merab: 'This machine never breaks' after Petr Yan loss",
+      "people": [
+        "Merab Dvalishvili",
+        "Petr Yan"
+      ],
+      "event": "UFC 333",
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Post-fight reaction quote, no new fact (Sherdog, Oct 27). Oct 27 6 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-This-machine-never-breaks-after-Petr-Yan-loss-203369"
+      ],
+      "posts": []
+    },
+    {
+      "id": "mendez-watched-gaethje-topuria-9-times",
+      "title": "Javier Mendez watched Gaethje-Topuria 9 times, Khabib-McGregor 3",
+      "people": [
+        "Javier Mendez",
+        "Justin Gaethje",
+        "Ilia Topuria"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Coach anecdote (Sherdog, Oct 27). Oct 27 6 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Javier-Mendez-watched-GaethjeTopuria-9-times-KhabibMcGregor-just-3-203373"
+      ],
+      "posts": []
+    },
+    {
+      "id": "reyes-names-best-commentator-criticizes-dc",
+      "title": "Dominick Reyes names UFC's best commentator, again criticizes DC",
+      "people": [
+        "Dominick Reyes",
+        "Daniel Cormier"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Follow-on to reyes-snaps-at-cormier-ufc-333, no new fact (Sherdog, Oct 27). Oct 27 6 PM run: logged, not posted (repeat / major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Dominick-Reyes-names-UFCs-best-commentator-again-criticizes-DC-203366"
+      ],
+      "posts": []
+    },
+    {
       "id": "askhabov-win-overturned-12-month-suspension",
       "title": "Ex-UFC fighter Khusein Askhabov loses win, gets 12-month suspension",
       "people": [
