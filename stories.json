@@ -24,7 +24,9 @@
           "post": "2026-10-28-1815-salkilld-bsd-sydney",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-28T20:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6780353355624332504"
         }
       ]
     },
@@ -50,7 +52,9 @@
           "post": "2026-10-28-1816-strickland-imavov-close",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-28T20:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5191042450225020613"
         }
       ]
     },
