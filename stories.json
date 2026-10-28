@@ -2,6 +2,110 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "tsarukyan-vs-pettis-raf-15-main-event",
+      "title": "Tsarukyan to defend RAF middleweight crossover title vs Anthony Pettis at RAF 15",
+      "people": [
+        "Arman Tsarukyan",
+        "Anthony Pettis"
+      ],
+      "event": "RAF 15 (Nov 28, NOW Arena, Chicago)",
+      "first_reported": "2026-10-27",
+      "facts": [
+        "RAF announced Oct 27: Tsarukyan defends RAF middleweight crossover title vs Pettis as new RAF 15 main event; Cejudo vs Song Yadong moves to co-main; Pettis was previously billed vs Cerrone, no reason given (MiddleEasy, RAF X post)",
+        "Oct 27 10 PM run: logged, not posted (adjacent sport; Trial Reels/adjacent posts off under reach recovery mode)"
+      ],
+      "sources": [
+        "https://middleeasy.com/brazilian-jiu-jitsu/arman-tsarukyan-anthony-pettis-raf15-title-november28/"
+      ],
+      "posts": [],
+      "sport": "wrestling"
+    },
+    {
+      "id": "tsarukyan-says-gaethje-ducking-him",
+      "title": "Tsarukyan claims Gaethje is ducking him, says Gaethje needs a big payday",
+      "people": [
+        "Arman Tsarukyan",
+        "Justin Gaethje"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Callout/interview quote, no booking (BJPenn.com, Sherdog). Oct 27 10 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.bjpenn.com/mma-news/ufc/arman-tsarukyan-claims-justin-gaethje-is-ducking-him-expects-issue-to-be-resolved-before-2027/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "jones-virtual-hug-reyes-cormier-dispute",
+      "title": "Jon Jones offers Dominick Reyes a virtual hug after Cormier dispute",
+      "people": [
+        "Jon Jones",
+        "Dominick Reyes"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Social media reaction, no new fact (MiddleEasy). Oct 27 10 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/jon-jones-dominick-reyes-virtual-hug-cormier-dispute/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "van-tells-kape-make-weight-ufc-336",
+      "title": "Joshua Van tells Manel Kape to make weight ahead of UFC 336",
+      "people": [
+        "Joshua Van",
+        "Manel Kape"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Fight-week-style trash talk, already-booked fight (MiddleEasy, BJPenn.com). Oct 27 10 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/joshua-van-manel-kape-make-weight-ufc336-warning/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "vallejos-challenges-sterling-after-yan-win",
+      "title": "Kevin Vallejos challenges Aljamain Sterling after Petr Yan's UFC 333 win",
+      "people": [
+        "Kevin Vallejos",
+        "Aljamain Sterling"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Callout, no booking (MiddleEasy). Oct 27 10 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/kevin-vallejos-sterling-yan-ufc333-wrestling-challenge/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "abdelaziz-warns-makhachev-contenders",
+      "title": "Ali Abdelaziz warns Islam Makhachev's contenders to talk less",
+      "people": [
+        "Ali Abdelaziz",
+        "Islam Makhachev"
+      ],
+      "event": null,
+      "first_reported": "2026-10-27",
+      "facts": [
+        "Manager quote, no new fact (MiddleEasy). Oct 27 10 PM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/ali-abdelaziz-islam-makhachev-contenders-legacy-warning/"
+      ],
+      "posts": []
+    },
+    {
       "id": "merab-machine-never-breaks-after-yan-loss",
       "title": "Merab: 'This machine never breaks' after Petr Yan loss",
       "people": [
