@@ -72,10 +72,28 @@
       "SALKILLD",
       "SAINT DENIS"
     ],
-    "question": "Salkilld or Saint Denis?"
+    "question": "Salkilld or Saint Denis?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/quillan-salkilld/cutouts/drive-quillan-salkilld.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/beno-t-saint-denis/cutouts/01-bsd-training-in-2020.png",
+      "credit": "Gowdu59 (Vincent Saint Denis, father of Benoït Saint Denis) / CC0"
+    }
   },
   "music_pool": "espn",
   "follow_card": true,
   "reel": true,
-  "format": "v2"
+  "format": "v2",
+  "subject": {
+    "kind": "fighter",
+    "image": "images/quillan-salkilld/cutouts/drive-quillan-salkilld.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/action-sport/01-crystals.mp3",
+  "music_credit": "\"Crystals\" by Professor Kliq / CC BY-SA 3.0",
+  "music_start": 164.0
 }

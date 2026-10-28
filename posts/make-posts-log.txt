@@ -1,8 +1,33 @@
+Searching Wikimedia Commons for: Benoît Saint Denis
+  saved images/beno-t-saint-denis/01-bsd-training-in-2020.jpg  [CC0]
+  saved images/beno-t-saint-denis/02-beno-t-saint-denis-takes-the-back.jpg  [CC0]
+  saved images/beno-t-saint-denis/03-beno-t-saint-denis-combattant-ufc.jpg  [CC0]
+  saved images/beno-t-saint-denis/04-benoit-saint-denis-l-entra-nement.jpg  [CC0]
+  saved images/beno-t-saint-denis/05-beno-t-saint-denis-middle-kick-training-with-head-coach-dani.jpg  [CC0]
+Done: 5 image(s) saved.
+[0;93m2026-10-28 22:12:32.924304107 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/beno-t-saint-denis/cutouts/01-bsd-training-in-2020.png
+  cutout images/beno-t-saint-denis/cutouts/02-beno-t-saint-denis-takes-the-back.png
+  cutout images/beno-t-saint-denis/cutouts/03-beno-t-saint-denis-combattant-ufc.png
+  cutout images/beno-t-saint-denis/cutouts/04-benoit-saint-denis-l-entra-nement.png
+  cutout images/beno-t-saint-denis/cutouts/05-beno-t-saint-denis-middle-kick-training-with-head-coach-dani.png
+Done: 5 new cutout(s).
 
-== 2026-10-24-2216-prates-morales-interim.json
-Image: {'type': 'fighter', 'name': 'Carlos Prates', 'file': '01-carlos-prates-2026'} -> fighter images/carlos-prates/cutouts/01-carlos-prates-2026.png  headline: Interim Gold
-v2 left: images/carlos-prates/cutouts/01-carlos-prates-2026.png
-v2 right: images/michael-morales-fighter/cutouts/01-michael-morales-quito-27-de-mayo-del-2025-cropped.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-10-24-2216-prates-morales-interim/post.png (fighter)
-Rendered posts/2026-10-24-2216-prates-morales-interim/reel.mp4 (format v2)
+== 2026-10-28-1815-salkilld-bsd-sydney.json
+Image: {'type': 'fighter', 'name': 'Quillan Salkilld', 'file': 'drive-quillan-salkilld'} -> fighter images/quillan-salkilld/cutouts/drive-quillan-salkilld.png  headline: Home Main Event
+v2 left: images/quillan-salkilld/cutouts/drive-quillan-salkilld.png
+$ fetch.py Benoît Saint Denis --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/beno-t-saint-denis
+v2 right: images/beno-t-saint-denis/cutouts/01-bsd-training-in-2020.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-10-28-1815-salkilld-bsd-sydney/post.png (fighter)
+Rendered posts/2026-10-28-1815-salkilld-bsd-sydney/reel.mp4 (format v2)
+
+== 2026-10-28-1816-strickland-imavov-close.json
+Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Rematch Close
+v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
+v2 right: images/nassourdine-imavov/cutouts/01-nassourdine-imavov.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-10-28-1816-strickland-imavov-close/post.png (fighter)
+Rendered posts/2026-10-28-1816-strickland-imavov-close/reel.mp4 (format v2)
