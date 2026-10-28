@@ -2,6 +2,133 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "salkilld-vs-saint-denis-ufc-sydney-main-event",
+      "title": "Quillan Salkilld vs. Benoit Saint Denis to headline UFC Sydney",
+      "people": [
+        "Quillan Salkilld",
+        "Benoit Saint Denis"
+      ],
+      "event": "UFC Sydney (Feb 6 US / Feb 7 local, Afterpay Arena)",
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Official: UFC announced on X (Oct 27) Salkilld vs. Saint Denis headlines UFC Sydney, live Feb 6 on Paramount+ (Sherdog, Oct 28)",
+        "Lightweight; Salkilld 6-0 in UFC, 13 straight wins, last two over Dariush and Gamrot; Saint Denis lost to Paddy Pimblett by R1 submission at UFC 329 in July",
+        "Update to salkilld-eyes-ufc-sydney-feb-2027 (opponent and main event now official). Oct 28 9 AM run: qualifies (fight announcement, ranked contenders); held for evening per reach recovery rules"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Quillan-Salkilld-vs-Benoit-St-Denis-to-headline-UFC-Sydney-on-Feb-6-203383"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "strickland-vs-imavov-rematch-feb-florida",
+      "title": "UFC reportedly targeting Strickland vs. Imavov rematch for February in Florida",
+      "people": [
+        "Sean Strickland",
+        "Nassourdine Imavov"
+      ],
+      "event": "Likely UFC 337 (February 2027, Florida, unconfirmed)",
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Per MMA Junkie's Mike Bohn (Oct 27 night), Strickland's first middleweight title defense vs. Imavov is 'close to being signed', targeted for February somewhere in Florida; pay around $1M+ (SI, Oct 28)",
+        "Update to strickland-ponders-vacating-title-pay / strickland-money-ufc-335-snub (pay dispute, vacate talk); genuine new fact: the fight is reportedly nearly signed with a target date/location",
+        "Oct 28 9 AM run: qualifies (reported booking with a champion); held for evening, post as UPDATE"
+      ],
+      "sources": [
+        "https://www.si.com/fannation/mma/news/ufc-reportedly-targeting-highly-anticipated-sean-strickland-title-defense-in-2027"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "berlanga-arrested-florida-felony-battery",
+      "title": "Report: Zuffa Boxing's Edgar Berlanga arrested in Florida",
+      "people": [
+        "Edgar Berlanga"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Adjacent sport (boxing) + arrest; Trial Reels/adjacent posts off. Oct 28 9 AM run: logged, not posted"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/list"
+      ],
+      "posts": [],
+      "sport": "boxing"
+    },
+    {
+      "id": "jake-paul-talks-darren-till",
+      "title": "Jake Paul in talks to box Darren Till (MVP's Bidarian to The Sun)",
+      "people": [
+        "Jake Paul",
+        "Darren Till"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Adjacent sport, talks only. Oct 28 9 AM run: logged, not posted"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Jake-Paul-in-talks-to-fight-exUFC-star-Darren-Till-in-boxing-return-203377"
+      ],
+      "posts": [],
+      "sport": "boxing"
+    },
+    {
+      "id": "prates-will-finish-makhachev-legacy",
+      "title": "Prates to Abdelaziz: 'I will finish his legacy'",
+      "people": [
+        "Carlos Prates",
+        "Islam Makhachev"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Trash talk, no new fact. Oct 28 9 AM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Carlos-Prates-to-Islam-Makhachevs-manager-I-will-finish-his-legacy-203389"
+      ],
+      "posts": []
+    },
+    {
+      "id": "chimaev-chase-strickland-heavyweight",
+      "title": "Chimaev says he'd chase Strickland to heavyweight for a rematch",
+      "people": [
+        "Khamzat Chimaev",
+        "Sean Strickland"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Quote, no booking. Oct 28 9 AM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/list"
+      ],
+      "posts": []
+    },
+    {
+      "id": "misc-quotes-oct-28-am",
+      "title": "Quotes: Moicano on Ortega-Hooker, Nemkov on UFC pay, O'Malley on DC, Wellmaker, Prates' coach on Morales, Volkanovski on Evloev",
+      "people": [
+        "Renato Moicano",
+        "Vadim Nemkov",
+        "Sean O'Malley"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Interview quotes. Oct 28 9 AM run: logged, not posted (major-news-only rule)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/list"
+      ],
+      "posts": []
+    },
+    {
       "id": "tsarukyan-vs-pettis-raf-15-main-event",
       "title": "Tsarukyan to defend RAF middleweight crossover title vs Anthony Pettis at RAF 15",
       "people": [
