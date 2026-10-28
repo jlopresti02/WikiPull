@@ -16,10 +16,17 @@
         "Update to salkilld-eyes-ufc-sydney-feb-2027 (opponent and main event now official). Oct 28 9 AM run: qualifies (fight announcement, ranked contenders); held for evening per reach recovery rules"
       ],
       "sources": [
-        "https://www.sherdog.com/news/news/Quillan-Salkilld-vs-Benoit-St-Denis-to-headline-UFC-Sydney-on-Feb-6-203383"
+        "https://www.sherdog.com/news/news/Quillan-Salkilld-vs-Benoit-St-Denis-to-headline-UFC-Sydney-on-Feb-6-203383",
+        "https://cagesidepress.com/2026/10/27/quillan-salkilld-vs-benoit-saint-denis-set-to-headline-ufc-sydney-on-feb-6/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-28-1815-salkilld-bsd-sydney",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "strickland-vs-imavov-rematch-feb-florida",
@@ -38,7 +45,37 @@
       "sources": [
         "https://www.si.com/fannation/mma/news/ufc-reportedly-targeting-highly-anticipated-sean-strickland-title-defense-in-2027"
       ],
-      "held_for_evening": true,
+      "posts": [
+        {
+          "post": "2026-10-28-1816-strickland-imavov-close",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "misc-oct-28-pm",
+      "title": "Oct 28 6 PM run: skipped (don't qualify under major-news-only rules)",
+      "people": [
+        "Alexander Volkanovski",
+        "Renato Moicano",
+        "Arman Tsarukyan"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Volkanovski offers to vacate featherweight title for a more exciting lightweight fight than Gaethje (talk, not a vacancy)",
+        "Volkanovski reacts to UFC Sydney main event",
+        "Moicano calls his upcoming fight the 'worst in the UFC'",
+        "Tsarukyan vs Pettis RAF replacement main event: repeat of tsarukyan-vs-pettis-raf-15-main-event; adjacent, Trial Reels off",
+        "PFL Dubai full card Nov 14; Oktagon 96 loses top two fights to injury"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/28/alexander-volkanovski-offers-to-vacate-title-for-more-exciting-lightweight-fight-than-justin-gaethje/",
+        "https://bloodyelbow.com/2026/10/28/renato-moicano-brands-upcoming-fight-the-worst-in-the-ufc-following-missed-opportunities/",
+        "https://bloodyelbow.com/2026/10/28/arman-tsarukyan-set-to-defend-title-against-ex-ufc-lightweight-champion-in-replacement-raf-main-event/"
+      ],
       "posts": []
     },
     {

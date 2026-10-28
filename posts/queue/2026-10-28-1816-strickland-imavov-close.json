@@ -1,0 +1,63 @@
+{
+  "story_id": "strickland-vs-imavov-rematch-feb-florida",
+  "headline": "Rematch Close",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean Strickland",
+      "file": "drive-sean-strickland"
+    },
+    {
+      "type": "fighter",
+      "name": "Nassourdine Imavov",
+      "file": "01-nassourdine-imavov"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Sean Strickland's first title defense is reportedly almost done, and it's a rematch with Nassourdine Imavov.\nStrickland or Imavov? 👇\n\nPer MMA Junkie, the UFC middleweight title fight is close to being signed for February in Florida. It comes after Strickland's public fight with the UFC over his pay.\n\n🔥 Hot take: Imavov is a much tougher fight than the first time.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCMiddleweight",
+    "SeanStrickland",
+    "NassourdineImavov"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "Sports Illustrated"
+  ],
+  "question": "Strickland or Imavov?",
+  "hot_take": "Imavov is a *much* tougher fight this time.",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT TITLE",
+    "kicker": "REMATCH CLOSE",
+    "hook": "Strickland vs Imavov",
+    "left": [
+      {
+        "name": "Sean Strickland",
+        "file": "drive-sean-strickland"
+      }
+    ],
+    "right": [
+      {
+        "name": "Nassourdine Imavov",
+        "file": "01-nassourdine-imavov"
+      }
+    ],
+    "story": "Strickland's first defense vs. Imavov is reportedly close to signed for February.",
+    "chips": [
+      "REPORTED · MMA JUNKIE",
+      "FEBRUARY · FLORIDA",
+      "TITLE ON THE LINE"
+    ],
+    "options": [
+      "STRICKLAND",
+      "IMAVOV"
+    ],
+    "question": "Strickland or Imavov?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}

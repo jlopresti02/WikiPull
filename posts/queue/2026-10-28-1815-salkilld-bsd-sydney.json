@@ -1,0 +1,81 @@
+{
+  "story_id": "salkilld-vs-saint-denis-ufc-sydney-main-event",
+  "headline": "Home Main Event",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Quillan Salkilld",
+      "file": "drive-quillan-salkilld"
+    },
+    {
+      "type": "fighter",
+      "name": "Benoît Saint Denis"
+    },
+    {
+      "type": "fighter",
+      "name": "Benoit Saint Denis"
+    },
+    {
+      "type": "fighter",
+      "name": "Benoît Saint-Denis"
+    },
+    {
+      "type": "flag",
+      "country": "Australia",
+      "headline": "Sydney Bound"
+    }
+  ],
+  "color": "#1f3fbf",
+  "caption": "🇦🇺 Quillan Salkilld gets his first UFC main event at home, and it's against Benoit Saint Denis.\nSalkilld or Saint Denis? 👇\n\nThe UFC confirmed the lightweight fight will headline UFC Sydney on February 6 at Afterpay Arena. Salkilld is 6-0 in the UFC with wins over Beneil Dariush and Mateusz Gamrot.\n\n🔥 Hot take: Win this and Salkilld is a top-5 lightweight.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCSydney",
+    "QuillanSalkilld",
+    "BenoitSaintDenis"
+  ],
+  "sources": [
+    "Sherdog",
+    "Cageside Press",
+    "Bloody Elbow"
+  ],
+  "question": "Salkilld or Saint Denis?",
+  "hot_take": "Win this and Salkilld is *top-5* at lightweight.",
+  "v2": {
+    "tag": "UFC SYDNEY · LIGHTWEIGHT",
+    "kicker": "HOME MAIN EVENT",
+    "hook": "Salkilld vs BSD",
+    "left": [
+      {
+        "name": "Quillan Salkilld",
+        "file": "drive-quillan-salkilld"
+      }
+    ],
+    "right": [
+      {
+        "name": "Benoît Saint Denis"
+      },
+      {
+        "name": "Benoit Saint Denis"
+      },
+      {
+        "name": "Benoît Saint-Denis"
+      }
+    ],
+    "story": "Unbeaten-in-the-UFC Salkilld headlines in Sydney against France's Saint Denis.",
+    "chips": [
+      "SALKILLD 6-0 IN UFC",
+      "FEB 6 · SYDNEY",
+      "13 STRAIGHT WINS"
+    ],
+    "options": [
+      "SALKILLD",
+      "SAINT DENIS"
+    ],
+    "question": "Salkilld or Saint Denis?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}
