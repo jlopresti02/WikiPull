@@ -1,33 +1,37 @@
-Searching Wikimedia Commons for: Benoît Saint Denis
-  saved images/beno-t-saint-denis/01-bsd-training-in-2020.jpg  [CC0]
-  saved images/beno-t-saint-denis/02-beno-t-saint-denis-takes-the-back.jpg  [CC0]
-  saved images/beno-t-saint-denis/03-beno-t-saint-denis-combattant-ufc.jpg  [CC0]
-  saved images/beno-t-saint-denis/04-benoit-saint-denis-l-entra-nement.jpg  [CC0]
-  saved images/beno-t-saint-denis/05-beno-t-saint-denis-middle-kick-training-with-head-coach-dani.jpg  [CC0]
-Done: 5 image(s) saved.
-[0;93m2026-10-28 22:12:32.924304107 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Sean Brady (fighter)
+  No file names matched; falling back to looser results.
+  saved images/sean-brady-fighter/01-seanbrady.jpg  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-10-29 22:07:36.269128130 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/beno-t-saint-denis/cutouts/01-bsd-training-in-2020.png
-  cutout images/beno-t-saint-denis/cutouts/02-beno-t-saint-denis-takes-the-back.png
-  cutout images/beno-t-saint-denis/cutouts/03-beno-t-saint-denis-combattant-ufc.png
-  cutout images/beno-t-saint-denis/cutouts/04-benoit-saint-denis-l-entra-nement.png
-  cutout images/beno-t-saint-denis/cutouts/05-beno-t-saint-denis-middle-kick-training-with-head-coach-dani.png
-Done: 5 new cutout(s).
+  cutout images/sean-brady-fighter/cutouts/01-seanbrady.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: Sharabutdin Magomedov
+  saved images/sharabutdin-magomedov/01-sharabutdin-magomedov-2024.png  [CC BY 3.0]
+  saved images/sharabutdin-magomedov/02-sharabutdin-magomedov-vs-antonio-tr-coli-face-off.png  [CC BY 3.0]
+Done: 2 image(s) saved.
+[0;93m2026-10-29 22:09:13.988751963 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/sharabutdin-magomedov/cutouts/01-sharabutdin-magomedov-2024.png
+  cutout images/sharabutdin-magomedov/cutouts/02-sharabutdin-magomedov-vs-antonio-tr-coli-face-off.png
+Done: 2 new cutout(s).
 
-== 2026-10-28-1815-salkilld-bsd-sydney.json
-Image: {'type': 'fighter', 'name': 'Quillan Salkilld', 'file': 'drive-quillan-salkilld'} -> fighter images/quillan-salkilld/cutouts/drive-quillan-salkilld.png  headline: Home Main Event
-v2 left: images/quillan-salkilld/cutouts/drive-quillan-salkilld.png
-$ fetch.py Benoît Saint Denis --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/beno-t-saint-denis
-v2 right: images/beno-t-saint-denis/cutouts/01-bsd-training-in-2020.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
-Rendered posts/2026-10-28-1815-salkilld-bsd-sydney/post.png (fighter)
-Rendered posts/2026-10-28-1815-salkilld-bsd-sydney/reel.mp4 (format v2)
+== 2026-10-29-1815-brady-out-walker-in.json
+$ fetch.py Sean Brady (fighter) --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sean-brady-fighter
+Image: {'type': 'fighter', 'name': 'Sean Brady (fighter)'} -> fighter images/sean-brady-fighter/cutouts/01-seanbrady.png  headline: Brady Out
+v2 left: images/sean-brady-fighter/cutouts/01-seanbrady.png
+v2 right: images/johnny-walker-fighter/cutouts/02-johnny-walker-lutador-2025.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-10-29-1815-brady-out-walker-in/post.png (fighter)
+Rendered posts/2026-10-29-1815-brady-out-walker-in/reel.mp4 (format v2)
 
-== 2026-10-28-1816-strickland-imavov-close.json
-Image: {'type': 'fighter', 'name': 'Sean Strickland', 'file': 'drive-sean-strickland'} -> fighter images/sean-strickland/cutouts/drive-sean-strickland.png  headline: Rematch Close
-v2 left: images/sean-strickland/cutouts/drive-sean-strickland.png
-v2 right: images/nassourdine-imavov/cutouts/01-nassourdine-imavov.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-10-28-1816-strickland-imavov-close/post.png (fighter)
-Rendered posts/2026-10-28-1816-strickland-imavov-close/reel.mp4 (format v2)
+== 2026-10-29-1816-adesanya-signs-return.json
+Image: {'type': 'fighter', 'name': 'Israel Adesanya', 'file': '01-israel-adesanya-at-ufc-230'} -> fighter images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png  headline: Izzy Signs
+v2 left: images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png
+$ fetch.py Sharabutdin Magomedov --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/sharabutdin-magomedov
+v2 right: images/sharabutdin-magomedov/cutouts/01-sharabutdin-magomedov-2024.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-10-29-1816-adesanya-signs-return/post.png (fighter)
+Rendered posts/2026-10-29-1816-adesanya-signs-return/reel.mp4 (format v2)
