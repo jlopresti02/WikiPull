@@ -29,7 +29,9 @@
           "post": "2026-10-29-1815-brady-out-walker-in",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-29T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4383849089516485323"
         }
       ]
     },
@@ -56,7 +58,9 @@
           "post": "2026-10-29-1816-adesanya-signs-return",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-29T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5436720096859569395"
         }
       ]
     },
