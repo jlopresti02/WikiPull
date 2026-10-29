@@ -3,10 +3,12 @@
   "stories": [
     {
       "id": "brady-out-ufc-vegas-124-bonfim-main-event",
-      "title": "Sean Brady reportedly injured, out of UFC Vegas 124 main event vs. Gabriel Bonfim",
+      "title": "Sean Brady reportedly injured, out of UFC Vegas 124 main event vs. Gabriel Bonfim; Walker vs. Cortes-Acosta reportedly new headliner",
       "people": [
         "Sean Brady",
-        "Gabriel Bonfim"
+        "Gabriel Bonfim",
+        "Johnny Walker",
+        "Waldo Cortes-Acosta"
       ],
       "event": "UFC Vegas 124 (Nov 7, Meta Apex)",
       "first_reported": "2026-10-29",
@@ -14,14 +16,22 @@
         "Brazilian reporter Laerte Viana reported on X (Oct 29, ~12:15 PM ET) that Sean Brady is injured and out of his Nov 7 welterweight main event vs. Gabriel Bonfim; injury not specified (MiddleEasy, Bloody Elbow)",
         "UFC reportedly looking for a new welterweight opponent for Bonfim; no replacement named, no UFC statement yet",
         "Bonfim last beat Belal Muhammad by decision (June 6); Brady last beat Joaquin Buckley by decision (May 9)",
-        "Oct 29 1 PM run: qualifies (main event falling apart ~9 days out, ranked welterweights); held for evening per reach recovery rules. Word as a report. Suggested v2: left Gabriel Bonfim, right Sean Brady (headline e.g. 'BRADY OUT'). Neither has cutouts yet (new names; workflow fetches). If a replacement is named before the evening, post that instead as the update"
+        "Oct 29 1 PM run: qualifies (main event falling apart ~9 days out, ranked welterweights); held for evening per reach recovery rules. Word as a report. Suggested v2: left Gabriel Bonfim, right Sean Brady (headline e.g. 'BRADY OUT'). Neither has cutouts yet (new names; workflow fetches). If a replacement is named before the evening, post that instead as the update",
+        "Oct 29 6 PM run update: Laerte Viana reported (Oct 29, ~4 PM ET) Johnny Walker vs. Waldo Cortes-Acosta (heavyweight) is the new Nov 7 main event; no new opponent named for Bonfim; not yet official on UFC.com (MiddleEasy)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/sean-brady-injured-november7-main-event-bonfim-report/",
-        "https://bloodyelbow.com/2026/10/29/ufc-vegas-124-reportedly-loses-main-event-just-over-a-week-out-with-promotion-looking-for-replacement/"
+        "https://bloodyelbow.com/2026/10/29/ufc-vegas-124-reportedly-loses-main-event-just-over-a-week-out-with-promotion-looking-for-replacement/",
+        "https://middleeasy.com/mma-news/johnny-walker-waldo-cortes-acosta-november7-main-event-report/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-29-1815-brady-out-walker-in",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "adesanya-signs-bout-agreement-return",
@@ -41,7 +51,26 @@
         "https://www.sherdog.com/news/news/Israel-Adesanya-signs-UFC-bout-agreement-says-his-fourfight-skid-will-end-203395",
         "https://bloodyelbow.com/2026/10/28/israel-adesanya-opens-up-on-losing-streak-after-signing-return-fight-contract-ive-been-lost/"
       ],
-      "held_for_evening": true,
+      "posts": [
+        {
+          "post": "2026-10-29-1816-adesanya-signs-return",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "misc-oct-29-6pm",
+      "title": "Oct 29 6 PM run: posted the 2 held stories; nothing else qualifies",
+      "people": [],
+      "event": null,
+      "first_reported": "2026-10-29",
+      "facts": [
+        "Skipped (don't qualify under major-news-only): Volkanovski open to Tsarukyan for gold, Moicano plans free agency, Joselyne Edwards reportedly Harrison-Nunes backup, Ditcheva cleared/wants Bishop, Volkov no title-shot answer",
+        "No new Drive photos; Metricool queue was empty"
+      ],
+      "sources": [],
       "posts": []
     },
     {
