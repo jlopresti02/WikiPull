@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-28-10pm",
+      "title": "Oct 28 10 PM run: nothing new qualifies (no posts)",
+      "people": [
+        "Shavkat Rakhmonov",
+        "Jack Della Maddalena",
+        "Mateusz Gamrot",
+        "Axel Sola",
+        "Jon Jones"
+      ],
+      "event": null,
+      "first_reported": "2026-10-28",
+      "facts": [
+        "Rakhmonov vs. Della Maddalena reportedly targeted for UFC Dallas Jan 30 (AgentMMA via MMA Sucka, Oct 26): not posted, only an aggregator report, unconfirmed by UFC or a major outlet; post if ESPN/MMA Junkie/UFC confirm",
+        "Gamrot vs. Axel Sola reportedly set for UFC Vegas 125 Jan 23 (AgentMMA, Oct 26): not posted, aggregator-only report, routine booking",
+        "Jon Jones says he turned down a reported $15M White House fight vs. Pereira (Heavy/BroBible): quote, related to jon-jones-regrets-missing-white-house-card, doesn't qualify",
+        "Kape warning to Van, Jean Silva warning to Volkanovski, Pico rips Sterling: talk, don't qualify"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/shavkat-rakhmonov-reportedly-set-for-jack-della-maddalena-clash-after-ufc-title-fight-collapse/",
+        "https://agentmma.com/news/92007-mateusz-gamrot-reportedly-set-to-face-axel-sola-at-ufc-vegas-125-on-january-23",
+        "https://heavy.com/sports/ufc/jon-jones-turned-down-white-house/"
+      ],
+      "posts": []
+    },
+    {
       "id": "salkilld-vs-saint-denis-ufc-sydney-main-event",
       "title": "Quillan Salkilld vs. Benoit Saint Denis to headline UFC Sydney",
       "people": [
