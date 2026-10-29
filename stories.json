@@ -2,6 +2,63 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "brady-out-ufc-vegas-124-bonfim-main-event",
+      "title": "Sean Brady reportedly injured, out of UFC Vegas 124 main event vs. Gabriel Bonfim",
+      "people": [
+        "Sean Brady",
+        "Gabriel Bonfim"
+      ],
+      "event": "UFC Vegas 124 (Nov 7, Meta Apex)",
+      "first_reported": "2026-10-29",
+      "facts": [
+        "Brazilian reporter Laerte Viana reported on X (Oct 29, ~12:15 PM ET) that Sean Brady is injured and out of his Nov 7 welterweight main event vs. Gabriel Bonfim; injury not specified (MiddleEasy, Bloody Elbow)",
+        "UFC reportedly looking for a new welterweight opponent for Bonfim; no replacement named, no UFC statement yet",
+        "Bonfim last beat Belal Muhammad by decision (June 6); Brady last beat Joaquin Buckley by decision (May 9)",
+        "Oct 29 1 PM run: qualifies (main event falling apart ~9 days out, ranked welterweights); held for evening per reach recovery rules. Word as a report. Suggested v2: left Gabriel Bonfim, right Sean Brady (headline e.g. 'BRADY OUT'). Neither has cutouts yet (new names; workflow fetches). If a replacement is named before the evening, post that instead as the update"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/sean-brady-injured-november7-main-event-bonfim-report/",
+        "https://bloodyelbow.com/2026/10/29/ufc-vegas-124-reportedly-loses-main-event-just-over-a-week-out-with-promotion-looking-for-replacement/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "adesanya-signs-bout-agreement-return",
+      "title": "Israel Adesanya signs bout agreement for his UFC return, reportedly vs. Sharabutdin Magomedov Dec 5",
+      "people": [
+        "Israel Adesanya",
+        "Sharabutdin Magomedov"
+      ],
+      "event": "Reportedly UFC Fight Night Riyadh (Dec 5)",
+      "first_reported": "2026-10-28",
+      "facts": [
+        "On the Precision Podcast Adesanya said he signed his bout agreement the day before; didn't name the opponent (Sherdog, Oct 28)",
+        "Linked to Sharabutdin 'Shara Bullet' Magomedov on Dec 5 (reported by Ariel Helwani earlier, not officially announced); says his four-fight skid ends and he feels 'found' again",
+        "Update to adesanya-vs-shara-bullet-ufc-saudi-arabia-report (never posted). Oct 29 1 PM run: qualifies (star's return fight signed); held for evening, rank 2 behind Brady out. Suggested v2: left Israel Adesanya (has cutouts: 01-israel-adesanya-at-ufc-230), right Sharabutdin Magomedov (no cutouts yet; try 'Sharabutdin Magomedov', 'Shara Magomedov'; if no photo, hold)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Israel-Adesanya-signs-UFC-bout-agreement-says-his-fourfight-skid-will-end-203395",
+        "https://bloodyelbow.com/2026/10/28/israel-adesanya-opens-up-on-losing-streak-after-signing-return-fight-contract-ive-been-lost/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "misc-oct-29-pm",
+      "title": "Oct 29 1 PM run: 2 stories held for the evening, no posts",
+      "people": [],
+      "event": null,
+      "first_reported": "2026-10-29",
+      "facts": [
+        "Held for evening: brady-out-ufc-vegas-124-bonfim-main-event, adesanya-signs-bout-agreement-return",
+        "No new Drive photos or sketch videos; no new ONE/PFL major news found; adjacent sports skipped (Trial Reels off)",
+        "Reach check: Oct 28 evening Reels still at 164 and 115 views"
+      ],
+      "sources": [],
+      "posts": []
+    },
+    {
       "id": "misc-oct-29-am",
       "title": "Oct 29 9 AM run: nothing new qualifies (no posts, nothing held)",
       "people": [
