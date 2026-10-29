@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-29-am",
+      "title": "Oct 29 9 AM run: nothing new qualifies (no posts, nothing held)",
+      "people": [
+        "Renato Moicano",
+        "Joselyne Edwards",
+        "Dakota Ditcheva",
+        "Alexander Volkov",
+        "Jake Paul"
+      ],
+      "event": null,
+      "first_reported": "2026-10-29",
+      "facts": [
+        "Moicano plans to test free agency after his UFC contract ends (Sherdog): talk, fights Nolan Oct 31; doesn't qualify",
+        "Joselyne Edwards reportedly named backup for Harrison vs. Nunes at UFC 334 (Sherdog): routine backup, doesn't qualify",
+        "Ditcheva cleared after surgery, wants PFL title shot vs. Jena Bishop; Volkov says Dana has no answer on title shot; Volkanovski open to Tsarukyan: talk",
+        "30-fight UFC veteran added to UFC 335 undercard (Bloody Elbow): routine booking",
+        "Adjacent: Jake Paul's boxing return official for Dec 24 in Dubai (Bloody Elbow): Trial Reels off under reach recovery rules",
+        "Reach check: Oct 28 evening Reels got 164 (BSD-Salkilld) and 115 (Strickland-Imavov) views"
+      ],
+      "sources": [
+        "https://www.sherdog.com/blog/370",
+        "https://bloodyelbow.com/2026/10/29/30-fight-ufc-veteran-added-to-charles-oliveira-and-alex-pereiras-ufc-335-undercard/",
+        "https://bloodyelbow.com/2026/10/29/jake-pauls-boxing-return-is-official-with-star-set-to-compete-on-christmas-eve-in-dubai/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-28-10pm",
       "title": "Oct 28 10 PM run: nothing new qualifies (no posts)",
       "people": [
