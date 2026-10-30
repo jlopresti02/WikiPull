@@ -2,6 +2,48 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-30-am",
+      "title": "Oct 30 9 AM run: 1 story held for the evening, no posts",
+      "people": [
+        "Gabriel Bonfim",
+        "Sean Brady"
+      ],
+      "event": null,
+      "first_reported": "2026-10-30",
+      "facts": [
+        "Held for evening: usman-nurmagomedov-free-agent-ufc-talks",
+        "Skipped as repeat (weak update to brady-out-ufc-vegas-124-bonfim-main-event): Brady says a staph infection forced him out; Bonfim confirms on Instagram he won't fight Nov 7 (Heavy via MMA Junkie)",
+        "Skipped (talk/don't qualify): Fedor says Dana doesn't stand by his words, Tom Nolan fight-week interviews, Pereira names Prates favorite Brazilian; adjacent: Jake Paul Dec 24 return (already logged; Trial Reels off)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 29 Reels 138 and 136 views (Oct 28: 186, 126), steady around the pre-collapse median"
+      ],
+      "sources": [
+        "https://heavy.com/sports/ufc/gabriel-bonfim-statement-ufc-vegas-124/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "usman-nurmagomedov-free-agent-ufc-talks",
+      "title": "Unbeaten PFL champ Usman Nurmagomedov officially a free agent as PFL exclusive window expires; UFC talks begin, team eyes Ilia Topuria",
+      "people": [
+        "Usman Nurmagomedov",
+        "Ilia Topuria"
+      ],
+      "event": null,
+      "first_reported": "2026-10-29",
+      "facts": [
+        "Bloody Elbow (Oct 29) and Athlon Sports (Oct 29, 11:06 PM ET): Usman's 90-day exclusive negotiating window with the PFL has expired; he is now free to negotiate with the UFC and others",
+        "22-0 (1 NC); finished his PFL deal in July with a R1 stoppage of Archie Colgan at PFL New York; reportedly turned down a $2M PFL offer (he told Sport 24 in August)",
+        "Dana White said at UFC 333 the UFC would start negotiations when his contract ends; manager Ali Abdelaziz has pushed a Topuria fight. No UFC signing announced yet: word as free agency/talks, not a signing",
+        "Oct 30 9 AM run: qualifies (major signing/business news, star free agent); held for evening per reach recovery rules. Suggested v2: left Usman Nurmagomedov (no cutouts yet; new name, workflow fetches; if no photo, hold and ask user for one), right Ilia Topuria (has cutouts, e.g. 05-ilia-topuria). Headline e.g. 'FREE AGENT'. If he signs with the UFC before the evening, post the signing instead"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/29/usman-nurmagomedov-begins-negotiations-with-ufc-with-him-now-officially-a-free-agent/",
+        "https://athlonsports.com/mma/usman-nurmagomedov-free-agent-eyes-ufc-ilia-topuria-fight"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "misc-oct-29-10pm",
       "title": "Oct 29 10 PM run: nothing new qualifies (no posts, nothing held)",
       "people": [],
