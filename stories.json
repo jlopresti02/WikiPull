@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-30-pm",
+      "title": "Oct 30 1 PM run: nothing new qualifies; Usman free agency still held for the evening (no posts)",
+      "people": [
+        "Usman Nurmagomedov",
+        "Jon Jones",
+        "Arman Tsarukyan"
+      ],
+      "event": null,
+      "first_reported": "2026-10-30",
+      "facts": [
+        "Still held for evening: usman-nurmagomedov-free-agent-ufc-talks (no UFC signing announced as of 1 PM)",
+        "Skipped (don't qualify, routine/talk): UFC Qatar adds Motta vs. Dom Mar Fan and Cavalcanti vs. Montague (Cageside Press, official via UFC); Lucas Brennan confirms ACL tear, out of Nov 7 bout vs. Austin Bashi (MiddleEasy); Jon Jones says he may never fight again but door open (interview, not a retirement); Dana White hedging on Tsarukyan title shot; Cruz defends Gane, O'Malley on Song, Velasquez interview, Pereira's coach vs. Herb Dean footage",
+        "Skipped as repeat: Brady staph infection details (weak update)",
+        "Adjacent: Canelo vs. Mbilli Oct 31 (Trial Reels off under reach recovery)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 29 Reels 138 and 136 views (Oct 28: 186, 126), steady"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/10/30/two-fights-officially-announced-for-ufc-qatar/",
+        "https://middleeasy.com/mma-news/lucas-brennan-acl-tear-austin-bashi-withdrawal"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-30-am",
       "title": "Oct 30 9 AM run: 1 story held for the evening, no posts",
       "people": [
