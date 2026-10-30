@@ -2,6 +2,22 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-29-10pm",
+      "title": "Oct 29 10 PM run: nothing new qualifies (no posts, nothing held)",
+      "people": [],
+      "event": null,
+      "first_reported": "2026-10-29",
+      "facts": [
+        "No new major news since the 6 PM run; Brady-out/Walker-in and Adesanya already posted (7:00, 7:30 PM); still no new opponent named for Bonfim",
+        "Skipped (talk, don't qualify): Jacobe Smith predicts altercation with Kevin Holland, Volkanovski says Sterling can jump Jean Silva, Pereira on Prates, Aldo on McGregor KO, Cyborg on Shields",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 28 Reels 164 and 115 views, Oct 29 Reels not reported yet"
+      ],
+      "sources": [
+        "https://www.sherdog.com/blog/370"
+      ],
+      "posts": []
+    },
+    {
       "id": "brady-out-ufc-vegas-124-bonfim-main-event",
       "title": "Sean Brady reportedly injured, out of UFC Vegas 124 main event vs. Gabriel Bonfim; Walker vs. Cortes-Acosta reportedly new headliner",
       "people": [
