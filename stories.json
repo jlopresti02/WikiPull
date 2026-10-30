@@ -12,7 +12,8 @@
       "first_reported": "2026-10-30",
       "facts": [
         "Skipped (doesn't qualify, not a star): UFC Vegas 123 weigh-ins (Moicano vs. Nolan, Oct 31): main event set, Francis Marshall missed featherweight limit vs. Dakota Hope (~148, fined)",
-        "No new Drive photos or sketch videos; Metricool queue empty at 6 PM"
+        "No new Drive photos or sketch videos; Metricool queue empty at 6 PM",
+        "Reach check: Oct 29 Reels 138 and 136 views, Oct 28 186 and 126; steady"
       ],
       "sources": [
         "https://www.sherdog.com/news/news/UFC-Vegas-123-weighin-results-Main-event-set-1-fighter-misses-weight-203428"
@@ -88,7 +89,10 @@
           "post": "2026-10-30-1815-usman-free-agent",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-10-30T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3996012453419070584",
+          "image": "v2: Usman (Wikimedia 01) vs Topuria (05)"
         }
       ]
     },
