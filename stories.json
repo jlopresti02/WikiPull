@@ -2,6 +2,24 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-30-6pm",
+      "title": "Oct 30 6 PM run: Usman free agency posted from hold; nothing else qualifies",
+      "people": [
+        "Francis Marshall",
+        "Dakota Hope"
+      ],
+      "event": "UFC Vegas 123",
+      "first_reported": "2026-10-30",
+      "facts": [
+        "Skipped (doesn't qualify, not a star): UFC Vegas 123 weigh-ins (Moicano vs. Nolan, Oct 31): main event set, Francis Marshall missed featherweight limit vs. Dakota Hope (~148, fined)",
+        "No new Drive photos or sketch videos; Metricool queue empty at 6 PM"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-123-weighin-results-Main-event-set-1-fighter-misses-weight-203428"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-30-pm",
       "title": "Oct 30 1 PM run: nothing new qualifies; Usman free agency still held for the evening (no posts)",
       "people": [
@@ -57,14 +75,22 @@
         "Bloody Elbow (Oct 29) and Athlon Sports (Oct 29, 11:06 PM ET): Usman's 90-day exclusive negotiating window with the PFL has expired; he is now free to negotiate with the UFC and others",
         "22-0 (1 NC); finished his PFL deal in July with a R1 stoppage of Archie Colgan at PFL New York; reportedly turned down a $2M PFL offer (he told Sport 24 in August)",
         "Dana White said at UFC 333 the UFC would start negotiations when his contract ends; manager Ali Abdelaziz has pushed a Topuria fight. No UFC signing announced yet: word as free agency/talks, not a signing",
-        "Oct 30 9 AM run: qualifies (major signing/business news, star free agent); held for evening per reach recovery rules. Suggested v2: left Usman Nurmagomedov (no cutouts yet; new name, workflow fetches; if no photo, hold and ask user for one), right Ilia Topuria (has cutouts, e.g. 05-ilia-topuria). Headline e.g. 'FREE AGENT'. If he signs with the UFC before the evening, post the signing instead"
+        "Oct 30 9 AM run: qualifies (major signing/business news, star free agent); held for evening per reach recovery rules. Suggested v2: left Usman Nurmagomedov (no cutouts yet; new name, workflow fetches; if no photo, hold and ask user for one), right Ilia Topuria (has cutouts, e.g. 05-ilia-topuria). Headline e.g. 'FREE AGENT'. If he signs with the UFC before the evening, post the signing instead",
+        "Oct 30 6 PM run: still unsigned (Dana White: no talks opened yet, will talk once he can negotiate; SPORTbible Oct 29). Posted as v2 Reel, Usman vs Topuria"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/10/29/usman-nurmagomedov-begins-negotiations-with-ufc-with-him-now-officially-a-free-agent/",
-        "https://athlonsports.com/mma/usman-nurmagomedov-free-agent-eyes-ufc-ilia-topuria-fight"
+        "https://athlonsports.com/mma/usman-nurmagomedov-free-agent-eyes-ufc-ilia-topuria-fight",
+        "https://www.sportbible.com/ufc/dana-white-future-goat-signing-068901-20261029"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-10-30-1815-usman-free-agent",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "misc-oct-29-10pm",

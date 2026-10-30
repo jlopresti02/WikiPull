@@ -1,0 +1,29 @@
+{
+  "story_id": "usman-nurmagomedov-free-agent-ufc-talks",
+  "headline": "Free Agent",
+  "visual": [
+    {"type": "fighter", "name": "Usman Nurmagomedov"},
+    {"type": "fighter", "name": "Ilia Topuria", "file": "05-ilia-topuria"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "Unbeaten Usman Nurmagomedov is officially a free agent, and his team wants Ilia Topuria.\nUsman or Topuria? 👇\n\nThe 22-0 PFL champ's exclusive window with the PFL has expired, so the UFC can now negotiate with him. Dana White says talks can start, but no UFC deal is signed yet.\n\n🔥 Hot take: Usman is the biggest free agent signing the UFC could make this year.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "PFL", "UsmanNurmagomedov", "IliaTopuria"],
+  "sources": ["Bloody Elbow", "Athlon Sports", "SPORTbible"],
+  "question": "Usman or Topuria?",
+  "hot_take": "Usman is the *biggest* free agent the UFC could sign.",
+  "v2": {
+    "tag": "FREE AGENT · LIGHTWEIGHT",
+    "kicker": "UFC NEXT?",
+    "hook": "Usman vs Topuria",
+    "left": [{"name": "Usman Nurmagomedov"}],
+    "right": [{"name": "Ilia Topuria", "file": "05-ilia-topuria"}],
+    "story": "Usman's PFL exclusive window is over; UFC talks can begin, and his team is pushing for Topuria.",
+    "chips": ["22-0", "PFL CHAMP", "NOT SIGNED YET"],
+    "options": ["USMAN", "TOPURIA"],
+    "question": "Usman or Topuria?"
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2"
+}
