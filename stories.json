@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-31-am",
+      "title": "Oct 31 9 AM run: nothing new qualifies (no posts, nothing held)",
+      "people": [
+        "Renato Moicano",
+        "Tom Nolan",
+        "Islam Makhachev",
+        "Kevin Holland"
+      ],
+      "event": "UFC Vegas 123",
+      "first_reported": "2026-10-31",
+      "facts": [
+        "No major news, official bookings or withdrawals since the 10 PM run; UFC Vegas 123 (Moicano vs. Nolan) is tonight, card intact after weigh-ins; Usman Nurmagomedov still unsigned (already posted Oct 30)",
+        "Skipped (talk, don't qualify): UFC Vegas 123 fighter threatens to 'smack' Kevin Holland (Bloody Elbow), Colby Covington defends Makhachev's absence, Makhachev says next fight is one of his last (already logged), Moicano hints at UFC exit (fight-week interview)",
+        "Skipped (not a star): ex-UFC TUF winner KO'd in 57 s on regional card (Bloody Elbow)",
+        "Adjacent: Canelo vs. Mbilli in Riyadh tonight, weigh-in antics only (Trial Reels off under reach recovery)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 30 Usman Reel 127 views (Oct 29: 144, 143; Oct 28: 190, 126), steady"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/31/ufc-vegas-123-star-threatens-to-smack-kevin-holland-out-of-the-cage-due-to-failed-fights-and-shared-dms/",
+        "https://bloodyelbow.com/2026/10/30/colby-covington-surprisingly-defends-islam-makhachevs-ufc-absence-amid-criticism/",
+        "https://bloodyelbow.com/2026/10/31/world-champion-boxer-sings-for-canelo-alvarez-at-bizarre-weigh-in-ahead-of-controversial-riyadh-fight/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-30-10pm",
       "title": "Oct 30 10 PM run: nothing new qualifies (no posts)",
       "people": [
