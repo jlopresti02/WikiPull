@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-30-10pm",
+      "title": "Oct 30 10 PM run: nothing new qualifies (no posts)",
+      "people": [
+        "Islam Makhachev",
+        "Johnny Walker",
+        "Waldo Cortes-Acosta"
+      ],
+      "event": null,
+      "first_reported": "2026-10-30",
+      "facts": [
+        "Skipped as repeat: Cortes-Acosta vs. Walker as new UFC Vegas 124 main event (SI/Yahoo recap of Laerte Viana report, already in brady-out-ufc-vegas-124-bonfim-main-event; still not official on UFC.com)",
+        "Skipped (interview, doesn't qualify): Makhachev tells ESPN his next fight will be one of the last of his career; Kamaru Usman agrees with Makhachev's UFC 336 decision (Heavy)",
+        "No Usman Nurmagomedov UFC signing announced yet; UFC Vegas 123 (Moicano vs. Nolan) is Oct 31",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 29 Reels 138 and 136 views (Oct 28: 186, 126), steady; Oct 30 Usman Reel not in analytics yet"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-reportedly-books-main-event-114500745.html",
+        "https://espn.com/mma/story/_/id/50330401/islam-makhachev-my-next-fight-one-last-my-career"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-30-6pm",
       "title": "Oct 30 6 PM run: Usman free agency posted from hold; nothing else qualifies",
       "people": [
