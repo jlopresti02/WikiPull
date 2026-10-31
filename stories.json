@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-31-pm",
+      "title": "Oct 31 1 PM run: nothing new qualifies (no posts, nothing held)",
+      "people": [
+        "Michael Chandler",
+        "Michael Morales",
+        "Stipe Miocic",
+        "Paddy Pimblett"
+      ],
+      "event": "UFC Vegas 123",
+      "first_reported": "2026-10-31",
+      "facts": [
+        "No major news, official bookings or withdrawals since the 9 AM run; UFC Vegas 123 (Moicano vs. Nolan) tonight, card intact",
+        "Skipped (crossover/talk, doesn't qualify): Michael Chandler set for WWE debut appearance (Bloody Elbow); Morales' weight-cut angle on the already-posted Prates-Morales interim fight; Miocic 'I'd fight anyone' retirement talk; Pimblett-Gaethje rematch analysis",
+        "Adjacent: Canelo vs. Mbilli in Riyadh tonight (Trial Reels off under reach recovery)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 30 Usman Reel 127 views (Oct 29: 144, 143; Oct 28: 190, 126), steady"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/10/31/michael-chandler-officially-set-to-make-debut-wwe-appearance-following-prior-contract-talks/",
+        "https://bloodyelbow.com/2026/10/31/michael-morales-has-50lbs-to-cut-after-islam-makhachevs-u-turn-gave-him-a-surprise-ufc-title-shot/",
+        "https://bloodyelbow.com/2026/10/31/stipe-miocic-makes-surprise-id-fight-anyone-claim-as-he-reveals-what-will-end-his-ufc-retirement/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-31-am",
       "title": "Oct 31 9 AM run: nothing new qualifies (no posts, nothing held)",
       "people": [
