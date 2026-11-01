@@ -4,39 +4,159 @@
   "headline": "UFC Vegas 123 Results",
   "color": "#f5c518",
   "slides": [
-    {"type": "cover", "title": "Vegas 123 Results", "fighter": ["Tom Nolan", "Tom Nolan (fighter)"],
-     "kicker": "6 straight", "subtitle": "Nolan def. Moicano"},
-    {"type": "hook", "title": "Erosa Goes Out", "fighter": ["Julian Erosa"],
-     "kicker": "Retirement KO", "subtitle": "Erosa KO R1 1:31"},
-    {"type": "result", "label": "Main event · Lightweight",
-     "winner": ["Tom Nolan", "Tom Nolan (fighter)"], "loser": ["Renato Moicano"],
-     "method": "TKO (elbows)", "detail": "R3 1:28"},
-    {"type": "result", "label": "Co-main · Welterweight",
-     "winner": ["Jacobe Smith"], "loser": ["Randy Brown"],
-     "method": "Unanimous decision", "detail": "30-27, 30-27, 30-26"},
-    {"type": "list", "title": "Main Card",
-     "rows": [["Cody Durden", "Ode Osbourne", "Dec"],
-              ["Luana Santos", "Yana Santos", "Dec"],
-              ["Jean-Paul Lebosnoyani", "Farman Hasanov", "TKO R3"]]},
-    {"type": "list", "title": "Prelims",
-     "rows": [["Dakota Hope", "Francis Marshall", "Split Dec"],
-              ["Rodrigo Sezinando", "Theodor Berggren", "TKO R2"],
-              ["Julian Erosa", "Lee Jeong-yeong", "KO R1"],
-              ["Zachary Reese", "Mickey Gall", "Dec"],
-              ["Joseph Kropschot", "Nick Klein", "Sub R2"],
-              ["Piera Rodriguez", "Talita Alencar", "Dec"]]},
-    {"type": "list", "title": "More Prelims",
-     "rows": [["Lucia Szabova", "Tainara Lisboa", "TKO R3"]]},
-    {"type": "bonuses", "title": "Bonuses",
-     "rows": [["Performance of the Night", "Tom Nolan"],
-              ["Performance of the Night", "Julian Erosa"],
-              ["Performance of the Night", "Joseph Kropschot"],
-              ["Performance of the Night", "Lucia Szabova"]]},
-    {"type": "cta", "title": "Who's next for Nolan?",
-     "lines": ["Comment your pick", "Follow @wwitmma for results"]}
+    {
+      "type": "cover",
+      "title": "Vegas 123 Results",
+      "fighter": [
+        "Renato Moicano"
+      ],
+      "kicker": "Moicano stopped",
+      "subtitle": "Nolan def. Moicano"
+    },
+    {
+      "type": "hook",
+      "title": "Stand-Up Drama",
+      "fighter": [
+        "Renato Moicano"
+      ],
+      "kicker": "Ref restart",
+      "subtitle": "Nolan TKO R3 1:28"
+    },
+    {
+      "type": "result",
+      "label": "Main event · Lightweight",
+      "winner": [
+        "Tom Nolan"
+      ],
+      "loser": [
+        "Renato Moicano"
+      ],
+      "method": "TKO (elbows)",
+      "detail": "R3 1:28"
+    },
+    {
+      "type": "result",
+      "label": "Co-main · Welterweight",
+      "winner": [
+        "Jacobe Smith"
+      ],
+      "loser": [
+        "Randy Brown"
+      ],
+      "method": "Unanimous decision",
+      "detail": "30-27, 30-27, 30-26"
+    },
+    {
+      "type": "list",
+      "title": "Main Card",
+      "rows": [
+        [
+          "Cody Durden",
+          "Ode Osbourne",
+          "Dec"
+        ],
+        [
+          "Luana Santos",
+          "Yana Santos",
+          "Dec"
+        ],
+        [
+          "Jean-Paul Lebosnoyani",
+          "Farman Hasanov",
+          "TKO R3"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Prelims",
+      "rows": [
+        [
+          "Dakota Hope",
+          "Francis Marshall",
+          "Split Dec"
+        ],
+        [
+          "Rodrigo Sezinando",
+          "Theodor Berggren",
+          "TKO R2"
+        ],
+        [
+          "Julian Erosa",
+          "Lee Jeong-yeong",
+          "KO R1"
+        ],
+        [
+          "Zachary Reese",
+          "Mickey Gall",
+          "Dec"
+        ],
+        [
+          "Joseph Kropschot",
+          "Nick Klein",
+          "Sub R2"
+        ],
+        [
+          "Piera Rodriguez",
+          "Talita Alencar",
+          "Dec"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "More Prelims",
+      "rows": [
+        [
+          "Lucia Szabova",
+          "Tainara Lisboa",
+          "TKO R3"
+        ]
+      ]
+    },
+    {
+      "type": "bonuses",
+      "title": "Bonuses",
+      "rows": [
+        [
+          "Performance of the Night",
+          "Tom Nolan"
+        ],
+        [
+          "Performance of the Night",
+          "Julian Erosa"
+        ],
+        [
+          "Performance of the Night",
+          "Joseph Kropschot"
+        ],
+        [
+          "Performance of the Night",
+          "Lucia Szabova"
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Who's next for Nolan?",
+      "lines": [
+        "Comment your pick",
+        "Follow @wwitmma for results"
+      ]
+    }
   ],
   "caption": "Tom Nolan stopped Renato Moicano with elbows in round 3 to headline UFC Vegas 123.\nTop 15 next or one more test? 👇\n\nIt's Nolan's sixth straight UFC lightweight win, and it came after a referee stand-up the crowd didn't love. Julian Erosa closed out his UFC career with a first-round KO and a bonus, and unbeaten Jacobe Smith outpointed Randy Brown.\n\nSwipe for the full UFC results from the APEX in Las Vegas.",
   "question": "Top 15 or one more test?",
-  "hashtags": ["UFCVegas123", "UFC", "MMANews", "TomNolan", "UFCResults"],
-  "sources": ["Uncrowned (Yahoo Sports)", "BJPenn.com", "Middle Easy"]
+  "hashtags": [
+    "UFCVegas123",
+    "UFC",
+    "MMANews",
+    "TomNolan",
+    "UFCResults"
+  ],
+  "sources": [
+    "Uncrowned (Yahoo Sports)",
+    "BJPenn.com",
+    "Middle Easy"
+  ]
 }
