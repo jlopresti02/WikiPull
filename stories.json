@@ -2,6 +2,42 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-vegas-123-results",
+      "title": "UFC Vegas 123 results: Tom Nolan TKOs Renato Moicano (R3 elbows); Erosa retires with KO",
+      "people": [
+        "Tom Nolan",
+        "Renato Moicano",
+        "Julian Erosa",
+        "Jacobe Smith",
+        "Randy Brown",
+        "Lucia Szabova",
+        "Joseph Kropschot"
+      ],
+      "event": "UFC Vegas 123",
+      "first_reported": "2026-11-01",
+      "facts": [
+        "Nov 1 9 AM run: first run after UFC Vegas 123 -> results carousel (step 6b)",
+        "Nolan def. Moicano TKO (elbows) R3 1:28, after a referee (Miragliotta) restart to the feet in R2; Nolan's 6th straight UFC win, declined to call anyone out",
+        "Co-main: Jacobe Smith (14-0) def. Randy Brown UD; Julian Erosa KO'd Lee Jeong-yeong R1 1:31 in his announced retirement fight",
+        "Bonuses: Performance of the Night for Nolan, Erosa, Kropschot, Szabova",
+        "Skipped as Reels (major-news-only rules, results in the carousel): Nolan win (no title stakes), Erosa retirement; adjacent Canelo def. Mbilli to regain WBC title (Trial Reels off under reach recovery)",
+        "No new Drive photos or sketch videos; Metricool queue empty"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/article/ufc-vegas-123-results-tom-nolan-makes-the-most-of-controversial-referee-stand-up-knocks-out-renato-moicano-050855367.html",
+        "https://www.bjpenn.com/mma-news/ufc-vegas-123/ufc-vegas-123-bonus-report-julian-erosa-one-of-four-potn-winners/",
+        "https://middleeasy.com/mma-news/ufc-vegas123-bonuses-nolan-szabova-kropschot-erosa/",
+        "https://www.skysports.com/boxing/news/13606459/canelo-alvarez-returns-to-beat-christian-mbilli-and-reclaim-wbc-super-middleweight-world-championship-in-riyadh"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-01-0915-ufc-vegas-123-results",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
+    },
+    {
       "id": "misc-oct-31-10pm",
       "title": "Oct 31 10 PM run: nothing new qualifies (no posts, nothing held)",
       "people": [
