@@ -2,6 +2,25 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-1-6pm",
+      "title": "Nov 1 6 PM run: nothing qualified",
+      "people": [],
+      "event": null,
+      "first_reported": "2026-11-01",
+      "facts": [
+        "No major news, official bookings or withdrawals since the 1 PM run",
+        "Skipped (report only, not a star or ranked pairing): Roberto Soldic vs. Daniel Rodriguez targeted for UFC 336 on Jan 30 (Agent MMA, not official)",
+        "Skipped (post-fight fallout/talk): Moicano won't appeal the UFC Vegas 123 loss and blasts the referee (MMA Mania); Volkanovski on mainstream recognition",
+        "Still not official: Cortes-Acosta vs. Walker (UFC Vegas 124), Usman Nurmagomedov UFC signing (both already posted)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 30 Usman Reel 145 views (Oct 29: 149, 143; Oct 28: 194, 126), steady"
+      ],
+      "sources": [
+        "https://agentmma.com/news/92238-roberto-soldi-vs-daniel-rodriguez-targeted-for-ufc-336-on-january-30",
+        "https://www.mmamania.com/latest-news/483443/renato-moicano-wont-appeal-ufc-halloween-loss-tells-referee-to-go-f-k-himself"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-1-pm",
       "title": "Nov 1 1 PM run: nothing new qualifies (no posts, nothing held)",
       "people": [
