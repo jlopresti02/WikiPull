@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-1-pm",
+      "title": "Nov 1 1 PM run: nothing new qualifies (no posts, nothing held)",
+      "people": [
+        "Renato Moicano",
+        "Tom Nolan",
+        "Conor McGregor"
+      ],
+      "event": "UFC Vegas 123",
+      "first_reported": "2026-11-01",
+      "facts": [
+        "No major news, official bookings or withdrawals since the 9 AM run",
+        "Skipped (post-fight fallout, no confirmed serious injury details): Moicano reportedly hospitalized with one other UFC Vegas 123 fighter after losses (Bloody Elbow); Moicano calls his performance terrible; Nolan says the controversial stand-up 'not my fault'",
+        "Skipped (talk, no booking): McGregor promise about his 'final fight' and outdoing Canelo (Bloody Elbow); Jake Paul message to Canelo (adjacent; Trial Reels off)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 30 Usman Reel 145 views (Oct 29: 149, 143; Oct 28: 194, 126), steady"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/01/renato-moicano-hospitalized-alongside-one-other-ufc-vegas-123-fighter-after-their-losses/",
+        "https://bloodyelbow.com/2026/11/01/conor-mcgregor-makes-promise-for-his-final-fight-while-vowing-to-outdo-canelo-alvarez-in-every-way/",
+        "https://bloodyelbow.com/2026/11/01/its-not-my-fault-tom-nolan-reacts-to-benefiting-from-controversial-stand-up-at-ufc-vegas-123/"
+      ],
+      "posts": []
+    },
+    {
       "id": "ufc-vegas-123-results",
       "title": "UFC Vegas 123 results: Tom Nolan TKOs Renato Moicano (R3 elbows); Erosa retires with KO",
       "people": [
