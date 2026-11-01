@@ -1,8 +1,23 @@
+Searching Wikimedia Commons for: Tom Nolan
+  saved images/tom-nolan/01-tom-nolan-in-buckskin.webp  [Public domain]
+  saved images/tom-nolan/02-dineo-seshee-bopape-when-spirituality-was-a-baby-installatio.jpg  [CC BY-SA 4.0]
+Done: 2 image(s) saved.
+[0;93m2026-11-01 14:07:44.735631609 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/tom-nolan/cutouts/01-tom-nolan-in-buckskin.png
+  cutout images/tom-nolan/cutouts/02-dineo-seshee-bopape-when-spirituality-was-a-baby-installatio.png
+Done: 2 new cutout(s).
+Searching Wikimedia Commons for: Julian Erosa
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-10-30-1815-usman-free-agent.json
-Image: {'type': 'fighter', 'name': 'Usman Nurmagomedov'} -> fighter images/usman-nurmagomedov/cutouts/01-usmannurmagomedov.png  headline: Free Agent
-v2 left: images/usman-nurmagomedov/cutouts/01-usmannurmagomedov.png
-v2 right: images/ilia-topuria/cutouts/05-ilia-topuria.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-10-30-1815-usman-free-agent/post.png (fighter)
-Rendered posts/2026-10-30-1815-usman-free-agent/reel.mp4 (format v2)
+== 2026-11-01-0915-ufc-vegas-123-results.json
+$ fetch.py Tom Nolan --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tom-nolan
+Rendered posts/2026-11-01-0915-ufc-vegas-123-results/slide-01.jpg (cover)
+$ fetch.py Julian Erosa --count 5
+  no photo for ['Julian Erosa']: using the silhouette
+!! 2026-11-01-0915-ufc-vegas-123-results.json not rendered: no photo for the hook slide (['Julian Erosa']): pick a fighter who has one
+1 post(s) failed; they stay in posts/queue/.
