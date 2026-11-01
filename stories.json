@@ -2,6 +2,27 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-oct-31-10pm",
+      "title": "Oct 31 10 PM run: nothing new qualifies (no posts, nothing held)",
+      "people": [
+        "Renato Moicano",
+        "Tom Nolan",
+        "Lucia Szabova"
+      ],
+      "event": "UFC Vegas 123",
+      "first_reported": "2026-10-31",
+      "facts": [
+        "No major news, official bookings or withdrawals since the 6 PM run; UFC Vegas 123 (Moicano vs. Nolan) main card still in progress at run time, results go to the Nov 1 9 AM run (results carousel)",
+        "Only reported result so far: Lucia Szabova TKO Tainara Lisboa R3 3:20 (already logged at 6 PM, not a star)",
+        "Adjacent: Canelo vs. Mbilli result not yet reported (Trial Reels off under reach recovery)",
+        "No new Drive photos or sketch videos; Metricool queue empty; reach check: Oct 30 Usman Reel 127 views (Oct 29: 144, 143; Oct 28: 190, 126), steady"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-vegas-123-moicano-vs-215043900.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-oct-31-6pm",
       "title": "Oct 31 6 PM run: nothing new qualifies (no posts, nothing held)",
       "people": [
