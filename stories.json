@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-2-6pm",
+      "title": "Nov 2 6 PM run: nothing qualified (no posts)",
+      "people": [
+        "Jack Della Maddalena",
+        "Josh Hokit",
+        "Conor McGregor",
+        "Henry Cejudo",
+        "Gilbert Burns",
+        "Alexandre Pantoja"
+      ],
+      "event": null,
+      "first_reported": "2026-11-02",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 1 PM run (MMA Fighting, MMA Junkie, Cageside, MMAmania front pages could not be fetched; searched Bloody Elbow/Sherdog/Cageside by date)",
+        "Skipped (interview/talk, doesn't qualify): Della Maddalena says he declined a UFC Sydney return (Bloody Elbow); Hokit 'diss track' doubling down on White House insult; ex-teammate claim about McGregor; Cejudo and Burns blast the UFC Vegas 123 stand-up; Pantoja's coach says he needs mental rest after the Van loss",
+        "Skipped (adjacent boxing, already logged): Jake Paul vs. Cedric Doumbe (Cageside, Sherdog)",
+        "Whittaker vs. Guskov still held for a Guskov photo: no new files in Gemini Images (none created since Nov 1); no new sketch videos",
+        "Metricool queue empty; reach check: last Reels 146 (Oct 30), 154 and 143 (Oct 29), steady around 145"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/02/jack-della-maddalena-declined-ufc-sydney-return-after-feeling-like-he-had-to-take-carlos-prates-fight/",
+        "https://bloodyelbow.com/2026/11/02/josh-hokit-doubles-down-on-wild-michelle-obama-insult-from-ufc-white-house-in-new-diss-track/",
+        "https://www.sherdog.com/news/news/Henry-Cejudo-Gilbert-Burns-blast-referees-UFC-Vegas-123-standup-203458"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-2-pm",
       "title": "Nov 2 1 PM run: nothing qualified (no posts)",
       "people": [
