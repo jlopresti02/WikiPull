@@ -2,6 +2,35 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "whittaker-vs-guskov-ufc-sydney-co-main",
+      "title": "Robert Whittaker vs. Bogdan Guskov set for UFC Sydney co-main (light heavyweight)",
+      "people": [
+        "Robert Whittaker",
+        "Bogdan Guskov"
+      ],
+      "event": "UFC Sydney",
+      "first_reported": "2026-11-01",
+      "facts": [
+        "UFC AUS/NZ announced it with a Whittaker video reveal (Nov 1 evening); Cageside Press report 8:30 PM ET",
+        "Light heavyweight co-main under Salkilld vs. Saint Denis, UFC Sydney, Afterpay Arena, February (Cageside: Feb 7)",
+        "Whittaker (27-9, #11) beat Nikita Krylov at UFC 329 in his 205 debut; first Sydney fight since Nov 2014",
+        "Guskov (18-4-1, #10) lost by TKO to Magomed Ankalaev in July, ending a 5-fight unbeaten run",
+        "Nov 1 10 PM run sweep: nothing else qualified (McGregor 'last fight' talk, Nolan bonus already covered); no new Drive photos; Metricool queue empty"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/01/robert-whittaker-meets-bogdan-guskov-in-ufc-sydney-co-headliner",
+        "https://x.com/UFC_AUSNZ/status/2117031511132369110"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-01-2215-whittaker-guskov-sydney",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "misc-nov-1-6pm",
       "title": "Nov 1 6 PM run: nothing qualified",
       "people": [],
