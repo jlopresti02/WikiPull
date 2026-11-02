@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-2-pm",
+      "title": "Nov 2 1 PM run: nothing qualified (no posts)",
+      "people": [
+        "Christian Lee",
+        "Tye Ruotolo",
+        "Khamzat Chimaev",
+        "Jorge Masvidal"
+      ],
+      "event": null,
+      "first_reported": "2026-11-02",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 9 AM run (several outlet front pages could not be fetched this run)",
+        "Skipped (not new): ONE released the full Inner Circle 37 card (Nov 6, Bangkok) headed by Christian Lee vs. Tye Ruotolo for the ONE lightweight title; the main event was booked weeks ago (MiddleEasy, Nov 2)",
+        "Skipped (adjacent grappling; adjacent posts off in reach recovery): Khamzat Chimaev vs. Jorge Masvidal grappling match reported for December (Fightbook MMA, unverified)",
+        "Nothing held for the evening; Whittaker vs. Guskov still held for a Guskov photo (no new files in Gemini Images or Sketch Videos)",
+        "Metricool queue empty; reach check: last Reels 146 (Oct 30), 154 and 143 (Oct 29), steady around 145"
+      ],
+      "sources": [
+        "https://middleeasy.com/one-championship/christian-lee-tye-ruotolo-inner-circle37-full-card",
+        "https://fightbookmma.com/khamzat-chimaev-jorge-masvidal-alf-league-grappling-december-2026"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-2-am",
       "title": "Nov 2 9 AM run: nothing qualified (no posts)",
       "people": [
