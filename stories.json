@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-2-am",
+      "title": "Nov 2 9 AM run: nothing qualified (no posts)",
+      "people": [
+        "Colby Covington",
+        "Dillon Danis",
+        "Raul Rosas Jr.",
+        "Jake Paul",
+        "Cedric Doumbe"
+      ],
+      "event": null,
+      "first_reported": "2026-11-02",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings or withdrawals since the Nov 1 10 PM run",
+        "Skipped (adjacent grappling; Trial Reels/adjacent posts off in reach recovery): Dillon Danis out of the Nov 3 Hype Rome grappling match with Colby Covington; Raul Rosas Jr. steps in on short notice (Bloody Elbow, MMA Mania); McGregor vows to 'take over' the event",
+        "Skipped (adjacent boxing): Jake Paul names PFL's Cedric Doumbe as his Christmas Eve comeback opponent (Bloody Elbow, Nov 2)",
+        "Skipped (talk/fallout): Moicano's explicit message to the referee (already logged Nov 1); Rahiki vs. Yoo for UFC Sydney (not a star pairing)",
+        "Whittaker vs. Guskov still held for a Guskov photo: no new files in the Gemini Images Drive folder; no new sketch videos",
+        "Metricool queue empty; reach check: Oct 30 Reel 146 views (Oct 29: 154, 143; Oct 28: 194, 126), steady around 145"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/01/colby-covington-to-face-top-10-ufc-bantamweight-after-dillon-danis-pulls-out-two-days-before-match",
+        "https://bloodyelbow.com/2026/11/02/jake-paul-confirms-shock-opponent-for-christmas-eve-comeback-fight-as-pfl-star-cedric-doumbe/",
+        "https://bloodyelbow.com/2026/11/02/conor-mcgregor-vows-to-take-over-event-after-last-minute-dillon-danis-withdrawal/",
+        "https://agentmma.com/news/92243-marwan-rahiki-vs-joosang-yoo-set-for-ufc-sydney-on-february-6"
+      ],
+      "posts": []
+    },
+    {
       "id": "whittaker-vs-guskov-ufc-sydney-co-main",
       "title": "Robert Whittaker vs. Bogdan Guskov set for UFC Sydney co-main (light heavyweight)",
       "people": [
