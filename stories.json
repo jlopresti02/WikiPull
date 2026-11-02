@@ -15,20 +15,15 @@
         "Light heavyweight co-main under Salkilld vs. Saint Denis, UFC Sydney, Afterpay Arena, February (Cageside: Feb 7)",
         "Whittaker (27-9, #11) beat Nikita Krylov at UFC 329 in his 205 debut; first Sydney fight since Nov 2014",
         "Guskov (18-4-1, #10) lost by TKO to Magomed Ankalaev in July, ending a 5-fight unbeaten run",
-        "Nov 1 10 PM run sweep: nothing else qualified (McGregor 'last fight' talk, Nolan bonus already covered); no new Drive photos; Metricool queue empty"
+        "Nov 1 10 PM run sweep: nothing else qualified (McGregor 'last fight' talk, Nolan bonus already covered); no new Drive photos; Metricool queue empty",
+        "HELD for photo (Nov 1 10 PM): Bogdan Guskov has no Wikimedia or Drive photo, v2 right side rendered a silhouette. Re-queue posts/queue/2026-11-01-2215-whittaker-guskov-sydney.json (commit a9efcbf) with Whittaker 'file': '02-robert-whittaker-2024' once a Guskov photo is in Drive; schedule in an evening slot"
       ],
       "sources": [
         "https://cagesidepress.com/2026/11/01/robert-whittaker-meets-bogdan-guskov-in-ufc-sydney-co-headliner",
         "https://x.com/UFC_AUSNZ/status/2117031511132369110"
       ],
-      "posts": [
-        {
-          "post": "2026-11-01-2215-whittaker-guskov-sydney",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "misc-nov-1-6pm",
