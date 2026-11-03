@@ -2,6 +2,32 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-2-10pm",
+      "title": "Nov 2 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Michel Pereira",
+        "Deontay Wilder",
+        "Darren Till",
+        "Jake Paul"
+      ],
+      "event": null,
+      "first_reported": "2026-11-02",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 6 PM run",
+        "Skipped (not a star/ranked UFC booking): Michel Pereira books his first MMA fight since leaving the UFC (Bloody Elbow, Yahoo)",
+        "Skipped (adjacent boxing; adjacent posts off in reach recovery): deal reportedly reached for Deontay Wilder on the Fury vs. Joshua undercard vs. a current world champion (Bloody Elbow)",
+        "Skipped (talk): Darren Till says a Jake Paul deal was agreed before the Doumbe announcement; Tsarukyan's coach on a Volkanovski title fight (no booking)",
+        "Whittaker vs. Guskov still held for a Guskov photo: no new files in Gemini Images or Sketch Videos since Nov 1",
+        "Metricool queue empty; reach check: last Reels 146 (Oct 30), 154 and 143 (Oct 29), steady around 145"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/02/michel-pereira-books-first-fight-since-arguing-his-last-ufc-bout-was-compromised-by-herb-dean/",
+        "https://bloodyelbow.com/2026/11/02/deal-reached-for-deontay-wilder-to-compete-on-fury-vs-joshua-undercard-against-current-world-champion/",
+        "https://bloodyelbow.com/2026/11/02/darren-till-claims-jake-paul-fight-deal-was-agreed-before-shock-cedric-doumbe-announcement/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-2-6pm",
       "title": "Nov 2 6 PM run: nothing qualified (no posts)",
       "people": [
