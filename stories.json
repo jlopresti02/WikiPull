@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-3-6pm",
+      "title": "Nov 3 6 PM run: nothing qualified (no posts)",
+      "people": [
+        "Colby Covington",
+        "Raul Rosas Jr.",
+        "Ilia Topuria",
+        "Vinicius Oliveira",
+        "Pat Sabatini"
+      ],
+      "event": null,
+      "first_reported": "2026-11-03",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 1 PM run",
+        "Skipped (adjacent grappling; adjacent posts off in reach recovery): Raul Rosas Jr. submitted Colby Covington in about 43 seconds in a Hype Italy grappling match (Nov 3), short-notice replacement for Dillon Danis; McGregor reportedly laughed it off (Yahoo Sports, MMA Mania, Bloody Elbow). Flagged to user as the one story worth an exception",
+        "Skipped (talk, no booking): Ilia Topuria says he is 'back' on a return to Georgia (Bloody Elbow)",
+        "Skipped (not star/ranked, report only): Vinicius Oliveira vs. Pat Sabatini reportedly targeted for a Jan 23, 2027 UFC Fight Night (SI via Yahoo, per Laerte Viana)",
+        "Whittaker vs. Guskov still held for a Guskov photo: no new files in Gemini Images or Sketch Videos since Nov 1",
+        "Metricool queue empty; reach check: last Reels 146 (Oct 30), 157 and 144 (Oct 29), 195 and 126 (Oct 28-29); no new Reels since Oct 30"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/live/hype-italy-covington-vs-rosas-jr-live-results-and-round-by-round-updates-for-todays-card-162336201.html",
+        "https://www.mmamania.com/bjj-news/483887/highlights-watch-raul-rojas-jr-tap-trash-talking-colby-covington-in-40-seconds-and-on-super-short-notice-hype-italy",
+        "https://bloodyelbow.com/2026/11/03/who-is-ilia-topuria-fighting-next-el-matador-announces-he-is-back-in-return-to-georgia/",
+        "https://sports.yahoo.com/articles/ufc-reportedly-targeting-another-january-165257743.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-3-pm",
       "title": "Nov 3 1 PM run: nothing qualified (no posts)",
       "people": [
