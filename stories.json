@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-3-pm",
+      "title": "Nov 3 1 PM run: nothing qualified (no posts)",
+      "people": [
+        "Carlos Prates",
+        "Islam Makhachev",
+        "Merab Dvalishvili",
+        "Khamzat Chimaev",
+        "Dan Hooker",
+        "Charles Oliveira"
+      ],
+      "event": null,
+      "first_reported": "2026-11-03",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 9 AM run (Bloody Elbow pages could not be fetched; searched by date)",
+        "Skipped (talk, already covered): Carlos Prates says Makhachev 'chickened out' of UFC 336 (Bloody Elbow, MMA News, Nov 3); Makhachev's UFC 336 exit was logged in October",
+        "Skipped (adjacent wrestling; adjacent posts off in reach recovery): Merab Dvalishvili reportedly joining Khamzat Chimaev's RAF card after the Yan loss (Bloody Elbow, Nov 3); details unverified",
+        "Skipped (talk): Dan Hooker says the BMF belt lost what made it special under Oliveira; Wilder names a new potential opponent (boxing)",
+        "Nothing held for the evening; Whittaker vs. Guskov still held for a Guskov photo (no new files in Gemini Images or Sketch Videos since Nov 1)",
+        "Metricool queue empty; reach check: last Reels 146 (Oct 30), 157 and 144 (Oct 29), 195 and 126 (Oct 28-29), steady around 145-155; no new Reels since Oct 30"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/03/islam-makhachev-told-he-chickened-out-of-defending-his-title-at-ufc-336-by-carlos-prates/",
+        "https://bloodyelbow.com/2026/11/03/merab-dvalishvili-set-for-quick-turnaround-from-petr-yan-loss-by-joining-khamzat-chimaev-raf-card/",
+        "https://bloodyelbow.com/2026/11/03/bmf-belt-has-lost-what-made-it-special-under-charles-oliveira-says-top-contender-dan-hooker/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-3-am",
       "title": "Nov 3 9 AM run: nothing qualified (no posts)",
       "people": [
