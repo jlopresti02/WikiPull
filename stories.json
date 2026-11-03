@@ -2,6 +2,32 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-3-am",
+      "title": "Nov 3 9 AM run: nothing qualified (no posts)",
+      "people": [
+        "Conor McGregor",
+        "Colby Covington",
+        "Raul Rosas Jr.",
+        "Christian Lee",
+        "Tye Ruotolo"
+      ],
+      "event": null,
+      "first_reported": "2026-11-03",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the Nov 2 10 PM run (searched Bloody Elbow, Cageside, Sherdog, MMA Mania, Agent MMA by date)",
+        "Skipped (talk): McGregor's ex-teammate continues attack with new allegations (Bloody Elbow, Nov 3)",
+        "Skipped (adjacent grappling, adjacent posts off in reach recovery): Covington vs. Raul Rosas Jr. at Hype Rome is tonight (Nov 3); no result yet",
+        "Skipped (not new): ONE Inner Circle 37 (Nov 6) Christian Lee vs. Tye Ruotolo, already logged Nov 2",
+        "Nothing held for the evening; Whittaker vs. Guskov still held for a Guskov photo (no new files in Gemini Images or Sketch Videos since Nov 1); drop it after today if no photo arrives",
+        "Metricool queue empty; reach check: last Reels 146 (Oct 30), 157 and 144 (Oct 29), 195 and 126 (Oct 28-29), steady around 145-155"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/03/conor-mcgregors-ex-teammate-continues-scathing-attack-of-star-with-new-allegations/",
+        "https://cagesidepress.com/2026/11/02/whats-next-ufc-vegas-123-winners/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-2-10pm",
       "title": "Nov 2 10 PM run: nothing qualified (no posts)",
       "people": [
