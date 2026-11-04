@@ -2,6 +2,36 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-4-6pm",
+      "title": "Nov 4 6 PM run: nothing qualified (no posts)",
+      "people": [
+        "Joselyne Edwards",
+        "Kayla Harrison",
+        "Amanda Nunes",
+        "Sean Strickland",
+        "Joaquin Buckley",
+        "Carlos Calderon",
+        "Austin Bashi"
+      ],
+      "event": null,
+      "first_reported": "2026-11-04",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings of stars/ranked contenders, withdrawals or title changes found since the 1 PM run",
+        "Skipped (routine, not major): UFC confirms Joselyne Edwards as backup for Harrison vs. Nunes at UFC 334, Nov 14 MSG (SportBible, Nov 4, citing MMA Junkie)",
+        "Skipped (sparring footage/feud talk): Sean Strickland drops Joaquin Buckley in leaked sparring footage (Bloody Elbow, Nov 4)",
+        "Skipped (not star/ranked): Fury FC champ Carlos Calderon replaces injured Lucas Brennan vs. Austin Bashi at UFC Vegas 124 on 4 days' notice (Bloody Elbow, MMA Mania)",
+        "Skipped (talk): 26-fight UFC veteran on contract situation (Bloody Elbow); ONE Inner Circle 37 (Nov 6) already logged",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: no new Reels since Oct 30 (last 147, 157, 144, 195, 126)"
+      ],
+      "sources": [
+        "https://www.sportbible.com/ufc/dana-white-emergency-plan-ciryl-gane-josh-hokit-nunes-harrison-392798-20261104",
+        "https://bloodyelbow.com/2026/11/04/sean-strickland-drops-joaquin-buckley-in-sparring-footage-leaked-amid-online-feud/",
+        "https://bloodyelbow.com/2026/11/04/fury-fc-champion-steps-up-on-4-days-notice-for-ufc-vegas-124-debut/",
+        "https://bloodyelbow.com/2026/11/04/26-fight-ufc-veteran-reveals-precarious-contract-situation-as-ufc-future-hangs-in-the-balance/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-4-pm",
       "title": "Nov 4 1 PM run: nothing qualified (no posts)",
       "people": [
