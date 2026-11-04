@@ -2,6 +2,36 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-3-10pm",
+      "title": "Nov 3 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Marwan Rahiki",
+        "JooSang Yoo",
+        "Dana White",
+        "Dustin Poirier",
+        "Renato Moicano",
+        "Robert Whittaker",
+        "Bogdan Guskov"
+      ],
+      "event": null,
+      "first_reported": "2026-11-03",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 6 PM run",
+        "Skipped (already logged, not a star pairing): Rahiki vs. JooSang Yoo at UFC Sydney, re-reported by Morocco World News",
+        "Skipped (report/business, not major): Netflix reportedly making a Dana White documentary (MMA Mania 'fact or fiction')",
+        "Skipped (talk): Dustin Poirier backs a proposed UFC rule replacing referee intervention with fines; Moicano drops in rankings (Bloody Elbow)",
+        "Skipped (already covered Nov 3): Rosas Jr. subs Covington, Merab/RAF report, Prates on Makhachev",
+        "Whittaker vs. Guskov hold dropped as stale (no Guskov photo)",
+        "Metricool queue empty; reach check: no new Reels since Oct 30 (last 146, 157, 144, 195, 126)"
+      ],
+      "sources": [
+        "https://moroccoworldnews.com/2026/11/344952/marwan-rahiki-reportedly-booked-to-face-joosang-yoo-at-ufc-sydney",
+        "https://www.mmamania.com/latest-news/483936/fact-or-fiction-netflix-set-to-release-tell-all-documentary-on-ufc-ceo-dana-white",
+        "https://bloodyelbow.com/2026/11/03/dustin-poirier-backs-ufc-rule-change-that-would-replace-referee-intervention-with-fighter-fines/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-3-6pm",
       "title": "Nov 3 6 PM run: nothing qualified (no posts)",
       "people": [
@@ -203,14 +233,14 @@
         "Whittaker (27-9, #11) beat Nikita Krylov at UFC 329 in his 205 debut; first Sydney fight since Nov 2014",
         "Guskov (18-4-1, #10) lost by TKO to Magomed Ankalaev in July, ending a 5-fight unbeaten run",
         "Nov 1 10 PM run sweep: nothing else qualified (McGregor 'last fight' talk, Nolan bonus already covered); no new Drive photos; Metricool queue empty",
-        "HELD for photo (Nov 1 10 PM): Bogdan Guskov has no Wikimedia or Drive photo, v2 right side rendered a silhouette. Re-queue posts/queue/2026-11-01-2215-whittaker-guskov-sydney.json (commit a9efcbf) with Whittaker 'file': '02-robert-whittaker-2024' once a Guskov photo is in Drive; schedule in an evening slot"
+        "HELD for photo (Nov 1 10 PM): Bogdan Guskov has no Wikimedia or Drive photo, v2 right side rendered a silhouette. Re-queue posts/queue/2026-11-01-2215-whittaker-guskov-sydney.json (commit a9efcbf) with Whittaker 'file': '02-robert-whittaker-2024' once a Guskov photo is in Drive; schedule in an evening slot",
+        "DROPPED (Nov 3 10 PM): no Guskov photo arrived in Gemini Images in 2+ days; story stale, not posted"
       ],
       "sources": [
         "https://cagesidepress.com/2026/11/01/robert-whittaker-meets-bogdan-guskov-in-ufc-sydney-co-headliner",
         "https://x.com/UFC_AUSNZ/status/2117031511132369110"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": []
     },
     {
       "id": "misc-nov-1-6pm",
