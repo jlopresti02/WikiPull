@@ -2,6 +2,39 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-4-am",
+      "title": "Nov 4 9 AM run: nothing qualified (no posts)",
+      "people": [
+        "Joaquin Buckley",
+        "Dustin Poirier",
+        "Conor McGregor",
+        "Colby Covington",
+        "Aaron Pico",
+        "Lerone Murphy",
+        "Josh Hokit",
+        "Gable Steveson",
+        "Bryce Mitchell"
+      ],
+      "event": null,
+      "first_reported": "2026-11-04",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the Nov 3 10 PM run (searched Sherdog list, Bloody Elbow, SI, MMA Mania by date)",
+        "Skipped (callout, no booking): Joaquin Buckley calls out Dustin Poirier over an airport arrest (Sherdog, Nov 4)",
+        "Skipped (talk): McGregor denies laughing at Covington's loss to Rosas Jr., says viral video is false (Bloody Elbow, Middle Easy, Nov 4)",
+        "Skipped (talk): Aaron Pico wants Lerone Murphy again; Hokit on Steveson's Jackson-Wink ties; Bryce Mitchell wants face stomps legal; Malignaggi on Dana White Netflix doc",
+        "Skipped (routine): DWCS standout gets UFC debut opponent (Sherdog)",
+        "Skipped (not new): UFC Nov 7 card change (Petersen replaces Hines vs. Lorenco, SI Oct 26); Brady/Walker change already logged Oct 29",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; no new Reels since Oct 30 (last 146, 157, 144, 195, 126)"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/list",
+        "https://bloodyelbow.com/2026/11/04/conor-mcgregor-denies-laughing-at-colby-covingtons-loss-after-false-video-goes-viral/",
+        "https://mmamania.com/ufc-news/483966/paulie-malignaggi-blasts-dana-white-tell-all-netflix-doc-as-bulls-t-artist-story",
+        "https://www.si.com/fannation/mma/news/first-ufc-fight-night-event-of-november-hit-with-late-change"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-3-10pm",
       "title": "Nov 3 10 PM run: nothing qualified (no posts)",
       "people": [
