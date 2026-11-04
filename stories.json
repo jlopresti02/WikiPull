@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-4-pm",
+      "title": "Nov 4 1 PM run: nothing qualified (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Deontay Wilder",
+        "Conor McGregor",
+        "Damian Pinas"
+      ],
+      "event": null,
+      "first_reported": "2026-11-04",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings, withdrawals or title changes found since the 9 AM run",
+        "Skipped (adjacent wrestling; adjacent posts off in reach recovery): Merab Dvalishvili reportedly booked vs. an old rival at an RAF event that clashes with UFC 334 (Bloody Elbow, Nov 4; follows the Nov 3 report)",
+        "Skipped (adjacent boxing): Dana White says Deontay Wilder will fight an unbeaten 31-0 champion on the Fury vs. Joshua card (Bloody Elbow, Nov 4; deal first reported Nov 2)",
+        "Skipped (talk): McGregor's first public appearance since the UFC 329 leg injury (Bloody Elbow)",
+        "Skipped (not star/ranked): Damian Pinas vs. a Chimaev teammate added to UFC 335 (Bloody Elbow)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; no new Reels since Oct 30"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/04/merab-dvalishvili-books-bout-with-old-rival-at-event-that-clashes-with-ufc-334/",
+        "https://bloodyelbow.com/2026/11/04/dana-white-announces-deontay-wilder-will-fight-31-0-champion-on-the-fury-vs-joshua-card/",
+        "https://bloodyelbow.com/2026/11/04/watch-conor-mcgregor-react-to-horrific-leg-injury-in-first-public-appearance-since-ufc-329-disaster/",
+        "https://bloodyelbow.com/2026/11/04/ufc-335-adds-middleweight-matchup-between-damian-pinas-and-khamzat-chimaevs-teammate/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-4-am",
       "title": "Nov 4 9 AM run: nothing qualified (no posts)",
       "people": [
