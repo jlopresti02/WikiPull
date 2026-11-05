@@ -1,0 +1,84 @@
+{
+  "story_id": "yair-rodriguez-vs-steve-garcia-ufc-335",
+  "headline": "Pantera Back",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Yair Rodríguez"
+    },
+    {
+      "type": "fighter",
+      "name": "Yair Rodriguez"
+    },
+    {
+      "type": "fighter",
+      "name": "Steve Garcia"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Yair Rodriguez is reportedly coming back against knockout artist Steve Garcia at UFC 335.\nPantera or Garcia? 👇\n\nThe former interim featherweight champ hasn't fought since April 2025; Garcia (19-6) is coming off a KO loss to Diego Lopes. UFC 335 is set for Dec. 12, with Oliveira vs. Lopes on top.\n\n🔥 Hot take: Yair vs. Garcia is the most violent fight on the card.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC335",
+    "YairRodriguez",
+    "SteveGarcia"
+  ],
+  "sources": [
+    "MMA Mania",
+    "MMA Sucka"
+  ],
+  "music_pool": "espn",
+  "question": "Pantera or Garcia?",
+  "hot_take": "Yair vs Garcia is the most *violent* fight on the card.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 335 · FEATHERWEIGHT",
+    "kicker": "PANTERA RETURNS",
+    "hook": "Yair vs Garcia",
+    "left": [
+      {
+        "name": "Yair Rodríguez"
+      },
+      {
+        "name": "Yair Rodriguez"
+      }
+    ],
+    "right": [
+      {
+        "name": "Steve Garcia"
+      }
+    ],
+    "story": "Former interim champ Yair Rodriguez reportedly returns against KO artist Steve Garcia.",
+    "chips": [
+      "UFC 335 · DEC 12",
+      "YAIR: FIRST FIGHT SINCE APR 2025",
+      "GARCIA 19-6"
+    ],
+    "options": [
+      "PANTERA",
+      "GARCIA"
+    ],
+    "question": "Pantera or Garcia?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/yair-rodr-guez/cutouts/01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped.png",
+      "credit": "File:Carrera con Yair \"Pantera\" Rodríguez -i---i- (30657689682).jpg: PLEASE COMPLETE AUTHOR INFORMATION derivative work: Alexander Gustafsson / CC0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/steve-garcia/cutouts/01-ufc-freedom-250-press-conference-at-the-lincoln-memorial-in-.png",
+      "credit": "The White House / Public domain"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/yair-rodr-guez/cutouts/01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped.png",
+    "credit": "File:Carrera con Yair \"Pantera\" Rodríguez -i---i- (30657689682).jpg: PLEASE COMPLETE AUTHOR INFORMATION derivative work: Alexander Gustafsson / CC0"
+  },
+  "music": "music/news-intro/02-a-new-dawn-intro.mp3",
+  "music_credit": "\"A New Dawn (Intro)\" by Eden Prayer / CC BY-SA 3.0",
+  "music_start": 108.75
+}
