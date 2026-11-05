@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-5-am",
+      "title": "Nov 5 9 AM run: nothing qualified (no posts)",
+      "people": [
+        "Conor McGregor",
+        "Ilia Topuria",
+        "Dana White"
+      ],
+      "event": null,
+      "first_reported": "2026-11-05",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings of stars/ranked contenders, withdrawals or title changes found since the Nov 4 10 PM run",
+        "Skipped (talk, not new): McGregor says he will 'lay down' his gloves but not retire after his final UFC fight in 2027 (Bloody Elbow, Nov 5); final fight in April 2027 already reported in June",
+        "Skipped (talk, no booking): Dana White on Ilia Topuria's return timeline, 'we're working on that' (Bloody Elbow, Nov 5)",
+        "Not new: Cortes-Acosta vs. Walker UFC Vegas 124 main event (Nov 7) already posted Oct 29; ONE Inner Circle 37 (Nov 6) already logged",
+        "Nothing held for the evening; no new files in Gemini Images or Sketch Videos; Metricool queue empty; no new Reels since Oct 30"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/05/conor-mcgregor-will-lay-down-his-gloves-but-not-retire-after-final-ufc-fight-in-2027/",
+        "https://bloodyelbow.com/2026/11/05/dana-white-provides-ilia-topuria-return-timeline-were-working-on-that/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-4-10pm",
       "title": "Nov 4 10 PM run: nothing qualified (no posts)",
       "people": [
