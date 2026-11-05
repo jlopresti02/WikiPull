@@ -2,6 +2,36 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "yair-rodriguez-vs-steve-garcia-ufc-335",
+      "title": "Yair Rodriguez vs. Steve Garcia reportedly booked for UFC 335",
+      "people": [
+        "Yair Rodriguez",
+        "Steve Garcia",
+        "David Onama"
+      ],
+      "event": "UFC 335",
+      "first_reported": "2026-11-05",
+      "facts": [
+        "MMA Mania reports Yair Rodriguez vs. Steve Garcia booked for UFC 335 (Dec 12); David Onama's since-deleted Instagram post had seemingly leaked it (MMA Sucka)",
+        "Yair's last fight: UD win over Patricio Pitbull, UFC 314, April 2025; reportedly withdrew from a September fight with injury",
+        "Garcia 19-6, coming off a KO loss to Diego Lopes at UFC Freedom 250 (June 2026)",
+        "Also skipped this run (talk, no booking): Makhachev's manager floats a Chimaev match outside the UFC; Prates mocks Makhachev's UFC 336 withdrawal; Dana admits dislike influenced Josh Hokit matchmaking; Chandler WWE spot; McGregor 'lay down gloves' (logged 9 AM). Adjacent (Trial Reels off): Tyson Fury injury claim re Joshua fight; RAF acquires World of Wrestling",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty at 6 PM"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-fight-announcements/484091/violence-yair-rodriguez-returns-against-knockout-artist-steve-garcia-at-ufc-335",
+        "https://mmasucka.com/news/david-onama-seemingly-leaks-full-ufc-335-card/"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-05-1815-yair-garcia-ufc-335",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "misc-nov-5-pm",
       "title": "Nov 5 1 PM run: nothing qualified (no posts)",
       "people": [

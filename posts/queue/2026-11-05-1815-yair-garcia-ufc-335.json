@@ -1,0 +1,30 @@
+{
+  "story_id": "yair-rodriguez-vs-steve-garcia-ufc-335",
+  "headline": "Pantera Back",
+  "visual": [
+    {"type": "fighter", "name": "Yair Rodríguez"},
+    {"type": "fighter", "name": "Yair Rodriguez"},
+    {"type": "fighter", "name": "Steve Garcia"}
+  ],
+  "color": "#d2202f",
+  "caption": "Yair Rodriguez is reportedly coming back against knockout artist Steve Garcia at UFC 335.\nPantera or Garcia? 👇\n\nThe former interim featherweight champ hasn't fought since April 2025; Garcia (19-6) is coming off a KO loss to Diego Lopes. UFC 335 is set for Dec. 12, with Oliveira vs. Lopes on top.\n\n🔥 Hot take: Yair vs. Garcia is the most violent fight on the card.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFC335", "YairRodriguez", "SteveGarcia"],
+  "sources": ["MMA Mania", "MMA Sucka"],
+  "music_pool": "espn",
+  "question": "Pantera or Garcia?",
+  "hot_take": "Yair vs Garcia is the most *violent* fight on the card.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 335 · FEATHERWEIGHT",
+    "kicker": "PANTERA RETURNS",
+    "hook": "Yair vs Garcia",
+    "left": [{"name": "Yair Rodríguez"}, {"name": "Yair Rodriguez"}],
+    "right": [{"name": "Steve Garcia"}],
+    "story": "Former interim champ Yair Rodriguez reportedly returns against KO artist Steve Garcia.",
+    "chips": ["UFC 335 · DEC 12", "YAIR: FIRST FIGHT SINCE APR 2025", "GARCIA 19-6"],
+    "options": ["PANTERA", "GARCIA"],
+    "question": "Pantera or Garcia?"
+  }
+}
