@@ -27,7 +27,9 @@
           "post": "2026-11-05-1815-yair-garcia-ufc-335",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-05T19:15:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4154547050674306518"
         }
       ]
     },
