@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-5-pm",
+      "title": "Nov 5 1 PM run: nothing qualified (no posts)",
+      "people": [
+        "Ilia Topuria",
+        "Waldo Cortes-Acosta",
+        "Johnny Walker",
+        "Kayla Harrison",
+        "Amanda Nunes"
+      ],
+      "event": null,
+      "first_reported": "2026-11-05",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings of stars/ranked contenders, withdrawals or title changes found since the 9 AM run",
+        "Skipped (talk, no booking; timeline already logged 9 AM): Topuria return in early 2027 per Dana White (Boxing News, MyMMANews)",
+        "Skipped (fight-week talk): UFC Vegas 124 media day, Cortes-Acosta confident he KOs Walker (Yahoo/MMA Mania); bout already posted Oct 29",
+        "Not new: Harrison vs. Nunes UFC 334 backup (Edwards) logged Nov 4",
+        "Nothing held for the evening; no new files in Gemini Images or Sketch Videos; Metricool queue empty; no new Reels since Oct 30"
+      ],
+      "sources": [
+        "https://boxingnews.com/news/white-confirms-topuria-returns-early-2027",
+        "https://sports.yahoo.com/articles/ufc-vegas-124-waldo-cortes-230015694.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-5-am",
       "title": "Nov 5 9 AM run: nothing qualified (no posts)",
       "people": [
