@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-4-10pm",
+      "title": "Nov 4 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Islam Makhachev",
+        "Dana White",
+        "Kayla Harrison",
+        "Amanda Nunes"
+      ],
+      "event": null,
+      "first_reported": "2026-11-04",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings of stars/ranked contenders, withdrawals or title changes found since the 6 PM run",
+        "Skipped (already covered): Dana White says money was a big reason Makhachev turned down UFC 336 (BJ Penn); Makhachev's UFC 336 exit logged in October",
+        "Skipped (not star/ranked): Jon Jones training partner books combat sports return (Bloody Elbow)",
+        "Skipped (already logged 6 PM): Edwards as UFC 334 backup, Calderon in at UFC Vegas 124, Strickland/Buckley sparring footage",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; no new Reels since Oct 30"
+      ],
+      "sources": [
+        "https://bjpenn.com/mma-news/ufc/dana-white-money-major-reason-islam-makhachev-turning-down-ufc-336",
+        "https://bloodyelbow.com/2026/11/04/ufc-what-if-who-kod-jon-jones-in-training-books-combat-sports-return-after-over-a-decade-away/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-4-6pm",
       "title": "Nov 4 6 PM run: nothing qualified (no posts)",
       "people": [
