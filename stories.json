@@ -2,6 +2,36 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-5-10pm",
+      "title": "Nov 5 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Justin Gaethje",
+        "Alexander Volkanovski",
+        "Yaroslav Amosov",
+        "Ilia Topuria",
+        "Paddy Pimblett",
+        "Kamaru Usman",
+        "Colby Covington"
+      ],
+      "event": null,
+      "first_reported": "2026-11-05",
+      "facts": [
+        "No major UFC/PFL/ONE news, official bookings of stars/ranked contenders, withdrawals or title changes found since the 6 PM run",
+        "Skipped (talk, not new): Dana White on Jim Rome says he's open to Gaethje vs. Volkanovski but is waiting on Gaethje to decide whether to retire or fight (Cageside Press, Bloody Elbow, Nov 5); superfight already posted in October",
+        "Skipped (no opponent named): Yaroslav Amosov says his next bout agreement is signed, 'news will follow soon' (MiddleEasy, Nov 5); post when the opponent is reported",
+        "Skipped (talk): Topuria 'sausage' jab at Pimblett with return update; Usman defends Covington's 37-second loss to Raul Rosas Jr.; Hokit responds to Dana; UFC Vegas 124 contender calls her shot (Bloody Elbow, Nov 5)",
+        "Adjacent (Trial Reels off): Vasiliy Lomachenko officially ends retirement (MMA Mania)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: last Reels in analytics 149, 157, 145, 196, 126 (Yair 7:15 PM Reel not in analytics yet)"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/05/white-open-volk-gaethje-waiting-lightweight-champs",
+        "https://middleeasy.com/mma-news/yaroslav-amosov-next-bout-agreement-signed-november2026",
+        "https://bloodyelbow.com/2026/11/05/ilia-topuria-claims-he-will-eat-sausage-paddy-pimblett-as-he-offers-ufc-return-update/",
+        "https://www.mmamania.com/boxing/484194/hes-back-vasiliy-lomachenko-officially-ends-retirement-targets-undisputed-crown"
+      ],
+      "posts": []
+    },
+    {
       "id": "yair-rodriguez-vs-steve-garcia-ufc-335",
       "title": "Yair Rodriguez vs. Steve Garcia reportedly booked for UFC 335",
       "people": [
