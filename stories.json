@@ -2,6 +2,57 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-6-am",
+      "title": "Nov 6 9 AM run: 1 story held for the evening (no posts)",
+      "people": [
+        "Arman Tsarukyan",
+        "Eddie Hearn",
+        "Conor McGregor",
+        "Waldo Cortes-Acosta",
+        "Johnny Walker"
+      ],
+      "event": null,
+      "first_reported": "2026-11-06",
+      "facts": [
+        "Held for evening: Tye Ruotolo submits Christian Lee for the ONE lightweight MMA title (see entry above)",
+        "Skipped (business talk, no signing): Eddie Hearn denies signing Arman Tsarukyan after their Marbella meeting, 'just some breakfast' (MMA Mania, Nov 5-6)",
+        "Skipped (talk): BKFC president says Conor McGregor isn't guaranteed a bare-knuckle fight after his UFC career ends (Bloody Elbow, Nov 6)",
+        "Pending: UFC Vegas 124 weigh-ins at 12 PM ET Friday (after this run); Cortes-Acosta vs. Walker main event already posted Oct 29",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: Yair vs Garcia Reel (Nov 5 7:15 PM) at 75 views overnight vs 128-196 for the Oct 29-30 Reels"
+      ],
+      "sources": [
+        "https://mmamania.com/ufc-news/484259/eddie-hearn-denies-signing-arman-tsarukyan-to-deal-just-some-breakfast",
+        "https://bloodyelbow.com/2026/11/06/bkfc-president-says-conor-mcgregor-isnt-guaranteed-a-fight-after-his-ufc-exit-he-has-to-look-good/",
+        "https://cagesidepress.com/2026/11/06/ufc-vegas-124-cortes-acosta-vs-walker-weigh-in-results/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "tye-ruotolo-dethrones-christian-lee-inner-circle-37",
+      "title": "Tye Ruotolo submits Christian Lee in Round 1 to win ONE lightweight MMA title",
+      "people": [
+        "Tye Ruotolo",
+        "Christian Lee",
+        "Kade Ruotolo",
+        "Adrian Lee"
+      ],
+      "event": "ONE The Inner Circle 37",
+      "first_reported": "2026-11-06",
+      "facts": [
+        "Tye Ruotolo beat Christian Lee by rear-naked choke at 2:08 of Round 1 to win the ONE lightweight MMA world title, Lumpinee Stadium, Bangkok, Nov 6 (ONE Championship)",
+        "Ruotolo is now 3-0 in MMA; he already held the ONE welterweight submission grappling title, making him the first two-sport world champion in ONE history; earned a US$100,000 bonus",
+        "Lee entered as a two-division champ, back after a year out, calling it a revenge fight for his brother Adrian Lee, whose first pro loss came against Ruotolo",
+        "Weights: Lee 169.6 lb, Ruotolo 169.8 lb (MiddleEasy)",
+        "Title change = major news; held for the evening (reach recovery mode). Under recovery rules Trial Reels are off, so post as a regular v2 Reel if it still stands up. No cutouts yet for either man (new names; workflow fetches from Wikipedia: 'Tye Ruotolo', 'Christian Lee (fighter)'/'Christian Lee')"
+      ],
+      "sources": [
+        "https://www.onefc.com/news/the-inner-circle-37-main-event-result-tye-ruotolo-dethrones-christian-lee-in-round-one-crowned-two-sport-king/",
+        "https://middleeasy.com/mma-news/christian-lee-tye-ruotolo-inner-circle37-weigh-in-results/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "misc-nov-5-10pm",
       "title": "Nov 5 10 PM run: nothing qualified (no posts)",
       "people": [
