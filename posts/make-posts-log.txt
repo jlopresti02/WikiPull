@@ -1,42 +1,49 @@
-Searching Wikimedia Commons for: Yair Rodríguez
-  saved images/yair-rodr-guez/01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped.jpg  [CC0]
-  saved images/yair-rodr-guez/02-carrera-con-yair-pantera-rodr-guez-i-i-30737872506.jpg  [CC0]
-  saved images/yair-rodr-guez/03-carrera-con-yair-pantera-rodr-guez-i-i-30657692492.jpg  [CC0]
-  saved images/yair-rodr-guez/04-carrera-con-yair-pantera-rodr-guez-i-i-30657689672.jpg  [CC0]
-  saved images/yair-rodr-guez/05-carrera-con-yair-pantera-rodr-guez-i-i-30473901050.jpg  [CC0]
+Searching Wikimedia Commons for: Tye Ruotolo
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Christian Lee (fighter)
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Christian Lee
+  saved images/christian-lee/01-christian-lee-hutson-36817408136.jpg  [CC BY 2.0]
+  saved images/christian-lee/02-christian-lee-hutson-36817409846.jpg  [CC BY 2.0]
+  saved images/christian-lee/03-christian-lee-hutson-36817409396.jpg  [CC BY 2.0]
+  saved images/christian-lee/04-christian-lee-hutson-21729694976.jpg  [CC BY 2.0]
+  saved images/christian-lee/05-christian-lee-hutson-21755801985.jpg  [CC BY 2.0]
 Done: 5 image(s) saved.
-[0;93m2026-11-05 23:11:58.895682015 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-06 23:07:16.930453701 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/yair-rodr-guez/cutouts/01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped.png
-  cutout images/yair-rodr-guez/cutouts/02-carrera-con-yair-pantera-rodr-guez-i-i-30737872506.png
-  cutout images/yair-rodr-guez/cutouts/03-carrera-con-yair-pantera-rodr-guez-i-i-30657692492.png
-  cutout images/yair-rodr-guez/cutouts/04-carrera-con-yair-pantera-rodr-guez-i-i-30657689672.png
-  cutout images/yair-rodr-guez/cutouts/05-carrera-con-yair-pantera-rodr-guez-i-i-30473901050.png
+  cutout images/christian-lee/cutouts/01-christian-lee-hutson-36817408136.png
+  cutout images/christian-lee/cutouts/02-christian-lee-hutson-36817409846.png
+  cutout images/christian-lee/cutouts/03-christian-lee-hutson-36817409396.png
+  cutout images/christian-lee/cutouts/04-christian-lee-hutson-21729694976.png
+  cutout images/christian-lee/cutouts/05-christian-lee-hutson-21755801985.png
 Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Steve Garcia
-  saved images/steve-garcia/01-ufc-freedom-250-press-conference-at-the-lincoln-memorial-in-.jpg  [Public domain]
-  saved images/steve-garcia/02-steve-garcia-galaxycon-oklahoma-city-052026-2.jpg  [CC BY-SA 4.0]
-  saved images/steve-garcia/03-steve-garcia-galaxycon-oklahoma-city-05232026-6.jpg  [CC BY-SA 4.0]
-  saved images/steve-garcia/04-steve-garcia-galaxycon-oklahoma-city-05232026-5.jpg  [CC BY-SA 4.0]
-  saved images/steve-garcia/05-steve-garcia-galaxycon-oklahoma-city-05232026-2.jpg  [CC BY-SA 4.0]
-Done: 5 image(s) saved.
-[0;93m2026-11-05 23:14:46.975586087 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/steve-garcia/cutouts/01-ufc-freedom-250-press-conference-at-the-lincoln-memorial-in-.png
-  cutout images/steve-garcia/cutouts/02-steve-garcia-galaxycon-oklahoma-city-052026-2.png
-  cutout images/steve-garcia/cutouts/03-steve-garcia-galaxycon-oklahoma-city-05232026-6.png
-  cutout images/steve-garcia/cutouts/04-steve-garcia-galaxycon-oklahoma-city-05232026-5.png
-  cutout images/steve-garcia/cutouts/05-steve-garcia-galaxycon-oklahoma-city-05232026-2.png
-Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Tye Ruotolo
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Christian Lee (fighter)
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-11-05-1815-yair-garcia-ufc-335.json
-$ fetch.py Yair Rodríguez --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/yair-rodr-guez
-Image: {'type': 'fighter', 'name': 'Yair Rodríguez'} -> fighter images/yair-rodr-guez/cutouts/01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped.png  headline: Pantera Back
-v2 left: images/yair-rodr-guez/cutouts/01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped.png
-$ fetch.py Steve Garcia --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/steve-garcia
-v2 right: images/steve-garcia/cutouts/01-ufc-freedom-250-press-conference-at-the-lincoln-memorial-in-.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-11-05-1815-yair-garcia-ufc-335/post.png (fighter)
-Rendered posts/2026-11-05-1815-yair-garcia-ufc-335/reel.mp4 (format v2)
+== 2026-11-06-1815-ruotolo-dethrones-lee.json
+$ fetch.py Tye Ruotolo --count 5
+$ fetch.py Christian Lee (fighter) --count 5
+$ fetch.py Christian Lee --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/christian-lee
+Image: {'type': 'fighter', 'name': 'Christian Lee'} -> fighter images/christian-lee/cutouts/01-christian-lee-hutson-36817408136.png  headline: New King
+$ fetch.py Tye Ruotolo --count 5
+v2 left: silhouette
+$ fetch.py Christian Lee (fighter) --count 5
+v2 right: images/christian-lee/cutouts/01-christian-lee-hutson-36817408136.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-11-06-1815-ruotolo-dethrones-lee/post.png (fighter)
+Rendered posts/2026-11-06-1815-ruotolo-dethrones-lee/reel.mp4 (format v2)
