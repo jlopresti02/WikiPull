@@ -1,0 +1,30 @@
+{
+  "story_id": "tye-ruotolo-dethrones-christian-lee-inner-circle-37",
+  "headline": "New King",
+  "visual": [
+    {"type": "fighter", "name": "Tye Ruotolo"},
+    {"type": "fighter", "name": "Christian Lee (fighter)"},
+    {"type": "fighter", "name": "Christian Lee"}
+  ],
+  "color": "#f5c518",
+  "caption": "Tye Ruotolo just choked out Christian Lee in Round 1 to take the ONE lightweight title.\nFluke or for real? 👇\n\nThe grappling prodigy is now 3-0 in MMA and the first two-sport world champion in ONE Championship history. Lee, fighting to avenge his brother Adrian, tapped at 2:08 at ONE The Inner Circle 37 in Bangkok.\n\n🔥 Hot take: Tye Ruotolo is the scariest lightweight on the planet right now.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMA", "ONEChampionship", "ONEInnerCircle37", "TyeRuotolo", "ChristianLee"],
+  "sources": ["ONE Championship", "MiddleEasy"],
+  "music_pool": "espn",
+  "question": "Fluke or for real?",
+  "hot_take": "Tye Ruotolo is the *scariest* lightweight on the planet.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "ONE · LIGHTWEIGHT TITLE",
+    "kicker": "NEW CHAMPION",
+    "hook": "Ruotolo vs Lee",
+    "left": [{"name": "Tye Ruotolo"}],
+    "right": [{"name": "Christian Lee (fighter)"}, {"name": "Christian Lee"}],
+    "story": "Grappling star Tye Ruotolo submitted Christian Lee in Round 1 to win ONE lightweight gold.",
+    "chips": ["RNC · R1 2:08", "RUOTOLO 3-0 IN MMA", "FIRST 2-SPORT CHAMP"],
+    "options": ["FLUKE", "FOR REAL"],
+    "question": "Fluke or for real?"
+  }
+}

@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-6-6pm",
+      "title": "Nov 6 6 PM run: Ruotolo title win posted from the evening hold; nothing else qualified",
+      "people": [
+        "Waldo Cortes-Acosta",
+        "Johnny Walker",
+        "Islam Makhachev"
+      ],
+      "event": null,
+      "first_reported": "2026-11-06",
+      "facts": [
+        "UFC Vegas 124 weigh-ins: every fighter made weight; Cortes-Acosta 262 vs. Walker 239 (Sherdog, MiddleEasy); main event already posted Oct 29",
+        "Skipped (already covered): Dana White on Makhachev verbally agreeing to UFC 336 before pulling out",
+        "No new official star bookings, withdrawals, title changes or signings found since the 1 PM run; no qualifying adjacent-sports story (Trial Reels off anyway)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty before this run"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-124-weighin-results-All-fighters-make-weight-203521",
+        "https://middleeasy.com/mma-news/ufc-vegas124-official-weigh-in-results-cortes-acosta-walker/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-6-pm",
       "title": "Nov 6 1 PM run: nothing new qualified; Ruotolo still held for the evening (no posts)",
       "people": [
@@ -68,14 +90,21 @@
         "Ruotolo is now 3-0 in MMA; he already held the ONE welterweight submission grappling title, making him the first two-sport world champion in ONE history; earned a US$100,000 bonus",
         "Lee entered as a two-division champ, back after a year out, calling it a revenge fight for his brother Adrian Lee, whose first pro loss came against Ruotolo",
         "Weights: Lee 169.6 lb, Ruotolo 169.8 lb (MiddleEasy)",
-        "Title change = major news; held for the evening (reach recovery mode). Under recovery rules Trial Reels are off, so post as a regular v2 Reel if it still stands up. No cutouts yet for either man (new names; workflow fetches from Wikipedia: 'Tye Ruotolo', 'Christian Lee (fighter)'/'Christian Lee')"
+        "Title change = major news; held for the evening (reach recovery mode). Under recovery rules Trial Reels are off, so post as a regular v2 Reel if it still stands up. No cutouts yet for either man (new names; workflow fetches from Wikipedia: 'Tye Ruotolo', 'Christian Lee (fighter)'/'Christian Lee')",
+        "6 PM run: still stands up (same-day title change); posted as a regular v2 Reel (Trial Reels off under reach recovery)"
       ],
       "sources": [
         "https://www.onefc.com/news/the-inner-circle-37-main-event-result-tye-ruotolo-dethrones-christian-lee-in-round-one-crowned-two-sport-king/",
         "https://middleeasy.com/mma-news/christian-lee-tye-ruotolo-inner-circle37-weigh-in-results/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-11-06-1815-ruotolo-dethrones-lee",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "misc-nov-5-10pm",
