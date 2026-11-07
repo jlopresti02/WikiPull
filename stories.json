@@ -2,6 +2,32 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-6-10pm",
+      "title": "Nov 6 10 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
+      "people": [
+        "Tye Ruotolo",
+        "Christian Lee",
+        "Lucas Gabriel",
+        "Magomed Magomedov",
+        "Ilia Topuria"
+      ],
+      "event": null,
+      "first_reported": "2026-11-06",
+      "facts": [
+        "Still held for photo: Tye Ruotolo submits Christian Lee for ONE lightweight title; no Drive photos of Ruotolo or Lee yet (stale after ~Nov 8)",
+        "ONE Fight Night 49 (Lumpinee, Nov 6 US primetime): Lucas Gabriel vs. 15-0 debutant Magomed Magomedov for lightweight contention; results not confirmed by a readable source this run, and neither is a star (reach recovery: star + conflict only, no Trial Reels), so skipped",
+        "Skipped (talk): Ilia Topuria says one more round vs. Justin Gaethje would have ended his UFC career (Bloody Elbow, Nov 6); Dana White podcast moment with Deontay Wilder (Bloody Elbow)",
+        "No new official star bookings, withdrawals, title changes or signings found since the 6 PM run; UFC Vegas 124 is Saturday Nov 7",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: latest Reel (Yair vs Garcia, Nov 5) 75 views, 2.6 s avg watch, no recovery yet"
+      ],
+      "sources": [
+        "https://www.onefc.com/events/onefightnight49/",
+        "https://bloodyelbow.com/2026/11/06/ilia-topuria-admits-one-more-round-against-justin-gaethje-would-have-ended-his-ufc-career/",
+        "https://bloodyelbow.com/2026/11/06/dana-white-boasts-of-improved-bedroom-energy-in-awkward-podcast-moment-with-deontay-wilder/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-6-6pm",
       "title": "Nov 6 6 PM run: Ruotolo title win held for photo; nothing else qualified (no posts)",
       "people": [
