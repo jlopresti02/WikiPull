@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-7-pm",
+      "title": "Nov 7 1 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
+      "people": [
+        "Waldo Cortes-Acosta",
+        "Johnny Walker",
+        "Alexander Volkanovski",
+        "Justin Gaethje",
+        "Tye Ruotolo"
+      ],
+      "event": null,
+      "first_reported": "2026-11-07",
+      "facts": [
+        "No new official star bookings, withdrawals, title changes, vacated belts or signings found since the 9 AM run (web searches; direct page fetches of MMA Mania, Cageside, Bloody Elbow, Sherdog and onefc.com were blocked this run)",
+        "Skipped (not new): Dana White open to Volkanovski vs. Gaethje but waiting on Gaethje's decision (Cageside, Nov 5); not booked, already in ledger",
+        "UFC Vegas 124 (Cortes-Acosta vs. Walker) tonight; no fight-day changes found; main event already posted Oct 29",
+        "Still held for photo: Tye Ruotolo submits Christian Lee for ONE lightweight title; no Drive photos of Ruotolo or Lee (stale after ~Nov 8)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: Yair vs Garcia Reel still 129 views, 2.8 s avg watch, no change since 9 AM"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/05/white-open-volk-gaethje-waiting-lightweight-champs",
+        "https://www.ufc.com/news/updates-ufc-fight-night-cortes-acosta-vs-walker"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-7-am",
       "title": "Nov 7 9 AM run: nothing qualified; Ruotolo still held for photo (no posts)",
       "people": [
