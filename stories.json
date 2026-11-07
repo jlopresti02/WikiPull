@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-7-6pm",
+      "title": "Nov 7 6 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
+      "people": [
+        "Waldo Cortes-Acosta",
+        "Johnny Walker",
+        "Jake Paul",
+        "Cedric Doumbe",
+        "Carlos Prates",
+        "Tye Ruotolo"
+      ],
+      "event": "UFC Vegas 124",
+      "first_reported": "2026-11-07",
+      "facts": [
+        "No new official star bookings, withdrawals, title changes, vacated belts or signings found since the 1 PM run",
+        "UFC Vegas 124 (Cortes-Acosta vs. Walker) under way tonight; all fighters made weight (Sherdog); early prelims: Jose Henrique Souza KO'd Johnny Parsons, Seok-hyeon Ko vs. Wellington Turman went the distance (Cageside Press); no star results yet, main event results for the 10 PM run / results carousel Sunday 9 AM",
+        "Skipped (not new / adjacent, Trial Reels off): Jake Paul vs. Cedric Doumbe boxing, Dec 24 Dubai (announced Nov 2); Carlos Prates new-deal pay talk; Osmanli reportedly booked for UFC debut (not a star)",
+        "Still held for photo: Tye Ruotolo submits Christian Lee for ONE lightweight title; no Drive photos of Ruotolo or Lee (stale after ~Nov 8)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: Yair vs Garcia Reel still 129 views, 2.8 s avg watch, no change"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/07/jose-henrique-souza-flattens-johnny-parsons-with-brutal-uppercut",
+        "https://cagesidepress.com/2026/11/07/ufc-vegas-124-seok-hyeon-ko-takes-wellington-turman-the-distance",
+        "https://www.sherdog.com/news/news/UFC-Vegas-124-weighin-results-All-fighters-make-weight-203521",
+        "https://cagesidepress.com/2026/11/02/jake-paul-cedric-doumbe-next/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-7-pm",
       "title": "Nov 7 1 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
       "people": [
