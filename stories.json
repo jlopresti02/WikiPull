@@ -31,7 +31,9 @@
         {
           "post": "2026-11-08-0915-ufc-vegas-124-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-11-08T09:30:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2259031918321384618"
         }
       ]
     },
@@ -50,7 +52,8 @@
         "No new official star bookings, withdrawals, title changes in UFC, vacated belts or signings found since the 10 PM run",
         "Walker's main event TKO and Suarez's co-main win covered by the results carousel; no post-fight callouts found in reputable outlets yet, so no separate Reel (would repeat the carousel). If a booking or callout for Walker/Suarez lands, it can qualify as an update",
         "RIZIN 55 (Nov 8, Funabashi): Tony Laramie def. Makoto Takahashi by split decision for the RIZIN flyweight title (Cageside Press) - skipped, not a known name to this audience",
-        "Ruotolo held story dropped as stale; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start"
+        "Ruotolo held story dropped as stale; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start",
+        "Reach check: Yair vs Garcia Reel 132 views, 2.9 s avg watch (was 129), no real change"
       ],
       "sources": [
         "https://cagesidepress.com/2026/11/08/rizin-55-full-results"
