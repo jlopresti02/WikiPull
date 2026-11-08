@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-7-10pm",
+      "title": "Nov 7 10 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
+      "people": [
+        "Waldo Cortes-Acosta",
+        "Johnny Walker",
+        "Virna Jandiroba",
+        "Tatiana Suarez",
+        "Tye Ruotolo"
+      ],
+      "event": "UFC Vegas 124",
+      "first_reported": "2026-11-07",
+      "facts": [
+        "No new official star bookings, withdrawals, title changes, vacated belts or signings found since the 6 PM run",
+        "UFC Vegas 124 in progress: Sherdog has Souza KO Parsons R1, Ko UD Turman, Petroski TKO Kondratavicius R2, Bashi sub Calderon R1, Murtazali Magomedov UD Delano, Karine Silva UD Fernandes; Jandiroba vs. Suarez and Cortes-Acosta vs. Walker not yet confirmed at run time. Results carousel for the Sunday 9 AM run",
+        "Still held for photo: Tye Ruotolo submits Christian Lee (no new Drive files); stale after ~Nov 8, 9 AM run should drop it if no photo",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: Yair vs Garcia Reel still 129 views, 2.8 s avg watch, no change"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-124-CortesAcosta-vs-Walker-playbyplay-results-round-scoring-203525"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-7-6pm",
       "title": "Nov 7 6 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
       "people": [
