@@ -1,0 +1,29 @@
+{
+  "story_id": "adesanya-signs-bout-agreement-return",
+  "headline": "It's Official",
+  "visual": [
+    {"type": "fighter", "name": "Israel Adesanya", "file": "01-israel-adesanya-at-ufc-230"},
+    {"type": "fighter", "name": "Sharabutdin Magomedov", "file": "01-sharabutdin-magomedov-2024"}
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Israel Adesanya vs. Shara Magomedov is officially on, and Izzy is headlining.\nIzzy or Shara? 👇\n\nThe UFC confirmed the middleweight fight tops UFC Saudi Arabia on Dec. 5, ending Adesanya's 9-month layoff. Ian Machado Garry vs. 30-1 Yaroslav Amosov is the co-main.\n\n🔥 Hot take: Lose this one and Izzy's title days are over for good.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFCSaudiArabia", "IsraelAdesanya", "SharaMagomedov"],
+  "sources": ["CBS Sports", "theScore", "MMA News", "Cageside Press"],
+  "music_pool": "espn",
+  "question": "Izzy or Shara?",
+  "hot_take": "Lose this one and Izzy's title days are *over*.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · MIDDLEWEIGHT",
+    "kicker": "MAIN EVENT SET",
+    "hook": "Izzy vs Shara",
+    "left": [{"name": "Israel Adesanya", "file": "01-israel-adesanya-at-ufc-230"}],
+    "right": [{"name": "Sharabutdin Magomedov", "file": "01-sharabutdin-magomedov-2024"}, {"name": "Shara Magomedov"}],
+    "story": "Now official: Adesanya returns against Shara Magomedov to headline UFC Saudi Arabia.",
+    "chips": ["DEC 5 · ANB ARENA", "SHARA 17-1", "CO-MAIN: GARRY VS AMOSOV"],
+    "options": ["IZZY", "SHARA"],
+    "question": "Izzy or Shara?"
+  }
+}
