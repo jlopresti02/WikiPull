@@ -38,6 +38,7 @@ Output goes to posts/<post name>/:
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -106,6 +107,8 @@ def names(v):
 
 
 def last_name(full):
+    # "Johnny Walker (fighter)" -> "Walker": drop Wikipedia disambiguators.
+    full = re.sub(r"\s*\([^)]*\)", "", full).strip()
     parts = full.split()
     return parts[-1] if len(parts) > 1 else full
 
