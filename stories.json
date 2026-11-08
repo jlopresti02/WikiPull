@@ -2,6 +2,54 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "dana-white-offered-white-house-press-secretary",
+      "title": "Trump offers Dana White the White House press secretary job; White to meet him Monday",
+      "people": [
+        "Dana White",
+        "Donald Trump"
+      ],
+      "event": null,
+      "first_reported": "2026-11-07",
+      "held_for_evening": true,
+      "facts": [
+        "President Trump said on Truth Social (Sat Nov 7) he offered UFC CEO Dana White the White House press secretary role, suggesting he bring UFC fighters as 'assistants' (ESPN/AP)",
+        "White told reporters he was flying to Washington and has a meeting with Trump on Monday, Nov 9; he did not say whether he would accept; posted the offer on Instagram captioned 'On to the next chapter' (ESPN)",
+        "CNN reported, citing a source, that White is not taking the job; nothing official either way as of Nov 8 1 PM",
+        "Job open since Karoline Leavitt left at the end of August (ESPN); no report yet on what it would mean for White's UFC/TKO role",
+        "Held at 1 PM for the 6 PM run (reach recovery: evening only). Qualifies only as a possible UFC leadership shake-up; Dana IS the story so his photo is fine (images/dana-white). Keep caption strictly neutral/non-political, word CNN claim as a report. If White accepts or declines before posting, post that instead; if still pending, 6 PM run decides whether it stands up. Missed by the Nov 7 6 PM/10 PM and Nov 8 9 AM sweeps"
+      ],
+      "sources": [
+        "https://www.espn.com/espn/story/_/id/50412085/trump-offers-press-secretary-role-ufc-boss-dana-white",
+        "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039",
+        "https://www.cbsnews.com/news/trump-offers-white-house-press-secretary-role-dana-white/",
+        "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary"
+      ],
+      "posts": []
+    },
+    {
+      "id": "misc-nov-8-pm",
+      "title": "Nov 8 1 PM run: Dana White press secretary story held for the evening (no posts)",
+      "people": [
+        "Dana White",
+        "Tatiana Suarez",
+        "Johnny Walker"
+      ],
+      "event": "UFC Vegas 124",
+      "first_reported": "2026-11-08",
+      "facts": [
+        "Held for evening: Trump offers Dana White White House press secretary job (see dana-white-offered-white-house-press-secretary)",
+        "Skipped (callouts, no booking): Tatiana Suarez calls for a title shot after beating Jandiroba (Yahoo/Heavy); Johnny Walker eyes a heavyweight title shot (BVM Sports); both results already in the Vegas 124 carousel",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 9 AM run; no notable boxing/adjacent news (Trial Reels off anyway)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty; reach check: Yair vs Garcia Reel 132 views, 2.9 s avg watch, no change"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/tatiana-suarez-calls-title-shot-170409088.html",
+        "https://heavy.com/sports/ufc/tatiana-suarez-calls-for-title-shot-next/",
+        "https://bvmsports.com/2026/11/07/johnny-walker-stops-cortes-acosta-eyes-heavyweight-title-shot/"
+      ],
+      "posts": []
+    },
+    {
       "id": "ufc-vegas-124-results",
       "title": "UFC Vegas 124 results: Johnny Walker TKOs Waldo Cortes-Acosta in Round 3",
       "people": [
