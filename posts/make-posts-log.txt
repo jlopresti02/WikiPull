@@ -3,6 +3,6 @@
 Image: {'type': 'fighter', 'name': 'Israel Adesanya', 'file': '01-israel-adesanya-at-ufc-230'} -> fighter images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png  headline: It's Official
 v2 left: images/israel-adesanya/cutouts/01-israel-adesanya-at-ufc-230.png
 v2 right: images/sharabutdin-magomedov/cutouts/01-sharabutdin-magomedov-2024.png
-Music: music/action-sport/01-crystals.mp3 from 164.0s
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
 Rendered posts/2026-11-08-1815-izzy-shara-official/post.png (fighter)
 Rendered posts/2026-11-08-1815-izzy-shara-official/reel.mp4 (format v2)
