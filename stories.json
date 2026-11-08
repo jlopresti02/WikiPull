@@ -2,6 +2,62 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "ufc-vegas-124-results",
+      "title": "UFC Vegas 124 results: Johnny Walker TKOs Waldo Cortes-Acosta in Round 3",
+      "people": [
+        "Johnny Walker",
+        "Waldo Cortes-Acosta",
+        "Tatiana Suarez",
+        "Virna Jandiroba",
+        "Elijah Smith",
+        "Davey Grant",
+        "Thomas Petersen"
+      ],
+      "event": "UFC Vegas 124",
+      "first_reported": "2026-11-08",
+      "facts": [
+        "Walker def. Cortes-Acosta, TKO (punches) R3 2:27, heavyweight; Walker's second straight heavyweight win",
+        "Suarez def. Jandiroba, UD 30-27, 30-27, 29-28",
+        "Elijah Smith KO Davey Grant R1 1:00",
+        "Bonuses (Forbes): FOTN Walker vs Cortes-Acosta; POTN Elijah Smith, Thomas Petersen; finish bonuses Bashi, Petroski, Souza, Milosevic",
+        "Full card in carousel; Bashi time 1:07 (Sherdog) vs 1:01 (Yahoo) - list shows Sub R1 only"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/UFC-Vegas-124-CortesAcosta-vs-Walker-playbyplay-results-round-scoring-203525",
+        "https://sports.yahoo.com/mma/breaking-news/article/ufc-vegas-124-johnny-walker-stuns-waldo-cortes-acosta-for-second-straight-win-at-heavyweight-041107483.html",
+        "https://sports.yahoo.com/articles/short-notice-ufc-main-event-072555756.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-08-0915-ufc-vegas-124-results",
+          "kind": "new",
+          "format": "carousel"
+        }
+      ]
+    },
+    {
+      "id": "misc-nov-8-am",
+      "title": "Nov 8 9 AM run: UFC Vegas 124 results carousel; nothing held for the evening",
+      "people": [
+        "Johnny Walker",
+        "Tatiana Suarez",
+        "Tony Laramie",
+        "Tye Ruotolo"
+      ],
+      "event": "UFC Vegas 124",
+      "first_reported": "2026-11-08",
+      "facts": [
+        "No new official star bookings, withdrawals, title changes in UFC, vacated belts or signings found since the 10 PM run",
+        "Walker's main event TKO and Suarez's co-main win covered by the results carousel; no post-fight callouts found in reputable outlets yet, so no separate Reel (would repeat the carousel). If a booking or callout for Walker/Suarez lands, it can qualify as an update",
+        "RIZIN 55 (Nov 8, Funabashi): Tony Laramie def. Makoto Takahashi by split decision for the RIZIN flyweight title (Cageside Press) - skipped, not a known name to this audience",
+        "Ruotolo held story dropped as stale; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/08/rizin-55-full-results"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-7-10pm",
       "title": "Nov 7 10 PM run: nothing qualified; Ruotolo still held for photo (no posts)",
       "people": [
@@ -221,14 +277,14 @@
         "Lee entered as a two-division champ, back after a year out, calling it a revenge fight for his brother Adrian Lee, whose first pro loss came against Ruotolo",
         "Weights: Lee 169.6 lb, Ruotolo 169.8 lb (MiddleEasy)",
         "Title change = major news; held for the evening (reach recovery mode). Under recovery rules Trial Reels are off, so post as a regular v2 Reel if it still stands up. No cutouts yet for either man (new names; workflow fetches from Wikipedia: 'Tye Ruotolo', 'Christian Lee (fighter)'/'Christian Lee')",
-        "6 PM run: queued as v2 Reel 2026-11-06-1815-ruotolo-dethrones-lee but NOT scheduled: Wikimedia has no photo of Tye Ruotolo (silhouette) and 'Christian Lee' matched musician Christian Lee Hutson (wrong image folder deleted). Held for photo: needs Drive photos of Tye Ruotolo and Christian Lee; re-queue with file names when they arrive (stale after ~Nov 8)"
+        "6 PM run: queued as v2 Reel 2026-11-06-1815-ruotolo-dethrones-lee but NOT scheduled: Wikimedia has no photo of Tye Ruotolo (silhouette) and 'Christian Lee' matched musician Christian Lee Hutson (wrong image folder deleted). Held for photo: needs Drive photos of Tye Ruotolo and Christian Lee; re-queue with file names when they arrive (stale after ~Nov 8)",
+        "Nov 8 9 AM run: dropped as stale (no Drive photo of Tye Ruotolo or Christian Lee arrived; >2 days old). Not posted"
       ],
       "sources": [
         "https://www.onefc.com/news/the-inner-circle-37-main-event-result-tye-ruotolo-dethrones-christian-lee-in-round-one-crowned-two-sport-king/",
         "https://middleeasy.com/mma-news/christian-lee-tye-ruotolo-inner-circle37-weigh-in-results/"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": []
     },
     {
       "id": "misc-nov-5-10pm",
