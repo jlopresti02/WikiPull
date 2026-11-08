@@ -2,6 +2,75 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "adesanya-signs-bout-agreement-return",
+      "title": "Israel Adesanya vs. Shara Magomedov official for UFC Saudi Arabia main event, Dec 5; Garry vs. Amosov co-main",
+      "people": [
+        "Israel Adesanya",
+        "Sharabutdin Magomedov",
+        "Ian Machado Garry",
+        "Yaroslav Amosov"
+      ],
+      "event": "UFC Saudi Arabia (Dec 5, ANB Arena)",
+      "first_reported": "2026-10-28",
+      "facts": [
+        "On the Precision Podcast Adesanya said he signed his bout agreement the day before; didn't name the opponent (Sherdog, Oct 28)",
+        "Linked to Sharabutdin 'Shara Bullet' Magomedov on Dec 5 (reported by Ariel Helwani earlier, not officially announced); says his four-fight skid ends and he feels 'found' again",
+        "Update to adesanya-vs-shara-bullet-ufc-saudi-arabia-report (never posted). Oct 29 1 PM run: qualifies (star's return fight signed); held for evening, rank 2 behind Brady out. Suggested v2: left Israel Adesanya (has cutouts: 01-israel-adesanya-at-ufc-230), right Sharabutdin Magomedov (no cutouts yet; try 'Sharabutdin Magomedov', 'Shara Magomedov'; if no photo, hold)",
+        "UPDATE Nov 8 6 PM run: UFC made it official (announced on the UFC Vegas 124 broadcast, Nov 7): Adesanya (24-6) vs. Shara Magomedov (17-1) headlines UFC Saudi Arabia, Dec 5, ANB Arena (CBS Sports, theScore, MMA News, Cageside Press)",
+        "New: Ian Machado Garry (17-2, coming off the UFC 330 title loss to Makhachev) vs. Yaroslav Amosov (30-1, ex-Bellator welterweight champ) is the co-main",
+        "Missed by the Nov 7 10 PM, Nov 8 9 AM and 1 PM sweeps. Garry has no photo in images/ or Drive, so Garry vs. Amosov folded into this post rather than its own Reel"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Israel-Adesanya-signs-UFC-bout-agreement-says-his-fourfight-skid-will-end-203395",
+        "https://bloodyelbow.com/2026/10/28/israel-adesanya-opens-up-on-losing-streak-after-signing-return-fight-contract-ive-been-lost/",
+        "https://www.cbssports.com/ufc/news/ufc-fight-night-saudi-arabia-israel-adesanya-vs-shara-magomedov-date-card/",
+        "https://www.thescore.com/mma/news/3648497/adesanya-magomedov-garry-amosov-to-headline-ufc-saudi-arabia",
+        "https://www.mmanews.com/article/ufc-saudi-arabia-announced-december-5",
+        "https://cagesidepress.com/2026/11/07/israel-adesanya-vs-shara-bullet-headlines-ufc-saudi-arabia-ian-garry-vs-yaroslav-amosov-co-main/"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-29-1816-adesanya-signs-return",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-29T19:30:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5436720096859569395"
+        },
+        {
+          "post": "2026-11-08-1815-izzy-shara-official",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "misc-nov-8-6pm",
+      "title": "Nov 8 6 PM run: Adesanya vs. Shara official (update Reel); Dana story not posted",
+      "people": [
+        "Israel Adesanya",
+        "Shara Magomedov",
+        "Ian Machado Garry",
+        "Yaroslav Amosov",
+        "Dana White",
+        "Johnny Walker",
+        "Alexander Volkov"
+      ],
+      "event": "UFC Saudi Arabia",
+      "first_reported": "2026-11-08",
+      "facts": [
+        "Posted: Adesanya vs. Shara official + Garry vs. Amosov co-main (update)",
+        "Skipped (talk): Johnny Walker says Alexander Volkov deserves the heavyweight title shot (Yahoo/MMA Junkie)",
+        "Dana White press secretary story: not posted (see its entry)",
+        "No other new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/johnny-walker-alexander-volkov-deserves-194021011.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "dana-white-offered-white-house-press-secretary",
       "title": "Trump offers Dana White the White House press secretary job; White to meet him Monday",
       "people": [
@@ -10,19 +79,20 @@
       ],
       "event": null,
       "first_reported": "2026-11-07",
-      "held_for_evening": true,
       "facts": [
         "President Trump said on Truth Social (Sat Nov 7) he offered UFC CEO Dana White the White House press secretary role, suggesting he bring UFC fighters as 'assistants' (ESPN/AP)",
         "White told reporters he was flying to Washington and has a meeting with Trump on Monday, Nov 9; he did not say whether he would accept; posted the offer on Instagram captioned 'On to the next chapter' (ESPN)",
         "CNN reported, citing a source, that White is not taking the job; nothing official either way as of Nov 8 1 PM",
         "Job open since Karoline Leavitt left at the end of August (ESPN); no report yet on what it would mean for White's UFC/TKO role",
-        "Held at 1 PM for the 6 PM run (reach recovery: evening only). Qualifies only as a possible UFC leadership shake-up; Dana IS the story so his photo is fine (images/dana-white). Keep caption strictly neutral/non-political, word CNN claim as a report. If White accepts or declines before posting, post that instead; if still pending, 6 PM run decides whether it stands up. Missed by the Nov 7 6 PM/10 PM and Nov 8 9 AM sweeps"
+        "Held at 1 PM for the 6 PM run (reach recovery: evening only). Qualifies only as a possible UFC leadership shake-up; Dana IS the story so his photo is fine (images/dana-white). Keep caption strictly neutral/non-political, word CNN claim as a report. If White accepts or declines before posting, post that instead; if still pending, 6 PM run decides whether it stands up. Missed by the Nov 7 6 PM/10 PM and Nov 8 9 AM sweeps",
+        "Nov 8 6 PM run: not posted. Still only an offer (meeting Monday Nov 9; CNN source says he's declining), so not yet a UFC leadership change under the major-news-only rule; v2's VS badge would also frame Dana vs. Trump as a feud, which it isn't. New since 1 PM: Trump shared an AI cartoon of Dana's press briefings with fighters roughing up reporters (WaPo, The Hill) - political, skipped. Post only when White's decision is reported: accepting = UFC leadership shake-up (breaking-news level); declining = a short update can qualify"
       ],
       "sources": [
         "https://www.espn.com/espn/story/_/id/50412085/trump-offers-press-secretary-role-ufc-boss-dana-white",
         "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039",
         "https://www.cbsnews.com/news/trump-offers-white-house-press-secretary-role-dana-white/",
-        "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary"
+        "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+        "https://www.washingtonpost.com/politics/2026/11/08/trump-shares-cartoon-ufc-fighters-beating-reporters-after-offering-dana-white-press-job/"
       ],
       "posts": []
     },
@@ -1141,35 +1211,6 @@
           "style": "v2",
           "scheduled_for": "2026-10-29T19:00:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4383849089516485323"
-        }
-      ]
-    },
-    {
-      "id": "adesanya-signs-bout-agreement-return",
-      "title": "Israel Adesanya signs bout agreement for his UFC return, reportedly vs. Sharabutdin Magomedov Dec 5",
-      "people": [
-        "Israel Adesanya",
-        "Sharabutdin Magomedov"
-      ],
-      "event": "Reportedly UFC Fight Night Riyadh (Dec 5)",
-      "first_reported": "2026-10-28",
-      "facts": [
-        "On the Precision Podcast Adesanya said he signed his bout agreement the day before; didn't name the opponent (Sherdog, Oct 28)",
-        "Linked to Sharabutdin 'Shara Bullet' Magomedov on Dec 5 (reported by Ariel Helwani earlier, not officially announced); says his four-fight skid ends and he feels 'found' again",
-        "Update to adesanya-vs-shara-bullet-ufc-saudi-arabia-report (never posted). Oct 29 1 PM run: qualifies (star's return fight signed); held for evening, rank 2 behind Brady out. Suggested v2: left Israel Adesanya (has cutouts: 01-israel-adesanya-at-ufc-230), right Sharabutdin Magomedov (no cutouts yet; try 'Sharabutdin Magomedov', 'Shara Magomedov'; if no photo, hold)"
-      ],
-      "sources": [
-        "https://www.sherdog.com/news/news/Israel-Adesanya-signs-UFC-bout-agreement-says-his-fourfight-skid-will-end-203395",
-        "https://bloodyelbow.com/2026/10/28/israel-adesanya-opens-up-on-losing-streak-after-signing-return-fight-contract-ive-been-lost/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-29-1816-adesanya-signs-return",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2",
-          "scheduled_for": "2026-10-29T19:30:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5436720096859569395"
         }
       ]
     },
