@@ -41,7 +41,10 @@
           "post": "2026-11-08-1815-izzy-shara-official",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-08T20:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=2769939517669525263",
+          "image": "v2: Israel Adesanya (Wikimedia) vs Sharabutdin Magomedov (Wikimedia)"
         }
       ]
     },
@@ -63,7 +66,8 @@
         "Posted: Adesanya vs. Shara official + Garry vs. Amosov co-main (update)",
         "Skipped (talk): Johnny Walker says Alexander Volkov deserves the heavyweight title shot (Yahoo/MMA Junkie)",
         "Dana White press secretary story: not posted (see its entry)",
-        "No other new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start"
+        "No other new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start",
+        "Reach check: last Reel (Yair vs Garcia) still 132 views, 2.9 s avg watch; no change. Re-rendered once: the long 'UFC SAUDI ARABIA · MIDDLEWEIGHT' tag box overlapped the brand bar, shortened to 'UFC · MIDDLEWEIGHT'"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/johnny-walker-alexander-volkov-deserves-194021011.html"
