@@ -2,6 +2,59 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-9-6pm",
+      "title": "Nov 9 6 PM run: Covington out / Weidman vs. Chimaev at RAF Abu Dhabi (Reel); rest skipped",
+      "people": [
+        "Dana White",
+        "Maycee Barber",
+        "Roberto Soldic"
+      ],
+      "event": null,
+      "first_reported": "2026-11-09",
+      "facts": [
+        "Skipped: Dana White took the White House briefing-room podium Monday with Trump; still no appointment and no change to his UFC role (KFOX/The National Desk). Political, not a UFC leadership change",
+        "Skipped (outside window, unconfirmed): Maycee Barber reportedly out of UFC 335 vs. Carli Judice (EssentiallySports, Nov 6, citing a content creator)",
+        "Skipped (not a star/ranked contender): Roberto Soldic vs. Daniel Rodriguez targeted for UFC Dallas (Yahoo)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start"
+      ],
+      "sources": [
+        "https://kfoxtv.com/news/nation-world/dana-white-takes-white-house-press-briefing-podium-after-trump-weekend-joke-press-secretary-ufc-fighting-boxing-reporter-questions-politics",
+        "https://sports.yahoo.com/articles/roberto-soldic-vs-daniel-rodriguez-203000328.html"
+      ],
+      "posts": []
+    },
+    {
+      "id": "covington-out-weidman-vs-chimaev-raf-abu-dhabi",
+      "title": "Colby Covington out of RAF Abu Dhabi main event vs. Khamzat Chimaev; Chris Weidman steps in",
+      "people": [
+        "Colby Covington",
+        "Khamzat Chimaev",
+        "Chris Weidman"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-09",
+      "facts": [
+        "Colby Covington withdrew from his RAF Abu Dhabi main event vs. Khamzat Chimaev with an undisclosed injury (The National, Nov 9)",
+        "Former UFC middleweight champion Chris Weidman agreed to replace him; freestyle wrestling, Saturday Nov 14 at Etihad Arena, Abu Dhabi",
+        "Weidman lost to Covington 5-4 at RAF 9 in May (MMA Sucka)",
+        "Posted as a regular Reel (UFC stars, main event falling apart days out; RAF stories with UFC stars have gone out as regular Reels, e.g. Oct 23 presser brawl)"
+      ],
+      "sources": [
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/09/raf-abu-dhabi-khamzat-chimaev-gets-new-opponent-after-colby-covington-pulls-out/",
+        "https://sports.yahoo.com/articles/colby-covington-khamzat-chimaev-draws-133053604.html",
+        "https://bloodyelbow.com/2026/11/09/colby-covington-vs-khamzat-chimaev-title-fight-off-as-ufc-hall-of-famer-steps-in-to-wrestle-borz/"
+      ],
+      "sport": "wrestling",
+      "posts": [
+        {
+          "post": "2026-11-09-1815-colby-out-weidman-in",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "misc-nov-9-pm",
       "title": "Nov 9 1 PM run: nothing qualified; nothing held for the evening (no posts)",
       "people": [

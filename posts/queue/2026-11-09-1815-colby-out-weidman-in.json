@@ -1,0 +1,30 @@
+{
+  "story_id": "covington-out-weidman-vs-chimaev-raf-abu-dhabi",
+  "headline": "Colby Out",
+  "visual": [
+    {"type": "fighter", "name": "Khamzat Chimaev", "file": "drive-khamzat-chimaev"},
+    {"type": "fighter", "name": "Chris Weidman"},
+    {"type": "fighter", "name": "Colby Covington", "file": "01-colby-covington-2023", "headline": "Colby Out"}
+  ],
+  "color": "#d2202f",
+  "caption": "Colby Covington is out of his RAF Abu Dhabi main event vs. Khamzat Chimaev, and Chris Weidman is stepping in.\nWeidman or Chimaev? 👇\n\nCovington pulled out with an undisclosed injury, per The National. Former UFC middleweight champ Weidman now wrestles Chimaev this Saturday, Nov. 14, at Etihad Arena.\n\n🔥 Hot take: Weidman taking this on 5 days' notice is the bravest move of the year.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "RAF", "RAFAbuDhabi", "KhamzatChimaev", "ChrisWeidman"],
+  "sources": ["The National", "Yahoo Sports", "Bloody Elbow"],
+  "music_pool": "espn",
+  "question": "Weidman or Chimaev?",
+  "hot_take": "Weidman taking this on 5 days' notice is *brave*.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "RAF ABU DHABI",
+    "kicker": "COLBY OUT",
+    "hook": "Weidman vs Chimaev",
+    "left": [{"name": "Chris Weidman"}],
+    "right": [{"name": "Khamzat Chimaev", "file": "drive-khamzat-chimaev"}],
+    "story": "Covington pulled out injured; ex-UFC champ Chris Weidman steps in to wrestle Chimaev.",
+    "chips": ["SAT NOV 14 · ETIHAD ARENA", "FREESTYLE WRESTLING", "MAIN EVENT"],
+    "options": ["WEIDMAN", "CHIMAEV"],
+    "question": "Weidman or Chimaev?"
+  }
+}
