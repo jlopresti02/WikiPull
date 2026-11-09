@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-9-am",
+      "title": "Nov 9 9 AM run: nothing qualified; nothing held for the evening (no posts)",
+      "people": [
+        "Dana White",
+        "Johnny Walker",
+        "Stephen Thompson"
+      ],
+      "event": "UFC 334",
+      "first_reported": "2026-11-09",
+      "facts": [
+        "Dana White press secretary: still pending; meeting with Trump set for today (Nov 9), CNN source says he's declining; nothing official. If White announces a decision, a later run can judge it",
+        "Skipped (talk, no booking): Johnny Walker offers to step in on a week's notice if Gane or Hokit falls out of the UFC 334 title fight (Bloody Elbow/Yahoo)",
+        "Skipped (outside window, not a champion retiring): Stephen Thompson says UFC 334 vs. Charles Radtke will be his last fight (MMA Sucka, Nov 6)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 10 PM run; adjacent sports not checked in depth (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: 10 user-scheduled Reyes/Jones pause Trial Reels waiting Nov 9 10:00-11:30 AM (user posts, untouched)",
+        "Reach check: Izzy vs Shara Reel 133 views, 3.3 s avg watch; Yair vs Garcia 134; flat around 130, no recovery yet"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/09/johnny-walker-offers-to-do-something-crazy-if-ciryl-gane-or-josh-hokit-fall-out-of-ufc-334/",
+        "https://mmasucka.com/news/stephen-thompson-prepares-for-final-walk-at-ufc-334/",
+        "https://edition.cnn.com/2026/11/07/politics/dana-white-trump-press-secretary"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-8-10pm",
       "title": "Nov 8 10 PM run: nothing qualified (no posts)",
       "people": [
