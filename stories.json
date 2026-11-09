@@ -15,7 +15,8 @@
         "Skipped: Dana White took the White House briefing-room podium Monday with Trump; still no appointment and no change to his UFC role (KFOX/The National Desk). Political, not a UFC leadership change",
         "Skipped (outside window, unconfirmed): Maycee Barber reportedly out of UFC 335 vs. Carli Judice (EssentiallySports, Nov 6, citing a content creator)",
         "Skipped (not a star/ranked contender): Roberto Soldic vs. Daniel Rodriguez targeted for UFC Dallas (Yahoo)",
-        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start"
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start",
+        "Reach check: Izzy vs Shara 133 views, 3.3 s avg watch; Yair vs Garcia 134; still flat around 130, no recovery yet"
       ],
       "sources": [
         "https://kfoxtv.com/news/nation-world/dana-white-takes-white-house-press-briefing-podium-after-trump-weekend-joke-press-secretary-ufc-fighting-boxing-reporter-questions-politics",
@@ -50,7 +51,10 @@
           "post": "2026-11-09-1815-colby-out-weidman-in",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-09T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5415619544927288388",
+          "image": "Chris Weidman (Wikimedia, new) vs Khamzat Chimaev (drive-khamzat-chimaev)"
         }
       ]
     },
