@@ -2,6 +2,25 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-8-10pm",
+      "title": "Nov 8 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Dana White"
+      ],
+      "event": null,
+      "first_reported": "2026-11-08",
+      "facts": [
+        "Dana White press secretary: Trump says he was 'only kidding' (NBC); not a UFC leadership change, not posted",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 6 PM run; no notable boxing/adjacent news (Trial Reels off anyway)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: 10 user-scheduled Reyes/Jones pause Trial Reels waiting Nov 9 10:00-11:30 AM (user posts, untouched)",
+        "Reach check: Yair vs Garcia Reel 132 views, 2.9 s avg watch; Izzy vs Shara (8 PM) not in analytics yet"
+      ],
+      "sources": [
+        "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039"
+      ],
+      "posts": []
+    },
+    {
       "id": "adesanya-signs-bout-agreement-return",
       "title": "Israel Adesanya vs. Shara Magomedov official for UFC Saudi Arabia main event, Dec 5; Garry vs. Amosov co-main",
       "people": [
@@ -89,14 +108,16 @@
         "CNN reported, citing a source, that White is not taking the job; nothing official either way as of Nov 8 1 PM",
         "Job open since Karoline Leavitt left at the end of August (ESPN); no report yet on what it would mean for White's UFC/TKO role",
         "Held at 1 PM for the 6 PM run (reach recovery: evening only). Qualifies only as a possible UFC leadership shake-up; Dana IS the story so his photo is fine (images/dana-white). Keep caption strictly neutral/non-political, word CNN claim as a report. If White accepts or declines before posting, post that instead; if still pending, 6 PM run decides whether it stands up. Missed by the Nov 7 6 PM/10 PM and Nov 8 9 AM sweeps",
-        "Nov 8 6 PM run: not posted. Still only an offer (meeting Monday Nov 9; CNN source says he's declining), so not yet a UFC leadership change under the major-news-only rule; v2's VS badge would also frame Dana vs. Trump as a feud, which it isn't. New since 1 PM: Trump shared an AI cartoon of Dana's press briefings with fighters roughing up reporters (WaPo, The Hill) - political, skipped. Post only when White's decision is reported: accepting = UFC leadership shake-up (breaking-news level); declining = a short update can qualify"
+        "Nov 8 6 PM run: not posted. Still only an offer (meeting Monday Nov 9; CNN source says he's declining), so not yet a UFC leadership change under the major-news-only rule; v2's VS badge would also frame Dana vs. Trump as a feud, which it isn't. New since 1 PM: Trump shared an AI cartoon of Dana's press briefings with fighters roughing up reporters (WaPo, The Hill) - political, skipped. Post only when White's decision is reported: accepting = UFC leadership shake-up (breaking-news level); declining = a short update can qualify",
+        "Nov 8 10 PM run: Trump now says he was 'only kidding' about the offer (NBC News); CNN source still says White declined. No UFC leadership change, so not posted; story effectively over unless something official changes Monday"
       ],
       "sources": [
         "https://www.espn.com/espn/story/_/id/50412085/trump-offers-press-secretary-role-ufc-boss-dana-white",
         "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039",
         "https://www.cbsnews.com/news/trump-offers-white-house-press-secretary-role-dana-white/",
         "https://www.npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
-        "https://www.washingtonpost.com/politics/2026/11/08/trump-shares-cartoon-ufc-fighters-beating-reporters-after-offering-dana-white-press-job/"
+        "https://www.washingtonpost.com/politics/2026/11/08/trump-shares-cartoon-ufc-fighters-beating-reporters-after-offering-dana-white-press-job/",
+        "https://www.nbcnews.com/politics/white-house/trump-offers-press-secretary-job-ufc-ceo-dana-white-rcna608039"
       ],
       "posts": []
     },
