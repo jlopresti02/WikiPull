@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-9-pm",
+      "title": "Nov 9 1 PM run: nothing qualified; nothing held for the evening (no posts)",
+      "people": [
+        "Dana White",
+        "Andrei Arlovski"
+      ],
+      "event": null,
+      "first_reported": "2026-11-09",
+      "facts": [
+        "Dana White press secretary: Trump says the offer was a joke (Cageside Press, Nov 9); already covered by the Nov 8 10 PM run, not a UFC leadership change",
+        "Skipped (talk, no booking): BKFC champ Andrei Arlovski apologizes for remarks about Rumble Johnson (Cageside Press); adjacent sports, Trial Reels off",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 9 AM run; UFC 336 Van vs. Kape / Prates vs. Morales already in the ledger",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Izzy vs Shara 133 views, 3.3 s avg watch; Yair vs Garcia 134; flat around 130, no recovery yet"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/09/just-kidding-trump-says-white-job-offer-was-a-joke/",
+        "https://cagesidepress.com/2026/11/09/bkfc-champ-arlovski-apologizes-for-rumble-remarks/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-9-am",
       "title": "Nov 9 9 AM run: nothing qualified; nothing held for the evening (no posts)",
       "people": [
