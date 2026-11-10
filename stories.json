@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-10-am",
+      "title": "Nov 10 9 AM run: nothing qualified (no posts)",
+      "people": [
+        "Ian Machado Garry",
+        "Yaroslav Amosov",
+        "Josh Hokit"
+      ],
+      "event": null,
+      "first_reported": "2026-11-10",
+      "facts": [
+        "Skipped (reaction to an already-posted booking): Garry and Amosov react to the UFC Saudi Arabia co-main announcement (Bloody Elbow, Nov 9)",
+        "Skipped (talk): Sean O'Malley pulling for Josh Hokit vs. Ciryl Gane at UFC 334 (MMA Weekly)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the Nov 9 10 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "Nothing held for the evening. No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Colby out/Weidman in 96 views overnight (2.8 s avg watch); Izzy vs Shara 149; still flat around 100-150"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/09/ian-machado-garry-and-yaroslav-amosov-react-to-ufc-saudi-arabia-co-main-event-announcement/",
+        "https://www.mmaweekly.com/news/sean-omalley-pulling-for-josh-hokit-to-beat-ciryl-gane"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-9-10pm",
       "title": "Nov 9 10 PM run: nothing qualified (no posts)",
       "people": [
