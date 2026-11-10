@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-9-10pm",
+      "title": "Nov 9 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Ilia Topuria",
+        "Dana White"
+      ],
+      "event": null,
+      "first_reported": "2026-11-09",
+      "facts": [
+        "Skipped (interview update, no booking or withdrawal): Ilia Topuria still not fully back in training after the Gaethje loss (Bloody Elbow/Lowkick MMA)",
+        "Skipped (already covered): Dana White at the White House press room; UFC 334 Yanez exit and Nickal vs Pyfer move already in the ledger",
+        "Skipped (talk): Din Thomas on Josh Hokit as a champion (Bloody Elbow)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 6 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: latest in analytics 133 and 134 views; Colby out/Weidman in (7 PM) not in analytics yet; flat around 130"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/09/ilia-topuria-is-still-barred-from-full-training-after-how-bad-the-justin-gaethje-beating-was/",
+        "https://bloodyelbow.com/2026/11/09/josh-hokit-would-do-everything-we-want-from-a-champion-if-he-wins-at-ufc-334-claims-din-thomas/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-9-6pm",
       "title": "Nov 9 6 PM run: Covington out / Weidman vs. Chimaev at RAF Abu Dhabi (Reel); rest skipped",
       "people": [
