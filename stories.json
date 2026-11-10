@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-10-pm",
+      "title": "Nov 10 1 PM run: nothing qualified (no posts)",
+      "people": [
+        "Jake Paul",
+        "Cedric Doumbe",
+        "Johnny Walker"
+      ],
+      "event": null,
+      "first_reported": "2026-11-10",
+      "facts": [
+        "Skipped (adjacent sports, already announced Nov 2; presser is talk; Trial Reels off): Jake Paul vs. Cedric Doumbe kickoff press conference in Paris (MMA Mania)",
+        "Skipped (routine): Johnny Walker enters heavyweight top 10 in latest UFC rankings, Waldo Cortes Acosta drops out (MMA Mania)",
+        "Skipped (talk): Gaethje's manager says a Topuria rematch will never happen (MMA Mania)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 9 AM run",
+        "Nothing held for the evening. No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Colby out/Weidman in still 96 views (2.8 s avg watch); Izzy vs Shara 149; flat around 100-150, no recovery"
+      ],
+      "sources": [
+        "https://www.mmamania.com/boxing/485360/live-jake-paul-vs-cedric-doumbe-press-conference-video-paris",
+        "https://www.mmamania.com/ufc-mma-rankings/485318/johnny-walker-evicts-waldo-cortes-acosta-heavyweight-top-10-latest-ufc-rankings-update",
+        "https://mmamania.com/ufc-news/484980/justin-gaethjes-manager-shuts-down-ilia-topuria-rematch-will-never-happen"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-10-am",
       "title": "Nov 10 9 AM run: nothing qualified (no posts)",
       "people": [
