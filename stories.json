@@ -2,6 +2,31 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-10-6pm",
+      "title": "Nov 10 6 PM run: nothing qualified (no posts)",
+      "people": [
+        "Maycee Barber",
+        "Carli Judice",
+        "Jake Paul",
+        "Cedric Doumbe"
+      ],
+      "event": null,
+      "first_reported": "2026-11-10",
+      "facts": [
+        "Skipped (outside window, Nov 5-7 report, ranked #9 undercard bout to be rebooked; not major news): Maycee Barber out of UFC 335 vs. Carli Judice, per MMA Fighting's Mike Heck (Heavy, MMA Mania)",
+        "Skipped (adjacent sports, talk; Trial Reels off): Jake Paul says he'll retire if he loses to Cedric Doumbe (Field Level Media)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 1 PM run",
+        "Nothing held for the evening. No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Colby out/Weidman in 96 views (2.8 s avg watch); two Nov 9 afternoon Reels at 203 and 233 views (5.8-6.0 s avg watch); news Reels still flat around 100-150"
+      ],
+      "sources": [
+        "https://heavy.com/sports/ufc/maycee-barber-out-of-ufc-335/",
+        "https://www.mmamania.com/latest-news/485262/maycee-barber-out-of-ufc-335-red-hot-prospect-removed-from-card",
+        "https://fieldlevelmedia.com/boxing/jake-paul-vows-to-retire-if-he-loses-to-cedric-doumbe/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-10-pm",
       "title": "Nov 10 1 PM run: nothing qualified (no posts)",
       "people": [
