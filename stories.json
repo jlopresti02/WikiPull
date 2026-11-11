@@ -2,6 +2,57 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-11-am",
+      "title": "Nov 11 9 AM run: 1 story held for the evening (no posts)",
+      "people": [
+        "Norma Dumont",
+        "Francis Ngannou",
+        "Kevin Holland"
+      ],
+      "event": "UFC 334",
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Held for evening: Norma Dumont leaving the UFC (see norma-dumont-released-ufc)",
+        "Skipped (talk): Francis Ngannou lays claim to the UFC heavyweight crown ahead of UFC 334 (SI)",
+        "Skipped (talk): Kevin Holland says the end of his career is near ahead of UFC 334 (MMA Mania)",
+        "Skipped (talk/business commentary): 'free agency the new norm' piece on UFC contracts outside the top 15 (MMA Mania)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the Nov 10 10 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Colby out/Weidman in up to 128 views (3.1 s avg watch); still flat around 100-150, no recovery"
+      ],
+      "sources": [
+        "https://www.si.com/fannation/mma/news/francis-ngannou-lays-claim-ufc-heavyweight-crown-ahead-of-ufc-334-title-fight",
+        "https://www.mmamania.com/ufc-334-live-stream-fight-card-start-time-gane-vs-hokit/485434/kevin-holland-sees-the-end-of-the-road-coming-into-ufc-334-were-almost-done-100",
+        "https://www.mmamania.com/ufc-news/485438/free-agency-the-new-norm-theyre-not-doing-anyones-contract-outside-top-15"
+      ],
+      "posts": []
+    },
+    {
+      "id": "norma-dumont-released-ufc",
+      "title": "No. 4 women's bantamweight Norma Dumont leaves the UFC after eight years",
+      "people": [
+        "Norma Dumont",
+        "Ailin Perez",
+        "Kayla Harrison"
+      ],
+      "event": null,
+      "first_reported": "2026-11-10",
+      "facts": [
+        "Norma Dumont, the No. 4-ranked UFC women's bantamweight, announced in an Instagram video on Tuesday Nov 10 that she is leaving the UFC (reported by MMA Mania and SB Nation/Yahoo, Nov 11)",
+        "She says she had two fights left on her deal and the UFC was not going to renew it; she was told before her last fight that renewal was unlikely",
+        "She went 9-4 in the UFC over eight years; her last two fights were losses, most recently to Ailin Perez at UFC Vegas 121 (Sept 2026), after wins over Germaine de Randamie, Irene Aldana and Ketlen Vieira",
+        "She says she may retire by the end of next year or sooner to start a family; no UFC statement reported",
+        "Held for evening by the 9 AM run: borderline under 'major news only' (ranked-contender release, not a star); 6 PM run decides. No Drive or Wikimedia cutouts yet for Dumont (new name, workflow would fetch)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-abruptly-releases-top-five-080000572.html",
+        "https://www.mmamania.com/ufc-roster-watch-cuts-tracker-free-agent-aquisitions-mma/485417/goodbye-bantamweight-ufc-abruptly-releases-top-five-ranked-contender",
+        "https://boxingnews.com/news/ufc-releases-norma-dumont-bantamweight"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "misc-nov-10-10pm",
       "title": "Nov 10 10 PM run: nothing qualified (no posts)",
       "people": [
