@@ -1,23 +1,5 @@
-Searching Wikimedia Commons for: Chris Weidman
-  saved images/chris-weidman/01-chris-weidman-at-ufc-230.jpg  [CC BY 3.0]
-  saved images/chris-weidman/02-chris-weidman.jpg  [CC BY 2.0]
-  saved images/chris-weidman/03-chris-weidman-knock-out-anderson-silva-at-ufc-162.jpg  [Public domain]
-  saved images/chris-weidman/04-chris-weidman-uso-world-tour-2019.jpg  [Public domain]
-Done: 4 image(s) saved.
-[0;93m2026-11-09 23:07:47.988115443 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/chris-weidman/cutouts/01-chris-weidman-at-ufc-230.png
-  cutout images/chris-weidman/cutouts/02-chris-weidman.png
-  cutout images/chris-weidman/cutouts/03-chris-weidman-knock-out-anderson-silva-at-ufc-162.png
-  cutout images/chris-weidman/cutouts/04-chris-weidman-uso-world-tour-2019.png
-Done: 4 new cutout(s).
 
-== 2026-11-09-1815-colby-out-weidman-in.json
-Image: {'type': 'fighter', 'name': 'Khamzat Chimaev', 'file': 'drive-khamzat-chimaev'} -> fighter images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png  headline: Colby Out
-$ fetch.py Chris Weidman --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/chris-weidman
-v2 left: images/chris-weidman/cutouts/01-chris-weidman-at-ufc-230.png
-v2 right: images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png
-Music: music/action-sport/03-acrobat.mp3 from 158.75s
-Rendered posts/2026-11-09-1815-colby-out-weidman-in/post.png (fighter)
-Rendered posts/2026-11-09-1815-colby-out-weidman-in/reel.mp4 (format v2)
+== 2026-11-11-1315-merab-attacked.json
+Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili-champ'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png  headline: Merab Attacked
+Rendered posts/2026-11-11-1315-merab-attacked/post.png (fighter)
+Rendered posts/2026-11-11-1315-merab-attacked/reel.mp4 (format serious)
