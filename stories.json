@@ -2,6 +2,34 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-11-6pm",
+      "title": "Nov 11 6 PM run: nothing qualified; Dumont dropped (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Umar Nurmagomedov",
+        "Ilia Topuria",
+        "Norma Dumont"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Skipped (no verified new fact): Ilia Topuria claims Usman Nurmagomedov was detained after the Merab ambush (MMA Mania headline); no police or official confirmation found, so not posted",
+        "Skipped (detail, not a new development): Merab also names Umar Nurmagomedov among the group in the hotel lobby (Sherdog, Bleacher Report); no statement from Usman's side, RAF, UFC, PFL or police; Merab vs. Marlon Moraes still listed for Saturday",
+        "Skipped (fight-week talk): UFC 334 media day (Gane vs. Hokit, Harrison vs. Nunes)",
+        "Dropped held story: Norma Dumont leaving the UFC (see norma-dumont-released-ufc)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 1 PM run; no notable boxing/adjacent news (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: last Reels 128-233 views (Nov 9-10); flat, no clear recovery; Merab Reel not in analytics yet"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/Merab-Dvalishvili-accuses-Usman-Umar-Nurmagomedov-of-hotel-attack-203580",
+        "https://bleacherreport.com/articles/25532310-merab-dvalishvili-usman-nurmagomedov-involved-massive-brawl-video-ahead-raf-abu-dhabi",
+        "https://www.mmamania.com/latest-news/485529/ilia-topuria-claims-usman-nurmagomedov-detained-after-merab-dvalishvili-ambush-absolute-cowards"
+      ],
+      "posts": []
+    },
+    {
       "id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
       "title": "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend in Abu Dhabi",
       "people": [
@@ -96,14 +124,14 @@
         "She says she had two fights left on her deal and the UFC was not going to renew it; she was told before her last fight that renewal was unlikely",
         "She went 9-4 in the UFC over eight years; her last two fights were losses, most recently to Ailin Perez at UFC Vegas 121 (Sept 2026), after wins over Germaine de Randamie, Irene Aldana and Ketlen Vieira",
         "She says she may retire by the end of next year or sooner to start a family; no UFC statement reported",
-        "Held for evening by the 9 AM run: borderline under 'major news only' (ranked-contender release, not a star); 6 PM run decides. No Drive or Wikimedia cutouts yet for Dumont (new name, workflow would fetch)"
+        "Held for evening by the 9 AM run: borderline under 'major news only' (ranked-contender release, not a star); 6 PM run decides. No Drive or Wikimedia cutouts yet for Dumont (new name, workflow would fetch)",
+        "Dropped by the Nov 11 6 PM run: not star-level under reach recovery (star + conflict only); news a day old by the evening window, no follow-up (no UFC statement, no new destination)"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/ufc-abruptly-releases-top-five-080000572.html",
         "https://www.mmamania.com/ufc-roster-watch-cuts-tracker-free-agent-aquisitions-mma/485417/goodbye-bantamweight-ufc-abruptly-releases-top-five-ranked-contender",
         "https://boxingnews.com/news/ufc-releases-norma-dumont-bantamweight"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
