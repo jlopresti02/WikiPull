@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-10-10pm",
+      "title": "Nov 10 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Ciryl Gane",
+        "Josh Hokit",
+        "Kayla Harrison",
+        "Amanda Nunes",
+        "Jorge Masvidal"
+      ],
+      "event": "UFC 334",
+      "first_reported": "2026-11-10",
+      "facts": [
+        "Skipped (fight-week hype, already-posted booking): Gane-Hokit and Harrison-Nunes Times Square face-offs ahead of UFC 334 (MMA Mania, Bleacher Report)",
+        "Skipped (talk): Amanda Nunes says she was burned out and feared losing before retiring (MMA Mania)",
+        "Skipped (betting story): Jorge Masvidal's reported $200K bet on Josh Hokit (MMA Mania)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 6 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "Nothing held for the evening. No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Colby out/Weidman in still 96 views; flat around 100-150, no recovery"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-334-live-stream-fight-card-start-time-gane-vs-hokit/485394/video-gane-hokit-harrison-nunes-face-off-in-times-square-ahead-of-ufc-334-thought-you-were-taller",
+        "https://www.mmamania.com/ufc-334-live-stream-fight-card-start-time-gane-vs-hokit/485401/burned-out-amanda-nunes-feared-losing-if-she-kept-fighting-i-wasnt-happy-ufc-334",
+        "https://www.mmamania.com/ufc-334-live-stream-fight-card-start-time-gane-vs-hokit/485389/ufc-334-odds-quasi-retired-former-title-challenger-places-curious-200k-bet-on-josh-hokit-to-defeat-ciryl-gane-bet-the-house"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-10-6pm",
       "title": "Nov 10 6 PM run: nothing qualified (no posts)",
       "people": [
