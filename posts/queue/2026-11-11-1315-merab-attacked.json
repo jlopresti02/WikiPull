@@ -1,0 +1,25 @@
+{
+  "story_id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+  "headline": "Merab Attacked",
+  "format": "serious",
+  "visual": [
+    {"type": "fighter", "name": "Merab Dvalishvili", "file": "drive-merab-dvalishvili-champ"}
+  ],
+  "color": "#111111",
+  "caption": "Former UFC bantamweight champion Merab Dvalishvili says he and a friend were attacked from behind by Usman Nurmagomedov and others in Abu Dhabi.\nMerab is in town for RAF Abu Dhabi, where he's set to wrestle Marlon Moraes this weekend. Video he shared shows both men bloodied and getting medical attention. No response from Usman's camp, the UFC or RAF has been reported yet.\n\nWishing Merab and his friend a full recovery.",
+  "hashtags": ["MMANews", "UFC", "MerabDvalishvili", "UsmanNurmagomedov", "RAF"],
+  "sources": ["CBS Sports", "Sports Illustrated", "Yahoo Sports"],
+  "serious": {
+    "tag": "NEWS UPDATE",
+    "kicker": "REPORTED",
+    "title": "Merab says he was jumped in Abu Dhabi",
+    "facts": [
+      "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend from behind",
+      "Video shows both men bloodied and getting medical attention",
+      "He's due to wrestle Marlon Moraes at RAF Abu Dhabi this weekend",
+      "No response yet reported from Usman's camp, the UFC or RAF"
+    ],
+    "closing": "Wishing Merab and his friend a full recovery."
+  },
+  "reel": true
+}

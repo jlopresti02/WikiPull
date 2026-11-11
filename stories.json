@@ -2,6 +2,58 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+      "title": "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend in Abu Dhabi",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Ilia Topuria",
+        "Marlon Moraes"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Merab Dvalishvili says Usman Nurmagomedov and his friends attacked him and a friend from behind in Abu Dhabi, where he is for RAF Abu Dhabi (CBS Sports, SI, Nov 11)",
+        "Video shared Nov 11 shows Dvalishvili and his friend bloodied and getting medical attention; Ilia Topuria also posted video of the attack on X (CBS)",
+        "Dvalishvili is scheduled to wrestle Marlon Moraes at RAF Abu Dhabi on Saturday; SI says the bout may be in jeopardy (SI's inference)",
+        "No response from Usman Nurmagomedov, his team, UFC, RAF or police reported as of the 1 PM run",
+        "Posted under the breaking-news exception (serious incident involving a former champion) outside the evening-only window, serious format"
+      ],
+      "sources": [
+        "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
+        "https://www.si.com/fannation/mma/news/ufc-star-merab-dvalishvili-left-bloodied-alleged-attack-usman-nurmagomedov",
+        "https://sports.yahoo.com/articles/merab-dvalishvili-bloody-beaten-following-173049695.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-11-1315-merab-attacked",
+          "kind": "new",
+          "format": "reel",
+          "style": "serious"
+        }
+      ]
+    },
+    {
+      "id": "misc-nov-11-pm",
+      "title": "Nov 11 1 PM run: Merab attack posted (breaking exception); Dumont still held",
+      "people": [
+        "Usman Nurmagomedov",
+        "Ali Abdelaziz"
+      ],
+      "event": null,
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Skipped (rumor/denial, no signing): Ali Abdelaziz says reports Usman Nurmagomedov signed elsewhere (to be unveiled at UFC 334) are false; still in PFL exclusive window per his manager (NY Fights)",
+        "Norma Dumont exit still held for the evening (6 PM run decides)",
+        "No other new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 9 AM run",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start"
+      ],
+      "sources": [
+        "https://nyfights.com/news/usman-nurmagomedov-manager-denies-false-ufc-signing-rumors/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-11-am",
       "title": "Nov 11 9 AM run: 1 story held for the evening (no posts)",
       "people": [
