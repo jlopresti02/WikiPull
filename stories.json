@@ -2,6 +2,79 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-12-6pm",
+      "title": "Nov 12 6 PM run: Merab UPDATE posted (arrests + RAF bars Usman)",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Marlon Moraes"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-12",
+      "facts": [
+        "Posted held Merab serious UPDATE for 7 PM (see merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 1 PM run; UFC 334 card unchanged; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start",
+        "Reach check: Merab attack Reel 449 views; Nov 9-10 Reels 130-243; no broad recovery yet"
+      ],
+      "sources": [
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/dvalishvili-a-no-show-at-press-conference-as-raf-confirm-nurmagomedov-will-not-attend-abu-dhabi-event/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+      "title": "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend in Abu Dhabi",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Ilia Topuria",
+        "Marlon Moraes"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Merab Dvalishvili says Usman Nurmagomedov and his friends attacked him and a friend from behind in Abu Dhabi, where he is for RAF Abu Dhabi (CBS Sports, SI, Nov 11)",
+        "Video shared Nov 11 shows Dvalishvili and his friend bloodied and getting medical attention; Ilia Topuria also posted video of the attack on X (CBS)",
+        "Dvalishvili is scheduled to wrestle Marlon Moraes at RAF Abu Dhabi on Saturday; SI says the bout may be in jeopardy (SI's inference)",
+        "No response from Usman Nurmagomedov, his team, UFC, RAF or police reported as of the 1 PM run",
+        "Posted under the breaking-news exception (serious incident involving a former champion) outside the evening-only window, serious format",
+        "UPDATE (Nov 12 AM): Abu Dhabi Police say 10 people were arrested over the hotel-entrance fight (8 for fighting, 2 for filming) and the case was referred to the Public Prosecution; police did not name those arrested and called it a fight over previous disputes (The National, Nov 12)",
+        "Reported, not official: Helwani says everyone involved, Merab and his friend included, was brought in for questioning; The National understands Merab is not the one pressing charges; Saba Lazishvili's brother says Merab and Saba were still held and a judge may decide within 48 hours (MMA Mania/SB Nation)",
+        "RAF said it would address the incident at Thursday's (Nov 12) pre-event press conference; no RAF/UFC decision yet on Merab vs. Marlon Moraes (Nov 14)",
+        "Held for evening by the Nov 12 9 AM run as a serious-format UPDATE (police-confirmed arrests are a genuine new fact). Evening run: fold in the RAF press conference outcome (fight on/off, Merab released or not) and post as UPDATE; don't post if nothing beyond this is confirmed and it's gone stale. Original Reel: 449 views, best in weeks",
+        "UPDATE (Nov 12 PM): At Thursday's RAF press conference, co-founder Chad Bronstein said Usman Nurmagomedov will not attend Saturday's RAF Abu Dhabi event; RAF doesn't condone it and hopes it is resolved soon. Merab's status vs. Marlon Moraes and Umar Nurmagomedov's vs. Urijah Faber are unknown, decision expected within a day or two; neither Merab nor Umar attended the presser (MMA Fighting via Yahoo, Nov 12). Abu Dhabi Police released a statement (Bloody Elbow). Still held for the evening: 6 PM/10 PM run posts one serious-format UPDATE combining the arrests and the RAF ban (plus any decision on Merab's fight)",
+        "Nov 12 6 PM run: no RAF/UFC decision on Merab vs. Moraes or Umar vs. Faber found yet; posted the held serious-format UPDATE (arrests + RAF bars Usman) for 7 PM. A confirmed decision on the fight would be a genuine new fact for a later update"
+      ],
+      "sources": [
+        "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
+        "https://www.si.com/fannation/mma/news/ufc-star-merab-dvalishvili-left-bloodied-alleged-attack-usman-nurmagomedov",
+        "https://sports.yahoo.com/articles/merab-dvalishvili-bloody-beaten-following-173049695.html",
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/abu-dhabi-police-confirm-10-people-arrested-after-nurmagomedov-and-dvalishvili-hotel-brawl/",
+        "https://www.mmamania.com/ufc-news/485623/merab-dvalishvili-still-in-abu-dhabi-jail-after-getting-jumped-by-usman-nurmagomedov",
+        "https://www.givemesport.com/update-usman-nurmagomedovs-attack-merab-dvalishvili-police-involved/",
+        "https://sports.yahoo.com/articles/usman-nurmagomedov-banned-attending-raf-164949436.html",
+        "https://bloodyelbow.com/2026/11/12/abu-dhabi-police-release-statement-after-usman-nurmagomedov-attacked-merab-dvalishvili-at-raf/",
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/dvalishvili-a-no-show-at-press-conference-as-raf-confirm-nurmagomedov-will-not-attend-abu-dhabi-event/"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-11-1315-merab-attacked",
+          "kind": "new",
+          "format": "reel",
+          "style": "serious",
+          "scheduled_for": "2026-11-11T13:20:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3899799836102606418"
+        },
+        {
+          "post": "2026-11-12-1815-merab-arrests-raf-update",
+          "kind": "update",
+          "format": "reel",
+          "style": "serious"
+        }
+      ]
+    },
+    {
       "id": "misc-nov-12-pm",
       "title": "Nov 12 1 PM run: Merab update still held for the evening (no posts)",
       "people": [
@@ -49,51 +122,6 @@
         "https://sports.yahoo.com/articles/ufc-335-continues-fill-lightweight-135024572.html"
       ],
       "posts": []
-    },
-    {
-      "id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
-      "title": "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend in Abu Dhabi",
-      "people": [
-        "Merab Dvalishvili",
-        "Usman Nurmagomedov",
-        "Ilia Topuria",
-        "Marlon Moraes"
-      ],
-      "event": "RAF Abu Dhabi",
-      "first_reported": "2026-11-11",
-      "facts": [
-        "Merab Dvalishvili says Usman Nurmagomedov and his friends attacked him and a friend from behind in Abu Dhabi, where he is for RAF Abu Dhabi (CBS Sports, SI, Nov 11)",
-        "Video shared Nov 11 shows Dvalishvili and his friend bloodied and getting medical attention; Ilia Topuria also posted video of the attack on X (CBS)",
-        "Dvalishvili is scheduled to wrestle Marlon Moraes at RAF Abu Dhabi on Saturday; SI says the bout may be in jeopardy (SI's inference)",
-        "No response from Usman Nurmagomedov, his team, UFC, RAF or police reported as of the 1 PM run",
-        "Posted under the breaking-news exception (serious incident involving a former champion) outside the evening-only window, serious format",
-        "UPDATE (Nov 12 AM): Abu Dhabi Police say 10 people were arrested over the hotel-entrance fight (8 for fighting, 2 for filming) and the case was referred to the Public Prosecution; police did not name those arrested and called it a fight over previous disputes (The National, Nov 12)",
-        "Reported, not official: Helwani says everyone involved, Merab and his friend included, was brought in for questioning; The National understands Merab is not the one pressing charges; Saba Lazishvili's brother says Merab and Saba were still held and a judge may decide within 48 hours (MMA Mania/SB Nation)",
-        "RAF said it would address the incident at Thursday's (Nov 12) pre-event press conference; no RAF/UFC decision yet on Merab vs. Marlon Moraes (Nov 14)",
-        "Held for evening by the Nov 12 9 AM run as a serious-format UPDATE (police-confirmed arrests are a genuine new fact). Evening run: fold in the RAF press conference outcome (fight on/off, Merab released or not) and post as UPDATE; don't post if nothing beyond this is confirmed and it's gone stale. Original Reel: 449 views, best in weeks",
-        "UPDATE (Nov 12 PM): At Thursday's RAF press conference, co-founder Chad Bronstein said Usman Nurmagomedov will not attend Saturday's RAF Abu Dhabi event; RAF doesn't condone it and hopes it is resolved soon. Merab's status vs. Marlon Moraes and Umar Nurmagomedov's vs. Urijah Faber are unknown, decision expected within a day or two; neither Merab nor Umar attended the presser (MMA Fighting via Yahoo, Nov 12). Abu Dhabi Police released a statement (Bloody Elbow). Still held for the evening: 6 PM/10 PM run posts one serious-format UPDATE combining the arrests and the RAF ban (plus any decision on Merab's fight)"
-      ],
-      "sources": [
-        "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
-        "https://www.si.com/fannation/mma/news/ufc-star-merab-dvalishvili-left-bloodied-alleged-attack-usman-nurmagomedov",
-        "https://sports.yahoo.com/articles/merab-dvalishvili-bloody-beaten-following-173049695.html",
-        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/abu-dhabi-police-confirm-10-people-arrested-after-nurmagomedov-and-dvalishvili-hotel-brawl/",
-        "https://www.mmamania.com/ufc-news/485623/merab-dvalishvili-still-in-abu-dhabi-jail-after-getting-jumped-by-usman-nurmagomedov",
-        "https://www.givemesport.com/update-usman-nurmagomedovs-attack-merab-dvalishvili-police-involved/",
-        "https://sports.yahoo.com/articles/usman-nurmagomedov-banned-attending-raf-164949436.html",
-        "https://bloodyelbow.com/2026/11/12/abu-dhabi-police-release-statement-after-usman-nurmagomedov-attacked-merab-dvalishvili-at-raf/"
-      ],
-      "posts": [
-        {
-          "post": "2026-11-11-1315-merab-attacked",
-          "kind": "new",
-          "format": "reel",
-          "style": "serious",
-          "scheduled_for": "2026-11-11T13:20:00-05:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3899799836102606418"
-        }
-      ],
-      "held_for_evening": true
     },
     {
       "id": "misc-nov-11-10pm",

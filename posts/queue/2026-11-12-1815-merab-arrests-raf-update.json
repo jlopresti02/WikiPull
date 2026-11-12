@@ -1,0 +1,25 @@
+{
+  "story_id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+  "headline": "10 Arrested",
+  "format": "serious",
+  "visual": [
+    {"type": "fighter", "name": "Merab Dvalishvili", "file": "drive-merab-dvalishvili"}
+  ],
+  "color": "#111111",
+  "caption": "UPDATE: Abu Dhabi Police say 10 people were arrested over the hotel fight involving Merab Dvalishvili and Usman Nurmagomedov.\nPolice say 8 were held for fighting and 2 for filming, and the case went to the Public Prosecution. At Thursday's RAF Abu Dhabi press conference, RAF said Usman won't attend Saturday's event. No decision yet on Merab's match with Marlon Moraes.\n\nHoping this is resolved safely for everyone involved.",
+  "hashtags": ["MMANews", "UFC", "MerabDvalishvili", "UsmanNurmagomedov", "RAF"],
+  "sources": ["The National", "MMA Fighting", "Bloody Elbow"],
+  "serious": {
+    "tag": "NEWS UPDATE",
+    "kicker": "UPDATE",
+    "title": "Police confirm 10 arrests in Abu Dhabi",
+    "facts": [
+      "Abu Dhabi Police: 8 arrested for fighting, 2 for filming",
+      "The case has been referred to the Public Prosecution",
+      "RAF says Usman Nurmagomedov won't attend Saturday's event",
+      "No decision yet on Merab vs. Marlon Moraes"
+    ],
+    "closing": "Hoping this is resolved safely for everyone involved."
+  },
+  "reel": true
+}
