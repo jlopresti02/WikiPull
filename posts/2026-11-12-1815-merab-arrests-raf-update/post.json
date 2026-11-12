@@ -6,7 +6,7 @@
     {
       "type": "fighter",
       "name": "Merab Dvalishvili",
-      "file": "drive-merab-dvalishvili"
+      "file": "drive-merab-dvalishvili-champ"
     }
   ],
   "color": "#111111",
@@ -38,7 +38,7 @@
   "reel": true,
   "subject": {
     "kind": "fighter",
-    "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili.png",
+    "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png",
     "credit": "WWIT MMA News"
   }
 }
