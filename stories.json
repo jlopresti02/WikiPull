@@ -70,7 +70,10 @@
           "post": "2026-11-12-1815-merab-arrests-raf-update",
           "kind": "update",
           "format": "reel",
-          "style": "serious"
+          "style": "serious",
+          "scheduled_for": "2026-11-12T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=502267710732324293",
+          "image": "drive-merab-dvalishvili-champ"
         }
       ]
     },
