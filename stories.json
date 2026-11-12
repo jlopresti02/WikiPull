@@ -2,6 +2,74 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-12-am",
+      "title": "Nov 12 9 AM run: Merab update held for the evening (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Sean Strickland",
+        "Chase Hooper",
+        "Chris Padilla"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-12",
+      "facts": [
+        "Held for evening: Merab attack update, Abu Dhabi Police confirm 10 arrests (see merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov)",
+        "Skipped (talk): Sean Strickland wants everyone involved in the Merab attack banned for life (Forbes)",
+        "Skipped (routine booking, not star-level): Chase Hooper vs. Chris Padilla reportedly added to UFC 335 (MMA Junkie via Yahoo)",
+        "No other new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the Nov 11 10 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: Merab attack Reel 449 views (2.7 s avg watch, 21.8% 3-s rate), best in weeks; other recent Reels 130-243"
+      ],
+      "sources": [
+        "https://www.forbes.com/sites/brianmazique/2026/11/12/sean-strickland-wants-everyone-involved-in-the-merab-dvalishvili-hotel-attack-banned-for-life-and-he-had-profane-words-for-usman-nurmagomedov/",
+        "https://sports.yahoo.com/articles/ufc-335-continues-fill-lightweight-135024572.html"
+      ],
+      "posts": []
+    },
+    {
+      "id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+      "title": "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend in Abu Dhabi",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Ilia Topuria",
+        "Marlon Moraes"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Merab Dvalishvili says Usman Nurmagomedov and his friends attacked him and a friend from behind in Abu Dhabi, where he is for RAF Abu Dhabi (CBS Sports, SI, Nov 11)",
+        "Video shared Nov 11 shows Dvalishvili and his friend bloodied and getting medical attention; Ilia Topuria also posted video of the attack on X (CBS)",
+        "Dvalishvili is scheduled to wrestle Marlon Moraes at RAF Abu Dhabi on Saturday; SI says the bout may be in jeopardy (SI's inference)",
+        "No response from Usman Nurmagomedov, his team, UFC, RAF or police reported as of the 1 PM run",
+        "Posted under the breaking-news exception (serious incident involving a former champion) outside the evening-only window, serious format",
+        "UPDATE (Nov 12 AM): Abu Dhabi Police say 10 people were arrested over the hotel-entrance fight (8 for fighting, 2 for filming) and the case was referred to the Public Prosecution; police did not name those arrested and called it a fight over previous disputes (The National, Nov 12)",
+        "Reported, not official: Helwani says everyone involved, Merab and his friend included, was brought in for questioning; The National understands Merab is not the one pressing charges; Saba Lazishvili's brother says Merab and Saba were still held and a judge may decide within 48 hours (MMA Mania/SB Nation)",
+        "RAF said it would address the incident at Thursday's (Nov 12) pre-event press conference; no RAF/UFC decision yet on Merab vs. Marlon Moraes (Nov 14)",
+        "Held for evening by the Nov 12 9 AM run as a serious-format UPDATE (police-confirmed arrests are a genuine new fact). Evening run: fold in the RAF press conference outcome (fight on/off, Merab released or not) and post as UPDATE; don't post if nothing beyond this is confirmed and it's gone stale. Original Reel: 449 views, best in weeks"
+      ],
+      "sources": [
+        "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
+        "https://www.si.com/fannation/mma/news/ufc-star-merab-dvalishvili-left-bloodied-alleged-attack-usman-nurmagomedov",
+        "https://sports.yahoo.com/articles/merab-dvalishvili-bloody-beaten-following-173049695.html",
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/abu-dhabi-police-confirm-10-people-arrested-after-nurmagomedov-and-dvalishvili-hotel-brawl/",
+        "https://www.mmamania.com/ufc-news/485623/merab-dvalishvili-still-in-abu-dhabi-jail-after-getting-jumped-by-usman-nurmagomedov",
+        "https://www.givemesport.com/update-usman-nurmagomedovs-attack-merab-dvalishvili-police-involved/"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-11-1315-merab-attacked",
+          "kind": "new",
+          "format": "reel",
+          "style": "serious",
+          "scheduled_for": "2026-11-11T13:20:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3899799836102606418"
+        }
+      ],
+      "held_for_evening": true
+    },
+    {
       "id": "misc-nov-11-10pm",
       "title": "Nov 11 10 PM run: nothing qualified (no posts)",
       "people": [
@@ -55,40 +123,6 @@
         "https://www.mmamania.com/latest-news/485529/ilia-topuria-claims-usman-nurmagomedov-detained-after-merab-dvalishvili-ambush-absolute-cowards"
       ],
       "posts": []
-    },
-    {
-      "id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
-      "title": "Merab Dvalishvili says Usman Nurmagomedov and others attacked him and a friend in Abu Dhabi",
-      "people": [
-        "Merab Dvalishvili",
-        "Usman Nurmagomedov",
-        "Ilia Topuria",
-        "Marlon Moraes"
-      ],
-      "event": "RAF Abu Dhabi",
-      "first_reported": "2026-11-11",
-      "facts": [
-        "Merab Dvalishvili says Usman Nurmagomedov and his friends attacked him and a friend from behind in Abu Dhabi, where he is for RAF Abu Dhabi (CBS Sports, SI, Nov 11)",
-        "Video shared Nov 11 shows Dvalishvili and his friend bloodied and getting medical attention; Ilia Topuria also posted video of the attack on X (CBS)",
-        "Dvalishvili is scheduled to wrestle Marlon Moraes at RAF Abu Dhabi on Saturday; SI says the bout may be in jeopardy (SI's inference)",
-        "No response from Usman Nurmagomedov, his team, UFC, RAF or police reported as of the 1 PM run",
-        "Posted under the breaking-news exception (serious incident involving a former champion) outside the evening-only window, serious format"
-      ],
-      "sources": [
-        "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
-        "https://www.si.com/fannation/mma/news/ufc-star-merab-dvalishvili-left-bloodied-alleged-attack-usman-nurmagomedov",
-        "https://sports.yahoo.com/articles/merab-dvalishvili-bloody-beaten-following-173049695.html"
-      ],
-      "posts": [
-        {
-          "post": "2026-11-11-1315-merab-attacked",
-          "kind": "new",
-          "format": "reel",
-          "style": "serious",
-          "scheduled_for": "2026-11-11T13:20:00-05:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-3899799836102606418"
-        }
-      ]
     },
     {
       "id": "misc-nov-11-pm",
