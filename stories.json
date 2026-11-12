@@ -2,6 +2,33 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-11-10pm",
+      "title": "Nov 11 10 PM run: nothing qualified (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Islam Makhachev",
+        "Sean Strickland",
+        "Conor McGregor"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-11",
+      "facts": [
+        "Skipped (reaction, no new fact): Islam Makhachev defends Usman Nurmagomedov and criticizes Merab's past behavior (MMA Fighting via Yahoo); Sean Strickland blasts Usman (Low Kick MMA)",
+        "Merab attack: still no police, RAF, UFC or PFL statement found; Topuria's detention claim unconfirmed; Merab vs. Marlon Moraes still listed for RAF Abu Dhabi Nov 14. No update post",
+        "Skipped (talk): Conor McGregor's manager expects his UFC career to end in late 2027 (Yahoo)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 6 PM run; Trial Reels off",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting",
+        "Reach check: last measured Reels 128-233 views (Nov 9-10); flat, no clear recovery; Merab Reel not in analytics yet"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/islam-makhachev-defends-usman-nurmagomedov-221611758.html",
+        "https://www.lowkickmma.com/usman-nurmagomedov-sean-strickland-fume-merab/",
+        "https://sports.yahoo.com/mma/article/conor-mcgregor-targeting-late-2027-return-for-final-ufc-fight-then-free-agency-says-manager-233347870.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-11-6pm",
       "title": "Nov 11 6 PM run: nothing qualified; Dumont dropped (no posts)",
       "people": [
