@@ -192,7 +192,9 @@
           "kind": "update",
           "format": "reel",
           "style": "v2",
-          "image": "drive-merab-dvalishvili-double-flag"
+          "image": "drive-merab-dvalishvili-double-flag",
+          "scheduled_for": "2026-11-13T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2533404348128081949"
         }
       ]
     },
