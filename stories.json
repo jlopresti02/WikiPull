@@ -2,6 +2,32 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-12-10pm",
+      "title": "Nov 12 10 PM run: no new qualifying news (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Dana White"
+      ],
+      "event": "RAF Abu Dhabi / UFC 334",
+      "first_reported": "2026-11-12",
+      "facts": [
+        "Merab serious UPDATE published 7 PM (instagram.com/reel/DfqTRjsFOys); still no RAF/UFC decision on Merab vs. Moraes or Umar vs. Faber found",
+        "Skipped (reaction quote, not major news): Dana White calls the Merab-Usman brawl 'idiotic' (MMA Mania)",
+        "Skipped (fight-week talk): UFC 334 press conference faceoffs, Gane-Hokit and Harrison-Nunes; card unchanged",
+        "Skipped (minor business): Apple Sports app adds UFC (MacRumors)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE since the 6 PM run; PFL Dubai card unchanged; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting (user's Ball Brawl posts went out 8:25 and 8:55 PM)",
+        "Reach check: Merab update analytics not in yet; Merab attack 449, Nov 9-10 Reels 130-243; no broad recovery yet"
+      ],
+      "sources": [
+        "https://www.mmamania.com/raf-wrestling-schedule-cards-live-results/485691/dana-white-reacts-to-usman-nurmagomedov-merab-dvalishvili-idiotic-brawl-not-a-place-to-go-f-k-around",
+        "https://www.mmamania.com/ufc-334-live-stream-fight-card-start-time-gane-vs-hokit/485680/staredowns-ufc-334-press-conference-faceoffs-featuring-gane-hokit-harrison-nunes-and-more",
+        "https://www.macrumors.com/2026/11/12/apple-sports-app-ufc/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-12-6pm",
       "title": "Nov 12 6 PM run: Merab UPDATE posted (arrests + RAF bars Usman)",
       "people": [
