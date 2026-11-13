@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-13-6pm",
+      "title": "Nov 13 6 PM run: Merab fight-on UPDATE (RAF confirms; Umar out, Lazishvili vs Faber)",
+      "people": [
+        "Merab Dvalishvili",
+        "Marlon Moraes",
+        "Umar Nurmagomedov",
+        "Saba Lazishvili",
+        "Urijah Faber"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-13",
+      "facts": [
+        "Queued v2 UPDATE: RAF confirms Merab vs. Moraes on; Umar out, Lazishvili vs. Faber (see merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov)",
+        "Skipped (presser antics, not major news): Joshua Van no-shows UFC 335/336 press conference, Kape takes his belt on stage (Bloody Elbow); Prates-Morales faceoff",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL (Dubai card unchanged) or ONE since the 1 PM run; UFC 334 card unchanged as found; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start",
+        "Reach check (Metricool IGRE02): Usman sentence update 107 views so far, Merab arrests update 595, Merab attack 458, Nov 9-10 Reels 133-256"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/13/ufc-champion-has-his-title-stolen-after-no-showing-press-conference-featuring-pereira-and-oliveira/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-13-pm",
       "title": "Nov 13 1 PM run: Usman sentence UPDATE posted (breaking exception)",
       "people": [
@@ -115,7 +139,8 @@
         "Reported (Helwani via OC Media): Merab and Saba Lazishvili were held almost 48 hours and each fined AED 50,000 before release; per a local media report cited by Helwani, six members of Usman Nurmagomedov's team were sentenced to six months, fined and ordered deported after serving (not officially confirmed; Usman himself not named). Other outlets say Usman and others reportedly face up to six months",
         "Held for evening by the Nov 13 9 AM run as a serious-format UPDATE (release is a genuine new fact). Evening run: fold in whether Merab vs. Moraes is on, and post as UPDATE; if still unconfirmed, the release alone still qualifies. Metricool and Google Drive connectors failed to connect this run",
         "UPDATE (Nov 13 PM): Usman Nurmagomedov reportedly sentenced to six months in prison, fined (~$82,000) and to be deported after serving, along with five others, per CBS Sports citing a statement from the Abu Dhabi judicial department (Nov 13, 9:16 AM ET); TASS reports a court department post saying eight participants were sentenced. Merab's own fine not confirmed by CBS. RAF CEO Chad Bronstein says Merab (and Saba Lazishvili, per CBS) released and back with RAF; Merab vs. Moraes still not confirmed in reputable outlets (Bloody Elbow headline says Merab and Saba will compete, not verified). Umar vs. Faber status unknown",
-        "Nov 13 1 PM run: posted serious-format UPDATE (sentence + Merab release) under the breaking-news exception, daytime, since the sentence is a major shock development for a star and the original attack Reel did best posted daytime (449 views). The held release update is folded into this post"
+        "Nov 13 1 PM run: posted serious-format UPDATE (sentence + Merab release) under the breaking-news exception, daytime, since the sentence is a major shock development for a star and the original attack Reel did best posted daytime (449 views). The held release update is folded into this post",
+        "UPDATE (Nov 13 PM): RAF confirmed Friday that Merab still wrestles Marlon Moraes at RAF Abu Dhabi Nov 14 (RAF 'CONFIRMED' post; Helwani citing CEO Chad Bronstein). Umar Nurmagomedov is off the card (no reason given); Saba Lazishvili, Merab's 21-year-old friend who was among those arrested, replaces him vs. Urijah Faber in his debut (The National, MiddleEasy, Nov 13). The National, citing the Abu Dhabi Judicial Department: all 10 convicted; 8 got six months, Dh300,000 fines and deportation; two (believed to be Merab and Lazishvili) fined Dh50,000"
       ],
       "sources": [
         "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
@@ -132,7 +157,9 @@
         "https://middleeasy.com/mma-news/merab-dvalishvili-released-uae-detention-raf-return/",
         "https://www.cbssports.com/ufc/news/usman-nurmagomedov-sentenced-to-six-months-abu-dhabi-prison-for-attack-on-merab-dvalishvili/",
         "https://tass.com/sports/2217895",
-        "https://sports.yahoo.com/mma/article/usman-nurmagomedov-gets-6-month-jail-sentence-over-abu-dhabi-attack-merab-dvalishvili-freed-from-detention-center-145458143.html"
+        "https://sports.yahoo.com/mma/article/usman-nurmagomedov-gets-6-month-jail-sentence-over-abu-dhabi-attack-merab-dvalishvili-freed-from-detention-center-145458143.html",
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/13/dvalishvili-cleared-to-wrestle-at-raf-abu-dhabi-following-arrest-over-nurmagomedov-hotel-brawl/",
+        "https://middleeasy.com/brazilian-jiu-jitsu/saba-lazishvili-replaces-umar-nurmagomedov-urijah-faber-raf/"
       ],
       "posts": [
         {
@@ -159,6 +186,13 @@
           "style": "serious",
           "scheduled_for": "2026-11-13T13:20:00-05:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1243443528790986411"
+        },
+        {
+          "post": "2026-11-13-1815-merab-fight-on",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2",
+          "image": "drive-merab-dvalishvili-double-flag"
         }
       ]
     },
