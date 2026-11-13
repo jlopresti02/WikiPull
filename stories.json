@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-13-am",
+      "title": "Nov 13 9 AM run: Merab release update held for the evening (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Terrance McKinney"
+      ],
+      "event": "RAF Abu Dhabi / UFC 334",
+      "first_reported": "2026-11-13",
+      "facts": [
+        "Held Merab UPDATE (released from custody, fined per reports) for the evening; see merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+        "Skipped (not major news): Terrance McKinney misses weight by 4.2 lb for Jim Miller at UFC 334, says he's moving to welterweight (MiddleEasy)",
+        "UFC 334 weigh-ins: Gane and Hokit made the heavyweight limit; card otherwise unchanged as found. No new official bookings, withdrawals, title changes or signings in UFC, PFL (Dubai card unchanged) or ONE since the 10 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "No Umar Nurmagomedov vs. Urijah Faber decision found",
+        "Metricool and Google Drive connectors failed to connect (502) this run: no reach check, no Drive check, no scheduling attempted (none was due)"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/terrance-mckinney-welterweight-move-ufc334-weight-miss/",
+        "https://cagesidepress.com/2026/11/13/ufc-334-gane-vs-hokit-weigh-in-results/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-12-10pm",
       "title": "Nov 12 10 PM run: no new qualifying news (no posts)",
       "people": [
@@ -70,7 +93,10 @@
         "RAF said it would address the incident at Thursday's (Nov 12) pre-event press conference; no RAF/UFC decision yet on Merab vs. Marlon Moraes (Nov 14)",
         "Held for evening by the Nov 12 9 AM run as a serious-format UPDATE (police-confirmed arrests are a genuine new fact). Evening run: fold in the RAF press conference outcome (fight on/off, Merab released or not) and post as UPDATE; don't post if nothing beyond this is confirmed and it's gone stale. Original Reel: 449 views, best in weeks",
         "UPDATE (Nov 12 PM): At Thursday's RAF press conference, co-founder Chad Bronstein said Usman Nurmagomedov will not attend Saturday's RAF Abu Dhabi event; RAF doesn't condone it and hopes it is resolved soon. Merab's status vs. Marlon Moraes and Umar Nurmagomedov's vs. Urijah Faber are unknown, decision expected within a day or two; neither Merab nor Umar attended the presser (MMA Fighting via Yahoo, Nov 12). Abu Dhabi Police released a statement (Bloody Elbow). Still held for the evening: 6 PM/10 PM run posts one serious-format UPDATE combining the arrests and the RAF ban (plus any decision on Merab's fight)",
-        "Nov 12 6 PM run: no RAF/UFC decision on Merab vs. Moraes or Umar vs. Faber found yet; posted the held serious-format UPDATE (arrests + RAF bars Usman) for 7 PM. A confirmed decision on the fight would be a genuine new fact for a later update"
+        "Nov 12 6 PM run: no RAF/UFC decision on Merab vs. Moraes or Umar vs. Faber found yet; posted the held serious-format UPDATE (arrests + RAF bars Usman) for 7 PM. A confirmed decision on the fight would be a genuine new fact for a later update",
+        "UPDATE (Nov 13 AM): RAF says Merab is out of custody and 'back with us in Abu Dhabi' (statement from CEO Chad Bronstein); his status for Saturday's bout vs. Marlon Moraes is still to be confirmed (MMA Fighting, Nov 13)",
+        "Reported (Helwani via OC Media): Merab and Saba Lazishvili were held almost 48 hours and each fined AED 50,000 before release; per a local media report cited by Helwani, six members of Usman Nurmagomedov's team were sentenced to six months, fined and ordered deported after serving (not officially confirmed; Usman himself not named). Other outlets say Usman and others reportedly face up to six months",
+        "Held for evening by the Nov 13 9 AM run as a serious-format UPDATE (release is a genuine new fact). Evening run: fold in whether Merab vs. Moraes is on, and post as UPDATE; if still unconfirmed, the release alone still qualifies. Metricool and Google Drive connectors failed to connect this run"
       ],
       "sources": [
         "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
@@ -81,7 +107,10 @@
         "https://www.givemesport.com/update-usman-nurmagomedovs-attack-merab-dvalishvili-police-involved/",
         "https://sports.yahoo.com/articles/usman-nurmagomedov-banned-attending-raf-164949436.html",
         "https://bloodyelbow.com/2026/11/12/abu-dhabi-police-release-statement-after-usman-nurmagomedov-attacked-merab-dvalishvili-at-raf/",
-        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/dvalishvili-a-no-show-at-press-conference-as-raf-confirm-nurmagomedov-will-not-attend-abu-dhabi-event/"
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/dvalishvili-a-no-show-at-press-conference-as-raf-confirm-nurmagomedov-will-not-attend-abu-dhabi-event/",
+        "https://sports.yahoo.com/articles/raf-releases-merab-dvalishvili-status-132834969.html",
+        "https://oc-media.org/ufc-fighters-merab-dvalishvili-usman-nurmagomedov-among-those-arrested-after-uae-hotel-fight/",
+        "https://middleeasy.com/mma-news/merab-dvalishvili-released-uae-detention-raf-return/"
       ],
       "posts": [
         {
@@ -101,7 +130,8 @@
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=502267710732324293",
           "image": "drive-merab-dvalishvili-champ"
         }
-      ]
+      ],
+      "held_for_evening": true
     },
     {
       "id": "misc-nov-12-pm",
