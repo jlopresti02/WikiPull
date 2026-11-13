@@ -1,0 +1,80 @@
+{
+  "story_id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+  "headline": "Merab's On",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Merab Dvalishvili",
+      "file": "drive-merab-dvalishvili-double-flag"
+    },
+    {
+      "type": "fighter",
+      "name": "Marlon Moraes"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Merab Dvalishvili is still wrestling Marlon Moraes at RAF Abu Dhabi tomorrow, days after the hotel brawl.\nMerab or Moraes? 👇\n\nRAF confirmed the match Friday. Umar Nurmagomedov is off the card, and Merab's 21-year-old friend Saba Lazishvili, who was arrested with him, now faces Urijah Faber at Etihad Arena.\n\n🔥 Hot take: Showing up to compete after this week is pure champion mentality.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "RAF",
+    "RAFAbuDhabi",
+    "MerabDvalishvili",
+    "UrijahFaber"
+  ],
+  "sources": [
+    "The National",
+    "MiddleEasy",
+    "RAF"
+  ],
+  "music_pool": "espn",
+  "question": "Merab or Moraes?",
+  "hot_take": "Showing up after this week is pure *champion* mentality.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "RAF ABU DHABI",
+    "kicker": "UPDATE · IT'S ON",
+    "hook": "Merab vs Moraes",
+    "left": [
+      {
+        "name": "Merab Dvalishvili",
+        "file": "drive-merab-dvalishvili-double-flag"
+      }
+    ],
+    "right": [
+      {
+        "name": "Marlon Moraes"
+      }
+    ],
+    "story": "RAF confirms Merab still wrestles Moraes; Umar is out and Saba Lazishvili gets Faber.",
+    "chips": [
+      "SAT NOV 14 · ETIHAD ARENA",
+      "FREESTYLE WRESTLING",
+      "UMAR OUT"
+    ],
+    "options": [
+      "MERAB",
+      "MORAES"
+    ],
+    "question": "Merab or Moraes?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-double-flag.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/marlon-moraes/cutouts/01-marlon-moraes.png",
+      "credit": "Sambo1096 / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-double-flag.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/01-sport-is-cool.mp3",
+  "music_credit": "\"Sport Is cool\" by Marco Margna / CC BY-SA 3.0",
+  "music_start": 160.5
+}
