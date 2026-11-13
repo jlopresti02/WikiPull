@@ -1,5 +1,5 @@
 
-== 2026-11-12-1815-merab-arrests-raf-update.json
-Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili-champ'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png  headline: 10 Arrested
-Rendered posts/2026-11-12-1815-merab-arrests-raf-update/post.png (fighter)
-Rendered posts/2026-11-12-1815-merab-arrests-raf-update/reel.mp4 (format serious)
+== 2026-11-13-1315-usman-sentenced.json
+Image: {'type': 'fighter', 'name': 'Usman Nurmagomedov', 'file': '01-usmannurmagomedov'} -> fighter images/usman-nurmagomedov/cutouts/01-usmannurmagomedov.png  headline: 6 Months
+Rendered posts/2026-11-13-1315-usman-sentenced/post.png (fighter)
+Rendered posts/2026-11-13-1315-usman-sentenced/reel.mp4 (format serious)

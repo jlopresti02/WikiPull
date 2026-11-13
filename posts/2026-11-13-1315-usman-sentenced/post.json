@@ -3,13 +3,31 @@
   "headline": "6 Months",
   "format": "serious",
   "visual": [
-    {"type": "fighter", "name": "Usman Nurmagomedov", "file": "01-usmannurmagomedov"},
-    {"type": "fighter", "name": "Merab Dvalishvili", "file": "drive-merab-dvalishvili-champ"}
+    {
+      "type": "fighter",
+      "name": "Usman Nurmagomedov",
+      "file": "01-usmannurmagomedov"
+    },
+    {
+      "type": "fighter",
+      "name": "Merab Dvalishvili",
+      "file": "drive-merab-dvalishvili-champ"
+    }
   ],
   "color": "#111111",
   "caption": "UPDATE: Usman Nurmagomedov has reportedly been sentenced to six months in prison over the Abu Dhabi hotel attack on Merab Dvalishvili.\nCBS Sports, citing Abu Dhabi's judicial department, reports Usman and five others were also fined and will be deported after serving. RAF says Merab has been released from custody and is back with the team ahead of Saturday's RAF Abu Dhabi event.\n\nHoping everyone involved can move forward safely.",
-  "hashtags": ["MMANews", "UFC", "UsmanNurmagomedov", "MerabDvalishvili", "RAF"],
-  "sources": ["CBS Sports", "TASS", "MMA Fighting"],
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UsmanNurmagomedov",
+    "MerabDvalishvili",
+    "RAF"
+  ],
+  "sources": [
+    "CBS Sports",
+    "TASS",
+    "MMA Fighting"
+  ],
   "serious": {
     "tag": "NEWS UPDATE",
     "kicker": "REPORTED",
@@ -22,5 +40,10 @@
     ],
     "closing": "Hoping everyone involved can move forward safely."
   },
-  "reel": true
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/usman-nurmagomedov/cutouts/01-usmannurmagomedov.png",
+    "credit": "Новости Дагестан / CC BY 3.0"
+  }
 }
