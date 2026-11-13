@@ -2,6 +2,23 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-13-pm",
+      "title": "Nov 13 1 PM run: Usman sentence UPDATE posted (breaking exception)",
+      "people": [
+        "Usman Nurmagomedov",
+        "Merab Dvalishvili"
+      ],
+      "event": "RAF Abu Dhabi / UFC 334",
+      "first_reported": "2026-11-13",
+      "facts": [
+        "Posted serious UPDATE: Usman Nurmagomedov reportedly sentenced to six months (see merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov)",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE found since the 9 AM run; UFC 334 (Gane vs. Hokit) and PFL Dubai cards unchanged; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start"
+      ],
+      "sources": [],
+      "posts": []
+    },
+    {
       "id": "misc-nov-13-am",
       "title": "Nov 13 9 AM run: Merab release update held for the evening (no posts)",
       "people": [
@@ -96,7 +113,9 @@
         "Nov 12 6 PM run: no RAF/UFC decision on Merab vs. Moraes or Umar vs. Faber found yet; posted the held serious-format UPDATE (arrests + RAF bars Usman) for 7 PM. A confirmed decision on the fight would be a genuine new fact for a later update",
         "UPDATE (Nov 13 AM): RAF says Merab is out of custody and 'back with us in Abu Dhabi' (statement from CEO Chad Bronstein); his status for Saturday's bout vs. Marlon Moraes is still to be confirmed (MMA Fighting, Nov 13)",
         "Reported (Helwani via OC Media): Merab and Saba Lazishvili were held almost 48 hours and each fined AED 50,000 before release; per a local media report cited by Helwani, six members of Usman Nurmagomedov's team were sentenced to six months, fined and ordered deported after serving (not officially confirmed; Usman himself not named). Other outlets say Usman and others reportedly face up to six months",
-        "Held for evening by the Nov 13 9 AM run as a serious-format UPDATE (release is a genuine new fact). Evening run: fold in whether Merab vs. Moraes is on, and post as UPDATE; if still unconfirmed, the release alone still qualifies. Metricool and Google Drive connectors failed to connect this run"
+        "Held for evening by the Nov 13 9 AM run as a serious-format UPDATE (release is a genuine new fact). Evening run: fold in whether Merab vs. Moraes is on, and post as UPDATE; if still unconfirmed, the release alone still qualifies. Metricool and Google Drive connectors failed to connect this run",
+        "UPDATE (Nov 13 PM): Usman Nurmagomedov reportedly sentenced to six months in prison, fined (~$82,000) and to be deported after serving, along with five others, per CBS Sports citing a statement from the Abu Dhabi judicial department (Nov 13, 9:16 AM ET); TASS reports a court department post saying eight participants were sentenced. Merab's own fine not confirmed by CBS. RAF CEO Chad Bronstein says Merab (and Saba Lazishvili, per CBS) released and back with RAF; Merab vs. Moraes still not confirmed in reputable outlets (Bloody Elbow headline says Merab and Saba will compete, not verified). Umar vs. Faber status unknown",
+        "Nov 13 1 PM run: posted serious-format UPDATE (sentence + Merab release) under the breaking-news exception, daytime, since the sentence is a major shock development for a star and the original attack Reel did best posted daytime (449 views). The held release update is folded into this post"
       ],
       "sources": [
         "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
@@ -110,7 +129,10 @@
         "https://www.thenationalnews.com/sport/combat-sports/2026/11/12/dvalishvili-a-no-show-at-press-conference-as-raf-confirm-nurmagomedov-will-not-attend-abu-dhabi-event/",
         "https://sports.yahoo.com/articles/raf-releases-merab-dvalishvili-status-132834969.html",
         "https://oc-media.org/ufc-fighters-merab-dvalishvili-usman-nurmagomedov-among-those-arrested-after-uae-hotel-fight/",
-        "https://middleeasy.com/mma-news/merab-dvalishvili-released-uae-detention-raf-return/"
+        "https://middleeasy.com/mma-news/merab-dvalishvili-released-uae-detention-raf-return/",
+        "https://www.cbssports.com/ufc/news/usman-nurmagomedov-sentenced-to-six-months-abu-dhabi-prison-for-attack-on-merab-dvalishvili/",
+        "https://tass.com/sports/2217895",
+        "https://sports.yahoo.com/mma/article/usman-nurmagomedov-gets-6-month-jail-sentence-over-abu-dhabi-attack-merab-dvalishvili-freed-from-detention-center-145458143.html"
       ],
       "posts": [
         {
@@ -129,9 +151,14 @@
           "scheduled_for": "2026-11-12T19:00:00-05:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=502267710732324293",
           "image": "drive-merab-dvalishvili-champ"
+        },
+        {
+          "post": "2026-11-13-1315-usman-sentenced",
+          "kind": "update",
+          "format": "reel",
+          "style": "serious"
         }
-      ],
-      "held_for_evening": true
+      ]
     },
     {
       "id": "misc-nov-12-pm",
