@@ -156,7 +156,9 @@
           "post": "2026-11-13-1315-usman-sentenced",
           "kind": "update",
           "format": "reel",
-          "style": "serious"
+          "style": "serious",
+          "scheduled_for": "2026-11-13T13:20:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=1243443528790986411"
         }
       ]
     },
