@@ -1,0 +1,80 @@
+{
+  "story_id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+  "headline": "90 Seconds",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Merab Dvalishvili",
+      "file": "drive-merab-dvalishvili-champ"
+    },
+    {
+      "type": "fighter",
+      "name": "Marlon Moraes"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "UPDATE: Merab Dvalishvili pinned Marlon Moraes in 90 seconds at RAF Abu Dhabi, days after the hotel brawl.\nStatement win or easy night? 👇\n\nAfter the win Merab said he won't press charges and asked for Usman Nurmagomedov to be released. His friend Saba Lazishvili, arrested with him, beat Urijah Faber on the same card.\n\n🔥 Hot take: Nothing that happened this week could slow Merab down.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "RAF",
+    "RAFAbuDhabi",
+    "MerabDvalishvili",
+    "MarlonMoraes"
+  ],
+  "sources": [
+    "Athlon Sports",
+    "LowKick MMA",
+    "Heavy"
+  ],
+  "music_pool": "espn",
+  "question": "Statement or easy night?",
+  "hot_take": "Nothing this week could *slow* Merab down.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "RAF ABU DHABI",
+    "kicker": "UPDATE · PINNED",
+    "hook": "Merab vs Moraes",
+    "left": [
+      {
+        "name": "Merab Dvalishvili",
+        "file": "drive-merab-dvalishvili-champ"
+      }
+    ],
+    "right": [
+      {
+        "name": "Marlon Moraes"
+      }
+    ],
+    "story": "Days after the hotel brawl, Merab pins Moraes in 90 seconds and asks for Usman's release.",
+    "chips": [
+      "PIN AT 1:30",
+      "ETIHAD ARENA",
+      "LAZISHVILI BEAT FABER"
+    ],
+    "options": [
+      "STATEMENT",
+      "EASY NIGHT"
+    ],
+    "question": "Statement or easy night?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/marlon-moraes/cutouts/01-marlon-moraes.png",
+      "credit": "Sambo1096 / CC BY-SA 4.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
+}
