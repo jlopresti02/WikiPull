@@ -69,7 +69,9 @@
           "post": "2026-11-14-1815-chimaev-shuts-out-weidman",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-14T19:30:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3586917423318123097"
         }
       ]
     },
@@ -200,7 +202,9 @@
           "post": "2026-11-14-1815-mike-perry-back-in-ufc",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-14T20:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=769894619796754215"
         }
       ]
     },
@@ -429,7 +433,9 @@
           "post": "2026-11-14-1815-merab-pins-moraes",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-14T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2262778406772849123"
         }
       ]
     },
