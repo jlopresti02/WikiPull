@@ -2,6 +2,80 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-14-pm",
+      "title": "Nov 14 1 PM run: RAF Abu Dhabi underway; Merab pin win and Pena loss held for evening (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Marlon Moraes",
+        "Julianna Peña",
+        "Diana Avsaragova",
+        "Khamzat Chimaev",
+        "Chris Weidman",
+        "Vadim Nemkov",
+        "Ciryl Gane",
+        "Josh Hokit"
+      ],
+      "event": "RAF Abu Dhabi / PFL Dubai / UFC 334",
+      "first_reported": "2026-11-14",
+      "facts": [
+        "Held for evening: Merab pins Moraes at RAF Abu Dhabi (merab-pins-moraes-raf-abu-dhabi); Pena pinned by Avsaragova (pena-pinned-avsaragova-raf-abu-dhabi). Mike Perry re-signing still held from 9 AM",
+        "RAF Abu Dhabi still in progress at run time (Sportaran live results: 5 of 13 matches done); Chimaev vs. Weidman, Tsarukyan vs. Neiman Gracie, Lazishvili vs. Faber, Snyder vs. Erdogan, Zabit vs. Chikadze pending. 6 PM run: check results; Chimaev result (star's result, RAF title) may qualify",
+        "PFL Dubai (Nemkov vs. Bilostenniy heavyweight title) underway; no confirmed main-event result found yet",
+        "UFC 334 tonight at MSG: no card changes since Nov 10 (Yanez out/Alatengheili in; Sadykhov vs. Nascimento cancelled, both already known). Main card 9 PM ET",
+        "No new official UFC bookings, withdrawals, title changes or ONE big stories found. Adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start",
+        "Reach check (IGRE02): 7 PM Merab fight-on update 137, Usman sentence update 141, Merab arrests update 1910, Merab attack 461"
+      ],
+      "sources": [
+        "https://athlonsports.com/mma/from-hotel-brawl-to-90-second-pin-merab-dvalishvili-wins-at-raf-abu-dhabi-and-calls-for-rivals-release",
+        "https://sportaran.com/en/post/raf-abu-dhabi-2026-rezultaty-vseh-shvatok-tsarukyan-chimaev/",
+        "https://www.ufc.com/news/updates-polymarket-ufc-334-gane-vs-hokit"
+      ],
+      "posts": []
+    },
+    {
+      "id": "merab-pins-moraes-raf-abu-dhabi",
+      "title": "Merab Dvalishvili pins Marlon Moraes in 90 seconds at RAF Abu Dhabi, days after hotel brawl, and asks for Usman's release",
+      "people": [
+        "Merab Dvalishvili",
+        "Marlon Moraes",
+        "Usman Nurmagomedov"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-14",
+      "facts": [
+        "Merab Dvalishvili beat Marlon Moraes by pin at 1:30 at RAF Abu Dhabi (Athlon Sports, Nov 14 12:35 PM ET)",
+        "After the win he said he doesn't want to press charges and asked authorities to let Usman Nurmagomedov and the others go (Athlon)",
+        "Genuine new fact for the Merab/Usman saga (merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov): the result. Star's result qualifies under major-news rule",
+        "Held for evening by the 1 PM run. Evening run: v2 UPDATE Reel, left Merab Dvalishvili (drive-merab-dvalishvili-champ), right Marlon Moraes; confirm with a second outlet (MMA Junkie/MMA Fighting) first"
+      ],
+      "sources": [
+        "https://athlonsports.com/mma/from-hotel-brawl-to-90-second-pin-merab-dvalishvili-wins-at-raf-abu-dhabi-and-calls-for-rivals-release",
+        "https://www.lowkickmma.com/merab-dvalishvili-wins-at-raf-abu-dhabi-calls-for-peace-and-hails-saba-lazishvili-as-brother-for-life/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "pena-pinned-avsaragova-raf-abu-dhabi",
+      "title": "Julianna Pena pinned by Diana Avsaragova at RAF Abu Dhabi",
+      "people": [
+        "Julianna Peña",
+        "Diana Avsaragova"
+      ],
+      "event": "RAF Abu Dhabi",
+      "first_reported": "2026-11-14",
+      "facts": [
+        "Diana Avsaragova beat former UFC champion Julianna Pena by pin at RAF Abu Dhabi (Sportaran live results, Nov 14; confirm with a reputable MMA outlet before posting)",
+        "Held for evening as a lower-priority option (former champ's result); post only if it fits under the 4-a-day cap after Perry, Merab, and Chimaev/UFC 334 results"
+      ],
+      "sources": [
+        "https://sportaran.com/en/post/raf-abu-dhabi-2026-rezultaty-vseh-shvatok-tsarukyan-chimaev/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "misc-nov-14-am",
       "title": "Nov 14 9 AM run: Mike Perry UFC re-signing held for the evening (no posts)",
       "people": [
