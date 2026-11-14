@@ -1,0 +1,29 @@
+{
+  "story_id": "mike-perry-re-signs-ufc",
+  "headline": "Platinum's Back",
+  "visual": [
+    {"type": "fighter", "name": "Mike Perry"},
+    {"type": "fighter", "name": "Jorge Masvidal"}
+  ],
+  "color": "#111111",
+  "caption": "Mike Perry is back in the UFC, and Jorge Masvidal is reportedly the target.\nPerry or Masvidal? 👇\n\nHis manager Malki Kawa says Perry re-signed more than five years after leaving the UFC, following his 6-0 BKFC run. No opponent or date is official yet.\n\n🔥 Hot take: Perry vs Masvidal sells more than half the title fights this year.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFCNews", "MikePerry", "JorgeMasvidal"],
+  "sources": ["Yahoo Sports / Uncrowned", "Heavy", "Bloody Elbow"],
+  "music_pool": "espn",
+  "question": "Perry or Masvidal?",
+  "hot_take": "Perry vs Masvidal *sells* more than most title fights.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · RETURN",
+    "kicker": "BACK IN THE UFC",
+    "hook": "Perry vs Masvidal?",
+    "left": [{"name": "Mike Perry"}],
+    "right": [{"name": "Jorge Masvidal", "file": "drive-jorge-masvidal-looks-at-camera"}],
+    "story": "Mike Perry re-signs with the UFC after five years away; Masvidal reportedly targeted.",
+    "chips": ["6-0 IN BKFC", "OPPONENT NOT OFFICIAL", "5+ YEARS AWAY"],
+    "options": ["PERRY", "MASVIDAL"],
+    "question": "Perry or Masvidal?"
+  }
+}

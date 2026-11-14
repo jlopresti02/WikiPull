@@ -1,0 +1,29 @@
+{
+  "story_id": "chimaev-beats-weidman-raf-abu-dhabi",
+  "headline": "10-0 Shutout",
+  "visual": [
+    {"type": "fighter", "name": "Khamzat Chimaev", "file": "drive-khamzat-chimaev-champ"},
+    {"type": "fighter", "name": "Chris Weidman"}
+  ],
+  "color": "#d2202f",
+  "caption": "Khamzat Chimaev shut out Chris Weidman 10-0 to win an RAF title in Abu Dhabi.\nChimaev in his prime or Weidman past his? 👇\n\nThe UFC star won by tech fall to take the RAF Light Heavyweight Crossover Championship. Weidman took the match on short notice after Colby Covington pulled out.\n\n🔥 Hot take: Nobody in MMA wants to wrestle Chimaev, and now we know why.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "RAF", "RAFAbuDhabi", "KhamzatChimaev", "ChrisWeidman"],
+  "sources": ["Heavy", "MMA Mania", "Yahoo Sports"],
+  "music_pool": "espn",
+  "question": "Prime Khamzat or old Weidman?",
+  "hot_take": "Nobody in MMA wants to *wrestle* Chimaev.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "RAF ABU DHABI",
+    "kicker": "NEW RAF CHAMP",
+    "hook": "Chimaev vs Weidman",
+    "left": [{"name": "Khamzat Chimaev", "file": "drive-khamzat-chimaev-champ"}],
+    "right": [{"name": "Chris Weidman"}],
+    "story": "Chimaev shuts out short-notice Weidman 10-0 by tech fall to win an RAF title.",
+    "chips": ["10-0 TECH FALL", "LHW CROSSOVER TITLE", "COLBY PULLED OUT"],
+    "options": ["PRIME KHAMZAT", "OLD WEIDMAN"],
+    "question": "Prime Khamzat or old Weidman?"
+  }
+}
