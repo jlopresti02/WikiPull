@@ -2,6 +2,56 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-14-am",
+      "title": "Nov 14 9 AM run: Mike Perry UFC re-signing held for the evening (no posts)",
+      "people": [
+        "Mike Perry",
+        "Merab Dvalishvili",
+        "Usman Nurmagomedov",
+        "Ciryl Gane",
+        "Josh Hokit",
+        "Vadim Nemkov"
+      ],
+      "event": "UFC 334 / RAF Abu Dhabi / PFL Dubai",
+      "first_reported": "2026-11-14",
+      "facts": [
+        "Held for evening: Mike Perry re-signs with UFC (see mike-perry-re-signs-ufc)",
+        "Merab: no genuinely new fact since the 6 PM fight-on UPDATE (Merab says he wants peace, won't press charges, hopes Usman is released: quotes only; court details already covered). RAF Abu Dhabi (Merab vs. Moraes) and PFL Dubai (Nemkov vs. Bilostenniy, all on weight) are today; results due for the 1 PM run",
+        "UFC 334 (Gane vs. Hokit, Harrison vs. Nunes) tonight at MSG; card unchanged since weigh-ins as found",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE beyond Perry; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos since Nov 12. Metricool: nothing waiting at run start",
+        "Reach check (IGRE02): Merab arrests update now 1910 views, Merab attack 461, Usman sentence update 141, 7 PM Merab fight-on update 137"
+      ],
+      "sources": [
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/14/merab-dvalishvili-wants-peace-and-hopes-usman-nurmagomedov-is-released-soon/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "mike-perry-re-signs-ufc",
+      "title": "Mike Perry re-signs with the UFC, more than five years after leaving",
+      "people": [
+        "Mike Perry",
+        "Jorge Masvidal"
+      ],
+      "event": "UFC (no event yet)",
+      "first_reported": "2026-11-13",
+      "facts": [
+        "Mike Perry has re-signed with the UFC, per his manager Malki Kawa (Nolan King, Nov 13 ~3:14 PM ET; Heavy, Yahoo/Uncrowned)",
+        "No official UFC announcement, opponent or date yet; reports say he is being targeted for Jorge Masvidal (Heavy: nothing official); a Q1 2027 Orlando numbered event is rumored",
+        "Context: 7-8 in first UFC run (2016-2021); 6-0 in BKFC incl. Eddie Alvarez and Luke Rockhold; beat Nate Diaz by TKO at MVP MMA (May 2026); lost by injury TKO (dislocated shoulder) to Brandon Jenkins in August",
+        "Follow-up to mike-perry-leaves-bkfc-eyes-mma (Oct 20, not posted)",
+        "Nov 14 9 AM run: held for evening (major signing; qualifies under major-news rule). Evening run: post as v2 Reel, left Mike Perry, right Jorge Masvidal (word Masvidal as reported target); fold in any official UFC booking if it lands"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/article/mike-perry-re-signs-with-ufc-officially-returning-more-than-5-years-after-leaving-promotion-204136846.html",
+        "https://heavy.com/sports/ufc/mike-perry-returns-to-the-ufc/",
+        "https://bloodyelbow.com/2026/11/14/mike-perry-reveals-he-re-signed-to-the-ufc-the-day-before-suffering-tko-loss-and-teases-next-opponent/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
       "id": "misc-nov-13-10pm",
       "title": "Nov 13 10 PM run: no new qualifying news (no posts)",
       "people": [
