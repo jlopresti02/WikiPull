@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-13-10pm",
+      "title": "Nov 13 10 PM run: no new qualifying news (no posts)",
+      "people": [
+        "Merab Dvalishvili",
+        "Ciryl Gane",
+        "Josh Hokit",
+        "Vadim Nemkov"
+      ],
+      "event": "RAF Abu Dhabi / UFC 334 / PFL Dubai",
+      "first_reported": "2026-11-13",
+      "facts": [
+        "No new facts on the Merab/Usman story since the 6 PM fight-on UPDATE (The National's 8-sentenced report and Lazishvili-for-Umar swap already covered)",
+        "UFC 334 (Gane vs. Hokit, Harrison vs. Nunes) title fights official after weigh-ins; card unchanged as found. PFL Dubai (Nemkov vs. Bilostenniy) card unchanged; no weigh-in news found",
+        "No new official bookings, withdrawals, title changes or signings in UFC, PFL or ONE since the 6 PM run; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start",
+        "Reach check (IGRE02): Usman sentence update 107, Merab arrests update 595, Merab attack 458; 7 PM fight-on update not in analytics yet"
+      ],
+      "sources": [
+        "https://www.postwrestling.com/2026/11/13/ufc-334-championship-fights-are-official-following-fridays-weigh-in/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-13-6pm",
       "title": "Nov 13 6 PM run: Merab fight-on UPDATE (RAF confirms; Umar out, Lazishvili vs Faber)",
       "people": [
