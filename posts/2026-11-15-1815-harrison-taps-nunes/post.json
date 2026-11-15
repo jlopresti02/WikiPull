@@ -1,0 +1,82 @@
+{
+  "story_id": "harrison-submits-nunes-ufc-334",
+  "headline": "Nunes Tapped",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Kayla Harrison",
+      "file": "02-kayla-harrison-rio-2016-cropped"
+    },
+    {
+      "type": "fighter",
+      "name": "Amanda Nunes",
+      "file": "04-amanda-nunes-ufc-2023"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Kayla Harrison just made Amanda Nunes tap to keep her UFC title.\nNew GOAT or rusty Nunes? 👇\n\nHarrison finished Nunes with a rear-naked choke in round 4 at UFC 334 at Madison Square Garden to retain the women's bantamweight belt. Afterward she said she has big decisions to make about her future.\n\n🔥 Hot take: Harrison should retire on top right now.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "KaylaHarrison",
+    "AmandaNunes"
+  ],
+  "sources": [
+    "ESPN",
+    "Yahoo Sports",
+    "Bleacher Report"
+  ],
+  "music_pool": "espn",
+  "question": "New GOAT or rusty Nunes?",
+  "hot_take": "Harrison should *retire* on top right now.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 334 · BANTAMWEIGHT",
+    "kicker": "RETIRE ON TOP?",
+    "hook": "Harrison vs Nunes",
+    "left": [
+      {
+        "name": "Kayla Harrison",
+        "file": "02-kayla-harrison-rio-2016-cropped"
+      }
+    ],
+    "right": [
+      {
+        "name": "Amanda Nunes",
+        "file": "04-amanda-nunes-ufc-2023"
+      }
+    ],
+    "story": "Harrison chokes out Nunes in round 4 to keep the bantamweight title, then hints at big decisions ahead.",
+    "chips": [
+      "RNC · ROUND 4",
+      "TITLE RETAINED",
+      "4-0 IN UFC"
+    ],
+    "options": [
+      "NEW GOAT",
+      "RUSTY NUNES"
+    ],
+    "question": "New GOAT or rusty Nunes?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png",
+      "credit": "Fernando Frazao/Agência Brasil / CC BY 3.0 br"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/amanda-nunes/cutouts/04-amanda-nunes-ufc-2023.png",
+      "credit": "Esporte na Band / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png",
+    "credit": "Fernando Frazao/Agência Brasil / CC BY 3.0 br"
+  },
+  "music": "music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3",
+  "music_credit": "\"Jet Peks vs Nick Tremo feat Son of the Sun - Beat To Me!\" by Jet Peks / CC BY-SA 3.0",
+  "music_start": 156.25
+}

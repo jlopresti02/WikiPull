@@ -1,13 +1,24 @@
 
-== 2026-11-15-0915-ufc-334-results.json
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-01.jpg (cover)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-02.jpg (hook)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-03.jpg (result)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-04.jpg (result)
-  no photo for ['Charles Radtke']: using the silhouette
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-05.jpg (result)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-06.jpg (list)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-07.jpg (list)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-08.jpg (list)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-09.jpg (bonuses)
-Rendered posts/2026-11-15-0915-ufc-334-results/slide-10.jpg (cta)
+== 2026-11-15-1815-gane-still-champ.json
+Image: {'type': 'fighter', 'name': 'Ciryl Gane', 'file': '01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump'} -> fighter images/ciryl-gane/cutouts/01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump.png  headline: Still Champ
+v2 left: images/ciryl-gane/cutouts/01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump.png
+v2 right: images/josh-hokit/cutouts/drive-josh-hokit-1.png
+Music: music/action-sport/01-crystals.mp3 from 164.0s
+Rendered posts/2026-11-15-1815-gane-still-champ/post.png (fighter)
+Rendered posts/2026-11-15-1815-gane-still-champ/reel.mp4 (format v2)
+
+== 2026-11-15-1815-harrison-taps-nunes.json
+Image: {'type': 'fighter', 'name': 'Kayla Harrison', 'file': '02-kayla-harrison-rio-2016-cropped'} -> fighter images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png  headline: Nunes Tapped
+v2 left: images/kayla-harrison/cutouts/02-kayla-harrison-rio-2016-cropped.png
+v2 right: images/amanda-nunes/cutouts/04-amanda-nunes-ufc-2023.png
+Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
+Rendered posts/2026-11-15-1815-harrison-taps-nunes/post.png (fighter)
+Rendered posts/2026-11-15-1815-harrison-taps-nunes/reel.mp4 (format v2)
+
+== 2026-11-15-1815-steveson-returns.json
+Image: {'type': 'fighter', 'name': 'Gable Steveson', 'file': '01-gablesteveson'} -> fighter images/gable-steveson/cutouts/01-gablesteveson.png  headline: Redemption?
+v2 left: images/gable-steveson/cutouts/01-gablesteveson.png
+v2 right: images/sean-sharaf/cutouts/drive-sean-sharif.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-11-15-1815-steveson-returns/post.png (fighter)
+Rendered posts/2026-11-15-1815-steveson-returns/reel.mp4 (format v2)
