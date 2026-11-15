@@ -1,34 +1,25 @@
-Searching Wikimedia Commons for: Stephen Thompson
-  saved images/stephen-thompson/01-stephen-thompson-2023.jpg  [Public domain]
-  saved images/stephen-thompson/02-stephen-wonderboy-thompson-head-kick.jpg  [CC BY 4.0]
-  saved images/stephen-thompson/03-stephen-thompson-jr-51903682413.jpg  [CC BY-SA 2.0]
-  saved images/stephen-thompson/04-stephen-thompson-jr-51903682413-cropped.jpg  [CC BY-SA 2.0]
-  saved images/stephen-thompson/05-a-church-among-the-mountains-by-stephen-thompson-1875.jpg  [Public domain]
+Searching Wikimedia Commons for: Tyron Woodley
+  saved images/tyron-woodley/01-tyron-woodley.png  [CC BY 3.0]
+  saved images/tyron-woodley/02-tyron-woodley-by-gage-skidmore.jpg  [CC BY-SA 3.0]
+  saved images/tyron-woodley/03-tyron-woodley-42873752755.jpg  [CC BY-SA 2.0]
+  saved images/tyron-woodley/04-tyron-woodley-41968991360.jpg  [CC BY-SA 2.0]
+  saved images/tyron-woodley/05-rza-shameik-moore-kat-graham-wesley-snipes-demetrius-shipp-j.jpg  [CC BY-SA 2.0]
 Done: 5 image(s) saved.
-[0;93m2026-11-15 03:06:24.746026304 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+[0;93m2026-11-15 03:12:27.223167145 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/stephen-thompson/cutouts/01-stephen-thompson-2023.png
-  cutout images/stephen-thompson/cutouts/02-stephen-wonderboy-thompson-head-kick.png
-  cutout images/stephen-thompson/cutouts/03-stephen-thompson-jr-51903682413.png
-  cutout images/stephen-thompson/cutouts/04-stephen-thompson-jr-51903682413-cropped.png
-  cutout images/stephen-thompson/cutouts/05-a-church-among-the-mountains-by-stephen-thompson-1875.png
+  cutout images/tyron-woodley/cutouts/01-tyron-woodley.png
+  cutout images/tyron-woodley/cutouts/02-tyron-woodley-by-gage-skidmore.png
+  cutout images/tyron-woodley/cutouts/03-tyron-woodley-42873752755.png
+  cutout images/tyron-woodley/cutouts/04-tyron-woodley-41968991360.png
+  cutout images/tyron-woodley/cutouts/05-rza-shameik-moore-kat-graham-wesley-snipes-demetrius-shipp-j.png
 Done: 5 new cutout(s).
-Searching Wikimedia Commons for: Charles Radtke
-  saved images/charles-radtke/01-19-charles-radtke-01-1.jpg  [CC BY-SA 4.0]
-Done: 1 image(s) saved.
-[0;93m2026-11-15 03:09:14.170322606 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/charles-radtke/cutouts/01-19-charles-radtke-01-1.png
-Done: 1 new cutout(s).
 
-== 2026-11-14-2215-wonderboy-retires-ko.json
-$ fetch.py Stephen Thompson --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/stephen-thompson
-Image: {'type': 'fighter', 'name': 'Stephen Thompson'} -> fighter images/stephen-thompson/cutouts/01-stephen-thompson-2023.png  headline: What An Exit
+== 2026-11-14-2215-wonderboy-retires-ko-v2.json
+Image: {'type': 'fighter', 'name': 'Stephen Thompson', 'file': '01-stephen-thompson-2023'} -> fighter images/stephen-thompson/cutouts/01-stephen-thompson-2023.png  headline: What An Exit
 v2 left: images/stephen-thompson/cutouts/01-stephen-thompson-2023.png
-$ fetch.py Charles Radtke --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/charles-radtke
-v2 right: images/charles-radtke/cutouts/01-19-charles-radtke-01-1.png
-Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
-Rendered posts/2026-11-14-2215-wonderboy-retires-ko/post.png (fighter)
-Rendered posts/2026-11-14-2215-wonderboy-retires-ko/reel.mp4 (format v2)
+$ fetch.py Tyron Woodley --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tyron-woodley
+v2 right: images/tyron-woodley/cutouts/01-tyron-woodley.png
+Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
+Rendered posts/2026-11-14-2215-wonderboy-retires-ko-v2/post.png (fighter)
+Rendered posts/2026-11-14-2215-wonderboy-retires-ko-v2/reel.mp4 (format v2)

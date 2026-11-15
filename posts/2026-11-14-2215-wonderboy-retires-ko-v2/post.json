@@ -58,6 +58,24 @@
       "YES",
       "NO"
     ],
-    "question": "Greatest exit ever?"
-  }
+    "question": "Greatest exit ever?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/stephen-thompson/cutouts/01-stephen-thompson-2023.png",
+      "credit": "SC National Guard / Public domain"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/tyron-woodley/cutouts/01-tyron-woodley.png",
+      "credit": "Atlanta Falcons / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/stephen-thompson/cutouts/01-stephen-thompson-2023.png",
+    "credit": "SC National Guard / Public domain"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
 }
