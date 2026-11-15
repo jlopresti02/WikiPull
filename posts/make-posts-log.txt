@@ -1,29 +1,10 @@
-Searching Wikimedia Commons for: Ciryl Gane
-  saved images/ciryl-gane/01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump.jpg  [Public domain]
-  saved images/ciryl-gane/02-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc-croppe.jpg  [CC BY 3.0]
-  saved images/ciryl-gane/03-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc.jpg  [CC BY 3.0]
-Done: 3 image(s) saved.
-Using background-removal model: birefnet-portrait
-  cutout images/ciryl-gane/cutouts/01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump.png
-  cutout images/ciryl-gane/cutouts/02-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc-croppe.png
-  cutout images/ciryl-gane/cutouts/03-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc.png
-Done: 3 new cutout(s).
-Searching Wikimedia Commons for: Charles Radtke
-  saved images/charles-radtke/01-19-charles-radtke-01-1.jpg  [CC BY-SA 4.0]
-Done: 1 image(s) saved.
-Using background-removal model: birefnet-portrait
-  cutout images/charles-radtke/cutouts/01-19-charles-radtke-01-1.png
-Done: 1 new cutout(s).
 
 == 2026-11-15-0915-ufc-334-results.json
-$ fetch.py Ciryl Gane --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ciryl-gane
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-01.jpg (cover)
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-02.jpg (hook)
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-03.jpg (result)
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-04.jpg (result)
-$ fetch.py Charles Radtke --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/charles-radtke
+  no photo for ['Charles Radtke']: using the silhouette
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-05.jpg (result)
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-06.jpg (list)
 Rendered posts/2026-11-15-0915-ufc-334-results/slide-07.jpg (list)
