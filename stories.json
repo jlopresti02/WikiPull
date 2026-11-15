@@ -38,6 +38,28 @@
       ]
     },
     {
+      "id": "steveson-vs-chatman-ufc-336",
+      "title": "Gable Steveson reportedly books UFC 336 return vs. Terrance Chatman (Toronto, Jan 30)",
+      "people": [
+        "Gable Steveson",
+        "Terrance Chatman"
+      ],
+      "event": "UFC 336",
+      "first_reported": "2026-11-13",
+      "held_for_evening": true,
+      "facts": [
+        "Steveson reportedly faces Terrance Chatman (5-2) at UFC 336 in Toronto on Jan 30 (Bloody Elbow, Fightful, BJPenn.com - reported, not yet on UFC.com)",
+        "First fight since his 12-second KO loss",
+        "Found in the Nov 15 1 PM sweep; first reported Nov 13 and missed by earlier runs. 6 PM run: post only if it still stands up vs. the Gane/Harrison results"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/13/gable-steveson-books-ufc-336-return-against-5-2-heavyweight-after-being-knocked-out-in-12-seconds/",
+        "https://www.fightful.com/mma/gable-steveson-return-fight-set-for-ufc-336/",
+        "https://www.bjpenn.com/mma-news/gable-steveson/report-gable-steveson-ufc-336-return-first-fight-shocking-loss/"
+      ],
+      "posts": []
+    },
+    {
       "id": "gane-retains-vs-hokit-ufc-334",
       "title": "Ciryl Gane edges Josh Hokit by decision to keep the UFC heavyweight title at UFC 334",
       "people": [
@@ -78,6 +100,24 @@
       "sources": [
         "https://sports.yahoo.com/articles/kayla-harrison-submits-amanda-nunes-072237588.html",
         "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
+      ],
+      "posts": []
+    },
+    {
+      "id": "misc-nov-15-pm",
+      "title": "Nov 15 1 PM run: no posts; Steveson UFC 336 report held for evening alongside Gane and Harrison",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-15",
+      "facts": [
+        "Harrison: no new fact since 9 AM (still undecided on her future; no retirement announced) - Bleacher Report",
+        "Gane next-fight talk (Adesanya says Aspinall; options pieces from CBS, The National) - no booking, no new fact",
+        "No new ONE, PFL or adjacent-sports stories that qualify; no new Drive or Sketch Videos files; Metricool empty at run start",
+        "Reels views Nov 13-15 mostly 117-154 (one 1,932), so reach looks recovered vs. Oct 14 lows"
+      ],
+      "sources": [
+        "https://bleacherreport.com/articles/25533545-kayla-harrison-addresses-retirement-rumors-new-video-after-win-vs-amanda-nunes-ufc-334",
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/15/ciryl-gane-next-fight-three-options-for-ufc-heavyweight-champion-after-victory-over-josh-hokit/"
       ],
       "posts": []
     },
