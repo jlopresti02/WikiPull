@@ -1,25 +1,32 @@
-Searching Wikimedia Commons for: Tyron Woodley
-  saved images/tyron-woodley/01-tyron-woodley.png  [CC BY 3.0]
-  saved images/tyron-woodley/02-tyron-woodley-by-gage-skidmore.jpg  [CC BY-SA 3.0]
-  saved images/tyron-woodley/03-tyron-woodley-42873752755.jpg  [CC BY-SA 2.0]
-  saved images/tyron-woodley/04-tyron-woodley-41968991360.jpg  [CC BY-SA 2.0]
-  saved images/tyron-woodley/05-rza-shameik-moore-kat-graham-wesley-snipes-demetrius-shipp-j.jpg  [CC BY-SA 2.0]
-Done: 5 image(s) saved.
-[0;93m2026-11-15 03:12:27.223167145 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Ciryl Gane
+  saved images/ciryl-gane/01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump.jpg  [Public domain]
+  saved images/ciryl-gane/02-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc-croppe.jpg  [CC BY 3.0]
+  saved images/ciryl-gane/03-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc.jpg  [CC BY 3.0]
+Done: 3 image(s) saved.
 Using background-removal model: birefnet-portrait
-  cutout images/tyron-woodley/cutouts/01-tyron-woodley.png
-  cutout images/tyron-woodley/cutouts/02-tyron-woodley-by-gage-skidmore.png
-  cutout images/tyron-woodley/cutouts/03-tyron-woodley-42873752755.png
-  cutout images/tyron-woodley/cutouts/04-tyron-woodley-41968991360.png
-  cutout images/tyron-woodley/cutouts/05-rza-shameik-moore-kat-graham-wesley-snipes-demetrius-shipp-j.png
-Done: 5 new cutout(s).
+  cutout images/ciryl-gane/cutouts/01-ciryl-gane-in-the-oval-office-while-president-donald-j-trump.png
+  cutout images/ciryl-gane/cutouts/02-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc-croppe.png
+  cutout images/ciryl-gane/cutouts/03-ciryl-gane-en-visite-au-centre-d-entra-nement-du-mhsc.png
+Done: 3 new cutout(s).
+Searching Wikimedia Commons for: Charles Radtke
+  saved images/charles-radtke/01-19-charles-radtke-01-1.jpg  [CC BY-SA 4.0]
+Done: 1 image(s) saved.
+Using background-removal model: birefnet-portrait
+  cutout images/charles-radtke/cutouts/01-19-charles-radtke-01-1.png
+Done: 1 new cutout(s).
 
-== 2026-11-14-2215-wonderboy-retires-ko-v2.json
-Image: {'type': 'fighter', 'name': 'Stephen Thompson', 'file': '01-stephen-thompson-2023'} -> fighter images/stephen-thompson/cutouts/01-stephen-thompson-2023.png  headline: What An Exit
-v2 left: images/stephen-thompson/cutouts/01-stephen-thompson-2023.png
-$ fetch.py Tyron Woodley --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tyron-woodley
-v2 right: images/tyron-woodley/cutouts/01-tyron-woodley.png
-Music: music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3 from 168.5s
-Rendered posts/2026-11-14-2215-wonderboy-retires-ko-v2/post.png (fighter)
-Rendered posts/2026-11-14-2215-wonderboy-retires-ko-v2/reel.mp4 (format v2)
+== 2026-11-15-0915-ufc-334-results.json
+$ fetch.py Ciryl Gane --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/ciryl-gane
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-01.jpg (cover)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-02.jpg (hook)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-03.jpg (result)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-04.jpg (result)
+$ fetch.py Charles Radtke --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/charles-radtke
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-05.jpg (result)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-06.jpg (list)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-07.jpg (list)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-08.jpg (list)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-09.jpg (bonuses)
+Rendered posts/2026-11-15-0915-ufc-334-results/slide-10.jpg (cta)

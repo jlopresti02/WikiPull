@@ -1,0 +1,180 @@
+{
+  "carousel": true,
+  "story_id": "ufc-334-results",
+  "headline": "UFC 334 Results",
+  "color": "#d2202f",
+  "slides": [
+    {
+      "type": "cover",
+      "title": "UFC 334 Results",
+      "fighter": [
+        "Ciryl Gane"
+      ],
+      "kicker": "Still champion",
+      "subtitle": "Gane def. Hokit"
+    },
+    {
+      "type": "hook",
+      "title": "Harrison Taps Nunes",
+      "fighter": [
+        "Kayla Harrison"
+      ],
+      "kicker": "Title retained",
+      "subtitle": "RNC R4 1:29"
+    },
+    {
+      "type": "result",
+      "label": "Main event · Heavyweight title",
+      "winner": [
+        "Ciryl Gane"
+      ],
+      "loser": [
+        "Josh Hokit"
+      ],
+      "method": "Unanimous decision",
+      "detail": "48-47 x3"
+    },
+    {
+      "type": "result",
+      "label": "Co-main · Women's bantamweight title",
+      "winner": [
+        "Kayla Harrison"
+      ],
+      "loser": [
+        "Amanda Nunes"
+      ],
+      "method": "Submission (RNC)",
+      "detail": "R4 1:29"
+    },
+    {
+      "type": "result",
+      "label": "Final fight · Welterweight",
+      "winner": [
+        "Stephen Thompson"
+      ],
+      "loser": [
+        "Charles Radtke"
+      ],
+      "method": "KO (spinning wheel kick)",
+      "detail": "R3 2:54"
+    },
+    {
+      "type": "list",
+      "title": "Main Card",
+      "rows": [
+        [
+          "Caio Borralho",
+          "Yousri Belgaroui",
+          "Dec"
+        ],
+        [
+          "Kevin Holland",
+          "Uros Medic",
+          "Majority draw"
+        ],
+        [
+          "Luis Gurule",
+          "Bilal Hasan",
+          "Split dec"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Prelims",
+      "rows": [
+        [
+          "Chris Duncan",
+          "Drew Dober",
+          "Dec"
+        ],
+        [
+          "Terrance McKinney",
+          "Jim Miller",
+          "KO R1"
+        ],
+        [
+          "Cesar Almeida",
+          "Donte Johnson",
+          "TKO R1"
+        ],
+        [
+          "Melquizael Costa",
+          "Jared Gordon",
+          "Dec"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Early Prelims",
+      "rows": [
+        [
+          "Bia Mesquita",
+          "Macy Chiasson",
+          "Sub R1"
+        ],
+        [
+          "Juan Diaz",
+          "Alatengheili",
+          "Dec"
+        ],
+        [
+          "Evan Elder",
+          "Samuel Sanches",
+          "Dec"
+        ]
+      ]
+    },
+    {
+      "type": "bonuses",
+      "title": "Bonuses",
+      "rows": [
+        [
+          "Fight of the Night",
+          "Gane vs Hokit"
+        ],
+        [
+          "Performance of the Night",
+          "Kayla Harrison"
+        ],
+        [
+          "Performance of the Night",
+          "Stephen Thompson"
+        ]
+      ]
+    },
+    {
+      "type": "cta",
+      "title": "Who's next for Gane?",
+      "lines": [
+        "Comment your pick",
+        "Follow @wwitmma for results"
+      ]
+    }
+  ],
+  "caption": "Ciryl Gane survived Josh Hokit over five rounds at Madison Square Garden to keep the UFC heavyweight title.\nRematch or move on? 👇\n\nKayla Harrison choked out Amanda Nunes in round 4 to stay bantamweight champion, and Stephen 'Wonderboy' Thompson retired with a spinning wheel kick KO. Kevin Holland and Uros Medic fought to a majority draw.\n\nSwipe for the full UFC 334 results from New York.",
+  "question": "Rematch or move on?",
+  "hashtags": [
+    "UFC334",
+    "UFC",
+    "MMANews",
+    "CirylGane",
+    "UFCResults"
+  ],
+  "sources": [
+    "ESPN",
+    "UFC.com",
+    "Sherdog",
+    "The Big Lead"
+  ],
+  "slide_count": 10,
+  "photo_credits": [
+    "The White House / Public domain",
+    "Agência Brasil Fotografias / CC BY 2.0",
+    "WWIT MMA News",
+    "MMAnytt / CC BY 3.0",
+    "Photography credit: Larry Sanders. / CC BY-SA 4.0",
+    "SC National Guard / Public domain"
+  ]
+}
