@@ -1,37 +1,34 @@
-Searching Wikimedia Commons for: Mike Perry
-  saved images/mike-perry/01-mike-perry-at-ufc-229.jpg  [CC BY 3.0]
-  saved images/mike-perry/02-mike-perry-vs-kenneth-mcneil-jr.jpg  [CC BY-SA 4.0]
-  saved images/mike-perry/03-mike-perry-lollapalooza-2017.jpg  [CC BY-SA 4.0]
-Done: 3 image(s) saved.
-[0;93m2026-11-14 23:07:11.203089237 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Searching Wikimedia Commons for: Stephen Thompson
+  saved images/stephen-thompson/01-stephen-thompson-2023.jpg  [Public domain]
+  saved images/stephen-thompson/02-stephen-wonderboy-thompson-head-kick.jpg  [CC BY 4.0]
+  saved images/stephen-thompson/03-stephen-thompson-jr-51903682413.jpg  [CC BY-SA 2.0]
+  saved images/stephen-thompson/04-stephen-thompson-jr-51903682413-cropped.jpg  [CC BY-SA 2.0]
+  saved images/stephen-thompson/05-a-church-among-the-mountains-by-stephen-thompson-1875.jpg  [Public domain]
+Done: 5 image(s) saved.
+[0;93m2026-11-15 03:06:24.746026304 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
 Using background-removal model: birefnet-portrait
-  cutout images/mike-perry/cutouts/01-mike-perry-at-ufc-229.png
-  cutout images/mike-perry/cutouts/02-mike-perry-vs-kenneth-mcneil-jr.png
-  cutout images/mike-perry/cutouts/03-mike-perry-lollapalooza-2017.png
-Done: 3 new cutout(s).
+  cutout images/stephen-thompson/cutouts/01-stephen-thompson-2023.png
+  cutout images/stephen-thompson/cutouts/02-stephen-wonderboy-thompson-head-kick.png
+  cutout images/stephen-thompson/cutouts/03-stephen-thompson-jr-51903682413.png
+  cutout images/stephen-thompson/cutouts/04-stephen-thompson-jr-51903682413-cropped.png
+  cutout images/stephen-thompson/cutouts/05-a-church-among-the-mountains-by-stephen-thompson-1875.png
+Done: 5 new cutout(s).
+Searching Wikimedia Commons for: Charles Radtke
+  saved images/charles-radtke/01-19-charles-radtke-01-1.jpg  [CC BY-SA 4.0]
+Done: 1 image(s) saved.
+[0;93m2026-11-15 03:09:14.170322606 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/charles-radtke/cutouts/01-19-charles-radtke-01-1.png
+Done: 1 new cutout(s).
 
-== 2026-11-14-1815-chimaev-shuts-out-weidman.json
-Image: {'type': 'fighter', 'name': 'Khamzat Chimaev', 'file': 'drive-khamzat-chimaev-champ'} -> fighter images/khamzat-chimaev/cutouts/drive-khamzat-chimaev-champ.png  headline: 10-0 Shutout
-v2 left: images/khamzat-chimaev/cutouts/drive-khamzat-chimaev-champ.png
-v2 right: images/chris-weidman/cutouts/01-chris-weidman-at-ufc-230.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-11-14-1815-chimaev-shuts-out-weidman/post.png (fighter)
-Rendered posts/2026-11-14-1815-chimaev-shuts-out-weidman/reel.mp4 (format v2)
-
-== 2026-11-14-1815-merab-pins-moraes.json
-Image: {'type': 'fighter', 'name': 'Merab Dvalishvili', 'file': 'drive-merab-dvalishvili-champ'} -> fighter images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png  headline: 90 Seconds
-v2 left: images/merab-dvalishvili/cutouts/drive-merab-dvalishvili-champ.png
-v2 right: images/marlon-moraes/cutouts/01-marlon-moraes.png
-Music: music/sports/03-blood-sport-war.mp3 from 8.5s
-Rendered posts/2026-11-14-1815-merab-pins-moraes/post.png (fighter)
-Rendered posts/2026-11-14-1815-merab-pins-moraes/reel.mp4 (format v2)
-
-== 2026-11-14-1815-mike-perry-back-in-ufc.json
-$ fetch.py Mike Perry --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/mike-perry
-Image: {'type': 'fighter', 'name': 'Mike Perry'} -> fighter images/mike-perry/cutouts/01-mike-perry-at-ufc-229.png  headline: Platinum's Back
-v2 left: images/mike-perry/cutouts/01-mike-perry-at-ufc-229.png
-v2 right: images/jorge-masvidal/cutouts/drive-jorge-masvidal-looks-at-camera.png
-Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
-Rendered posts/2026-11-14-1815-mike-perry-back-in-ufc/post.png (fighter)
-Rendered posts/2026-11-14-1815-mike-perry-back-in-ufc/reel.mp4 (format v2)
+== 2026-11-14-2215-wonderboy-retires-ko.json
+$ fetch.py Stephen Thompson --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/stephen-thompson
+Image: {'type': 'fighter', 'name': 'Stephen Thompson'} -> fighter images/stephen-thompson/cutouts/01-stephen-thompson-2023.png  headline: What An Exit
+v2 left: images/stephen-thompson/cutouts/01-stephen-thompson-2023.png
+$ fetch.py Charles Radtke --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/charles-radtke
+v2 right: images/charles-radtke/cutouts/01-19-charles-radtke-01-1.png
+Music: music/news-intro/02-a-new-dawn-intro.mp3 from 108.75s
+Rendered posts/2026-11-14-2215-wonderboy-retires-ko/post.png (fighter)
+Rendered posts/2026-11-14-2215-wonderboy-retires-ko/reel.mp4 (format v2)
