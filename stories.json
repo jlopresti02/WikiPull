@@ -2,6 +2,49 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "stephen-thompson-retires-ko-radtke-ufc-334",
+      "title": "Stephen 'Wonderboy' Thompson knocks out Charles Radtke with a spinning wheel kick and retires at UFC 334",
+      "people": [
+        "Stephen Thompson",
+        "Charles Radtke"
+      ],
+      "event": "UFC 334",
+      "first_reported": "2026-11-14",
+      "facts": [
+        "Thompson def. Radtke by KO (spinning wheel kick), R3 2:54 (Yahoo/Uncrowned, Heavy)",
+        "Thompson made his retirement official after the fight; final record 18-9-1, almost 15 years in the UFC",
+        "Star's result + retirement: qualifies under major-news rule; 4th and last slot of Nov 14 (cap 4)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/article/ufc-334-results-stephen-thompson-has-retirement-for-the-ages-ends-career-with-dazzling-spinning-ko-021722946.html",
+        "https://heavy.com/sports/ufc/stephen-thompson-retires-after-ufc-334/",
+        "https://www.forbes.com/sites/brianmazique/2026/11/14/stephen-wonderboy-thompson-just-had-the-greatest-retirement-fight-victory-in-ufc-history/"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-14-2215-wonderboy-retires-ko",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "misc-nov-14-10pm",
+      "title": "Nov 14 10 PM run: Wonderboy retirement KO queued; Bilostenniy dropped; UFC 334 main card in progress",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-14",
+      "facts": [
+        "UFC 334 main card underway at run time; no main card results (Harrison vs. Nunes, Gane vs. Hokit) published yet. Results carousel due Nov 15 9 AM run",
+        "Early prelims: Costa def. Gordon (UD), Mesquita def. Chiasson (RNC R1 3:23), Diaz def. Alatengheili (UD), Elder def. Sanches (UD) (Bleacher Report)",
+        "No new official UFC bookings, withdrawals or signings; no big ONE stories found; adjacent sports skimmed only (Trial Reels off)",
+        "No new files in Gemini Images or Sketch Videos. Metricool: nothing waiting at run start"
+      ],
+      "sources": [],
+      "posts": []
+    },
+    {
       "id": "misc-nov-14-6pm",
       "title": "Nov 14 6 PM run: Merab pin UPDATE, Chimaev RAF title, Mike Perry UFC return queued; Bilostenniy title win held for 10 PM",
       "people": [
@@ -37,13 +80,13 @@
       "facts": [
         "Bilostenniy def. Nemkov by unanimous decision (49-46, 48-47, 48-47) to win the PFL heavyweight title (Yahoo/Uncrowned, MMA Fighting)",
         "Also: Patrick Habirora (10-0) subbed Omar El Dafrawy R1 and called for Thad Jean",
-        "Held for evening by the 6 PM run (title change; 4th slot of the day left for the 10 PM run to choose between this and UFC 334 co-main/early main-card results). Neither fighter has photos in images/ yet: check Drive/Wikimedia before posting"
+        "Held for evening by the 6 PM run (title change; 4th slot of the day left for the 10 PM run to choose between this and UFC 334 co-main/early main-card results). Neither fighter has photos in images/ yet: check Drive/Wikimedia before posting",
+        "Dropped Nov 14 10 PM run: last slot of the day went to Wonderboy's retirement KO (bigger name for this audience); stale by tomorrow"
       ],
       "sources": [
         "https://sports.yahoo.com/mma/article/pfl-dubai-results-sergei-bilostenniy-stuns-vadim-nemkov-to-seize-heavyweight-title-214434674.html",
         "https://x.com/MMAFighting/status/2121708823664636387"
       ],
-      "held_for_evening": true,
       "posts": []
     },
     {
