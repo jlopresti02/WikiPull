@@ -2,6 +2,20 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-15-6pm",
+      "title": "Nov 15 6 PM run: Harrison, Gane and Steveson (held stories) queued for the evening; no new qualifying news",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-15",
+      "facts": [
+        "Sweep since 1 PM: no new official bookings, withdrawals, signings or title news; no qualifying ONE, PFL or adjacent stories",
+        "No new files in Gemini Images or Sketch Videos",
+        "Metricool at run start: two user Ball Brawl Trial Reels (6:20 PM, 8:00 PM), not counted toward the cap"
+      ],
+      "sources": [],
+      "posts": []
+    },
+    {
       "id": "ufc-334-results",
       "title": "UFC 334 results carousel (Gane vs. Hokit, Harrison vs. Nunes, MSG)",
       "people": [
@@ -46,18 +60,25 @@
       ],
       "event": "UFC 336",
       "first_reported": "2026-11-13",
-      "held_for_evening": true,
       "facts": [
         "Steveson reportedly faces Terrance Chatman (5-2) at UFC 336 in Toronto on Jan 30 (Bloody Elbow, Fightful, BJPenn.com - reported, not yet on UFC.com)",
         "First fight since his 12-second KO loss",
-        "Found in the Nov 15 1 PM sweep; first reported Nov 13 and missed by earlier runs. 6 PM run: post only if it still stands up vs. the Gane/Harrison results"
+        "Found in the Nov 15 1 PM sweep; first reported Nov 13 and missed by earlier runs. 6 PM run: post only if it still stands up vs. the Gane/Harrison results",
+        "6 PM run: posted as a report; Chatman has no photo, so Sean Sharaf (who KO'd Steveson) is on the right"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/11/13/gable-steveson-books-ufc-336-return-against-5-2-heavyweight-after-being-knocked-out-in-12-seconds/",
         "https://www.fightful.com/mma/gable-steveson-return-fight-set-for-ufc-336/",
         "https://www.bjpenn.com/mma-news/gable-steveson/report-gable-steveson-ufc-336-return-first-fight-shocking-loss/"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-11-15-1815-steveson-returns",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "gane-retains-vs-hokit-ufc-334",
@@ -68,7 +89,6 @@
       ],
       "event": "UFC 334",
       "first_reported": "2026-11-15",
-      "held_for_evening": true,
       "facts": [
         "Gane def. Hokit UD 48-47 x3 at MSG, his 2nd title defense; now 15-2 (ESPN)",
         "Fight of the Night; ESPN says it could set up rematches with Pereira, Aspinall or Volkov, or Pavlovich (possibilities, not bookings)",
@@ -79,7 +99,14 @@
         "https://www.espn.com/mma/story/_/id/50488012/ciryl-gane-edges-josh-hokit-slugfest-retains-title-ufc-334",
         "https://sports.yahoo.com/mma/article/dana-white-admits-he-was-wrong-about-josh-hokit-after-ufc-334-stock-went-up-with-me-ciryl-gane-084205252.html"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-11-15-1815-gane-still-champ",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "harrison-submits-nunes-ufc-334",
@@ -90,7 +117,6 @@
       ],
       "event": "UFC 334",
       "first_reported": "2026-11-15",
-      "held_for_evening": true,
       "facts": [
         "Harrison def. Nunes RNC R4 1:29, retains women's bantamweight title; 4-0 in UFC; Performance of the Night",
         "Nunes' first fight since UFC 289 (nearly 4 years)",
@@ -101,7 +127,14 @@
         "https://sports.yahoo.com/articles/kayla-harrison-submits-amanda-nunes-072237588.html",
         "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit"
       ],
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-11-15-1815-harrison-taps-nunes",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "misc-nov-15-pm",
