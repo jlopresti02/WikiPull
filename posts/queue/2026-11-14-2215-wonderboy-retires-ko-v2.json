@@ -1,0 +1,63 @@
+{
+  "story_id": "stephen-thompson-retires-ko-radtke-ufc-334",
+  "headline": "What An Exit",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Stephen Thompson",
+      "file": "01-stephen-thompson-2023"
+    },
+    {
+      "type": "fighter",
+      "name": "Tyron Woodley"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Stephen 'Wonderboy' Thompson just retired with a spinning wheel kick KO of Charles Radtke.\nGreatest exit ever: yes or no? 👇\n\nThompson finished Radtke at 2:54 of round 3 at UFC 334 in New York, then made his MMA retirement official after almost 15 years in the UFC. He walks away 18-9-1.\n\n🔥 Hot take: No UFC fighter has ever retired better than Wonderboy.\nChange my mind.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFC334",
+    "StephenThompson",
+    "Wonderboy"
+  ],
+  "sources": [
+    "Yahoo Sports / Uncrowned",
+    "Heavy",
+    "Forbes"
+  ],
+  "music_pool": "espn",
+  "question": "Greatest exit ever?",
+  "hot_take": "No UFC fighter has ever retired *better* than Wonderboy.",
+  "hot_tagline": "Change my mind.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC 334 · WELTERWEIGHT",
+    "kicker": "LAST FIGHT, KO WIN",
+    "hook": "Wonderboy retires",
+    "left": [
+      {
+        "name": "Stephen Thompson",
+        "file": "01-stephen-thompson-2023"
+      }
+    ],
+    "right": [
+      {
+        "name": "Tyron Woodley"
+      }
+    ],
+    "story": "Wonderboy knocks out Radtke with a spinning wheel kick, then retires.",
+    "chips": [
+      "KO R3 2:54 VS RADTKE",
+      "FINAL RECORD 18-9-1",
+      "2 TITLE FIGHTS VS WOODLEY"
+    ],
+    "options": [
+      "YES",
+      "NO"
+    ],
+    "question": "Greatest exit ever?"
+  }
+}

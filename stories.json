@@ -6,14 +6,16 @@
       "title": "Stephen 'Wonderboy' Thompson knocks out Charles Radtke with a spinning wheel kick and retires at UFC 334",
       "people": [
         "Stephen Thompson",
-        "Charles Radtke"
+        "Charles Radtke",
+        "Tyron Woodley"
       ],
       "event": "UFC 334",
       "first_reported": "2026-11-14",
       "facts": [
         "Thompson def. Radtke by KO (spinning wheel kick), R3 2:54 (Yahoo/Uncrowned, Heavy)",
         "Thompson made his retirement official after the fight; final record 18-9-1, almost 15 years in the UFC",
-        "Star's result + retirement: qualifies under major-news rule; 4th and last slot of Nov 14 (cap 4)"
+        "Star's result + retirement: qualifies under major-news rule; 4th and last slot of Nov 14 (cap 4)",
+        "First render matched the wrong Charles Radtke on Wikimedia (a furniture photo); removed his and 4 wrong Stephen Thompson images, re-queued with Tyron Woodley (two title fights vs Thompson) on the right"
       ],
       "sources": [
         "https://sports.yahoo.com/mma/article/ufc-334-results-stephen-thompson-has-retirement-for-the-ages-ends-career-with-dazzling-spinning-ko-021722946.html",
@@ -22,7 +24,7 @@
       ],
       "posts": [
         {
-          "post": "2026-11-14-2215-wonderboy-retires-ko",
+          "post": "2026-11-14-2215-wonderboy-retires-ko-v2",
           "kind": "new",
           "format": "reel",
           "style": "v2"
