@@ -76,7 +76,9 @@
           "post": "2026-11-15-1815-steveson-returns",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-15T20:30:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-5562730332509220955"
         }
       ]
     },
@@ -104,7 +106,9 @@
           "post": "2026-11-15-1815-gane-still-champ",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-15T19:30:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7942296461329778941"
         }
       ]
     },
@@ -132,7 +136,9 @@
           "post": "2026-11-15-1815-harrison-taps-nunes",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-15T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1409694693898500916"
         }
       ]
     },
