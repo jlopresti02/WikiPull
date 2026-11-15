@@ -18,7 +18,8 @@
         "Harrison def. Nunes RNC R4 1:29, retains women's bantamweight title",
         "Borralho def. Belgaroui UD; Holland vs. Medic majority draw; Gurule def. Hasan SD",
         "Prelims: Thompson KO Radtke R3 2:54 (retired), Duncan def. Dober UD, McKinney KO Miller R1, Almeida TKO Johnson R1, Costa def. Gordon UD, Mesquita sub Chiasson R1, Diaz def. Alatengheili UD, Elder def. Sanches UD",
-        "Bonuses ($100K): FOTN Gane vs Hokit; POTN Harrison, Thompson (Sherdog, Yahoo)"
+        "Bonuses ($100K): FOTN Gane vs Hokit; POTN Harrison, Thompson (Sherdog, Yahoo)",
+        "First render matched a furniture photo for Charles Radtke again; blocked with images/charles-radtke/.nophoto and re-rendered (text-only loser)"
       ],
       "sources": [
         "https://www.espn.com/mma/story/_/id/50444358/ufc-334-live-results-analysis-ciryl-gane-josh-hokit",
@@ -30,7 +31,9 @@
         {
           "post": "2026-11-15-0915-ufc-334-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-11-15T09:25:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=7686854246389336795"
         }
       ]
     },
