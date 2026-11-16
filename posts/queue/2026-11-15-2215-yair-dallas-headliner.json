@@ -1,0 +1,29 @@
+{
+  "story_id": "yair-rodriguez-vs-steve-garcia-ufc-335",
+  "headline": "Main Event",
+  "visual": [
+    {"type": "fighter", "name": "Yair Rodríguez", "file": "01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped"},
+    {"type": "fighter", "name": "Steve Garcia", "file": "01-ufc-freedom-250-press-conference-at-the-lincoln-memorial-in-"}
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Yair Rodriguez vs. Steve Garcia just got bumped up to a main event.\nPantera or Garcia? 👇\n\nThe featherweight fight is off UFC 335 in December and now headlines UFC Dallas on Jan. 16 at American Airlines Center. Daniel Rodriguez vs. Roberto Soldic is the co-main.\n\n🔥 Hot take: This is a must-win for Yair to stay a featherweight contender.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFCDallas", "YairRodriguez", "SteveGarcia"],
+  "sources": ["MMA Junkie", "theScore", "MiddleEasy"],
+  "music_pool": "espn",
+  "question": "Pantera or Garcia?",
+  "hot_take": "Yair *must* win this to stay a contender.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · FEATHERWEIGHT",
+    "kicker": "NEW HEADLINER",
+    "hook": "Yair vs Garcia",
+    "left": [{"name": "Yair Rodríguez", "file": "01-carrera-con-yair-pantera-rodr-guez-i-i-30657689682-cropped"}],
+    "right": [{"name": "Steve Garcia", "file": "01-ufc-freedom-250-press-conference-at-the-lincoln-memorial-in-"}],
+    "story": "Their fight moves off UFC 335 to headline UFC Dallas on Jan. 16.",
+    "chips": ["UFC DALLAS", "JAN 16", "MAIN EVENT"],
+    "options": ["PANTERA", "GARCIA"],
+    "question": "Pantera or Garcia?"
+  }
+}

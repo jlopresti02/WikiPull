@@ -2,6 +2,141 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-15-10pm",
+      "title": "Nov 15 10 PM run: Yair vs Garcia UFC Dallas headliner UPDATE queued (4th slot); Nickal-Pyfer held for photo; Brady-Bonfim held for Nov 16 evening",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-15",
+      "facts": [
+        "Found Nov 14 UFC 334-broadcast booking announcements earlier runs missed: Yair-Garcia to UFC Dallas Jan 16 main event; Pyfer-Nickal to headline Cleveland Feb 13; Brady-Bonfim rebooked Jan 23",
+        "Skipped (talk/callout, no booking): Kayla Harrison vs. Ronda Rousey back-and-forth; Dana White on Holland-Medic scorecards and Hokit; Harrison future still undecided; no Nunes retirement announced",
+        "No qualifying ONE, PFL or adjacent stories; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start"
+      ],
+      "sources": [],
+      "posts": []
+    },
+    {
+      "id": "brady-out-ufc-vegas-124-bonfim-main-event",
+      "title": "Sean Brady reportedly injured, out of UFC Vegas 124 main event vs. Gabriel Bonfim; Walker vs. Cortes-Acosta reportedly new headliner",
+      "people": [
+        "Sean Brady",
+        "Gabriel Bonfim",
+        "Johnny Walker",
+        "Waldo Cortes-Acosta"
+      ],
+      "event": "UFC Vegas 124 (Nov 7, Meta Apex)",
+      "first_reported": "2026-10-29",
+      "facts": [
+        "Brazilian reporter Laerte Viana reported on X (Oct 29, ~12:15 PM ET) that Sean Brady is injured and out of his Nov 7 welterweight main event vs. Gabriel Bonfim; injury not specified (MiddleEasy, Bloody Elbow)",
+        "UFC reportedly looking for a new welterweight opponent for Bonfim; no replacement named, no UFC statement yet",
+        "Bonfim last beat Belal Muhammad by decision (June 6); Brady last beat Joaquin Buckley by decision (May 9)",
+        "Oct 29 1 PM run: qualifies (main event falling apart ~9 days out, ranked welterweights); held for evening per reach recovery rules. Word as a report. Suggested v2: left Gabriel Bonfim, right Sean Brady (headline e.g. 'BRADY OUT'). Neither has cutouts yet (new names; workflow fetches). If a replacement is named before the evening, post that instead as the update",
+        "Oct 29 6 PM run update: Laerte Viana reported (Oct 29, ~4 PM ET) Johnny Walker vs. Waldo Cortes-Acosta (heavyweight) is the new Nov 7 main event; no new opponent named for Bonfim; not yet official on UFC.com (MiddleEasy)",
+        "UPDATE Nov 14 (official, UFC announced Saturday): Brady vs. Bonfim rebooked for UFC Fight Night, Jan 23, 2027, Meta Apex, Las Vegas (theScore). Nov 15 10 PM run: day at cap (4); held for the Nov 16 evening"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/sean-brady-injured-november7-main-event-bonfim-report/",
+        "https://bloodyelbow.com/2026/10/29/ufc-vegas-124-reportedly-loses-main-event-just-over-a-week-out-with-promotion-looking-for-replacement/",
+        "https://middleeasy.com/mma-news/johnny-walker-waldo-cortes-acosta-november7-main-event-report/",
+        "https://www.thescore.com/mma/news/3655599/pyfer-nickal-moved-to-ufc-cleveland-on-feb-13-brady-bonfim-rebooked-for-jan-23"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-29-1815-brady-out-walker-in",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "scheduled_for": "2026-10-29T19:00:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4383849089516485323"
+        }
+      ],
+      "held_for_evening": true
+    },
+    {
+      "id": "nickal-vs-pyfer-ufc-335",
+      "title": "Bo Nickal vs. Joe Pyfer booked for UFC 335",
+      "people": [
+        "Bo Nickal",
+        "Joe Pyfer",
+        "Brandon Moreno",
+        "Charles Johnson"
+      ],
+      "event": "UFC 335, Dec 12, 2026",
+      "first_reported": "2026-10-03",
+      "facts": [
+        "Announced during UFC 332 broadcast",
+        "Moreno vs. Charles Johnson also added",
+        "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'",
+        "Oct 16 6 PM run: 'Rich Kid?' v2 rendered with a silhouette for Joe Pyfer (no Wikimedia photo under 'Joe Pyfer'/'Joseph Pyfer'); held for a Pyfer photo in Drive. Queue file: posts/queue/2026-10-16-1830-nickal-rich-kid.json (commit 504794b)",
+        "Oct 19 9 AM run: dropped from held list as stale (>2 days, no photo added)",
+        "UPDATE candidate Oct 21 9 AM run: Bloody Elbow (Oct 20) says Pyfer confirmed he turned down a replacement UFC 335 option to wait for Nickal in 2027 (headline; body not fetched). Rank 2 if posting resumes; needs a Pyfer photo (none in Drive)",
+        "UPDATE Nov 14 (official, UFC announced Saturday): Pyfer vs. Nickal headlines UFC Fight Night Cleveland, Feb 13, 2027 (theScore). Nov 15 10 PM run: qualifies but HELD for a Joe Pyfer photo (still none in Drive or Wikimedia); 4th Nov 15 slot went to Yair instead"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
+        "https://bleacherreport.com/articles/25506336-ufc-335-fight-card-reveals-charles-oliveira-vs-diego-lopes-bmf-title-pereira-pavlovich-more",
+        "https://www.mmanews.com/article/bo-nickals-ufc-335-fight-gets-moved",
+        "https://sports.yahoo.com/articles/yoink-bo-nickal-vs-joe-110452143.html",
+        "https://athlonsports.com/mma/ufc-335-bo-nickal-joe-pyfer",
+        "https://bloodyelbow.com/2026/10/16/bo-nickal-announces-his-ufc-335-fight-with-joe-pyfer-has-been-postponed-until-february/",
+        "https://bloodyelbow.com/2026/10/20/joe-pyfer-confirms-he-turned-down-replacement-ufc-335-option-to-wait-for-bo-nickal-clash-in-2027/",
+        "https://www.thescore.com/mma/news/3655599/pyfer-nickal-moved-to-ufc-cleveland-on-feb-13-brady-bonfim-rebooked-for-jan-23"
+      ],
+      "posts": [
+        {
+          "post": "2026-10-03-2225-nickal-vs-pyfer",
+          "kind": "new",
+          "format": "trial_reel",
+          "image": "fighter photo (Bo Nickal)",
+          "scheduled_for": "2026-10-04T00:40:00-04:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
+        }
+      ],
+      "held_for_photo": true
+    },
+    {
+      "id": "yair-rodriguez-vs-steve-garcia-ufc-335",
+      "title": "Yair Rodriguez vs. Steve Garcia: booked for UFC 335, then moved to headline UFC Dallas (Jan 16)",
+      "people": [
+        "Yair Rodriguez",
+        "Steve Garcia",
+        "David Onama"
+      ],
+      "event": "UFC Dallas, Jan 16, 2027 (was UFC 335)",
+      "first_reported": "2026-11-05",
+      "facts": [
+        "MMA Mania reports Yair Rodriguez vs. Steve Garcia booked for UFC 335 (Dec 12); David Onama's since-deleted Instagram post had seemingly leaked it (MMA Sucka)",
+        "Yair's last fight: UD win over Patricio Pitbull, UFC 314, April 2025; reportedly withdrew from a September fight with injury",
+        "Garcia 19-6, coming off a KO loss to Diego Lopes at UFC Freedom 250 (June 2026)",
+        "Also skipped this run (talk, no booking): Makhachev's manager floats a Chimaev match outside the UFC; Prates mocks Makhachev's UFC 336 withdrawal; Dana admits dislike influenced Josh Hokit matchmaking; Chandler WWE spot; McGregor 'lay down gloves' (logged 9 AM). Adjacent (Trial Reels off): Tyson Fury injury claim re Joshua fight; RAF acquires World of Wrestling",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue empty at 6 PM",
+        "UPDATE Nov 14 (announced on the UFC 334 broadcast, Paramount+): fight moved off UFC 335 (Dec 12) to headline UFC Dallas, Jan 16, 2027, American Airlines Center; co-main Daniel Rodriguez vs. Roberto Soldic; no reason given (MiddleEasy, theScore, MMA Junkie/Yahoo)"
+      ],
+      "sources": [
+        "https://www.mmamania.com/ufc-fight-announcements/484091/violence-yair-rodriguez-returns-against-knockout-artist-steve-garcia-at-ufc-335",
+        "https://mmasucka.com/news/david-onama-seemingly-leaks-full-ufc-335-card/",
+        "https://middleeasy.com/mma-news/yair-rodriguez-steve-garcia-january16-dallas/",
+        "https://www.thescore.com/mma/news/3655553/rodriguez-garcia-to-headline-ufc-dallas-on-jan-16",
+        "https://sports.yahoo.com/articles/ufc-dallas-main-event-co-162040918.html"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-05-1815-yair-garcia-ufc-335",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2",
+          "scheduled_for": "2026-11-05T19:15:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4154547050674306518"
+        },
+        {
+          "post": "2026-11-15-2215-yair-dallas-headliner",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
       "id": "misc-nov-15-6pm",
       "title": "Nov 15 6 PM run: Harrison, Gane and Steveson (held stories) queued for the evening; no new qualifying news",
       "people": [],
@@ -1525,38 +1660,6 @@
       "posts": []
     },
     {
-      "id": "yair-rodriguez-vs-steve-garcia-ufc-335",
-      "title": "Yair Rodriguez vs. Steve Garcia reportedly booked for UFC 335",
-      "people": [
-        "Yair Rodriguez",
-        "Steve Garcia",
-        "David Onama"
-      ],
-      "event": "UFC 335",
-      "first_reported": "2026-11-05",
-      "facts": [
-        "MMA Mania reports Yair Rodriguez vs. Steve Garcia booked for UFC 335 (Dec 12); David Onama's since-deleted Instagram post had seemingly leaked it (MMA Sucka)",
-        "Yair's last fight: UD win over Patricio Pitbull, UFC 314, April 2025; reportedly withdrew from a September fight with injury",
-        "Garcia 19-6, coming off a KO loss to Diego Lopes at UFC Freedom 250 (June 2026)",
-        "Also skipped this run (talk, no booking): Makhachev's manager floats a Chimaev match outside the UFC; Prates mocks Makhachev's UFC 336 withdrawal; Dana admits dislike influenced Josh Hokit matchmaking; Chandler WWE spot; McGregor 'lay down gloves' (logged 9 AM). Adjacent (Trial Reels off): Tyson Fury injury claim re Joshua fight; RAF acquires World of Wrestling",
-        "No new files in Gemini Images or Sketch Videos; Metricool queue empty at 6 PM"
-      ],
-      "sources": [
-        "https://www.mmamania.com/ufc-fight-announcements/484091/violence-yair-rodriguez-returns-against-knockout-artist-steve-garcia-at-ufc-335",
-        "https://mmasucka.com/news/david-onama-seemingly-leaks-full-ufc-335-card/"
-      ],
-      "posts": [
-        {
-          "post": "2026-11-05-1815-yair-garcia-ufc-335",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2",
-          "scheduled_for": "2026-11-05T19:15:00-05:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4154547050674306518"
-        }
-      ]
-    },
-    {
       "id": "misc-nov-5-pm",
       "title": "Nov 5 1 PM run: nothing qualified (no posts)",
       "people": [
@@ -2266,40 +2369,6 @@
         "https://www.sherdog.com/blog/370"
       ],
       "posts": []
-    },
-    {
-      "id": "brady-out-ufc-vegas-124-bonfim-main-event",
-      "title": "Sean Brady reportedly injured, out of UFC Vegas 124 main event vs. Gabriel Bonfim; Walker vs. Cortes-Acosta reportedly new headliner",
-      "people": [
-        "Sean Brady",
-        "Gabriel Bonfim",
-        "Johnny Walker",
-        "Waldo Cortes-Acosta"
-      ],
-      "event": "UFC Vegas 124 (Nov 7, Meta Apex)",
-      "first_reported": "2026-10-29",
-      "facts": [
-        "Brazilian reporter Laerte Viana reported on X (Oct 29, ~12:15 PM ET) that Sean Brady is injured and out of his Nov 7 welterweight main event vs. Gabriel Bonfim; injury not specified (MiddleEasy, Bloody Elbow)",
-        "UFC reportedly looking for a new welterweight opponent for Bonfim; no replacement named, no UFC statement yet",
-        "Bonfim last beat Belal Muhammad by decision (June 6); Brady last beat Joaquin Buckley by decision (May 9)",
-        "Oct 29 1 PM run: qualifies (main event falling apart ~9 days out, ranked welterweights); held for evening per reach recovery rules. Word as a report. Suggested v2: left Gabriel Bonfim, right Sean Brady (headline e.g. 'BRADY OUT'). Neither has cutouts yet (new names; workflow fetches). If a replacement is named before the evening, post that instead as the update",
-        "Oct 29 6 PM run update: Laerte Viana reported (Oct 29, ~4 PM ET) Johnny Walker vs. Waldo Cortes-Acosta (heavyweight) is the new Nov 7 main event; no new opponent named for Bonfim; not yet official on UFC.com (MiddleEasy)"
-      ],
-      "sources": [
-        "https://middleeasy.com/mma-news/sean-brady-injured-november7-main-event-bonfim-report/",
-        "https://bloodyelbow.com/2026/10/29/ufc-vegas-124-reportedly-loses-main-event-just-over-a-week-out-with-promotion-looking-for-replacement/",
-        "https://middleeasy.com/mma-news/johnny-walker-waldo-cortes-acosta-november7-main-event-report/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-29-1815-brady-out-walker-in",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2",
-          "scheduled_for": "2026-10-29T19:00:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4383849089516485323"
-        }
-      ]
     },
     {
       "id": "misc-oct-29-6pm",
@@ -5223,45 +5292,6 @@
           "image": "03-henry-cejudo (Wikimedia) vs drive-brendan-allen",
           "scheduled_for": "2026-10-16T22:55:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-1152563108997935206"
-        }
-      ]
-    },
-    {
-      "id": "nickal-vs-pyfer-ufc-335",
-      "title": "Bo Nickal vs. Joe Pyfer booked for UFC 335",
-      "people": [
-        "Bo Nickal",
-        "Joe Pyfer",
-        "Brandon Moreno",
-        "Charles Johnson"
-      ],
-      "event": "UFC 335, Dec 12, 2026",
-      "first_reported": "2026-10-03",
-      "facts": [
-        "Announced during UFC 332 broadcast",
-        "Moreno vs. Charles Johnson also added",
-        "UPDATE Oct 16: Nickal said (at an Ohio event, Oct 15) the fight was moved off UFC 335 to February, as the main event of a UFC card in Cleveland; UFC has not announced the event (MMA News, MMA Mania/Yahoo, Athlon). Pyfer replied on Instagram: 'Poor kid vs. rich kid.'",
-        "Oct 16 6 PM run: 'Rich Kid?' v2 rendered with a silhouette for Joe Pyfer (no Wikimedia photo under 'Joe Pyfer'/'Joseph Pyfer'); held for a Pyfer photo in Drive. Queue file: posts/queue/2026-10-16-1830-nickal-rich-kid.json (commit 504794b)",
-        "Oct 19 9 AM run: dropped from held list as stale (>2 days, no photo added)",
-        "UPDATE candidate Oct 21 9 AM run: Bloody Elbow (Oct 20) says Pyfer confirmed he turned down a replacement UFC 335 option to wait for Nickal in 2027 (headline; body not fetched). Rank 2 if posting resumes; needs a Pyfer photo (none in Drive)"
-      ],
-      "sources": [
-        "https://sports.yahoo.com/articles/bmf-back-charles-oliveira-defends-014437731.html",
-        "https://bleacherreport.com/articles/25506336-ufc-335-fight-card-reveals-charles-oliveira-vs-diego-lopes-bmf-title-pereira-pavlovich-more",
-        "https://www.mmanews.com/article/bo-nickals-ufc-335-fight-gets-moved",
-        "https://sports.yahoo.com/articles/yoink-bo-nickal-vs-joe-110452143.html",
-        "https://athlonsports.com/mma/ufc-335-bo-nickal-joe-pyfer",
-        "https://bloodyelbow.com/2026/10/16/bo-nickal-announces-his-ufc-335-fight-with-joe-pyfer-has-been-postponed-until-february/",
-        "https://bloodyelbow.com/2026/10/20/joe-pyfer-confirms-he-turned-down-replacement-ufc-335-option-to-wait-for-bo-nickal-clash-in-2027/"
-      ],
-      "posts": [
-        {
-          "post": "2026-10-03-2225-nickal-vs-pyfer",
-          "kind": "new",
-          "format": "trial_reel",
-          "image": "fighter photo (Bo Nickal)",
-          "scheduled_for": "2026-10-04T00:40:00-04:00",
-          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5298124859686405846"
         }
       ]
     },
