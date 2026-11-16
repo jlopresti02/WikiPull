@@ -1,0 +1,91 @@
+{
+  "story_id": "brady-out-ufc-vegas-124-bonfim-main-event",
+  "headline": "It's Back On",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Sean Brady (fighter)"
+    },
+    {
+      "type": "fighter",
+      "name": "Sean Brady"
+    },
+    {
+      "type": "fighter",
+      "name": "Gabriel Bonfim"
+    },
+    {
+      "type": "fighter",
+      "name": "Gabriel de Souza Bonfim"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Sean Brady vs. Gabriel Bonfim is back on after Brady's injury scrapped their November main event.\nBrady or Bonfim? 👇\n\nThe UFC rebooked the welterweight fight to headline a UFC Fight Night at the Meta Apex in Las Vegas on Jan. 23, 2027. Fight announcement made official over the UFC 334 weekend.\n\n🔥 Hot take: The winner is one fight from a welterweight title shot.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCVegas",
+    "SeanBrady",
+    "GabrielBonfim"
+  ],
+  "sources": [
+    "theScore",
+    "MMA Junkie"
+  ],
+  "question": "Brady or Bonfim?",
+  "hot_take": "The winner is *one fight* from a title shot.",
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · WELTERWEIGHT",
+    "kicker": "MAIN EVENT REBOOKED",
+    "hook": "Brady vs Bonfim",
+    "left": [
+      {
+        "name": "Sean Brady (fighter)"
+      },
+      {
+        "name": "Sean Brady"
+      }
+    ],
+    "right": [
+      {
+        "name": "Gabriel Bonfim"
+      },
+      {
+        "name": "Gabriel de Souza Bonfim"
+      }
+    ],
+    "story": "Scrapped by Brady's injury in November, the fight now headlines Jan. 23 in Las Vegas.",
+    "chips": [
+      "JAN 23 · META APEX",
+      "UFC MAIN EVENT",
+      "WAS NOV 7"
+    ],
+    "question": "Brady or Bonfim?",
+    "options": [
+      "BRADY",
+      "BONFIM"
+    ],
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/sean-brady-fighter/cutouts/01-seanbrady.png",
+      "credit": "WEIGHING IN / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/gabriel-bonfim/cutouts/01-gabriel-bonfim-2025.png",
+      "credit": "Sexto Round / CC BY 3.0"
+    }
+  },
+  "music_pool": "espn",
+  "follow_card": true,
+  "reel": true,
+  "subject": {
+    "kind": "fighter",
+    "image": "images/sean-brady-fighter/cutouts/01-seanbrady.png",
+    "credit": "WEIGHING IN / CC BY 3.0"
+  },
+  "music": "music/sports/02-professional-sports-require-passionate-supporters.mp3",
+  "music_credit": "\"Professional Sports Require Passionate Supporters 邦題：サポーターあってのプロスポーツな件\" by Ambient Samurai - Ichiro NAKAGAWA / CC BY 3.0",
+  "music_start": 164.75
+}
