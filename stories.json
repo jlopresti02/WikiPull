@@ -2,6 +2,23 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-16-am",
+      "title": "Nov 16 9 AM run: no qualifying new stories overnight; Brady-Bonfim still held for tonight; Nickal-Pyfer still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-16",
+      "facts": [
+        "Sweep since Nov 15 10 PM: only new item found was Kyler Phillips vs. Ethyn Ewing added to UFC 335 main card (Bloody Elbow, Nov 15) - routine booking, no star, doesn't qualify under major-news-only rules",
+        "Skipped (talk, no booking): Kayla Harrison 'free money' Ronda Rousey superfight talk / Nunes rematch at 145 talk (Yahoo, Bleacher Report)",
+        "No qualifying ONE, PFL or adjacent stories; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start",
+        "Reels views (Metricool): Nov 15 evening Reels 51-153 views (one at 0 so far), in line with ~140 pre-collapse median"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/15/ufc-335-gets-new-main-card-matchup-announced-less-than-a-month-out-via-released-bout-order/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-15-10pm",
       "title": "Nov 15 10 PM run: Yair vs Garcia UFC Dallas headliner UPDATE queued (4th slot); Nickal-Pyfer held for photo; Brady-Bonfim held for Nov 16 evening",
       "people": [],
