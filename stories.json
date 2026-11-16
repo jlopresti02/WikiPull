@@ -109,7 +109,10 @@
           "post": "2026-11-16-1815-brady-bonfim-rebooked",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "image": "v2: Sean Brady (Wikimedia) vs Gabriel Bonfim (Wikimedia, new)",
+          "scheduled_for": "2026-11-16T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-6632095179020874591"
         }
       ]
     },
