@@ -2,6 +2,25 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-16-6pm",
+      "title": "Nov 16 6 PM run: Brady vs. Bonfim rebooking UPDATE (held from Nov 15) queued for 7 PM; nothing new qualified; Nickal-Pyfer still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-16",
+      "facts": [
+        "Sweep since 1 PM: no new bookings, injuries or major news found",
+        "Skipped (quotes/talk, no booking): Shara Magomedov says he once turned down a fight-fixing bribe (MMASucka); Amanda Nunes responds to Kayla Harrison rematch idea (MMA Junkie via AOL); Joshua Van on his viral reaction to Hokit's loss; Cageside 'What's Next' for UFC 334 winners; EA UFC 6 PRIDE FC expansion",
+        "No qualifying ONE, PFL or adjacent stories; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start",
+        "Reels views (Metricool): Nov 15-16 Reels 51-192, steady near the ~140 pre-collapse median"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/ufc-middleweight-booked-against-israel-adesanya-alleges-he-rejected-12-million-fight-fixing-bribe",
+        "https://www.aol.com/articles/amanda-nunes-responds-kayla-harrisons-211221000.html",
+        "https://www.aol.com/articles/joshua-van-explains-viral-reaction-171234000.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-16-pm",
       "title": "Nov 16 1 PM run: no qualifying new stories; Brady-Bonfim still held for tonight; Nickal-Pyfer still held for photo",
       "people": [],
@@ -68,7 +87,8 @@
         "Bonfim last beat Belal Muhammad by decision (June 6); Brady last beat Joaquin Buckley by decision (May 9)",
         "Oct 29 1 PM run: qualifies (main event falling apart ~9 days out, ranked welterweights); held for evening per reach recovery rules. Word as a report. Suggested v2: left Gabriel Bonfim, right Sean Brady (headline e.g. 'BRADY OUT'). Neither has cutouts yet (new names; workflow fetches). If a replacement is named before the evening, post that instead as the update",
         "Oct 29 6 PM run update: Laerte Viana reported (Oct 29, ~4 PM ET) Johnny Walker vs. Waldo Cortes-Acosta (heavyweight) is the new Nov 7 main event; no new opponent named for Bonfim; not yet official on UFC.com (MiddleEasy)",
-        "UPDATE Nov 14 (official, UFC announced Saturday): Brady vs. Bonfim rebooked for UFC Fight Night, Jan 23, 2027, Meta Apex, Las Vegas (theScore). Nov 15 10 PM run: day at cap (4); held for the Nov 16 evening"
+        "UPDATE Nov 14 (official, UFC announced Saturday): Brady vs. Bonfim rebooked for UFC Fight Night, Jan 23, 2027, Meta Apex, Las Vegas (theScore). Nov 15 10 PM run: day at cap (4); held for the Nov 16 evening",
+        "Nov 16 6 PM run: posted the rebooking as an UPDATE (v2, Brady left, Bonfim right), 7:00 PM slot"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/sean-brady-injured-november7-main-event-bonfim-report/",
@@ -84,9 +104,14 @@
           "style": "v2",
           "scheduled_for": "2026-10-29T19:00:00-04:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-4383849089516485323"
+        },
+        {
+          "post": "2026-11-16-1815-brady-bonfim-rebooked",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
         }
-      ],
-      "held_for_evening": true
+      ]
     },
     {
       "id": "nickal-vs-pyfer-ufc-335",
