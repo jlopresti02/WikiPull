@@ -2,6 +2,23 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-17-am",
+      "title": "Nov 17 9 AM run: Usman Nurmagomedov release UPDATE held for the evening; nothing else qualified; Nickal-Pyfer still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-17",
+      "facts": [
+        "Sweep since Nov 16 10 PM: Usman Nurmagomedov released from Abu Dhabi prison after fines were reduced (held for evening, see merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov)",
+        "Skipped (minor business/talk): UFC Fight Pass and XFC streaming deal (GlobeNewswire); Kayla Harrison 'free money' Rousey callout (talk, already logged Nov 16)",
+        "No qualifying ONE, PFL or adjacent stories; no new files in Gemini Images or Sketch Videos; Metricool queue empty at run start",
+        "Reels views (Metricool): Nov 16 7 PM Brady-Bonfim update 132; Nov 15-16 range 27-194, steady near the ~140 pre-collapse median"
+      ],
+      "sources": [
+        "https://www.manilatimes.net/2026/11/17/tmt-newswire/globenewswire/ufc-fight-pass-and-xfc-reach-exclusive-streaming-agreement/2472103"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-16-10pm",
       "title": "Nov 16 10 PM run: no qualifying new stories; nothing scheduled; Nickal-Pyfer still held for photo",
       "people": [],
@@ -813,7 +830,9 @@
         "UPDATE (Nov 13 PM): Usman Nurmagomedov reportedly sentenced to six months in prison, fined (~$82,000) and to be deported after serving, along with five others, per CBS Sports citing a statement from the Abu Dhabi judicial department (Nov 13, 9:16 AM ET); TASS reports a court department post saying eight participants were sentenced. Merab's own fine not confirmed by CBS. RAF CEO Chad Bronstein says Merab (and Saba Lazishvili, per CBS) released and back with RAF; Merab vs. Moraes still not confirmed in reputable outlets (Bloody Elbow headline says Merab and Saba will compete, not verified). Umar vs. Faber status unknown",
         "Nov 13 1 PM run: posted serious-format UPDATE (sentence + Merab release) under the breaking-news exception, daytime, since the sentence is a major shock development for a star and the original attack Reel did best posted daytime (449 views). The held release update is folded into this post",
         "UPDATE (Nov 13 PM): RAF confirmed Friday that Merab still wrestles Marlon Moraes at RAF Abu Dhabi Nov 14 (RAF 'CONFIRMED' post; Helwani citing CEO Chad Bronstein). Umar Nurmagomedov is off the card (no reason given); Saba Lazishvili, Merab's 21-year-old friend who was among those arrested, replaces him vs. Urijah Faber in his debut (The National, MiddleEasy, Nov 13). The National, citing the Abu Dhabi Judicial Department: all 10 convicted; 8 got six months, Dh300,000 fines and deportation; two (believed to be Merab and Lazishvili) fined Dh50,000",
-        "Nov 14: Merab pinned Marlon Moraes at 1:30 at RAF Abu Dhabi; said he won't press charges and asked for Usman Nurmagomedov's release; Saba Lazishvili beat Urijah Faber on the same card (Athlon, LowKick, Heavy)"
+        "Nov 14: Merab pinned Marlon Moraes at 1:30 at RAF Abu Dhabi; said he won't press charges and asked for Usman Nurmagomedov's release; Saba Lazishvili beat Urijah Faber on the same card (Athlon, LowKick, Heavy)",
+        "UPDATE (Nov 17 AM): Usman Nurmagomedov released from prison in Abu Dhabi (The National, Nov 17). Abu Dhabi Judicial Department statement (Nov 17) on the 8 defendants (none named) cut each fine from Dh300,000 to Dh150,000, citing reconciliation, withdrawn claims and the victim's appeal for release; unclear whether deportation still applies. Umar Nurmagomedov's release reported by some outlets (MMA Mania, ClutchPoints) but not confirmed by The National; Bloody Elbow (Nov 16) reports Khabib negotiated the release (report only). PFL/MVP's Nakisa Bidarian open to welcoming Usman back (The National)",
+        "Held for evening by the Nov 17 9 AM run as a serious-format UPDATE (release is a genuine new fact; saga's best-performing story). Evening run: v2-free serious Reel, Usman Nurmagomedov photo (01-usmannurmagomedov cutout), word Umar/Khabib parts as reports only, confirm with a second outlet if possible; check for any Usman/Merab statement first"
       ],
       "sources": [
         "https://www.cbssports.com/ufc/news/merab-dvalishvili-usman-nurmagomedov-attack-abu-dhabi/",
@@ -834,7 +853,10 @@
         "https://www.thenationalnews.com/sport/combat-sports/2026/11/13/dvalishvili-cleared-to-wrestle-at-raf-abu-dhabi-following-arrest-over-nurmagomedov-hotel-brawl/",
         "https://middleeasy.com/brazilian-jiu-jitsu/saba-lazishvili-replaces-umar-nurmagomedov-urijah-faber-raf/",
         "https://athlonsports.com/mma/from-hotel-brawl-to-90-second-pin-merab-dvalishvili-wins-at-raf-abu-dhabi-and-calls-for-rivals-release",
-        "https://heavy.com/sports/ufc/raf-abu-dhabi-full-results-and-highlights/"
+        "https://heavy.com/sports/ufc/raf-abu-dhabi-full-results-and-highlights/",
+        "https://www.thenationalnews.com/sport/combat-sports/2026/11/17/usman-nurmagomedov-released-from-abu-dhabi-prison/",
+        "https://middleeasy.com/mma-news/usman-nurmagomedov-released-abu-dhabi-sentences-reduced/",
+        "https://bloodyelbow.com/2026/11/16/khabib-nurmagomedov-reportedly-negotiates-usman-nurmagomedovs-release-after-six-month-prison-sentence-for-brawl/"
       ],
       "posts": [
         {
@@ -879,7 +901,8 @@
           "scheduled_for": "2026-11-14T19:00:00-05:00",
           "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-2262778406772849123"
         }
-      ]
+      ],
+      "held_for_evening": true
     },
     {
       "id": "misc-nov-12-pm",
