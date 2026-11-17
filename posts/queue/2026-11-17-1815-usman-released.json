@@ -1,0 +1,26 @@
+{
+  "story_id": "merab-dvalishvili-attacked-abu-dhabi-usman-nurmagomedov",
+  "headline": "Usman Released",
+  "format": "serious",
+  "visual": [
+    {"type": "fighter", "name": "Usman Nurmagomedov", "file": "01-usmannurmagomedov"},
+    {"type": "fighter", "name": "Merab Dvalishvili", "file": "drive-merab-dvalishvili-champ"}
+  ],
+  "color": "#111111",
+  "caption": "UPDATE: Usman Nurmagomedov is out of prison in Abu Dhabi after his sentence over the hotel attack on Merab Dvalishvili was reduced.\nAbu Dhabi's judicial department says the eight defendants' fines were halved to Dh150,000 each, citing reconciliation and Merab's own appeal for their release. Reports say Khabib Nurmagomedov helped negotiate it, though that hasn't been confirmed.\n\nHoping everyone involved can move forward safely.",
+  "hashtags": ["MMANews", "PFL", "UsmanNurmagomedov", "MerabDvalishvili", "RAF"],
+  "sources": ["The National", "MiddleEasy", "Bloody Elbow"],
+  "serious": {
+    "tag": "NEWS UPDATE",
+    "kicker": "UPDATE",
+    "title": "Usman Nurmagomedov released from prison",
+    "facts": [
+      "Released in Abu Dhabi after his sentence was reduced",
+      "Fines for 8 defendants cut to Dh150,000 each",
+      "Court cites reconciliation and Merab's appeal for release",
+      "Khabib reportedly helped negotiate it (unconfirmed)"
+    ],
+    "closing": "Hoping everyone involved can move forward safely."
+  },
+  "reel": true
+}
