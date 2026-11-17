@@ -1,17 +1,5 @@
-Searching Wikimedia Commons for: Gabriel Bonfim
-  saved images/gabriel-bonfim/01-gabriel-bonfim-2025.jpg  [CC BY 3.0]
-Done: 1 image(s) saved.
-[0;93m2026-11-16 23:05:46.156145115 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-Using background-removal model: birefnet-portrait
-  cutout images/gabriel-bonfim/cutouts/01-gabriel-bonfim-2025.png
-Done: 1 new cutout(s).
 
-== 2026-11-16-1815-brady-bonfim-rebooked.json
-Image: {'type': 'fighter', 'name': 'Sean Brady (fighter)'} -> fighter images/sean-brady-fighter/cutouts/01-seanbrady.png  headline: It's Back On
-v2 left: images/sean-brady-fighter/cutouts/01-seanbrady.png
-$ fetch.py Gabriel Bonfim --count 5
-$ cutout.py /home/runner/work/WikiPull/WikiPull/images/gabriel-bonfim
-v2 right: images/gabriel-bonfim/cutouts/01-gabriel-bonfim-2025.png
-Music: music/sports/02-professional-sports-require-passionate-supporters.mp3 from 164.75s
-Rendered posts/2026-11-16-1815-brady-bonfim-rebooked/post.png (fighter)
-Rendered posts/2026-11-16-1815-brady-bonfim-rebooked/reel.mp4 (format v2)
+== 2026-11-17-1815-usman-released.json
+Image: {'type': 'fighter', 'name': 'Usman Nurmagomedov', 'file': '01-usmannurmagomedov'} -> fighter images/usman-nurmagomedov/cutouts/01-usmannurmagomedov.png  headline: Usman Released
+Rendered posts/2026-11-17-1815-usman-released/post.png (fighter)
+Rendered posts/2026-11-17-1815-usman-released/reel.mp4 (format serious)
