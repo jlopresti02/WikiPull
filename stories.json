@@ -2,6 +2,74 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "chimaev-vs-rashad-evans-raf-16",
+      "title": "Khamzat Chimaev to defend RAF light heavyweight crossover title vs. Rashad Evans at RAF 16 (Dec 19, Long Island)",
+      "people": [
+        "Khamzat Chimaev",
+        "Rashad Evans"
+      ],
+      "event": "RAF 16 (Dec 19, Long Island)",
+      "first_reported": "2026-11-17",
+      "held_for_evening": true,
+      "facts": [
+        "RAF announced Tuesday night (Nov 17) that Chimaev defends his RAF Light Heavyweight Crossover title vs. Rashad Evans in the RAF 16 main event, Dec 19, Long Island (MMA Mania/SB Nation via Yahoo, F4W)",
+        "Chimaev won the inaugural title at RAF Abu Dhabi with a 10-0 technical fall over Chris Weidman; Evans (47, former UFC light heavyweight champion, UFC Hall of Famer, 2000 NJCAA champion) makes his RAF debut",
+        "Card also reportedly has Merab Dvalishvili vs. Kenzo Biyong and Bo Nickal vs. Yoel Romero",
+        "Fans push back on the matchup (Bloody Elbow, Nov 18)",
+        "Held at 1 PM run for the evening as a star booking (follows the Chimaev-Weidman precedent, posted as a regular Reel Nov 14). Photos: Chimaev has Drive cutouts; Rashad Evans has none yet (new name, workflow fetches)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/khamzat-chimaev-vs-rashad-evans-013000784.html",
+        "https://www.f4wonline.com/news/ufc/khamzat-chimaev-rashad-evans-former-ufc-light-heavyweight-champion-raf-16/",
+        "https://www.mmanews.com/article/khamzat-chimaev-books-next-raf-opponent",
+        "https://bloodyelbow.com/2026/11/18/who-is-watching-this-fans-push-back-against-khamzat-chimaevs-next-matchup-following-raf-announcement/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "virna-jandiroba-released-ufc",
+      "title": "UFC releases No. 3 strawweight and ex-title challenger Virna Jandiroba 13 months after her title fight",
+      "people": [
+        "Virna Jandiroba",
+        "Mackenzie Dern",
+        "Tatiana Suarez"
+      ],
+      "event": "",
+      "first_reported": "2026-11-18",
+      "held_for_evening": true,
+      "facts": [
+        "Jandiroba announced her UFC release on Instagram Wednesday (Nov 18), per MMA Fighting's Guilherme Cruz; said she was caught off guard and does not plan to retire",
+        "Ranked No. 3 at strawweight; lost to Mackenzie Dern for the vacant title at UFC 321 (Oct 2025) and to Tatiana Suarez by decision at UFC Vegas 124 (Nov 7); 23-5 pro",
+        "Held at 1 PM run as a secondary evening candidate (major-release rule); weaker star power than Chimaev, 6 PM run decides. No Jandiroba cutouts yet (new name, workflow fetches); right side would be Tatiana Suarez (has cutouts)"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-releases-former-title-contender-151422790.html",
+        "https://www.thescore.com/mma/news/3658846/ufc-releases-ex-title-challenger-jandiroba",
+        "https://bloodyelbow.com/2026/11/18/ufc-releases-top-contender-just-13-months-after-title-fight/"
+      ],
+      "posts": []
+    },
+    {
+      "id": "misc-nov-18-pm",
+      "title": "Nov 18 1 PM run: 2 stories held for evening (Chimaev vs. Evans, Jandiroba release); nothing scheduled",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-18",
+      "facts": [
+        "Sweep since 9 AM: held Chimaev vs. Rashad Evans (RAF 16) and Virna Jandiroba's UFC release for the 6 PM run",
+        "Skipped (talk/no booking): Jon Anik defends Cormier as petition tops 7,000 (Bloody Elbow); fans react to Umar Nurmagomedov's alleged role in Merab brawl; Josh Hokit explains flipping off Bruce Buffer; UFC 335 fighter commentary debut; Dana White on Zhang Weili return (no date/opponent, Nov 15)",
+        "Adjacent (Trial Reels off): Alistair Overeem vs. Jimi Manuwa boxing added to Dec 24 Jake Paul vs. Cedric Doumbe card (Agent MMA, Fightmag) - not posted under reach recovery mode",
+        "No qualifying new ONE or PFL stories; no new files in Gemini Images or Sketch Videos; Metricool queue: only the user's Gane vs Liddell ball-battle Reel (Nov 18 3:30 PM)",
+        "Reels views (Metricool IGRE02): Nov 17 7 PM Usman update 176; Nov 15-17 range 0-187, steady near the ~140 median"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/18/jon-anik-defends-daniel-cormier-as-firing-petition-tops-7000-signatures-after-ufc-334/",
+        "https://agentmma.com/news/92780-overeem-vs-manuwa-added-to-dec-24-jake-paul-vs-doumb-card",
+        "https://heavy.com/sports/ufc/zhang-weili-positive-ufc-return-update/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-18-am",
       "title": "Nov 18 9 AM run: no qualifying new stories; nothing held or scheduled; Nickal-Pyfer still held for photo",
       "people": [],
