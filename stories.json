@@ -3,7 +3,7 @@
   "stories": [
     {
       "id": "misc-nov-18-6pm",
-      "title": "Nov 18 6 PM run: held Chimaev vs. Evans and Jandiroba release queued for 7:00 and 7:30 PM; nothing new qualified",
+      "title": "Nov 18 6 PM run: Chimaev vs. Evans scheduled 7 PM; Jandiroba release held for photo; nothing new qualified",
       "people": [],
       "event": "",
       "first_reported": "2026-11-18",
@@ -47,7 +47,9 @@
           "kind": "new",
           "format": "reel",
           "style": "v2",
-          "image": "v2: Khamzat Chimaev (Drive) vs Rashad Evans (Wikimedia, new)"
+          "image": "v2: Khamzat Chimaev (Drive) vs Rashad Evans (Wikimedia, new)",
+          "scheduled_for": "2026-11-18T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=8733008132796665460"
         }
       ]
     },
@@ -65,22 +67,15 @@
         "Jandiroba announced her UFC release on Instagram Wednesday (Nov 18), per MMA Fighting's Guilherme Cruz; said she was caught off guard and does not plan to retire",
         "Ranked No. 3 at strawweight; lost to Mackenzie Dern for the vacant title at UFC 321 (Oct 2025) and to Tatiana Suarez by decision at UFC Vegas 124 (Nov 7); 23-5 pro",
         "Held at 1 PM run as a secondary evening candidate (major-release rule); weaker star power than Chimaev, 6 PM run decides. No Jandiroba cutouts yet (new name, workflow fetches); right side would be Tatiana Suarez (has cutouts)",
-        "6 PM run Nov 18: posted as a regular v2 Reel (7:30 PM); no new facts since 1 PM"
+        "6 PM run Nov 18: queued and rendered (2026-11-18-1815-jandiroba-released) but Wikimedia had no Jandiroba photo (silhouette), so held for photo; not scheduled. Re-queue from git history with a Drive photo"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/ufc-releases-former-title-contender-151422790.html",
         "https://www.thescore.com/mma/news/3658846/ufc-releases-ex-title-challenger-jandiroba",
         "https://bloodyelbow.com/2026/11/18/ufc-releases-top-contender-just-13-months-after-title-fight/"
       ],
-      "posts": [
-        {
-          "post": "2026-11-18-1815-jandiroba-released",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2",
-          "image": "v2: Virna Jandiroba (Wikimedia, new) vs Tatiana Suarez (Wikimedia)"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "misc-nov-18-pm",
