@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-17-10pm",
+      "title": "Nov 17 10 PM run: no qualifying new stories; nothing scheduled; Nickal-Pyfer still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-17",
+      "facts": [
+        "Sweep since 6 PM: no new official bookings, title changes, injuries/withdrawals or major signings in UFC, PFL or ONE",
+        "Skipped (routine debut, no star): UFC signs unnamed Irish lightweight for a short-notice debut at UFC Qatar Nov 21 (Bloody Elbow)",
+        "Skipped (sensitive personal health story, not major news; serious format not warranted): Tommy McMillen discusses a recent overdose on Joe Rogan's podcast (Bloody Elbow)",
+        "Not new: Amanda Nunes' Nov 16 X post accepting Kayla Harrison's 145 lb rematch offer (Sherdog, Nov 17) - Nunes' response already logged Nov 16 6 PM; Dana White only said 'Sure, I'd do it again' at the UFC 334 presser; no booking",
+        "Skipped (talk/rankings): MMA Junkie Nov 17 rankings (Nunes re-enters); McGregor, Jon Jones praise; Cormier petition; Radtke on Wonderboy KO",
+        "Adjacent (Trial Reels off): no new item beyond Opetaia out of Wilder bout (logged 6 PM)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue: only the user's Gane vs Liddell ball-battle Reel (Nov 18 3:30 PM)",
+        "Reels views (Metricool IGRE02): Nov 15-16 Reels 27-186, Brady-Bonfim update 132; steady near the ~140 median; tonight's 7 PM Usman update not in analytics yet"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/17/ufc-signs-up-new-irish-lightweight-star-to-debut-this-weekend-in-surprise-fight-at-ufc-qatar/",
+        "https://bloodyelbow.com/2026/11/17/joe-rogan-pleads-with-tommy-mcmillen-as-the-ufc-star-explains-his-recent-overdose/",
+        "https://www.sherdog.com/news/news/Amanda-Nunes-accepts-Kayla-Harrisons-rematch-offer-at-145-pounds-203670",
+        "https://sports.yahoo.com/articles/mma-junkie-rankings-nov-17-022028263.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-17-6pm",
       "title": "Nov 17 6 PM run: Usman Nurmagomedov release UPDATE (held from 9 AM) queued for 7 PM; nothing new qualified; Nickal-Pyfer still held for photo",
       "people": [],
