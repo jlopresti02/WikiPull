@@ -1,0 +1,81 @@
+{
+  "story_id": "chimaev-vs-rashad-evans-raf-16",
+  "headline": "Rashad Next",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Khamzat Chimaev",
+      "file": "drive-khamzat-chimaev"
+    },
+    {
+      "type": "fighter",
+      "name": "Rashad Evans"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Khamzat Chimaev's first RAF title defense is set, and it's against UFC Hall of Famer Rashad Evans.\nChimaev or Evans? 👇\n\nChimaev puts his RAF Light Heavyweight Crossover belt on the line vs. the 47-year-old former UFC champion in the RAF 16 main event on Dec 19 on Long Island. Fans have pushed back on the matchup online.\n\n🔥 Hot take: Rashad was a great wrestler, but 47 vs. prime Khamzat is a mismatch.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "RAF",
+    "RAF16",
+    "KhamzatChimaev",
+    "RashadEvans"
+  ],
+  "sources": [
+    "MMA Mania",
+    "F4W",
+    "MMA News",
+    "Bloody Elbow"
+  ],
+  "music_pool": "espn",
+  "question": "Chimaev or Evans?",
+  "hot_take": "47 vs. prime Khamzat is a *mismatch*.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "RAF 16 · LONG ISLAND",
+    "kicker": "TITLE DEFENSE",
+    "hook": "Chimaev vs Evans",
+    "left": [
+      {
+        "name": "Khamzat Chimaev",
+        "file": "drive-khamzat-chimaev"
+      }
+    ],
+    "right": [
+      {
+        "name": "Rashad Evans"
+      }
+    ],
+    "story": "Chimaev defends his RAF crossover title vs. UFC Hall of Famer Rashad Evans.",
+    "chips": [
+      "DEC 19",
+      "RAF 16 MAIN EVENT",
+      "EVANS IS 47"
+    ],
+    "options": [
+      "CHIMAEV",
+      "EVANS"
+    ],
+    "question": "Chimaev or Evans?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png",
+      "credit": "WWIT MMA News"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/rashad-evans/cutouts/01-rashad-evans-joins-fleet-week-miami-2024-2-cropped.png",
+      "credit": "Mass Communication Specialist 2nd Class Erik Melgar / Public domain"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png",
+    "credit": "WWIT MMA News"
+  },
+  "music": "music/sports/03-blood-sport-war.mp3",
+  "music_credit": "\"Blood Sport War\" by Nothing, I Know / CC BY 3.0",
+  "music_start": 8.5
+}

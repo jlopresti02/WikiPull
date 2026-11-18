@@ -1,5 +1,43 @@
+Searching Wikimedia Commons for: Rashad Evans
+  saved images/rashad-evans/01-rashad-evans-joins-fleet-week-miami-2024-2-cropped.jpg  [Public domain]
+  saved images/rashad-evans/02-rashadevans.png  [CC BY-SA 3.0]
+  saved images/rashad-evans/03-former-ufc-light-heavyweight-champion-rashad-evans-visits-fl.jpg  [Public domain]
+  saved images/rashad-evans/04-dr-khalilah-camacho-ali-and-rashad-evans-join-fleet-week-mia.jpg  [Public domain]
+Done: 4 image(s) saved.
+[0;93m2026-11-18 23:07:01.047874809 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/rashad-evans/cutouts/01-rashad-evans-joins-fleet-week-miami-2024-2-cropped.png
+  cutout images/rashad-evans/cutouts/02-rashadevans.png
+  cutout images/rashad-evans/cutouts/03-former-ufc-light-heavyweight-champion-rashad-evans-visits-fl.png
+  cutout images/rashad-evans/cutouts/04-dr-khalilah-camacho-ali-and-rashad-evans-join-fleet-week-mia.png
+Done: 4 new cutout(s).
+Searching Wikimedia Commons for: Virna Jandiroba
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Virna Jandiroba
+  No file names matched; falling back to looser results.
+  No file names matched; falling back to looser results.
+  No openly licensed images found.
+Done: 0 image(s) saved.
 
-== 2026-11-17-1815-usman-released.json
-Image: {'type': 'fighter', 'name': 'Usman Nurmagomedov', 'file': '01-usmannurmagomedov'} -> fighter images/usman-nurmagomedov/cutouts/01-usmannurmagomedov.png  headline: Usman Released
-Rendered posts/2026-11-17-1815-usman-released/post.png (fighter)
-Rendered posts/2026-11-17-1815-usman-released/reel.mp4 (format serious)
+== 2026-11-18-1815-chimaev-vs-rashad-evans.json
+Image: {'type': 'fighter', 'name': 'Khamzat Chimaev', 'file': 'drive-khamzat-chimaev'} -> fighter images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png  headline: Rashad Next
+v2 left: images/khamzat-chimaev/cutouts/drive-khamzat-chimaev.png
+$ fetch.py Rashad Evans --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/rashad-evans
+v2 right: images/rashad-evans/cutouts/01-rashad-evans-joins-fleet-week-miami-2024-2-cropped.png
+Music: music/sports/03-blood-sport-war.mp3 from 8.5s
+Rendered posts/2026-11-18-1815-chimaev-vs-rashad-evans/post.png (fighter)
+Rendered posts/2026-11-18-1815-chimaev-vs-rashad-evans/reel.mp4 (format v2)
+
+== 2026-11-18-1815-jandiroba-released.json
+$ fetch.py Virna Jandiroba --count 5
+Image: {'type': 'fighter', 'name': 'Tatiana Suarez', 'file': '01-tatiana-suarez-at-ufc-228'} -> fighter images/tatiana-suarez/cutouts/01-tatiana-suarez-at-ufc-228.png  headline: Cut Loose
+$ fetch.py Virna Jandiroba --count 5
+v2 left: silhouette
+v2 right: images/tatiana-suarez/cutouts/01-tatiana-suarez-at-ufc-228.png
+Music: music/news-intro/01-intro-a-new-song.mp3 from 22.25s
+Rendered posts/2026-11-18-1815-jandiroba-released/post.png (fighter)
+Rendered posts/2026-11-18-1815-jandiroba-released/reel.mp4 (format v2)
