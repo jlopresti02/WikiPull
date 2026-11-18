@@ -1,0 +1,29 @@
+{
+  "story_id": "virna-jandiroba-released-ufc",
+  "headline": "Cut Loose",
+  "visual": [
+    {"type": "fighter", "name": "Virna Jandiroba"},
+    {"type": "fighter", "name": "Tatiana Suarez", "file": "01-tatiana-suarez-at-ufc-228"}
+  ],
+  "color": "#111111",
+  "caption": "The UFC just released No. 3 strawweight Virna Jandiroba, 13 months after her title fight.\nFair or not? 👇\n\nJandiroba (23-5) shared the news on Instagram, saying it caught her off guard and she isn't retiring. She lost the vacant title fight to Mackenzie Dern last year and dropped a decision to Tatiana Suarez on Nov 7.\n\n🔥 Hot take: A top-3 contender getting cut should worry the whole roster.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "VirnaJandiroba", "TatianaSuarez", "Strawweight"],
+  "sources": ["MMA Fighting", "Yahoo Sports", "theScore", "Bloody Elbow"],
+  "music_pool": "espn",
+  "question": "Fair or not?",
+  "hot_take": "A top-3 contender getting cut should *worry* everyone.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · STRAWWEIGHT",
+    "kicker": "NO. 3 RELEASED",
+    "hook": "Jandiroba Cut",
+    "left": [{"name": "Virna Jandiroba"}],
+    "right": [{"name": "Tatiana Suarez", "file": "01-tatiana-suarez-at-ufc-228"}],
+    "story": "The UFC releases No. 3 strawweight Virna Jandiroba after back-to-back losses.",
+    "chips": ["23-5 PRO", "LOST TO SUAREZ NOV 7", "NOT RETIRING"],
+    "options": ["FAIR", "NOT FAIR"],
+    "question": "Fair or not?"
+  }
+}
