@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-18-am",
+      "title": "Nov 18 9 AM run: no qualifying new stories; nothing held or scheduled; Nickal-Pyfer still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-18",
+      "facts": [
+        "Sweep since Nov 17 10 PM: no new official bookings, title changes, injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21) fight week, no card changes found beyond the Irish lightweight debut logged Nov 17",
+        "Skipped (talk/quotes): Ilia Topuria describes the White House injury that nearly ended his career (SportBible, Nov 17); Curtis Blaydes says judges robbed Josh Hokit at UFC 334 (Heavy)",
+        "Adjacent (Trial Reels off): Bo Nickal vs. Yoel Romero rebooked for RAF 16, Dec 19 (Agent MMA, MMA Sucka) - not posted under reach recovery mode",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue: only the user's Gane vs Liddell ball-battle Reel (Nov 18 3:30 PM)",
+        "Reels views (Metricool IGRE02): Nov 17 7 PM Usman release update 176; Nov 15-17 range 23-187, steady near the ~140 median"
+      ],
+      "sources": [
+        "https://www.sportbible.com/ufc/ilia-topuria-injury-white-house-111592-20261117",
+        "https://heavy.com/sports/ufc/curtis-blaydes-judges-robbed-josh-hokit/",
+        "https://agentmma.com/news/92678-bo-nickal-rebooked-vs-yoel-romero-for-raf-wrestling-on-dec-19"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-17-10pm",
       "title": "Nov 17 10 PM run: no qualifying new stories; nothing scheduled; Nickal-Pyfer still held for photo",
       "people": [],
