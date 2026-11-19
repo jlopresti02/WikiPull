@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-19-pm",
+      "title": "Nov 19 1 PM run: no qualifying new stories; nothing held or scheduled; Jandiroba release still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-19",
+      "facts": [
+        "Sweep since 9 AM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21) fight week, no main-card changes found",
+        "Skipped (talk, no booking): Gane's coach says UFC wants a Hokit rematch but has an 'ethical' problem (Bloody Elbow); Cormier criticizes Jon Jones for mocking Hokit; Aspinall return update; Makhachev picks Nate Diaz vs Jake Paul; Adesanya on Prochazka at UFC Qatar",
+        "Skipped (minor booking): Magomed Zaynukov rebooked on UFC Dallas among new bouts (Bloody Elbow)",
+        "Adjacent (Trial Reels off): nothing notable found",
+        "Jandiroba release still held for photo (no new files in Gemini Images); drop after ~Nov 20",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue: only the user's Oliveira vs Topuria ball-battle Reel (Nov 19 3:30 PM)",
+        "Reels views (Metricool IGRE02) Nov 16-19: 0-219, latest 130 (Chimaev vs Evans); steady near the ~140 median"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/19/ciryl-ganes-coach-claims-ufc-want-josh-hokit-rematch-but-have-an-ethical-problem-preventing-it/",
+        "https://bloodyelbow.com/2026/11/19/daniel-cormier-goes-in-on-jon-jones-for-mocking-josh-hokit-after-ufc-334-loss/",
+        "https://bloodyelbow.com/2026/11/19/tom-aspinall-provides-return-update-following-ufc-334-heavyweight-title-fight/",
+        "https://bloodyelbow.com/2026/11/19/john-pork-magomed-zaynukov-gets-rebooked-after-missing-ufc-qatar-in-list-of-new-ufc-dallas-bouts/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-19-am",
       "title": "Nov 19 9 AM run: no qualifying new stories; nothing held or scheduled; Jandiroba release still held for photo",
       "people": [],
