@@ -2,6 +2,23 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-19-am",
+      "title": "Nov 19 9 AM run: no qualifying new stories; nothing held or scheduled; Jandiroba release still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-19",
+      "facts": [
+        "Sweep since Nov 18 10 PM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21, Tsarukyan vs. Hooker) fight week, no main-card changes found",
+        "Skipped (not new/talk): McGregor 'last dance' return talk (already logged Nov 5); repeats of Nov 18 skips (UFC 336 undercard additions, late-notice UFC Qatar signings)",
+        "Adjacent (Trial Reels off): nothing notable found in the window",
+        "Jandiroba release still held for photo (no Jandiroba file in Gemini Images); drop after ~Nov 20",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue: only the user's Oliveira vs Topuria ball-battle Reel (Nov 19 3:30 PM)",
+        "Reels views (Metricool IGRE02): Nov 18 7 PM Chimaev vs. Evans 130; Nov 16-18 range 0-219, steady near the ~140 median"
+      ],
+      "sources": [],
+      "posts": []
+    },
+    {
       "id": "misc-nov-18-10pm",
       "title": "Nov 18 10 PM run: no qualifying new stories; nothing scheduled; Jandiroba release still held for photo",
       "people": [],
