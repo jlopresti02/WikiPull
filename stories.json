@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-18-10pm",
+      "title": "Nov 18 10 PM run: no qualifying new stories; nothing scheduled; Jandiroba release still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-18",
+      "facts": [
+        "Sweep since 6 PM: no new official title bookings, title changes, star injuries/withdrawals or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21) fight week, no main-card changes found",
+        "Skipped (routine bookings, no star): UFC 336 Toronto adds Lance Gibson Jr. vs. Michael Johnson and Nelson vs. Clancy Jr. (Agent MMA); UFC signs two fighters for a late-notice UFC Qatar undercard bout (MMA Fighting via Yahoo)",
+        "Skipped (business, minor): UFC confirms Fanatics Fest return, June 2027 in New York (Middle Easy)",
+        "Adjacent (Trial Reels off): nothing notable found",
+        "Jandiroba release still held for photo (no Jandiroba file in Gemini Images); stale after ~Nov 20. Day count Nov 18: 1 automated post (Chimaev vs. Evans 7 PM)",
+        "No new files in Gemini Images or Sketch Videos; Metricool queue: only the user's Oliveira vs Topuria ball-battle Reel (Nov 19 3:30 PM)",
+        "Reels views: Metricool IGRE02 returned only timestamps this run, no view counts"
+      ],
+      "sources": [
+        "https://agentmma.com/news/92914-ufc-336-in-toronto-adds-gibson-vs-johnson-and-nelson-vs-clancy-jr",
+        "https://sports.yahoo.com/articles/ufc-signs-two-fighters-notice-010000311.html",
+        "https://middleeasy.com/mma-news/ufc-fanatics-fest-return-june2027-new-york"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-18-6pm",
       "title": "Nov 18 6 PM run: Chimaev vs. Evans scheduled 7 PM; Jandiroba release held for photo; nothing new qualified",
       "people": [],
