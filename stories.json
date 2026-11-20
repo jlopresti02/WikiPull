@@ -2,6 +2,29 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-20-pm",
+      "title": "Nov 20 1 PM run: no qualifying new stories; nothing held or scheduled; Christian Lee still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-20",
+      "facts": [
+        "Sweep since 9 AM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21) card unchanged after weigh-ins",
+        "Skipped (talk): Brian Ortega on planning to hide an eye injury before UFC 331 (Cageside Press); Alex Pereira weight update before UFC 335 (Bloody Elbow); Merab on a possible Usman Nurmagomedov fight; Dana White matching a $100K Freedom 250 bonus; Umar Nurmagomedov message",
+        "Skipped (unverified): Bloody Elbow headline 'UFC star announces retirement' - article unreadable and no other outlet found naming the fighter; recheck at 6 PM",
+        "Skipped (repeat): Usman Nurmagomedov prison release (covered Nov 17)",
+        "ONE: Friday Fights 179 tonight, nothing big found; Adjacent (Trial Reels off): nothing notable",
+        "No new files in Gemini Images or Sketch Videos since Nov 15; Christian Lee stripped still held for photo, drop after ~Nov 21",
+        "Metricool queue: only the user's Gane vs Topuria ball-battle Reel (Nov 20 3:30 PM)",
+        "Reels views (IGRE02) Nov 16-19: 0-222 (Nov 19 8:32 PM: 7, Nov 19 12:04 AM: 187); roughly steady near the ~140 median"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/20/brian-ortega-reveals-wild-plan-to-hide-eye-injury-before-ufc-331/",
+        "https://bloodyelbow.com/2026/11/20/alex-pereira-provides-weight-update-weeks-out-from-ufc-335-following-criticized-heavyweight-approach/",
+        "https://bloodyelbow.com/2026/11/20/ufc-star-announces-retirement-to-make-final-octagon-appearance-a-send-off-for-both-fighters/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-20-am",
       "title": "Nov 20 9 AM run: no qualifying new stories; nothing held or scheduled; Jandiroba dropped as stale; Christian Lee still held for photo",
       "people": [],
