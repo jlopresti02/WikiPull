@@ -2,6 +2,27 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-20-am",
+      "title": "Nov 20 9 AM run: no qualifying new stories; nothing held or scheduled; Jandiroba dropped as stale; Christian Lee still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-20",
+      "facts": [
+        "Sweep since Nov 19 10 PM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE",
+        "UFC Qatar (Nov 21) weigh-ins: Prochazka and Stirling both 205, main event official; Sterling vs. Vallejos co-main official at 145; Tahir Abdullayev missed weight (172) vs. Jake Matthews, bout goes on at catchweight, 20% purse forfeit. Skipped (minor prelim miss, no star bout affected)",
+        "Skipped (talk): Joe Rogan suggests Topuria move back to featherweight; Topuria to speak at America Business Forum",
+        "Adjacent (Trial Reels off): nothing notable found",
+        "No new files in Gemini Images (createdTime since Nov 15) or Sketch Videos; Jandiroba release dropped as stale; Christian Lee stripped still held for photo, drop after ~Nov 21",
+        "Metricool queue: only the user's Gane vs Topuria ball-battle Reel (Nov 20 3:30 PM)",
+        "Reels views (IGRE02) Nov 16-19: 0-222; Nov 19 12:04 AM post 187; steady near the ~140 median"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ufc-qatar-weigh-results-jiri-074355767.html",
+        "https://www.bjpenn.com/mma-news/ufc/joe-rogan-wonders-if-ilia-topuria-should-move-back-down-to-featherweight-theres-a-difference/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-19-10pm",
       "title": "Nov 19 10 PM run: no qualifying new stories; nothing scheduled; Christian Lee and Jandiroba still held for photo",
       "people": [],
@@ -197,7 +218,8 @@
         "Jandiroba announced her UFC release on Instagram Wednesday (Nov 18), per MMA Fighting's Guilherme Cruz; said she was caught off guard and does not plan to retire",
         "Ranked No. 3 at strawweight; lost to Mackenzie Dern for the vacant title at UFC 321 (Oct 2025) and to Tatiana Suarez by decision at UFC Vegas 124 (Nov 7); 23-5 pro",
         "Held at 1 PM run as a secondary evening candidate (major-release rule); weaker star power than Chimaev, 6 PM run decides. No Jandiroba cutouts yet (new name, workflow fetches); right side would be Tatiana Suarez (has cutouts)",
-        "6 PM run Nov 18: queued and rendered (2026-11-18-1815-jandiroba-released) but Wikimedia had no Jandiroba photo (silhouette), so held for photo; not scheduled. Re-queue from git history with a Drive photo"
+        "6 PM run Nov 18: queued and rendered (2026-11-18-1815-jandiroba-released) but Wikimedia had no Jandiroba photo (silhouette), so held for photo; not scheduled. Re-queue from git history with a Drive photo",
+        "Dropped at Nov 20 9 AM run: still no Jandiroba photo in Gemini Images and story now 2 days old (stale)"
       ],
       "sources": [
         "https://sports.yahoo.com/articles/ufc-releases-former-title-contender-151422790.html",
@@ -205,7 +227,7 @@
         "https://bloodyelbow.com/2026/11/18/ufc-releases-top-contender-just-13-months-after-title-fight/"
       ],
       "posts": [],
-      "held_for_photo": true
+      "dropped_stale": true
     },
     {
       "id": "misc-nov-18-pm",
