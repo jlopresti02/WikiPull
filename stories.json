@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-19-10pm",
+      "title": "Nov 19 10 PM run: no qualifying new stories; nothing scheduled; Christian Lee and Jandiroba still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-19",
+      "facts": [
+        "Sweep since 6 PM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21) fight week, no main-card changes found",
+        "Skipped (talk): Prochazka media-day quotes ('born to be the best', vows to smash Stirling for Ulberg rematch); Adesanya picks Stirling (Cageside Press, BJPenn, Yahoo)",
+        "Skipped (minor): late-notice newcomer bout added to UFC Qatar undercard (Yahoo)",
+        "Skipped (repeat): Strickland vs. Imavov reportedly targeted for UFC 337 Feb 2027, already posted Oct 28, still not official",
+        "Adjacent (Trial Reels off): nothing notable found",
+        "No new files in Gemini Images or Sketch Videos; Christian Lee (stale after ~Nov 21) and Jandiroba (drop at Nov 20 9 AM run if no photo) still held for photo",
+        "Metricool queue: only the user's Gane vs Topuria ball-battle Reel (Nov 20 3:30 PM)"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/19/ufc-qatar-jiri-prochazka-best/",
+        "https://sports.yahoo.com/articles/israel-adesanya-navajo-stirling-too-210043951.html",
+        "https://sports.yahoo.com/articles/ufc-qatar-adds-last-minute-220842064.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-19-6pm",
       "title": "Nov 19 6 PM run: nothing scheduled; Christian Lee stripped held for photo; Jandiroba still held",
       "people": [],
