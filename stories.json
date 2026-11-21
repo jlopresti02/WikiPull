@@ -27,7 +27,10 @@
         {
           "post": "2026-11-21-1815-ufc-qatar-results",
           "kind": "new",
-          "format": "carousel"
+          "format": "carousel",
+          "scheduled_for": "2026-11-21T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5359500474286754928",
+          "style": "carousel"
         }
       ]
     },
@@ -76,7 +79,10 @@
         {
           "post": "2026-11-21-1815-ortega-retires",
           "kind": "new",
-          "format": "reel"
+          "format": "reel",
+          "scheduled_for": "2026-11-21T19:30:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=5673119975319227218",
+          "style": "v2"
         }
       ]
     },
