@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-21-am",
+      "title": "Nov 21 9 AM run: no qualifying new stories; nothing held or scheduled; Christian Lee dropped as stale",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-21",
+      "facts": [
+        "Sweep since Nov 20 10 PM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21, Doha) Prochazka vs. Stirling fight day, card unchanged; main card around 1 PM ET, results for the 1 PM/6 PM runs",
+        "Skipped (unverified): Bloody Elbow 'UFC star announces retirement' (Nov 20) still unnamed in any other outlet",
+        "Adjacent (Trial Reels off): nothing notable found",
+        "No new files in Gemini Images or Sketch Videos since Nov 14; Christian Lee stripped dropped as stale (no photo)",
+        "Metricool queue: only the user's BJP vs El Cucuy ball-battle Reel (Nov 21 12:00 PM)",
+        "Reels views (IGRE02) Nov 17-20: 55-222 (Nov 20 8:32 PM: 55; Nov 19 12:04 AM: 188); roughly steady, not climbing past the ~140 median"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/20/ufc-star-announces-retirement-to-make-final-octagon-appearance-a-send-off-for-both-fighters/",
+        "https://khelnow.com/ufc/ufc-qatar-prochazka-vs-stirling-preview-202611"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-20-10pm",
       "title": "Nov 20 10 PM run: no qualifying new stories; nothing scheduled; Christian Lee still held for photo",
       "people": [],
@@ -147,14 +167,14 @@
         "ONE declared its welterweight MMA world title vacant 'with immediate effect due to inactivity' on Wed Nov 18; a bout agreement for a defense could not be finalized (Cageside Press, MMA Sucka)",
         "Lee won the belt Nov 18, 2022 vs. Kiamrian Abbasov and never defended it; ONE's statement also cited time away after his sister Victoria Lee's death and the birth of his children (handle respectfully)",
         "Comes weeks after Lee lost his lightweight title to Tye Ruotolo (Nov 6); no vacant-title fight named yet",
-        "Missed by the Nov 18 runs; found at Nov 19 6 PM run. Champion stripped = qualifies. Not queued: no Drive photo of Christian Lee and Wikimedia previously matched the wrong person (musician Christian Lee Hutson). Held for photo; stale after ~Nov 21"
+        "Missed by the Nov 18 runs; found at Nov 19 6 PM run. Champion stripped = qualifies. Not queued: no Drive photo of Christian Lee and Wikimedia previously matched the wrong person (musician Christian Lee Hutson). Held for photo; stale after ~Nov 21",
+        "Dropped as stale at Nov 21 9 AM run: no Christian Lee photo ever added to Gemini Images; never posted"
       ],
       "sources": [
         "https://cagesidepress.com/2026/11/18/one-championship-strips-christian-lee-welterweight-title/",
         "https://mmasucka.com/news/one-championship-declares-one-welterweight-mma-world-title-vacant-christian-lee-no-longer-champion/"
       ],
-      "posts": [],
-      "held_for_photo": true
+      "posts": []
     },
     {
       "id": "misc-nov-19-pm",
