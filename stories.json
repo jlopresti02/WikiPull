@@ -2,6 +2,27 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-20-10pm",
+      "title": "Nov 20 10 PM run: no qualifying new stories; nothing scheduled; Christian Lee still held for photo",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-20",
+      "facts": [
+        "Sweep since 6 PM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE; UFC Qatar (Nov 21) Prochazka vs. Stirling unchanged",
+        "Skipped (repeat/old): McGregor 'last dance' return (logged Nov 5); Carrillo vs. Anane ONE title rematch (announced Oct 26); ONE Samurai 5 bookings (event already held)",
+        "Skipped (unverified): 'UFC star announces retirement' (Bloody Elbow) still unnamed elsewhere",
+        "Adjacent (Trial Reels off): Keith Thurman reportedly withdraws from Vergil Ortiz boxing fight with injury (MiddleEasy), not posted",
+        "No new files in Gemini Images since Nov 15; Christian Lee stripped still held for photo, drop at Nov 21 9 AM run",
+        "Metricool queue empty for the next 24 h",
+        "Reels views (IGRE02) Nov 16-20: analytics returned post timestamps only, no view counts this run"
+      ],
+      "sources": [
+        "https://middleeasy.com/boxing/keith-thurman-injury-vergil-ortiz-fight-withdrawal/",
+        "https://hypebeast.com/2026/11/ufc-conor-mcgregor-announces-final-fight-last-dance-mma-return-news"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-20-6pm",
       "title": "Nov 20 6 PM run: no qualifying new stories; nothing scheduled; Christian Lee still held for photo",
       "people": [],
