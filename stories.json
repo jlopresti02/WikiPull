@@ -44,20 +44,16 @@
         "Stirling def. Prochazka KO (right hook + ground strikes) R2 4:58, ref Marc Goddard",
         "Stirling 12-0 (7-0 UFC), 4 straight KOs, 2nd straight win over ex-champ after Blachowicz (Aug)",
         "Stirling: 'I'll see who's above me'; wants UFC in New Zealand; no callout of champ Ulberg (teammates at City Kickboxing)",
-        "Prochazka on 2-fight skid (lost to Ulberg at UFC 327 for vacant title)"
+        "Prochazka on 2-fight skid (lost to Ulberg at UFC 327 for vacant title)",
+        "Held Nov 21 6 PM: no photo of Navajo Stirling; original queue file in commit e8d8d37"
       ],
       "sources": [
         "https://www.thescore.com/mma/news/3658960/ufc-qatar-prochazka-vs-stirling-results-analysis",
         "https://sports.yahoo.com/articles/navajo-stirling-knocks-jiri-prochazka-215507403.html",
         "https://www.sherdog.com/news/news/UFC-Qatar-Prochazka-vs-Stirling-playbyplay-results-round-scoring-203707"
       ],
-      "posts": [
-        {
-          "post": "2026-11-21-1815-stirling-kos-prochazka",
-          "kind": "new",
-          "format": "reel"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "ortega-retires-ufc-qatar",
@@ -97,18 +93,14 @@
       "facts": [
         "Vallejos def. Sterling UD 30-27, 30-27, 29-28 at featherweight",
         "Vallejos 19-1, 5-0 UFC; asked for Volkanovski title shot, 'only logical option'",
-        "Sterling's 2-fight win streak ended"
+        "Sterling's 2-fight win streak ended",
+        "Held Nov 21 6 PM: no photo of Kevin Vallejos (render fell back to Sterling on the left under a Vallejos take); original queue file in commit e8d8d37"
       ],
       "sources": [
         "https://www.thescore.com/mma/news/3658960/ufc-qatar-prochazka-vs-stirling-results-analysis"
       ],
-      "posts": [
-        {
-          "post": "2026-11-21-1815-vallejos-beats-sterling",
-          "kind": "new",
-          "format": "reel"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "misc-nov-21-6pm",
@@ -120,7 +112,8 @@
         "Skipped (talk): Hooker calls out Holloway for BMF (inside Ortega post); Horiguchi, Aliskerov, Albazi wins (routine, in carousel)",
         "No new files in Gemini Images or Sketch Videos since Nov 14",
         "Metricool queue: only the user's Do Bronx vs El Cucuy ball-battle Reel (Nov 22 3:30 PM)",
-        "Adjacent (Trial Reels off): nothing notable"
+        "Adjacent (Trial Reels off): nothing notable",
+        "Carousel cover first failed (no Stirling photo); re-queued with Prochazka on the cover, Stirling result slide text-only"
       ],
       "sources": [],
       "posts": []
