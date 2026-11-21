@@ -1,0 +1,82 @@
+{
+  "story_id": "stirling-kos-prochazka-ufc-qatar",
+  "headline": "BJP KO'd",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Navajo Stirling"
+    },
+    {
+      "type": "fighter",
+      "name": "Jiri Prochazka",
+      "file": "01-jiriprochazka2022",
+      "headline": "BJP KO'd"
+    }
+  ],
+  "color": "#f5c518",
+  "caption": "Navajo Stirling just knocked out former champ Jiri Prochazka in Doha and stayed perfect at 12-0.\nTitle shot or one more test? 👇\n\nThe UFC Qatar main event ended at 4:58 of round 2, a right hook then ground strikes, Stirling's fourth straight KO and second straight win over a former UFC light heavyweight champion after Jan Blachowicz.\n\n🔥 Hot take: Stirling is the next UFC light heavyweight champion.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCQatar",
+    "NavajoStirling",
+    "JiriProchazka"
+  ],
+  "sources": [
+    "theScore",
+    "Yahoo Sports",
+    "Sherdog"
+  ],
+  "music_pool": "espn",
+  "question": "Title shot next?",
+  "hot_take": "Stirling is the *next* light heavyweight champ.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC QATAR · LIGHT HEAVYWEIGHT",
+    "kicker": "STILL UNBEATEN",
+    "hook": "Stirling KOs BJP",
+    "left": [
+      {
+        "name": "Navajo Stirling"
+      }
+    ],
+    "right": [
+      {
+        "name": "Jiri Prochazka",
+        "file": "01-jiriprochazka2022"
+      }
+    ],
+    "story": "Stirling knocked out ex-champ Prochazka in round 2 to go 12-0.",
+    "chips": [
+      "KO R2 4:58",
+      "12-0",
+      "4 STRAIGHT KOS"
+    ],
+    "options": [
+      "TITLE SHOT",
+      "ONE MORE"
+    ],
+    "question": "Title shot next?",
+    "left_subject": {
+      "kind": "graphic",
+      "graphic": "mystery",
+      "image": null,
+      "credit": null
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/jiri-prochazka/cutouts/01-jiriprochazka2022.png",
+      "credit": "Show Jana Krause / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/jiri-prochazka/cutouts/01-jiriprochazka2022.png",
+    "credit": "Show Jana Krause / CC BY 3.0"
+  },
+  "music": "music/news-intro/03-channeling-power-into-a-new-dimension-intro.mp3",
+  "music_credit": "\"Channeling Power Into A New Dimension (Intro)\" by Dark Light / CC BY-SA 3.0",
+  "music_start": 168.5
+}
