@@ -1,0 +1,29 @@
+{
+  "story_id": "vallejos-beats-sterling-ufc-qatar",
+  "headline": "Volk Next?",
+  "visual": [
+    {"type": "fighter", "name": "Kevin Vallejos"},
+    {"type": "fighter", "name": "Aljamain Sterling", "file": "01-alijamain-sterling-at-ufc-228", "headline": "Sterling Beaten"}
+  ],
+  "color": "#1f3fbf",
+  "caption": "Kevin Vallejos beat Aljamain Sterling at UFC Qatar and called out Alexander Volkanovski.\nVolk or one more test? 👇\n\nThe 19-1 Argentine took a unanimous decision (30-27, 30-27, 29-28) over the former bantamweight champ to go 5-0 in the UFC, then said a featherweight title shot is the only logical option.\n\n🔥 Hot take: Vallejos has earned the next shot at Volk.\nDisagree? Tell me why you're wrong.",
+  "hashtags": ["MMANews", "UFC", "UFCQatar", "KevinVallejos", "AljamainSterling"],
+  "sources": ["theScore", "Sherdog"],
+  "music_pool": "espn",
+  "question": "Volk or one more?",
+  "hot_take": "Vallejos has *earned* the next shot at Volk.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC QATAR · FEATHERWEIGHT",
+    "kicker": "TITLE SHOT CALL",
+    "hook": "Vallejos vs Volk?",
+    "left": [{"name": "Kevin Vallejos"}, {"name": "Aljamain Sterling", "file": "01-alijamain-sterling-at-ufc-228"}],
+    "right": [{"name": "Alexander Volkanovski", "file": "drive-alexander-volkanovski-champ"}],
+    "story": "Vallejos beat Aljamain Sterling, then called for a title shot vs. Volkanovski.",
+    "chips": ["19-1", "5-0 IN UFC", "UNANIMOUS DEC"],
+    "options": ["VOLK NEXT", "ONE MORE"],
+    "question": "Volk or one more?"
+  }
+}
