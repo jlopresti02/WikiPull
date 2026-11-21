@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-21-pm",
+      "title": "Nov 21 1 PM run: UFC Qatar in progress; no qualifying new stories; nothing held or scheduled",
+      "people": [],
+      "event": "UFC Qatar",
+      "first_reported": "2026-11-21",
+      "facts": [
+        "Sweep since 9 AM: no new official bookings, title changes, star injuries/withdrawals, vacated titles or major signings in UFC, PFL or ONE",
+        "UFC Qatar (Doha) underway: early prelims John Mitchell def. Shoaib Yousaf TKO R1 3:50; Diyar Nurgozhay def. Alik Lorenz TKO R2 0:24 (mymmanews); main card (Prochazka vs. Stirling, Sterling vs. Vallejos, Hooker vs. Ortega) still to come; star results for the 6 PM run, results carousel for the first run after the card ends",
+        "Weigh-ins: Tahir Abdullayev 1 lb over vs. Jake Matthews (old news, prelim fighters)",
+        "No new files in Gemini Images or Sketch Videos since Nov 14",
+        "Metricool queue empty for the next 24 h",
+        "Reels views (IGRE02) Nov 17-20: analytics returned post timestamps only, no view counts"
+      ],
+      "sources": [
+        "https://mymmanews.com/ufc-qatar-results-prochazka-vs-stirling/",
+        "https://sports.yahoo.com/articles/ufc-qatar-proch-zka-vs-072527876.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-21-am",
       "title": "Nov 21 9 AM run: no qualifying new stories; nothing held or scheduled; Christian Lee dropped as stale",
       "people": [],
