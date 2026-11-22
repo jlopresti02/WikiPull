@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-22-am",
+      "title": "Nov 22 9 AM run: no qualifying new stories; nothing scheduled; Stirling and Vallejos still held for photos",
+      "people": [],
+      "event": "UFC Qatar",
+      "first_reported": "2026-11-22",
+      "facts": [
+        "Sweep since 10 PM: UFC Qatar fallout only — Prochazka statement after KO loss (needed stitches, vowed to improve; no retirement), Ulberg reacted to teammate Stirling's win (Bloody Elbow), CBS takeaways (Stirling emerging star, Vallejos near title shot); none is a booking, title change, injury or signing",
+        "No new UFC, PFL or ONE bookings, withdrawals or signings found; adjacent (Trial Reels off): nothing notable",
+        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new files in Gemini Images or Sketch Videos since Nov 14",
+        "Metricool queue: only the user's Do Bronx vs El Cucuy ball-battle Reel (Nov 22 3:30 PM)",
+        "Reels views (IGRE23) Nov 19-21: 188, 88, 63, 138, 150 (Ortega Reel 150); slight uptick, not a clear recovery"
+      ],
+      "sources": [
+        "https://www.telecomasia.net/news/mma/prochazka-issues-statement-following-knockout-loss-to-stirling/",
+        "https://bloodyelbow.com/2026/11/22/carlos-ulberg-reacts-to-jiri-prochazka-getting-kod-by-teammate-navajo-stirling-at-ufc-qatar/",
+        "https://www.cbssports.com/ufc/news/ufc-fight-night-qatar-results-takeaways-navajo-stirling-kevin-vallejos-brian-ortega/"
+      ],
+      "posts": []
+    },
+    {
       "id": "ufc-qatar-results",
       "title": "UFC Qatar results carousel",
       "people": [
