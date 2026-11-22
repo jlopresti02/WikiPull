@@ -2,6 +2,24 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-22-6pm",
+      "title": "Nov 22 6 PM run: no qualifying new stories; nothing scheduled; Stirling and Vallejos still held for photos",
+      "people": [],
+      "event": "UFC Qatar",
+      "first_reported": "2026-11-22",
+      "facts": [
+        "Sweep since 1 PM (UFC, PFL, ONE, bookings, injuries): no new bookings, withdrawals, title changes or signings found",
+        "Jon Jones deleted post teasing one more fight (BJ Penn): tease with no booking, doesn't qualify under major-news-only",
+        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new files in Gemini Images since Nov 12",
+        "Metricool queue: only the user's Prochazka vs Topuria ball-battle Reel (Nov 23 3:30 PM)",
+        "Reels views (IGRE23) unchanged: 150, 138, 63, 88, 188; no clear recovery"
+      ],
+      "sources": [
+        "https://www.bjpenn.com/mma-news/ufc/jon-jones-teases-one-more-fight-in-deleted-social-media-post-shares-urge-to-fck-somebody-up/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-22-pm",
       "title": "Nov 22 1 PM run: no qualifying new stories; nothing held or scheduled; Stirling and Vallejos still held for photos",
       "people": [],
