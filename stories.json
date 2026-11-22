@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-22-pm",
+      "title": "Nov 22 1 PM run: no qualifying new stories; nothing held or scheduled; Stirling and Vallejos still held for photos",
+      "people": [],
+      "event": "UFC Qatar",
+      "first_reported": "2026-11-22",
+      "facts": [
+        "Sweep since 9 AM: no new UFC, PFL or ONE bookings, withdrawals, title changes or signings; UFC Qatar fallout only (Stirling title-shot talk, Vallejos wants Volkanovski) — already in held entries, no booking",
+        "Repeats skipped: Mike Perry UFC return/Masvidal target (posted Nov 14), Makhachev out of UFC 336 (Oct 23)",
+        "Adjacent (Trial Reels off): nothing notable found",
+        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new files in Gemini Images or Sketch Videos since Nov 13",
+        "Metricool queue: only the user's Do Bronx vs El Cucuy Reel (Nov 22 3:30 PM)",
+        "Reels views (IGRE23) unchanged since 9 AM: 150, 138, 63, 88, 188; no clear recovery"
+      ],
+      "sources": [
+        "https://cagesidepress.com/2026/11/14/mike-perry-re-signs-with-the-ufc-after-five-years/",
+        "https://www.1news.co.nz/2026/11/19/stirling-on-cusp-of-ufc-title-shot-as-awkward-ulberg-situation-looms/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-22-am",
       "title": "Nov 22 9 AM run: no qualifying new stories; nothing scheduled; Stirling and Vallejos still held for photos",
       "people": [],
