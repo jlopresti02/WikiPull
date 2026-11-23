@@ -2,6 +2,24 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-22-10pm",
+      "title": "Nov 22 10 PM run: no qualifying new stories; nothing scheduled; Stirling and Vallejos still held for photos",
+      "people": [],
+      "event": "UFC Qatar",
+      "first_reported": "2026-11-22",
+      "facts": [
+        "Sweep since 6 PM (UFC, PFL, ONE, bookings, injuries): no new bookings, withdrawals, title changes or star signings",
+        "Skipped (not star under major-news-only): James Gallagher (ex-Bellator featherweight) announced MMA retirement at 30 (Yahoo/MMA Junkie)",
+        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new files in Gemini Images; both go stale after the Nov 23 runs",
+        "Metricool queue: only the user's Prochazka vs Topuria ball-battle Reel (Nov 23 3:30 PM)",
+        "Reels views (IGRE23) unchanged: 150, 138, 63, 88, 188; no clear recovery"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/james-gallagher-announces-mma-retirement-235026123.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-22-6pm",
       "title": "Nov 22 6 PM run: no qualifying new stories; nothing scheduled; Stirling and Vallejos still held for photos",
       "people": [],
