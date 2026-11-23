@@ -2,6 +2,54 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-23-am",
+      "title": "Nov 23 9 AM run: nothing scheduled (evening-only); Chikadze release held for evening; Stirling/Vallejos still held for photos",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-23",
+      "facts": [
+        "Sweep since 10 PM Nov 22 (UFC, PFL, ONE, bookings, injuries, signings): no new official bookings, title changes or star withdrawals; quiet Thanksgiving week per MMA Fighting Morning Report",
+        "Held for evening: Giga Chikadze removed from UFC roster (missed by Nov 22 runs)",
+        "Skipped (talk/no booking): Josh Hokit says vision still blurry, promises consequences for Gane (rematch talk, UFC no comment); Umar Nurmagomedov first statement since prison release; Stirling 'we'll cross that bridge' on Ulberg; Ilia Topuria reveals Aleksandre's UFC Qatar injury; Hooker on Holloway callout",
+        "Skipped (not a current star, 2 days old): Chris Leben beat Yoshihiro Akiyama by split decision at Black Combat 17 (Seoul, Nov 21), Akiyama retired (JKN); update to Oct 8 story",
+        "Skipped (not star): OKTAGON 98 Legierski hamstring tear (already noted Nov 21)",
+        "ONE/PFL: nothing qualifying; ONE Samurai 6 Dec 2 upcoming",
+        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new files in Gemini Images since Nov 10; drop after the Nov 23 runs",
+        "Metricool queue: only the user's Prochazka vs Topuria ball-battle Reel (Nov 23 3:30 PM)",
+        "Reels views (IGRE23): Nov 22 8:32 PM 57, Nov 22 12:32 AM 153, Nov 21 151; no clear recovery"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/morning-report-josh-hokit-claims-130000791.html",
+        "https://news.jkn.co.kr/editions/english/post/1113375"
+      ],
+      "posts": []
+    },
+    {
+      "id": "giga-chikadze-released-ufc",
+      "title": "Giga Chikadze removed from UFC roster after four-fight skid",
+      "people": [
+        "Giga Chikadze",
+        "William Gomis",
+        "Douglas Silva de Andrade"
+      ],
+      "event": "",
+      "first_reported": "2026-11-21",
+      "facts": [
+        "Giga Chikadze (15-7), a two-time UFC main eventer at featherweight, has been removed from the UFC roster, per the Roster Watch newsletter (reported by Bloody Elbow Nov 21, Cageside Press Nov 22, Yahoo/MMA Junkie roster cuts)",
+        "Release follows a four-fight losing skid (BoxingNews)",
+        "Also removed: William Gomis (15-4) and Douglas Silva de Andrade (29-7)",
+        "Held for evening by the Nov 23 9 AM run (major-news-only: notable release); 6 PM run to confirm facts (UFC/fighter statement?) and decide; no Chikadze photo in images/ or Drive yet, workflow would fetch Wikimedia; drop if stale"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/21/two-time-ufc-main-event-star-among-three-victims-in-the-promotions-latest-roster-purge/",
+        "https://cagesidepress.com/2026/11/22/chikadze-gomis-among-latest-fighters-gone-from-ufc/",
+        "https://sports.yahoo.com/articles/roster-cuts-main-eventer-veteran-080000872.html",
+        "https://boxingnews.com/news/ufc-releases-giga-chikadze-featherweight"
+      ],
+      "posts": [],
+      "held_for_evening": true
+    },
+    {
       "id": "misc-nov-22-10pm",
       "title": "Nov 22 10 PM run: no qualifying new stories; nothing scheduled; Stirling and Vallejos still held for photos",
       "people": [],
