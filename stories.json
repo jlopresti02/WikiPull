@@ -3,7 +3,7 @@
   "stories": [
     {
       "id": "misc-nov-23-6pm",
-      "title": "Nov 23 6 PM run: Chikadze release queued for the evening; Stirling/Vallejos still held for photos",
+      "title": "Nov 23 6 PM run: nothing scheduled; Chikadze release held for photo (no Wikimedia image); Stirling/Vallejos still held for photos",
       "people": [],
       "event": "",
       "first_reported": "2026-11-23",
@@ -11,8 +11,9 @@
         "Sweep since 1 PM (UFC, PFL, ONE, bookings, injuries, signings, boxing): UFC officially announced four UFC 336 additions (Steveson vs. Chatman, Barriault vs. Gore, Boser vs. Montanha, Leblanc vs. Cepo)",
         "Skipped (low-bar update): Steveson vs. Chatman now official; already reported Nov 13 with same opponent/date",
         "Skipped (callout, no booking): Magomed Ankalaev accepts Navajo Stirling's challenge (SI/Yahoo); no fight booked",
-        "Posted from evening hold: Giga Chikadze roster removal",
-        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new Gemini Images files; 10 PM run drops them"
+        "Chikadze Reel rendered with a silhouette (no Wikimedia photo): held for photo, not scheduled",
+        "Still held for photo: Navajo Stirling and Kevin Vallejos; no new Gemini Images files; 10 PM run drops them",
+        "Reels views (IGRE23): 57, 153, 151, 63, 88, 189 (Nov 19-22); no clear recovery"
       ],
       "sources": [
         "https://cagesidepress.com/2026/11/23/steveson-boser-barriault-among-additions-ufc-336/",
@@ -80,7 +81,8 @@
         "Release follows a four-fight losing skid (BoxingNews)",
         "Also removed: William Gomis (15-4) and Douglas Silva de Andrade (29-7)",
         "Held for evening by the Nov 23 9 AM run (major-news-only: notable release); 6 PM run to confirm facts (UFC/fighter statement?) and decide; no Chikadze photo in images/ or Drive yet, workflow would fetch Wikimedia; drop if stale",
-        "Nov 23 6 PM run: no UFC or Chikadze statement found; posted as reported by Roster Watch. Last fights per Wikipedia: L Allen (UFC 304), L Onama (Apr 2025), L Vallejos KO (Dec 2025)"
+        "Nov 23 6 PM run: no UFC or Chikadze statement found; posted as reported by Roster Watch. Last fights per Wikipedia: L Allen (UFC 304), L Onama (Apr 2025), L Vallejos KO (Dec 2025)",
+        "Held Nov 23 6 PM: no photo of Giga Chikadze (Wikimedia has no openly licensed image; render used a silhouette on the left); queue file in commit 66b51f8; not scheduled"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/11/21/two-time-ufc-main-event-star-among-three-victims-in-the-promotions-latest-roster-purge/",
@@ -89,14 +91,8 @@
         "https://boxingnews.com/news/ufc-releases-giga-chikadze-featherweight",
         "https://sports.yahoo.com/articles/giga-chikadze-among-3-ufc-041300584.html"
       ],
-      "posts": [
-        {
-          "post": "2026-11-23-1815-chikadze-released",
-          "kind": "new",
-          "format": "reel",
-          "style": "v2"
-        }
-      ]
+      "posts": [],
+      "held_for_photo": true
     },
     {
       "id": "misc-nov-22-10pm",
