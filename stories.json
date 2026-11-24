@@ -2,6 +2,24 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-24-pm",
+      "title": "Nov 24 1 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-24",
+      "people": [],
+      "facts": [
+        "Sweep since 9 AM (UFC, PFL, ONE, bookings, injuries, signings, Dana White announcements): no new items dated Nov 24 found; no official bookings, title changes, star withdrawals or major signings",
+        "Already in ledger/old: Thompson retirement (UFC 334), Mike Perry re-signing, Adesanya vs. Shara Magomedov Dec 5, Pereira vs. Pavlovich UFC 335, Tuivasa UFC Sydney report, Topuria super-card pitch, Stirling/Ankalaev callouts",
+        "Skipped (not star / old): James Gallagher retires at 30 (Nov 23)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Oliveira vs Gaethje ball-battle Reel (Nov 24 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-23): 63, 152, 157, 79, 75; no clear recovery"
+      ],
+      "sources": [
+        "https://www.yardbarker.com/mma"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-24-am",
       "title": "Nov 24 9 AM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
