@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-24-am",
+      "title": "Nov 24 9 AM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-24",
+      "people": [],
+      "facts": [
+        "Sweep since 10 PM Nov 23 (UFC, PFL, ONE, bookings, injuries, signings): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (talk/accusation, no booking): Islam Makhachev claims Merab Dvalishvili insulted a deceased Dagestani fighter's mother, defending the Nurmagomedovs over the Abu Dhabi brawl (The Body Lock, Nov 24)",
+        "Skipped (talk): ex-champ says UFC should strip Makhachev after Prates snub (Bloody Elbow); Dan Hooker wants Oliveira stripped of BMF title (Sherdog); Holland GTA-style callout of Perry; Horiguchi calls out Van/Kape",
+        "Skipped (routine booking, unranked): Tai Tuivasa reportedly set for UFC Sydney (Yardbarker listing)",
+        "Already in ledger/old: Adesanya vs. Shara Magomedov UFC Saudi Arabia; Chikadze release; Steveson vs. Chatman; Oliveira vs. Sabatini Jan 23 report (Nov 3)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Oliveira vs Gaethje ball-battle Reel (Nov 24 3:30 PM)",
+        "Reels views (Metricool, Nov 17-23): 63-223 per Reel, steady near recent levels"
+      ],
+      "sources": [
+        "https://thebodylockmma.com/ufc/news-ufc/islam-makhachev-claims-merab-dvalishvili-insulted-deceased-fighters-mother-in-heated-defense",
+        "https://bloodyelbow.com/2026/11/23/ufc-should-strip-islam-makhachev-of-welterweight-title-after-carlos-prates-snub-says-former-champion/",
+        "https://www.yardbarker.com/mma"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-23-10pm",
       "title": "Nov 23 10 PM run: no qualifying new stories; nothing scheduled; Chikadze, Stirling and Vallejos holds dropped as stale",
       "people": [],
