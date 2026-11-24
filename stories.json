@@ -2,6 +2,30 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-23-10pm",
+      "title": "Nov 23 10 PM run: no qualifying new stories; nothing scheduled; Chikadze, Stirling and Vallejos holds dropped as stale",
+      "people": [],
+      "event": "",
+      "first_reported": "2026-11-23",
+      "facts": [
+        "Sweep since 6 PM (UFC, PFL, ONE, bookings, injuries, signings, boxing): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (talk, no booking): Ilia Topuria pitches a TUF season coaching against Paddy Pimblett and jabs Conor McGregor (MMA Junkie/Yahoo)",
+        "Skipped (opinion): Jorge Masvidal says Kevin Vallejos should get the next title shot",
+        "Skipped (adjacent; Trial Reels off in reach recovery mode): Dana White names Martin Bakole as Deontay Wilder's new opponent on the Fury vs. Joshua card (Bloody Elbow, Fightful)",
+        "Skipped (already noted / not star): Steveson vs. Chatman UFC 336 additions; Tommy McMillen health story (sensitive, not a star, podcast mention only)",
+        "Dropped holds (stale, no photo): Giga Chikadze release, Navajo Stirling KO of Prochazka, Kevin Vallejos win over Sterling",
+        "Drive Gemini Images: no new files",
+        "Metricool queue: only the user's Oliveira vs Gaethje ball-battle Reel (Nov 24 3:30 PM)",
+        "Reels views (IGRE23): 189, 88, 63, 151, 153, 57 (Nov 19-22); no new Reels since; no clear recovery"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/articles/ilia-topuria-pitches-tuf-season-183048784.html",
+        "https://sports.yahoo.com/articles/jorge-masvidal-total-package-kevin-231527931.html",
+        "https://bloodyelbow.com/2026/11/23/dana-white-reveals-deontay-wilders-new-opponent-for-fight-on-fury-vs-joshua-card"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-23-6pm",
       "title": "Nov 23 6 PM run: nothing scheduled; Chikadze release held for photo (no Wikimedia image); Stirling/Vallejos still held for photos",
       "people": [],
@@ -82,7 +106,8 @@
         "Also removed: William Gomis (15-4) and Douglas Silva de Andrade (29-7)",
         "Held for evening by the Nov 23 9 AM run (major-news-only: notable release); 6 PM run to confirm facts (UFC/fighter statement?) and decide; no Chikadze photo in images/ or Drive yet, workflow would fetch Wikimedia; drop if stale",
         "Nov 23 6 PM run: no UFC or Chikadze statement found; posted as reported by Roster Watch. Last fights per Wikipedia: L Allen (UFC 304), L Onama (Apr 2025), L Vallejos KO (Dec 2025)",
-        "Held Nov 23 6 PM: no photo of Giga Chikadze (Wikimedia has no openly licensed image; render used a silhouette on the left); queue file in commit 66b51f8; not scheduled"
+        "Held Nov 23 6 PM: no photo of Giga Chikadze (Wikimedia has no openly licensed image; render used a silhouette on the left); queue file in commit 66b51f8; not scheduled",
+        "Nov 23 10 PM run: dropped as stale (2+ days old, still no photo in Gemini Images or Wikimedia)"
       ],
       "sources": [
         "https://bloodyelbow.com/2026/11/21/two-time-ufc-main-event-star-among-three-victims-in-the-promotions-latest-roster-purge/",
@@ -92,7 +117,7 @@
         "https://sports.yahoo.com/articles/giga-chikadze-among-3-ufc-041300584.html"
       ],
       "posts": [],
-      "held_for_photo": true
+      "dropped_stale": true
     },
     {
       "id": "misc-nov-22-10pm",
@@ -217,7 +242,8 @@
         "Stirling 12-0 (7-0 UFC), 4 straight KOs, 2nd straight win over ex-champ after Blachowicz (Aug)",
         "Stirling: 'I'll see who's above me'; wants UFC in New Zealand; no callout of champ Ulberg (teammates at City Kickboxing)",
         "Prochazka on 2-fight skid (lost to Ulberg at UFC 327 for vacant title)",
-        "Held Nov 21 6 PM: no photo of Navajo Stirling; original queue file in commit e8d8d37"
+        "Held Nov 21 6 PM: no photo of Navajo Stirling; original queue file in commit e8d8d37",
+        "Nov 23 10 PM run: dropped as stale (2+ days old, still no photo in Gemini Images or Wikimedia)"
       ],
       "sources": [
         "https://www.thescore.com/mma/news/3658960/ufc-qatar-prochazka-vs-stirling-results-analysis",
@@ -225,7 +251,7 @@
         "https://www.sherdog.com/news/news/UFC-Qatar-Prochazka-vs-Stirling-playbyplay-results-round-scoring-203707"
       ],
       "posts": [],
-      "held_for_photo": true
+      "dropped_stale": true
     },
     {
       "id": "ortega-retires-ufc-qatar",
@@ -269,13 +295,14 @@
         "Vallejos def. Sterling UD 30-27, 30-27, 29-28 at featherweight",
         "Vallejos 19-1, 5-0 UFC; asked for Volkanovski title shot, 'only logical option'",
         "Sterling's 2-fight win streak ended",
-        "Held Nov 21 6 PM: no photo of Kevin Vallejos (render fell back to Sterling on the left under a Vallejos take); original queue file in commit e8d8d37"
+        "Held Nov 21 6 PM: no photo of Kevin Vallejos (render fell back to Sterling on the left under a Vallejos take); original queue file in commit e8d8d37",
+        "Nov 23 10 PM run: dropped as stale (2+ days old, still no photo in Gemini Images or Wikimedia)"
       ],
       "sources": [
         "https://www.thescore.com/mma/news/3658960/ufc-qatar-prochazka-vs-stirling-results-analysis"
       ],
       "posts": [],
-      "held_for_photo": true
+      "dropped_stale": true
     },
     {
       "id": "misc-nov-21-10pm",
