@@ -2,6 +2,27 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-25-am",
+      "title": "Nov 25 9 AM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-25",
+      "people": [],
+      "facts": [
+        "Sweep since 10 PM Nov 24 (UFC, PFL, ONE, bookings, injuries, retirements/releases, signings, boxing): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (sensitive, no fight impact reported): Jean Silva asks Brazilian authorities for help after an alleged hit-and-run traffic accident (Sherdog via Yahoo, Nov 25)",
+        "Skipped (talk): Carlos Prates says the interim title isn't the 'real' championship (Sherdog); Joaquin Buckley explains beef with Dustin Poirier (MMA Mania)",
+        "Already in ledger/old: UFC 336 additions (Steveson vs. Chatman etc.), Makhachev vs. Prates UFC 336, Strickland vs. Imavov Florida report, Opetaia out vs. Wilder (Nov 17) / Bakole replacement",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Nate vs Khabib ball-battle Reel (Nov 25 3:30 PM)",
+        "Reels views (IGRE23, Nov 18-24): 223, 74, 79, 189, 89, 63, 152, 157, 80, 109, 31; no clear recovery"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/mma/articles/ufc-jean-silva-seeks-justice-020342799.html",
+        "https://www.sherdog.com/news/news/Carlos-Prates-says-UFC-interim-title-isnt-the-real-championship-203743",
+        "https://www.mmamania.com/ufc-news/488343/joaquin-buckley-explains-beef-with-rachel-dolezal-dustin-poirier-he-thinks-hes-one-of-us"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-24-10pm",
       "title": "Nov 24 10 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
