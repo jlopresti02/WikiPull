@@ -2,6 +2,24 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-25-pm",
+      "title": "Nov 25 1 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-25",
+      "people": [],
+      "facts": [
+        "Sweep since 9 AM (UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Already in ledger/old: Adesanya vs. Magomedov (Dec 5), UFC 335 Oliveira vs. Lopes / Pereira vs. Pavlovich, UFC 336 additions, Jon Jones return chatter (talk, no booking)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Nate vs Khabib ball-battle Reel (Nov 25 3:30 PM)",
+        "Reels views (IGRE23, Nov 18-25): unchanged, 31-223 per Reel; no new Reels since Nov 23; no clear recovery"
+      ],
+      "sources": [
+        "https://www.sherdog.com/news/news/list",
+        "https://www.mmamania.com/ufc-fight-announcements"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-25-am",
       "title": "Nov 25 9 AM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
