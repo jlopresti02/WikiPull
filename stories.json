@@ -2,6 +2,27 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-24-10pm",
+      "title": "Nov 24 10 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-24",
+      "people": [],
+      "facts": [
+        "Sweep since 6 PM (UFC, PFL, ONE, bookings, injuries, retirements/releases, signings, boxing): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (callout, no booking): Bobby 'King' Green calls out Dan Hooker after UFC Qatar (MMA Sucka, Heavy)",
+        "Skipped (talk/report): Joshua Van reacts to reports of a potential UFC event in India (Sherdog)",
+        "Already in ledger: UFC.com 'The 10' preview of Adesanya vs. Magomedov (Dec 5) and UFC 335 Oliveira vs. Lopes (Dec 12), no new bouts; Makhachev/interim title story (Oct)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Nate vs Khabib ball-battle Reel (Nov 25 3:30 PM)",
+        "Reels views (Metricool, Nov 18-23): 63-223 per Reel; no new Reels since Nov 23; no clear recovery"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/king-green-ready-to-give-advantage-to-dan-hooker-issues-callout-after-ufc-qatar/",
+        "https://www.sherdog.com/news/news/Joshua-Van-reacts-to-reports-of-potential-UFC-event-in-India-203719",
+        "https://www.ufc.com/news/10-exciting-doubleheader-close-out-2026"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-24-6pm",
       "title": "Nov 24 6 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
