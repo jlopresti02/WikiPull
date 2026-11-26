@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-26-6pm",
+      "title": "Nov 26 6 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-26",
+      "people": [],
+      "facts": [
+        "Sweep since 1 PM (Thanksgiving; UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (talk): Makhachev eyes middleweight; Du Plessis hints at next fight; Prates on Dana's interim-title promise (The Body Lock)",
+        "Skipped (routine booking): Michael Johnson vs. Lance Gibson Jr. at UFC 336 (MMA Sucka)",
+        "Skipped (boxing, no Trial Reels under reach recovery): Shakur Stevenson vs. Teofimo Lopez 'no Thanksgiving' trash talk (SI)",
+        "Already in ledger/old: Ulberg vs. Navajo Stirling teammate debate, UFC Vegas 125 additions, Steveson UFC 336, Christian Lee title vacated",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's DC vs Prates ball-battle Reel (Nov 27 3:30 PM)",
+        "Reels views (IGRE23, Nov 19-26): 62, 81, 109, 80, 157, 152, 63, 89, 189; no new Reels, no clear recovery"
+      ],
+      "sources": [
+        "https://thebodylockmma.com/ufc/news-ufc/islam-makhachev-eyes-middleweight-division-after-17-fight-win-streak/",
+        "https://mmasucka.com/news/ufc-336-michael-johnson-vs-lance-gibson-jr-toronto-card/",
+        "https://www.si.com/fannation/boxing/shakur-stevenson-declares-no-thanksgiving-after-teofimo-lopez-s-comments"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-26-pm",
       "title": "Nov 26 1 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
