@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-26-am",
+      "title": "Nov 26 9 AM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-26",
+      "people": [],
+      "facts": [
+        "Sweep since 10 PM Nov 25 (UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (soft feature, not major news): Diego Lopes grants a Make-A-Wish fan's dream ahead of UFC 335 vs. Oliveira (Bloody Elbow, Nov 25)",
+        "Skipped (ONE, no Trial Reels under reach recovery): ONE SAMURAI 6 full lineup announced; 9 fights added to ONE 174 Shanghai (onefc.com, Nov 25)",
+        "Skipped (boxing): Usyk vs. Verhoeven reported for May 23 in Egypt",
+        "Old/already covered: Jones vs. Pereira White House talk, Chimaev airport allegation, Makhachev out of UFC 336 / Prates",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's GSP vs Bisping ball-battle Reel (Nov 26 3:30 PM)",
+        "Reels views (IGRE23, Nov 19-25): 189, 89, 63, 152, 157, 80, 109, 81, 62; no clear recovery"
+      ],
+      "sources": [
+        "https://bloodyelbow.com/2026/11/25/diego-lopes-partners-with-make-a-wish-to-grant-fans-dream-ahead-of-charles-oliveira-title-fight/",
+        "https://www.onefc.com/news/one-samurai-6-full-lineup-announced-with-world-title-showdown-and-marquee-matchups/",
+        "https://www.onefc.com/news/9-fights-added-to-one-174-shanghai-on-december-12/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-25-10pm",
       "title": "Nov 25 10 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
