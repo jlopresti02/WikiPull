@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-26-pm",
+      "title": "Nov 26 1 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-26",
+      "people": [],
+      "facts": [
+        "Sweep since 9 AM (Thanksgiving; UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (legal story, not major news): Anthony Smith speaks after felony domestic violence charges were dismissed (MMA Mania)",
+        "Skipped (talk): Dan Hooker tells City Kickboxing critics to quiet down amid the Ulberg vs. Navajo Stirling teammate debate (MMA Mania, Yahoo)",
+        "Already in ledger/old: Jones vs. Pereira White House talk, Strickland vs. Imavov UFC 337 report, Maycee Barber out of UFC 335, Tuivasa UFC Sydney, ONE 174 Shanghai card",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's GSP vs Bisping ball-battle Reel (Nov 26 3:30 PM)",
+        "Reels views (IGRE23, Nov 19-26): 62, 81, 109, 80, 157, 152, 63, 89, 189; no new Reels, no clear recovery"
+      ],
+      "sources": [
+        "https://www.mmamania.com/latest-news/488492/former-ufc-star-anthony-smith-breaks-silence-after-felony-domestic-violence-charges-dismissed-my-silence-was-never-a-surrender",
+        "https://www.mmamania.com/ufc-news/488582/shush-dan-hooker-tells-city-kickboxing-drama-queens-to-zip-it"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-26-am",
       "title": "Nov 26 9 AM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
