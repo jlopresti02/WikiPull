@@ -2,6 +2,25 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-25-10pm",
+      "title": "Nov 25 10 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-25",
+      "people": [],
+      "facts": [
+        "Sweep since 6 PM (UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (boxing/business; no Trial Reels under reach recovery): company suing Floyd Mayweather says Mayweather vs. Ryan Garcia is blocked (Yahoo Sports)",
+        "Already in ledger/old: Hokit vs. Gane UFC 334 controversy, Prates interim-belt comments, UFC Vegas 125 additions, UFC 336 build-up (Kape, Steveson)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's GSP vs Bisping ball-battle Reel (Nov 26 3:30 PM)",
+        "Reels views (IGRE23, Nov 19-25): 31-189 per Reel; no new Reels since Nov 23; no clear recovery"
+      ],
+      "sources": [
+        "https://sports.yahoo.com/boxing/articles/floyd-mayweather-vs-ryan-garcia-220125311.html",
+        "https://www.fightmatrix.com/2026/11/25/ufc-336-is-already-boiling-over-carlos-prates-calls-interim-belt-not-a-real-title-manel-kape-wants-whats-his-and-gable-steveson-faces-a-career-test/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-25-6pm",
       "title": "Nov 25 6 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
