@@ -2,6 +2,25 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-26-10pm",
+      "title": "Nov 26 10 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-26",
+      "people": [],
+      "facts": [
+        "Sweep since 6 PM (Thanksgiving night; UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Only holiday features (UFC Fight Pass Thanksgiving binge, 'fighters we're thankful for' lists); nothing newsworthy",
+        "Already in ledger/old: UFC 335 Oliveira vs. Lopes BMF build-up, UFC 336 Prates vs. Morales interim title, Stevenson vs. Lopez trash talk",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's DC vs Prates ball-battle Reel (Nov 27 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-26): 62, 81, 109, 80, 157, 152, 63; no new Reels, no clear recovery"
+      ],
+      "sources": [
+        "https://www.si.com/fannation/mma/ufc/ufc-provides-way-binge-old-fights-during-thanksgiving-day",
+        "https://sports.yahoo.com/mma/articles/ufc-thanksgiving-weekend-164500970.html"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-26-6pm",
       "title": "Nov 26 6 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
