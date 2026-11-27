@@ -1,0 +1,64 @@
+{
+  "story_id": "nikolakakos-injury-sawada-title-postponed-one-samurai-6",
+  "headline": "Title Fight Off",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Anastasia Nikolakakos",
+      "file": "drive-anastasia-nikolakakos"
+    },
+    {
+      "type": "fighter",
+      "name": "Chihiro Sawada",
+      "file": "drive-chihiro-sawada"
+    }
+  ],
+  "color": "#0f8a5f",
+  "caption": "UPDATE: Anastasia Nikolakakos vs. Chihiro Sawada for ONE gold is off.\nRebook it or new opponent? 👇\n\nONE Championship says an injury to Nikolakakos postponed the vacant women's atomweight MMA title fight at ONE Samurai 6 in Yokohama on Dec 2. No new date yet; Wajima vs. Siasarani in kickboxing now headlines.\n\n🔥 Hot take: Sawada vs. Nikolakakos is worth the wait.\nChange my mind.",
+  "hashtags": [
+    "MMA",
+    "ONEChampionship",
+    "ONESamurai6",
+    "ChihiroSawada",
+    "AnastasiaNikolakakos"
+  ],
+  "sources": [
+    "ONE Championship",
+    "Middle Easy"
+  ],
+  "music_pool": "espn",
+  "question": "Rebook or new foe?",
+  "hot_take": "Sawada vs. Nikolakakos is *worth* the wait.",
+  "hot_tagline": "Change my mind.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "ONE · ATOMWEIGHT",
+    "kicker": "TITLE FIGHT POSTPONED",
+    "hook": "Title Fight Off",
+    "left": [
+      {
+        "name": "Anastasia Nikolakakos",
+        "file": "drive-anastasia-nikolakakos"
+      }
+    ],
+    "right": [
+      {
+        "name": "Chihiro Sawada",
+        "file": "drive-chihiro-sawada"
+      }
+    ],
+    "story": "An injury to Nikolakakos postpones her vacant ONE title fight with Sawada.",
+    "chips": [
+      "ONE SAMURAI 6",
+      "DEC 2 · YOKOHAMA",
+      "NO NEW DATE"
+    ],
+    "options": [
+      "REBOOK",
+      "NEW FOE"
+    ],
+    "question": "Rebook or new foe?"
+  }
+}
