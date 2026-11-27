@@ -1,0 +1,67 @@
+{
+  "story_id": "garbrandt-ufc-cleveland-farewell-fight",
+  "headline": "Last Dance",
+  "visual": [
+    {
+      "type": "fighter",
+      "name": "Cody Garbrandt"
+    },
+    {
+      "type": "fighter",
+      "name": "TJ Dillashaw"
+    },
+    {
+      "type": "fighter",
+      "name": "T.J. Dillashaw"
+    }
+  ],
+  "color": "#d2202f",
+  "caption": "Former UFC champ Cody Garbrandt says his next fight will be his last.\nFarewell win or not? 👇\n\nGarbrandt told MMA Junkie he's targeting the UFC's February card in Cleveland as his farewell, with one fight left on his deal and no opponent named yet. The Ohio native took the bantamweight title from Dominick Cruz at UFC 207 in 2016.\n\n🔥 Hot take: Peak Garbrandt beating Cruz is still one of bantamweight's best nights.\nDisagree? Tell me why you're wrong.",
+  "hashtags": [
+    "MMANews",
+    "UFC",
+    "UFCCleveland",
+    "CodyGarbrandt",
+    "Bantamweight"
+  ],
+  "sources": [
+    "MMA Junkie",
+    "MMA Mania",
+    "LowKickMMA"
+  ],
+  "music_pool": "espn",
+  "question": "Farewell win?",
+  "hot_take": "Peak No Love was *elite* at bantamweight.",
+  "follow_card": true,
+  "reel": true,
+  "format": "v2",
+  "v2": {
+    "tag": "UFC · BANTAMWEIGHT",
+    "kicker": "FAREWELL FIGHT",
+    "hook": "No Love's Last",
+    "left": [
+      {
+        "name": "Cody Garbrandt"
+      }
+    ],
+    "right": [
+      {
+        "name": "TJ Dillashaw"
+      },
+      {
+        "name": "T.J. Dillashaw"
+      }
+    ],
+    "story": "Ex-champ Cody Garbrandt plans to retire after a UFC Cleveland fight in February.",
+    "chips": [
+      "EX-UFC CHAMP",
+      "UFC CLEVELAND · FEB",
+      "NO OPPONENT YET"
+    ],
+    "options": [
+      "WIN",
+      "LOSE"
+    ],
+    "question": "Farewell win?"
+  }
+}

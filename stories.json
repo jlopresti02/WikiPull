@@ -2,6 +2,54 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "garbrandt-ufc-cleveland-farewell-fight",
+      "title": "Cody Garbrandt says his next fight, targeted for UFC Cleveland in February 2027, will be his UFC farewell",
+      "people": [
+        "Cody Garbrandt"
+      ],
+      "event": "UFC Fight Night Cleveland (Feb 2027)",
+      "first_reported": "2026-11-27",
+      "facts": [
+        "Garbrandt told MMA Junkie (Mike Bohn interview, Nov 27) the February Cleveland card looks like 'my farewell from the UFC'",
+        "One fight left on his UFC contract; no opponent yet; not official",
+        "Former UFC bantamweight champion (beat Dominick Cruz at UFC 207, Dec 2016); Ohio native",
+        "Separate from garbrandt-books-match-different-sport (Oct 17, not posted)"
+      ],
+      "sources": [
+        "https://www.lowkickmma.com/cody-garbrandt-retire-ufc-cleveland-2027/",
+        "https://www.mmamania.com/ufc-news/488780/former-ufc-champ-announces-farewell-fight-feb-13-cleveland",
+        "https://www.bjpenn.com/mma-news/ufc/cody-garbrandts-next-fight-at-ufc-cleveland-will-likely-be-his-last-i-had-a-great-career/"
+      ],
+      "posts": [
+        {
+          "post": "2026-11-27-1815-garbrandt-last-dance",
+          "kind": "new",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
+    },
+    {
+      "id": "misc-nov-27-6pm",
+      "title": "Nov 27 6 PM run: 2 Reels (Garbrandt farewell fight, Nikolakakos/Sawada title fight off)",
+      "event": null,
+      "first_reported": "2026-11-27",
+      "people": [],
+      "facts": [
+        "Sweep since 1 PM Nov 27 (UFC, PFL, ONE, bookings, injuries, signings, boxing/adjacent)",
+        "New: Cody Garbrandt farewell fight plan (ex-champion retiring)",
+        "Posted held story: Nikolakakos/Sawada title fight postponed",
+        "Skipped (talk): Du Plessis 'big news soon' (same thread as earlier runs)",
+        "Skipped (boxing; no Trial Reels under reach recovery): Brian Mendoza replaces injured Keith Thurman vs. Vergil Ortiz Jr. (Dec 5)",
+        "Still held: Nickal vs. Pyfer (no Joe Pyfer photo)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Strickland vs Holloway ball-battle Reel (Nov 28 3:30 PM)"
+      ],
+      "sources": [
+        "https://middleeasy.com/boxing/brian-mendoza-replaces-keith-thurman-vergil-ortiz-december5/"
+      ],
+      "posts": []
+    },
+    {
       "id": "nikolakakos-injury-sawada-title-postponed-one-samurai-6",
       "title": "Nikolakakos injury postpones vacant ONE atomweight title fight vs. Chihiro Sawada at ONE Samurai 6",
       "people": [
@@ -14,13 +62,20 @@
         "ONE Championship announced Nov 27 that an injury Nikolakakos suffered two days earlier forces the postponement of her vacant women's atomweight MMA world title fight with Chihiro Sawada",
         "No diagnosis or new date given; ONE Samurai 6 (Dec 2, Yokohama) goes ahead with Hiromi Wajima vs. Mohammad Siasarani (kickboxing) moved into the main event",
         "Update to sawada-vs-nikolakakos-one-samurai-6-atomweight-title (posted Oct 14); genuine new fact: the title fight is off the card",
-        "Held for evening by the Nov 27 1 PM run (reach recovery: evening slots only). Regular Reel, v2 format; Drive photos exist: drive-anastasia-nikolakakos, drive-chihiro-sawada. Injury undisclosed, not a hard-news/serious-format story; keep the tone plain"
+        "Held for evening by the Nov 27 1 PM run (reach recovery: evening slots only). Regular Reel, v2 format; Drive photos exist: drive-anastasia-nikolakakos, drive-chihiro-sawada. Injury undisclosed, not a hard-news/serious-format story; keep the tone plain",
+        "Nov 27 6 PM run: posted as an update Reel (v2)"
       ],
       "sources": [
         "https://middleeasy.com/mma-news/anastasia-nikolakakos-injury-one-samurai-6-title-fight-postponed/"
       ],
-      "held_for_evening": true,
-      "posts": []
+      "posts": [
+        {
+          "post": "2026-11-27-1815-sawada-title-off",
+          "kind": "update",
+          "format": "reel",
+          "style": "v2"
+        }
+      ]
     },
     {
       "id": "misc-nov-27-pm",
