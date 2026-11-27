@@ -1,20 +1,34 @@
-Searching Wikimedia Commons for: Giga Chikadze
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
-Searching Wikimedia Commons for: Giga Chikadze
-  No file names matched; falling back to looser results.
-  No file names matched; falling back to looser results.
-  No openly licensed images found.
-Done: 0 image(s) saved.
+Searching Wikimedia Commons for: Cody Garbrandt
+  saved images/cody-garbrandt/01-cody-garbrandt-talks-crazy-wild-rollercoaster-leading-to-ufc.jpg  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-11-27 23:06:26.003559090 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/cody-garbrandt/cutouts/01-cody-garbrandt-talks-crazy-wild-rollercoaster-leading-to-ufc.png
+Done: 1 new cutout(s).
+Searching Wikimedia Commons for: TJ Dillashaw
+  saved images/tj-dillashaw/01-tj-dillashaw.png  [CC BY 3.0]
+Done: 1 image(s) saved.
+[0;93m2026-11-27 23:07:20.357901734 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
+Using background-removal model: birefnet-portrait
+  cutout images/tj-dillashaw/cutouts/01-tj-dillashaw.png
+Done: 1 new cutout(s).
 
-== 2026-11-23-1815-chikadze-released.json
-$ fetch.py Giga Chikadze --count 5
-Image: {'type': 'fighter', 'name': 'Arnold Allen', 'file': 'drive-arnold-allen-2'} -> fighter images/arnold-allen/cutouts/drive-arnold-allen-2.png  headline: Cut Loose
-$ fetch.py Giga Chikadze --count 5
-v2 left: silhouette
-v2 right: images/arnold-allen/cutouts/drive-arnold-allen-2.png
-Music: music/action-sport/02-jet-peks-vs-nick-tremo-feat-son-of-the-sun-beat-to.mp3 from 156.25s
-Rendered posts/2026-11-23-1815-chikadze-released/post.png (fighter)
-Rendered posts/2026-11-23-1815-chikadze-released/reel.mp4 (format v2)
+== 2026-11-27-1815-garbrandt-last-dance.json
+$ fetch.py Cody Garbrandt --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/cody-garbrandt
+Image: {'type': 'fighter', 'name': 'Cody Garbrandt'} -> fighter images/cody-garbrandt/cutouts/01-cody-garbrandt-talks-crazy-wild-rollercoaster-leading-to-ufc.png  headline: Last Dance
+v2 left: images/cody-garbrandt/cutouts/01-cody-garbrandt-talks-crazy-wild-rollercoaster-leading-to-ufc.png
+$ fetch.py TJ Dillashaw --count 5
+$ cutout.py /home/runner/work/WikiPull/WikiPull/images/tj-dillashaw
+v2 right: images/tj-dillashaw/cutouts/01-tj-dillashaw.png
+Music: music/action-sport/03-acrobat.mp3 from 158.75s
+Rendered posts/2026-11-27-1815-garbrandt-last-dance/post.png (fighter)
+Rendered posts/2026-11-27-1815-garbrandt-last-dance/reel.mp4 (format v2)
+
+== 2026-11-27-1815-sawada-title-off.json
+Image: {'type': 'fighter', 'name': 'Anastasia Nikolakakos', 'file': 'drive-anastasia-nikolakakos'} -> fighter images/anastasia-nikolakakos/cutouts/drive-anastasia-nikolakakos.png  headline: Title Fight Off
+v2 left: images/anastasia-nikolakakos/cutouts/drive-anastasia-nikolakakos.png
+v2 right: images/chihiro-sawada/cutouts/drive-chihiro-sawada.png
+Music: music/sports/01-sport-is-cool.mp3 from 160.5s
+Rendered posts/2026-11-27-1815-sawada-title-off/post.png (fighter)
+Rendered posts/2026-11-27-1815-sawada-title-off/reel.mp4 (format v2)

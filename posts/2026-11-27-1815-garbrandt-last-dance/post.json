@@ -62,6 +62,24 @@
       "WIN",
       "LOSE"
     ],
-    "question": "Farewell win?"
-  }
+    "question": "Farewell win?",
+    "left_subject": {
+      "kind": "fighter",
+      "image": "images/cody-garbrandt/cutouts/01-cody-garbrandt-talks-crazy-wild-rollercoaster-leading-to-ufc.png",
+      "credit": "MMAnytt / CC BY 3.0"
+    },
+    "right_subject": {
+      "kind": "fighter",
+      "image": "images/tj-dillashaw/cutouts/01-tj-dillashaw.png",
+      "credit": "K.O. Artist Sports / CC BY 3.0"
+    }
+  },
+  "subject": {
+    "kind": "fighter",
+    "image": "images/cody-garbrandt/cutouts/01-cody-garbrandt-talks-crazy-wild-rollercoaster-leading-to-ufc.png",
+    "credit": "MMAnytt / CC BY 3.0"
+  },
+  "music": "music/action-sport/03-acrobat.mp3",
+  "music_credit": "\"Acrobat\" by Howard M. Branson / CC BY-SA 3.0",
+  "music_start": 158.75
 }
