@@ -25,7 +25,10 @@
           "post": "2026-11-27-1815-garbrandt-last-dance",
           "kind": "new",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-27T19:00:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=-7078636467082998070",
+          "image": "v2: Cody Garbrandt (Wikimedia) vs TJ Dillashaw (Wikimedia)"
         }
       ]
     },
@@ -42,7 +45,8 @@
         "Skipped (talk): Du Plessis 'big news soon' (same thread as earlier runs)",
         "Skipped (boxing; no Trial Reels under reach recovery): Brian Mendoza replaces injured Keith Thurman vs. Vergil Ortiz Jr. (Dec 5)",
         "Still held: Nickal vs. Pyfer (no Joe Pyfer photo)",
-        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Strickland vs Holloway ball-battle Reel (Nov 28 3:30 PM)"
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Strickland vs Holloway ball-battle Reel (Nov 28 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-27) unchanged: 185, 80, 82, 109, 80, 157, 152, 63; no new Reels since; no clear recovery"
       ],
       "sources": [
         "https://middleeasy.com/boxing/brian-mendoza-replaces-keith-thurman-vergil-ortiz-december5/"
@@ -73,7 +77,10 @@
           "post": "2026-11-27-1815-sawada-title-off",
           "kind": "update",
           "format": "reel",
-          "style": "v2"
+          "style": "v2",
+          "scheduled_for": "2026-11-27T19:30:00-05:00",
+          "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7159326&openWithPostUuid=3193846960757361081",
+          "image": "v2: Nikolakakos (drive) vs Sawada (drive)"
         }
       ]
     },
