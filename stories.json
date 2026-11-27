@@ -2,6 +2,27 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-27-am",
+      "title": "Nov 27 9 AM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-27",
+      "people": [],
+      "facts": [
+        "Sweep since 10 PM Nov 26 (Black Friday; UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings; no UFC event this weekend",
+        "Skipped (talk, no opponent named): Dricus du Plessis says he has verbally agreed his next fight, not signed, targeting February 2027 (MMA Sucka, Nov 26, from a Fight Forecast interview)",
+        "Skipped (routine booking): RJ Harris vs. Javad Mahjoub reportedly set for UFC 336 (Middle Easy)",
+        "Already in ledger/old: Topuria super-card pitch with McGregor, Thanksgiving features, UFC 335/336 build-up",
+        "Still held: Nickal vs. Pyfer (no Joe Pyfer photo in Drive)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's DC vs Prates ball-battle Reel (Nov 27 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-27): 185, 80, 82, 109, 80, 157, 152, 63; no new Reels, no clear recovery"
+      ],
+      "sources": [
+        "https://mmasucka.com/news/dricus-du-plessis-announces-verbal-agreement-on-new-ufc-deal-its-not-signed-but-ive-confirmed/",
+        "https://middleeasy.com/mma-news/rj-harris-javad-mahjoub-ufc336-toronto/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-26-10pm",
       "title": "Nov 26 10 PM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
