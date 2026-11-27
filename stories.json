@@ -2,6 +2,48 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "nikolakakos-injury-sawada-title-postponed-one-samurai-6",
+      "title": "Nikolakakos injury postpones vacant ONE atomweight title fight vs. Chihiro Sawada at ONE Samurai 6",
+      "people": [
+        "Anastasia Nikolakakos",
+        "Chihiro Sawada"
+      ],
+      "event": "ONE Samurai 6 (Dec 2, Yokohama)",
+      "first_reported": "2026-11-27",
+      "facts": [
+        "ONE Championship announced Nov 27 that an injury Nikolakakos suffered two days earlier forces the postponement of her vacant women's atomweight MMA world title fight with Chihiro Sawada",
+        "No diagnosis or new date given; ONE Samurai 6 (Dec 2, Yokohama) goes ahead with Hiromi Wajima vs. Mohammad Siasarani (kickboxing) moved into the main event",
+        "Update to sawada-vs-nikolakakos-one-samurai-6-atomweight-title (posted Oct 14); genuine new fact: the title fight is off the card",
+        "Held for evening by the Nov 27 1 PM run (reach recovery: evening slots only). Regular Reel, v2 format; Drive photos exist: drive-anastasia-nikolakakos, drive-chihiro-sawada. Injury undisclosed, not a hard-news/serious-format story; keep the tone plain"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/anastasia-nikolakakos-injury-one-samurai-6-title-fight-postponed/"
+      ],
+      "held_for_evening": true,
+      "posts": []
+    },
+    {
+      "id": "misc-nov-27-pm",
+      "title": "Nov 27 1 PM run: 1 story held for evening (Nikolakakos/Sawada ONE title fight postponed); nothing scheduled",
+      "event": null,
+      "first_reported": "2026-11-27",
+      "people": [],
+      "facts": [
+        "Sweep since 9 AM Nov 27 (UFC, PFL, ONE, bookings, injuries, signings, boxing/adjacent)",
+        "Held for evening: nikolakakos-injury-sawada-title-postponed-one-samurai-6 (title fight falling apart; official ONE announcement)",
+        "Skipped (talk, no opponent named): Dricus du Plessis says UFC declined his Chimaev rematch request, February 2027 return (MMA Insight, Nov 27); same thread as misc-nov-27-am",
+        "Already in ledger/old: Strickland pay dispute, UFC 336 Steveson additions, Tuivasa UFC Sydney, Christian Lee vs. Tye Ruotolo (Nov 6)",
+        "Still held: Nickal vs. Pyfer (no Joe Pyfer photo in Drive)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's DC vs Prates ball-battle Reel (Nov 27 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-27) unchanged: 185, 80, 82, 109, 80, 157, 152, 63; no clear recovery"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/anastasia-nikolakakos-injury-one-samurai-6-title-fight-postponed/",
+        "https://mmainsight.com/news/dricus-du-plessis-says-ufc-turned-down-khamzat-chimaev-rematch"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-27-am",
       "title": "Nov 27 9 AM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
