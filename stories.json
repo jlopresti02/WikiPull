@@ -2,6 +2,26 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-28-am",
+      "title": "Nov 28 9 AM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-28",
+      "people": [],
+      "facts": [
+        "Sweep since 10 PM Nov 27 (UFC, PFL, ONE, bookings, injuries, releases, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings; no UFC event tonight (Adesanya vs. Magomedov is Dec 5)",
+        "Skipped (talk, no booking): Dan Hooker says CKB teammates Carlos Ulberg and Navajo Stirling should fight for the 205 lb title (Heavy, via Helwani, Nov 27 10:13 PM)",
+        "Already in ledger/old: Pereira retirement talk (Oct 22) and Adesanya comments (Nov 18); Norma Dumont exit (Nov 10); Fury-Joshua off / Fury BKB tease (boxing, Trial Reels off)",
+        "Still held: Nickal vs. Pyfer (no Joe Pyfer photo in Drive)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Strickland vs Holloway ball-battle Reel (Nov 28 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-28, newest first): 117, 124, 46, 215, 83, 83, 110, 81, 158, 154, 64; flat, no clear recovery",
+        "Day count Nov 28: 0 automated news posts"
+      ],
+      "sources": [
+        "https://heavy.com/sports/ufc/ckb-teammate-carlos-ulberg-navajo-stirling"
+      ],
+      "posts": []
+    },
+    {
       "id": "garbrandt-ufc-cleveland-farewell-fight",
       "title": "Cody Garbrandt says his next fight, targeted for UFC Cleveland in February 2027, will be his UFC farewell",
       "people": [
