@@ -2,6 +2,28 @@
   "about": "Ledger of every story WWIT MMA News has posted. The hourly run reads this before posting, so the same story is never posted twice unless there is a real update. Newest stories first.",
   "stories": [
     {
+      "id": "misc-nov-28-pm",
+      "title": "Nov 28 1 PM run: no qualifying new stories; nothing held or scheduled",
+      "event": null,
+      "first_reported": "2026-11-28",
+      "people": [],
+      "facts": [
+        "Sweep since 9 AM Nov 28 (UFC, PFL, ONE, bookings, injuries, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (regional/minor): Will Fleury vs. Daniel Skvor rematch at OKTAGON 100 (Middle Easy)",
+        "Skipped (talk): Nick Maximov still wants a UFC return (Middle Easy)",
+        "Already in ledger/old: Adesanya vs. Magomedov / Garry vs. Amosov (Dec 5 Riyadh); Dana on Middle East safety (October); Helwani McGregor theory (Nov 26)",
+        "Still held: Nickal vs. Pyfer (no Joe Pyfer photo in Drive)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Strickland vs Holloway ball-battle Reel (Nov 28 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-28) unchanged: 117, 124, 46, 215, 83, 83, 110, 81, 158, 154, 64; no clear recovery",
+        "Day count Nov 28: 0 automated news posts"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/will-fleury-daniel-skvor-rematch-oktagon100-prague/",
+        "https://middleeasy.com/mma-news/nick-maximov-ufc-return-seven-wins-contract/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-28-am",
       "title": "Nov 28 9 AM run: no qualifying new stories; nothing held or scheduled",
       "event": null,
