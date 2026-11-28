@@ -33,6 +33,32 @@
       ]
     },
     {
+      "id": "misc-nov-27-10pm",
+      "title": "Nov 27 10 PM run: no qualifying new stories; nothing scheduled",
+      "event": null,
+      "first_reported": "2026-11-27",
+      "people": [],
+      "facts": [
+        "Sweep since 6 PM Nov 27 (UFC, PFL, ONE, bookings, injuries, signings, boxing/adjacent): no new official bookings, title changes, star withdrawals or major signings",
+        "Skipped (talk): Ali Abdelaziz answers Tyron Woodley's Makhachev criticism (Middle Easy)",
+        "Skipped (tribute, not major news): Korean Zombie mourns coach Eddie Cha (Middle Easy)",
+        "Skipped (adjacent; Trial Reels off): Tyson Fury cleared to fight Anthony Joshua after medical checks (Middle Easy)",
+        "Skipped (routine, Trial Reels off): Tom Keogh earns ONE contract after fourth straight KO; ONE Friday Fights 180 results",
+        "Already in ledger/old: RJ Harris vs. Javad Mahjoub UFC 336; Aspinall vacating (pre-UFC 334)",
+        "Day count Nov 27: 2 automated news Reels (Garbrandt 7:00 PM, Sawada 7:30 PM), under the 4 cap",
+        "Still held: Nickal vs. Pyfer (no Joe Pyfer photo in Drive)",
+        "No new files in Gemini Images or Sketch Videos; Metricool waiting: only the user's Strickland vs Holloway ball-battle Reel (Nov 28 3:30 PM)",
+        "Reels views (IGRE23, Nov 20-27) unchanged: 185, 80, 82, 109, 80, 157, 152, 63; tonight's two Reels not in analytics yet; no clear recovery"
+      ],
+      "sources": [
+        "https://middleeasy.com/mma-news/ali-abdelaziz-tyron-woodley-islam-makhachev-response/",
+        "https://middleeasy.com/mma-news/korean-zombie-eddie-cha-personal-tribute/",
+        "https://middleeasy.com/boxing/tyson-fury-cleared-anthony-joshua-medical-checks/",
+        "https://middleeasy.com/muay-thai/tom-keogh-100000-one-contract-fourth-knockout/"
+      ],
+      "posts": []
+    },
+    {
       "id": "misc-nov-27-6pm",
       "title": "Nov 27 6 PM run: 2 Reels (Garbrandt farewell fight, Nikolakakos/Sawada title fight off)",
       "event": null,
